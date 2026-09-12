@@ -1,16 +1,44 @@
-# Génération des EPUB
+# Scripts
 
-## Lancer à la main
+Deux scripts, tous deux en Python standard : aucune dépendance à installer.
 
-Depuis la racine du dépôt, avec Python 3.8 ou plus récent :
+---
+
+## Icônes de l'application
+
+```bash
+python3 scripts/generer_icones.py
+```
+
+Produit trois fichiers dans `docs/` :
+
+| Fichier | Taille | Usage |
+|---|---|---|
+| `icone-192.png` | 192 px | manifeste, favicon |
+| `icone-512.png` | 512 px | manifeste, écran de démarrage, icône adaptative |
+| `apple-touch-icon.png` | 180 px | écran d'accueil iOS |
+
+Motif : fond nuit, filet laiton, croissant de lune — repris de la couverture
+de *La Part de Lune* et du filet qui encadre les cinq couvertures.
+
+L'encodeur PNG est écrit à la main (`zlib` + `struct`). Pour modifier le
+dessin, la fonction `dessiner()` décrit la composition en coordonnées
+relatives à la taille : elle fonctionne donc à n'importe quelle résolution.
+
+**Ces fichiers doivent être présents dans `docs/` pour que l'installation sur
+l'écran d'accueil fonctionne.** Sans eux, le manifeste référence des images
+absentes et le navigateur refuse la proposition d'installation.
+
+---
+
+## Fichiers EPUB
 
 ```bash
 python3 scripts/generer_epub.py
 ```
 
 Les fichiers sont écrits dans `docs/epub/` — un `.epub` par livre ayant au
-moins un chapitre. Aucune dépendance à installer : le script n'utilise que la
-bibliothèque standard (`json`, `zipfile`, `html`).
+moins un chapitre.
 
 Sortie attendue à ce jour :
 
@@ -23,7 +51,7 @@ Sortie attendue à ce jour :
 
 *La Part de Lune* est ignoré tant qu'aucun chapitre n'est publié.
 
-## Ajouter un livre
+### Ajouter un livre
 
 Compléter le dictionnaire `LIVRES` en tête de `scripts/generer_epub.py` :
 
@@ -33,6 +61,8 @@ Compléter le dictionnaire `LIVRES` en tête de `scripts/generer_epub.py` :
     "sources": [("data-lune.js", "DATA_LUNE")],
 },
 ```
+
+---
 
 ## Automatiser la régénération
 
@@ -57,3 +87,14 @@ Une fois en place, l'action se déclenche sur toute modification d'un fichier
 de données et peut aussi être lancée manuellement depuis l'onglet **Actions**.
 Elle vérifie chaque archive produite (mimetype conforme, XML bien formé,
 archive intègre) avant de la publier.
+
+---
+
+## Nom de domaine
+
+Le domaine `entrelespages.fr` n'est pas encore acheté. La marche à suivre est
+détaillée dans l'issue #12. Point important : **ne pas créer `docs/CNAME`
+avant que les enregistrements DNS soient en place**. GitHub Pages cesserait
+aussitôt de servir le site sur `cordelia013.github.io`, sans que le nouveau
+domaine ne réponde encore : la bibliothèque serait inaccessible pendant toute
+la durée de la propagation.
