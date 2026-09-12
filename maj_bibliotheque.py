@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Régénère les données de bibliotheque.html à partir des dossiers chapitres/<id>/.
-Ne crée jamais de nouveau fichier : met à jour bibliotheque.html en place."""
+"""Régénère la bibliothèque à partir des dossiers chapitres/<id>/.
+Ne crée jamais de nouveau fichier de liseuse : met à jour docs/index.html (couvertures)
+et docs/books.js (texte des livres) en place."""
 import re, json, glob, os
 
 HTML = "docs/index.html"
+JS = "docs/books.js"
 
 CATALOGUE = [
  {"id":"castellano","titre":"Le Prix du Silence, Don Castellano","auteur":"Écrit avec Claude",
@@ -48,16 +50,18 @@ for b in CATALOGUE:
     if chemin and os.path.exists(chemin):
         svg = open(chemin, encoding="utf-8").read()
         svg = re.sub(r'<\?xml.*?\?>', '', svg).strip()
+        svg = re.sub(r'<metadata>.*?</metadata>', '', svg, flags=re.S)
+        svg = svg.replace(' xmlns:c2pa="http://c2pa.org/manifest"', '')
         templates.append(f'<template class="couv" data-livre="{b["id"]}">{svg}</template>')
         b["couv"] = True
     livres.append(b)
 
+# Texte des livres : fichier séparé, chargé par index.html via <script src="books.js">
 js = "const BOOKS = " + json.dumps(livres, ensure_ascii=False) + ";"
+open(JS, "w", encoding="utf-8").write(js + "\n")
+
+# Couvertures : mises à jour en place dans index.html
 html = open(HTML, encoding="utf-8").read()
-# re.sub avec une chaîne de remplacement traite \1, \g<...>, etc. comme des
-# références de groupe : une fonction de remplacement évite ce piège quand
-# js contient des antislashes (cas des couvertures SVG multi-lignes).
-html = re.sub(r'const BOOKS = \[.*?\}\];', lambda m: js, html, flags=re.S)
 bloc = '<div id="couvertures" hidden>' + "".join(templates) + '</div>'
 html = re.sub(r'<div id="couvertures" hidden>.*?</div>\s*(?=<script>)',
               lambda m: bloc + "\n", html, flags=re.S)
