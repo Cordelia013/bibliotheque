@@ -24,11 +24,12 @@
   .view { display: none; } .view.on { display: block; }
 
   .bar { position: sticky; top: 0; z-index: 40; background: var(--paper);
-    border-bottom: 1px solid var(--rule); display: flex; align-items: center; gap: 10px; padding: 12px 18px; }
+    border-bottom: 1px solid var(--rule); display: flex; align-items: center; gap: 10px; padding: 12px 18px;
+    padding-top: max(12px, env(safe-area-inset-top)); }
   .bar .title { font-family: 'Cormorant Garamond', serif; font-size: 17px; flex: 1;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .icon { background: none; border: 1px solid var(--rule); color: var(--ink); width: 36px; height: 36px;
-    border-radius: 2px; cursor: pointer; font-size: 15px; display: grid; place-items: center;
+  .icon { background: none; border: 1px solid var(--rule); color: var(--ink); width: 40px; height: 40px;
+    border-radius: 2px; cursor: pointer; font-size: 16px; display: grid; place-items: center;
     font-family: inherit; transition: border-color .15s, background .15s; flex: none; }
   .icon:hover { border-color: var(--brass); }
   .icon.on { background: var(--accent); border-color: var(--accent); color: #f0ece4; }
@@ -42,14 +43,14 @@
     font-weight: 600; margin: 44px 0 4px; letter-spacing: -.01em; }
   .libsub { color: var(--muted); font-size: 13px; letter-spacing: .04em; margin-bottom: 26px; }
   .search { width: 100%; padding: 13px 15px; background: var(--paper-deep); border: 1px solid var(--rule);
-    color: var(--ink); font-family: inherit; font-size: 15px; border-radius: 2px; }
+    color: var(--ink); font-family: inherit; font-size: 16px; border-radius: 2px; }
   .search::placeholder { color: var(--muted); }
   .chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0 30px; }
-  .chip { padding: 6px 13px; border: 1px solid var(--rule); background: none; color: var(--muted);
+  .chip { padding: 7px 13px; border: 1px solid var(--rule); background: none; color: var(--muted);
     font-family: inherit; font-size: 12px; letter-spacing: .04em; border-radius: 20px; cursor: pointer; }
   .chip.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap: 26px 18px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px,1fr)); gap: 22px 14px; }
   .card { background: none; border: none; padding: 0; cursor: pointer; text-align: left; color: var(--ink); font-family: inherit; }
   .cover { aspect-ratio: 2/3; border-radius: 2px; padding: 20px 16px; display: flex; flex-direction: column;
     justify-content: space-between; color: #f2ede3; position: relative; overflow: hidden;
@@ -81,9 +82,9 @@
   .gbar { height: 4px; background: var(--rule); margin-top: 16px; }
   .gbar i { display: block; height: 100%; background: var(--accent); transition: width .3s; }
   .primary { width: 100%; padding: 16px; background: var(--accent); border: none; color: #f2ede3;
-    font-family: inherit; font-size: 14px; letter-spacing: .06em; cursor: pointer; border-radius: 2px; }
+    font-family: inherit; font-size: 15px; letter-spacing: .06em; cursor: pointer; border-radius: 2px; }
   .ghost { width: 100%; padding: 14px; background: none; border: 1px solid var(--rule); color: var(--ink);
-    font-family: inherit; font-size: 13px; letter-spacing: .05em; cursor: pointer; border-radius: 2px; margin-top: 10px; }
+    font-family: inherit; font-size: 14px; letter-spacing: .05em; cursor: pointer; border-radius: 2px; margin-top: 10px; }
 
   /* LECTURE */
   .chapnum { font-weight: 300; font-size: 12px; letter-spacing: .22em; color: var(--muted); margin: 58px 0 10px; }
@@ -106,37 +107,48 @@
   .scrim.open { opacity: 1; pointer-events: auto; }
   .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(370px,88vw); background: var(--paper-deep);
     z-index: 51; overflow-y: auto; transform: translateX(100%); transition: transform .24s cubic-bezier(.4,0,.2,1);
-    border-left: 1px solid var(--rule); padding: 22px 20px 60px; }
+    border-left: 1px solid var(--rule); padding: 22px 20px 60px;
+    padding-top: max(22px, env(safe-area-inset-top)); padding-bottom: max(60px, env(safe-area-inset-bottom)); }
   .drawer.open { transform: none; }
   .dhead { font-family: 'Cormorant Garamond', serif; font-size: 21px; margin: 0 0 4px;
     display: flex; justify-content: space-between; align-items: center; gap: 10px; }
   .tabs { display: flex; gap: 8px; margin: 16px 0 18px; }
-  .tab { flex: 1; padding: 9px; background: none; border: 1px solid var(--rule); color: var(--muted);
+  .tab { flex: 1; padding: 10px; background: none; border: 1px solid var(--rule); color: var(--muted);
     font-family: inherit; font-size: 12px; letter-spacing: .05em; cursor: pointer; border-radius: 2px; }
   .tab.on { color: var(--ink); border-color: var(--ink); }
   .chapline { display: block; width: 100%; text-align: left; background: none; border: none;
-    border-bottom: 1px solid var(--rule); padding: 13px 0; color: var(--ink);
+    border-bottom: 1px solid var(--rule); padding: 14px 0; color: var(--ink);
     font-family: 'Cormorant Garamond', serif; font-size: 17px; cursor: pointer; position: relative; }
   .chapline em { font-style: normal; color: var(--muted); font-family: 'Jost'; font-size: 11px;
     letter-spacing: .13em; display: block; margin-bottom: 3px; }
   .chapline.current { color: var(--accent); }
   .chapline.current::before { content: '▸'; position: absolute; left: -14px; }
   .bmrow { display: block; width: 100%; text-align: left; background: none; border: none;
-    border-bottom: 1px solid var(--rule); padding: 13px 0; color: var(--ink);
+    border-bottom: 1px solid var(--rule); padding: 14px 0; color: var(--ink);
     font-family: 'Cormorant Garamond', serif; font-size: 16px; cursor: pointer; line-height: 1.5; }
   .bmrow small { font-family: 'Jost'; font-size: 11px; letter-spacing: .09em; color: var(--muted); display: block; margin-bottom: 4px; }
   .bmrow span { color: var(--muted); font-style: italic; font-size: 15px; }
-  .del { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 11px;
-    font-family: 'Jost'; letter-spacing: .07em; padding: 4px 0 0; }
+  .del { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 12px;
+    font-family: 'Jost'; letter-spacing: .07em; padding: 6px 0; }
   .del:hover { color: var(--accent); }
   .empty { color: var(--muted); font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; padding: 22px 0; }
   .note { font-size: 11px; color: var(--muted); margin-top: 26px; line-height: 1.6; }
-  .toast { position: fixed; bottom: 24px; left: 50%; transform: translate(-50%,20px); background: var(--ink);
+  .toast { position: fixed; bottom: max(24px, env(safe-area-inset-bottom)); left: 50%; transform: translate(-50%,20px); background: var(--ink);
     color: var(--paper); padding: 11px 20px; font-size: 13px; border-radius: 2px; z-index: 60;
     opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; }
   .toast.show { opacity: 1; transform: translate(-50%,0); }
   @media (prefers-reduced-motion: reduce) { #app * { transition: none !important; } }
-  @media (max-width: 520px) { .body p { font-size: 18.5px; } }
+  @media (max-width: 520px) {
+    .wrap { padding: 0 16px 120px; }
+    .body p { font-size: 18.5px; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(120px,1fr)); gap: 18px 12px; }
+    .libhead { margin: 28px 0 4px; }
+    .chapnum { margin: 40px 0 10px; }
+    .gcover { max-width: 170px; margin: 28px auto 24px; }
+  }
+  @media (max-width: 360px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
 </style>
 
 <div class="bar">
