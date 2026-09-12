@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#14161a">
 <title>Bibliothèque</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Bibliothèque">
+<meta name="description" content="Cinq romans à lire, avec progression, marque-pages et lecture hors ligne.">
 </head>
 <body>
 <div id="app">
@@ -738,6 +745,17 @@
 <script src="data-braises.js"></script>
 <script src="data-verre.js"></script>
 <script src="app.js"></script>
+<script>
+  // Lecture hors ligne. Échec sans conséquence : le site fonctionne
+  // normalement si le navigateur ne gère pas les service workers
+  // (ou si la page est servie en http).
+  if ('serviceWorker' in navigator) {
+    addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js')
+        .catch(err => console.warn('Service worker non enregistré :', err));
+    });
+  }
+</script>
 </div>
 
 </body>
