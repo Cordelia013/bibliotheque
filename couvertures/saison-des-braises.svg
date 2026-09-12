@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Couverture : La Saison des Braises">
+  <defs>
+    <linearGradient id="cielB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0c0a"/>
+      <stop offset=".45" stop-color="#4a1a10"/>
+      <stop offset=".75" stop-color="#8a3a1f"/>
+      <stop offset="1" stop-color="#c8642a"/>
+    </linearGradient>
+    <linearGradient id="solB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0a08"/>
+      <stop offset="1" stop-color="#060302"/>
+    </linearGradient>
+    <linearGradient id="fissure" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#ff5a1f"/>
+    </linearGradient>
+    <radialGradient id="lueur" cx=".5" cy="1" r=".7">
+      <stop offset="0" stop-color="#ff7a2f" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff7a2f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="parchemin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1e3c4"/>
+      <stop offset="1" stop-color="#d9c49a"/>
+    </linearGradient>
+    <clipPath id="cadreB"><rect width="600" height="900"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cadreB)">
+    <rect width="600" height="900" fill="url(#cielB)"/>
+    <!-- lueur montant du sol -->
+    <rect x="0" y="380" width="600" height="520" fill="url(#lueur)"/>
+
+    <!-- terre noire fendue, la Ligne des Cendres -->
+    <path d="M -20 560 C 120 540, 220 570, 320 555 C 430 540, 520 565, 620 550 L 620 900 L -20 900 Z" fill="url(#solB)"/>
+    <!-- fissures lumineuses -->
+    <g stroke="url(#fissure)" fill="none" stroke-linecap="round">
+      <path d="M 40 900 L 90 780 L 70 700 L 120 640 L 100 580" stroke-width="3"/>
+      <path d="M 90 780 L 140 760 L 180 700" stroke-width="1.6"/>
+      <path d="M 300 900 L 280 800 L 310 720 L 290 660 L 330 600 L 320 566" stroke-width="3.5"/>
+      <path d="M 310 720 L 360 700 L 380 640" stroke-width="1.6"/>
+      <path d="M 290 660 L 240 640 L 220 590" stroke-width="1.4"/>
+      <path d="M 540 900 L 500 790 L 530 720 L 490 660 L 520 600 L 505 560" stroke-width="3"/>
+      <path d="M 500 790 L 440 770 L 420 720" stroke-width="1.6"/>
+      <path d="M 160 900 L 190 850 L 170 800" stroke-width="1.4"/>
+      <path d="M 430 900 L 410 860 L 440 820" stroke-width="1.4"/>
+    </g>
+    <!-- braises qui montent -->
+    <g fill="#ffb347">
+      <circle cx="120" cy="520" r="1.6" opacity=".9"/><circle cx="150" cy="470" r="1.1" opacity=".6"/>
+      <circle cx="335" cy="500" r="1.8" opacity=".95"/><circle cx="355" cy="440" r="1.2" opacity=".6"/>
+      <circle cx="372" cy="390" r=".9" opacity=".4"/><circle cx="500" cy="510" r="1.5" opacity=".85"/>
+      <circle cx="470" cy="450" r="1" opacity=".55"/><circle cx="220" cy="480" r="1.2" opacity=".7"/>
+      <circle cx="90" cy="430" r=".9" opacity=".4"/><circle cx="540" cy="420" r=".9" opacity=".4"/>
+    </g>
+
+    <!-- carte de parchemin déroulée, posée en travers, coin qui brûle -->
+    <g transform="translate(300 300) rotate(-7)">
+      <rect x="-190" y="-120" width="380" height="250" rx="3" fill="url(#parchemin)"/>
+      <!-- tracés cartographiques : rivières, reliefs -->
+      <g fill="none" stroke="#7a5a30" stroke-width="1.2" opacity=".85">
+        <path d="M -170 -60 C -120 -70, -90 -30, -40 -40 C 10 -50, 40 -10, 90 -20 C 130 -28, 150 10, 170 0"/>
+        <path d="M -160 20 C -110 10, -80 40, -30 30 C 20 20, 50 60, 110 50"/>
+        <path d="M -150 80 C -100 70, -60 100, -10 90"/>
+      </g>
+      <g fill="none" stroke="#7a5a30" stroke-width=".9" opacity=".6">
+        <path d="M -120 -90 l 12 -14 l 12 14 M -95 -95 l 10 -12 l 10 12 M -70 -88 l 12 -14 l 12 14"/>
+        <path d="M 40 -100 l 12 -14 l 12 14 M 65 -105 l 10 -12 l 10 12"/>
+        <path d="M -40 60 l 12 -14 l 12 14 M -15 66 l 10 -12 l 10 12"/>
+      </g>
+      <!-- rose des vents -->
+      <g transform="translate(140 80)" stroke="#7a5a30" fill="#7a5a30" opacity=".8">
+        <path d="M 0 -22 L 5 0 L 0 22 L -5 0 Z"/>
+        <path d="M -22 0 L 0 5 L 22 0 L 0 -5 Z" fill="#f1e3c4"/>
+        <circle r="2.5" fill="#f1e3c4"/>
+      </g>
+      <!-- la ligne où la carte s'arrête : le blanc -->
+      <line x1="60" y1="-120" x2="120" y2="130" stroke="#7a5a30" stroke-width="1" stroke-dasharray="4 4" opacity=".8"/>
+      <text x="150" y="-60" fill="#7a5a30" font-family="'Cormorant Garamond', Georgia, serif" font-size="12" font-style="italic" opacity=".8" transform="rotate(76 150 -60)">terra incognita</text>
+      <!-- coin brûlé -->
+      <path d="M 190 40 C 175 60, 180 100, 150 130 L 190 130 Z" fill="#1a0c0a"/>
+      <path d="M 190 40 C 175 60, 180 100, 150 130" fill="none" stroke="#ff7a2f" stroke-width="2.2"/>
+      <path d="M 190 40 C 175 60, 180 100, 150 130" fill="none" stroke="#ffb347" stroke-width=".8"/>
+      <g fill="#ffb347">
+        <circle cx="178" cy="60" r="1.4"/><circle cx="184" cy="88" r="1.1"/><circle cx="166" cy="112" r="1.2"/>
+      </g>
+    </g>
+
+    <!-- surtitre -->
+    <text x="300" y="86" text-anchor="middle" fill="#f1c9a0" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="5">UNE ROMANCE AU-DELÀ DE LA LIGNE DES CENDRES</text>
+
+    <!-- titre -->
+    <text x="300" y="690" text-anchor="middle" fill="#fff3e2" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" letter-spacing="1">La Saison</text>
+    <text x="300" y="762" text-anchor="middle" fill="#fff3e2" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" letter-spacing="2">des Braises</text>
+    <line x1="246" y1="790" x2="354" y2="790" stroke="#ffb347" stroke-width="1" stroke-opacity=".9"/>
+
+    <!-- filet -->
+    <rect x="28" y="28" width="544" height="844" fill="none" stroke="#ffb347" stroke-opacity=".45" stroke-width="1"/>
+
+    <!-- auteur -->
+    <text x="300" y="850" text-anchor="middle" fill="#f1c9a0" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="4">ÉCRIT AVEC CLAUDE</text>
+  </g>
+</svg>
