@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Couverture : Le Prix du Silence, Don Castellano">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0d10"/>
+      <stop offset=".5" stop-color="#2a1216"/>
+      <stop offset="1" stop-color="#120809"/>
+    </linearGradient>
+    <radialGradient id="lampe" cx=".5" cy=".28" r=".6">
+      <stop offset="0" stop-color="#e8c98f" stop-opacity=".38"/>
+      <stop offset=".5" stop-color="#c98a4a" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#c98a4a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nappe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece0"/>
+      <stop offset="1" stop-color="#cfc4b0"/>
+    </linearGradient>
+    <linearGradient id="or" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9caa0"/>
+      <stop offset=".5" stop-color="#a8843f"/>
+      <stop offset="1" stop-color="#e9caa0"/>
+    </linearGradient>
+    <linearGradient id="vin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a1220"/>
+      <stop offset="1" stop-color="#420a10"/>
+    </linearGradient>
+    <clipPath id="cadreC"><rect width="600" height="900"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cadreC)">
+    <rect width="600" height="900" fill="url(#fond)"/>
+
+    <!-- fenêtres hautes, façade de palazzo en arrière-plan, très sombre -->
+    <g opacity=".28" fill="#000">
+      <rect x="60" y="0" width="60" height="230" rx="30"/>
+      <rect x="270" y="0" width="60" height="230" rx="30"/>
+      <rect x="480" y="0" width="60" height="230" rx="30"/>
+    </g>
+    <circle cx="300" cy="120" r="260" fill="url(#lampe)"/>
+
+    <!-- rideaux tombants de part et d'autre -->
+    <path d="M -10 0 L 70 0 L 40 900 L -10 900 Z" fill="#0e0507" opacity=".85"/>
+    <path d="M 610 0 L 530 0 L 560 900 L 610 900 Z" fill="#0e0507" opacity=".85"/>
+    <g stroke="#000" stroke-opacity=".25" stroke-width="2">
+      <path d="M 5 0 C 20 200, -5 400, 15 900" fill="none"/>
+      <path d="M 35 0 C 15 220, 45 420, 25 900" fill="none"/>
+      <path d="M 595 0 C 580 200, 605 400, 585 900" fill="none"/>
+      <path d="M 565 0 C 585 220, 555 420, 575 900" fill="none"/>
+    </g>
+
+    <!-- table / nappe blanche en perspective, à mi-hauteur -->
+    <path d="M -40 560 L 640 560 L 600 900 L 0 900 Z" fill="url(#nappe)"/>
+    <path d="M -40 560 L 640 560 L 628 590 L -28 590 Z" fill="#fff" opacity=".5"/>
+    <!-- ombre portée douce -->
+    <ellipse cx="300" cy="565" rx="330" ry="14" fill="#000" opacity=".18"/>
+
+    <!-- assiette centrale -->
+    <ellipse cx="300" cy="660" rx="86" ry="30" fill="#efe7d8"/>
+    <ellipse cx="300" cy="656" rx="86" ry="30" fill="#fbf6ec"/>
+    <ellipse cx="300" cy="656" rx="60" ry="21" fill="none" stroke="url(#or)" stroke-width="1.4"/>
+
+    <!-- chemise cartonnée posée sur l'assiette -->
+    <g transform="translate(300 640) rotate(-4)">
+      <rect x="-58" y="-38" width="116" height="80" rx="2" fill="#e7ddc9"/>
+      <rect x="-58" y="-38" width="116" height="14" rx="2" fill="#d8cbae"/>
+      <rect x="-42" y="-8" width="84" height="2.5" fill="#a8843f" opacity=".55"/>
+      <rect x="-42" y="2" width="60" height="2.5" fill="#a8843f" opacity=".4"/>
+      <rect x="-42" y="12" width="70" height="2.5" fill="#a8843f" opacity=".4"/>
+    </g>
+
+    <!-- alliance posée devant l'assiette -->
+    <g transform="translate(300 726)">
+      <ellipse rx="15" ry="6" fill="none" stroke="url(#or)" stroke-width="4"/>
+      <ellipse rx="15" ry="6" fill="none" stroke="#fff2d0" stroke-width="1" opacity=".5"/>
+    </g>
+
+    <!-- deux verres, l'un renversé -->
+    <g transform="translate(150 636)">
+      <path d="M -14 -46 L 14 -46 L 8 4 L -8 4 Z" fill="url(#vin)" opacity=".92"/>
+      <path d="M -14 -46 L 14 -46 L 12 -38 L -12 -38 Z" fill="#8f2432"/>
+      <rect x="-2" y="4" width="4" height="14" fill="#cfc4b0"/>
+      <ellipse cx="0" cy="20" rx="12" ry="3" fill="#cfc4b0"/>
+    </g>
+    <g transform="translate(452 648) rotate(96)">
+      <path d="M -14 -40 L 14 -40 L 8 2 L -8 2 Z" fill="none" stroke="#e7ddc9" stroke-width="1.4" opacity=".7"/>
+      <rect x="-1.4" y="2" width="2.8" height="12" fill="#e7ddc9" opacity=".7"/>
+      <ellipse cx="0" cy="16" rx="10" ry="2.4" fill="none" stroke="#e7ddc9" stroke-width="1.2" opacity=".7"/>
+    </g>
+
+    <!-- couverts -->
+    <g fill="#d9cdb4" opacity=".85">
+      <rect x="205" y="602" width="4" height="72" rx="2"/>
+      <ellipse cx="207" cy="596" rx="8" ry="12"/>
+      <rect x="393" y="602" width="4" height="72" rx="2"/>
+      <path d="M 391 596 L 393 612 L 397 612 L 399 596 L 397 604 L 395 596 Z"/>
+    </g>
+
+    <!-- filet doré -->
+    <rect x="28" y="28" width="544" height="844" fill="none" stroke="url(#or)" stroke-opacity=".6" stroke-width="1"/>
+    <rect x="34" y="34" width="532" height="832" fill="none" stroke="url(#or)" stroke-opacity=".3" stroke-width=".6"/>
+
+    <!-- surtitre -->
+    <text x="300" y="86" text-anchor="middle" fill="#cfa25a" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="5">UNE ROMANCE DE LA FAMILLE CASTELLANO</text>
+
+    <!-- titre -->
+    <text x="300" y="212" text-anchor="middle" fill="#f3ece0" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="30" font-style="italic" letter-spacing="1">Le Prix du Silence</text>
+    <text x="300" y="270" text-anchor="middle" fill="#f3ece0" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" letter-spacing="1">Don Castellano</text>
+
+    <line x1="248" y1="298" x2="352" y2="298" stroke="url(#or)" stroke-width="1"/>
+
+    <!-- auteur, en bas -->
+    <text x="300" y="856" text-anchor="middle" fill="#d9cdb4" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="13" letter-spacing="4">ÉCRIT AVEC CLAUDE</text>
+  </g>
+</svg>
