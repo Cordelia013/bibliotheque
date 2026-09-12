@@ -1,0 +1,17 @@
+# Système
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Brouillons et versions de travail
+**/_brouillon*/
+*.bak
