@@ -6,7 +6,10 @@ BOOKS.find(b => b.id === 'verre').chapitres = DATA_VERRE;
 
 const app = document.getElementById('app'), $ = id => document.getElementById(id);
 const KEY = 'liseuse:v2';
-let S = { night:false, livres:{} };   // livres[id] = {chap, scroll, bookmarks[], vus[]}
+const THEMES = ['clair','sepia','nuit'];
+const TAILLES = [17, 18.5, 20, 23, 26];      // px
+const INTERLIGNES = [1.5, 1.62, 1.72, 1.85, 2];
+let S = { theme:'clair', taille:2, inter:2, dernier:null, livres:{} };
 let vue = 'lib', livre = null, ready = false, filtre = null;
 
 function etat(id){
@@ -16,6 +19,55 @@ function etat(id){
 function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('show');
   clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
 
+/* ---- styles injectés (thème sépia + réglages de lecture) ---- */
+(function injecterStyles(){
+  const s = document.createElement('style');
+  s.textContent = `
+  #app.sepia { --ink:#4a3b2c; --paper:#f4ecd8; --paper-deep:#eadfc4;
+    --brass:#9a7b3f; --muted:#7d6a52; --rule:#ddceae; }
+  #app .body p { font-size: var(--taille, 20px); line-height: var(--inter, 1.72); }
+  @media (max-width: 520px){ #app .body p { font-size: var(--taille, 18.5px); } }
+  .reglages { border-bottom: 1px solid var(--rule); padding-bottom: 16px; margin-bottom: 4px; }
+  .reglages h4 { font-family:'Jost'; font-size:11px; letter-spacing:.14em; color:var(--muted);
+    font-weight:400; margin:0 0 10px; text-transform:uppercase; }
+  .rline { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+  .rline > span { font-size:12px; color:var(--muted); flex:1; letter-spacing:.04em; }
+  .rbtn { width:40px; height:36px; border:1px solid var(--rule); background:none; color:var(--ink);
+    font-family:inherit; font-size:14px; border-radius:2px; cursor:pointer; display:grid; place-items:center; }
+  .rbtn:disabled { opacity:.3; cursor:default; }
+  .rval { min-width:42px; text-align:center; font-size:12px; color:var(--muted); }
+  .reprise { display:block; width:100%; text-align:left; background:var(--paper-deep);
+    border:1px solid var(--rule); border-left:3px solid var(--accent); border-radius:2px;
+    padding:14px 16px; margin-bottom:24px; cursor:pointer; color:var(--ink); font-family:inherit; }
+  .reprise small { display:block; font-size:11px; letter-spacing:.13em; color:var(--muted);
+    text-transform:uppercase; margin-bottom:5px; }
+  .reprise b { font-family:'Cormorant Garamond', serif; font-size:18px; font-weight:600; display:block; line-height:1.25; }
+  .reprise em { font-style:normal; font-size:12px; color:var(--muted); display:block; margin-top:4px; }
+  .bmnote { display:block; font-family:'Jost'; font-size:12px; color:var(--ink);
+    border-left:2px solid var(--brass); padding-left:8px; margin-top:6px; line-height:1.45; }
+  .bmacts { display:flex; gap:14px; }`;
+  document.head.appendChild(s);
+})();
+
+function appliquerTheme(){
+  THEMES.forEach(t => app.classList.toggle(t, S.theme === t));
+  app.classList.toggle('night', S.theme === 'nuit');   // compat règles existantes
+  $('nightBtn').classList.toggle('on', S.theme !== 'clair');
+  $('nightBtn').title = 'Thème : ' + S.theme;
+  const m = document.querySelector('meta[name="theme-color"]');
+  if (m) m.content = S.theme==='nuit' ? '#14161a' : (S.theme==='sepia' ? '#f4ecd8' : '#f0ece4');
+}
+function appliquerLecture(){
+  app.style.setProperty('--taille', TAILLES[S.taille] + 'px');
+  app.style.setProperty('--inter', INTERLIGNES[S.inter]);
+  const vt = $('valTaille'), vi = $('valInter');
+  if (vt) vt.textContent = TAILLES[S.taille] + 'px';
+  if (vi) vi.textContent = INTERLIGNES[S.inter].toFixed(2);
+  ['tMoins','tPlus','iMoins','iPlus'].forEach(id => { const b=$(id); if(!b) return;
+    b.disabled = (id==='tMoins' && S.taille===0) || (id==='tPlus' && S.taille===TAILLES.length-1)
+              || (id==='iMoins' && S.inter===0)  || (id==='iPlus' && S.inter===INTERLIGNES.length-1); });
+}
+
 function load(){
   try {
     const brut = localStorage.getItem(KEY);
@@ -23,18 +75,28 @@ function load(){
     else {
       try { const old = localStorage.getItem('castellano:etat');
         if (old){ const o = JSON.parse(old);
-          S.night = !!o.night;
+          if (o.night) S.theme = 'nuit';
           S.livres.castellano = { chap:o.chap||0, scroll:o.scroll||0, bookmarks:o.bookmarks||[], vus:[] };
           for (let i=0;i<=(o.chap||0);i++) S.livres.castellano.vus.push(i);
         }
       } catch(e){}
     }
-    localStorage.setItem('liseuse:test', '1'); localStorage.removeItem('liseuse:test');
-    $('statusNote').textContent = 'Progression et marque-pages enregistrés automatiquement sur cet appareil.';
-  } catch(e){ $('statusNote').textContent = 'Sauvegarde indisponible (navigation privée ?) : la progression ne sera pas conservée.'; }
+    if (S.night !== undefined) { if (!S.theme || S.theme==='clair') S.theme = S.night ? 'nuit' : 'clair'; delete S.night; }
+    if (!THEMES.includes(S.theme)) S.theme = 'clair';
+    if (typeof S.taille !== 'number' || !TAILLES[S.taille]) S.taille = 2;
+    if (typeof S.inter !== 'number' || !INTERLIGNES[S.inter]) S.inter = 2;
+    localStorage.setItem('liseuse:test','1'); localStorage.removeItem('liseuse:test');
+    $('statusNote').textContent = 'Progression, réglages et marque-pages enregistrés sur cet appareil.';
+  } catch(e){ $('statusNote').textContent = 'Sauvegarde indisponible (navigation privée ?) : rien ne sera conservé.'; }
   ready = true;
 }
 function save(){ if(!ready) return; try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
+
+/* ---- temps de lecture ---- */
+function motsDe(c){ return c.p.join(' ').split(/\s+/).length; }
+function minutesDe(c){ return Math.max(1, Math.round(motsDe(c)/220)); }
+function duree(min){ if (min < 60) return min + ' min';
+  const h = Math.floor(min/60), r = min%60; return r ? h+' h '+r : h+' h'; }
 
 /* ---- pourcentage lu ---- */
 function pct(b){
@@ -58,8 +120,21 @@ function couverture(b, petit){
 /* ---- bibliothèque ---- */
 function tousGenres(){ const s=new Set(); BOOKS.forEach(b=>b.genres.forEach(g=>s.add(g))); return [...s].sort(); }
 
+function renderReprise(){
+  const box = $('reprise');
+  const d = S.dernier, b = d && BOOKS.find(x => x.id === d.id);
+  if (!b || !b.chapitres.length) { box.style.display = 'none'; return; }
+  const e = etat(b.id), c = b.chapitres[e.chap];
+  if (!c) { box.style.display = 'none'; return; }
+  box.style.display = '';
+  box.innerHTML = `<small>Reprendre ma lecture</small><b>${b.titre}</b>
+    <em>Chapitre ${c.n} · ${c.t} · ${duree(minutesDe(c))}</em>`;
+  box.onclick = () => { livre = b; app.style.setProperty('--accent', b.couleur); aller('read', true); };
+}
+
 function renderLib(){
   $('libCount').textContent = BOOKS.length + (BOOKS.length>1 ? ' livres' : ' livre');
+  renderReprise();
   $('chips').innerHTML = tousGenres().map(g=>`<button class="chip ${filtre===g?'on':''}" data-g="${g}">${g}</button>`).join('');
   [...$('chips').querySelectorAll('[data-g]')].forEach(c=>{
     c.onclick = () => { filtre = (filtre===c.dataset.g ? null : c.dataset.g); renderLib(); };
@@ -96,10 +171,11 @@ function ouvrirLivre(id){
   $('gRes').textContent = livre.resume;
   $('gPct').textContent = p + ' %';
   $('gBar').style.width = p + '%';
+  const restant = livre.chapitres.reduce((t,c,i) => t + (e.vus.includes(i) ? 0 : minutesDe(c)), 0);
   $('gLab').textContent = !livre.chapitres.length ? 'En préparation · aucun chapitre publié'
-    : p===0 ? 'Jamais ouvert · ' + livre.chapitres.length + ' chapitres'
+    : p===0 ? livre.chapitres.length + ' chapitres · ' + duree(restant) + ' de lecture'
     : (p===100 ? 'Terminé · ' + livre.chapitres.length + ' chapitres'
-    : 'Lu · reprise au chapitre ' + livre.chapitres[e.chap].n + ' sur ' + livre.chapitres.length);
+    : 'Chapitre ' + livre.chapitres[e.chap].n + ' sur ' + livre.chapitres.length + ' · ' + duree(restant) + ' restantes');
   const vide = !livre.chapitres.length;
   $('readBtn').textContent = vide ? 'Bientôt disponible' : (p===0 ? 'Commencer la lecture' : 'Reprendre au chapitre ' + livre.chapitres[e.chap].n);
   $('readBtn').disabled = vide; $('readBtn').style.opacity = vide ? '.45' : '';
@@ -125,14 +201,16 @@ function aller(v, restore){
 /* ---- lecture ---- */
 function renderChap(restore){
   const e = etat(livre.id), c = livre.chapitres[e.chap];
-  $('chapNum').textContent = 'Chapitre ' + c.n;
+  $('chapNum').textContent = 'Chapitre ' + c.n + '  ·  ' + duree(minutesDe(c));
   $('chapTitle').textContent = c.t;
   $('chapPov').textContent = 'Point de vue — ' + c.pov;
   $('chapBody').innerHTML = c.p.map((t,i)=>`<p data-i="${i}">${t}</p>`).join('');
   $('barTitle').textContent = 'Ch. ' + c.n + ' · ' + c.t;
   $('prevBtn').disabled = e.chap===0;
   $('nextBtn').disabled = e.chap===livre.chapitres.length-1;
-  if (!e.vus.includes(e.chap)) { e.vus.push(e.chap); save(); }
+  if (!e.vus.includes(e.chap)) e.vus.push(e.chap);
+  S.dernier = { id: livre.id, date: Date.now() };
+  save();
   buildChaps(); buildBms(); updateBm();
   window.scrollTo(0, restore ? (e.scroll||0) : 0);
   updateProgress();
@@ -155,10 +233,12 @@ function toggleBm(){
   if (i>-1){ e.bookmarks.splice(i,1); toast('Marque-page retiré'); }
   else {
     const t = livre.chapitres[e.chap].p[para]||'';
-    e.bookmarks.push({ chap:e.chap, para, extrait:t.slice(0,90)+(t.length>90?'…':''),
+    let note = '';
+    try { note = (prompt('Note pour ce marque-page (facultatif) :', '') || '').trim(); } catch(err){}
+    e.bookmarks.push({ chap:e.chap, para, note, extrait:t.slice(0,90)+(t.length>90?'…':''),
       date:new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) });
     e.bookmarks.sort((a,b)=>a.chap-b.chap||a.para-b.para);
-    toast('Marque-page posé — chapitre ' + livre.chapitres[e.chap].n);
+    toast(note ? 'Marque-page et note enregistrés' : 'Marque-page posé — chapitre ' + livre.chapitres[e.chap].n);
   }
   updateBm(); buildBms(); save();
 }
@@ -167,7 +247,7 @@ function buildChaps(){
   $('dTitle').textContent = livre.titre;
   $('paneChaps').innerHTML = livre.chapitres.map((c,i)=>
     `<button class="chapline ${i===e.chap?'current':''}" data-go="${i}">
-      <em>Chapitre ${c.n} · ${c.pov}${e.vus.includes(i)?' · lu':''}</em>${c.t}</button>`).join('');
+      <em>Chapitre ${c.n} · ${c.pov} · ${duree(minutesDe(c))}${e.vus.includes(i)?' · lu':''}</em>${c.t}</button>`).join('');
   [...$('paneChaps').querySelectorAll('[data-go]')].forEach(b=>{
     b.onclick = () => { e.chap = +b.dataset.go; e.scroll = 0; save(); fermer(); aller('read', false); };
   });
@@ -177,11 +257,19 @@ function buildBms(){
   if (!e.bookmarks.length){ pane.innerHTML = '<p class="empty">Aucun marque-page. Touchez ✦ en haut pour marquer le passage où vous êtes.</p>'; return; }
   pane.innerHTML = e.bookmarks.map((b,i)=>
     `<div><button class="bmrow" data-bm="${i}"><small>Chapitre ${livre.chapitres[b.chap].n} · ${b.date}</small>
-      <span>« ${b.extrait} »</span></button><button class="del" data-del="${i}">Supprimer</button></div>`).join('');
+      <span>« ${b.extrait} »</span>${b.note ? `<span class="bmnote">${b.note}</span>` : ''}</button>
+      <div class="bmacts"><button class="del" data-note="${i}">${b.note ? 'Modifier la note' : 'Ajouter une note'}</button>
+      <button class="del" data-del="${i}">Supprimer</button></div></div>`).join('');
   [...pane.querySelectorAll('[data-bm]')].forEach(x=>{
     x.onclick = () => { const bm = e.bookmarks[+x.dataset.bm]; e.chap = bm.chap; save(); fermer(); aller('read', false);
       setTimeout(()=>{ const p = document.querySelector(`#chapBody p[data-i="${bm.para}"]`);
         if (p) p.scrollIntoView({behavior:'smooth',block:'center'}); }, 60); };
+  });
+  [...pane.querySelectorAll('[data-note]')].forEach(x=>{
+    x.onclick = () => { const bm = e.bookmarks[+x.dataset.note];
+      let n = null; try { n = prompt('Note pour ce marque-page :', bm.note || ''); } catch(err){}
+      if (n === null) return;
+      bm.note = n.trim(); buildBms(); save(); toast(bm.note ? 'Note enregistrée' : 'Note supprimée'); };
   });
   [...pane.querySelectorAll('[data-del]')].forEach(x=>{
     x.onclick = () => { e.bookmarks.splice(+x.dataset.del,1); buildBms(); updateBm(); save(); toast('Marque-page supprimé'); };
@@ -198,16 +286,48 @@ $('backBtn').onclick = () => { if (vue==='read') ouvrirLivre(livre.id); else all
 $('readBtn').onclick = () => aller('read', true);
 $('resetBtn').onclick = () => {
   if (!confirm('Effacer votre progression et vos marque-pages pour ce livre ?')) return;
-  S.livres[livre.id] = { chap:0, scroll:0, bookmarks:[], vus:[] }; save(); ouvrirLivre(livre.id); toast('Progression réinitialisée');
+  S.livres[livre.id] = { chap:0, scroll:0, bookmarks:[], vus:[] };
+  if (S.dernier && S.dernier.id === livre.id) S.dernier = null;
+  save(); ouvrirLivre(livre.id); toast('Progression réinitialisée');
 };
-$('nightBtn').onclick = () => { S.night = !S.night; app.classList.toggle('night', S.night);
-  $('nightBtn').classList.toggle('on', S.night); save(); };
+$('nightBtn').onclick = () => {
+  S.theme = THEMES[(THEMES.indexOf(S.theme)+1) % THEMES.length];
+  appliquerTheme(); save();
+  toast('Thème ' + (S.theme==='clair' ? 'clair' : S.theme==='sepia' ? 'sépia' : 'nuit'));
+};
 $('prevBtn').onclick = () => { const e=etat(livre.id); if(e.chap>0){ e.chap--; e.scroll=0; save(); renderChap(false); } };
 $('nextBtn').onclick = () => { const e=etat(livre.id); if(e.chap<livre.chapitres.length-1){ e.chap++; e.scroll=0; save(); renderChap(false); } };
 $('tabChaps').onclick = () => { $('tabChaps').classList.add('on'); $('tabBms').classList.remove('on');
   $('paneChaps').style.display=''; $('paneBms').style.display='none'; };
 $('tabBms').onclick = () => { $('tabBms').classList.add('on'); $('tabChaps').classList.remove('on');
   $('paneBms').style.display=''; $('paneChaps').style.display='none'; };
+
+/* ---- éléments ajoutés au DOM ---- */
+(function monterUI(){
+  // carte « Reprendre » en tête de bibliothèque
+  const box = document.createElement('button');
+  box.className = 'reprise'; box.id = 'reprise'; box.style.display = 'none';
+  $('libCount').insertAdjacentElement('afterend', box);
+
+  // réglages de lecture en tête du tiroir
+  const r = document.createElement('div');
+  r.className = 'reglages';
+  r.innerHTML = `<h4>Confort de lecture</h4>
+    <div class="rline"><span>Taille du texte</span>
+      <button class="rbtn" id="tMoins">A−</button>
+      <span class="rval" id="valTaille"></span>
+      <button class="rbtn" id="tPlus">A+</button></div>
+    <div class="rline"><span>Interligne</span>
+      <button class="rbtn" id="iMoins">−</button>
+      <span class="rval" id="valInter"></span>
+      <button class="rbtn" id="iPlus">+</button></div>`;
+  document.querySelector('.tabs').insertAdjacentElement('beforebegin', r);
+
+  $('tMoins').onclick = () => { if (S.taille>0){ S.taille--; appliquerLecture(); save(); } };
+  $('tPlus').onclick  = () => { if (S.taille<TAILLES.length-1){ S.taille++; appliquerLecture(); save(); } };
+  $('iMoins').onclick = () => { if (S.inter>0){ S.inter--; appliquerLecture(); save(); } };
+  $('iPlus').onclick  = () => { if (S.inter<INTERLIGNES.length-1){ S.inter++; appliquerLecture(); save(); } };
+})();
 
 let tmr;
 addEventListener('scroll', () => {
@@ -221,5 +341,4 @@ addEventListener('keydown', e => {
   if (e.key==='Escape') fermer();
 });
 
-load(); app.classList.toggle('night', !!S.night);
-$('nightBtn').classList.toggle('on', !!S.night); renderLib();
+load(); appliquerTheme(); appliquerLecture(); renderLib();
