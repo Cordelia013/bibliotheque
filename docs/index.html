@@ -1,0 +1,933 @@
+<div id="app">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Jost:wght@300;400;500&display=swap');
+
+  #app {
+    --ink: #14161a; --paper: #f0ece4; --paper-deep: #e4ded2;
+    --accent: #6d1f2c; --brass: #a8843f; --muted: #6b6459; --rule: #cec6b6;
+    font-family: 'Jost', system-ui, sans-serif; color: var(--ink);
+    background: var(--paper); min-height: 100vh; -webkit-font-smoothing: antialiased;
+  }
+  #app * { box-sizing: border-box; }
+  #app.night { --ink:#ddd6c9; --paper:#14161a; --paper-deep:#1c1f25; --brass:#c9a35c; --muted:#8c8578; --rule:#2c3038; }
+
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 22px 140px; }
+  .view { display: none; } .view.on { display: block; }
+
+  .bar { position: sticky; top: 0; z-index: 40; background: var(--paper);
+    border-bottom: 1px solid var(--rule); display: flex; align-items: center; gap: 10px; padding: 12px 18px; }
+  .bar .title { font-family: 'Cormorant Garamond', serif; font-size: 17px; flex: 1;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .icon { background: none; border: 1px solid var(--rule); color: var(--ink); width: 36px; height: 36px;
+    border-radius: 2px; cursor: pointer; font-size: 15px; display: grid; place-items: center;
+    font-family: inherit; transition: border-color .15s, background .15s; flex: none; }
+  .icon:hover { border-color: var(--brass); }
+  .icon.on { background: var(--accent); border-color: var(--accent); color: #f0ece4; }
+  .icon:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+
+  .progress { height: 2px; background: var(--rule); position: sticky; top: 61px; z-index: 39; }
+  .progress i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+
+  /* BIBLIOTHÈQUE */
+  .libhead { font-family: 'Cormorant Garamond', serif; font-size: clamp(30px,8vw,42px);
+    font-weight: 600; margin: 44px 0 4px; letter-spacing: -.01em; }
+  .libsub { color: var(--muted); font-size: 13px; letter-spacing: .04em; margin-bottom: 26px; }
+  .search { width: 100%; padding: 13px 15px; background: var(--paper-deep); border: 1px solid var(--rule);
+    color: var(--ink); font-family: inherit; font-size: 15px; border-radius: 2px; }
+  .search::placeholder { color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0 30px; }
+  .chip { padding: 6px 13px; border: 1px solid var(--rule); background: none; color: var(--muted);
+    font-family: inherit; font-size: 12px; letter-spacing: .04em; border-radius: 20px; cursor: pointer; }
+  .chip.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap: 26px 18px; }
+  .card { background: none; border: none; padding: 0; cursor: pointer; text-align: left; color: var(--ink); font-family: inherit; }
+  .cover { aspect-ratio: 2/3; border-radius: 2px; padding: 20px 16px; display: flex; flex-direction: column;
+    justify-content: space-between; color: #f2ede3; position: relative; overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,.22); transition: transform .18s; }
+  .card:hover .cover { transform: translateY(-3px); }
+  .cover svg { width:100%; height:100%; display:block; }
+  .cover::after { content:''; position:absolute; left:0; top:0; bottom:0; width:5px; background:rgba(0,0,0,.28); }
+  .cover .ct { font-family: 'Cormorant Garamond', serif; font-size: 19px; line-height: 1.18; font-weight: 600; }
+  .cover .ca { font-size: 10px; letter-spacing: .16em; opacity: .72; }
+  .cmeta { margin-top: 10px; }
+  .cmeta b { display: block; font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 16px; line-height: 1.25; }
+  .cbar { height: 3px; background: var(--rule); margin-top: 8px; }
+  .cbar i { display: block; height: 100%; background: var(--accent); }
+  .cpct { font-size: 11px; color: var(--muted); letter-spacing: .06em; margin-top: 5px; }
+
+  /* PAGE DE GARDE */
+  .gcover { max-width: 210px; margin: 40px auto 30px; }
+  .gtitle { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px,7vw,38px); font-weight: 600;
+    text-align: center; line-height: 1.14; margin: 0 0 8px; }
+  .gauth { text-align: center; color: var(--muted); font-size: 12px; letter-spacing: .16em; margin-bottom: 22px; }
+  .gchips { display: flex; flex-wrap: wrap; gap: 7px; justify-content: center; margin-bottom: 28px; }
+  .gchips span { padding: 5px 12px; border: 1px solid var(--rule); border-radius: 20px; font-size: 11px;
+    letter-spacing: .05em; color: var(--muted); }
+  .gres { font-family: 'Cormorant Garamond', serif; font-size: 18px; line-height: 1.68; text-align: center;
+    color: var(--ink); margin: 0 auto 34px; max-width: 34em; }
+  .gstat { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 20px 0; margin-bottom: 26px; }
+  .gpct { font-family: 'Cormorant Garamond', serif; font-size: 44px; font-weight: 700; line-height: 1; color: var(--accent); }
+  .glab { font-size: 11px; letter-spacing: .14em; color: var(--muted); margin-top: 6px; }
+  .gbar { height: 4px; background: var(--rule); margin-top: 16px; }
+  .gbar i { display: block; height: 100%; background: var(--accent); transition: width .3s; }
+  .primary { width: 100%; padding: 16px; background: var(--accent); border: none; color: #f2ede3;
+    font-family: inherit; font-size: 14px; letter-spacing: .06em; cursor: pointer; border-radius: 2px; }
+  .ghost { width: 100%; padding: 14px; background: none; border: 1px solid var(--rule); color: var(--ink);
+    font-family: inherit; font-size: 13px; letter-spacing: .05em; cursor: pointer; border-radius: 2px; margin-top: 10px; }
+
+  /* LECTURE */
+  .chapnum { font-weight: 300; font-size: 12px; letter-spacing: .22em; color: var(--muted); margin: 58px 0 10px; }
+  h2 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: clamp(28px,7vw,38px);
+    line-height: 1.12; margin: 0 0 6px; }
+  .pov { font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--accent); font-size: 17px; margin-bottom: 32px; }
+  .body p { font-family: 'Cormorant Garamond', serif; font-size: 20px; line-height: 1.72; margin: 0 0 1.15em; max-width: 34em; }
+  .body p:first-of-type::first-letter { font-size: 3.1em; float: left; line-height: .82;
+    padding: .06em .12em 0 0; color: var(--accent); font-weight: 600; }
+  .endmark { margin: 50px 0 0; padding-top: 22px; border-top: 1px solid var(--rule); }
+  .navrow { display: flex; gap: 10px; }
+  .navbtn { flex: 1; padding: 14px 12px; background: none; cursor: pointer; border: 1px solid var(--rule);
+    color: var(--ink); font-family: inherit; font-size: 13px; letter-spacing: .04em; border-radius: 2px; }
+  .navbtn:hover:not(:disabled) { border-color: var(--brass); }
+  .navbtn:disabled { opacity: .35; cursor: default; }
+
+  /* TIROIR */
+  .scrim { position: fixed; inset: 0; background: rgba(10,10,12,.55); z-index: 50; opacity: 0;
+    pointer-events: none; transition: opacity .2s; }
+  .scrim.open { opacity: 1; pointer-events: auto; }
+  .drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(370px,88vw); background: var(--paper-deep);
+    z-index: 51; overflow-y: auto; transform: translateX(100%); transition: transform .24s cubic-bezier(.4,0,.2,1);
+    border-left: 1px solid var(--rule); padding: 22px 20px 60px; }
+  .drawer.open { transform: none; }
+  .dhead { font-family: 'Cormorant Garamond', serif; font-size: 21px; margin: 0 0 4px;
+    display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .tabs { display: flex; gap: 8px; margin: 16px 0 18px; }
+  .tab { flex: 1; padding: 9px; background: none; border: 1px solid var(--rule); color: var(--muted);
+    font-family: inherit; font-size: 12px; letter-spacing: .05em; cursor: pointer; border-radius: 2px; }
+  .tab.on { color: var(--ink); border-color: var(--ink); }
+  .chapline { display: block; width: 100%; text-align: left; background: none; border: none;
+    border-bottom: 1px solid var(--rule); padding: 13px 0; color: var(--ink);
+    font-family: 'Cormorant Garamond', serif; font-size: 17px; cursor: pointer; position: relative; }
+  .chapline em { font-style: normal; color: var(--muted); font-family: 'Jost'; font-size: 11px;
+    letter-spacing: .13em; display: block; margin-bottom: 3px; }
+  .chapline.current { color: var(--accent); }
+  .chapline.current::before { content: '▸'; position: absolute; left: -14px; }
+  .bmrow { display: block; width: 100%; text-align: left; background: none; border: none;
+    border-bottom: 1px solid var(--rule); padding: 13px 0; color: var(--ink);
+    font-family: 'Cormorant Garamond', serif; font-size: 16px; cursor: pointer; line-height: 1.5; }
+  .bmrow small { font-family: 'Jost'; font-size: 11px; letter-spacing: .09em; color: var(--muted); display: block; margin-bottom: 4px; }
+  .bmrow span { color: var(--muted); font-style: italic; font-size: 15px; }
+  .del { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 11px;
+    font-family: 'Jost'; letter-spacing: .07em; padding: 4px 0 0; }
+  .del:hover { color: var(--accent); }
+  .empty { color: var(--muted); font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; padding: 22px 0; }
+  .note { font-size: 11px; color: var(--muted); margin-top: 26px; line-height: 1.6; }
+  .toast { position: fixed; bottom: 24px; left: 50%; transform: translate(-50%,20px); background: var(--ink);
+    color: var(--paper); padding: 11px 20px; font-size: 13px; border-radius: 2px; z-index: 60;
+    opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; }
+  .toast.show { opacity: 1; transform: translate(-50%,0); }
+  @media (prefers-reduced-motion: reduce) { #app * { transition: none !important; } }
+  @media (max-width: 520px) { .body p { font-size: 18.5px; } }
+</style>
+
+<div class="bar">
+  <button class="icon" id="backBtn" title="Retour" style="display:none">‹</button>
+  <div class="title" id="barTitle">Bibliothèque</div>
+  <button class="icon" id="bmBtn" title="Marque-page" style="display:none">✦</button>
+  <button class="icon" id="nightBtn" title="Mode nuit">◐</button>
+  <button class="icon" id="menuBtn" title="Sommaire" style="display:none">☰</button>
+</div>
+<div class="progress"><i id="progBar"></i></div>
+
+<!-- BIBLIOTHÈQUE -->
+<section class="view on" id="vLib"><div class="wrap">
+  <h1 class="libhead">Bibliothèque</h1>
+  <p class="libsub" id="libCount"></p>
+  <input class="search" id="search" type="search" placeholder="Rechercher par titre, genre ou auteur…">
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="noRes" style="display:none">Aucun livre ne correspond à cette recherche.</p>
+</div></section>
+
+<!-- PAGE DE GARDE -->
+<section class="view" id="vCover"><div class="wrap">
+  <div class="gcover" id="gCover"></div>
+  <h1 class="gtitle" id="gTitle"></h1>
+  <p class="gauth" id="gAuth"></p>
+  <div class="gchips" id="gChips"></div>
+  <p class="gres" id="gRes"></p>
+  <div class="gstat">
+    <div class="gpct" id="gPct">0 %</div>
+    <div class="glab" id="gLab"></div>
+    <div class="gbar"><i id="gBar"></i></div>
+  </div>
+  <button class="primary" id="readBtn">Commencer la lecture</button>
+  <button class="ghost" id="tocBtn">Sommaire et marque-pages</button>
+  <button class="ghost" id="resetBtn">Réinitialiser ma progression</button>
+</div></section>
+
+<!-- LECTURE -->
+<section class="view" id="vRead"><div class="wrap">
+  <div class="chapnum" id="chapNum"></div>
+  <h2 id="chapTitle"></h2>
+  <div class="pov" id="chapPov"></div>
+  <div class="body" id="chapBody"></div>
+  <div class="endmark"><div class="navrow">
+    <button class="navbtn" id="prevBtn">← Précédent</button>
+    <button class="navbtn" id="nextBtn">Suivant →</button>
+  </div></div>
+</div></section>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer">
+  <div class="dhead"><span id="dTitle">Sommaire</span><button class="icon" id="closeBtn">✕</button></div>
+  <div class="tabs">
+    <button class="tab on" id="tabChaps">Chapitres</button>
+    <button class="tab" id="tabBms">Marque-pages</button>
+  </div>
+  <div id="paneChaps"></div>
+  <div id="paneBms" style="display:none"></div>
+  <p class="note" id="statusNote"></p>
+</aside>
+<div class="toast" id="toast"></div>
+
+<div id="couvertures" hidden><template class="couv" data-livre="castellano"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Couverture : Le Prix du Silence, Don Castellano">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0d10"/>
+      <stop offset=".5" stop-color="#2a1216"/>
+      <stop offset="1" stop-color="#120809"/>
+    </linearGradient>
+    <radialGradient id="lampe" cx=".5" cy=".28" r=".6">
+      <stop offset="0" stop-color="#e8c98f" stop-opacity=".38"/>
+      <stop offset=".5" stop-color="#c98a4a" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#c98a4a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nappe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3ece0"/>
+      <stop offset="1" stop-color="#cfc4b0"/>
+    </linearGradient>
+    <linearGradient id="or" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9caa0"/>
+      <stop offset=".5" stop-color="#a8843f"/>
+      <stop offset="1" stop-color="#e9caa0"/>
+    </linearGradient>
+    <linearGradient id="vin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a1220"/>
+      <stop offset="1" stop-color="#420a10"/>
+    </linearGradient>
+    <clipPath id="cadreC"><rect width="600" height="900"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cadreC)">
+    <rect width="600" height="900" fill="url(#fond)"/>
+
+    <!-- fenêtres hautes, façade de palazzo en arrière-plan, très sombre -->
+    <g opacity=".28" fill="#000">
+      <rect x="60" y="0" width="60" height="230" rx="30"/>
+      <rect x="270" y="0" width="60" height="230" rx="30"/>
+      <rect x="480" y="0" width="60" height="230" rx="30"/>
+    </g>
+    <circle cx="300" cy="120" r="260" fill="url(#lampe)"/>
+
+    <!-- rideaux tombants de part et d'autre -->
+    <path d="M -10 0 L 70 0 L 40 900 L -10 900 Z" fill="#0e0507" opacity=".85"/>
+    <path d="M 610 0 L 530 0 L 560 900 L 610 900 Z" fill="#0e0507" opacity=".85"/>
+    <g stroke="#000" stroke-opacity=".25" stroke-width="2">
+      <path d="M 5 0 C 20 200, -5 400, 15 900" fill="none"/>
+      <path d="M 35 0 C 15 220, 45 420, 25 900" fill="none"/>
+      <path d="M 595 0 C 580 200, 605 400, 585 900" fill="none"/>
+      <path d="M 565 0 C 585 220, 555 420, 575 900" fill="none"/>
+    </g>
+
+    <!-- table / nappe blanche en perspective, à mi-hauteur -->
+    <path d="M -40 560 L 640 560 L 600 900 L 0 900 Z" fill="url(#nappe)"/>
+    <path d="M -40 560 L 640 560 L 628 590 L -28 590 Z" fill="#fff" opacity=".5"/>
+    <!-- ombre portée douce -->
+    <ellipse cx="300" cy="565" rx="330" ry="14" fill="#000" opacity=".18"/>
+
+    <!-- assiette centrale -->
+    <ellipse cx="300" cy="660" rx="86" ry="30" fill="#efe7d8"/>
+    <ellipse cx="300" cy="656" rx="86" ry="30" fill="#fbf6ec"/>
+    <ellipse cx="300" cy="656" rx="60" ry="21" fill="none" stroke="url(#or)" stroke-width="1.4"/>
+
+    <!-- chemise cartonnée posée sur l'assiette -->
+    <g transform="translate(300 640) rotate(-4)">
+      <rect x="-58" y="-38" width="116" height="80" rx="2" fill="#e7ddc9"/>
+      <rect x="-58" y="-38" width="116" height="14" rx="2" fill="#d8cbae"/>
+      <rect x="-42" y="-8" width="84" height="2.5" fill="#a8843f" opacity=".55"/>
+      <rect x="-42" y="2" width="60" height="2.5" fill="#a8843f" opacity=".4"/>
+      <rect x="-42" y="12" width="70" height="2.5" fill="#a8843f" opacity=".4"/>
+    </g>
+
+    <!-- alliance posée devant l'assiette -->
+    <g transform="translate(300 726)">
+      <ellipse rx="15" ry="6" fill="none" stroke="url(#or)" stroke-width="4"/>
+      <ellipse rx="15" ry="6" fill="none" stroke="#fff2d0" stroke-width="1" opacity=".5"/>
+    </g>
+
+    <!-- deux verres, l'un renversé -->
+    <g transform="translate(150 636)">
+      <path d="M -14 -46 L 14 -46 L 8 4 L -8 4 Z" fill="url(#vin)" opacity=".92"/>
+      <path d="M -14 -46 L 14 -46 L 12 -38 L -12 -38 Z" fill="#8f2432"/>
+      <rect x="-2" y="4" width="4" height="14" fill="#cfc4b0"/>
+      <ellipse cx="0" cy="20" rx="12" ry="3" fill="#cfc4b0"/>
+    </g>
+    <g transform="translate(452 648) rotate(96)">
+      <path d="M -14 -40 L 14 -40 L 8 2 L -8 2 Z" fill="none" stroke="#e7ddc9" stroke-width="1.4" opacity=".7"/>
+      <rect x="-1.4" y="2" width="2.8" height="12" fill="#e7ddc9" opacity=".7"/>
+      <ellipse cx="0" cy="16" rx="10" ry="2.4" fill="none" stroke="#e7ddc9" stroke-width="1.2" opacity=".7"/>
+    </g>
+
+    <!-- couverts -->
+    <g fill="#d9cdb4" opacity=".85">
+      <rect x="205" y="602" width="4" height="72" rx="2"/>
+      <ellipse cx="207" cy="596" rx="8" ry="12"/>
+      <rect x="393" y="602" width="4" height="72" rx="2"/>
+      <path d="M 391 596 L 393 612 L 397 612 L 399 596 L 397 604 L 395 596 Z"/>
+    </g>
+
+    <!-- filet doré -->
+    <rect x="28" y="28" width="544" height="844" fill="none" stroke="url(#or)" stroke-opacity=".6" stroke-width="1"/>
+    <rect x="34" y="34" width="532" height="832" fill="none" stroke="url(#or)" stroke-opacity=".3" stroke-width=".6"/>
+
+    <!-- surtitre -->
+    <text x="300" y="86" text-anchor="middle" fill="#cfa25a" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="5">UNE ROMANCE DE LA FAMILLE CASTELLANO</text>
+
+    <!-- titre -->
+    <text x="300" y="212" text-anchor="middle" fill="#f3ece0" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="30" font-style="italic" letter-spacing="1">Le Prix du Silence</text>
+    <text x="300" y="270" text-anchor="middle" fill="#f3ece0" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" letter-spacing="1">Don Castellano</text>
+
+    <line x1="248" y1="298" x2="352" y2="298" stroke="url(#or)" stroke-width="1"/>
+
+    <!-- auteur, en bas -->
+    <text x="300" y="856" text-anchor="middle" fill="#d9cdb4" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="13" letter-spacing="4">ÉCRIT AVEC CLAUDE</text>
+  </g>
+</svg></template><template class="couv" data-livre="lune"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Couverture : La Part de Lune">
+  <defs>
+    <linearGradient id="ciel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0f1e"/>
+      <stop offset=".55" stop-color="#1c2445"/>
+      <stop offset="1" stop-color="#2d2a4a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f4e9c8" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#f4e9c8" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#f4e9c8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lune" cx=".38" cy=".35" r=".75">
+      <stop offset="0" stop-color="#fff8e3"/>
+      <stop offset=".6" stop-color="#eadfbe"/>
+      <stop offset="1" stop-color="#c9bc95"/>
+    </radialGradient>
+    <linearGradient id="colline1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151a30"/>
+      <stop offset="1" stop-color="#0a0d1a"/>
+    </linearGradient>
+    <linearGradient id="colline2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1326"/>
+      <stop offset="1" stop-color="#070911"/>
+    </linearGradient>
+    <linearGradient id="eau" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1f3a"/>
+      <stop offset="1" stop-color="#05070f"/>
+    </linearGradient>
+    <clipPath id="cadre"><rect width="600" height="900"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cadre)">
+    <!-- ciel -->
+    <rect width="600" height="900" fill="url(#ciel)"/>
+
+    <!-- étoiles -->
+    <g fill="#f4e9c8">
+      <circle cx="62" cy="88" r="1.2" opacity=".7"/><circle cx="141" cy="52" r=".9" opacity=".5"/>
+      <circle cx="503" cy="70" r="1.4" opacity=".8"/><circle cx="548" cy="132" r=".8" opacity=".5"/>
+      <circle cx="90" cy="210" r=".9" opacity=".45"/><circle cx="470" cy="190" r="1" opacity=".55"/>
+      <circle cx="30" cy="330" r="1.1" opacity=".5"/><circle cx="571" cy="288" r="1.2" opacity=".6"/>
+      <circle cx="215" cy="140" r=".7" opacity=".4"/><circle cx="392" cy="98" r=".8" opacity=".5"/>
+    </g>
+
+    <!-- halo -->
+    <circle cx="300" cy="300" r="240" fill="url(#halo)"/>
+
+    <!-- lune : entière, avec sa "part" manquante (éclipse en croissant fin) -->
+    <circle cx="300" cy="300" r="128" fill="url(#lune)"/>
+    <circle cx="378" cy="262" r="124" fill="#1c2445" opacity=".97"/>
+    <!-- fine ligne de lumière sur le bord de l'ombre -->
+    <path d="M 300 172 A 128 128 0 0 0 300 428" fill="none" stroke="#fff8e3" stroke-opacity="0"/>
+    <!-- reliefs discrets sur la partie éclairée -->
+    <g fill="#c9bc95" opacity=".35">
+      <circle cx="238" cy="290" r="9"/><circle cx="222" cy="345" r="5"/><circle cx="262" cy="380" r="6"/>
+      <circle cx="205" cy="255" r="4"/>
+    </g>
+
+    <!-- colline arrière : Croix-Rousse -->
+    <path d="M -20 560 C 90 520, 180 545, 250 505 C 330 460, 420 480, 520 470 C 570 465, 600 480, 620 470 L 620 700 L -20 700 Z" fill="url(#colline2)"/>
+
+    <!-- colline avant : Fourvière, silhouette avec une tour élancée stylisée -->
+    <path d="M -20 620 C 60 590, 130 600, 190 580 C 240 563, 262 552, 300 548 L 300 548 C 340 552, 380 560, 440 570 C 500 580, 560 610, 620 600 L 620 720 L -20 720 Z" fill="url(#colline1)"/>
+    <!-- tour -->
+    <path d="M 292 548 L 292 486 L 296 486 L 296 472 L 300 462 L 304 472 L 304 486 L 308 486 L 308 548 Z" fill="#0f1326"/>
+    <!-- fenêtres allumées dans la pente -->
+    <g fill="#f4e9c8">
+      <rect x="120" y="612" width="3" height="4" opacity=".55"/><rect x="164" y="598" width="3" height="4" opacity=".4"/>
+      <rect x="400" y="590" width="3" height="4" opacity=".5"/><rect x="452" y="602" width="3" height="4" opacity=".45"/>
+      <rect x="512" y="622" width="3" height="4" opacity=".4"/><rect x="88" y="628" width="3" height="4" opacity=".35"/>
+    </g>
+
+    <!-- loup sur la crête de Fourvière, silhouette originale, assis, tête levée vers la lune -->
+    <g transform="translate(350 548) scale(1.05)">
+      <path d="M 0 0 C -6 -8, -10 -18, -8 -30 C -7 -38, -3 -44, 2 -48 C 5 -50, 9 -50, 11 -53 L 13 -60 L 17 -55 L 22 -57 L 20 -50 C 22 -46, 21 -40, 17 -37 C 14 -33, 10 -30, 8 -24 C 6 -16, 8 -8, 6 0 Z" fill="#05070f"/>
+      <path d="M -8 -30 C -14 -22, -22 -16, -30 -14 C -34 -13, -37 -10, -36 -4 L -34 0 L 0 0" fill="#05070f"/>
+    </g>
+
+    <!-- fleuve -->
+    <rect x="-20" y="700" width="640" height="200" fill="url(#eau)"/>
+    <!-- reflet de lune brisé -->
+    <g fill="#f4e9c8">
+      <rect x="284" y="712" width="32" height="2" opacity=".35"/>
+      <rect x="290" y="722" width="22" height="2" opacity=".28"/>
+      <rect x="280" y="734" width="40" height="2" opacity=".22"/>
+      <rect x="292" y="748" width="18" height="2" opacity=".18"/>
+      <rect x="276" y="764" width="48" height="2" opacity=".14"/>
+      <rect x="288" y="784" width="26" height="2" opacity=".1"/>
+    </g>
+
+    <!-- filet doré -->
+    <rect x="28" y="28" width="544" height="844" fill="none" stroke="#c9a35c" stroke-opacity=".55" stroke-width="1"/>
+    <rect x="34" y="34" width="532" height="832" fill="none" stroke="#c9a35c" stroke-opacity=".25" stroke-width=".6"/>
+
+    <!-- surtitre -->
+    <text x="300" y="86" text-anchor="middle" fill="#c9a35c" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="5">UN ROMAN DES DEUX COLLINES</text>
+
+    <!-- titre -->
+    <text x="300" y="690" text-anchor="middle" fill="#f4e9c8" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="72" font-weight="600" letter-spacing="1">La Part</text>
+    <text x="300" y="768" text-anchor="middle" fill="#f4e9c8" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="72" font-weight="600" letter-spacing="1">de Lune</text>
+
+    <!-- trait -->
+    <line x1="250" y1="796" x2="350" y2="796" stroke="#c9a35c" stroke-width="1" stroke-opacity=".8"/>
+
+    <!-- auteur -->
+    <text x="300" y="830" text-anchor="middle" fill="#c9bc95" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="13" letter-spacing="4">ÉCRIT AVEC CLAUDE</text>
+  </g>
+</svg></template><template class="couv" data-livre="vesper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Couverture : Le Contrat de Vesper">
+  <defs>
+    <linearGradient id="fondVe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0b10"/>
+      <stop offset=".6" stop-color="#15161e"/>
+      <stop offset="1" stop-color="#0a0b10"/>
+    </linearGradient>
+    <linearGradient id="vitre" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3f55" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#1a1c28" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="mer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2340"/>
+      <stop offset="1" stop-color="#070810"/>
+    </linearGradient>
+    <linearGradient id="fil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8dce6" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#d8dce6" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#d8dce6" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cadreVe"><rect width="600" height="900"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cadreVe)">
+    <rect width="600" height="900" fill="url(#fondVe)"/>
+
+    <!-- grande baie vitrée sur la mer, vue de l'intérieur -->
+    <rect x="80" y="150" width="440" height="520" fill="url(#mer)"/>
+    <!-- horizon -->
+    <rect x="80" y="440" width="440" height="1.2" fill="#8c93aa" opacity=".6"/>
+    <!-- port automatisé : grues au loin -->
+    <g stroke="#2e3448" stroke-width="2" fill="none" opacity=".9">
+      <path d="M 120 440 L 120 380 L 200 380 M 128 380 L 128 440 M 120 380 L 100 400"/>
+      <path d="M 250 440 L 250 365 L 340 365 M 258 365 L 258 440 M 250 365 L 228 388"/>
+      <path d="M 400 440 L 400 372 L 480 372 M 408 372 L 408 440 M 400 372 L 380 394"/>
+    </g>
+    <!-- lumières des grues : minuscules points -->
+    <g fill="#e6e9f2">
+      <circle cx="200" cy="380" r="1.4" opacity=".9"/><circle cx="340" cy="365" r="1.4" opacity=".9"/>
+      <circle cx="480" cy="372" r="1.4" opacity=".9"/><circle cx="160" cy="410" r=".9" opacity=".5"/>
+      <circle cx="300" cy="404" r=".9" opacity=".5"/><circle cx="440" cy="412" r=".9" opacity=".5"/>
+    </g>
+    <!-- reflets sur l'eau -->
+    <g fill="#8c93aa">
+      <rect x="190" y="470" width="20" height="1.5" opacity=".35"/><rect x="330" y="486" width="22" height="1.5" opacity=".3"/>
+      <rect x="470" y="478" width="18" height="1.5" opacity=".3"/><rect x="196" y="500" width="10" height="1.5" opacity=".2"/>
+      <rect x="336" y="516" width="12" height="1.5" opacity=".2"/><rect x="474" y="508" width="10" height="1.5" opacity=".2"/>
+    </g>
+    <!-- vitre : reflet diagonal -->
+    <path d="M 80 150 L 260 150 L 80 470 Z" fill="url(#vitre)"/>
+    <!-- montants de la baie -->
+    <g fill="#0a0b10">
+      <rect x="298" y="150" width="4" height="520"/>
+      <rect x="80" y="408" width="440" height="3"/>
+    </g>
+    <!-- cadre de la baie -->
+    <rect x="80" y="150" width="440" height="520" fill="none" stroke="#2a2d3a" stroke-width="6"/>
+
+    <!-- silhouette : un fauteuil vide au premier plan, vu de dos, devant la baie -->
+    <g fill="#050609">
+      <path d="M 200 700 L 200 560 C 200 540, 215 530, 235 530 L 365 530 C 385 530, 400 540, 400 560 L 400 700 Z"/>
+      <rect x="185" y="600" width="24" height="100" rx="4"/>
+      <rect x="391" y="600" width="24" height="100" rx="4"/>
+    </g>
+    <!-- liseré lumineux sur le dossier -->
+    <path d="M 205 560 C 205 545, 218 536, 235 536 L 365 536 C 382 536, 395 545, 395 560" fill="none" stroke="#3a3f55" stroke-width="1.2"/>
+
+    <!-- score : chiffres discrets en bas de vitre, comme une projection -->
+    <text x="500" y="640" text-anchor="end" fill="#b9bfd1" font-family="'DM Mono', 'Courier New', monospace" font-size="15" letter-spacing="3" opacity=".8">940</text>
+    <text x="500" y="662" text-anchor="end" fill="#6b7086" font-family="'DM Mono', 'Courier New', monospace" font-size="11" letter-spacing="3" opacity=".8">412 → 703</text>
+
+    <!-- fil de lumière horizontal, très fin, entre la baie et le titre -->
+    <rect x="60" y="712" width="480" height="1" fill="url(#fil)"/>
+
+    <!-- surtitre -->
+    <text x="300" y="86" text-anchor="middle" fill="#8c93aa" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="5">UNE DARK ROMANCE</text>
+
+    <!-- titre -->
+    <text x="300" y="790" text-anchor="middle" fill="#e6e9f2" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="30" font-style="italic" letter-spacing="1">Le Contrat de</text>
+    <text x="300" y="852" text-anchor="middle" fill="#e6e9f2" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="6">VESPER</text>
+
+    <!-- filet -->
+    <rect x="28" y="28" width="544" height="844" fill="none" stroke="#8c93aa" stroke-opacity=".45" stroke-width="1"/>
+
+    <!-- auteur -->
+    <text x="300" y="118" text-anchor="middle" fill="#6b7086" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="11" letter-spacing="4">ÉCRIT AVEC CLAUDE</text>
+  </g>
+</svg></template><template class="couv" data-livre="braises"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Couverture : La Saison des Braises">
+  <defs>
+    <linearGradient id="cielB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0c0a"/>
+      <stop offset=".45" stop-color="#4a1a10"/>
+      <stop offset=".75" stop-color="#8a3a1f"/>
+      <stop offset="1" stop-color="#c8642a"/>
+    </linearGradient>
+    <linearGradient id="solB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0a08"/>
+      <stop offset="1" stop-color="#060302"/>
+    </linearGradient>
+    <linearGradient id="fissure" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#ff5a1f"/>
+    </linearGradient>
+    <radialGradient id="lueur" cx=".5" cy="1" r=".7">
+      <stop offset="0" stop-color="#ff7a2f" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff7a2f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="parchemin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1e3c4"/>
+      <stop offset="1" stop-color="#d9c49a"/>
+    </linearGradient>
+    <clipPath id="cadreB"><rect width="600" height="900"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cadreB)">
+    <rect width="600" height="900" fill="url(#cielB)"/>
+    <!-- lueur montant du sol -->
+    <rect x="0" y="380" width="600" height="520" fill="url(#lueur)"/>
+
+    <!-- terre noire fendue, la Ligne des Cendres -->
+    <path d="M -20 560 C 120 540, 220 570, 320 555 C 430 540, 520 565, 620 550 L 620 900 L -20 900 Z" fill="url(#solB)"/>
+    <!-- fissures lumineuses -->
+    <g stroke="url(#fissure)" fill="none" stroke-linecap="round">
+      <path d="M 40 900 L 90 780 L 70 700 L 120 640 L 100 580" stroke-width="3"/>
+      <path d="M 90 780 L 140 760 L 180 700" stroke-width="1.6"/>
+      <path d="M 300 900 L 280 800 L 310 720 L 290 660 L 330 600 L 320 566" stroke-width="3.5"/>
+      <path d="M 310 720 L 360 700 L 380 640" stroke-width="1.6"/>
+      <path d="M 290 660 L 240 640 L 220 590" stroke-width="1.4"/>
+      <path d="M 540 900 L 500 790 L 530 720 L 490 660 L 520 600 L 505 560" stroke-width="3"/>
+      <path d="M 500 790 L 440 770 L 420 720" stroke-width="1.6"/>
+      <path d="M 160 900 L 190 850 L 170 800" stroke-width="1.4"/>
+      <path d="M 430 900 L 410 860 L 440 820" stroke-width="1.4"/>
+    </g>
+    <!-- braises qui montent -->
+    <g fill="#ffb347">
+      <circle cx="120" cy="520" r="1.6" opacity=".9"/><circle cx="150" cy="470" r="1.1" opacity=".6"/>
+      <circle cx="335" cy="500" r="1.8" opacity=".95"/><circle cx="355" cy="440" r="1.2" opacity=".6"/>
+      <circle cx="372" cy="390" r=".9" opacity=".4"/><circle cx="500" cy="510" r="1.5" opacity=".85"/>
+      <circle cx="470" cy="450" r="1" opacity=".55"/><circle cx="220" cy="480" r="1.2" opacity=".7"/>
+      <circle cx="90" cy="430" r=".9" opacity=".4"/><circle cx="540" cy="420" r=".9" opacity=".4"/>
+    </g>
+
+    <!-- carte de parchemin déroulée, posée en travers, coin qui brûle -->
+    <g transform="translate(300 300) rotate(-7)">
+      <rect x="-190" y="-120" width="380" height="250" rx="3" fill="url(#parchemin)"/>
+      <!-- tracés cartographiques : rivières, reliefs -->
+      <g fill="none" stroke="#7a5a30" stroke-width="1.2" opacity=".85">
+        <path d="M -170 -60 C -120 -70, -90 -30, -40 -40 C 10 -50, 40 -10, 90 -20 C 130 -28, 150 10, 170 0"/>
+        <path d="M -160 20 C -110 10, -80 40, -30 30 C 20 20, 50 60, 110 50"/>
+        <path d="M -150 80 C -100 70, -60 100, -10 90"/>
+      </g>
+      <g fill="none" stroke="#7a5a30" stroke-width=".9" opacity=".6">
+        <path d="M -120 -90 l 12 -14 l 12 14 M -95 -95 l 10 -12 l 10 12 M -70 -88 l 12 -14 l 12 14"/>
+        <path d="M 40 -100 l 12 -14 l 12 14 M 65 -105 l 10 -12 l 10 12"/>
+        <path d="M -40 60 l 12 -14 l 12 14 M -15 66 l 10 -12 l 10 12"/>
+      </g>
+      <!-- rose des vents -->
+      <g transform="translate(140 80)" stroke="#7a5a30" fill="#7a5a30" opacity=".8">
+        <path d="M 0 -22 L 5 0 L 0 22 L -5 0 Z"/>
+        <path d="M -22 0 L 0 5 L 22 0 L 0 -5 Z" fill="#f1e3c4"/>
+        <circle r="2.5" fill="#f1e3c4"/>
+      </g>
+      <!-- la ligne où la carte s'arrête : le blanc -->
+      <line x1="60" y1="-120" x2="120" y2="130" stroke="#7a5a30" stroke-width="1" stroke-dasharray="4 4" opacity=".8"/>
+      <text x="150" y="-60" fill="#7a5a30" font-family="'Cormorant Garamond', Georgia, serif" font-size="12" font-style="italic" opacity=".8" transform="rotate(76 150 -60)">terra incognita</text>
+      <!-- coin brûlé -->
+      <path d="M 190 40 C 175 60, 180 100, 150 130 L 190 130 Z" fill="#1a0c0a"/>
+      <path d="M 190 40 C 175 60, 180 100, 150 130" fill="none" stroke="#ff7a2f" stroke-width="2.2"/>
+      <path d="M 190 40 C 175 60, 180 100, 150 130" fill="none" stroke="#ffb347" stroke-width=".8"/>
+      <g fill="#ffb347">
+        <circle cx="178" cy="60" r="1.4"/><circle cx="184" cy="88" r="1.1"/><circle cx="166" cy="112" r="1.2"/>
+      </g>
+    </g>
+
+    <!-- surtitre -->
+    <text x="300" y="86" text-anchor="middle" fill="#f1c9a0" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="5">UNE ROMANCE AU-DELÀ DE LA LIGNE DES CENDRES</text>
+
+    <!-- titre -->
+    <text x="300" y="690" text-anchor="middle" fill="#fff3e2" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" letter-spacing="1">La Saison</text>
+    <text x="300" y="762" text-anchor="middle" fill="#fff3e2" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" letter-spacing="2">des Braises</text>
+    <line x1="246" y1="790" x2="354" y2="790" stroke="#ffb347" stroke-width="1" stroke-opacity=".9"/>
+
+    <!-- filet -->
+    <rect x="28" y="28" width="544" height="844" fill="none" stroke="#ffb347" stroke-opacity=".45" stroke-width="1"/>
+
+    <!-- auteur -->
+    <text x="300" y="850" text-anchor="middle" fill="#f1c9a0" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="4">ÉCRIT AVEC CLAUDE</text>
+  </g>
+</svg></template><template class="couv" data-livre="verre"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Couverture : La Dette de Verre">
+  <defs>
+    <linearGradient id="cielV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c2229"/>
+      <stop offset=".55" stop-color="#123641"/>
+      <stop offset="1" stop-color="#0a1a20"/>
+    </linearGradient>
+    <linearGradient id="verreV" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfe3e3" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#6fa9ac" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#1f4a52" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="facade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#173842"/>
+      <stop offset="1" stop-color="#081217"/>
+    </linearGradient>
+    <radialGradient id="soleilV" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#f4e3b0" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#f4e3b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="laiton" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9d3a0"/>
+      <stop offset=".5" stop-color="#b08a4a"/>
+      <stop offset="1" stop-color="#e9d3a0"/>
+    </linearGradient>
+    <clipPath id="cadreV"><rect width="600" height="900"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cadreV)">
+    <rect width="600" height="900" fill="url(#cielV)"/>
+    <circle cx="440" cy="150" r="220" fill="url(#soleilV)"/>
+
+    <!-- silhouette de façade d'hôtel, style Belle Époque, colonnades -->
+    <g fill="url(#facade)">
+      <rect x="60" y="230" width="480" height="560"/>
+    </g>
+    <g fill="#081217" opacity=".85">
+      <rect x="60" y="230" width="480" height="18"/>
+      <rect x="60" y="770" width="480" height="20"/>
+    </g>
+    <!-- colonnes -->
+    <g fill="#0d262d">
+      <rect x="88" y="248" width="16" height="522"/>
+      <rect x="168" y="248" width="16" height="522"/>
+      <rect x="248" y="248" width="16" height="522"/>
+      <rect x="336" y="248" width="16" height="522"/>
+      <rect x="416" y="248" width="16" height="522"/>
+      <rect x="496" y="248" width="16" height="522"/>
+    </g>
+    <!-- fenêtres arquées, certaines éclairées -->
+    <g>
+      <g id="rangF" fill="#0a2026">
+        <path d="M 116 300 h34 v60 a17 17 0 0 1 -34 0 z"/>
+        <path d="M 196 300 h34 v60 a17 17 0 0 1 -34 0 z"/>
+        <path d="M 276 300 h34 v60 a17 17 0 0 1 -34 0 z"/>
+        <path d="M 356 300 h34 v60 a17 17 0 0 1 -34 0 z"/>
+        <path d="M 436 300 h34 v60 a17 17 0 0 1 -34 0 z"/>
+      </g>
+      <use href="#rangF" y="140"/>
+      <use href="#rangF" y="280"/>
+      <!-- fenêtres allumées -->
+      <path d="M 196 300 h34 v60 a17 17 0 0 1 -34 0 z" fill="#e9d3a0" opacity=".55"/>
+      <path d="M 356 440 h34 v60 a17 17 0 0 1 -34 0 z" fill="#e9d3a0" opacity=".4"/>
+      <path d="M 436 580 h34 v60 a17 17 0 0 1 -34 0 z" fill="#e9d3a0" opacity=".5"/>
+      <path d="M 116 580 h34 v60 a17 17 0 0 1 -34 0 z" fill="#e9d3a0" opacity=".3"/>
+    </g>
+
+    <!-- panneau de verre brisé qui recouvre le bas de la façade -->
+    <path d="M -20 560 L 220 520 L 340 610 L 470 540 L 640 600 L 640 900 L -20 900 Z" fill="url(#verreV)"/>
+    <!-- lignes de fracture -->
+    <g stroke="#eaf6f6" stroke-width="1.4" fill="none" opacity=".55">
+      <path d="M 300 900 L 280 700 L 340 560 L 300 480"/>
+      <path d="M 280 700 L 180 660 L 100 900"/>
+      <path d="M 280 700 L 380 730 L 480 900"/>
+      <path d="M 340 560 L 420 600 L 520 540"/>
+      <path d="M 340 560 L 250 540 L 160 590"/>
+      <path d="M 300 480 L 340 400 L 300 300"/>
+    </g>
+    <g stroke="#0a1a20" stroke-width=".6" fill="none" opacity=".5">
+      <path d="M 300 900 L 280 700 L 340 560 L 300 480"/>
+      <path d="M 280 700 L 180 660 L 100 900"/>
+      <path d="M 280 700 L 380 730 L 480 900"/>
+    </g>
+
+    <!-- clé d'hôtel suspendue au centre, laiton -->
+    <g transform="translate(300 400)">
+      <circle r="34" fill="none" stroke="url(#laiton)" stroke-width="6"/>
+      <circle r="34" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="1.2"/>
+      <rect x="-4" y="30" width="8" height="70" fill="url(#laiton)"/>
+      <rect x="-4" y="94" width="24" height="10" fill="url(#laiton)"/>
+      <rect x="-4" y="108" width="16" height="8" fill="url(#laiton)"/>
+      <text x="0" y="6" text-anchor="middle" fill="#0a1a20" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="700">44</text>
+    </g>
+
+    <!-- filet doré -->
+    <rect x="28" y="28" width="544" height="844" fill="none" stroke="url(#laiton)" stroke-opacity=".55" stroke-width="1"/>
+    <rect x="34" y="34" width="532" height="832" fill="none" stroke="url(#laiton)" stroke-opacity=".25" stroke-width=".6"/>
+
+    <!-- surtitre -->
+    <text x="300" y="86" text-anchor="middle" fill="#cfead0" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="5">UN ROMAN DU GROUPE VALADARES</text>
+
+    <!-- bandeau translucide pour lisibilité du titre -->
+    <rect x="0" y="780" width="600" height="120" fill="#081217" opacity=".55"/>
+
+    <!-- titre -->
+    <text x="300" y="822" text-anchor="middle" fill="#f2f8f6" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="60" font-weight="700" letter-spacing="1">La Dette</text>
+    <text x="300" y="866" text-anchor="middle" fill="#f2f8f6" font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" letter-spacing="1">de Verre</text>
+    <line x1="260" y1="882" x2="340" y2="882" stroke="url(#laiton)" stroke-width="1"/>
+  </g>
+</svg></template></div>
+<script>
+
+const app = document.getElementById('app'), $ = id => document.getElementById(id);
+const KEY = 'liseuse:v2';
+let S = { night:false, livres:{} };   // livres[id] = {chap, scroll, bookmarks[], vus[]}
+let vue = 'lib', livre = null, ready = false, filtre = null;
+
+function etat(id){
+  if (!S.livres[id]) S.livres[id] = { chap:0, scroll:0, bookmarks:[], vus:[] };
+  return S.livres[id];
+}
+function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('show');
+  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
+
+async function load(){
+  try {
+    const r = await window.storage.get(KEY);
+    if (r && r.value) Object.assign(S, JSON.parse(r.value));
+    else {
+      try { const old = await window.storage.get('castellano:etat');
+        if (old && old.value){ const o = JSON.parse(old.value);
+          S.night = !!o.night;
+          S.livres.castellano = { chap:o.chap||0, scroll:o.scroll||0, bookmarks:o.bookmarks||[], vus:[] };
+          for (let i=0;i<=(o.chap||0);i++) S.livres.castellano.vus.push(i);
+        }
+      } catch(e){}
+    }
+    $('statusNote').textContent = 'Progression et marque-pages enregistrés automatiquement.';
+  } catch(e){ $('statusNote').textContent = 'Sauvegarde indisponible : la progression ne sera pas conservée.'; }
+  ready = true;
+}
+async function save(){ if(!ready) return; try{ await window.storage.set(KEY, JSON.stringify(S)); }catch(e){} }
+
+/* ---- pourcentage lu ---- */
+function pct(b){
+  const e = S.livres[b.id]; if (!e || !e.vus) return 0;
+  if (!b.chapitres.length) return 0;
+  return Math.round(e.vus.length / b.chapitres.length * 100);
+}
+function svgDe(id){
+  const t = document.querySelector(`#couvertures template[data-livre="${id}"]`);
+  return t ? t.innerHTML : '';
+}
+function couverture(b, petit){
+  if (b.couv) { const s = svgDe(b.id);
+    if (s) return `<div class="cover" style="padding:0;background:#0b0f1e">${s}</div>`; }
+  return `<div class="cover" style="background:linear-gradient(150deg,${b.couleur},#14161a)">
+     <div class="ca">${b.genres[0].toUpperCase()}</div>
+     <div><div class="ct">${b.titre}</div>
+     <div class="ca" style="margin-top:8px">${b.annee}</div></div></div>`;
+}
+
+/* ---- bibliothèque ---- */
+function tousGenres(){ const s=new Set(); BOOKS.forEach(b=>b.genres.forEach(g=>s.add(g))); return [...s].sort(); }
+
+function renderLib(){
+  $('libCount').textContent = BOOKS.length + (BOOKS.length>1 ? ' livres' : ' livre');
+  $('chips').innerHTML = tousGenres().map(g=>`<button class="chip ${filtre===g?'on':''}" data-g="${g}">${g}</button>`).join('');
+  [...$('chips').querySelectorAll('[data-g]')].forEach(c=>{
+    c.onclick = () => { filtre = (filtre===c.dataset.g ? null : c.dataset.g); renderLib(); };
+  });
+  const q = $('search').value.trim().toLowerCase();
+  const res = BOOKS.filter(b=>{
+    const okG = !filtre || b.genres.includes(filtre);
+    const hay = (b.titre+' '+b.auteur+' '+b.genres.join(' ')+' '+b.resume).toLowerCase();
+    return okG && (!q || hay.includes(q));
+  });
+  $('noRes').style.display = res.length ? 'none' : '';
+  $('grid').innerHTML = res.map(b=>{
+    const p = pct(b);
+    return `<button class="card" data-b="${b.id}">${couverture(b)}
+      <div class="cmeta"><b>${b.titre}</b>${b.serie ? `<div class="cpct" style="margin-top:3px">${b.serie}</div>` : ''}
+        <div class="cbar"><i style="width:${p}%"></i></div>
+        <div class="cpct">${p} % lu · ${b.statut}</div></div></button>`;
+  }).join('');
+  [...$('grid').querySelectorAll('[data-b]')].forEach(c=>{
+    c.onclick = () => ouvrirLivre(c.dataset.b);
+  });
+}
+$('search').oninput = renderLib;
+
+/* ---- page de garde ---- */
+function ouvrirLivre(id){
+  livre = BOOKS.find(b=>b.id===id);
+  app.style.setProperty('--accent', livre.couleur);
+  const e = etat(id), p = pct(livre);
+  $('gCover').innerHTML = couverture(livre);
+  $('gTitle').textContent = livre.titre;
+  $('gAuth').textContent = (livre.serie ? livre.serie.toUpperCase() + '  ·  ' : '') + livre.auteur.toUpperCase();
+  $('gChips').innerHTML = [livre.statut, ...livre.genres].map(g=>`<span>${g}</span>`).join('');
+  $('gRes').textContent = livre.resume;
+  $('gPct').textContent = p + ' %';
+  $('gBar').style.width = p + '%';
+  $('gLab').textContent = !livre.chapitres.length ? 'En préparation · aucun chapitre publié'
+    : p===0 ? 'Jamais ouvert · ' + livre.chapitres.length + ' chapitres'
+    : (p===100 ? 'Terminé · ' + livre.chapitres.length + ' chapitres'
+    : 'Lu · reprise au chapitre ' + livre.chapitres[e.chap].n + ' sur ' + livre.chapitres.length);
+  const vide = !livre.chapitres.length;
+  $('readBtn').textContent = vide ? 'Bientôt disponible' : (p===0 ? 'Commencer la lecture' : 'Reprendre au chapitre ' + livre.chapitres[e.chap].n);
+  $('readBtn').disabled = vide; $('readBtn').style.opacity = vide ? '.45' : '';
+  $('tocBtn').style.display = vide ? 'none' : '';
+  $('resetBtn').style.display = p===0 ? 'none' : '';
+  aller('cover');
+}
+
+function aller(v, restore){
+  vue = v;
+  $('vLib').classList.toggle('on', v==='lib');
+  $('vCover').classList.toggle('on', v==='cover');
+  $('vRead').classList.toggle('on', v==='read');
+  $('backBtn').style.display = v==='lib' ? 'none' : '';
+  $('menuBtn').style.display = v==='read' ? '' : 'none';
+  $('bmBtn').style.display = v==='read' ? '' : 'none';
+  $('barTitle').textContent = v==='lib' ? 'Bibliothèque'
+    : (v==='cover' ? livre.titre : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
+  if (v==='read') renderChap(restore); else { $('progBar').style.width = '0'; window.scrollTo(0,0); }
+  if (v==='lib') { livre = null; app.style.setProperty('--accent', '#6d1f2c'); renderLib(); }
+}
+
+/* ---- lecture ---- */
+function renderChap(restore){
+  const e = etat(livre.id), c = livre.chapitres[e.chap];
+  $('chapNum').textContent = 'Chapitre ' + c.n;
+  $('chapTitle').textContent = c.t;
+  $('chapPov').textContent = 'Point de vue — ' + c.pov;
+  $('chapBody').innerHTML = c.p.map((t,i)=>`<p data-i="${i}">${t}</p>`).join('');
+  $('barTitle').textContent = 'Ch. ' + c.n + ' · ' + c.t;
+  $('prevBtn').disabled = e.chap===0;
+  $('nextBtn').disabled = e.chap===livre.chapitres.length-1;
+  if (!e.vus.includes(e.chap)) { e.vus.push(e.chap); save(); }
+  buildChaps(); buildBms(); updateBm();
+  window.scrollTo(0, restore ? (e.scroll||0) : 0);
+  updateProgress();
+}
+function updateProgress(){
+  if (vue!=='read') return;
+  const e = etat(livre.id);
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  const dans = h>0 ? Math.min(window.scrollY/h,1) : 0;
+  $('progBar').style.width = ((e.chap+dans)/livre.chapitres.length*100).toFixed(1) + '%';
+}
+function paraCourant(){
+  const ps = [...document.querySelectorAll('#chapBody p')], mid = innerHeight*0.3;
+  let best = 0; ps.forEach((p,i)=>{ if (p.getBoundingClientRect().top<=mid) best=i; }); return best;
+}
+function updateBm(){ const e=etat(livre.id); $('bmBtn').classList.toggle('on', e.bookmarks.some(b=>b.chap===e.chap)); }
+function toggleBm(){
+  const e = etat(livre.id), para = paraCourant();
+  const i = e.bookmarks.findIndex(b=>b.chap===e.chap && b.para===para);
+  if (i>-1){ e.bookmarks.splice(i,1); toast('Marque-page retiré'); }
+  else {
+    const t = livre.chapitres[e.chap].p[para]||'';
+    e.bookmarks.push({ chap:e.chap, para, extrait:t.slice(0,90)+(t.length>90?'…':''),
+      date:new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) });
+    e.bookmarks.sort((a,b)=>a.chap-b.chap||a.para-b.para);
+    toast('Marque-page posé — chapitre ' + livre.chapitres[e.chap].n);
+  }
+  updateBm(); buildBms(); save();
+}
+function buildChaps(){
+  const e = etat(livre.id);
+  $('dTitle').textContent = livre.titre;
+  $('paneChaps').innerHTML = livre.chapitres.map((c,i)=>
+    `<button class="chapline ${i===e.chap?'current':''}" data-go="${i}">
+      <em>Chapitre ${c.n} · ${c.pov}${e.vus.includes(i)?' · lu':''}</em>${c.t}</button>`).join('');
+  [...$('paneChaps').querySelectorAll('[data-go]')].forEach(b=>{
+    b.onclick = () => { e.chap = +b.dataset.go; e.scroll = 0; save(); fermer(); aller('read', false); };
+  });
+}
+function buildBms(){
+  const e = etat(livre.id), pane = $('paneBms');
+  if (!e.bookmarks.length){ pane.innerHTML = '<p class="empty">Aucun marque-page. Touchez ✦ en haut pour marquer le passage où vous êtes.</p>'; return; }
+  pane.innerHTML = e.bookmarks.map((b,i)=>
+    `<div><button class="bmrow" data-bm="${i}"><small>Chapitre ${livre.chapitres[b.chap].n} · ${b.date}</small>
+      <span>« ${b.extrait} »</span></button><button class="del" data-del="${i}">Supprimer</button></div>`).join('');
+  [...pane.querySelectorAll('[data-bm]')].forEach(x=>{
+    x.onclick = () => { const bm = e.bookmarks[+x.dataset.bm]; e.chap = bm.chap; save(); fermer(); aller('read', false);
+      setTimeout(()=>{ const p = document.querySelector(`#chapBody p[data-i="${bm.para}"]`);
+        if (p) p.scrollIntoView({behavior:'smooth',block:'center'}); }, 60); };
+  });
+  [...pane.querySelectorAll('[data-del]')].forEach(x=>{
+    x.onclick = () => { e.bookmarks.splice(+x.dataset.del,1); buildBms(); updateBm(); save(); toast('Marque-page supprimé'); };
+  });
+}
+
+/* ---- contrôles ---- */
+function ouvrir(){ $('drawer').classList.add('open'); $('scrim').classList.add('open'); }
+function fermer(){ $('drawer').classList.remove('open'); $('scrim').classList.remove('open'); }
+$('menuBtn').onclick = ouvrir; $('closeBtn').onclick = fermer; $('scrim').onclick = fermer;
+$('tocBtn').onclick = () => { buildChaps(); buildBms(); ouvrir(); };
+$('bmBtn').onclick = toggleBm;
+$('backBtn').onclick = () => { if (vue==='read') ouvrirLivre(livre.id); else aller('lib'); };
+$('readBtn').onclick = () => aller('read', true);
+$('resetBtn').onclick = () => {
+  if (!confirm('Effacer votre progression et vos marque-pages pour ce livre ?')) return;
+  S.livres[livre.id] = { chap:0, scroll:0, bookmarks:[], vus:[] }; save(); ouvrirLivre(livre.id); toast('Progression réinitialisée');
+};
+$('nightBtn').onclick = () => { S.night = !S.night; app.classList.toggle('night', S.night);
+  $('nightBtn').classList.toggle('on', S.night); save(); };
+$('prevBtn').onclick = () => { const e=etat(livre.id); if(e.chap>0){ e.chap--; e.scroll=0; save(); renderChap(false); } };
+$('nextBtn').onclick = () => { const e=etat(livre.id); if(e.chap<livre.chapitres.length-1){ e.chap++; e.scroll=0; save(); renderChap(false); } };
+$('tabChaps').onclick = () => { $('tabChaps').classList.add('on'); $('tabBms').classList.remove('on');
+  $('paneChaps').style.display=''; $('paneBms').style.display='none'; };
+$('tabBms').onclick = () => { $('tabBms').classList.add('on'); $('tabChaps').classList.remove('on');
+  $('paneBms').style.display=''; $('paneChaps').style.display='none'; };
+
+let tmr;
+addEventListener('scroll', () => {
+  if (vue!=='read') return;
+  updateProgress(); updateBm();
+  etat(livre.id).scroll = scrollY;
+  clearTimeout(tmr); tmr = setTimeout(save, 600);
+}, {passive:true});
+addEventListener('keydown', e => {
+  if (vue==='read'){ if(e.key==='ArrowRight') $('nextBtn').click(); if(e.key==='ArrowLeft') $('prevBtn').click(); }
+  if (e.key==='Escape') fermer();
+});
+
+(async () => { await load(); app.classList.toggle('night', !!S.night);
+  $('nightBtn').classList.toggle('on', !!S.night); renderLib(); })();
+</script>
+</div>
