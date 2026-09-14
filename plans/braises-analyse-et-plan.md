@@ -110,8 +110,24 @@ Les cinq chapitres actuels ne sont pas perdus : ils deviennent les chapitres **1
 - Ch. 11 (Ysée) : Départ à l'aube. Le Doyen ne vient pas. Halden est sur les remparts.
 - Ch. 12 (Cael) : **Cliffhanger d'acte** — première nuit de route. Il fait le feu avec ses mains. Elle ne regarde pas. Et il comprend qu'elle a détourné les yeux *exprès*.
 
-### Acte II — La route (chapitres 13 à 24) · *douze jours*
+### Acte II — La route (chapitres 13 à 24) · *seize jours* — ÉCRIT
 **Objectif** : la proximité s'installe par l'intrigue, pas par décision. Halden suit.
+
+**Chronologie fixée (décision du 14 septembre : le voyage dure seize jours, pas douze — corrigé aux ch. 5, 7, 8, 11)** :
+- Jours 1-5 : premiers feux (ch. 12). Jour 6 : la chute (ch. 13-14). Jour 7 : Cael explique la Ligne (ch. 15).
+- Jour 9 : Pierre-Fendue, l'édit des Veilles (ch. 16). Jour 10 : la leçon de selle, puis l'auberge du Gué (ch. 17-18). Jour 11 : passage du gué de Sarre (ch. 19).
+- Jours 12-13 : montée vers le plateau de Hesse, relevé du cavalier (ch. 20). Jour 15, avant l'aube : le défilé de Marne (ch. 21-22). Soir 16 : le bord de la Ligne (ch. 23-24).
+
+**Lieux introduits** : Pierre-Fendue (bourg, six cents âmes, dernier coude de la route royale), le relais de Hesse, le gué de Sarre et son auberge, le plateau de Hesse, le défilé de Marne (quatre lieues, trois resserrements, éboulis à la deuxième lieue), le poirier sauvage à trois lieues du bord, la dernière ferme. Les salines des Serrande près de la Ligne s'appellent **Saulnes** (sept lieues du bord) — ne pas confondre avec le port de Kern, au sud.
+
+**Faits posés à reprendre plus loin** :
+- Le genou gauche d'Ysée (ch. 13) : à faire revenir comme handicap réel sur la Ligne (acte III) — « on y passe debout ».
+- Le cheval de Cael est perdu au défilé ; un seul cheval pour deux, laissé à la dernière ferme avant la Ligne (ch. 22-23).
+- Trois hommes de Serrande blessés et laissés vivants au défilé, avec la promesse d'Ysée : « je dirai tout à Valdren » (ch. 22).
+- Le pli du Doyen, ouvert au ch. 24 : *« L'homme que je vous confie cherche quelqu'un dans le Nord… Vous ne l'aiderez pas à chercher. »* Ysée ne l'a pas dit à Cael.
+- Neuf feux au sud, à deux lieues et demie (ch. 24) : Halden a engagé une vraie troupe — décision : on garde neuf ; l'acte IV assume une confrontation d'ampleur.
+- Règle des trois secondes sur la laine sèche (ch. 14) ; Cael « chauffe en dormant » (ch. 18) ; après une grosse dépense, il vide et a froid (ch. 21).
+- Ysée l'appelle « Cael » depuis le gué (ch. 19) ; il l'appelle « Ysée » depuis le seizième soir (ch. 24). Vouvoiement maintenu des deux côtés.
 
 - Ch. 13 (Ysée) : Quatre jours de selle. La chute. « Ne dites rien. » *(actuel ch. 2, POV inversé)*
 - Ch. 14 (Cael) : Il l'a rattrapée. Il a lâché la manche trop tôt. Il sait qu'elle a remarqué.
