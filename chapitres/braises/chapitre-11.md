@@ -86,7 +86,7 @@ Il m'a regardée comme s'il me voyait pour la première fois — pas avec chaleu
 
 — Pourquoi vous me le dites ?
 
-— Parce que je n'ai pas envie de faire douze jours de route à côté d'un homme en gardant ça dans le ventre, ai-je dit. Je crois que quelqu'un m'a expliqué hier que c'était la meilleure façon de finir par laisser tomber l'autre quelque part.
+— Parce que je n'ai pas envie de faire seize jours de route à côté d'un homme en gardant ça dans le ventre, ai-je dit. Je crois que quelqu'un m'a expliqué hier que c'était la meilleure façon de finir par laisser tomber l'autre quelque part.
 
 Quelque chose a bougé au coin de sa bouche. Ça n'a pas duré.
 

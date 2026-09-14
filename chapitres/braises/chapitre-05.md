@@ -86,7 +86,7 @@ Je me suis arrêtée, la main sur la porte.
 
 — Pourquoi ?
 
-— Parce que c'est un homme qui a dix-neuf ans de four dans le corps et vingt-deux ans de colère dans la tête, et qu'il vous faut douze jours de route avec lui avant la Ligne. S'il apprend ce qu'il apprendra de toute façon, qu'il l'apprenne tard.
+— Parce que c'est un homme qui a dix-neuf ans de four dans le corps et vingt-deux ans de colère dans la tête, et qu'il vous faut seize jours de route avec lui avant la Ligne. S'il apprend ce qu'il apprendra de toute façon, qu'il l'apprenne tard.
 
 J'ai refermé la porte derrière moi.
 

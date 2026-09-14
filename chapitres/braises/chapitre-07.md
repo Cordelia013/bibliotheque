@@ -64,7 +64,7 @@ J'ai attendu que ma voix revienne.
 
 Il m'a tendu la bride.
 
-— Ce n'est pas un pardon, Marrec. C'est un état de fait. Nous avons douze jours de route et quatre-vingt-deux lieues de feu, et je ne peux pas garder ça dans le ventre pendant tout ce temps sans finir par vous laisser tomber quelque part.
+— Ce n'est pas un pardon, Marrec. C'est un état de fait. Nous avons seize jours de route et quatre-vingt-deux lieues de feu, et je ne peux pas garder ça dans le ventre pendant tout ce temps sans finir par vous laisser tomber quelque part.
 
 J'ai pris la bride.
 

@@ -54,7 +54,7 @@ Elle a rangé le carnet dans la doublure de son manteau. Pas dans la sacoche. Da
 
 Je n'ai rien répondu.
 
-J'ai fini de charger les sacoches. J'ai vérifié les sangles deux fois au lieu d'une. Et pendant tout ce temps, j'ai pensé à une chose que je n'ai pas dite, ce jour-là ni les onze suivants.
+J'ai fini de charger les sacoches. J'ai vérifié les sangles deux fois au lieu d'une. Et pendant tout ce temps, j'ai pensé à une chose que je n'ai pas dite, ce jour-là ni les quinze suivants.
 
 Les Fours de Ghar n'existent sur aucune carte d'après-guerre. Le Sud ne les a pas effacés par malveillance. Il les a simplement arrêtés de dessiner, parce qu'après la Ligne il n'y avait plus rien à vendre là-bas, et qu'on ne dessine pas ce qui ne se vend pas.
 
