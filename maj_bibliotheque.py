@@ -1,11 +1,29 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """Régénère la bibliothèque à partir des dossiers chapitres/<id>/.
-Ne crée jamais de nouveau fichier de liseuse : met à jour docs/index.html (couvertures)
-et docs/books.js (texte des livres) en place."""
-import re, json, glob, os
+
+Écrit les fichiers de données chargés par docs/index.html :
+
+    docs/data-castellano-p1.js … p4.js   (40 chapitres, découpés par 10)
+    docs/data-vesper.js, data-braises.js, data-verre.js
+
+Met aussi à jour, en place :
+  - le bloc des couvertures dans docs/index.html ;
+  - les dates de dernière mise à jour dans le tableau BOOKS de docs/app.js,
+    pour les seuls livres dont le texte a changé.
+
+Ne crée jamais de nouveau fichier de liseuse et ne touche ni au script
+applicatif, ni aux fiches personnages.
+"""
+import re, json, glob, os, datetime
 
 HTML = "docs/index.html"
-JS = "docs/books.js"
+APP = "docs/app.js"
+DOSSIER = "docs"
+
+# Un livre dont le texte dépasse ~60 Ko est découpé en plusieurs fichiers,
+# pour éviter les problèmes rencontrés avec les très gros fichiers uniques.
+DECOUPAGE = {"castellano": 10}          # id -> chapitres par fichier
 
 CATALOGUE = [
  {"id":"castellano","titre":"Le Prix du Silence, Don Castellano","auteur":"Écrit avec Claude",
@@ -30,41 +48,133 @@ CATALOGUE = [
   "resume":"Directrice générale du groupe hôtelier Valadares, Nour Belkacem hérite de trente-quatre pour cent des parts — à condition d'être encore en poste le jour de la mort du patriarche. Le fils revenu d'exil veut sa révocation. Une lettre laissée sous scellés lui apprend pourquoi ce legs n'était pas un cadeau, mais une dette : en 1997, Henrique Valadares a ruiné son père. À Lisbonne, tout le monde a de bonnes raisons."},
 ]
 
+
 def charger(bid):
+    """Lit les chapitres markdown d'un livre."""
     chaps = []
     for f in sorted(glob.glob(f"chapitres/{bid}/chapitre-*.md")):
         txt = open(f, encoding="utf-8").read()
         m = re.search(r'## Chapitre (\d+) — (.+)', txt)
+        if not m:
+            print(f"  !! en-tête de chapitre introuvable : {f}")
+            continue
         pov = re.search(r'\*POV (.+?)\*', txt)
         pov = pov.group(1).strip() if pov else ""
-        corps = txt.split(f"*POV {pov}*", 1)[1] if pov else txt.split(m.group(0),1)[1]
+        corps = txt.split(f"*POV {pov}*", 1)[1] if pov else txt.split(m.group(0), 1)[1]
         paras = [p.strip() for p in corps.split("\n\n") if p.strip() and p.strip() != "---"]
         paras = [re.sub(r'\*{1,2}(.+?)\*{1,2}', r'\1', p).replace("\n", " ") for p in paras]
         chaps.append({"n": int(m.group(1)), "t": m.group(2).strip(), "pov": pov, "p": paras})
     return chaps
 
-livres, templates = [], []
-for b in CATALOGUE:
-    b = dict(b); b["chapitres"] = charger(b["id"])
-    chemin = b.pop("couv", None)
-    if chemin and os.path.exists(chemin):
-        svg = open(chemin, encoding="utf-8").read()
-        svg = re.sub(r'<\?xml.*?\?>', '', svg).strip()
-        svg = re.sub(r'<metadata>.*?</metadata>', '', svg, flags=re.S)
-        svg = svg.replace(' xmlns:c2pa="http://c2pa.org/manifest"', '')
-        templates.append(f'<template class="couv" data-livre="{b["id"]}">{svg}</template>')
-        b["couv"] = True
-    livres.append(b)
 
-# Texte des livres : fichier séparé, chargé par index.html via <script src="books.js">
-js = "const BOOKS = " + json.dumps(livres, ensure_ascii=False) + ";"
-open(JS, "w", encoding="utf-8").write(js + "\n")
+def fichiers_donnees(bid, chapitres):
+    """Retourne la liste (nom de fichier, nom de constante, chapitres)."""
+    if not chapitres:
+        return []
+    par_fichier = DECOUPAGE.get(bid)
+    if not par_fichier:
+        return [(f"data-{bid}.js", f"DATA_{bid.upper()}", chapitres)]
+    lots = []
+    for i in range(0, len(chapitres), par_fichier):
+        n = i // par_fichier + 1
+        lots.append((f"data-{bid}-p{n}.js", f"{bid.upper()}_P{n}", chapitres[i:i + par_fichier]))
+    return lots
 
-# Couvertures : mises à jour en place dans index.html
-html = open(HTML, encoding="utf-8").read()
-bloc = '<div id="couvertures" hidden>' + "".join(templates) + '</div>'
-html = re.sub(r'<div id="couvertures" hidden>.*?</div>\s*(?=<script>)',
-              lambda m: bloc + "\n", html, flags=re.S)
-open(HTML, "w", encoding="utf-8").write(html)
-for b in livres:
-    print(f"  {b['titre']} — {len(b['chapitres'])} chapitres ({b['statut']})")
+
+def ecrire_si_different(chemin, contenu):
+    """Écrit le fichier et signale s'il a réellement changé."""
+    ancien = None
+    if os.path.exists(chemin):
+        ancien = open(chemin, encoding="utf-8").read()
+    if ancien == contenu:
+        return False
+    open(chemin, "w", encoding="utf-8").write(contenu)
+    return True
+
+
+def main():
+    aujourdhui = datetime.date.today().isoformat()
+    templates, modifies, resume = [], set(), []
+
+    for meta in CATALOGUE:
+        bid = meta["id"]
+        chapitres = charger(bid)
+
+        # fichiers de données
+        lots = fichiers_donnees(bid, chapitres)
+        attendus = set()
+        for nom, constante, morceau in lots:
+            chemin = os.path.join(DOSSIER, nom)
+            attendus.add(nom)
+            contenu = f"const {constante} = " + json.dumps(morceau, ensure_ascii=False) + ";"
+            if ecrire_si_different(chemin, contenu):
+                modifies.add(bid)
+
+        # suppression des fichiers devenus inutiles (livre raccourci).
+        # Uniquement si des chapitres ont été lus : un dossier absent ou vide
+        # ne doit jamais entraîner la perte des données déjà publiées.
+        if chapitres:
+            for obsolete in glob.glob(os.path.join(DOSSIER, f"data-{bid}*.js")):
+                if os.path.basename(obsolete) not in attendus:
+                    os.remove(obsolete)
+                    print(f"  supprimé : {obsolete}")
+                    modifies.add(bid)
+        elif glob.glob(os.path.join(DOSSIER, f"data-{bid}*.js")):
+            print(f"  !! aucun chapitre lu pour « {bid} » : fichiers existants conservés")
+
+        # couverture
+        chemin_svg = meta.get("couv")
+        if chemin_svg and os.path.exists(chemin_svg):
+            svg = open(chemin_svg, encoding="utf-8").read()
+            svg = re.sub(r'<\?xml.*?\?>', '', svg).strip()
+            svg = re.sub(r'<metadata>.*?</metadata>', '', svg, flags=re.S)
+            svg = svg.replace(' xmlns:c2pa="http://c2pa.org/manifest"', '')
+            templates.append(f'<template class="couv" data-livre="{bid}">{svg}</template>')
+
+        resume.append((meta["titre"], len(chapitres), meta["statut"], len(lots)))
+
+    # couvertures dans index.html : uniquement si toutes les couvertures
+    # attendues ont été trouvées, sinon on effacerait celles qui manquent.
+    attendues = sum(1 for m in CATALOGUE if m.get("couv"))
+    if os.path.exists(HTML) and templates and len(templates) == attendues:
+        html = open(HTML, encoding="utf-8").read()
+        bloc = '<div id="couvertures" hidden>' + "".join(templates) + '</div>'
+        nouveau, n = re.subn(r'<div id="couvertures" hidden>.*?</div>\s*(?=<script)',
+                             lambda m: bloc + "\n", html, flags=re.S)
+        if n == 0:
+            print("  !! bloc des couvertures introuvable dans index.html — non mis à jour")
+        elif nouveau != html:
+            open(HTML, "w", encoding="utf-8").write(nouveau)
+            print("  couvertures mises à jour dans index.html")
+    elif templates and len(templates) != attendues:
+        manquantes = [m["couv"] for m in CATALOGUE
+                      if m.get("couv") and not os.path.exists(m["couv"])]
+        print("  !! couvertures manquantes, index.html laissé intact : "
+              + ", ".join(manquantes))
+
+    # dates de mise à jour dans app.js
+    if modifies and os.path.exists(APP):
+        app = open(APP, encoding="utf-8").read()
+        debut = app.find("const BOOKS = [")
+        fin = app.find("];", debut)
+        if debut == -1 or fin == -1:
+            print("  !! tableau BOOKS introuvable dans app.js — dates non mises à jour")
+        else:
+            livres = json.loads(app[debut + len("const BOOKS = "):fin + 1])
+            for b in livres:
+                if b["id"] in modifies:
+                    b["maj"] = aujourdhui
+            ligne = "const BOOKS = " + json.dumps(livres, ensure_ascii=False) + ";"
+            open(APP, "w", encoding="utf-8").write(app[:debut] + ligne + app[fin + 2:])
+            print(f"  dates mises à jour ({aujourdhui}) : {', '.join(sorted(modifies))}")
+
+    print()
+    for titre, n, statut, lots in resume:
+        suffixe = f" — {lots} fichier(s)" if lots > 1 else ""
+        print(f"  {titre} — {n} chapitres ({statut}){suffixe}")
+    if not modifies:
+        print("\n  Aucun texte modifié.")
+
+
+if __name__ == "__main__":
+    main()
