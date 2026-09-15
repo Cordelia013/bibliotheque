@@ -142,7 +142,26 @@ Les cinq chapitres actuels ne sont pas perdus : ils deviennent les chapitres **1
 - Ch. 23 (Cael) : La veille. Il lui dit ce que la Ligne exige. *(actuel ch. 4)*
 - Ch. 24 (Ysée) : **Cliffhanger d'acte** — « Je m'entraîne à la distance. » Elle s'endort contre son bras. Au loin, les feux des hommes de Serrande.
 
-### Acte III — La Ligne (chapitres 25 à 34) · *trois jours*
+### Acte III — La Ligne (chapitres 25 à 34) · *trois jours, puis Ghar* — ÉCRIT
+
+**Chronologie fixée** : jour 17 = jour un de Ligne (ch. 25) ; jour 18 = jour deux (ch. 26-28) ; jour 19 = jour trois, sortie au soir, l'enfant, les sept Braises (ch. 29-31) ; jour 20 = première ligne sur le vélin (ch. 32) ; nuit du jour 21 = feu de Halden vu au premier tiers de la Ligne (ch. 33) ; jour 22 = la porte nord, le nom (ch. 34). Halden attendu le jour 23 ; Cael et Ysée partent vers le nord à l'aube du jour 23.
+
+**POV** : 25 Y · 26 C · 27 Y · 28 C · 29 Y · 30 Y · 31 C · 32 Y · 33 C · 34 Y.
+
+**Règles de la Ligne posées** : signes (main levée = halte ; deux doigts = eau ; poing sur la poitrine = plus près ; main qui descend = à terre ; index sur le genou = « je ne peux plus », jamais utilisé). Le cheval reste à la dernière ferme (six couronnes de garde, une septième pour qu'on ne le vende pas). Sol : gris clair porte, gris luisant porte et glisse, gris doux ne porte pas ; « feu de terre » = fente rouge, signe page quarante du manuel.
+
+**Physique de Cael sur la Ligne (nouveau, à respecter ensuite)** : il ne donne plus, il *prend* et garde ; trop plein, il risque de « s'asseoir » (miroir de Vaugrin : « le jour où tu prends tout, tu ne trouves plus la porte »). La main d'Ysée sur sa peau lui ouvre une sortie : ce qu'il lui donne est mangé par l'air avant sa peau. Sur la Ligne il ne peut pas la brûler — c'est la seule condition de la nuit du ch. 28. Il l'a dit : « de l'autre côté, je redeviens ce que j'étais ». **Fil ouvert (ch. 31)** : de l'autre côté, main dans la main plus de trois secondes, aucune marque — « je ne comprends pas ». À expliquer à l'acte IV ou V (hypothèse : elle est devenue une « porte » ; ou il a appris à retenir).
+
+**Lieux et personnes introduits** : Ghar, quartier bas, mur sud effondré, brèche, maison à trois murs, porte nord (arche, deux tours inégales — la plaque de Vaugrin est juste). La veille sur le mur sud, toutes les nuits depuis vingt-deux ans. **Orsa**, la vieille qui mène les sept ; l'enfant aux pieds nus (six ou sept ans, pas encore nommée) ; la langue du Nord, que Cael comprend un mot sur cinq et parle sans le savoir. **Bran**, dix-neuf ans, four trois des Serrande, formé par Cael, amené par Halden comme abri pour neuf hommes en file — Cael prévoit que six s'assiéront.
+
+**Révélation (ch. 34)** : celle qui portait Cael s'appelait **Aunis**, sa mère ; elle est revenue dans le feu, a sorti trois enfants de l'école, a vécu vingt ans à Ghar ; partie il y a trois hivers avec ceux qui voulaient aller plus loin, aux **Fours hauts** (veines refermées avant la rupture, terre jamais brûlée), six jours au nord en remontant le ruisseau jusqu'à sa source. « Dorne » est le nom écrit par les chariots du Sud ; à Ghar il était « le petit ».
+
+**Le pli du Doyen** : Ysée l'a relu au ch. 34 et l'a remis dans la doublure sans le montrer ni le noter — « la première chose que j'ai décidé de ne pas noter ». Elle part avec Cael contre l'ordre. C'est la faute qui alimentera la rupture de l'acte IV quand il l'apprendra.
+
+**La carte (ch. 32)** : le vélin porte le poirier, le bord de la cendre en pointillé (limite incertaine), les trois jours en estimation, les détours, la fente rouge, et le ruisseau. Pas le mur, pas Ghar — « pas encore décidé ». Orsa a raconté la femme du Sud venue dessiner « pour le commerce », dont les cartes sont revenues hachurées.
+
+**Le genou** : a lâché deux fois au jour trois ; Cael l'a « dénoué » en chauffant une halte entière. Reste un point faible pour les six jours vers le nord.
+
 - Ch. 25 à 27 : La traversée. *(actuel ch. 5, développé sur trois chapitres : jour un, deux, trois)* La chaleur, la distance, la peur de Cael. Assez près.
 - Ch. 28 (Cael) : Il ne tient pas. La nuit du deuxième jour. Ce qui se passe entre eux se passe hors champ ; ce qui se dit se dit.
 - Ch. 29 (Ysée) : Le matin. Elle ne regrette rien. Il croit qu'elle devrait.
