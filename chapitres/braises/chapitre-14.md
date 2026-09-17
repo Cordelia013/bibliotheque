@@ -14,7 +14,7 @@ Ensuite je me suis mis du bon côté de son cheval, et j'ai fait semblant de vé
 
 Elle est descendue. Le genou n'a pas tenu. Je l'ai rattrapée.
 
-Voilà pour les faits.
+Voilà.
 
 Maintenant le reste, que je ne dirai à personne.
 
@@ -62,4 +62,4 @@ Puis j'ai pensé : *je suis probablement dedans.*
 
 Et j'ai découvert, en sellant, que cette idée ne me déplaisait pas, ce qui était nouveau, parce que toute ma vie le fait d'être écrit quelque part a signifié un registre, un contrat, une ligne de compte, une case dans le rôle des gens qui appartiennent à quelqu'un.
 
-C'est la première fois qu'on me notait sur un papier qui n'avait de valeur pour personne.
+On m'avait déjà mis sur du papier. Jamais sur du papier qui n'avait de valeur pour personne.

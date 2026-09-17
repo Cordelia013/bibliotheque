@@ -14,7 +14,7 @@ Elle était contre moi.
 
 Le traversin avait glissé sous nous deux, écrasé, inutile. Elle était couchée sur le côté, le front contre mon épaule, une main refermée sur le drap entre nous comme on tient une rampe. Nous étions tous les deux au fond du creux, exactement comme deux billes dans une écuelle, ce qui n'est la faute de personne et ce dont je savais depuis onze heures que ça arriverait.
 
-Voici ce que j'ai fait, dans l'ordre.
+Et j'ai fait ce que je fais depuis l'âge de six ans, dans l'ordre où on me l'a appris.
 
 Je n'ai pas bougé.
 
@@ -76,4 +76,4 @@ C'était la première fois qu'elle m'appelait par mon nom. Je m'appelais *vous* 
 
 — Je n'ai pas eu chaud cette nuit, a-t-elle dit. J'ai eu tiède. Ce n'est pas la même chose et je tenais à le préciser, puisque vous m'aviez prévenue.
 
-Et elle a relancé son cheval vers l'autre rive avant que j'aie trouvé quoi que ce soit à répondre, ce qui, je commence à le croire, est chez elle une manière de terminer les conversations qu'elle a gagnées.
+Et elle a relancé son cheval vers l'autre rive avant que j'aie trouvé quoi que ce soit à répondre. C'est sa façon de terminer les conversations qu'elle a gagnées. J'en compte trois depuis Valdren.

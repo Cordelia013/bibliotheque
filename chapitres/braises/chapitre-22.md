@@ -52,7 +52,7 @@ Je les avais vues de près, à genoux dans les cailloux, en train de trembler da
 
 Puis l'avant-bras, parce que la manche était relevée.
 
-Puis la ligne de l'épaule au cou, que j'avais eue sous le front pendant une nuit entière à l'auberge du Gué, et que je pouvais donc dessiner, ce qui est une phrase que je ne relirai pas.
+Puis la ligne de l'épaule au cou, que j'avais eue sous le front pendant une nuit entière à l'auberge du Gué, et que je pouvais donc dessiner.
 
 Il a levé la tête au bout d'un moment.
 
@@ -92,4 +92,4 @@ Il m'a rendu le carnet.
 
 Il ne l'a pas posé sur la couverture entre nous. Il me l'a tendu, et j'ai dû avancer la main, et pendant l'instant où nous tenions tous les deux le carnet, il n'a pas lâché tout de suite.
 
-C'est la première fois qu'il ne lâchait pas tout de suite.
+Il n'avait encore jamais tardé à lâcher.

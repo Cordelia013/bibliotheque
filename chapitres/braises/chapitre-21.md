@@ -32,7 +32,7 @@ Je l'ai prise au fer — la main ouverte sur le dos de la lame, ce qui est la ch
 
 Un acier de mauvaise qualité passe au rouge sombre en moins de temps qu'il n'en faut pour le dire.
 
-Il a hurlé et il a lâché. La garde lui avait déjà mangé la paume ; j'ai entendu le bruit, qui n'est pas un bruit que je décrirai.
+Il a hurlé et il a lâché. La garde lui avait déjà mangé la paume ; j'ai entendu le bruit, qui est celui d'une viande qu'on pose sur une plaque.
 
 Le deuxième m'a pris par-derrière, aux bras, en me serrant contre lui pour bloquer les mains. C'est la bonne tactique. C'est ce qu'on enseigne aux gens qui auront affaire à un contrat-de-feu : les bras, par-derrière, et on tient.
 
@@ -84,6 +84,6 @@ Derrière nous, le premier homme gémissait sur sa main. Le deuxième s'était t
 
 Elle a regardé le défilé, les trois hommes, moi par terre.
 
-Puis elle a dit, très calmement, d'une voix de femme qui relève une côte :
+Puis elle a dit, très calmement, comme on donne une consigne à quelqu'un dont on sait qu'il va la suivre :
 
 — Bien. Maintenant vous allez me dire comment on soigne une main brûlée, parce que je ne vais pas laisser trois hommes mourir dans un endroit que j'ai dessiné.

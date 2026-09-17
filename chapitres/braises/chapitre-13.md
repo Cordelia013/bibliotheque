@@ -40,7 +40,7 @@ Je n'ai pas touché le sol.
 
 Il y avait, entre le sol et moi, un avant-bras en travers de mon dos et une main fermée sur ma manche, et une odeur de laine chaude et de fer.
 
-Nous sommes restés comme ça un temps que je ne saurais pas chiffrer et que j'ai pourtant, plus tard, essayé de chiffrer. Deux secondes. Peut-être trois.
+Nous sommes restés comme ça un temps que je n'ai pas su mesurer et que j'ai pourtant, plus tard, essayé de reprendre au propre. Deux secondes. Peut-être trois.
 
 Il était brûlant.
 
@@ -92,6 +92,6 @@ Il a remué une bûche.
 
 — Et je ne peux pas vous porter là-bas, a-t-il ajouté. Personne ne porte personne sur la Ligne. On y passe debout.
 
-C'est la première fois qu'il m'a parlé de la Ligne comme d'un lieu dont il connaissait les habitudes.
+Il m'a parlé de la Ligne, ce soir-là, comme d'un lieu dont il connaissait les habitudes. *Nous passerons dans le dos du vent.* On ne dit pas ça d'un endroit où l'on n'est jamais allé ; on dit ça d'une rue.
 
-J'ai noté ça aussi.
+Le Doyen m'a donné un guide et ne m'a pas dit d'où celui-ci tenait ce qu'il sait. Je venais d'entendre un homme me donner le régime des vents d'un pays que personne n'a jamais relevé, et le lendemain, en montant à cheval une heure sur deux comme on me l'avait dit, j'ai passé la journée à me demander qui le lui avait appris.
