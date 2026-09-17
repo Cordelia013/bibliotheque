@@ -56,7 +56,7 @@ J'ai eu très froid, dans le vent tiède.
 
 Six jours.
 
-J'ai regardé la plaque sur la pierre. J'ai regardé l'arche. J'ai pensé à Halden Serrande, qui serait sous cette arche après-demain, avec trois hommes et un garçon de dix-neuf ans vidé, et des gants.
+J'ai regardé la plaque sur la pierre. J'ai regardé l'arche. J'ai pensé à Halden Serrande, qui serait sous cette arche après-demain, avec trois hommes et un Braise de vingt-trois ans vidé, et des gants.
 
 Et j'ai pensé à une page pliée contre le blanc, à trois doigts de ma poitrine, que Cael n'avait jamais vue.
 

@@ -60,7 +60,7 @@ Elle a compris tout de suite. Elle comprend vite ce qui compte.
 
 Je l'ai su avant de le dire. Je l'avais su sur le mur, en regardant le point avancer, au rythme.
 
-— Bran, ai-je dit. Il a dix-neuf ans. Il tient le four trois depuis deux ans. Il marche comme ça, un peu vite, parce qu'il n'a pas encore appris qu'on ne rattrape rien en marchant vite.
+— Bran, ai-je dit. Il a vingt-trois ans. Il tient le four trois depuis deux ans. Il marche comme ça, un peu vite, parce qu'il n'a pas encore appris qu'on ne rattrape rien en marchant vite.
 
 — Vous le connaissez.
 
@@ -80,7 +80,7 @@ Elle a mis un moment.
 
 — Alors ils vont mourir.
 
-— Pas tous. Les deux ou trois derrière lui passeront. Les autres s'assiéront le deuxième jour. Halden le sait. Il achète du sel ; il sait compter ce que coûte une chose. Il a compté qu'il lui fallait trois hommes de l'autre côté et un Braise, et que le prix, c'était les six autres.
+— Pas tous. Les deux ou trois derrière lui passeront. Les autres s'assiéront le deuxième jour — plus tôt que s'ils marchaient seuls, parce qu'un homme qui se croit couvert ne s'économise pas. Halden le sait. Il achète du sel ; il sait compter ce que coûte une chose. Il a compté qu'il lui fallait trois hommes de l'autre côté et un Braise, et que le prix, c'était les six autres.
 
 Elle a fermé les yeux.
 
