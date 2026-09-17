@@ -152,13 +152,15 @@ Ce n'est pas assez. Ça ne sera jamais assez.
 
 C'est plus que tout ce que j'ai eu en vingt-sept ans, et je n'ai pas l'intention d'en perdre une heure à me plaindre.
 
+Il faut être juste, alors je le dis : ces trois jours-là, les seuls de l'année où je peux poser la main sur quelqu'un, nous venons de les dépenser à marcher vite devant un homme que je n'ai jamais vu.
+
 ---
 
 Nous sommes sortis le troisième jour, à midi, bien en avance, parce que nous n'avions pas dormi et que nous avions marché neuf heures sans halte.
 
 Le sol a craqué. La cendre a eu des trous. Il y a eu de la terre dans les trous, puis un caillou qui n'était pas gris, puis une herbe.
 
-Elle a relevé le premier caillou, avec l'heure, comme la première fois. Elle a écrit dessous, sur son propre vélin, celui qui lui appartient : *fin de l'estimation, reprise du relevé.*
+Elle a relevé le premier caillou, avec l'heure, comme à l'aller. Elle a écrit dessous, sur son propre vélin, celui qui lui appartient : *fin de l'estimation, reprise du relevé.*
 
 Deux lieues plus loin, il y avait un mur bas, effondré par endroits, avec une brèche, et des cheminées de forge dont une sur trois tient debout.
 
@@ -180,7 +182,23 @@ Nous avons marché comme ça une demi-heure.
 
 Il n'y a pas eu de marque. J'ai regardé, le soir, quand elle dormait, sa main ouverte sur la couverture, et il n'y avait rien : pas de rouge, pas de blanc, rien du tout.
 
-Je ne comprends pas. Je n'ai personne à qui le demander : il n'y a jamais eu de Braise qui ait traversé la Ligne deux fois, et il n'y en a jamais eu un seul à qui quelqu'un ait tenu la main.
+Voilà pour la main.
+
+Maintenant l'autre compte, celui que j'ai fait toute la nuit en regardant quatorze points de lumière, et que je n'ai pas gardé pour moi aussi longtemps que je le croyais.
+
+Quatorze feux, un contrat-de-feu en tête. Il en porte donc treize.
+
+Il est entré derrière nous, à un jour et demi. Il prend pour treize personnes depuis deux jours sans rien lâcher, parce que c'est la seule manière d'y passer. Et de l'autre côté il faudra qu'il rende, et personne ne le lui aura dit, parce que les seuls qui le savent sont de ce côté-ci.
+
+Il sortira après-demain, en fin de journée. Il sera plein. Il ira s'asseoir contre une pierre froide, dans une ville qu'on lui aura décrite morte, et il se dira que ça descend toujours au bout de trois jours.
+
+Orsa tient la veille sur le mur sud. C'est elle qui le verra la première.
+
+Je serai à la brèche avant lui. Je lui prendrai les poignets comme je les ai pris à Bran — le premier jour, et pas le neuvième.
+
+C'est tout ce que je sais faire, et cette fois-ci j'arrive avant le chariot.
+
+Le reste, je ne le comprends pas. Je n'ai personne à qui le demander : il n'y a jamais eu de Braise qui ait traversé la Ligne deux fois, et il n'y en a jamais eu un seul à qui quelqu'un ait tenu la main.
 
 Alors je porte la question comme j'ai porté le reste.
 
