@@ -290,8 +290,12 @@ Ne jamais la répéter ni la paraphraser dans les actes IV–V ; le livre la dé
 **B. Décisions (à trancher, pas à corriger)**
 
 7. Fondu au noir (plan §6) contre ch. 27–28 : mettre le plan et le texte d'accord.
-8. Longueur cible : roman court (≈ 45 000) ou format genre (≈ 90 000). Tout le §5 en
-   dépend.
+8. Longueur cible — **tranché le 17 septembre : 50 chapitres, pas un de plus.** Le
+   nombre de chapitres n'est donc pas un levier ; seul le poids des chapitres l'est.
+   Arithmétique : à ≈ 900 mots/chapitre (rythme actuel), le livre fait ≈ 45 000 mots ;
+   pour atteindre le format genre (≈ 90 000), il faudrait ≈ 1 800 mots/chapitre, soit
+   doubler chaque chapitre écrit. Reste à fixer la cible par chapitre. Quelle qu'elle soit,
+   les mots supplémentaires vont aux endroits du §1 et du §5, jamais aux chutes.
 9. Le cadre d'écriture de Cael (pour qui écrit-il ?).
 
 **C. Réécritures (par gain attendu)**
