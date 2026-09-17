@@ -174,7 +174,7 @@ Bran a dit :
 
 — Quoi.
 
-— La Ligne. J'en ai passé sept la première nuit. Et trois de l'autre côté. Vous m'aviez dit de mettre les gens derrière et de pas ralentir. J'ai pas ralenti.
+— La Ligne. J'en ai passé neuf la première nuit. Et trois de l'autre côté. Vous m'aviez dit de mettre les gens derrière et de pas ralentir. J'ai pas ralenti.
 
 — Tu as bien fait, a dit Cael.
 
