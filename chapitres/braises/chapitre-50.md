@@ -134,7 +134,7 @@ Et elle s'est recouchée contre mon dos, et elle a dormi, parce que c'est une fe
 
 ---
 
-Il y a une chose que je n'ai jamais dite à personne et que je vais poser ici, une fois.
+Il y a une chose que je n'ai jamais dite à personne et que je ne dirai qu'une fois.
 
 Sur la Ligne, je ne peux blesser personne. L'air prend tout ce qui sort de moi avant que ça n'arrive à une peau. C'est le seul endroit du monde où je peux toucher quelqu'un et le toucher longtemps.
 

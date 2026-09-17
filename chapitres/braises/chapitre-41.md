@@ -6,7 +6,7 @@
 
 La veille, elle m'a parlé du bardeau.
 
-C'est important, alors je pose la journée entière, dans l'ordre, parce que je ne savais pas que c'était la dernière et que je refuse de la refaire en sachant.
+C'est important, alors je reprends la journée entière, dans l'ordre, parce que je ne savais pas que c'était la dernière et que je refuse de la refaire en sachant.
 
 Il avait plu la nuit. Elle m'a fait monter sur le toit pour regarder le côté ouest, celui que je n'avais pas repris, et j'ai vu d'en haut ce qu'on ne voit pas d'en bas : la deuxième rangée était pourrie sur quatre pieds, et sous la pourriture le chevron était mouillé.
 
@@ -38,7 +38,7 @@ Elle l'a amené comme elle amène tout, sans préparer le terrain.
 
 Je n'ai pas répondu tout de suite, et ce silence-là valait une réponse, et elle l'a entendu comme je l'ai entendu.
 
-Il faut que je pose les comptes, parce que c'est la seule manière que j'aie de regarder une chose en face.
+Il faut que je fasse les comptes, parce que c'est la seule manière que j'aie de regarder une chose en face.
 
 Si je reste : j'ai quarante ans devant moi au lieu de treize. C'est le vieux du banc qui me l'a appris sans le vouloir, et depuis quatre jours je n'arrive pas à penser à autre chose entre deux gestes. Une heure, un jour sur cinq. Le pain, la forge, les bains. On me connaît ici par le nom de ma mère et pas par une case de registre, et personne n'a reculé quand je suis passé, et un enfant de huit ans m'a tendu son écuelle pour que je la lui chauffe comme on tend une écuelle à n'importe qui.
 
@@ -136,7 +136,7 @@ Je suis resté là longtemps. Je ne saurais pas dire combien : c'est la seule du
 
 ---
 
-Après, il y a eu ce qu'il y a après, et je le mets en bloc parce que tout s'est passé sans moi.
+Après, il y a eu ce qu'il y a après, et je le prends en bloc parce que tout s'est passé sans moi.
 
 Deux femmes sont venues. Elles m'ont fait sortir sans brutalité, de la manière dont on fait sortir quelqu'un d'une pièce où il n'a plus rien à faire. Hesk est arrivé. Quelqu'un est allé chercher Ysée, que je n'avais pas vue depuis le matin et qui est restée dehors contre le mur sans entrer, parce qu'elle a compris toute seule que la porte n'était pas pour elle.
 

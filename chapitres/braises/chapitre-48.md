@@ -56,7 +56,7 @@ Six couronnes de garde, et une septième pour qu'on ne le vende pas si nous ne r
 
 Trente-cinq jours. Cette femme a nourri une bête pendant trente-cinq jours pour sept couronnes en sachant qu'elle ne reverrait probablement personne, et elle n'en a pas tiré un sou de plus, et quand Ysée a voulu lui en donner trois autres elle a dit que c'était sept et que sept c'était sept.
 
-J'ai noté son nom. Je ne le mets pas ici, parce que je ne lui ai pas demandé la permission et que si un jour cette histoire sort, une femme qui a gardé un cheval pour des gens qui allaient au nord n'a pas besoin qu'on la nomme dans le Sud.
+J'ai retenu son nom. Je ne le dirai à personne, parce que je ne lui ai pas demandé la permission et que si un jour cette histoire se sait, une femme qui a gardé un cheval pour des gens qui allaient au nord n'a pas besoin qu'on la nomme dans le Sud.
 
 ---
 

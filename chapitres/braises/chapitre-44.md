@@ -116,7 +116,7 @@ Il n'y a rien à voir. Onze pas entre deux rectangles de terre retournée et auc
 
 Je n'ai pas eu de discours non plus. Je n'en ai jamais eu.
 
-J'ai dit un mot. Un seul, à voix basse, et il n'y avait personne à deux cents pas, et je ne l'écrirai pas ici et je ne le dirai à personne, parce que je ne l'ai jamais prononcé de ma vie et que je ne le prononcerai plus.
+J'ai dit un mot. Un seul, à voix basse, et il n'y avait personne à deux cents pas, et il est resté entre cette terre et moi, et je ne le dirai à personne, parce que je ne l'ai jamais prononcé de ma vie et que je ne le prononcerai plus.
 
 Puis j'ai posé les douze planches de bardeau contre le mur de la maison, du côté ouest, bien à plat, pour celui qui y logera cet hiver.
 

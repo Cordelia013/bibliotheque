@@ -64,7 +64,7 @@ Le conseil s'est tenu l'après-midi, dans la halle deux, avec deux fois plus de 
 
 Halden Serrande a demandé à parler debout. On le lui a accordé.
 
-Je rapporte ce qu'il a dit d'un bout à l'autre, parce qu'il n'a rien dit de bête et que ce serait malhonnête de le résumer autrement.
+Je reprends ce qu'il a dit d'un bout à l'autre, parce qu'il n'a rien dit de bête et que ce serait malhonnête d'en retenir moins.
 
 — Je m'appelle Halden Serrande. Ma maison achète et vend du sel à Valdren depuis quatre-vingts ans. J'ai trente-deux ans, mon père en a soixante-douze, et trois cents personnes touchent chez nous le premier de chaque mois.
 

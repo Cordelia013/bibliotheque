@@ -46,7 +46,7 @@ Le sien a changé à la huitième heure du premier jour, et j'ai su ce que c'ét
 
 Je n'ai pas ralenti. J'aurais pu. J'y ai pensé pendant quatre pas et j'ai décidé de ne pas le faire, parce qu'à cinq on ne ralentit pas pour une personne sans le payer sur les autres, et parce que si je ralentissais elle le saurait, et que je ne voulais pas lui donner ça.
 
-C'est la chose la plus laide que j'aie faite de tout le voyage, et je l'écris parce qu'elle est vraie.
+C'est la chose la plus laide que j'aie faite de tout le voyage, et je la compte parce qu'elle est vraie.
 
 ---
 
@@ -98,7 +98,7 @@ J'ai montré Serrande, puis le bout de la file.
 
 Il n'a pas discuté.
 
-Je vais être précis, parce que c'est le seul endroit de cette histoire où je peux être juste avec cet homme et que j'ai l'intention de l'être.
+Je vais être précis, parce que c'est le seul moment de tout ce voyage où je peux être juste avec cet homme et que j'ai l'intention de l'être.
 
 Halden Serrande a regardé la place, il a regardé Mauger, et il a compris en une seconde et demie ce que ça voulait dire — il n'y a pas dix hommes au sud de la Ligne capables de lire un ordre de marche aussi vite, et c'est parce qu'il lit des contrats depuis qu'il a quinze ans.
 
@@ -120,7 +120,7 @@ J'ai relevé la main. Nous sommes repartis.
 
 Il restait quatre heures de jour.
 
-Je les ai marchées en faisant le seul travail que je sache faire, et je vais le poser ici comme je l'ai posé dans ma tête à chaque pas, parce que c'est ce que j'ai à la place des sentiments.
+Je les ai marchées en faisant le seul travail que je sache faire, et je le reprends comme je l'ai fait dans ma tête à chaque pas, parce que c'est ce que j'ai à la place des sentiments.
 
 Un homme à la quatrième place tient la première journée. Serrande n'en avait pas une : il en avait quatre heures, plus une nuit, plus la journée du lendemain. Trente heures.
 
