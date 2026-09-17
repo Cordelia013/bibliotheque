@@ -24,7 +24,7 @@ Ce n'était pas la peur de la première ligne. J'ai tracé des premières lignes
 
 Une carte est une décision. On décide de ce qui existe.
 
-Si je dessinais le mur, Ghar existait. Si Ghar existait, les deux princes qui avaient commandé la carte sauraient qu'il y a des toits derrière la Ligne, et des forges, et des gens qui portent le feu et qui n'appartiennent à personne. Et Halden Serrande, qui avait neuf feux au sud de la Ligne, saurait où chercher son sel.
+Si je dessinais le mur, Ghar existait. Si Ghar existait, les deux princes qui faisaient fouiller les archives du Doyen sauraient qu'il y a des toits derrière la Ligne, et des forges, et des gens qui portent le feu et qui n'appartiennent à personne. Et Halden Serrande, qui avait neuf feux au sud de la Ligne, saurait où chercher son sel.
 
 Si je ne le dessinais pas, je mentais. Et je ne pourrais plus jamais regarder une carte de ma main sans me demander ce qu'il y avait dessous. Je l'avais dit à Halden lui-même, dans la rue des Copistes, et il m'avait crue.
 

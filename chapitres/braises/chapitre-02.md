@@ -48,11 +48,19 @@ J'ai mis un temps à comprendre que ce n'était pas une hypothèse.
 
 C'est la seule question qui comptait, et il l'a su, et il a eu — c'est la seule fois — quelque chose comme du respect dans le regard.
 
-— Parce que deux princes m'ont commandé la même carte à quatre jours d'intervalle. Kerlan au levant, Orsange au couchant. Chacun croit être le seul. Quand deux hommes qui se détestent veulent la même chose en même temps, ce n'est pas de la curiosité. C'est qu'ils ont appris quelque chose.
+— Parce que deux maisons de la couronne ont fait consulter le fonds du Nord dans mes archives, à quatre jours d'intervalle. Kerlan au levant, Orsange au couchant. Des hommes polis, avec des motifs différents et le même casier. Chacun croit être le seul.
 
-— Quoi ?
+— Ils vous ont commandé une carte ?
 
-— Je l'ignore. C'est précisément pour cela que je veux la carte avant eux. Celui qui sait ce qu'il y a derrière la Ligne tient les deux autres.
+— Personne ne m'a rien commandé, et personne ne me commandera rien. On ne commande pas une feuille qu'on a l'intention de prendre.
+
+— Qu'est-ce qu'ils ont trouvé ?
+
+— Rien. Il n'y a rien à trouver, c'est toute l'affaire. Mais quand deux hommes qui se détestent cherchent la même chose la même semaine, ce n'est pas de la curiosité. C'est qu'ils ont appris quelque chose, et je ne sais pas quoi.
+
+— Et vous voulez le savoir avant eux.
+
+— Je veux la carte avant eux, ce qui n'est pas la même chose et ce qui suffit. Celui qui sait ce qu'il y a derrière la Ligne tient les deux autres.
 
 J'ai regardé le blanc.
 
