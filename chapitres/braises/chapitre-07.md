@@ -6,7 +6,7 @@
 
 Il attendait près d'un cheval qui n'était pas sellé, les bras croisés, sans manteau.
 
-C'est la première chose que j'ai vue, et c'est celle que tout le monde voit : un Braise n'a pas froid. En octobre, à l'aube, dans une cour où ma respiration faisait de la buée, la sienne n'en faisait pas.
+C'est la première chose que j'ai vue, et c'est celle que tout le monde voit : un Braise n'a pas froid. À l'aube, en fin d'automne, dans une cour où ma respiration faisait de la buée, la sienne n'en faisait pas.
 
 J'avais préparé quelque chose. Une phrase courtoise, neutre. Je ne l'ai pas dite, parce qu'en approchant j'ai vu ses mains.
 

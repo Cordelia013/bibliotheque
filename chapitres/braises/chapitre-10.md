@@ -18,7 +18,7 @@ Ce sont des choses inutiles. C'est tout ce que je possède.
 
 Vaugrin tenait ce four avant moi. Il m'a appris en trois mois ce qu'un Braise doit savoir. Ce qu'un homme doit savoir, il me l'a appris en une phrase, et j'ai mis dix-neuf ans à la comprendre : *on ne pousse jamais tout. Tu gardes toujours une braise pour toi. Le jour où tu pousses tout, tu ne trouves plus la porte.*
 
-Il est mort à quarante-quatre ans, un dimanche, en s'asseyant sur le banc de la cour. Il avait poussé tout, tous les jours, pendant vingt-six ans, pour une maison qui l'a fait enterrer correctement et qui a embauché un remplaçant le mardi.
+Il est mort à quarante-quatre ans, un dimanche, en s'asseyant sur le banc de la cour. Il avait poussé tout, tous les jours, pendant vingt-six ans, pour une maison qui l'a fait enterrer correctement et qui avait pris la précaution de mettre son remplaçant à côté de lui trois mois plus tôt.
 
 Le remplaçant, c'était moi. J'avais huit ans.
 

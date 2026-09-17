@@ -34,7 +34,7 @@ Trame serrée sur les quartiers d'habitation. Trame lâche sur les entrepôts. C
 
 Croix sur les écoles.
 
-Je suis restée assise par terre, dans la poussière des archives, avec neuf cartes de ma propre main étalées autour de moi, et j'ai compris avec vingt ans de retard ce que j'avais dessiné.
+Je suis restée assise par terre, dans la poussière des archives, avec neuf cartes de ma propre main étalées autour de moi, et j'ai compris avec huit ans de retard ce que j'avais dessiné.
 
 Je n'ai pas pleuré. J'ai fait ce que je fais.
 
