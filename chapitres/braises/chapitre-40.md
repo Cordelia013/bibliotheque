@@ -22,11 +22,11 @@ Hesk a commencé par autre chose que ce que j'attendais.
 
 Il a laissé ça posé sur la table.
 
-— Quatre hommes du Sud sont passés sous l'arche il y a trois jours. Trois avec des armes, et un contrat-de-feu, un jeune. Ils ont demandé où étaient passés l'homme et la femme qui sont sortis de la Ligne. Orsa a dit qu'elle ne savait pas.
+— Quatre hommes du Sud sont passés sous l'arche il y a neuf jours. Trois avec des armes, et un contrat-de-feu, un jeune. Ils ont demandé où étaient passés l'homme et la femme qui sont sortis de la Ligne. Orsa a dit qu'elle ne savait pas.
 
 J'ai posé les mains à plat sur la table, parce que c'est ce qu'on fait.
 
-— Ils ne lui ont rien fait, a dit Hesk. Ils n'ont rien fait à personne. Ils ont bu, ils ont dormi dans le quartier bas, et ils sont repartis au nord le lendemain matin.
+— Ils ne lui ont rien fait, a dit Hesk. Ils n'ont rien fait à personne. Ils ont bu, ils sont restés couchés quatre jours dans le quartier bas — on ne se relève pas de la cendre en une nuit —, et ils sont repartis au nord.
 
 — Comment ont-ils trouvé la direction ?
 
@@ -68,7 +68,7 @@ Sarn a bougé son bâton.
 
 Je n'ai pas expliqué pourquoi. Il n'y a pas de pourquoi qui tienne devant neuf personnes dont une vieille femme est restée sur un mur avec quatre hommes armés dans sa ville.
 
-Tervi regardait la table. Elle m'avait montré une table trois jours plus tôt, sous trois ouvertures de voûte, et elle avait attendu que je dise quelque chose, et je n'avais rien dit.
+Tervi regardait la table. Elle m'avait montré une table deux jours plus tôt, sous trois ouvertures de voûte, et elle avait attendu que je dise quelque chose, et je n'avais rien dit.
 
 ---
 
@@ -104,7 +104,7 @@ Sarn a fait un geste de la main : parlez.
 
 « Supposez que je jure. Vous êtes tranquilles ce soir. Maintenant comptez avec moi : je redescends la Ligne dans onze jours avec un étui de fer-blanc sur le dos. Je peux mourir dessus — six expéditions sur onze n'en sont pas ressorties. On trouve mon corps au bord sud dans deux ans, et on trouve l'étui, et mon serment est mort avec moi mais le vélin ne l'est pas.
 
-« Supposez que j'arrive. Je remets la carte à un homme qui l'a payée douze cents couronnes et qui a cinquante copistes sous ses ordres. Cette Guilde fuit comme un panier ; ce n'est pas moi qui le dis, c'est un marchand de sel qui m'a récité mes propres relevés dans la rue. La carte sera copiée neuf fois avant d'être encadrée.
+« Supposez que j'arrive. Je remets la carte à un homme qui a payé douze cents couronnes rien que pour le guide, et qui a cinquante copistes sous ses ordres. Cette Guilde fuit comme un panier ; ce n'est pas moi qui le dis, c'est un marchand de sel qui m'a récité mes propres relevés dans la rue. La carte sera copiée neuf fois avant d'être encadrée.
 
 « Supposez même que je ne dessine rien, ce qui est mon intention, et écoutez bien cette partie : le Doyen Aldric Vael a envoyé deux princes attendre cette carte. Si je rentre avec trois cents lieues de blanc, il ne conclura pas qu'il n'y a rien. Il conclura que sa Relevée a vu quelque chose et n'a pas voulu le mettre, et il enverra quelqu'un d'autre l'année suivante, et celui-là n'aura pas passé un mois ici à manger votre rave.
 
@@ -116,7 +116,7 @@ Hesk a attendu que j'aie fini.
 
 — Qu'est-ce qu'il y a déjà sur votre feuille ?
 
-Et voilà la question que j'attendais depuis six jours.
+Et voilà la question que j'attendais depuis quatre jours.
 
 — Le poirier, ai-je dit. Le bord de la cendre, en pointillé, parce que la limite est incertaine. Les trois jours de traversée, en estimation, avec les détours et une fente de feu de terre. La sortie, la plaine, et un ruisseau qui vient de l'ouest, avec ses cailloux ronds, et qui n'est pas chaud.
 
@@ -150,7 +150,7 @@ Hesk s'est tourné vers lui d'un bloc.
 
 — Sarn.
 
-— Laisse-moi finir, tu me laisseras finir une fois avant que je meure. Nous sommes deux cent onze. Il y a douze ans nous étions cent soixante. Le plat donne de l'orge pour deux cents et pas pour quatre cents, et dans quarante ans il y aura quatre cents personnes ici, et il faudra descendre ou il faudra commercer. On ne commerce pas avec un endroit qui n'existe pas. On ne signe pas un traité avec un blanc. Les seules gens qui viennent chez ceux qui n'existent pas, ce sont ceux qui viennent prendre.
+— Laisse-moi finir, tu me laisseras finir une fois avant que je meure. Nous sommes deux cent onze. Il y a trois hivers, quand nous sommes montés de Ghar, nous étions cent soixante. Le plat donne de l'orge pour deux cents et pas pour quatre cents, et dans quarante ans il y aura quatre cents personnes ici, et il faudra descendre ou il faudra commercer. On ne commerce pas avec un endroit qui n'existe pas. On ne signe pas un traité avec un blanc. Les seules gens qui viennent chez ceux qui n'existent pas, ce sont ceux qui viennent prendre.
 
 — Ils sont venus prendre à Ghar parce que Ghar existait, a dit Hesk.
 
@@ -182,8 +182,8 @@ Il y avait de la lune, et la lumière tombait par les trois ouvertures en quinco
 
 Je me suis arrêtée à côté.
 
-Il y a vingt-sept jours, j'ai lu dans un couloir de la Guilde une phrase d'écriture administrative, parfaitement neutre, qui m'a fait m'appuyer au mur : *Un homme, vingt-sept ans, dix-neuf années de four. Nom : Dorne, Cael. Valeur estimée : quatre cents charges de sel.*
+Il y a trente-trois jours, j'ai lu dans un couloir de la Guilde une phrase d'écriture administrative, parfaitement neutre, qui m'a fait m'appuyer au mur : *Un homme, vingt-sept ans, dix-neuf années de four. Nom : Dorne, Cael. Valeur estimée : quatre cents charges de sel.*
 
-J'ai marché dix-neuf jours à côté de cet homme en me disant que j'étais de l'autre bord de cette phrase.
+J'ai marché trente-trois jours à côté de cet homme en me disant que j'étais de l'autre bord de cette phrase.
 
 Il aura fallu une heure.

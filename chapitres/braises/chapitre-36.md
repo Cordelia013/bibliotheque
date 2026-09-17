@@ -6,7 +6,7 @@
 
 Le quatrième jour, il y a eu un oiseau.
 
-Je l'écris parce que je n'en avais pas entendu depuis la dernière ferme, vingt-cinq jours plus tôt, et parce qu'il m'a fallu un moment pour reconnaître le bruit. On perd les choses vite. Trois jours de Ligne et quatre de plaine morte suffisent à faire d'un chant d'oiseau une information dont on ne sait plus quoi faire.
+Je l'écris parce que je n'en avais pas entendu depuis la dernière ferme, neuf jours plus tôt, et parce qu'il m'a fallu un moment pour reconnaître le bruit. On perd les choses vite. Trois jours de Ligne et quatre de plaine morte suffisent à faire d'un chant d'oiseau une information dont on ne sait plus quoi faire.
 
 Cael s'est arrêté aussi. Nous avons écouté comme deux imbéciles, au milieu d'un ruisseau, la tête levée.
 
@@ -102,7 +102,7 @@ Un ruisseau sur une carte n'est pas un ornement. Un ruisseau, pour qui sait lire
 
 J'ai déjà dessiné le chemin.
 
-Je l'ai fait il y a six jours, avec application, avant de savoir où il menait — et c'est exactement ce que j'avais fait à seize ans avec neuf feuilles de hachures, dans un atelier, en trouvant que je m'en tirais bien.
+Je l'ai fait il y a huit jours, avec application, avant de savoir où il menait — et c'est exactement ce que j'avais fait à seize ans avec neuf feuilles de hachures, dans un atelier, en trouvant que je m'en tirais bien.
 
 Cael dormait de l'autre côté du feu, à trois pas.
 

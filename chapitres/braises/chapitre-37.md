@@ -116,7 +116,7 @@ Je ne me suis pas assis. Je suis resté debout, et j'ai dit une chose stupide, l
 
 — Vous en avez d'autres, des vieux ?
 
-— Onze, a dit Hesk. Sur deux cents.
+— Onze, a dit Hesk. Sur cent quarante qui portent.
 
 — Pourquoi onze seulement ?
 

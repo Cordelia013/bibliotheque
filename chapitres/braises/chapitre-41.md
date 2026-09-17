@@ -56,7 +56,7 @@ Aunis a remonté sa couverture.
 
 — Je ne vous demande rien.
 
-— Si. Tu es là depuis six jours et tu répares tout ce qui tient debout, et tu attends que je te dise reste.
+— Si. Tu es là depuis quatre jours et tu répares tout ce qui tient debout, et tu attends que je te dise reste.
 
 Elle a regardé le feu.
 
@@ -128,7 +128,7 @@ Voici ce que je sais faire depuis que j'ai six ans : reconnaître ce qui est cha
 
 Il n'y avait rien.
 
-Pas froid comme un Braise vidé. Pas froid comme ses mains depuis six jours. Rien du tout — la température de la pièce, exactement, comme la chaise, comme le mur, comme les douze planches que je venais de poser.
+Pas froid comme un Braise vidé. Pas froid comme ses mains depuis quatre jours. Rien du tout — la température de la pièce, exactement, comme la chaise, comme le mur, comme les douze planches que je venais de poser.
 
 Je me suis assis sur le tabouret, à sa gauche, là où je m'assieds.
 

@@ -84,7 +84,7 @@ Elle a passé la main sur la dalle noire.
 
 J'ai eu très froid, par une belle journée.
 
-— Alors voilà, a dit Tervi. Vous savez faire une chose que nous ne savons pas faire. Restez. Faites-la pour nous. Les bouches, l'eau — il y a un bras qui sèche en août et personne ne sait pourquoi, vous sauriez peut-être —, les chemins d'hiver, les limites. Nous n'avons pas de papier qui dise où nous sommes.
+— Alors voilà, a dit Tervi. Vous savez faire une chose que nous ne savons pas faire. Restez. Faites-la pour nous. Les bouches, l'eau — il y a un bras qui sèche à la fin de l'été et personne ne sait pourquoi, vous sauriez peut-être —, les chemins d'hiver, les limites. Nous n'avons pas de papier qui dise où nous sommes.
 
 — Vous avez besoin d'un papier ?
 
@@ -110,9 +110,9 @@ Huit ans.
 
 J'ai attendu d'être seule pour faire le compte, parce que je savais déjà ce qu'il donnerait.
 
-Il y a vingt-sept jours, dans la rue des Copistes, un homme en gants m'a offert quatre mille couronnes pour que la carte du Nord soit incomplète. Il l'a dit mieux que ça : *personne ne vous demande de mentir, il suffit qu'une région soit difficile.* Il a posé la bourse sur le marchepied sans me la tendre. Il m'a dit que je serais célèbre, que j'aurais une maison, et qu'une maison est la seule chose qui empêche une femme seule de dépendre d'une Guilde jusqu'à sa mort.
+Il y a trente et un jours, dans la rue des Copistes, un homme en gants m'a offert quatre mille couronnes pour que la carte du Nord soit incomplète. Il l'a dit mieux que ça : *personne ne vous demande de mentir, il suffit qu'une région soit difficile.* Il a posé la bourse sur le marchepied sans me la tendre. Il m'a dit que je serais célèbre, que j'aurais une maison, et qu'une maison est la seule chose qui empêche une femme seule de dépendre d'une Guilde jusqu'à sa mort.
 
-J'ai refusé en quatre phrases et j'en ai été fière pendant vingt-sept jours.
+J'ai refusé en quatre phrases et j'en ai été fière pendant trente et un jours.
 
 Tervi vient de m'offrir exactement la même chose.
 
