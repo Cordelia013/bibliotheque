@@ -68,7 +68,7 @@ Elle a eu l'air, pendant un instant, d'une femme qui vient de trouver l'erreur d
 
 — Il m'a engagé un abri.
 
-— Il a racheté un abri, ai-je dit. Ce n'est pas la même chose. On n'engage pas un Braise, madame Marrec. On acquiert son contrat. Le mien appartenait à la maison Serrande ; depuis le douze du mois dernier il appartient au Doyen Aldric Vael, qui l'a payé douze cents couronnes et qui me l'a annoncé en me faisant remarquer qu'il aurait pu en mettre mille.
+— Il a racheté un abri, ai-je dit. Ce n'est pas la même chose. On n'engage pas un Braise, madame Marrec. On acquiert son contrat. Le mien appartenait à la maison Serrande ; depuis le douze de ce mois il appartient au Doyen Aldric Vael, qui l'a payé douze cents couronnes. Je ne l'ai jamais vu. C'est un clerc qui me l'a fait signer, dans une pièce sans fenêtre, en soupirant parce que je lisais.
 
 C'est sorti plus sec que je ne voulais. Il y a des phrases qu'on prépare pendant des semaines sans savoir qu'on les prépare.
 

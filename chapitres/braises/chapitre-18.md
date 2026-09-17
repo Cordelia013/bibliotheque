@@ -76,6 +76,6 @@ J'ai mis très longtemps à m'endormir, pour des raisons que je note ici sans le
 
 Vers le milieu de la nuit, je me suis réveillée.
 
-La pièce ne brûlait pas. La pièce était tiède comme une écurie en janvier, comme une cuisine à quatre heures du matin, comme toutes les pièces où j'ai eu froid dans ma vie et où j'aurais voulu ne pas avoir froid.
+La pièce ne brûlait pas. La pièce était tiède comme une écurie en plein hiver, comme une cuisine à quatre heures du matin, comme toutes les pièces où j'ai eu froid dans ma vie et où j'aurais voulu ne pas avoir froid.
 
 J'ai dormi jusqu'au jour sans bouger d'un pouce.

@@ -22,6 +22,8 @@ Le troisième, celui de l'éboulis, était vivant. Il avait les paupières et le
 
 Nous leur avons laissé une outre, la moitié de notre pain, et leurs chevaux, qui étaient attachés derrière l'éboulis et qui allaient très bien.
 
+J'ai calculé, pendant qu'il finissait les bandes, ce qu'un de ces chevaux réglerait pour nous. Beaucoup. Puis j'ai calculé ce que trois blessés à pied, dont un manchot, feraient de quatre lieues de défilé sans eau, et j'ai cessé de calculer. Et il y avait l'autre raison, celle que je n'aime pas : je venais de leur promettre de tout dire à Valdren, et une promesse pareille ne vaut rien si les témoins meurent en chemin.
+
 Le premier homme nous a regardés partir avec sa main dans les bandes.
 
 — Il vous paiera pareil ? ai-je demandé.

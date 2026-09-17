@@ -30,7 +30,7 @@ Il n'y a pas d'entrée. C'est ce que je veux écrire d'abord, pour le relevé, p
 
 C'est la première fois de ma vie que j'écrivais ce mot sur une feuille de la Guilde.
 
-La chaleur n'est pas venue d'un coup. Elle est venue comme monte une marée : on ne la voit pas monter, on s'aperçoit seulement qu'elle est là. À la deuxième heure, j'avais l'impression de marcher dans une cuisine en août. À la quatrième, dans le four de cette cuisine, porte ouverte, en tendant les mains pour vérifier le pain.
+La chaleur n'est pas venue d'un coup. Elle est venue comme monte une marée : on ne la voit pas monter, on s'aperçoit seulement qu'elle est là. À la deuxième heure, j'avais l'impression de marcher dans une cuisine en plein été. À la quatrième, dans le four de cette cuisine, porte ouverte, en tendant les mains pour vérifier le pain.
 
 Le vent, lui, est venu d'un coup.
 
