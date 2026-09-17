@@ -12,7 +12,7 @@ Mon travail tient en quatre gestes. J'entre dans la halle au lever du jour. Je p
 
 Dix-neuf ans.
 
-J'en avais huit quand on m'a assis devant cette porte pour la première fois. Un Braise vaut par son feu, pas par sa taille, et la maison ne pouvait pas attendre que je grandisse : Vaugrin tenait le four un et Vaugrin n'en avait plus pour longtemps. Torve me tenait debout, les premières semaines, parce que je m'endormais contre la fonte.
+J'avais huit ans quand on m'a assis devant cette porte. Un Braise vaut par son feu, pas par sa taille, et la maison ne pouvait pas attendre que je grandisse : Vaugrin tenait le four un et Vaugrin n'en avait plus pour longtemps. Torve me tenait debout, les premières semaines, parce que je m'endormais contre la fonte.
 
 Voilà ce que personne ne dit sur nous.
 
@@ -34,7 +34,7 @@ Halden Serrande m'attendait dans la cour, hors de la chaleur, avec des gants. Il
 
 — Ton contrat est levé.
 
-Je suis resté immobile. Il y a des phrases qu'on n'entend pas la première fois parce qu'on a passé dix-neuf ans à ne pas les espérer.
+Je suis resté immobile. Il y a des phrases qu'on n'entend pas du premier coup, parce qu'on a passé dix-neuf ans à ne pas les espérer.
 
 — Pardon ?
 

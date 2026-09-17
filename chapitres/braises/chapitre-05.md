@@ -18,7 +18,7 @@ La plume s'est arrêtée.
 
 — Non. Je suis en position de partir mal ou de partir bien, et vous avez dit vous-même que quelqu'un qui n'a pas envie d'être là ne voit rien. Alors écoutez-les, et refusez-les si vous voulez. Elles ne vous coûtent rien.
 
-Il a reposé la plume. C'est la première fois de ma vie qu'un Doyen faisait ça pour moi.
+Il a reposé la plume. Aucun Doyen n'avait jamais fait ça pour moi.
 
 — Parlez.
 

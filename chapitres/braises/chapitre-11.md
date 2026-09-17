@@ -82,7 +82,7 @@ Je me suis rappelé une cave d'archives, neuf cartes par terre, et une phrase é
 
 Cael a tiré sur les rênes. Le cheval s'est arrêté.
 
-Il m'a regardée comme s'il me voyait pour la première fois — pas avec chaleur ; avec attention, ce qui chez lui est la même chose.
+Il m'a regardée comme s'il me découvrait — pas avec chaleur ; avec attention, ce qui chez lui est la même chose.
 
 — Pourquoi vous me le dites ?
 
@@ -102,4 +102,4 @@ Quelque chose a bougé au coin de sa bouche. Ça n'a pas duré.
 
 Il a relancé le cheval.
 
-Derrière nous, Valdren s'est mise à rapetisser, et je n'ai pas regardé en arrière — pas par bravoure : parce que la route montait, et qu'en haut de la côte, pour la première fois de ma vie, il y avait un pays que je n'avais jamais dessiné.
+Derrière nous, Valdren s'est mise à rapetisser, et je n'ai pas regardé en arrière — pas par bravoure : parce que la route montait, et qu'en haut de la côte il y avait un pays que je n'avais jamais dessiné.

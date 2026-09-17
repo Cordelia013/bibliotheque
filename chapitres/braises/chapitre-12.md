@@ -64,10 +64,10 @@ Et le lendemain soir, quand je me suis accroupi, elle a regardé.
 
 Elle n'a rien dit. Elle n'a pas eu ce petit bruit dans la gorge que les gens font. Elle a regardé mes mains, puis le bois, puis mes mains, avec cette attention plate et sérieuse qu'elle met à relever une côte.
 
-Quand le feu a pris, elle a hoché la tête une fois, comme on referme un relevé.
+Quand le feu a pris, elle a hoché la tête une fois, comme on ferme une porte de four : sans forcer, parce que c'est lourd et qu'il suffit d'accompagner.
 
 — Merci, a-t-elle dit.
 
 Vingt-deux ans que je fais ce geste devant des gens.
 
-C'est la première fois que quelqu'un m'a remercié de l'avoir laissé voir.
+Personne, avant elle, ne m'avait remercié de l'avoir laissé voir.

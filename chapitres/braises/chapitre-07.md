@@ -20,7 +20,7 @@ Dix-neuf ans de four. Le clerc de la Guilde ne l'écrit pas sur l'acte.
 
 — Cael.
 
-Pas de nom de famille. J'en connaissais un — *Dorne, Cael*, écrit à l'encre administrative dans une case d'objet — et je n'ai rien dit, parce que le Doyen m'avait demandé de ne rien dire et parce que, pour la première fois de ma vie, obéir m'arrangeait.
+Pas de nom de famille. J'en connaissais un — *Dorne, Cael*, écrit à l'encre administrative dans une case d'objet — et je n'ai rien dit, parce que le Doyen m'avait demandé de ne rien dire et parce que, ce jour-là, obéir m'arrangeait.
 
 — Vous savez monter ?
 
