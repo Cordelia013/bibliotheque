@@ -1,6 +1,6 @@
 # La Saison des Braises
 
-## Chapitre 27 — La plaque
+## Chapitre 27 — Ce qui ne brûle pas
 
 *POV Ysée*
 
@@ -34,11 +34,11 @@ C'est tout ce qu'il a dit. Il n'y avait pas d'eau pour le reste, et je crois qu'
 
 J'ai fait ce que je sais faire. J'ai réfléchi comme on relève une côte, en partant de ce que je voyais.
 
-Il ne prenait plus. Je l'avais senti dans l'après-midi : la zone d'air supportable derrière lui s'était rétrécie, comme une ombre à midi. Il prenait toujours, mais il gardait tout, et ce qu'il gardait le tenait raide comme une barre de fonte. Et à la cinquième halte, quand j'avais posé ma main sur sa joue — je l'avais fait sans y penser, parce qu'il avait la figure d'un homme qui va s'asseoir — quelque chose était sorti de lui, un peu, vers moi, et il avait marché autrement ensuite.
+Il ne se vidait plus. Je l'avais senti dans l'après-midi : la zone d'air supportable derrière lui s'était rétrécie, comme une ombre à midi. Il prenait toujours, mais il gardait tout, et ce qu'il gardait le tenait raide comme une barre de fonte. Et à la cinquième halte, quand j'avais posé ma main sur sa joue — je l'avais fait sans y penser, parce qu'il avait la figure d'un homme qui va s'asseoir — quelque chose était sorti de lui, un peu, vers moi, et il avait marché autrement ensuite.
 
 Une carte, c'est une décision. On décide de ce qui existe.
 
-J'ai passé le bras par-dessus lui et j'ai posé la main sur sa poitrine, sous la chemise, là où c'était le plus chaud.
+J'ai passé le bras par-dessus lui, j'ai tiré sur le pan de sa chemise, et j'ai posé la main à même la peau.
 
 Il a eu un mouvement, le début d'un recul.
 
@@ -46,7 +46,27 @@ Il a eu un mouvement, le début d'un recul.
 
 Il s'est arrêté.
 
-Il a fallu un moment. Puis j'ai senti ce que j'avais senti à la halte : pas une brûlure — la Ligne mangeait tout avant ma peau — mais un passage, quelque chose qui allait de lui vers moi et qui se perdait en route, et son dos qui cédait d'un cran, et d'un autre, comme au seizième soir, une épaule puis l'autre.
+Sous ma paume, c'était ce qu'on touche quand on approche la main d'une porte de fonte pour vérifier si le four est encore chaud, et qu'on la retire au dernier moment.
+
+Je ne l'ai pas retirée.
+
+J'ai attendu que ma main s'habitue, comme on s'habitue à l'eau. Son cœur battait beaucoup trop vite pour un homme couché, et la chaleur montait par vagues à chaque battement, si bien que j'ai fini par les compter — parce que c'est ce que je fais, je compte, je mesure, je reporte — et que je me suis arrêtée en comprenant ce que j'étais en train de mesurer.
+
+Puis ça s'est ouvert.
+
+Je ne sais pas le dire autrement. Il a lâché un peu de ce qu'il gardait, ça a passé par ma main, dans mon bras, et le vent l'a pris avant que j'aie eu le temps d'avoir mal. Son dos a cédé d'un cran. Puis d'un autre, comme au seizième soir, une épaule puis l'autre. Sa respiration est descendue d'un étage.
+
+— Ça ne vous fait rien, a-t-il dit.
+
+Ce n'était pas une question. C'était un homme qui vérifie un chiffre.
+
+— Non.
+
+— Ysée. Ça devrait vous faire quelque chose.
+
+— Je sais.
+
+J'ai laissé la main où elle était. Sous mes doigts, il y avait la ligne des côtes, le creux au milieu, et cette peau lisse et un peu luisante que j'avais dessinée trois nuits plus tôt sans savoir ce que je dessinais.
 
 Nous sommes restés comme ça. Je ne sais pas combien de temps. Le vent a repris, puis il a baissé encore, ce qu'il ne fait pas d'ordinaire, et je crois que c'est ce silence qui m'a donné le courage de la question, parce qu'il n'y en aurait pas d'autre.
 
@@ -76,14 +96,62 @@ Il a hoché la tête.
 
 — Et vous ne savez pas si quelqu'un…
 
-Il a refermé la main sur la plaque et il l'a remise dans sa poche, et il a posé sa main sur la mienne, sur sa poitrine, et il n'a plus rien dit, et c'était la réponse.
+Il a refermé la main sur la plaque et il l'a remise dans sa poche, et il a posé sa main sur la mienne, sur sa peau, et il n'a plus rien dit, et c'était la réponse.
 
 Je n'ai pas insisté. Il avait dit ce qu'il pouvait dire sans mots, et les mots, sur la Ligne, coûtent de l'eau.
 
-Mais j'ai pensé — et je le note ici parce que le blanc est un carnet honnête ou il n'est rien — à une page de la main du Doyen Aldric Vael, pliée contre ce carnet, à trois doigts de la main de Cael :
+Mais j'ai pensé — et je le note ici parce que le blanc est un carnet honnête ou il n'est rien — à une page de la main du Doyen Aldric Vael, pliée contre ce carnet, à trois doigts de la main de Cael.
 
-*L'homme que je vous confie cherche quelqu'un dans le Nord. Vous ne l'aiderez pas à chercher.*
+*Vous ne l'aiderez pas à chercher.*
 
-Le Doyen le savait. Il l'avait écrit avant le départ, dans son bureau, sous ses cartes.
+Le Doyen le savait. Il l'avait écrit avant le départ, dans son bureau, sous ses cartes. Et moi, j'étais couchée contre cet homme avec la main sur sa poitrine, et je venais de voir la porte.
 
-Et moi, je venais de voir la porte.
+C'est à ce moment-là, exactement, que j'ai cessé de me conduire comme une Relevée.
+
+Sa main tenait la mienne contre lui. Je l'ai retournée sous ses doigts, paume contre paume, et je suis descendue.
+
+Il n'a pas dit non.
+
+Je suis passée sur le ventre, qui était dur et qui s'est creusé sous ma paume, et plus bas, jusqu'à la ceinture, et j'ai senti son souffle s'arrêter net dans son dos — pas un souffle coupé : un souffle *suspendu*, comme un homme qui attend le verdict d'une chose qu'il a déjà perdue.
+
+Et plus bas encore.
+
+Il était dur. À travers la toile, brûlant, et le tissu lui-même était chaud comme un linge qu'on sort d'une bassine.
+
+Je n'ai pas retiré ma main. J'ai refermé les doigts, une fois, doucement, pour qu'il n'y ait aucun doute sur ce que je faisais.
+
+Il a fait un bruit au fond de la gorge que je n'avais jamais entendu chez lui.
+
+— Marrec.
+
+— Ysée.
+
+— Ysée. Il faut que vous sachiez une chose.
+
+— Dites.
+
+— Je n'ai jamais.
+
+Trois mots. Il les a dits comme il dit tout : sans ruse, comme on donne la profondeur d'un gué.
+
+— Jamais quoi ?
+
+— Jamais rien, a-t-il dit. Personne. De ma vie. Je ne sais pas comment on fait et je vais mal le faire, et je préfère que vous le sachiez maintenant plutôt qu'à ce moment-là.
+
+Je suis restée un instant sans bouger, la main sur lui, le front entre ses omoplates.
+
+Vingt-deux ans à un pouce du monde. J'avais entendu la phrase au gué de Sarre et je ne l'avais pas comprise en entier. Je la comprenais maintenant.
+
+— Cael.
+
+— Oui.
+
+— Retournez-vous.
+
+— Ysée…
+
+— Il n'y a rien à savoir faire, ai-je dit. Il y a une nuit. Une seule, dans toute votre vie et dans toute la mienne, où vous ne pouvez me faire aucun mal, et elle est en train de passer pendant que vous vous excusez.
+
+Son odeur avait changé. Ce n'était plus la laine et le fer. C'était plus bas, plus animal — du sel, de la peau chauffée, quelque chose qui m'est entré dans le ventre et qui m'a fait serrer les cuisses l'une contre l'autre, et j'ai su, à cet instant précis, que j'étais déjà humide et que je l'étais depuis un moment.
+
+Il s'est retourné.

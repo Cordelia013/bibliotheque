@@ -52,7 +52,7 @@ Elle a levé les yeux.
 
 Je l'ai dit aussi platement que possible, comme on dit *deux doigts sous la sangle*, parce que c'était la seule manière de le dire.
 
-— Le sol garde la chaleur toute la nuit, ai-je continué, et l'air se refroidit d'un coup après le coucher du soleil ; c'est là que le vent est le pire, il passe à ras et il prend l'eau du corps dix fois plus vite qu'en plein jour. Une personne seule sous une couverture, sur la Ligne, la nuit, perd en huit heures ce qu'elle perd en deux jours de marche. Il n'y a pas d'abri à construire, il n'y a rien pour faire un mur. Le seul abri, c'est moi. Je prends le vent et je prends la chaleur, et vous dormez dans mon dos, sous la même couverture, contre moi, les trois nuits.
+— Le sol garde la chaleur toute la nuit, ai-je continué, et l'air se refroidit d'un coup après le coucher du soleil ; c'est là que le vent est le pire, il passe à ras et il prend l'eau du corps dix fois plus vite qu'en plein jour. Une personne seule sous une couverture, sur la Ligne, la nuit, perd en huit heures ce qu'elle perd en deux jours de marche. Il n'y a pas d'abri à construire, il n'y a rien pour faire un mur. Le seul abri, c'est moi. Je prends le vent et je prends la chaleur, et vous dormez dans mon dos, sous la même couverture, contre moi, les deux nuits.
 
 Elle a écrit quelque chose. Je ne sais pas quoi. Elle a mis très longtemps pour un si petit mouvement de plume.
 
