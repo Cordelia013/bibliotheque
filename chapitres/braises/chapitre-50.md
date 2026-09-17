@@ -52,7 +52,7 @@ Elle a roulé la cordelette autour de sa main.
 
 Nous ne nous sommes pas expliqués. Je tiens à ce que ce soit clair : il n'y a pas eu de conversation où l'on remet les choses à leur place, parce que ça n'existe pas et que je n'ai jamais vu personne en réussir une.
 
-Il y a eu ceci, au bord, cinquante-huit jours plus tard, pendant que nous mouillions les linges.
+Il y a eu ceci, au bord de la cendre, pendant que nous mouillions les linges.
 
 — Marrec.
 
@@ -170,7 +170,7 @@ Nous avons marché vers Ghar dans l'herbe morte, sans nous presser, pour la dern
 
 À un moment, elle a mis sa main dans la mienne.
 
-Pas sur la manche : dans la main, doigts contre doigts, comme à la brèche il y a soixante-deux jours, dans l'air ordinaire d'un pays qui ne prend rien, où trois secondes sont trois secondes.
+Pas sur la manche : dans la main, doigts contre doigts, comme à la brèche il y a quatre-vingt-un jours, dans l'air ordinaire d'un pays qui ne prend rien, où trois secondes sont trois secondes.
 
 J'ai compté jusqu'à trois.
 

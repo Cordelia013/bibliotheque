@@ -28,7 +28,7 @@ Il n'a rien demandé. Il n'a pas parlé. Il a fait exactement ce qu'on lui a dit
 
 C'est une chose étrange de passer une journée entière avec Halden Serrande dans son dos.
 
-Pendant dix-neuf ans, cet homme a été au-dessus de moi. Il entrait dans la halle avec des gants, il regardait le tonnage, il repartait. La distance entre nous s'appelait *maître Serrande* d'un côté et *Dorne* de l'autre, et c'était une distance de plusieurs étages de maison.
+Depuis qu'il est entré dans les affaires de son père, cet homme a été au-dessus de moi. Il entrait dans la halle avec des gants, il regardait le tonnage, il repartait. La distance entre nous s'appelait *maître Serrande* d'un côté et *Dorne* de l'autre, et c'était une distance de plusieurs étages de maison.
 
 Là, il était à deux pas dans mon dos et il n'y avait rien entre nous qu'un peu d'air chaud, et pendant onze heures il a vécu de ce que je décidais de prendre.
 

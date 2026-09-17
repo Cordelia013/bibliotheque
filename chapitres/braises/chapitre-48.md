@@ -80,17 +80,11 @@ Et il n'a pas dit merci, et je ne lui en ai pas voulu, parce que je sais mieux q
 
 Nous sommes descendus vers Valdren en seize jours, comme nous étions montés, et il n'y a presque rien à en dire.
 
-Trois hommes du Sud, une femme, moi, un cheval pour cinq. On marche à tour de rôle et on mange moins. Aux relais, Serrande payait. Aux bourgs, je dormais aux communs et je me déclarais au bailli — nom, contrat, maison propriétaire — et à Pierre-Fendue l'aubergiste du Pont était le même et il m'a regardé exactement le temps qu'il faut pour comprendre, puis il a regardé ailleurs, et Ysée n'a rien dit du tout.
-
-Elle a payé la chambre, elle a pris les communs, et elle est venue manger dehors sous l'auvent de la halle avec une écuelle.
-
-Elle n'a pas fait la leçon à l'aubergiste. Elle n'a pas expliqué. Elle a acheté deux places aux communs au prix d'une chambre et elle a laissé cet homme dire oui sans perdre la face, exactement comme je le lui avais expliqué sous cet auvent-là il y a cinquante-deux jours.
-
-Elle avait retenu. Ça m'a fait quelque chose que je ne décrirai pas.
+Trois hommes du Sud, une femme, moi, un cheval pour cinq. On marche à tour de rôle et on mange moins. Aux relais, Serrande payait. Aux bourgs, je dormais aux communs et je me déclarais au bailli — nom, contrat, maison propriétaire.
 
 ---
 
-Nous avons passé le défilé de Marne le douzième jour.
+Nous avons passé le défilé de Marne le deuxième jour. En montant, il nous avait fallu quinze jours pour y arriver ; en descendant, c'est la première chose qu'on rencontre, et on n'a pas eu le temps de se préparer.
 
 Je ne voulais pas y penser et j'y ai pensé pendant quatre lieues. Le premier resserrement. Le deuxième, avec la coulée d'éboulis assez haute pour tenir deux hommes. La tache sur la pierre, à la deuxième lieue, à hauteur de genou, qui n'est plus qu'une tache et qui restera une tache pendant cent ans.
 
@@ -104,11 +98,23 @@ Il savait où il était. Il avait payé ces trois hommes à la journée et il co
 
 — C'est une réponse à une question que personne n'a posée, a dit Ysée.
 
-— Non, a dit Halden. C'est une réponse à une question que vous vous êtes posée pendant trente-sept jours, madame, et je préfère vous la donner ici plutôt qu'à Valdren devant un greffe.
+— Non, a dit Halden. C'est une réponse à une question que vous vous êtes posée pendant trente-neuf jours, madame, et je préfère vous la donner ici plutôt qu'à Valdren devant un greffe.
 
 Elle n'a pas répondu.
 
 Moi, j'ai fait le compte : un homme de vingt-six ans, manchot de trois doigts à cause de mes mains, qui tient un compte dans un port. Ce n'est pas rien. Ce n'est pas la mort. C'est ce qu'on peut appeler de la chance quand on n'a rien de mieux à appeler.
+
+---
+
+Nous avons repassé Pierre-Fendue le neuvième jour.
+
+L'aubergiste du Pont était le même. Il m'a regardé exactement le temps qu'il faut pour comprendre, puis il a regardé ailleurs, et Ysée n'a rien dit du tout.
+
+Elle a payé la chambre, elle a pris les communs, et elle est venue manger dehors sous l'auvent de la halle avec une écuelle.
+
+Elle n'a pas fait la leçon à l'aubergiste. Elle n'a pas expliqué. Elle a acheté deux places aux communs au prix d'une chambre et elle a laissé cet homme dire oui sans perdre la face, exactement comme je le lui avais expliqué sous cet auvent-là il y a cinquante-deux jours.
+
+Elle avait retenu. Ça m'a fait quelque chose que je ne décrirai pas.
 
 ---
 
@@ -132,7 +138,7 @@ J'ai regardé la sangle.
 
 — Deux doigts.
 
-Ce sont les premiers mots que nous ayons échangés depuis la halle deux des Fours hauts, il y avait alors vingt-sept jours, et ils portaient sur l'écartement correct d'une sangle de selle.
+Depuis la halle deux des Fours hauts, il y avait alors trente jours, il m'avait dit deux mots : *deux pas*, au bord de la cendre, sur le nœud d'un linge. Ceux-là étaient les suivants, et ils portaient sur l'écartement correct d'une sangle de selle.
 
 Elle a fait faire dix pas au cheval. Elle a resserré.
 

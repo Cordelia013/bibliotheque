@@ -66,7 +66,7 @@ Il a écarté Tiec d'une main. Il s'est accroupi devant Halden.
 
 Je n'ai pas entendu ce qu'il a dit. Je ne crois pas qu'il ait dit quelque chose. Il a pris la figure de Halden entre ses deux mains, à peau nue, et il l'a tenue comme ça pendant le temps qu'il faut pour respirer trois fois.
 
-Sur la Ligne, il ne peut brûler personne. L'air prend tout ce qui sort de lui avant que ça n'arrive à une peau. Je suis la seule personne vivante à le savoir de cette façon-là, et pendant trois secondes j'ai été la seule personne vivante à comprendre ce que Cael Dorne était en train de faire à Halden Serrande, qui l'avait possédé pendant dix-neuf ans : il le réchauffait.
+Sur la Ligne, il ne peut brûler personne. L'air prend tout ce qui sort de lui avant que ça n'arrive à une peau. Je suis la seule personne vivante à le savoir de cette façon-là, et pendant trois secondes j'ai été la seule personne vivante à comprendre ce que Cael Dorne était en train de faire à Halden Serrande, dont la maison l'avait possédé pendant dix-neuf ans : il le réchauffait.
 
 Ça n'a pas suffi. Un homme vide ne se remplit pas comme ça ; ce n'est pas le même manque.
 
@@ -92,7 +92,7 @@ Il faut avoir marché dans cette ombre-là pour comprendre. Depuis le premier jo
 
 Il ne prenait plus.
 
-Il était plein. Il avait pris pour quatre pendant deux jours et demi, et il portait quatre-vingts kilos d'homme depuis trois heures, et il n'avait rien où le mettre.
+Il était plein. Il avait pris pour quatre pendant deux jours et demi, et il portait cent soixante livres d'homme depuis trois heures, et il n'avait rien où le mettre.
 
 *Le jour où tu prends tout, tu ne trouves plus la porte.*
 

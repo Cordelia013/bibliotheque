@@ -6,7 +6,7 @@
 
 Valdren n'avait pas bougé.
 
-C'est la chose la plus violente de tout le voyage et personne ne m'avait prévenue. Il pleuvait sur les toits, la mer en bas de la ville avait sa couleur de plomb, les porteurs d'eau passaient à la deuxième cloche. Cinquante-quatre jours, quatre-vingt-deux lieues de feu dans les deux sens, deux morts, et la troisième marche de l'escalier des pupilles grinçait toujours.
+C'est la chose la plus violente de tout le voyage et personne ne m'avait prévenue. Il pleuvait sur les toits, la mer en bas de la ville avait sa couleur de plomb, les porteurs d'eau passaient à la deuxième cloche. Soixante-huit jours, quatre-vingt-deux lieues de feu dans les deux sens, deux morts, et la troisième marche de l'escalier des pupilles grinçait toujours.
 
 Je l'ai évitée. Dix-sept ans d'habitude.
 
@@ -14,7 +14,7 @@ Je l'ai évitée. Dix-sept ans d'habitude.
 
 Le Doyen Aldric Vael m'a reçue le lendemain matin, dans son bureau, sous ses cartes.
 
-Il ne m'a pas fait asseoir. Il ne l'avait pas fait en septembre non plus, et je crois que cet homme n'a jamais fait asseoir personne de sa vie.
+Il ne m'a pas fait asseoir. Il ne l'avait pas fait au premier entretien non plus, et je crois que cet homme n'a jamais fait asseoir personne de sa vie.
 
 J'ai posé l'étui de fer-blanc sur sa table. J'ai défait les attaches. J'ai déroulé le vélin et je l'ai maintenu aux quatre coins avec ce qui traînait — un encrier, une règle, deux pierres à presser.
 
@@ -30,9 +30,9 @@ Voici ce qu'il y avait dessus.
 
 *Passage impossible sans un contrat-de-feu en tête.*
 
-**Et au nord :** la sortie, la plaine brune, les bouquets d'arbres nains. Un cours d'eau venant de l'ouest. Et à deux lieues, un rectangle de ruines avec le petit rond barré, le signe de la ville morte, et le nom : *Ghar (quartier bas)*.
+**Et au nord :** la sortie, et une lieue de plaine brune avec ses bouquets d'arbres nains, relevée au pas. Un cours d'eau venant de l'ouest, avec ses cailloux ronds.
 
-Au-dessus de cela, rien.
+Au-dessus de cela, rien. Pas de mur, pas de toits, pas de nom.
 
 Et sur le trait de limite nord de mon relevé, en travers, à l'encre plus pâle, la mention conventionnelle que tout copiste de cette maison sait lire : **relevé interrompu**.
 
@@ -52,7 +52,7 @@ Au bout de onze minutes, il s'est redressé.
 
 Il a posé un doigt sur la mention *relevé interrompu*.
 
-— Vingt jours, a-t-il dit. Vous êtes sortie de la Ligne le dix-neuvième jour et vous êtes rentrée dans la Ligne le… — il a regardé le carnet de route, qu'il avait déjà lu — …cinquante-cinquième. Trente-six jours au nord. Une Relevée de votre qualité relève trente-six lieues en trente-six jours dans un pays plat, et vous me rendez deux lieues et une ruine.
+— Vingt-neuf jours, a-t-il dit. Vous êtes sortie de la Ligne le dix-neuvième jour et vous êtes rentrée dans la Ligne le… — il a regardé le carnet de route, qu'il avait déjà lu — …quarante-huitième. Vingt-neuf jours au nord. Une Relevée de votre qualité relève vingt-neuf lieues en vingt-neuf jours dans un pays plat, et vous me rendez une lieue de plaine brune.
 
 — Oui.
 
@@ -68,7 +68,7 @@ Le ruisseau, six jours, jusqu'à une source si froide qu'on n'y tient pas la mai
 
 Les bouches : têtes de veine scellées avant la rupture, blocs en encorbellement, dalle de pierre noire dans une feuillure, quatre coins de métal. Quarante et une connues, quarante-six comptées par une femme qui ne savait pas écrire. Ce que ça veut dire : que le feu de la terre s'ouvre et se referme, que quelqu'un a su le faire, que quelqu'un sait encore où elles sont.
 
-Et les Fours hauts. Quatre halles de fonderie abandonnées avant la guerre. Deux cent onze personnes. Un tour d'une heure, un jour sur cinq. Onze vieillards, dont un de soixante-quatorze ans. Des enfants nés après la rupture qui portent le feu, environ un sur trois.
+Et les Fours hauts. Quatre halles de fonderie abandonnées avant la guerre. Deux cent onze personnes, dont cent quarante portent le feu. Un tour d'une heure, un jour sur cinq. Onze vieillards, dont un de soixante-quatorze ans. Des enfants nés après la rupture qui portent le feu, environ un sur trois.
 
 Le Doyen Vael n'a pas pris de notes. Un homme comme lui ne prend pas de notes devant vous ; il retient, et il écrit après, quand vous êtes sortie.
 
@@ -86,7 +86,7 @@ Quand j'ai eu fini, il est resté longtemps devant la grande carte du mur, celle
 
 Voici ce que je lui ai dit, et je le pose ici mot pour mot, parce que c'est la seule fois de ma vie où j'ai fait ce que font les hommes de cette maison : j'ai vendu quelque chose.
 
-— Vous m'avez dit, dans cette pièce, il y a cinquante-six jours : *celui qui sait ce qu'il y a derrière la Ligne tient les deux autres.* C'était vrai et ça l'est encore. Alors regardons ce que vous tenez selon ce que vous publiez.
+— Vous m'avez dit, dans cette pièce, il y a soixante-neuf jours : *celui qui sait ce qu'il y a derrière la Ligne tient les deux autres.* C'était vrai et ça l'est encore. Alors regardons ce que vous tenez selon ce que vous publiez.
 
 « Cas un. Vous publiez tout. Kerlan et Orsange reçoivent chacun une carte montrant un pays vert, intact, chauffé par en dessous, habité par deux cents personnes sans roi ni acte de propriété. Combien de temps gardez-vous quoi que ce soit ? Ils n'ont plus besoin de vous. Ils ont besoin de bateaux, d'hommes et d'un guide, et le guide, ils l'achèteront comme on vous l'a acheté à vous. Vous aurez vendu deux fois la seule chose que vous possédiez et ensuite vous serez un vieil homme qui vend des cartes de côtes.
 
@@ -110,7 +110,7 @@ Puis il a dit :
 
 — Et vous avez fait ça volontairement.
 
-— Je l'avais déjà dit à d'autres gens, ai-je dit, dans une halle de fonderie, il y a trente-huit jours, et ils en ont tiré les conclusions que vous imaginez. Je préfère le dire que le laisser deviner.
+— Je l'avais déjà dit à d'autres gens, ai-je dit, dans une halle de fonderie, il y a trente-trois jours, et ils en ont tiré les conclusions que vous imaginez. Je préfère le dire que le laisser deviner.
 
 Vael a refermé la main sur le dossier de son fauteuil.
 
@@ -190,7 +190,7 @@ Il me l'a accordée en trois secondes, ce qui m'a appris ce que je valais : une 
 
 Je suis sortie de cette maison avec mon coffre, mes deux carnets, une trousse de plumes usée aux angles, quatre-vingt-onze couronnes de solde d'expédition, et aucune rente, aucun titre, aucun toit.
 
-Exactement ce que Halden Serrande m'avait décrit dans la rue des Copistes, cinquante-sept jours plus tôt, en posant une bourse sur un marchepied sans me la tendre.
+Exactement ce que Halden Serrande m'avait décrit dans la rue des Copistes, soixante-neuf jours plus tôt, en posant une bourse sur un marchepied sans me la tendre.
 
 Il avait raison sur tout et j'ai refusé quand même, deux fois, à deux prix différents.
 
@@ -206,7 +206,7 @@ La seconde est prévue pour le nom de celui qui a marché. Pour quelqu'un comme 
 
 J'ai pris la plume. J'ai écrit :
 
-*Relevée à pied par Ysée Marrec, Relevée de la Guilde. Cinquante-quatre jours. Relevé interrompu.*
+*Relevée à pied par Ysée Marrec, Relevée de la Guilde. Soixante-huit jours. Relevé interrompu.*
 
 J'ai regardé les trois derniers mots longtemps.
 
