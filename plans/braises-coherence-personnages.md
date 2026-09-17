@@ -24,9 +24,12 @@ Elle est payée par ce chiffre. Ne pas le répéter ; s'y appuyer.
 ## 2. Ysée ne monte pas à cheval — RÉSOLU PAR LE STATUT
 
 Huit ans de Relevés mais aucune pratique de la longue selle. Justifié au ch. 13 :
-une pupille relève à pied, en journée, dans les trois ou quatre lieues autour de Valdren ;
-la Guilde ne confie pas de monture à qui n'a pas de rente pour la remplacer.
-Le cheval du voyage est le premier qui soit à elle. Détail de classe, non de faiblesse.
+une pupille relève à pied et voyage d'un relevé à l'autre en chariot de la Guilde ou sur
+un convoi de sel ; la Guilde ne confie pas de monture à qui n'a pas de rente pour la
+remplacer. Le cheval du voyage est le premier qui soit à elle. Détail de classe, non de
+faiblesse. (Formulation corrigée le 17 septembre : la première version limitait les
+relevés de pupille aux abords de Valdren, ce que contredisaient les 92 lieues de côte du
+ch. 1 et le défilé de Marne dressé par Ysée au ch. 20.)
 
 ## 3. Halden traverse lui-même — MARQUÉ COMME ÉVÉNEMENT
 
