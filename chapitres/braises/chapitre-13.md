@@ -60,7 +60,7 @@ Il est allé s'occuper des chevaux. Il a desselé le sien, puis le mien, et il a
 
 Je me suis assise sur une pierre. J'ai sorti le carnet — pas celui des relevés : l'autre. Le blanc.
 
-C'est un carnet que je tiens depuis onze ans. J'y note ce que je ne peux pas mettre sur une carte : ce qu'on m'a dit et que je n'ai pas vérifié, ce que j'ai vu et que je n'ai pas compris, ce qui n'a pas de signe conventionnel. Une carte ne supporte que le certain. Tout le reste doit bien aller quelque part.
+C'est un carnet que je tiens depuis huit ans. J'y note ce que je ne peux pas mettre sur une carte : ce qu'on m'a dit et que je n'ai pas vérifié, ce que j'ai vu et que je n'ai pas compris, ce qui n'a pas de signe conventionnel. Une carte ne supporte que le certain. Tout le reste doit bien aller quelque part.
 
 J'ai écrit, ce soir-là, sous la date :
 
