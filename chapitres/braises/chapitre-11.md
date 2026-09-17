@@ -6,7 +6,7 @@
 
 Je suis partie de Valdren sans que personne me dise au revoir, et c'est la chose que j'avais le mieux prévue.
 
-J'ai fait le tour de ma cellule à la deuxième cloche. Quatre pas sur six. Un lit, une planche, une chaise, et sur le mur, punaisée depuis huit ans, une carte de la côte de Kern que j'avais dressée à dix-sept ans et qui était fausse en trois endroits.
+J'ai fait le tour de ma cellule à la deuxième cloche. Quatre pas sur six. Un lit, une planche, une chaise, et sur le mur, punaisée depuis sept ans, une carte de la côte de Kern que j'avais dressée à dix-sept ans et qui était fausse en trois endroits.
 
 Je l'ai laissée.
 
@@ -38,7 +38,7 @@ Cael m'attendait sous le porche avec les chevaux. Il avait attaché les sacoches
 
 — Comment savez-vous ça ?
 
-— Votre manteau sent la colle de punaise. On ne décroche pas une carte punaisée depuis huit ans sans emporter l'odeur.
+— Votre manteau sent la colle de punaise. On ne décroche pas une carte punaisée depuis sept ans sans emporter l'odeur.
 
 Je l'ai regardé.
 

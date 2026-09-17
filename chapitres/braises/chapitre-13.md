@@ -6,7 +6,7 @@
 
 Personne ne m'avait prévenue que le cheval ne se paie pas le jour même.
 
-Le premier jour, on est fatiguée. Le deuxième, on a mal, et on trouve ça normal, parce qu'on a mal aux endroits qu'on attendait. Le troisième, la douleur change de nature : elle quitte les muscles et s'installe dans les articulations, où elle n'a rien à faire, et elle s'y installe pour de bon.
+Le premier jour, on est fatiguée. Le deuxième, on a mal, et on trouve ça normal, parce qu'on a mal aux endroits qu'on attendait. Le troisième, la douleur change de nature : elle quitte les muscles et s'installe dans les articulations, où elle n'a rien à faire, et elle s'y installe pour de bon. Le quatrième et le cinquième, on croit s'habituer, et c'est faux : on apprend seulement à ne plus le dire.
 
 Le sixième jour, mes genoux ne pliaient plus dans le bon sens.
 

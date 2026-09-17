@@ -36,7 +36,7 @@ Elle m'a regardé.
 
 Je lui ai expliqué, parce qu'elle avait besoin de le savoir et parce qu'il valait mieux qu'elle l'apprenne d'un homme qui n'y mettrait pas de poésie.
 
-Au-dessus d'une terre qui brûle, l'air monte. Quand l'air monte quelque part, il arrive d'ailleurs pour le remplacer, et sur quatre-vingts lieues de large ça fait un vent qui souffle toujours du sud vers le nord, en rasant le sol, en ramassant la cendre. Ce vent est à la température d'un four qu'on vient d'éteindre. Il n'enflamme pas les vêtements. Il assèche. Les gens qui meurent sur la Ligne meurent presque tous de la même façon : ils respirent pendant trois jours un air qui leur prend l'eau du corps, et le quatrième jour ils s'assoient parce qu'ils sont fatigués, et ils ne se relèvent pas.
+Au-dessus d'une terre qui brûle, l'air monte. Quand l'air monte quelque part, il arrive d'ailleurs pour le remplacer, et sur quatre-vingt-deux lieues de large ça fait un vent qui souffle toujours du sud vers le nord, en rasant le sol, en ramassant la cendre. Ce vent est à la température d'un four qu'on vient d'éteindre. Il n'enflamme pas les vêtements. Il assèche. Les gens qui meurent sur la Ligne meurent presque tous de la même façon : ils respirent pendant trois jours un air qui leur prend l'eau du corps, et le quatrième jour ils s'assoient parce qu'ils sont fatigués, et ils ne se relèvent pas.
 
 — C'est pour ça que les caravanes ne passent pas, a-t-elle dit.
 
