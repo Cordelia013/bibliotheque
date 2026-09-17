@@ -104,7 +104,51 @@ Il m'a écoutée jusqu'au bout sans m'interrompre une seule fois, ce qu'il n'ava
 
 Puis il a dit :
 
-— Vous vous rendez compte que vous venez de m'expliquer que la chose de valeur, désormais, c'est vous.
+— Il y a un trou dans votre cas deux, et c'est vous qui l'avez creusé.
+
+Il est revenu à la table.
+
+— Vous venez de m'expliquer, pour me convaincre, que cette maison fuit comme un panier. Bien. Reprenez maintenant votre propre relevé et comptez avec moi. Quatre hommes du Sud sont montés sur ce plateau. Trois en sont redescendus. L'un des trois tient un registre écrit qu'il porte contre les côtes et qu'il ne quitte jamais. Vous avez fait quatre-vingt-deux lieues de cendre en sa compagnie, et c'est vous qui me dites que cet homme ne se dérobe jamais.
+
+— Oui.
+
+— Alors ce n'est déjà plus dans ma tête et dans la vôtre. C'est dans quatre têtes, dont une qui écrit. Votre cas deux suppose que je sois seul à savoir. Je ne le suis pas, je ne l'ai jamais été, et vous venez de me l'apprendre en croyant m'apprendre autre chose.
+
+Il a laissé cela sur la table entre nous.
+
+— Donc une seule question compte : combien de temps avant que Halden Serrande vende ce qu'il sait ?
+
+J'ai ouvert la bouche.
+
+Je l'ai refermée.
+
+Il faut dire ce que c'est que de perdre un relevé devant quelqu'un. On ne s'effondre pas. On voit simplement que les deux calculs ne tombent pas au même endroit, et à cette seconde-là on n'a plus de métier : on a une feuille et un homme en face.
+
+Je n'avais pas de réponse. Je n'en ai toujours pas. Halden Serrande a promis à deux cent onze personnes de mentir pour elles, debout dans une halle de fonderie, le jour où il venait d'y enterrer son propre feu. Je crois qu'il tiendra. *Je crois* n'est pas une mesure, et cet homme-là ne travaille pas avec ça.
+
+— Je ne sais pas, ai-je dit.
+
+— Non.
+
+— Je ne sais pas, et je ne vais pas vous fabriquer un chiffre pour que vous le mettiez dans une colonne. Vous m'avez prise pour ça : je ne dessine pas ce que je n'ai pas vu. Je n'ai pas vu la suite.
+
+Vael est resté devant la grande carte du mur un long moment, le dos tourné.
+
+Puis il a fait ce que font les hommes de cette maison quand on leur pose un fait qui les gêne : il l'a retourné et il a regardé l'autre face.
+
+— Serrande est ruiné le jour où une couronne monte là-haut, a-t-il dit lentement. Serrande a donc exactement le même intérêt que moi, et il vient de le payer six hommes. Voilà pourquoi il se taira. Pas par parole donnée : par comptabilité. C'est la seule raison sur laquelle un homme de mon âge accepte de dormir.
+
+Il s'est retourné.
+
+— Vous ne m'avez pas convaincu, Marrec. Vous m'avez donné un renseignement dont vous n'aviez pas vu la valeur, et je vais m'en servir.
+
+— C'est-à-dire que vous ne publiez pas.
+
+— C'est-à-dire que je ne publie pas ce qui est au-dessus de votre trait. Le reste part chez le graveur cette semaine.
+
+Il a refermé la main sur le dossier de son fauteuil.
+
+— Vous vous rendez compte que vous venez aussi de m'expliquer que la chose de valeur, désormais, c'est vous.
 
 — Oui.
 
@@ -112,11 +156,9 @@ Puis il a dit :
 
 — Je l'avais déjà dit à d'autres gens, ai-je dit, dans une halle de fonderie, il y a trente-trois jours, et ils en ont tiré les conclusions que vous imaginez. Je préfère le dire que le laisser deviner.
 
-Vael a refermé la main sur le dossier de son fauteuil.
-
 — Accordé, a-t-il dit.
 
-Un seul mot. Comme les trois autres fois.
+Un seul mot. Comme les trois autres fois — sauf que cette fois je sais pourquoi, et que ce n'est pas pour mes raisons.
 
 ---
 
@@ -146,7 +188,7 @@ Et je suis remontée le lui dire.
 
 — Je préfère que vous ne dormiez pas dessus, ai-je dit.
 
-Il a eu, alors, le rire bref et sans joie de la première fois.
+Il a eu, alors, le rire bref et sans joie du premier entretien.
 
 ---
 
@@ -162,7 +204,7 @@ Je suis restée un moment sans rien dire.
 
 Puis j'ai demandé la dernière chose, celle que j'étais venue demander depuis le début et que je n'avais pas encore posée.
 
-— Le casier des campagnes du Nord. Quarante-six cartes, an trente-neuf. J'en ai copié neuf à seize ans.
+— Le casier des campagnes du Nord. Quarante-six cartes, an trente-neuf. J'en ai tramé neuf à seize ans.
 
 — Je sais.
 
@@ -170,7 +212,39 @@ Puis j'ai demandé la dernière chose, celle que j'étais venue demander depuis 
 
 — C'est une convention militaire.
 
-— Je demande qu'on écrive le mot, ai-je dit.
+— Je connais la convention, ai-je dit. On ne nomme pas la cible sur le document, on la nomme dans l'ordre de mission, et l'ordre de mission se brûle. C'est très bien fait. Ça tient depuis cent ans et ça a tenu sur moi.
+
+J'ai posé les mains à plat sur le bord de sa table.
+
+— La nuit où vous m'avez donné jusqu'au matin pour répondre, je suis descendue aux archives et j'ai fait ce que je n'avais pas fait à seize ans : je suis allée chercher les plans civils rangés sous mes propres feuilles. Voici le relevé. Il est exact, et il est de ma main comme le reste.
+
+« Trente et une croix sur mes neuf cartes. Dix-neuf écoles de forge. Sept dortoirs d'apprentis. Trois halles de fonte, dont deux portent *enfants admis dès six ans* sur le plan du dessous. Deux que je n'ai pas pu identifier, parce que le plan civil s'arrête au ruisseau.
+
+« Le mot après *densité*, c'est *gens du feu*. Forgerons, fondeurs, ouvriers des veines. Trame serrée là où ils dorment, trame lâche là où ils travaillent sans y dormir.
+
+« Et la croix ne marque pas un homme. La croix marque l'endroit où on en fabrique.
+
+Il n'a pas nié. Cet homme n'a jamais rien nié de sa vie ; c'est sa seule qualité et elle est immense.
+
+— On n'a pas visé une armée, ai-je dit. On a visé la transmission, et on l'a visée en premier, parce qu'une halle de fonte se rebâtit en trois ans et qu'une école de forge ne se rattrape pas en trois générations. C'est un très bon travail. C'est même le meilleur travail de cartographie que cette maison ait produit avant celui-là, et il est sur la table entre nous.
+
+Vael n'a pas regardé le vélin.
+
+— Il reste une chose, ai-je dit, et vous êtes le seul homme vivant à pouvoir l'entendre.
+
+« Le quartier bas des Fours de Ghar, an trente-neuf. Sur ma quatrième feuille, à l'angle de deux rues, il y a une croix que j'ai tracée moi-même et qui déborde d'un cheveu en haut à droite. Dessous, sur le plan civil, il y a un bâtiment long avec une cour et un préau, et son nom en toutes lettres : *école de forge du quartier bas*.
+
+« J'ai dormi à trente pas de ce bâtiment il y a quarante-neuf jours, le soir où je suis sortie de la Ligne. Il n'en reste que le mur de la cour.
+
+« Et l'homme qui m'a fait traverser quatre-vingt-deux lieues de cendre pour venir vous rapporter cette feuille avait cinq ans en l'an trente-neuf, dans le quartier bas des Fours de Ghar, et il n'a jamais su lui-même de quel bâtiment on l'a sorti.
+
+Le Doyen Aldric Vael est resté parfaitement immobile.
+
+— Vous voulez que je vous absolve, a-t-il dit enfin.
+
+— Non. De ça, je m'occupe.
+
+« Je demande qu'on écrive le mot. Une ligne. Une feuille qu'on glisse dans le casier trente et un avec les quarante-six : *les hachures des campagnes du Nord relèvent la densité des gens du feu ; les croix marquent les écoles de forge.* Datée, signée, rangée. Pas publiée : rangée. Pour le copiste de dix-sept ans qui descendra les trois étages dans trente ans, et qui aura, lui, la réponse dans la marge.
 
 Le Doyen Aldric Vael a regardé sa fenêtre pendant très longtemps.
 
