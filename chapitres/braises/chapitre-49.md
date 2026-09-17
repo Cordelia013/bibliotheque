@@ -182,7 +182,7 @@ Le Doyen Aldric Vael a regardé sa fenêtre pendant très longtemps.
 
 ---
 
-Voilà. C'est tout ce que j'ai obtenu et c'est tout ce que je n'ai pas obtenu, et le reste tient en peu de mots.
+Voilà pour le mot après *densité*. Le reste de ce que j'ai obtenu tient en peu de mots.
 
 J'ai demandé ma sortie du registre des pupilles. Celui que quelqu'un a signé à ma place quand j'avais sept ans.
 
@@ -196,7 +196,7 @@ Il avait raison sur tout et j'ai refusé quand même, deux fois, à deux prix di
 
 ---
 
-Avant de partir, j'ai fait la seule chose que j'attendais depuis huit ans.
+Avant de partir, j'ai fait la seule chose que j'attendais depuis huit ans, et elle ne s'est pas passée comme je l'avais prévue.
 
 La carte partira au brunissoir, puis à l'enluminure du cartouche, puis chez le graveur. Mais le cartouche du bas était fait, et il est fait depuis le premier jour sur toutes les cartes de cette maison depuis cent ans, et il a deux lignes.
 
@@ -204,9 +204,63 @@ La première : *Dressée sous l'autorité du Doyen Aldric Vael.*
 
 La seconde est prévue pour le nom de celui qui a marché. Pour quelqu'un comme moi, on ne la remplit pas.
 
+J'avais la plume en main quand le Doyen Vael a dit, de l'autre bout de la pièce, sans se retourner :
+
+— Vous vous rappelez comment vous me l'avez demandée.
+
+— Ma première condition.
+
+— Vos mots, a-t-il dit. *Si je rapporte trois cents lieues, on saura qui les a faites à pied.* C'est votre phrase et pas la mienne, et je l'ai accordée telle quelle, parce qu'on accorde volontiers ce qui est gagé sur une chose qui n'arrive jamais.
+
+Il s'est retourné.
+
+— Vous me rapportez une lieue de plaine brune.
+
+Je suis restée la plume en l'air, et j'ai fait la seule chose qu'on puisse faire devant un homme qui vous cite exactement : j'ai vérifié, et c'était exact.
+
+— C'est ma phrase, ai-je dit.
+
+— Je ne vous la retourne pas contre vous. Je vous dis ce qu'elle vaut. La ligne était le prix de trois cents lieues. Vous m'apportez une traversée que personne n'avait faite, ce qui est autre chose et probablement davantage, mais ce n'est pas ce que vous aviez demandé. Alors redemandez-la, et nous saurons tous les deux, vous et moi, que c'est moi qui vous la donne.
+
+Voilà ce qu'il attendait, et j'ai mis trop longtemps à le voir : que je la redemande comme une faveur au lieu de la prendre comme une clause.
+
+Alors j'ai demandé autre chose.
+
+— Deux noms.
+
+— Pardon ?
+
+— La deuxième ligne est prévue pour celui qui a marché. Nous avons marché à deux. Il est passé devant trois jours à l'aller et trois au retour ; sans lui il n'y a pas de traversée, pas de relevé, pas de feuille et pas de cartouche. Mettez les deux noms et je ne vous demanderai plus rien de ma vie.
+
+Vael a regardé le vélin. Puis moi.
+
+— Non.
+
+— Vous venez de me dire que vous me la donniez.
+
+— À vous. Pas à un contrat-de-feu.
+
+— Son contrat est éteint. Le trait est frais, l'encre n'a pas trois heures, et c'est devant moi que vous l'avez fait éteindre.
+
+— Cela ne change rien à ce qu'il est, a dit le Doyen Aldric Vael. Une carte de cette maison ne porte pas ce nom-là. Ce n'est pas mon règlement, madame Marrec ; c'est celui de la Guilde, il est plus vieux que moi, et il a cent ans — exactement comme le cartouche.
+
+Cent ans. Le même règlement, la même ligne, la même maison qui ne la remplit pas pour les gens comme nous.
+
+— Donc mon nom seul, ai-je dit, ou personne.
+
+— Votre nom seul, ou personne.
+
+---
+
 J'ai pris la plume. J'ai écrit :
 
 *Relevée à pied par Ysée Marrec, Relevée de la Guilde. Soixante-huit jours. Relevé interrompu.*
+
+Mon nom seul.
+
+Je l'ai voulu pendant huit ans, je l'ai eu en une matinée, et je l'ai payé du seul prix que je n'avais pas prévu : pour l'obtenir, j'ai accepté la règle exacte qui m'en avait tenue dehors. Elle m'a exclue pendant dix-sept ans et je m'en suis servie une fois, dans le bon sens, contre quelqu'un d'autre.
+
+Personne ne m'a forcée. On m'a proposé, et j'ai pris.
 
 J'ai regardé les trois derniers mots longtemps.
 
