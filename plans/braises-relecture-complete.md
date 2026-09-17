@@ -1,6 +1,8 @@
 # La Saison des Braises — Relecture complète du manuscrit
 
-50 chapitres, 57 300 mots. Relecture du 17 septembre 2026, après achèvement du tome 1.
+50 chapitres, 57 300 mots à la relecture, 59 560 après correction du lot A.
+Relecture du 17 septembre 2026, après achèvement du tome 1.
+**État : lot A appliqué (17 fautes) ; lots B et C en attente de décision.**
 
 Méthode : extraction mécanique de tous les chiffres, âges, durées, noms et POV ; trois
 lectures intégrales indépendantes (actes I-II, III-IV, V) ; vérification personnelle de
@@ -61,6 +63,9 @@ niveau de la phrase et fatale au niveau du personnage. Deux issues, et il faut c
 Recommandation : **(a)**. L'option (b) est plus forte mais elle exige de réécrire le ch. 49
 autour d'elle, et le livre a déjà sa scène de décision.
 
+> **Appliqué le 17 septembre 2026 : option (a).** Ghar, le mur et les toits sont retirés du
+> vélin au ch. 49. Réversible — l'option (b) reste ouverte pour une réécriture ultérieure.
+
 ---
 
 ## 2. Le calendrier — faux presque partout dans les actes IV et V
@@ -113,6 +118,9 @@ Le genou d'Ysée le justifie, mais il faut le dire une fois. Et le ch. 44 annonc
 inverse du trajet : *« Le sixième jour nous serons au ruisseau froid, le neuvième à
 Ghar »* — en descendant, la source froide est le premier jour, pas le sixième.
 
+> **Appliqué.** Les onze occurrences et le cartouche (→ **soixante-huit jours**) sont
+> corrigés. La descente est posée à neuf jours au ch. 44 comme au ch. 45.
+
 ---
 
 ## 3. L'arithmétique de la troupe de Halden
@@ -140,6 +148,9 @@ Quatre arrivent aux Fours hauts. C'est ce que disent les ch. 33, 40 et 42.
    seulement sont entrés sur la Ligne avec lui, les autres ayant fait demi-tour ou été
    licenciés en route. Et corriger la réplique de Bran (« sept » → « neuf »).
 2. **ch. 44** : supprimer le troisième homme au pied cassé.
+
+> **Appliqué.** Les deux corrections sont faites, et la réplique de Bran au ch. 43 est
+> alignée sur le même compte.
 
 ---
 
@@ -202,6 +213,11 @@ comparaison), *août* (ch. 39), *septembre* (ch. 49). À uniformiser.
 **ch. 22 — les chevaux.** Le chapitre pose le problème logistique (*« un cheval pour deux…
 ce qui ne se règle pas du tout pour la Ligne »*) puis laisse aux agresseurs leurs chevaux,
 *« qui allaient très bien »*, sans un mot d'explication.
+
+> **Appliqué.** Les onze points de ce paragraphe sont corrigés. Arbitrages retenus :
+> Cael a vu les cartes (ch. 3) ; Vaugrin a formé son remplaçant trois mois avant sa mort ;
+> **211 habitants, dont cent quarante portent le feu** ; « trois hivers » pour la fondation ;
+> calendrier inventé gardé, mois réels retirés ; cent soixante livres au lieu des kilos.
 
 ---
 
@@ -369,23 +385,51 @@ qu'il ne finit.
 
 ## Plan de correction, par ordre
 
-**A — À faire avant toute autre chose (fautes)**
+**A — À faire avant toute autre chose (fautes) — APPLIQUÉ le 17 septembre 2026**
 
-1. Ghar sur le vélin, ch. 49 (voir §1). **Décision requise.**
-2. Le calendrier des actes IV-V, onze occurrences (voir §2). Passe unique.
-3. L'arithmétique de la troupe : ch. 42 et ch. 44 (voir §3).
-4. ch. 3 ↔ ch. 7 : vu / pas vu les cartes de Ghar.
-5. ch. 3 ↔ ch. 10 : Vaugrin mort avant ou formateur trois mois.
-6. ch. 4 : « vingt ans de retard » → huit.
-7. ch. 15 : « qui me l'a annoncé » — Vael n'a jamais parlé à Cael.
-8. ch. 40 : « l'a payée douze cents couronnes ».
-9. ch. 45 ↔ ch. 48 : les premiers mots.
-10. ch. 46 / 47 : l'âge de Halden contre « dix-neuf ans ».
-11. ch. 47 : « quatre-vingts kilos ».
-12. Population des Fours hauts : un seul chiffre partout, et trancher la part de Braises.
-13. ch. 40 : « il y a douze ans » contre une cité fondée il y a trois hivers.
-14. Uniformiser le calendrier du monde (mois inventés ou mois réels, pas les deux).
-15. ch. 22 : les chevaux laissés aux agresseurs.
+Les quinze points sont corrigés dans le texte, plus deux trouvés pendant la passe (16-17).
+23 chapitres modifiés, poussés dans le dépôt. Manuscrit vérifié : 59 560 mots, 50 chapitres,
+tous avec un POV, aucune ancienne durée, aucun mois réel, aucune unité anachronique.
+
+1. ✅ Ghar sur le vélin, ch. 49 (voir §1). **Option (a) retenue : Ghar retirée du vélin.**
+   Le passage se lit désormais « *Et au nord :* la sortie, et une lieue de plaine brune…
+   Au-dessus de cela, rien. Pas de mur, pas de toits, pas de nom. » Réversible.
+2. ✅ Le calendrier des actes IV-V, onze occurrences (voir §2), plus le cartouche →
+   **soixante-huit jours**. Calendrier de référence établi ci-dessous.
+3. ✅ L'arithmétique de la troupe : 18 partis de Valdren, 9 entrés dans la Ligne avec Bran,
+   6 assis, 3 sortis (Halden, Mauger, Tiec) + Bran = 4 arrivants. Ch. 42 et 44.
+4. ✅ ch. 3 ↔ ch. 7 : Cael a vu les cartes de Ghar.
+5. ✅ ch. 3 ↔ ch. 10 : Vaugrin a formé son remplaçant trois mois avant sa mort.
+6. ✅ ch. 4 : « vingt ans de retard » → huit ans.
+7. ✅ ch. 15 : Cael n'a jamais vu le Doyen ; c'est un clerc qui lui a fait signer.
+8. ✅ ch. 40 : les douze cents couronnes portent sur le guide, pas sur la carte.
+9. ✅ ch. 45 ↔ ch. 48 : ch. 48 tient compte du « deux pas » du ch. 45.
+10. ✅ ch. 46 / 47 : plus de « dix-neuf ans » contradictoire avec l'âge de Halden.
+11. ✅ ch. 47 : « quatre-vingts kilos » → cent soixante livres. Aucun kilo dans le livre.
+12. ✅ Population des Fours hauts : **211 habitants, dont cent quarante portent le feu**,
+    partout.
+13. ✅ ch. 40 : « il y a douze ans » → « il y a trois hivers, quand nous sommes montés
+    de Ghar ».
+14. ✅ Calendrier du monde : les mois inventés sont gardés (*mois des vents*, *an 39*) ;
+    tous les mois réels sont retirés au profit de formules saisonnières.
+15. ✅ ch. 22 : les chevaux laissés aux agresseurs sont justifiés (trois blessés à pied,
+    et les témoins doivent arriver vivants à Valdren).
+
+**Trouvés pendant la correction**
+
+16. ✅ ch. 45 : la descente des Fours hauts à Ghar passe à neuf jours, conforme à la montée.
+17. ✅ ch. 48 : le défilé de Marne (deux jours de la Ligne) est replacé **avant**
+    Pierre-Fendue (neuf jours) dans le sens du retour. Réordonnancement physique du chapitre.
+
+**Calendrier de référence — à respecter pour tout travail ultérieur**
+
+J1 départ Valdren · J16 bord · J17-19 Ligne · J20 vélin (ch. 32) · nuit J21 feu de Halden ·
+J22 porte nord · J23 départ nord · J29 arrivée Fours hauts · J31 offre de Tervi ·
+J33 conseil (ch. 40) · J34 le tour et mort d'Aunis · J35 arrivée de Halden ·
+J36 climax et mort de Bran · J37 enterrement et décision · J38 départ sud · J46 Ghar ·
+J47 bord · J48-50 Ligne · J51-52 récupération · J53-68 route · J68 Valdren ·
+J69 entretien Vael · J80 fin des onze jours d'homme libre · J81 le quai · ~J97 le bord ·
+~J100 sortie nord.
 
 **B — Décisions à trancher**
 
