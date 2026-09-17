@@ -71,7 +71,7 @@ Analyse de structure et de dynamique uniquement — pas de résumé d'intrigue.
 
 ### La Guerre des Fours (il y a vingt-deux ans)
 - Les Fours étaient des forges-cités du Nord où le feu de la terre était domestiqué. Une guerre entre le Sud et le Nord pour leur contrôle a mal tourné : les Fours ont été rompus, et la terre a commencé à brûler. C'est la Ligne des Cendres.
-- Les Braises sont les enfants nés dans les Fours pendant ou juste après la rupture. Le feu est en eux. Il y en a quelques centaines. Le Sud les a « accueillis » sous contrat — logés, nourris, et tenus. Un Braise sans contrat est un Braise hors-la-loi.
+- Les Braises sont ceux qui étaient dans les Fours quand ils ont été rompus — des nouveau-nés aux trentenaires ; l'âge n'a fait aucune différence (corrigé au ch. 2 le 17 septembre : Cael avait cinq ans, Vaugrin une vingtaine, Orsa est vieille). Le feu est en eux. Il y en a quelques centaines. Le Sud les a « accueillis » sous contrat — logés, nourris, et tenus. Un Braise sans contrat est un Braise hors-la-loi.
 - Cael avait cinq ans. Il ne se souvient de rien avant le feu. Il se souvient de tout après.
 
 ### Le contrat de Cael
@@ -152,7 +152,7 @@ Les cinq chapitres actuels ne sont pas perdus : ils deviennent les chapitres **1
 
 **Physique de Cael sur la Ligne (nouveau, à respecter ensuite)** : il ne donne plus, il *prend* et garde ; trop plein, il risque de « s'asseoir » (miroir de Vaugrin : « le jour où tu prends tout, tu ne trouves plus la porte »). La main d'Ysée sur sa peau lui ouvre une sortie : ce qu'il lui donne est mangé par l'air avant sa peau. Sur la Ligne il ne peut pas la brûler — c'est la seule condition de la nuit du ch. 28. Il l'a dit : « de l'autre côté, je redeviens ce que j'étais ». **Fil ouvert (ch. 31)** : de l'autre côté, main dans la main plus de trois secondes, aucune marque — « je ne comprends pas ». **Décision : inexpliqué dans le tome 1, reporté au tome 2** (voir les contraintes à l'acte IV).
 
-**Lieux et personnes introduits** : Ghar, quartier bas, mur sud effondré, brèche, maison à trois murs, porte nord (arche, deux tours inégales — la plaque de Vaugrin est juste). La veille sur le mur sud, toutes les nuits depuis vingt-deux ans. **Orsa**, la vieille qui mène les sept ; l'enfant aux pieds nus (six ou sept ans, pas encore nommée) ; la langue du Nord, que Cael comprend un mot sur cinq et parle sans le savoir. **Bran**, dix-neuf ans, four trois des Serrande, formé par Cael, amené par Halden comme abri pour neuf hommes en file — Cael prévoit que six s'assiéront.
+**Lieux et personnes introduits** : Ghar, quartier bas, mur sud effondré, brèche, maison à trois murs, porte nord (arche, deux tours inégales — la plaque de Vaugrin est juste). La veille sur le mur sud, toutes les nuits depuis vingt-deux ans. **Orsa**, la vieille qui mène les sept ; l'enfant aux pieds nus (six ou sept ans, pas encore nommée) ; la langue du Nord, que Cael comprend un mot sur cinq et parle sans le savoir. **Bran**, vingt-trois ans, four trois des Serrande, formé par Cael, amené par Halden comme abri pour neuf hommes en file — Cael prévoit que six s'assiéront.
 
 **Révélation (ch. 34)** : celle qui portait Cael s'appelait **Aunis**, sa mère ; elle est revenue dans le feu, a sorti trois enfants de l'école, a vécu vingt ans à Ghar ; partie il y a trois hivers avec ceux qui voulaient aller plus loin, aux **Fours hauts** (veines refermées avant la rupture, terre jamais brûlée), six jours au nord en remontant le ruisseau jusqu'à sa source. « Dorne » est le nom écrit par les chariots du Sud ; à Ghar il était « le petit ».
 
@@ -190,6 +190,30 @@ Règles de la scène, pour que la rupture porte sur les croyances et non sur le 
 - Deux occurrences au maximum dans les actes IV et V, sans mots, sans que Cael y revienne en pensée plus d'une ligne.
 - Ça ne sert jamais à rien : dès que ça résout un problème, le lecteur exige la règle. Ça reste inutile et inexpliqué.
 - Une dernière ligne au ch. 50, posée comme une question et non comme un indice, ouvre le tome 2.
+
+**Déroulé arrêté (17 septembre) — dix chapitres, POV alterné à partir de Cael :**
+
+- **Ch. 35 (Cael)** — Départ à l'aube en suivant le ruisseau, sans dire à Orsa ce qu'ils fuient. Le genou d'Ysée tient trois jours, puis ne tient plus.
+- **Ch. 36 (Ysée)** — Le pays change en montant : ici la terre n'a jamais brûlé. Elle relève tout, et comprend en dessinant que cette carte-là vaut plus que celle du Nord entier.
+- **Ch. 37 (Cael)** — La source. Les Fours hauts : une cité intacte, deux cents personnes, aucun contrat.
+- **Ch. 38 (Cael)** — Il trouve Aunis. Elle est usée avant l'âge. Elle ne le reconnaît pas tout de suite — puis si. Scène courte, qui n'explique rien.
+- **Ch. 39 (Ysée)** — Vu de l'extérieur : un homme qui a une mère depuis une heure et ne sait pas quoi en faire. On propose à Ysée de rester et de dessiner pour eux, pas pour Valdren.
+- **Ch. 40 (Ysée)** — Le conseil. Ils savent ce qu'une carte a fait à Ghar ; on lui demande de jurer de ne rien dessiner. Elle refuse de jurer — parce qu'un serment n'engage que celui qui le tient.
+- **Ch. 41 (Cael)** — **Mort d'Aunis.** La tentation de rester tombe en même temps qu'elle.
+- **Ch. 42 (Cael)** — Halden arrive avec trois hommes et Bran, vidé. Il vient négocier. Il expose sa raison une fois, et elle est bonne.
+- **Ch. 43 (Ysée)** — **Climax.** Au moment où elle doit dire ce qu'elle dessine, Halden sort le pli du Doyen. Elle le lit à voix haute en entier. **Bran meurt** pendant ou juste après.
+- **Ch. 44 (Cael)** — **Cliffhanger d'acte.** Pas de dispute : le départ vers le sud.
+
+**Décision — la mort d'Aunis : l'usure, plus une phrase d'ambiguïté.** Elle meurt assise, comme Vaugrin sur son banc (ch. 3, 10, 26, 28) : pas de cause extérieure, pas de dernières paroles préparées — elles ont eu lieu la veille, sur autre chose, et ne deviennent des dernières paroles qu'après coup. Plus tard, Orsa ou une femme des Fours hauts dit sans insister : *elle a tenu vingt-deux ans, et elle a arrêté de tenir.* On ne tranche jamais si c'est vrai ; Cael ne le saura pas.
+- **À planter avant** : au ch. 34 ou 38, Orsa doit dire qu'Aunis « était déjà usée quand elle est partie », pour que le lecteur ait peur avant l'arrivée.
+- **Ce qu'elle laisse ne doit pas être une explication** : quelque chose de petit et de concret, comme Vaugrin a laissé une plaque. Pas de discours sur pourquoi elle est repartie dans le feu.
+- **L'arithmétique de l'acte** : Bran meurt à vingt-trois ans, Aunis dans la cinquantaine, la même semaine, de la même cause. Cael en a vingt-sept et treize devant lui (ch. 6). Trois points sur la même ligne — la thèse du livre sans avoir à l'écrire.
+
+**Décision — Bran meurt** (ch. 43). Cael lui a appris à ne pas toucher ; Halden l'a dépensé. Halden n'a pas voulu ça et ne s'en excuse pas : c'était dans ses comptes.
+
+**Décision — Halden repart vivant, et c'est Cael qui l'escorte.** Bran mort, repasser la Ligne sans Braise est une condamnation : quelqu'un doit décider de sauver l'homme venu les ruiner, et cette décision appartient à la communauté, pas à Ysée ni à Cael.
+
+**Conséquence sur le ch. 44** : la rupture n'est pas une séparation, c'est une proximité forcée. Ysée doit rentrer aussi ; elle ne peut pas traverser sans lui. Le retour, c'est donc Cael devant, puis Halden Serrande, deux de ses hommes, et elle — trois jours sur la Ligne, à l'endroit exact de leur seule nuit, à poser ses pieds dans les traces d'un homme qui ne lui parle plus et dont elle a besoin pour vivre. Mêmes mécaniques que l'acte III, inversées.
 
 ### Acte V — Le retour (chapitres 45 à 50)
 - Ce qu'Ysée rapporte à Valdren. Ce qu'elle laisse en blanc, volontairement, pour la première fois de sa vie. La levée de contrat, la vraie. Le dernier chapitre sur la Ligne, à deux, dans l'autre sens.
