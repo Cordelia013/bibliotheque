@@ -1,8 +1,8 @@
 # La Saison des Braises — Relecture complète du manuscrit
 
-50 chapitres, 57 300 mots à la relecture, 59 560 après correction du lot A.
+50 chapitres, 57 300 mots à la relecture, 60 078 après les lots A et B.
 Relecture du 17 septembre 2026, après achèvement du tome 1.
-**État : lot A appliqué (17 fautes) ; lots B et C en attente de décision.**
+**État : lots A et B appliqués ; lot C en attente de décision.**
 
 Méthode : extraction mécanique de tous les chiffres, âges, durées, noms et POV ; trois
 lectures intégrales indépendantes (actes I-II, III-IV, V) ; vérification personnelle de
@@ -258,6 +258,15 @@ viendra après moi »* (ch. 26), *« je le pose ici »* (ch. 46, 50). Ce cadre n
 établi. Il faut le poser — Cael tient un compte pour le prochain Braise, et c'est un objet
 du tome 2 — ou le retirer partout.
 
+> **Tranché et appliqué (lot B) : retiré partout.** Cael n'écrit pas. Dix-huit formules
+> métatextuelles ont été remplacées dans les ch. 17, 21, 26, 28, 31, 41, 42, 44, 46, 48 et
+> 50, au profit de son propre registre — *reprendre*, *garder*, *compter*, *se dire une
+> fois*. Sa narration est désormais une voix intérieure sans support matériel.
+> Le cadre d'Ysée est conservé : le blanc est un objet établi dès le ch. 8.
+> Conséquence pour le tome 2 : il n'existe aucun écrit de Cael. L'adresse au prochain Braise
+> subsiste au ch. 26 (*« que je garde pour celui qui viendra après moi »*) comme une
+> intention, pas comme un document.
+
 ---
 
 ## 6. Tics de style, comptés sur les 50 chapitres
@@ -271,6 +280,9 @@ du tome 2 — ou le retirer partout.
 | « laine sèche » | 4, dont 3 dans les ch. 47-50 |
 | « comme on referme un relevé » | 3 |
 | « la profondeur d'un gué » | 3 |
+
+*(La troisième ligne est réduite de moitié par le lot B : les occurrences de Cael ont
+disparu, celles d'Ysée restent et sont légitimes.)*
 
 **Le refus de décrire** est devenu un procédé d'évitement : *« un bruit que je ne décrirai
 pas »* (ch. 21), *« une phrase que je ne relirai pas »* (ch. 22), *« je n'ai pas de mot pour
@@ -299,6 +311,19 @@ coûte aucune ligne). Les hommes du défilé (ch. 22 → ch. 48 et 49).
 d'exclusion sociale, elle est *accordée* dès le ch. 5, première condition, sans résistance.
 Au ch. 49, personne ne la conteste, rien ne coûte. Il faut que quelqu'un s'y oppose au
 retour, ou que le ch. 5 ne l'accorde pas si facilement.
+
+> **Tranché et appliqué (lot B).** Le prix est payé au ch. 49, et il est payé avec la
+> condition qu'Ysée avait posée elle-même au ch. 5 : *« Si je rapporte trois cents lieues,
+> on saura qui les a faites à pied. »* Elle en rapporte une. Vael le lui cite mot pour mot
+> et lui demande de redemander la ligne comme une faveur. Elle demande autre chose : deux
+> noms, le sien et Dorne. Vael refuse — une carte de la Guilde ne porte pas le nom d'un
+> contrat-de-feu, règlement centenaire, le même qui a tenu Ysée dehors pendant dix-sept ans.
+> Elle prend la ligne seule. Elle obtient donc ce qu'elle voulait depuis huit ans en
+> acceptant, pour l'obtenir, la règle exacte qu'elle dénonce depuis le ch. 1 — et le texte
+> le dit : *« Personne ne m'a forcée. On m'a proposé, et j'ai pris. »*
+> Effet secondaire : Vael refuse deux fois de suite en fin de chapitre (le mot après
+> *densité*, puis les deux noms), ce qui corrige en partie le reproche de « quatrième
+> concession sur quatre » ci-dessous. Le point 22 du lot C reste ouvert.
 
 **Escamoté — le sel.** Le mobile entier de Halden (ch. 9 : trois mines, quatre-vingts ans de
 monopole, trois cents salariés) disparaît des ch. 45 à 50. Six hommes sont morts pour ça et
@@ -387,9 +412,8 @@ qu'il ne finit.
 
 **A — À faire avant toute autre chose (fautes) — APPLIQUÉ le 17 septembre 2026**
 
-Les quinze points sont corrigés dans le texte, plus deux trouvés pendant la passe (16-17).
-23 chapitres modifiés, poussés dans le dépôt. Manuscrit vérifié : 59 560 mots, 50 chapitres,
-tous avec un POV, aucune ancienne durée, aucun mois réel, aucune unité anachronique.
+Les quinze points sont corrigés dans le texte, plus deux trouvés pendant la passe (A16-A17).
+23 chapitres modifiés, poussés dans le dépôt.
 
 1. ✅ Ghar sur le vélin, ch. 49 (voir §1). **Option (a) retenue : Ghar retirée du vélin.**
    Le passage se lit désormais « *Et au nord :* la sortie, et une lieue de plaine brune…
@@ -415,11 +439,11 @@ tous avec un POV, aucune ancienne durée, aucun mois réel, aucune unité anachr
 15. ✅ ch. 22 : les chevaux laissés aux agresseurs sont justifiés (trois blessés à pied,
     et les témoins doivent arriver vivants à Valdren).
 
-**Trouvés pendant la correction**
+**Trouvés pendant la correction du lot A**
 
-16. ✅ ch. 45 : la descente des Fours hauts à Ghar passe à neuf jours, conforme à la montée.
-17. ✅ ch. 48 : le défilé de Marne (deux jours de la Ligne) est replacé **avant**
-    Pierre-Fendue (neuf jours) dans le sens du retour. Réordonnancement physique du chapitre.
+A16. ✅ ch. 45 : la descente des Fours hauts à Ghar passe à neuf jours, conforme à la montée.
+A17. ✅ ch. 48 : le défilé de Marne (deux jours de la Ligne) est replacé **avant**
+     Pierre-Fendue (neuf jours) dans le sens du retour. Réordonnancement du chapitre.
 
 **Calendrier de référence — à respecter pour tout travail ultérieur**
 
@@ -431,20 +455,34 @@ J47 bord · J48-50 Ligne · J51-52 récupération · J53-68 route · J68 Valdren
 J69 entretien Vael · J80 fin des onze jours d'homme libre · J81 le quai · ~J97 le bord ·
 ~J100 sortie nord.
 
-**B — Décisions à trancher**
+---
 
-16. Le cadre d'écriture de Cael : posé ou retiré, mais pas les deux.
-17. Ghar dessinée : erreur à corriger, ou scène à écrire (§1).
-18. La deuxième ligne du cartouche : lui rendre un coût.
+**B — Décisions à trancher — TRANCHÉ ET APPLIQUÉ le 17 septembre 2026**
 
-**C — Passes de fond**
+B1. ✅ **Le cadre d'écriture de Cael : retiré partout.** Décision de l'auteur. Dix-huit
+    formules métatextuelles remplacées dans onze chapitres (17, 21, 26, 28, 31, 41, 42, 44,
+    46, 48, 50). Cael ne tient aucun écrit ; sa narration est une voix intérieure. Le carnet
+    d'Ysée, lui, est conservé : il est établi matériellement dès le ch. 8. Voir §5.
+B2. ✅ **Ghar dessinée** : traité avec le lot A, option (a). Voir §1.
+B3. ✅ **La deuxième ligne du cartouche a un prix.** Décision de l'auteur. Au ch. 49, Vael
+    tient Ysée à la condition qu'elle avait posée elle-même au ch. 5 ; elle demande que la
+    ligne porte deux noms, le sien et Dorne ; Vael refuse le nom d'un contrat-de-feu au titre
+    d'un règlement centenaire ; elle prend la ligne seule. Elle obtient donc son nom en
+    acceptant la règle même qui l'excluait. Voir §7.
+
+---
+
+**C — Passes de fond — en attente**
 
 19. **Séparer les deux voix.** Ysée mesure, Cael compte. Retirer à chacun les images de
-    l'autre. C'est la passe la plus longue et la plus rentable.
+    l'autre. C'est la passe la plus longue et la plus rentable. *(Le lot B en a fait le
+    premier tiers en retirant à Cael tout le lexique du document écrit.)*
 20. Ramener « première fois » sous dix occurrences ; réduire d'un tiers les gloses en
     « ce qui est / ce qui était » ; garder deux « refus de décrire » sur six.
 21. Varier les chutes : un chapitre sur trois sort autrement.
-22. Donner à Vael une objection victorieuse au ch. 49 avant qu'il cède.
+22. Donner à Vael une objection victorieuse au ch. 49 avant qu'il cède sur la carte.
+    *(Partiellement servi par B3 : Vael refuse désormais deux fois en fin de chapitre, mais
+    il cède toujours sans résistance sur la publication.)*
 23. Remonter les quatorze feux vers la fin du ch. 50, ou accepter qu'ils soient la fin.
 24. Développer l'acte I : ch. 4, 6, 20 en priorité.
 25. Faire dire au moins une fois le mot « écoles » devant Vael.
