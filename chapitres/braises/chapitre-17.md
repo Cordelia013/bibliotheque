@@ -28,7 +28,7 @@ Au matin, la pluie s'était arrêtée. Elle est sortie des communs en marchant c
 
 Elle est venue.
 
-Je vais écrire cette leçon comme je l'ai donnée, parce que c'est la seule heure de ce voyage dont je suis entièrement fier.
+Je me repasse cette leçon telle que je l'ai donnée, parce que c'est la seule heure de ce voyage dont je suis entièrement fier.
 
 Je ne l'ai pas touchée. Pas une fois. C'est une discipline, pour enseigner un geste : la main du maître se pose sur celle de l'élève, c'est comme ça qu'on apprend à ferrer, à souder, à tenir une lame. Je ne l'ai jamais eu. J'ai appris à enseigner avec des mots et par-devant, en montrant sur moi.
 

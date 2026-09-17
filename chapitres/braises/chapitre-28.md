@@ -6,7 +6,7 @@
 
 Je me suis retourné.
 
-Voilà ce qu'il faut savoir avant tout le reste, et je l'écris une fois pour ne plus avoir à y revenir.
+Voilà ce qu'il faut savoir avant tout le reste, et je me le dis une fois pour ne plus avoir à y revenir.
 
 Le premier apprentissage d'un Braise, c'est la liste. On vous la fait réciter à six ans. Le linge. Les cheveux. La paille. Les bêtes. Les gens. Ce sont les cinq choses qu'on n'a pas le droit d'effleurer, et par-dessous il y en a une sixième que personne ne dit à voix haute devant un enfant, mais qu'on comprend vers quatorze ans, tout seul, dans un dortoir de fonderie : personne, jamais, nulle part.
 
@@ -64,7 +64,7 @@ Elle a ri — dans ma bouche, un rire court, le premier vrai que je lui aie ente
 
 Puis elle a cessé de rire, et sa tête est partie en arrière, et j'ai compris que j'avais trouvé.
 
-Ce qui s'est passé ensuite, je ne peux l'écrire que d'une seule façon, et il faut que ce soit celle-là, parce que c'est la seule qui soit vraie.
+Ce qui s'est passé ensuite, je ne peux le dire que d'une seule façon, et il faut que ce soit celle-là, parce que c'est la seule qui soit vraie.
 
 J'ai lâché.
 
@@ -134,7 +134,7 @@ Sa main a bougé sur ma poitrine, s'est arrêtée.
 
 — Bien, a-t-elle dit.
 
-Et elle a ajouté — je note exactement, parce que c'est la phrase que je garderai quand tout le reste sera parti :
+Et elle a ajouté — mot pour mot, parce que c'est la phrase que je garderai quand tout le reste sera parti :
 
 — Alors je ne dessine que ce que j'ai vu. Et j'ai vu ça. Ça existe. Ce que vous en ferez de l'autre côté, c'est votre carte, pas la mienne.
 

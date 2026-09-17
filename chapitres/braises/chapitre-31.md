@@ -76,4 +76,4 @@ En passant la brèche, Ysée a mis sa main dans la mienne. Pas sur ma manche : d
 
 Il n'y a pas eu de marque. Je le sais parce que j'ai regardé, le soir, quand elle dormait, sa main ouverte sur la couverture.
 
-Je ne comprends pas. Je note que je ne comprends pas.
+Je ne comprends pas. Je le constate comme je constate un chiffre qui ne tombe pas.

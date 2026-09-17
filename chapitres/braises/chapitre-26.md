@@ -8,7 +8,7 @@ Vaugrin disait : *on ne pousse jamais tout. Tu gardes toujours une braise pour t
 
 Il parlait des fours. Il parlait de donner. Personne ne m'a jamais appris l'autre sens, parce que personne, dans les fonderies du Sud, n'a jamais eu besoin de prendre.
 
-Voici ce que j'ai appris le deuxième jour, et que je note ici pour celui qui viendra après moi, s'il en vient un.
+Voici ce que j'ai appris le deuxième jour, et que je garde pour celui qui viendra après moi, s'il en vient un.
 
 Prendre la chaleur, ce n'est pas la faire disparaître. Elle entre. Elle reste. Un Braise est un vase ; ce qu'il prend, il le garde, et ce qu'il garde, il faut bien qu'il en fasse quelque chose. Aux fours, je me vidais chaque jour dans la fonte, et le soir j'étais creux et tranquille. Sur la Ligne, je me remplis, et rien ne sort — il n'y a rien où le mettre, tout est déjà brûlant — et le soir je suis plein comme une cuve qu'on a oubliée sous le robinet.
 
@@ -30,7 +30,7 @@ Je prenais la chaleur du sol par les pieds, celle du vent par le dos, celle qui 
 
 Ce n'est pas une image. C'est une chose qui arrive. Il y a un moment où l'on est si plein qu'on ne sait plus où finit le feu et où l'on commence, et il y a une pensée, très calme, très raisonnable, qui dit : *pose-toi. Assieds-toi. Deviens ce que tu portes.* Les gens qui meurent sur la Ligne s'assoient parce qu'ils sont fatigués. Un Braise qui meurt sur la Ligne s'assoit parce qu'il est d'accord.
 
-Je n'ai pas eu peur pour elle, le deuxième jour. Je vais l'écrire comme c'est. J'ai eu peur pour moi, et c'est une chose que je n'avais pas ressentie depuis l'enfance, et je n'ai pas su quoi en faire.
+Je n'ai pas eu peur pour elle, le deuxième jour. Je le dis comme c'est. J'ai eu peur pour moi, et c'est une chose que je n'avais pas ressentie depuis l'enfance, et je n'ai pas su quoi en faire.
 
 Elle a boité à partir de la quatrième heure.
 

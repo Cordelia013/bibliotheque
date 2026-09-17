@@ -20,7 +20,7 @@ C'est ma faute, et c'est la seule erreur de ce voyage que je ne me pardonne pas 
 
 Le premier est descendu de l'éboulis en criant quelque chose, pour les chevaux — on crie toujours pour les chevaux, c'est ce qui vous désigne comme un homme qui a déjà fait ça.
 
-Je vais écrire la suite exactement, parce qu'elle a tout vu et qu'elle mérite qu'au moins l'un de nous deux en tienne le compte honnête.
+Je reprends la suite exactement, parce qu'elle a tout vu et qu'elle mérite qu'au moins l'un de nous deux en tienne le compte honnête.
 
 Je ne lance pas de feu. Personne ne lance de feu. Ce n'est pas une chose qui sort des mains comme l'eau d'une cruche.
 
