@@ -58,7 +58,7 @@ Il ne s'est pas retourné ; il a levé la main, paume vers moi, et il a attendu 
 
 Je suis venue à un pas. Puis, parce que le vent forçait, à un demi.
 
-Nous avons marché comme ça le reste du jour, mon front à une main de son épaule, mon genou qui comptait les pas, et sa chaleur — sa chaleur à lui, pas celle de la Ligne — qui me tenait par-devant pendant que le vent me poussait par-derrière, si bien que pour la première fois de ma vie j'ai été tenue des deux côtés à la fois, et que je n'ai pas eu peur.
+Nous avons marché comme ça le reste du jour, mon front à une main de son épaule, mon genou qui comptait les pas, et sa chaleur — sa chaleur à lui, pas celle de la Ligne — qui me tenait par-devant pendant que le vent me poussait par-derrière, si bien que j'ai été tenue des deux côtés à la fois, ce qui ne m'était jamais arrivé, et que je n'ai pas eu peur.
 
 Au soir, il a choisi l'endroit : une plaque de gris foncé, luisante, la croûte de verre qui porte et qui glisse. Il a posé la main dessus longtemps avant de dire oui.
 

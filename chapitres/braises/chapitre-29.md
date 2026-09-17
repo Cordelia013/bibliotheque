@@ -28,7 +28,7 @@ Il a tourné la tête vers le nord, et il est passé devant, et j'ai posé mes p
 
 Le troisième jour, on ne peut pas raconter. Il n'y a rien à raconter : il y a le vent, la cendre, deux gorgées, le vent. Je vais relever ce que j'ai relevé, et c'est tout.
 
-Le sol change à la mi-journée. Le gris clair devient plus rare ; le gris doux, celui qui ne porte pas, plus fréquent. Il a dû faire trois détours, dont un long, vers l'est, où j'ai vu pour la première fois le rouge — pas une flamme : une fente dans la croûte, large comme la main, et dedans une lueur sourde comme celle d'un four qu'on a laissé tomber. Il n'a pas ralenti. Il a fait le signe, la main qui descend, et nous avons passé la fente couchés, en rampant sur la croûte de verre, lui d'abord, moi dans ses traces, et j'ai senti la chaleur me traverser le ventre à travers deux épaisseurs de laine et de cendre, et je n'ai pas eu peur, parce qu'il était devant.
+Le sol change à la mi-journée. Le gris clair devient plus rare ; le gris doux, celui qui ne porte pas, plus fréquent. Il a dû faire trois détours, dont un long, vers l'est, où j'ai vu le rouge — pas une flamme : une fente dans la croûte, large comme la main, et dedans une lueur sourde comme celle d'un four qu'on a laissé tomber. Il n'a pas ralenti. Il a fait le signe, la main qui descend, et nous avons passé la fente couchés, en rampant sur la croûte de verre, lui d'abord, moi dans ses traces, et j'ai senti la chaleur me traverser le ventre à travers deux épaisseurs de laine et de cendre, et je n'ai pas eu peur, parce qu'il était devant.
 
 Le genou a lâché deux fois.
 
@@ -40,7 +40,7 @@ Il a tenu la main là le temps d'une halte entière. Je n'ai pas fait le signe. 
 
 Puis il s'est relevé, et j'ai marché, et le genou a tenu jusqu'au soir.
 
-Vers la sixième heure, le vent a fait une chose que je ne saurais pas expliquer et que je relève telle quelle : il s'est mis à tourner. Pas de direction — de température. Par bouffées. Une bouffée de four, puis une bouffée qui n'était que chaude, puis une bouffée de four. Cael a levé la tête. C'est la première fois de la journée qu'il regardait autre chose que le sol.
+Vers la sixième heure, le vent a fait une chose que je ne saurais pas expliquer et que je relève telle quelle : il s'est mis à tourner. Pas de direction — de température. Par bouffées. Une bouffée de four, puis une bouffée qui n'était que chaude, puis une bouffée de four. Cael a levé la tête. De toute la journée, il n'avait pas regardé autre chose que le sol.
 
 Au loin, devant — je ne l'ai vu qu'en clignant, et j'ai cru d'abord à une tromperie de la cendre —, la lumière laiteuse s'arrêtait.
 
@@ -50,7 +50,7 @@ Un ciel.
 
 Un vrai, avec une couleur.
 
-Cael s'est arrêté. Il ne m'a pas fait le signe de m'arrêter ; je me suis arrêtée toute seule, à un demi-pas, et j'ai regardé son dos, et j'ai vu ses épaules faire ce qu'elles avaient fait au seizième soir, quand j'avais posé mon front entre elles pour la première fois : céder d'un cran.
+Cael s'est arrêté. Il ne m'a pas fait le signe de m'arrêter ; je me suis arrêtée toute seule, à un demi-pas, et j'ai regardé son dos, et j'ai vu ses épaules faire ce qu'elles avaient fait au seizième soir, quand j'y avais posé le front : céder d'un cran.
 
 Il a dit un mot. Un seul. Il l'a dit à voix basse, pour lui, pas pour moi, et le vent l'a pris, et je ne l'ai pas entendu.
 

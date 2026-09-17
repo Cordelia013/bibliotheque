@@ -84,7 +84,7 @@ Elle n'a pas demandé *vous êtes sûr*. Elle s'est assise.
 
 — Avec un Braise.
 
-Elle a compris tout de suite. Elle comprend vite ce qui compte.
+Elle a compris avant la fin de ma phrase.
 
 — Un des vôtres. De la maison Serrande.
 
@@ -130,7 +130,7 @@ Nous sommes restés silencieux. Dehors, j'entendais quelqu'un monter sur le mur 
 
 Voilà.
 
-Elle l'a demandé comme elle demande tout, la profondeur d'un gué. Et j'ai compris, dans la maison à trois murs, avec sa main sur mon bras et une plaque de fer dans ma poche, que je ne pouvais pas répondre à cette question-là sans répondre d'abord à l'autre, celle qu'elle avait posée sur la Ligne, et à laquelle j'avais montré une porte au lieu de dire un nom.
+Elle l'a demandé comme elle demande tout, du même ton que l'heure ou le poids d'une outre. Et j'ai compris, dans la maison à trois murs, avec sa main sur mon bras et une plaque de fer dans ma poche, que je ne pouvais pas répondre à cette question-là sans répondre d'abord à l'autre, celle qu'elle avait posée sur la Ligne, et à laquelle j'avais montré une porte au lieu de dire un nom.
 
 Il restait deux jours.
 
