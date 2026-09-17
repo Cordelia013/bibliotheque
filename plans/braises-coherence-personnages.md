@@ -1,6 +1,7 @@
 # La Saison des Braises — Audit de cohérence caractère / vécu
 
-Audit mené sur les 34 chapitres écrits. Six points relevés, tous tranchés et appliqués.
+Audit mené sur les 34 chapitres écrits. Six points relevés, tous tranchés et appliqués,
+plus trois décisions de mise en scène pour l'acte IV et la suite.
 Ce fichier est la source de vérité pour ces décisions ; elles engagent les tomes 2 et 3.
 
 ---
@@ -95,13 +96,53 @@ est la prison, et la remplir est un acte de libération autant qu'un danger.
 
 - ch. 13 : le carnet blanc est tenu depuis **huit ans** (et non onze), conforme aux ch. 1 et 8.
 
+## 7. Aunis à la hauteur du mythe — TRANCHÉ
+
+Pas de scène de déception. Aunis n'a pas besoin de dire *mon fils* pour porter dix-neuf ans
+de veille et un renoncement lucide : le ch. 34 a déjà posé qu'elle a agi juste (sortir trois
+enfants, refuser de redescendre chercher dans un endroit d'où l'on ne ressort pas) et sans
+reproche possible. La rencontre du ch. 38 n'a pas à corriger l'image que Cael s'en fait ;
+elle a à la confronter à ce que cette droiture a coûté — à lui, et à elle.
+
+**Charge de la scène :** Aunis reconnaît Cael tout de suite, sans hésitation ni pathos — elle
+l'a cherché des yeux sur ce mur pendant dix-neuf ans, elle sait à qui elle a affaire dès qu'il
+franchit la porte. Ce qui doit manquer, ce n'est pas la reconnaissance mais l'attendrissement :
+elle ne rattrape pas le temps par des mots, elle le rattrape par des actes immédiats et concrets
+(elle le nourrit, elle regarde ses mains de Braise, elle pose des questions pratiques avant les
+questions intimes). C'est une femme à la hauteur de ce qu'elle a fait, pas de ce que Cael a
+imaginé qu'elle ressentirait.
+
+## 8. Le registre nominatif de Halden — TRANCHÉ
+
+Cohérent avec le point 3 (« un homme qui a fait ses comptes ») : Halden tient, de sa main,
+un registre de chaque Braise mort à son service — four ou expédition. Un nom, une somme
+(le coût du remplacement, jamais la cause du décès). Il ne le cache pas ; il le tient
+ouvertement, comme preuve de rigueur et non de cynisme — c'est ce qui rend le personnage
+plus inquiétant qu'un simple exploiteur : il croit sincèrement que nommer et chiffrer une
+perte suffit à la rendre acceptable.
+
+**Décision de mise en scène :** le jour où Halden décide de traverser lui-même (ch. 33), il
+inscrit sa propre ligne en avance dans le registre — un nom, sans somme en face, la case
+vide. C'est la preuve qu'il s'est bien inscrit lui-même dans la colonne de ce qu'il accepte
+de perdre, et non un geste d'orgueil ou un accès de bravoure. Le registre est trouvé (par
+Cael ou Ysée) au moment de sa défaite — voir point 9. Il dénonce Halden mieux qu'aucun
+discours : il a un nom et un prix pour chacun, et pas un mot pour ce que ça a coûté.
+
+## 9. Les gants de Halden tombent — TRANCHÉ
+
+Ils tombent une fois, au moment de sa défaite, et une seule. Jusque-là ils sont un tic de
+classe (ch. 3 : *« Il portait toujours des gants près des fours. Je crois qu'il ne s'en
+rendait pas compte. »*) — la marque d'un homme qui refuse le contact avec ce qui le fait
+vivre. À la scène de la défaite, ce sont les gants qui cèdent avant l'homme : ils tombent,
+ou il les arrache, et c'est la première fois du roman qu'on voit ses mains nues.
+
+**Articulation avec le point 8 :** faire coïncider les deux gestes. Les mains nues et le
+registre ouvert au même moment — Halden découvert sans protection au moment précis où sa
+comptabilité est mise au jour. Le personnage n'est pas puni par un adversaire plus fort ;
+il est mis à nu par ses propres pièces.
+
 ## Points laissés ouverts
 
 - **Comment Vael sait-il qu'il existe une Aunis ?** Recommandation : il ne sait pas,
   il déduit — un Braise de cinq ans a forcément été porté par quelqu'un. À confirmer ;
   moteur possible du tome 2.
-- **Aunis décevante ou à la hauteur du mythe ?** Recommandation : décevante, avare de mots,
-  elle ne dira pas *mon fils*. Non tranché.
-- **Le registre nominatif de Halden** (les morts de ses fours, tenus en comptabilité).
-  Non tranché.
-- **Les gants de Halden** : tombent-ils une fois, au moment de sa défaite ? Non tranché.
