@@ -18,6 +18,34 @@ Je l'ai demandé à Orsa — c'est le nom de la vieille ; elle me l'a donné le 
 
 — Non, a-t-elle dit. On les a vus s'asseoir.
 
+J'ai posé l'autre question, celle qui me travaillait depuis le premier soir.
+
+— Et dans l'autre sens ? Vous êtes tous des Braises, ici. La Ligne ne vous tuerait pas plus qu'elle ne m'a tué.
+
+— On peut, a dit Orsa. On ne va pas.
+
+— Pourquoi ?
+
+Elle m'a regardé comme on regarde quelqu'un qui demande pourquoi l'eau descend.
+
+— Parce que là-bas, on met les gens comme nous dans des fours. Tu en sors. Tu veux y retourner ?
+
+Je n'ai rien dit.
+
+— Et de ton côté, a-t-elle ajouté, personne ne vient. Trois en vingt-deux ans. Tu sais pourquoi, toi qui arrives ?
+
+— Parce qu'ils ne savent pas qu'il y a quelque chose.
+
+— Voilà.
+
+Nous sommes restés un moment sans parler, à regarder la lueur.
+
+Quatre Braises à la maison Serrande. Neuf feux au sud de la Ligne, et dans chacun des hommes qui auraient pu se lever un matin, marcher trois jours vers le nord et n'appartenir à personne. Aucun ne l'a fait. Aucun ne le fera, et ce n'est pas le courage qui manque : c'est qu'on ne traverse pas un feu pour arriver au milieu d'un blanc.
+
+On ne nous garde pas avec des chaînes. On nous garde avec ce qui est dessiné.
+
+J'ai pensé à une femme qui dormait à cinquante pas de là, et qui avait refusé quatre mille couronnes pour laisser du blanc sur du papier.
+
 La troisième nuit, c'est moi qui étais sur la pierre.
 
 Je l'avais demandé. Orsa avait hésité, puis elle avait haussé les épaules : *tu vois mieux que nous, c'est ta première fois, tu n'es pas fatigué de regarder.* C'était vrai. Je n'étais pas fatigué de regarder. J'aurais pu rester sur ce mur jusqu'à l'aube tous les soirs de ma vie, à regarder la chose que j'avais traversée, avec derrière moi une maison à trois murs où dormait une femme qui ne regrettait rien.
@@ -37,6 +65,12 @@ Un Braise.
 Et derrière lui — je ne les ai vus qu'en plissant les yeux, et je ne les aurais pas vus si je n'avais pas su qu'ils étaient neuf — de petites lueurs plus faibles, en ligne, qui suivaient.
 
 Des torches. Des hommes avec des torches, sur la Ligne, la nuit, en file derrière un contrat-de-feu.
+
+Et une phrase que j'avais dite à Ysée Marrec sur la route, du ton dont on énonce ce qu'on a vérifié pendant dix-neuf ans : *Serrande ne suit pas lui-même. Il envoie.*
+
+Il ne suivait pas. Il était dedans.
+
+Un homme qui envoie fait des comptes. Un homme qui vient a cessé d'en faire — ou bien il en a fait un dernier, et il s'est inscrit lui-même dans la colonne de ce qu'il accepte de perdre. Je ne savais pas laquelle des deux choses était vraie. Les deux me déplaisaient, et la seconde beaucoup plus que la première.
 
 Je suis descendu du mur. Je n'ai pas couru : on ne court pas vers une maison où quelqu'un dort. J'ai marché, et j'ai poussé la porte, et je me suis accroupi près d'elle, et j'ai dit son nom.
 

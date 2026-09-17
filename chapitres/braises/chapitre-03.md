@@ -12,6 +12,8 @@ Mon travail tient en quatre gestes. J'entre dans la halle au lever du jour. Je p
 
 Dix-neuf ans.
 
+J'en avais huit quand on m'a assis devant cette porte pour la première fois. Un Braise vaut par son feu, pas par sa taille, et la maison ne pouvait pas attendre que je grandisse : le four un était froid depuis le mardi. Torve me tenait debout, les premières semaines, parce que je m'endormais contre la fonte.
+
 Voilà ce que personne ne dit sur nous.
 
 La chaleur ne vient pas de l'air. Elle vient de moi. Et chaque fois que je la donne, elle ne revient pas tout à fait. Nous ne vieillissons pas comme les autres : nous brûlons de l'intérieur, lentement, jusqu'au bout. À quarante ans, un homme qui tient un four a les mains d'un vieillard.
@@ -56,7 +58,7 @@ Le sol a tenu bon sous mes pieds. C'est tout ce que je peux en dire.
 
 — En personne.
 
-Vingt-deux ans que je porte ce nom dans la tête. Le cartographe de la couronne. L'homme dont les cartes hachurées désignaient, sur le papier, les quartiers des Fours où l'on trouvait le plus d'enfants. Je ne les ai pas vues. On me les a décrites une fois, dans une cave de Valdren, par un homme qui avait servi comme copiste et qui buvait pour l'oublier.
+Des années que je porte ce nom dans la tête. Le cartographe de la couronne. L'homme dont les cartes hachurées désignaient, sur le papier, les quartiers des Fours où l'on trouvait le plus d'enfants. Je ne les ai pas vues. On me les a décrites une fois, dans une cave de Valdren, par un homme qui avait servi comme copiste et qui buvait pour l'oublier.
 
 — Pourquoi ?
 

@@ -42,11 +42,31 @@ Il a mis un moment. Il n'avait pas de mots préparés ; il les prenait un par un
 
 Il l'a dit sans rien dans la voix. Comme un relevé.
 
-— Elle est revenue. Elle a passé la porte dans l'autre sens, elle est rentrée dans le quartier bas pendant que ça brûlait, et elle a sorti trois autres enfants avant que le toit de l'école ne tombe. Elle a vécu. Elle a vécu ici, dans cette ville, vingt ans, avec Orsa et les autres, à tenir la veille sur le mur sud et à regarder la lumière.
+— Elle est revenue. Elle a passé la porte dans l'autre sens, elle est rentrée dans le quartier bas pendant que ça brûlait, et elle a sorti trois autres enfants avant que le toit de l'école ne tombe. Elle a vécu. Elle a vécu ici, dans cette ville, dix-neuf ans, avec Orsa et les autres, à tenir la veille sur le mur sud et à regarder la lumière.
 
 J'ai eu très froid, dans le vent tiède.
 
-— Vingt ans, ai-je dit. Et il y a deux ans ?
+Il y avait une question, et je l'ai posée, parce que je pose toujours les questions et parce que si je ne la posais pas elle resterait entre nous jusqu'à la fin.
+
+— Elle pouvait traverser.
+
+— Oui.
+
+— Elle ne l'a pas fait.
+
+— Non.
+
+Il a regardé ses mains.
+
+— Elle m'a mis dans un chariot de gens du Sud. Elle ne savait pas lequel, ni où il allait, ni s'il arriverait. Et elle savait ce que le Sud fait des Braises, puisque c'est pour ça que Ghar a brûlé. Pour elle, ou bien j'étais mort sur la route, ou bien j'étais dans un four. Orsa dit qu'elle est descendue jusqu'au bord, une fois, la première année. Qu'elle est restée deux jours assise à regarder le sud. Et qu'elle est remontée.
+
+— Pourquoi ?
+
+— Parce qu'on ne va pas chercher quelqu'un dans un endroit d'où l'on ne ressort pas. On y reste avec lui, et c'est tout ce qu'on gagne. Et il y avait ici trois enfants qu'elle avait sortis du feu et qui ne tenaient pas encore debout seuls.
+
+Il l'a dit sans reproche, pour elle comme pour lui. C'est ce qui m'a été le plus difficile à entendre.
+
+— Dix-neuf ans, ai-je dit. Et ensuite ?
 
 — Il y a trois hivers, il y a eu une dispute. Ici. Entre ceux qui voulaient rester, parce que c'est chez eux, et ceux qui pensaient que le Sud finirait par revenir avec des cartes, et qu'il fallait aller plus loin. Plus au nord. Aux Fours hauts, là où les veines de feu ont été refermées avant la rupture et où la terre n'a jamais brûlé. Aunis est partie avec ceux-là. Orsa est restée.
 

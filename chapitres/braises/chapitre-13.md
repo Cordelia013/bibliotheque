@@ -6,6 +6,8 @@
 
 Personne ne m'avait prévenue que le cheval ne se paie pas le jour même.
 
+Une pupille ne monte pas. On relève à pied, en journée, dans les trois ou quatre lieues autour de Valdren, et on rentre dormir au dortoir ; la Guilde ne confie pas de monture à quelqu'un qui n'a pas de rente pour la remplacer si elle se casse une jambe. La bête que j'avais sous moi depuis six jours était la première qui fût à moi. J'avais mis deux jours à comprendre que c'était une charge, et non un privilège.
+
 Le premier jour, on est fatiguée. Le deuxième, on a mal, et on trouve ça normal, parce qu'on a mal aux endroits qu'on attendait. Le troisième, la douleur change de nature : elle quitte les muscles et s'installe dans les articulations, où elle n'a rien à faire, et elle s'y installe pour de bon. Le quatrième et le cinquième, on croit s'habituer, et c'est faux : on apprend seulement à ne plus le dire.
 
 Le sixième jour, mes genoux ne pliaient plus dans le bon sens.

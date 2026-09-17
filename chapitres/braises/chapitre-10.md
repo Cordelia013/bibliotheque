@@ -20,7 +20,7 @@ Vaugrin tenait ce four avant moi. Il m'a appris en trois mois ce qu'un Braise do
 
 Il est mort à quarante-quatre ans, un dimanche, en s'asseyant sur le banc de la cour. Il avait poussé tout, tous les jours, pendant vingt-six ans, pour une maison qui l'a fait enterrer correctement et qui a embauché un remplaçant le mardi.
 
-Le remplaçant, c'était moi.
+Le remplaçant, c'était moi. J'avais huit ans.
 
 J'ai posé la main sur la fonte tiède, une dernière fois, et je me suis autorisé une chose que je ne fais jamais : j'ai poussé un peu.
 
