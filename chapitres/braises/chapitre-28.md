@@ -30,7 +30,7 @@ Elle a pris mes poignets. Elle les a descendus. Elle a mis mes mains où elle le
 
 Elle a approché la figure. J'ai reculé d'un demi-pouce, par réflexe, et elle a suivi, et sa bouche a trouvé la mienne.
 
-Je n'ai pas su quoi en faire pendant un temps que je ne saurais pas chiffrer. Puis j'ai su, ou plutôt mon corps a su à ma place, ce qui est la première fois que ça m'arrivait.
+Je n'ai pas su quoi en faire pendant un temps que je ne saurais pas chiffrer. Puis j'ai su, ou plutôt mon corps a su à ma place, ce qui ne s'était encore jamais produit.
 
 Sa bouche était fraîche. C'est le mot qui revient et je n'en trouve pas d'autre : tout, chez elle, était frais. Les lèvres, la langue, le dedans des joues, la peau du cou quand je suis descendu — j'ai découvert cette nuit-là qu'un corps qui n'est pas en feu a une température, et qu'on peut la boire.
 
@@ -98,7 +98,7 @@ C'est le mot. Quelque chose a lâché dans ma poitrine, plus bas que le feu, un 
 
 Après, il y a eu le vent, et rien d'autre.
 
-Elle avait la tête sur mon bras. Je prenais toujours, et ça passait en elle par tout le côté de son corps qui me touchait, et ça se perdait dans l'air, et pour la première fois depuis Valdren j'étais à la bonne température — pas creux comme après les fours, pas plein comme la veille : juste.
+Elle avait la tête sur mon bras. Je prenais toujours, et ça passait en elle par tout le côté de son corps qui me touchait, et ça se perdait dans l'air, et j'étais à la bonne température, ce qui ne m'était pas arrivé depuis Valdren — pas creux comme après les fours, pas plein comme la veille : juste.
 
 — Vous avez compté ? a-t-elle dit.
 
@@ -108,7 +108,7 @@ Elle avait la tête sur mon bras. Je prenais toujours, et ça passait en elle pa
 
 — Après, je n'ai plus su compter.
 
-Elle a hoché la tête contre mon bras, comme on referme un relevé.
+Elle a hoché la tête contre mon bras, une fois, du poids de la tête et rien de plus.
 
 — Ysée.
 
@@ -142,7 +142,7 @@ Elle s'est endormie tout de suite après, ce qu'elle fait toujours quand elle a 
 
 Je suis resté éveillé.
 
-J'ai pensé à Vaugrin sur son banc, à quarante-quatre ans, avec tout ce qu'il avait gardé et nulle part où le mettre. *On ne pousse jamais tout. Tu gardes toujours une braise pour toi.* Je venais de tout pousser, pour la première fois de ma vie, et je ne m'étais pas éteint.
+J'ai pensé à Vaugrin sur son banc, à quarante-quatre ans, avec tout ce qu'il avait gardé et nulle part où le mettre. *On ne pousse jamais tout. Tu gardes toujours une braise pour toi.* Je venais de tout pousser, ce qu'on ne fait jamais, et je ne m'étais pas éteint.
 
 J'ai pensé qu'il restait un jour de Ligne. Un jour de vent, et pas de nuit : si nous tenions le pas, nous serions de l'autre côté avant le soir.
 

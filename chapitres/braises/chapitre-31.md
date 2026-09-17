@@ -44,7 +44,7 @@ La porte nord.
 
 J'ai porté la main à ma poche intérieure. Je n'ai pas sorti la plaque. J'ai seulement vérifié qu'elle y était, comme on touche une rampe.
 
-La vieille a vu le geste. Elle a regardé ma main sur ma poche, et elle a plissé les yeux, et pour la première fois elle a regardé Ysée.
+La vieille a vu le geste. Elle a regardé ma main sur ma poche, et elle a plissé les yeux, et elle a regardé Ysée, ce qu'elle n'avait pas fait jusque-là.
 
 — Elle, a-t-elle dit dans la langue du Sud. Elle est quoi.
 
@@ -62,7 +62,7 @@ Ysée n'a pas baissé les yeux. Je l'ai regardée ne pas baisser les yeux, et j'
 
 — Je sais. J'en ai copié neuf. J'avais seize ans, et je ne savais pas ce que je dessinais, et maintenant je le sais. Je ne viens pas dessiner la même chose.
 
-La vieille a hoché la tête, lentement, comme on referme un relevé.
+La vieille a hoché la tête, lentement, comme on accepte un chiffre sans le vérifier.
 
 — On verra, a-t-elle dit.
 
