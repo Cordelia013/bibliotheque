@@ -32,7 +32,7 @@ J'ai posé les mains à plat sur la table, parce que c'est ce qu'on fait.
 
 — Ils n'avaient pas besoin qu'on leur dise, madame. Ils ont suivi l'eau.
 
-Voilà.
+Le relevé fermait sans moi.
 
 Je n'avais pas eu besoin de dessiner quoi que ce soit. L'eau descend, on la remonte ; c'est ce que fait n'importe qui depuis que les gens marchent. Ma grande faute de la sixième nuit, ma ligne dans le blanc, mon *j'ai déjà dessiné le chemin* — tout ça était vrai et tout ça était de trop, parce que cette fois-ci le ruisseau a suffi sans moi.
 

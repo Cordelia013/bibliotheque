@@ -78,7 +78,7 @@ Le bord n'existe pas — je l'ai écrit en montant et c'est toujours vrai : la p
 
 Il nous a arrêtés à un demi-mille, sur le dernier sol qui porte de la végétation.
 
-Et il a parlé. Longuement, à cinq personnes à la fois, pour la première fois depuis la halle deux.
+Et il a parlé. Longuement, à cinq personnes à la fois, ce qu'il n'avait pas fait depuis la halle deux.
 
 ---
 
