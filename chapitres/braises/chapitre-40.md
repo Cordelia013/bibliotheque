@@ -106,7 +106,7 @@ Sarn a fait un geste de la main : parlez.
 
 « Supposez que j'arrive. Je remets la carte à un homme qui a payé douze cents couronnes rien que pour le guide, et qui a cinquante copistes sous ses ordres. Cette Guilde fuit comme un panier ; ce n'est pas moi qui le dis, c'est un marchand de sel qui m'a récité mes propres relevés dans la rue. La carte sera copiée neuf fois avant d'être encadrée.
 
-« Supposez même que je ne dessine rien, ce qui est mon intention, et écoutez bien cette partie : le Doyen Aldric Vael a envoyé deux princes attendre cette carte. Si je rentre avec trois cents lieues de blanc, il ne conclura pas qu'il n'y a rien. Il conclura que sa Relevée a vu quelque chose et n'a pas voulu le mettre, et il enverra quelqu'un d'autre l'année suivante, et celui-là n'aura pas passé un mois ici à manger votre rave.
+« Supposez même que je ne dessine rien, ce qui est mon intention, et écoutez bien cette partie : le Doyen Aldric Vael a deux princes qui font fouiller ses archives et qui ne cherchent qu'une chose. Si je rentre avec trois cents lieues de blanc, il ne conclura pas qu'il n'y a rien. Il conclura que sa Relevée a vu quelque chose et n'a pas voulu le mettre, et il enverra quelqu'un d'autre l'année suivante, et celui-là n'aura pas passé un mois ici à manger votre rave.
 
 « Un serment de ma part vous protège d'une seule chose au monde : de moi, un soir, devant vous. Il ne vous protège de rien d'autre et il vous fera croire que si. C'est pour cela que je ne jurerai pas. Pas parce que je veux me garder le droit de le faire — parce que je ne veux pas que vous dormiez dessus.
 
