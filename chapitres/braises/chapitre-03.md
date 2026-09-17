@@ -16,7 +16,7 @@ Voilà ce que personne ne dit sur nous.
 
 La chaleur ne vient pas de l'air. Elle vient de moi. Et chaque fois que je la donne, elle ne revient pas tout à fait. Nous ne vieillissons pas comme les autres : nous brûlons de l'intérieur, lentement, jusqu'au bout. À quarante ans, un homme qui tient un four a les mains d'un vieillard.
 
-Vaugrin, qui tenait le four d'à côté avant moi, est mort à quarante-quatre ans en s'asseyant sur un banc.
+Vaugrin, qui tenait ce four avant moi, est mort à quarante-quatre ans en s'asseyant sur un banc.
 
 J'en ai vingt-sept.
 

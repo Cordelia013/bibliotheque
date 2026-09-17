@@ -10,13 +10,13 @@ Torve m'a ouvert sans poser de question. Il avait dû recevoir des ordres contra
 
 La halle était éteinte. Un four éteint refroidit lentement : à minuit, les briques rendaient encore la chaleur du jour, et l'air sentait ce qu'il sent toujours ici, le sel chaud et le fer.
 
-Je me suis assis contre la gueule du four deux.
+Je me suis assis contre la gueule du four un.
 
 Dix-neuf ans. Je connais chaque fissure de cette fonte. Je sais laquelle s'ouvre quand on monte trop vite et laquelle ne s'ouvrira jamais. Je sais à quelle heure la lumière entre par la verrière nord, et combien de coups il faut pour casser une cuve refroidie sans la fendre en travers.
 
 Ce sont des choses inutiles. C'est tout ce que je possède.
 
-Vaugrin tenait le four un. Il m'a appris en trois mois ce qu'un Braise doit savoir et en dix-neuf ans ce qu'un homme doit savoir, ce qui n'a rien à voir. Il disait : *on ne pousse jamais tout. Tu gardes toujours une braise pour toi. Le jour où tu pousses tout, tu ne trouves plus la porte.*
+Vaugrin tenait ce four avant moi. Il m'a appris en trois mois ce qu'un Braise doit savoir. Ce qu'un homme doit savoir, il me l'a appris en une phrase, et j'ai mis dix-neuf ans à la comprendre : *on ne pousse jamais tout. Tu gardes toujours une braise pour toi. Le jour où tu pousses tout, tu ne trouves plus la porte.*
 
 Il est mort à quarante-quatre ans, un dimanche, en s'asseyant sur le banc de la cour. Il avait poussé tout, tous les jours, pendant vingt-six ans, pour une maison qui l'a fait enterrer correctement et qui a embauché un remplaçant le mardi.
 
@@ -52,7 +52,7 @@ C'était la porte nord de Ghar.
 
 Je l'ai reconnue parce que je suis passé dessous, à cinq ans, dans les bras de quelqu'un dont je ne me rappelle ni le visage ni la voix, mais dont je me rappelle qu'il courait et qu'il m'a dit de ne pas regarder derrière.
 
-Vaugrin était de Ghar. Dix-neuf ans dans la même halle, à trois pas de moi.
+Vaugrin était de Ghar. Trois mois dans la même halle, à trois pas de moi, et dix-neuf ans de sa fonte sous mes mains depuis.
 
 Il ne me l'a jamais dit. Je ne le lui ai jamais demandé.
 

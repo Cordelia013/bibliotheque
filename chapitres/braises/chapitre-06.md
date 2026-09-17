@@ -66,6 +66,6 @@ Pupille. Recueillie, nourrie, instruite — et qui ne peut rien refuser.
 
 Je ne savais rien d'elle à ce moment-là. Je savais seulement que la Guilde avait rangé nos deux noms dans la même pile, le même jour, dans la même écriture administrative.
 
-Et j'ai eu une pensée que j'ai chassée immédiatement, et qui est revenue douze jours plus tard sur la route, et qui n'est plus jamais repartie :
+Et j'ai eu une pensée que j'ai chassée immédiatement, et qui est revenue sept jours plus tard sur la route, et qui n'est plus jamais repartie :
 
 *Lui aussi, ils l'ont chiffrée.*

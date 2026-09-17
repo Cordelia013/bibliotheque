@@ -62,7 +62,7 @@ C'est à ce moment-là que le coursier m'a trouvée, essoufflé, sa livrée trem
 
 J'ai refermé le carnet.
 
-En huit ans dans cette maison, le Doyen Vael ne m'avait jamais adressé la parole. Il avait signé quarante-trois de mes cartes.
+En huit ans de Relevés, le Doyen Vael ne m'avait jamais adressé la parole. Il avait signé quarante-trois de mes cartes.
 
 — Maintenant ?
 

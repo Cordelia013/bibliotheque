@@ -68,7 +68,7 @@ J'ai cru avoir mal entendu.
 
 J'ai dû faire une tête, parce qu'il a précisé, du ton dont on récite une évidence :
 
-— Un de ceux qui sont nés dans le Nord au moment de la rupture des Fours. Le feu est entré en eux et n'en est jamais ressorti. Ils ne craignent pas la chaleur. C'est le seul moyen de passer la Ligne, et je ne vous expliquerai pas pourquoi aujourd'hui : vous n'êtes pas encore engagée, et ce n'est pas une chose qui se dit à quelqu'un qui n'est pas engagé.
+— Un de ceux qui étaient dans les Fours quand ils ont été rompus. Le feu est entré en eux et n'en est jamais ressorti. Les plus vieux avaient trente ans, les plus jeunes venaient de naître ; cela n'a fait aucune différence. Ils ne craignent pas la chaleur. C'est le seul moyen de passer la Ligne, et je ne vous expliquerai pas pourquoi aujourd'hui : vous n'êtes pas encore engagée, et ce n'est pas une chose qui se dit à quelqu'un qui n'est pas engagé.
 
 — Et si je refuse ?
 
