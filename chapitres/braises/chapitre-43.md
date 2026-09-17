@@ -152,7 +152,7 @@ Cael était déjà là.
 
 ---
 
-Ce qui a suivi a pris entre quatre et six minutes. Je ne peux pas faire mieux ; c'est la seule durée de ma vie que j'aie été incapable de tenir.
+Ce qui a suivi a pris entre quatre et six minutes. Je ne peux pas faire mieux : je n'avais rien pour mesurer, et c'est la seule fois de ma vie où ça m'a manqué comme une main.
 
 Cael s'est mis à genoux devant lui et lui a pris les deux poignets, de force, et les a ouverts, et a mis ses paumes contre les siennes.
 

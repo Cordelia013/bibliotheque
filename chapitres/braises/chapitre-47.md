@@ -120,7 +120,7 @@ Puis ça s'est ouvert, comme cette nuit-là, et j'ai senti passer dans mon bras 
 
 Ses épaules ont cédé d'un cran.
 
-Il n'a pas tourné la tête. Il n'a pas ralenti. Il a continué à marcher avec un homme sur le dos et ma main sur sa nuque, et nous avons fait comme ça les trois dernières heures, moi à un demi-pas, hors de l'ombre, dans l'air plein — ce qui m'a coûté quelque chose que j'ai payé le lendemain et le surlendemain, et qui ne regarde personne.
+Il n'a pas tourné la tête. Il n'a pas ralenti. Il a continué à marcher avec un homme sur le dos et ma main sur sa nuque, et nous avons fait comme ça les trois dernières heures, moi à un demi-pas, hors de l'ombre, dans l'air plein — ce qui m'a coûté deux jours de lèvres fendues et une semaine sans voir net de l'œil gauche.
 
 Nous n'avons pas échangé un mot.
 
@@ -142,4 +142,4 @@ Il ne l'a pas fait brutalement. Il a fait ce qu'il fait depuis qu'il a six ans, 
 
 Il a posé Halden Serrande par terre, sur le côté, la tête sur un bras.
 
-Puis il s'est assis à côté de lui, dans l'herbe morte, pour la première fois en trois jours.
+Puis il s'est assis à côté de lui, dans l'herbe morte. Il ne s'était pas assis depuis trois jours.

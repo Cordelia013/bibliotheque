@@ -114,7 +114,7 @@ Elle a payé la chambre, elle a pris les communs, et elle est venue manger dehor
 
 Elle n'a pas fait la leçon à l'aubergiste. Elle n'a pas expliqué. Elle a acheté deux places aux communs au prix d'une chambre et elle a laissé cet homme dire oui sans perdre la face, exactement comme je le lui avais expliqué sous cet auvent-là il y a cinquante-deux jours.
 
-Elle avait retenu. Ça m'a fait quelque chose que je ne décrirai pas.
+Elle avait retenu. J'ai dû m'occuper de la bride un moment.
 
 ---
 
