@@ -82,7 +82,7 @@ Je reprends ce qu'il a dit d'un bout à l'autre, parce qu'il n'a rien dit de bê
 
 « Alors je ne viens pas prendre votre feu. Je viens vous acheter ce que vous faites — le fer de votre forge, le sel s'il y en a, ce que vous voudrez vendre — avant tout le monde et à personne d'autre. Je le descends, je le vends, je le paie en ce que vous ne pouvez pas produire ici : du grain pour quatre cents quand vous serez quatre cents, des outils, du verre, des bêtes de trait, du sel de mine tant que vous n'en avez pas.
 
-« Et je rentre à Valdren, et je dis au Doyen Aldric Vael et aux deux princes qui attendent sa carte qu'il n'y a au nord de la Ligne que trois cents lieues de cendre et de ruines. Je suis très bien placé pour le dire. J'ai traversé, j'y ai laissé six hommes, et personne dans ce royaume n'a plus de raisons que moi d'être cru.
+« Et je rentre à Valdren, et je dis au Doyen Aldric Vael et aux deux princes qui lui tournent autour qu'il n'y a au nord de la Ligne que trois cents lieues de cendre et de ruines. Je suis très bien placé pour le dire. J'ai traversé, j'y ai laissé six hommes, et personne dans ce royaume n'a plus de raisons que moi d'être cru.
 
 Il a laissé un temps.
 
