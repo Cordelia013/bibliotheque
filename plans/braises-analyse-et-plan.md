@@ -150,7 +150,7 @@ Les cinq chapitres actuels ne sont pas perdus : ils deviennent les chapitres **1
 
 **Règles de la Ligne posées** : signes (main levée = halte ; deux doigts = eau ; poing sur la poitrine = plus près ; main qui descend = à terre ; index sur le genou = « je ne peux plus », jamais utilisé). Le cheval reste à la dernière ferme (six couronnes de garde, une septième pour qu'on ne le vende pas). Sol : gris clair porte, gris luisant porte et glisse, gris doux ne porte pas ; « feu de terre » = fente rouge, signe page quarante du manuel.
 
-**Physique de Cael sur la Ligne (nouveau, à respecter ensuite)** : il ne donne plus, il *prend* et garde ; trop plein, il risque de « s'asseoir » (miroir de Vaugrin : « le jour où tu prends tout, tu ne trouves plus la porte »). La main d'Ysée sur sa peau lui ouvre une sortie : ce qu'il lui donne est mangé par l'air avant sa peau. Sur la Ligne il ne peut pas la brûler — c'est la seule condition de la nuit du ch. 28. Il l'a dit : « de l'autre côté, je redeviens ce que j'étais ». **Fil ouvert (ch. 31)** : de l'autre côté, main dans la main plus de trois secondes, aucune marque — « je ne comprends pas ». À expliquer à l'acte IV ou V (hypothèse : elle est devenue une « porte » ; ou il a appris à retenir).
+**Physique de Cael sur la Ligne (nouveau, à respecter ensuite)** : il ne donne plus, il *prend* et garde ; trop plein, il risque de « s'asseoir » (miroir de Vaugrin : « le jour où tu prends tout, tu ne trouves plus la porte »). La main d'Ysée sur sa peau lui ouvre une sortie : ce qu'il lui donne est mangé par l'air avant sa peau. Sur la Ligne il ne peut pas la brûler — c'est la seule condition de la nuit du ch. 28. Il l'a dit : « de l'autre côté, je redeviens ce que j'étais ». **Fil ouvert (ch. 31)** : de l'autre côté, main dans la main plus de trois secondes, aucune marque — « je ne comprends pas ». **Décision : inexpliqué dans le tome 1, reporté au tome 2** (voir les contraintes à l'acte IV).
 
 **Lieux et personnes introduits** : Ghar, quartier bas, mur sud effondré, brèche, maison à trois murs, porte nord (arche, deux tours inégales — la plaque de Vaugrin est juste). La veille sur le mur sud, toutes les nuits depuis vingt-deux ans. **Orsa**, la vieille qui mène les sept ; l'enfant aux pieds nus (six ou sept ans, pas encore nommée) ; la langue du Nord, que Cael comprend un mot sur cinq et parle sans le savoir. **Bran**, dix-neuf ans, four trois des Serrande, formé par Cael, amené par Halden comme abri pour neuf hommes en file — Cael prévoit que six s'assiéront.
 
@@ -172,7 +172,24 @@ Les cinq chapitres actuels ne sont pas perdus : ils deviennent les chapitres **1
 - Ch. 34 : **Cliffhanger d'acte** — Cael révèle pourquoi il a signé : il y a quelqu'un dans le Nord qu'il cherche depuis vingt-deux ans.
 
 ### Acte IV — Le Nord (chapitres 35 à 44)
-- La cité des Fours, ce qu'il en reste. Une communauté de Braises libres. La tentation pour Cael de rester. Le choix d'Ysée : la carte peut détruire cet endroit si elle la rapporte. Halden. La confrontation. Une rupture entre eux qui vient de leurs croyances, pas d'un malentendu.
+- Les Fours hauts, ce qu'il en reste. Une communauté de Braises libres. La tentation pour Cael de rester. Le choix d'Ysée : la carte peut détruire cet endroit si elle la rapporte. Halden. La confrontation. Une rupture entre eux qui vient de leurs croyances, pas d'un malentendu.
+
+**Décision (16 septembre) — le pli du Doyen : option A.** Halden le révèle au climax de l'acte IV, devant la communauté, au moment exact où Ysée doit dire ce qu'elle dessine. Il le sait parce qu'il achète les jeunes copistes de la Guilde, ce qu'il a dit lui-même au ch. 9 : « votre Guilde fuit comme un panier ». Il s'en sert pour la discréditer — *elle n'est pas libre, elle est en mission*.
+
+Règles de la scène, pour que la rupture porte sur les croyances et non sur le mensonge :
+- **Ysée ne nie pas, elle complète** : elle sort le pli et le lit à voix haute en entier, y compris la phrase que Halden ignore — *ne l'aidez pas à chercher* — et le fait qu'elle est partie vers le nord quand même.
+- **La blessure de Cael est précise** : le pli dit « l'homme que je vous confie ». Confié. Comme le contrat vendu douze cents couronnes, comme la case d'objet où il valait quatre cents charges de sel (ch. 5, 6, 15). Un document de plus où il est une chose remise à quelqu'un — et cette fois à elle. Ce n'est pas « tu m'as menti », c'est **« tu étais mon gardien et je ne le savais pas »**.
+- **Le poison pour Ysée** : Vael avait écrit *ne l'aidez pas, ne le lui interdisez pas non plus*. Elle a accompagné sans aider, gardé la carte, est restée assez près pour la ramener. Elle a peut-être obéi à la lettre en croyant choisir, et elle ne peut pas prouver le contraire — à Cael pas plus qu'à elle-même.
+- **Le pli et la carte tombent dans la même scène.** Le pli ne remplace pas la décision de dessiner ou non les Fours hauts : il la rend impossible à prendre proprement.
+- **Halden garde sa raison** (trois cents salaires le premier du mois) et on le laisse l'exposer une fois.
+
+*Sous-question ouverte, à trancher à l'acte V* : ce qu'Ysée fait du pli à la fin — le brûler (soulagement) ou le rapporter à Valdren comme pièce à conviction contre Vael, ce qui arme le tome 3 où ses neuf cartes reviennent comme preuve.
+
+**Décision (16 septembre) — le mystère du ch. 31 (aucune marque après trois secondes, de l'autre côté de la Ligne) : reporté au tome 2, inexpliqué dans le tome 1.** Trois contraintes :
+- Personne à Ghar ni aux Fours hauts ne commente : aucune explication locale, aucun « ça arrive parfois ». Les Braises libres ne se touchent qu'entre eux ; le cas ne s'est jamais posé pour eux.
+- Deux occurrences au maximum dans les actes IV et V, sans mots, sans que Cael y revienne en pensée plus d'une ligne.
+- Ça ne sert jamais à rien : dès que ça résout un problème, le lecteur exige la règle. Ça reste inutile et inexpliqué.
+- Une dernière ligne au ch. 50, posée comme une question et non comme un indice, ouvre le tome 2.
 
 ### Acte V — Le retour (chapitres 45 à 50)
 - Ce qu'Ysée rapporte à Valdren. Ce qu'elle laisse en blanc, volontairement, pour la première fois de sa vie. La levée de contrat, la vraie. Le dernier chapitre sur la Ligne, à deux, dans l'autre sens.
