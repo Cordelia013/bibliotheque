@@ -4,7 +4,7 @@
 
 *POV Ysée*
 
-Ils étaient plus de cent dans la halle deux.
+Ils étaient près de deux cents dans la halle deux.
 
 Je le note parce que je note tout et parce que c'est la dernière chose que j'aie relevée proprement ce jour-là : plus de cent personnes, debout entre les piliers, les enfants assis sur les bases, et la lumière qui tombait par les trois ouvertures en quinconce sur une table de bois épais qui n'était pas la mienne et ne le serait jamais.
 
@@ -72,7 +72,7 @@ Il n'a rien dit. Il a bougé. Un seul mot est sorti de lui, très bas, pas pour 
 
 Pas *menti*. Pas *pourquoi*. Ce mot-là, tout seul, celui qui était au milieu de la phrase et que tout le monde avait dépassé.
 
-Et j'ai compris à cet instant précis ce que j'avais fait, et ce n'était pas ce que j'avais passé vingt-sept jours à croire que j'avais fait.
+Et j'ai compris à cet instant précis ce que j'avais fait, et ce n'était pas ce que j'avais passé vingt jours à croire que j'avais fait.
 
 Il a vingt-sept ans. Il a été acheté douze cents couronnes à une maison de sel. Il y a, dans un couloir de la Guilde, un acte de quatre pages avec une case où il est écrit *un homme, vingt-sept ans, dix-neuf années de four, valeur estimée : quatre cents charges de sel*. Il a passé sa vie entière à être une chose remise par quelqu'un à quelqu'un d'autre.
 
@@ -110,7 +110,7 @@ C'est Halden qui l'a rompu, et il l'a fait sans triomphe, ce qui était pire : i
 
 — Vous avez désobéi, alors.
 
-— Je suis partie vers le nord avec lui, ai-je dit. Il y a onze jours. Contre cette phrase.
+— Je suis partie vers le nord avec lui, ai-je dit. Il y a treize jours. Contre cette phrase.
 
 — Oui. Et maintenant répondez à ceci, madame, et prenez tout le temps qu'il vous faut, parce que ces gens ont le droit de savoir à qui ils parlent.
 
@@ -120,7 +120,7 @@ Il a posé les deux mains gantées sur le dossier devant lui.
 
 J'ai ouvert la bouche.
 
-Il faut comprendre ce qu'est mon métier pour comprendre ce qui s'est passé dans ma tête. Un relevé, ça se vérifie : on reprend ses points, on refait le calcul dans l'autre sens, et si les deux tombent juste, la côte est bonne. J'ai fait ça. En quatre secondes j'ai repris onze jours point par point, et six jours de montée avant eux, et trois jours de Ligne avant ceux-là.
+Il faut comprendre ce qu'est mon métier pour comprendre ce qui s'est passé dans ma tête. Un relevé, ça se vérifie : on reprend ses points, on refait le calcul dans l'autre sens, et si les deux tombent juste, la côte est bonne. J'ai fait ça. En quatre secondes j'ai repris treize jours point par point, et les six jours de montée qu'ils contiennent, et trois jours de Ligne avant eux.
 
 J'ai relevé un pays entier. J'ai compté six bouches. J'ai mesuré l'écartement des piliers d'une halle où je n'avais rien à faire.
 
@@ -132,7 +132,7 @@ Je suis venue. J'ai marché à côté. Je n'ai rien interdit.
 
 *Vous ne l'aiderez pas. C'est une nuance que je vous crois capable de tenir.*
 
-Je l'ai tenue. Je l'ai tenue à la lettre, pendant onze jours, en croyant à chaque heure que je choisissais.
+Je l'ai tenue. Je l'ai tenue à la lettre, pendant treize jours, en croyant à chaque heure que je choisissais.
 
 Et le pire — celui-là, je l'écris une fois et je ne le relirai pas — c'est que je ne peux pas prouver le contraire. Ni à lui. Ni à moi. Il n'existe aucun relevé au monde qui permette de distinguer une femme qui a décidé de venir d'une femme qui a obéi à un homme qui avait prévu qu'elle croirait décider.
 
@@ -160,7 +160,7 @@ Cael s'est mis à genoux devant lui et lui a pris les deux poignets, de force, e
 
 Il y a eu des gens autour. Berne. Le vieux du banc, Sarn, qui a mis quatre-vingts secondes à s'agenouiller et qui a posé ses mains sur la nuque du garçon. D'autres. Six, huit, je ne les ai pas comptés, et j'aurais dû, et c'est la seule fois où je regrette de ne pas avoir compté quelque chose.
 
-Ils sont deux cent onze dans cette ville à porter le feu. Huit d'entre eux tenaient un garçon de vingt-trois ans en essayant de lui reprendre neuf jours.
+Ils sont cent quarante dans cette ville à porter le feu. Huit d'entre eux tenaient un garçon de vingt-trois ans en essayant de lui reprendre neuf jours.
 
 Ça a marché un peu. J'ai vu que ça marchait un peu : il a repris de l'air, une fois, proprement, comme quelqu'un qui remonte.
 
@@ -198,7 +198,7 @@ Il en a sorti un registre. Pas un livre de comptes de maison — un petit regist
 
 Et pour écrire dedans, il a retiré ses gants.
 
-Je ne l'avais jamais vu sans gants. Personne dans cette halle ne l'avait jamais vu sans gants, mais moi je l'avais rencontré dans la rue des Copistes il y a vingt-neuf jours, et sur un chemin de ronde, et je l'avais vu parler une heure sans en retirer un seul. Il en a mis un dans chaque poche, avec soin, et il a pris une plume de voyage, et il a écrit debout en tenant le registre contre son avant-bras.
+Je ne l'avais jamais vu sans gants. Personne dans cette halle ne l'avait jamais vu sans gants, mais moi je l'avais rencontré dans la rue des Copistes il y a trente-six jours, et sur un chemin de ronde, et je l'avais vu parler une heure sans en retirer un seul. Il en a mis un dans chaque poche, avec soin, et il a pris une plume de voyage, et il a écrit debout en tenant le registre contre son avant-bras.
 
 J'étais à quatre pas et je lis à l'envers depuis l'âge de neuf ans.
 

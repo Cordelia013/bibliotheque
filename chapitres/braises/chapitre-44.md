@@ -10,7 +10,7 @@ Ce n'est pas un choix : c'est le rang suivant. Le sol est peu profond sur le pla
 
 Sarn a dit son nom une fois à voix haute et les autres l'ont répété. Je l'ai répété aussi.
 
-Ils sont deux, maintenant, dans cette terre-là. Elle en avait cinquante-trois. Il en avait vingt-trois. Je vais faire le compte une seule fois et je ne le referai plus jamais : elle a tenu vingt-deux ans en regardant vers le sud, il a tenu neuf jours en remontant vers le nord, et j'en ai vingt-sept avec treize devant — sauf que le chiffre treize appartient à une maison de sel de Valdren et pas à la nature des choses, et que je le sais depuis six jours, et que je vais redescendre quand même.
+Ils sont deux, maintenant, dans cette terre-là. Elle en avait cinquante-trois. Il en avait vingt-trois. Je vais faire le compte une seule fois et je ne le referai plus jamais : elle a tenu vingt-deux ans en regardant vers le sud, il a tenu neuf jours en remontant vers le nord, et j'en ai vingt-sept avec treize devant — sauf que le chiffre treize appartient à une maison de sel de Valdren et pas à la nature des choses, et que je le sais depuis huit jours, et que je vais redescendre quand même.
 
 Trois points sur la même ligne. Je n'ai pas besoin de tracer la droite ; c'est son métier à elle, pas le mien.
 
@@ -20,11 +20,11 @@ Le conseil a décidé sans moi et sans elle, ce qui était la seule façon corre
 
 Hesk voulait qu'on les laisse partir seuls.
 
-Il faut lui rendre ceci : il ne l'a pas dit comme on propose un meurtre, et ce n'en était pas un. Quatre hommes du Sud sont arrivés ici par leurs propres moyens ; qu'ils repartent par leurs propres moyens. Personne ne les aurait touchés. On leur aurait donné de l'eau, du pain, et le nom des trois gués. Ils se seraient assis le deuxième jour, tous les quatre, à des heures différentes.
+Il faut lui rendre ceci : il ne l'a pas dit comme on propose un meurtre, et ce n'en était pas un. Ils sont arrivés ici par leurs propres moyens ; qu'ils repartent par leurs propres moyens. Personne ne les aurait touchés. On leur aurait donné de l'eau, du pain, et le nom des trois gués. Ils se seraient assis le deuxième jour, tous les trois, à des heures différentes.
 
 C'est Tervi qui a répondu, et c'est elle qui a emporté le morceau, et pas du tout pour la raison que j'attendais.
 
-— Si les quatre meurent sur la Ligne, a-t-elle dit, personne à Valdren ne sait pourquoi. On saura seulement qu'un marchand de sel est parti au nord avec dix-huit hommes et que pas un n'est revenu. Vous croyez que ça arrête les gens, ça ? C'est ce qui les fait venir. Il y a eu onze expéditions et six qui ne sont pas ressorties, et il y a eu la douzième quand même, et elle est assise dans cette halle.
+— Si les trois meurent sur la Ligne, a-t-elle dit, personne à Valdren ne sait pourquoi. On saura seulement qu'un marchand de sel est parti au nord avec dix-huit hommes et qu'aucun de ceux qui sont entrés dans la cendre n'en est ressorti. Vous croyez que ça arrête les gens, ça ? C'est ce qui les fait venir. Il y a eu onze expéditions et six qui ne sont pas ressorties, et il y a eu la douzième quand même, et elle est assise dans cette halle.
 
 Elle a laissé ça.
 
@@ -48,7 +48,7 @@ Après, il a fallu dire qui traversait.
 
 C'est arrivé comme arrivent ces choses-là, c'est-à-dire que tout le monde avait déjà compris et que personne ne voulait le formuler.
 
-Il n'y a plus de Braise du côté du Sud. Il y en a deux cent dix dans cette ville et pas un seul n'a la moindre raison de descendre — Orsa avait raison le troisième soir à Ghar, on ne retourne pas dans un pays qui met les gens comme nous dans des fours.
+Il n'y a plus de Braise du côté du Sud. Il y en a cent quarante dans cette ville et pas un seul n'a la moindre raison de descendre — Orsa avait raison le troisième soir à Ghar, on ne retourne pas dans un pays qui met les gens comme nous dans des fours.
 
 Il en reste un qui a un contrat.
 
@@ -124,13 +124,13 @@ Puis j'ai posé les douze planches de bardeau contre le mur de la maison, du cô
 
 Nous sommes partis le lendemain, une heure avant le jour.
 
-Cinq. Halden Serrande, deux de ses hommes — Mauger, qui a la quarantaine et qui a déjà passé la Ligne une fois, et un jeune qu'on appelle Tiec —, elle, et moi. Le troisième homme reste : il a le pied cassé depuis le plat et il ne fera pas trois jours. Ils le garderont jusqu'à ce qu'il marche, et ils le garderont bien, et personne n'a discuté ce point-là non plus.
+Cinq. Halden Serrande, ses deux hommes — Mauger, qui a la quarantaine et qui a déjà passé la Ligne une fois, et un jeune qu'on appelle Tiec —, elle, et moi. Il n'en reste pas d'autre : ils étaient neuf à entrer dans la cendre avec Bran, et six se sont assis le deuxième jour.
 
 Tervi est venue à la sortie de la halle une. Elle n'a rien dit à Ysée. Elle lui a mis dans la main un rouleau de toile avec quelque chose dedans — je n'ai pas regardé quoi, et je ne l'ai pas demandé, et c'est la première chose que je n'ai pas demandée.
 
 Ysée porte l'étui de fer-blanc en travers du dos, comme en montant.
 
-Je ne sais pas ce qu'il y a dessus. Je ne sais pas si elle a tracé quelque chose pendant ces onze jours, ni si elle a gratté, ni si l'étui est vide. Je ne le lui ai pas demandé et je ne le lui demanderai pas, et ce n'est pas une punition : c'est que je n'ai plus aucun moyen de savoir ce que vaut une réponse qu'elle me donnerait.
+Je ne sais pas ce qu'il y a dessus. Je ne sais pas si elle a tracé quelque chose pendant ces treize jours, ni si elle a gratté, ni si l'étui est vide. Je ne le lui ai pas demandé et je ne le lui demanderai pas, et ce n'est pas une punition : c'est que je n'ai plus aucun moyen de savoir ce que vaut une réponse qu'elle me donnerait.
 
 Nous n'avons pas échangé un mot de la journée.
 
@@ -140,7 +140,7 @@ Alors nous marchons.
 
 ---
 
-Le sixième jour nous serons au ruisseau froid, le neuvième à Ghar, et le dixième au bord.
+Le premier soir nous serons au ruisseau froid, le neuvième jour à Ghar, et le dixième au bord.
 
 J'ai le temps, donc, et je passe ce temps à faire la seule chose que je sache faire.
 

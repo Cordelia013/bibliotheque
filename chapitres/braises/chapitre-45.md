@@ -14,7 +14,7 @@ Il s'est retourné. Il a regardé. Il a attendu que je me relève.
 
 Puis il a fait demi-tour et il a repris le pas, un peu plus lent, et il a tenu ce pas-là jusqu'au soir sans que personne ne sache pourquoi sauf lui et moi.
 
-C'est tout ce que j'ai eu pendant six jours, et je ne le raconte à personne parce que dit à voix haute, ce n'est rien du tout : un homme qui ralentit de trois pas à l'heure.
+C'est tout ce que j'ai eu pendant neuf jours, et je ne le raconte à personne parce que dit à voix haute, ce n'est rien du tout : un homme qui ralentit de trois pas à l'heure.
 
 ---
 

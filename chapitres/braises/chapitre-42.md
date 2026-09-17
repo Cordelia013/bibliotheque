@@ -42,7 +42,7 @@ Il est plein.
 
 Il n'y a pas d'autre mot et il n'y en aura pas. Un Braise qui a passé la Ligne prend et garde ; c'est la seule manière d'y passer, et de l'autre côté il faut rendre. Moi, j'ai rendu. J'avais quelqu'un contre moi trois nuits et une main sur ma peau à la cinquième halte, et ce que je lâchais était mangé par l'air avant d'arriver à elle, et ça m'a fait une porte.
 
-Bran a porté neuf hommes pendant trois jours. Il est sorti de la Ligne il y a neuf jours avec tout ça dedans, et depuis il monte, et il n'a rien lâché.
+Bran a porté neuf hommes pendant trois jours. Il est sorti de la Ligne il y a treize jours avec tout ça dedans, et depuis il monte, et il n'a rien lâché.
 
 On le voit à des choses que personne d'autre ne voit. Il ne transpire pas. L'air au-dessus de ses épaules ne tient pas droit. Il tient les bras écartés du corps d'un demi-pouce, en permanence, comme un homme qui vient de se laver les mains et qui cherche un linge.
 
@@ -68,7 +68,7 @@ Je rapporte ce qu'il a dit d'un bout à l'autre, parce qu'il n'a rien dit de bê
 
 — Je m'appelle Halden Serrande. Ma maison achète et vend du sel à Valdren depuis quatre-vingts ans. J'ai trente-deux ans, mon père en a soixante-douze, et trois cents personnes touchent chez nous le premier de chaque mois.
 
-« Je suis parti de Valdren avec dix-huit hommes. J'en ai perdu six sur la Ligne et quatre ont fait demi-tour au bord. Je ne vous demande pas de me plaindre ; je vous donne un chiffre, pour que vous sachiez ce que ça m'a coûté d'être ici, et que vous en déduisiez ce que je suis prêt à payer.
+« Je suis parti de Valdren avec dix-huit hommes. Neuf sont entrés sur la Ligne avec moi ; les autres avaient fait demi-tour au bord ou m'avaient quitté en route. J'en ai perdu six dedans. Je ne vous demande pas de me plaindre ; je vous donne un chiffre, pour que vous sachiez ce que ça m'a coûté d'être ici, et que vous en déduisiez ce que je suis prêt à payer.
 
 « Voilà votre situation, et vous la connaissez mieux que moi, mais je vais la dire à voix haute parce que personne ne la dit à voix haute.
 
@@ -152,7 +152,7 @@ Je me suis accroupi devant lui.
 
 — Tu as passé neuf hommes.
 
-— Sept, a-t-il dit. Il y en a six qui se sont assis le deuxième jour. J'en ai passé sept la première nuit et trois de l'autre côté. C'est moins que ce que vous croyez.
+— Neuf, a-t-il dit. Il y en a six qui se sont assis le deuxième jour. J'en ai passé neuf la première nuit et trois de l'autre côté. C'est moins que ce que vous croyez.
 
 Il l'a dit comme on rectifie un chiffre dans un bordereau. Il a vingt-trois ans.
 
@@ -160,7 +160,7 @@ Il l'a dit comme on rectifie un chiffre dans un bordereau. Il a vingt-trois ans.
 
 Il n'a pas répondu.
 
-— Bran. De l'autre côté, il faut rendre. Ça ne part pas tout seul. Tu le portes depuis neuf jours et ça ne partira pas en marchant.
+— Bran. De l'autre côté, il faut rendre. Ça ne part pas tout seul. Tu le portes depuis treize jours et ça ne partira pas en marchant.
 
 — Je sais, a-t-il dit. Ça va descendre. J'ai fait des grosses coulées à la maison, ça descend toujours au bout de trois jours.
 
@@ -168,7 +168,7 @@ Il n'a pas répondu.
 
 Il a regardé ses genoux.
 
-— Ici, ils sont deux cents comme nous, ai-je dit. Deux cents. Tu peux poser les mains sur n'importe qui dans cette ville, et ça ne lui fera rien, et ça t'en prendra un peu. Il faut le faire beaucoup et longtemps, et il faut commencer ce soir.
+— Ici, ils sont cent quarante comme nous, ai-je dit. Cent quarante. Tu peux poser les mains sur n'importe qui dans cette ville, et ça ne lui fera rien, et ça t'en prendra un peu. Il faut le faire beaucoup et longtemps, et il faut commencer ce soir.
 
 — On m'a dit qu'ils étaient pas bien.
 
