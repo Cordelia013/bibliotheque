@@ -46,25 +46,33 @@ J'ai dit le compte en entier.
 
 Elle a regardé le feu un long moment.
 
-— Il n'y avait pas de four, a-t-elle dit. C'est vrai. Il y avait quarante personnes dans une ville brûlée, et l'hiver du Nord.
+— Il n'y avait pas de four, a-t-elle dit. C'est vrai. Il y avait cent vingt personnes dans une ville brûlée, et l'hiver du Nord.
 
 ---
 
 Je vais le poser comme elle me l'a posé, parce qu'elle l'a posé en quatre phrases et que je n'en ai pas trouvé de meilleures depuis.
 
-Après la rupture, ils étaient une soixantaine à Ghar, et l'hiver est arrivé quatre mois plus tard. Il n'y avait plus de veines ouvertes — c'est ce qui brûlait en dessous qui les avait chassés des maisons —, plus de toits entiers, plus de bois sec à moins de six lieues, et les vieux et les enfants ne passent pas un hiver du Nord dans une pièce froide.
+Après la rupture, l'hiver est arrivé quatre mois plus tard. Il n'y avait plus de veines ouvertes — c'est ce qui brûlait en dessous qui les avait chassés des maisons —, plus de toits entiers, plus de bois sec à moins de six lieues. Sur les cent vingt, quarante ne passaient pas la nuit dans une pièce froide : les vieux, les brûlés, et les enfants en dessous de six ans.
 
 Alors ceux qui portaient le feu ont chauffé.
 
-Pas une heure, un jour sur cinq. Toutes les nuits, à tour de rôle, dans les trois pièces où l'on entassait les autres, du premier gel à la fonte. Ils étaient onze à pouvoir le faire la première année. Ils ont été neuf la troisième, et sept la sixième.
+Pas une heure, un jour sur cinq. Toutes les nuits, à tour de rôle, dans les trois pièces où l'on entassait les quarante, du premier gel à la fonte.
+
+Ils étaient onze à tenir une nuit entière la première année. Ils ont été neuf la troisième, et sept la sixième.
+
+Aucun n'est mort d'une nuit. On ne meurt pas d'une nuit : on cesse de pouvoir, et un autre prend la nuit, et on s'assied bien plus tard, sur un banc, un dimanche, comme tout le monde.
 
 — Personne ne nous a obligés, a-t-elle dit. C'est la différence, et c'est toute la différence, et elle ne change rien au chiffre.
 
 J'ai mis un temps à comprendre ce qu'elle venait de me dire.
 
-Au Sud, on m'a acheté et on m'a compté, et j'ai brûlé dix-neuf ans pour le sel d'une maison qui m'a payé douze cents couronnes. Ici, personne n'a acheté personne, et elle a brûlé dix-neuf ans pour que des enfants n'aient pas froid. Le rendement ne demande pas qui commande. Il demande seulement combien, et pendant combien de temps.
+Puis j'ai fait ce que je fais, parce que je ne sais pas faire autrement : j'ai posé les deux comptes l'un à côté de l'autre.
 
-Ce n'est pas le Sud qui tue les Braises. Le Sud a seulement trouvé le moyen de faire faire à d'autres, contre de l'argent, ce que des gens libres se font à eux-mêmes quand ils ne sont pas assez nombreux.
+Dix-neuf ans de four, dix heures par jour, pour le sel d'une maison qui m'avait payé douze cents couronnes.
+
+Dix-neuf hivers de nuits, pour que quarante personnes n'aient pas froid.
+
+Je n'ai rien dit. Les deux colonnes tombaient au même endroit, et je n'ai pas voulu le dire à voix haute devant elle.
 
 — Vous auriez pu monter plus tôt, ai-je dit.
 
