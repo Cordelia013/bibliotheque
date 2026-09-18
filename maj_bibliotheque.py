@@ -5,7 +5,7 @@
 Écrit les fichiers de données chargés par docs/index.html :
 
     docs/data-castellano-p1.js … p4.js   (40 chapitres, découpés par 10)
-    docs/data-braises-p1.js … p9.js      (50 chapitres, découpés par 6)
+    docs/data-braises-p1.js … p9.js      (52 chapitres, découpés par 6)
     docs/data-vesper.js, data-verre.js
 
 Met aussi à jour, en place :
@@ -51,11 +51,18 @@ CATALOGUE = [
 
 
 def charger(bid):
-    """Lit les chapitres markdown d'un livre."""
+    """Lit les chapitres markdown d'un livre.
+
+    Le numéro peut porter un suffixe — « Chapitre 39 bis » —, pour un chapitre
+    inséré après coup sans renuméroter tout ce qui suit. Il est alors gardé tel
+    quel, sous forme de texte : la liseuse ne s'en sert que pour l'affichage,
+    l'ordre de lecture venant du nom des fichiers (chapitre-39bis.md se range
+    entre chapitre-39.md et chapitre-40.md).
+    """
     chaps = []
     for f in sorted(glob.glob(f"chapitres/{bid}/chapitre-*.md")):
         txt = open(f, encoding="utf-8").read()
-        m = re.search(r'## Chapitre (\d+) — (.+)', txt)
+        m = re.search(r'## Chapitre (\d+(?: (?:bis|ter|quater))?) — (.+)', txt)
         if not m:
             print(f"  !! en-tête de chapitre introuvable : {f}")
             continue
@@ -64,7 +71,9 @@ def charger(bid):
         corps = txt.split(f"*POV {pov}*", 1)[1] if pov else txt.split(m.group(0), 1)[1]
         paras = [p.strip() for p in corps.split("\n\n") if p.strip() and p.strip() != "---"]
         paras = [re.sub(r'\*{1,2}(.+?)\*{1,2}', r'\1', p).replace("\n", " ") for p in paras]
-        chaps.append({"n": int(m.group(1)), "t": m.group(2).strip(), "pov": pov, "p": paras})
+        numero = m.group(1)
+        numero = int(numero) if numero.isdigit() else numero
+        chaps.append({"n": numero, "t": m.group(2).strip(), "pov": pov, "p": paras})
     return chaps
 
 

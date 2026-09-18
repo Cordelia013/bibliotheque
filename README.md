@@ -13,7 +13,7 @@ est enregistrée dans le navigateur, par livre.
 |---|---|---|---|
 | **Le Prix du Silence, Don Castellano** | Romance mafieuse, vengeance | Terminé | 40 |
 | **Le Contrat de Vesper** | Dark romance, science-fiction | En cours | 10 |
-| **La Saison des Braises** *(Les Trois Cents Lieues, t. 1)* | Romance sensuelle, fantasy | En cours | 50 |
+| **La Saison des Braises** *(Les Trois Cents Lieues, t. 1)* | Romance sensuelle, fantasy | En cours | 52 |
 | **La Dette de Verre** | Romance, héritage | En cours | 5 |
 | **La Part de Lune** *(Les Deux Collines, t. 1)* | Urban fantasy, romance paranormale | À venir | — |
 
@@ -41,6 +41,11 @@ Le texte, en paragraphes séparés par une ligne vide.
 
 Le numéro, le titre et le point de vue sont lus automatiquement par le script.
 Le nom du fichier fixe l'ordre : `chapitre-07.md`, sur deux chiffres.
+
+Pour insérer un chapitre sans renuméroter la suite, on lui donne un suffixe :
+`chapitre-39bis.md`, titré `## Chapitre 39 bis — …`. Il se range de lui-même
+entre le 39 et le 40, et la liseuse affiche « Chapitre 39 bis ».
+Suffixes reconnus : `bis`, `ter`, `quater`.
 
 ## Mettre à jour la liseuse
 

@@ -54,7 +54,7 @@ La page publiée se met à jour toute seule en une minute environ.
 
 - écrit les fichiers de texte chargés par la liseuse :
   `docs/data-castellano-p1.js` à `p4.js` (40 chapitres découpés par 10),
-  `docs/data-braises-p1.js` à `p9.js` (50 chapitres découpés par 6),
+  `docs/data-braises-p1.js` à `p9.js` (52 chapitres découpés par 6),
   `docs/data-vesper.js`, `data-verre.js` ;
 - réinjecte les couvertures SVG de `couvertures/` dans `docs/index.html` ;
 - met la date de dernière mise à jour à jour dans `docs/app.js`, pour les
