@@ -70,7 +70,8 @@ const KEY = 'liseuse:v2';
 const THEMES = ['clair','sepia','nuit'];
 const TAILLES = [17, 18.5, 20, 23, 26];      // px
 const INTERLIGNES = [1.5, 1.62, 1.72, 1.85, 2];
-let S = { theme:'clair', taille:2, inter:2, dernier:null, visite:0, livres:{} };
+const ALIGNES = ['gauche','justifie'];
+let S = { theme:'clair', taille:2, inter:2, align:'gauche', dernier:null, visite:0, livres:{} };
 let visitePrec = 0;
 let vue = 'lib', livre = null, ready = false, filtre = null;
 
@@ -81,12 +82,68 @@ function etat(id){
 function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('show');
   clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
 
+/* ---- contraste : un accent de livre lisible sur le fond du thème courant ----
+   Les cinq couleurs de livre sont sombres. Sur le papier clair elles passent
+   largement ; sur le fond nuit elles tombent entre 1,20 et 2,33, là où la norme
+   demande 4,5 pour du texte. On monte donc la clarté sans toucher à la teinte,
+   jusqu'à atteindre le seuil, en prenant pour référence le fond du tiroir, qui
+   est toujours le plus défavorable des deux fonds du thème. */
+function _canal(c){ c /= 255; return c <= .04045 ? c/12.92 : Math.pow((c+.055)/1.055, 2.4); }
+function _rgb(hex){ const h = String(hex).trim().replace('#','');
+  const n = h.length === 3 ? h.split('').map(x=>x+x).join('') : h;
+  return [parseInt(n.slice(0,2),16), parseInt(n.slice(2,4),16), parseInt(n.slice(4,6),16)]; }
+function luminance(hex){ const [r,g,b] = _rgb(hex);
+  return .2126*_canal(r) + .7152*_canal(g) + .0722*_canal(b); }
+function contraste(a, b){ const x = luminance(a), y = luminance(b);
+  return (Math.max(x,y) + .05) / (Math.min(x,y) + .05); }
+function _versHsl(hex){ let [r,g,b] = _rgb(hex).map(v=>v/255);
+  const mx = Math.max(r,g,b), mn = Math.min(r,g,b), l = (mx+mn)/2;
+  if (mx === mn) return [0, 0, l];
+  const d = mx-mn, s = l > .5 ? d/(2-mx-mn) : d/(mx+mn);
+  let h; if (mx===r) h = ((g-b)/d + (g<b ? 6 : 0)); else if (mx===g) h = (b-r)/d + 2; else h = (r-g)/d + 4;
+  return [h/6, s, l]; }
+function _versHex(h, s, l){
+  const f = n => { const k = (n + h*12) % 12, a = s*Math.min(l, 1-l);
+    const v = l - a*Math.max(-1, Math.min(k-3, 9-k, 1));
+    return Math.round(255*v).toString(16).padStart(2,'0'); };
+  return '#' + f(0) + f(8) + f(4); }
+function accentLisible(couleur, fond, cible){
+  cible = cible || 4.5;
+  try {
+    if (contraste(couleur, fond) >= cible) return couleur;
+    const eclaircir = luminance(fond) < .4;
+    let [h, s, l] = _versHsl(couleur);
+    s = Math.min(1, s * 1.15);
+    for (let i = 1; i <= 100; i++){
+      const l2 = eclaircir ? Math.min(1, l + i/100) : Math.max(0, l - i/100);
+      const c = _versHex(h, s, l2);
+      if (contraste(c, fond) >= cible) return c;
+    }
+    return eclaircir ? '#ffffff' : '#000000';
+  } catch(e){ return couleur; }
+}
+
+let accentCourant = '#6d1f2c';
+function poserAccent(couleur){
+  if (couleur) accentCourant = couleur;
+  app.style.setProperty('--accent', accentCourant);
+  let fond = '';
+  try { fond = getComputedStyle(app).getPropertyValue('--paper-deep').trim(); } catch(e){}
+  if (!/^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(fond)) fond = S.theme === 'nuit' ? '#1c1f25' : '#e4ded2';
+  app.style.setProperty('--accent-texte', accentLisible(accentCourant, fond));
+}
+
+/* La hauteur de la barre supérieure dépend du remplissage d'encoche : on la
+   mesure plutôt que de la supposer, pour que le filet de progression s'y colle. */
+function mesurerBarre(){
+  const b = document.querySelector('.bar'); if (!b) return;
+  app.style.setProperty('--barh', Math.round(b.getBoundingClientRect().height) + 'px');
+}
+
 /* ---- styles injectés (thème sépia + réglages de lecture) ---- */
 (function injecterStyles(){
   const s = document.createElement('style');
   s.textContent = `
-  #app.sepia { --ink:#4a3b2c; --paper:#f4ecd8; --paper-deep:#eadfc4;
-    --brass:#9a7b3f; --muted:#7d6a52; --rule:#ddceae; }
   #app .body p { font-size: var(--taille, 20px); line-height: var(--inter, 1.72); }
   @media (max-width: 520px){ #app .body p { font-size: var(--taille, 18.5px); } }
   .reglages { border-bottom: 1px solid var(--rule); padding-bottom: 16px; margin-bottom: 4px; }
@@ -115,7 +172,72 @@ function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('show');
     text-transform:uppercase; display:block; margin:3px 0 6px; }
   .prow p { font-size:13px; line-height:1.55; color:var(--ink); margin:0; }
   .neuf { display:inline-block; background:var(--accent); color:#f2ede3; font-size:9px;
-    letter-spacing:.12em; padding:2px 6px; border-radius:2px; margin-left:6px; vertical-align:2px; }`;
+    letter-spacing:.12em; padding:2px 6px; border-radius:2px; margin-left:6px; vertical-align:2px; }
+
+  /* ————— Passe de design du 18 septembre 2026 —————
+     Toutes les règles portent le sélecteur #app : la feuille de style d'origine
+     est écrite dans le corps de la page, donc plus tard dans l'ordre du document.
+     L'identifiant est ce qui permet à ces règles de l'emporter. */
+
+  /* Contraste. L'accent d'un livre est une couleur sombre : posé en texte sur le
+     fond nuit, il tombait entre 1,20 et 2,33 pour 4,5 exigés. --accent-texte est
+     recalculé à l'exécution, à teinte constante. Les gris de légende passaient
+     eux aussi sous le seuil sur le fond du tiroir en clair et en sépia. */
+  #app { --accent-texte: var(--accent); }
+  #app.clair { --muted:#686156; }
+  #app.sepia { --ink:#4a3b2c; --paper:#f4ecd8; --paper-deep:#eadfc4;
+    --brass:#9a7b3f; --muted:#72604b; --rule:#ddceae; }
+  #app .pov, #app .chapline.current, #app .gpct { color: var(--accent-texte); }
+  #app .del:hover, #app .ghost.discret:hover { color: var(--accent-texte); }
+  #app .icon:focus-visible, #app button:focus-visible, #app input:focus-visible {
+    outline: 2px solid var(--ink); outline-offset: 2px; }
+
+  /* La ligne de progression se cale sous la hauteur réelle de la barre, mesurée
+     au chargement : la valeur figée de 61 px laissait passer le texte dessous,
+     et davantage encore sur un écran à encoche. */
+  #app .progress { top: var(--barh, 65px); }
+
+  /* Lecture. La lettrine flottante est remplacée par une initiale haussée dans la
+     ligne : les chapitres s'ouvrent presque tous sur une phrase de vingt à
+     soixante signes, qu'une lettrine de trois lignes débordait. Les répliques
+     prennent un retrait pendant — le tiret cadratin sort dans la marge et la
+     colonne de texte reste droite — et ne se justifient jamais. */
+  #app .body p { text-wrap: pretty; text-align: var(--align, left);
+    hyphens: var(--cesure, manual); -webkit-hyphens: var(--cesure, manual); }
+  #app .body p::first-letter { font-size: inherit; float: none; padding: 0;
+    line-height: inherit; font-weight: inherit; color: inherit; }
+  #app .body p.ouverture { font-size: 1.1em; }
+  #app .body p.ouverture .cap { font-size: 1.5em; line-height: 1; font-weight: 600;
+    color: var(--accent-texte); }
+  #app .body p.dlg { text-indent: -.75em; padding-left: .75em; text-align: left; hyphens: manual; }
+  #app .pov { padding-bottom: 18px; margin-bottom: 26px; position: relative; }
+  #app .pov::after { content:''; position:absolute; left:0; bottom:0;
+    width:46px; height:1px; background: var(--brass); }
+
+  /* Bibliothèque. Vingt pastilles de genre occupaient cinq lignes sur un
+     téléphone et repoussaient les couvertures sous la ligne de flottaison. */
+  #app .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px;
+    -webkit-overflow-scrolling: touch;
+    mask-image: linear-gradient(90deg, #000 calc(100% - 30px), transparent);
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 30px), transparent); }
+  #app .chips.fin { mask-image: none; -webkit-mask-image: none; }
+  #app .chips::-webkit-scrollbar { display: none; }
+  #app .chip { flex: none; white-space: nowrap; }
+  @media (min-width: 760px) {
+    #app .chips { flex-wrap: wrap; overflow: visible; mask-image: none; -webkit-mask-image: none; }
+  }
+
+  /* Page de garde : effacer sa progression ne se présente plus comme l'égal
+     d'ouvrir le sommaire. */
+  #app .ghost.discret { border: none; color: var(--muted); font-size: 12.5px;
+    letter-spacing: .04em; padding: 12px; margin-top: 2px; }
+
+  /* Tiroir : l'onglet actif était signalé par une nuance de gris. */
+  #app .tab { padding: 10px 6px; font-size: 11.5px; letter-spacing: .03em; white-space: nowrap; }
+  #app .tab.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  #app .drawer { box-shadow: -18px 0 44px rgba(0,0,0,.18); }
+  #app .rbtn.large { width: auto; min-width: 104px; padding: 0 12px;
+    font-size: 12px; letter-spacing: .04em; }`;
   document.head.appendChild(s);
 })();
 
@@ -126,10 +248,17 @@ function appliquerTheme(){
   $('nightBtn').title = 'Thème : ' + S.theme;
   const m = document.querySelector('meta[name="theme-color"]');
   if (m) m.content = S.theme==='nuit' ? '#14161a' : (S.theme==='sepia' ? '#f4ecd8' : '#f0ece4');
+  poserAccent();   // le fond a changé : l'accent de texte se recalcule
 }
 function appliquerLecture(){
   app.style.setProperty('--taille', TAILLES[S.taille] + 'px');
   app.style.setProperty('--inter', INTERLIGNES[S.inter]);
+  const justifie = S.align === 'justifie';
+  app.style.setProperty('--align', justifie ? 'justify' : 'left');
+  app.style.setProperty('--cesure', justifie ? 'auto' : 'manual');
+  const ba = $('alignBtn');
+  if (ba) { ba.textContent = justifie ? 'Justifié' : 'À gauche';
+    ba.setAttribute('aria-label', 'Alignement du texte : ' + ba.textContent); }
   const vt = $('valTaille'), vi = $('valInter');
   if (vt) vt.textContent = TAILLES[S.taille] + 'px';
   if (vi) vi.textContent = INTERLIGNES[S.inter].toFixed(2);
@@ -150,11 +279,15 @@ function load(){
           for (let i=0;i<=(o.chap||0);i++) S.livres.castellano.vus.push(i);
         }
       } catch(e){}
+      // Première visite : on part du réglage du système plutôt que du clair d'office.
+      try { if (S.theme === 'clair' && window.matchMedia
+              && matchMedia('(prefers-color-scheme: dark)').matches) S.theme = 'nuit'; } catch(e){}
     }
     if (S.night !== undefined) { if (!S.theme || S.theme==='clair') S.theme = S.night ? 'nuit' : 'clair'; delete S.night; }
     if (!THEMES.includes(S.theme)) S.theme = 'clair';
     if (typeof S.taille !== 'number' || !TAILLES[S.taille]) S.taille = 2;
     if (typeof S.inter !== 'number' || !INTERLIGNES[S.inter]) S.inter = 2;
+    if (!ALIGNES.includes(S.align)) S.align = 'gauche';
     localStorage.setItem('liseuse:test','1'); localStorage.removeItem('liseuse:test');
     $('statusNote').textContent = 'Progression, réglages et marque-pages enregistrés sur cet appareil.';
   } catch(e){ $('statusNote').textContent = 'Sauvegarde indisponible (navigation privée ?) : rien ne sera conservé.'; }
@@ -212,7 +345,7 @@ function renderReprise(){
   box.style.display = '';
   box.innerHTML = `<small>Reprendre ma lecture</small><b>${b.titre}</b>
     <em>Chapitre ${c.n} · ${c.t} · ${duree(minutesDe(c))}</em>`;
-  box.onclick = () => { livre = b; app.style.setProperty('--accent', b.couleur); aller('read', true); };
+  box.onclick = () => { livre = b; poserAccent(b.couleur); aller('read', true); };
 }
 
 function renderLib(){
@@ -222,6 +355,10 @@ function renderLib(){
   [...$('chips').querySelectorAll('[data-g]')].forEach(c=>{
     c.onclick = () => { filtre = (filtre===c.dataset.g ? null : c.dataset.g); renderLib(); };
   });
+  // Le dégradé de bord droit disparaît quand la rangée est arrivée au bout.
+  const ch = $('chips');
+  const bord = () => ch.classList.toggle('fin', ch.scrollLeft + ch.clientWidth >= ch.scrollWidth - 2);
+  ch.onscroll = bord; bord();
   const q = $('search').value.trim().toLowerCase();
   const res = BOOKS.filter(b=>{
     const okG = !filtre || b.genres.includes(filtre);
@@ -245,7 +382,7 @@ $('search').oninput = renderLib;
 /* ---- page de garde ---- */
 function ouvrirLivre(id){
   livre = BOOKS.find(b=>b.id===id);
-  app.style.setProperty('--accent', livre.couleur);
+  poserAccent(livre.couleur);
   const e = etat(id), p = pct(livre);
   $('gCover').innerHTML = couverture(livre);
   $('gTitle').textContent = livre.titre;
@@ -279,7 +416,7 @@ function aller(v, restore){
   $('barTitle').textContent = v==='lib' ? 'Bibliothèque'
     : (v==='cover' ? livre.titre : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
   if (v==='read') renderChap(restore); else { $('progBar').style.width = '0'; window.scrollTo(0,0); }
-  if (v==='lib') { livre = null; app.style.setProperty('--accent', '#6d1f2c'); renderLib(); }
+  if (v==='lib') { livre = null; poserAccent('#6d1f2c'); renderLib(); }
 }
 
 /* ---- lecture ---- */
@@ -288,7 +425,26 @@ function renderChap(restore){
   $('chapNum').textContent = 'Chapitre ' + c.n + '  ·  ' + duree(minutesDe(c));
   $('chapTitle').textContent = c.t;
   $('chapPov').textContent = 'Point de vue — ' + c.pov;
-  $('chapBody').innerHTML = c.p.map((t,i)=>`<p data-i="${i}">${t}</p>`).join('');
+  // Une réplique commence par un tiret cadratin : retrait pendant, pas de lettrine.
+  $('chapBody').innerHTML = c.p.map((t,i)=>{
+    const dlg = /^\s*[—–-]/.test(t) ? ' class="dlg"' : '';
+    return `<p data-i="${i}"${dlg}>${t}</p>`;
+  }).join('');
+  // Ouverture de chapitre. La lettrine flottante ne convenait pas à ce manuscrit :
+  // elle emportait l'apostrophe (« J' » en corps 3) et, les chapitres s'ouvrant
+  // presque tous sur une phrase courte — de vingt à soixante signes —, elle
+  // débordait sous un paragraphe de deux lignes. À la place, l'initiale est
+  // simplement haussée dans la ligne et le paragraphe d'ouverture légèrement grossi.
+  const prem = $('chapBody').querySelector('p');
+  if (prem && !prem.classList.contains('dlg')) {
+    const t = prem.textContent.trim();
+    if (/^[A-Za-zÀ-ÖØ-öø-ÿ]/.test(t)) {
+      prem.classList.add('ouverture');
+      prem.textContent = t.slice(1);
+      prem.insertAdjacentHTML('afterbegin', '<span class="cap"></span>');
+      prem.firstChild.textContent = t.charAt(0);
+    }
+  }
   $('barTitle').textContent = 'Ch. ' + c.n + ' · ' + c.t;
   $('prevBtn').disabled = e.chap===0;
   $('nextBtn').disabled = e.chap===livre.chapitres.length-1;
@@ -361,8 +517,26 @@ function buildBms(){
 }
 
 /* ---- contrôles ---- */
-function ouvrir(){ $('drawer').classList.add('open'); $('scrim').classList.add('open'); }
-function fermer(){ $('drawer').classList.remove('open'); $('scrim').classList.remove('open'); }
+/* Le tiroir restait dans l'ordre de tabulation une fois fermé : au clavier, on
+   traversait tout le sommaire avant d'atteindre le texte. */
+let focusAvant = null;
+function ouvrir(){
+  const d = $('drawer');
+  focusAvant = document.activeElement;
+  d.removeAttribute('inert'); d.setAttribute('aria-hidden','false');
+  d.classList.add('open'); $('scrim').classList.add('open');
+  const premier = d.querySelector('button'); if (premier) premier.focus();
+}
+function fermer(){
+  const d = $('drawer');
+  d.classList.remove('open'); $('scrim').classList.remove('open');
+  if (focusAvant && document.contains(focusAvant) && !d.contains(focusAvant)) {
+    try { focusAvant.focus(); } catch(e){}
+  } else if (document.activeElement && d.contains(document.activeElement)) {
+    try { document.activeElement.blur(); } catch(e){}
+  }
+  d.setAttribute('inert',''); d.setAttribute('aria-hidden','true');
+}
 $('menuBtn').onclick = ouvrir; $('closeBtn').onclick = fermer; $('scrim').onclick = fermer;
 $('tocBtn').onclick = () => { buildChaps(); buildBms(); buildPers(); ouvrir(); };
 $('bmBtn').onclick = toggleBm;
@@ -417,7 +591,9 @@ function buildPers(){
     <div class="rline"><span>Interligne</span>
       <button class="rbtn" id="iMoins">−</button>
       <span class="rval" id="valInter"></span>
-      <button class="rbtn" id="iPlus">+</button></div>`;
+      <button class="rbtn" id="iPlus">+</button></div>
+    <div class="rline"><span>Alignement</span>
+      <button class="rbtn large" id="alignBtn">À gauche</button></div>`;
   document.querySelector('.tabs').insertAdjacentElement('beforebegin', r);
 
   // troisième onglet : personnages
@@ -433,6 +609,26 @@ function buildPers(){
   $('tPlus').onclick  = () => { if (S.taille<TAILLES.length-1){ S.taille++; appliquerLecture(); save(); } };
   $('iMoins').onclick = () => { if (S.inter>0){ S.inter--; appliquerLecture(); save(); } };
   $('iPlus').onclick  = () => { if (S.inter<INTERLIGNES.length-1){ S.inter++; appliquerLecture(); save(); } };
+  $('alignBtn').onclick = () => {
+    S.align = S.align === 'justifie' ? 'gauche' : 'justifie';
+    appliquerLecture(); save();
+    toast(S.align === 'justifie' ? 'Texte justifié, avec césure' : 'Texte aligné à gauche');
+  };
+
+  // Effacer sa progression est une action destructive : elle cesse de ressembler
+  // à « Sommaire et marque-pages ».
+  $('resetBtn').classList.add('discret');
+
+  // Tiroir : hors de l'ordre de tabulation tant qu'il est fermé.
+  const d = $('drawer');
+  d.setAttribute('role','dialog'); d.setAttribute('aria-modal','true');
+  d.setAttribute('aria-label','Sommaire, marque-pages et réglages');
+  d.setAttribute('inert',''); d.setAttribute('aria-hidden','true');
+
+  // Les boutons de la barre n'étaient annoncés que par leur symbole.
+  const noms = { backBtn:'Retour', bmBtn:'Poser ou retirer un marque-page',
+                 nightBtn:'Changer de thème', menuBtn:'Ouvrir le sommaire', closeBtn:'Fermer' };
+  Object.keys(noms).forEach(id => { const b = $(id); if (b) b.setAttribute('aria-label', noms[id]); });
 })();
 
 let tmr;
@@ -447,7 +643,11 @@ addEventListener('keydown', e => {
   if (e.key==='Escape') fermer();
 });
 
+addEventListener('resize', mesurerBarre, {passive:true});
+addEventListener('orientationchange', () => setTimeout(mesurerBarre, 120));
+
 load();
 visitePrec = S.visite || 0;
-appliquerTheme(); appliquerLecture(); renderLib();
+appliquerTheme(); appliquerLecture(); mesurerBarre(); renderLib();
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(mesurerBarre).catch(()=>{});
 S.visite = Date.now(); save();
