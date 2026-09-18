@@ -54,7 +54,8 @@ La page publiée se met à jour toute seule en une minute environ.
 
 - écrit les fichiers de texte chargés par la liseuse :
   `docs/data-castellano-p1.js` à `p4.js` (40 chapitres découpés par 10),
-  `docs/data-vesper.js`, `data-braises.js`, `data-verre.js` ;
+  `docs/data-braises-p1.js` à `p9.js` (50 chapitres découpés par 6),
+  `docs/data-vesper.js`, `data-verre.js` ;
 - réinjecte les couvertures SVG de `couvertures/` dans `docs/index.html` ;
 - met la date de dernière mise à jour à jour dans `docs/app.js`, pour les
   seuls livres dont le texte a réellement changé — c'est cette date qui
@@ -90,7 +91,24 @@ BOOKS.find(b => b.id === '<id>').chapitres = DATA_<ID>;
 ```
 
 Au-delà de ~60 Ko de texte, ajouter le livre à `DECOUPAGE` pour le répartir
-sur plusieurs fichiers.
+sur plusieurs fichiers — c'est le cas de `castellano` (10 chapitres par
+fichier) et de `braises` (6).
+
+### Passer un livre déjà publié au découpage
+
+Quand un livre grossit et franchit les ~60 Ko, quatre fichiers sont à reprendre
+à la main après avoir complété `DECOUPAGE` et relancé le script :
+
+- `docs/index.html` : remplacer la balise `data-<id>.js` par une balise par
+  morceau, `data-<id>-p1.js` … `-pN.js`, dans l'ordre ;
+- `docs/app.js` : `BOOKS.find(b => b.id === '<id>').chapitres =
+  <ID>_P1.concat(<ID>_P2, …);` ;
+- `docs/sw.js` : la même liste dans `RESSOURCES`, **et** incrémenter `VERSION`,
+  sans quoi les lecteurs déjà venus continuent de recevoir l'ancienne liseuse
+  depuis leur cache ;
+- `README.md` : le nombre de chapitres du tableau.
+
+Le script supprime de lui-même l'ancien `data-<id>.js` devenu inutile.
 
 ## 5. Scripts annexes
 

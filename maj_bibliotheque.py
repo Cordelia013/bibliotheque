@@ -5,7 +5,8 @@
 Écrit les fichiers de données chargés par docs/index.html :
 
     docs/data-castellano-p1.js … p4.js   (40 chapitres, découpés par 10)
-    docs/data-vesper.js, data-braises.js, data-verre.js
+    docs/data-braises-p1.js … p9.js      (50 chapitres, découpés par 6)
+    docs/data-vesper.js, data-verre.js
 
 Met aussi à jour, en place :
   - le bloc des couvertures dans docs/index.html ;
@@ -23,7 +24,7 @@ DOSSIER = "docs"
 
 # Un livre dont le texte dépasse ~60 Ko est découpé en plusieurs fichiers,
 # pour éviter les problèmes rencontrés avec les très gros fichiers uniques.
-DECOUPAGE = {"castellano": 10}          # id -> chapitres par fichier
+DECOUPAGE = {"castellano": 10, "braises": 6}   # id -> chapitres par fichier
 
 CATALOGUE = [
  {"id":"castellano","titre":"Le Prix du Silence, Don Castellano","auteur":"Écrit avec Claude",

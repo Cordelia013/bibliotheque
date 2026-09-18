@@ -8,7 +8,7 @@
  * VERSION ci-dessous : l'ancien cache est alors supprimé à l'activation.
  */
 
-const VERSION = 'liseuse-v1';
+const VERSION = 'liseuse-v2';
 
 const RESSOURCES = [
   './',
@@ -20,7 +20,15 @@ const RESSOURCES = [
   './data-castellano-p3.js',
   './data-castellano-p4.js',
   './data-vesper.js',
-  './data-braises.js',
+  './data-braises-p1.js',
+  './data-braises-p2.js',
+  './data-braises-p3.js',
+  './data-braises-p4.js',
+  './data-braises-p5.js',
+  './data-braises-p6.js',
+  './data-braises-p7.js',
+  './data-braises-p8.js',
+  './data-braises-p9.js',
   './data-verre.js',
   './icone-192.png',
   './icone-512.png',

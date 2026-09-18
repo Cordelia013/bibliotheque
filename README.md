@@ -13,7 +13,7 @@ est enregistrée dans le navigateur, par livre.
 |---|---|---|---|
 | **Le Prix du Silence, Don Castellano** | Romance mafieuse, vengeance | Terminé | 40 |
 | **Le Contrat de Vesper** | Dark romance, science-fiction | En cours | 10 |
-| **La Saison des Braises** *(Les Trois Cents Lieues, t. 1)* | Romance sensuelle, fantasy | En cours | 12 |
+| **La Saison des Braises** *(Les Trois Cents Lieues, t. 1)* | Romance sensuelle, fantasy | En cours | 50 |
 | **La Dette de Verre** | Romance, héritage | En cours | 5 |
 | **La Part de Lune** *(Les Deux Collines, t. 1)* | Urban fantasy, romance paranormale | À venir | — |
 
