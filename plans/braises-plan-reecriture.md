@@ -6,9 +6,9 @@ ce qui conditionne autre chose passe devant, même si c'est plus loin dans le li
 
 Calendrier : septembre 2026 → mars 2027, sept blocs.
 
-> **État au 17 septembre 2026 : le bloc 0 est appliqué.** Les deux arbitrages sont tranchés
-> et la faute est corrigée. Voir le bloc 0 ci-dessous pour les décisions retenues, dont une
-> qui s'écarte de ma recommandation et modifie le bloc 1.
+> **État au 18 septembre 2026 : les blocs 0 et 1 sont appliqués.** Manuscrit à **64 735 mots**,
+> 50 chapitres. Voir chaque bloc pour ce qui a été retenu, et les deux endroits où l'exécution
+> s'écarte du plan.
 
 ---
 
@@ -80,7 +80,7 @@ le casier trente et un du ch. 4.
 **Contrôle de fin de bloc — passé :** aucune occurrence de « sept la première » ; aucune
 commande princière dans le manuscrit ; les princes subsistent aux ch. 2, 32, 36, 40, 42 et 49 ;
 ch. 27-28 intacts ; 50 chapitres, tous avec en-tête POV, cartouche à soixante-huit jours,
-aucun mois réel, aucune unité métrique. **63 910 mots.**
+aucun mois réel, aucune unité métrique.
 
 ---
 
@@ -88,18 +88,26 @@ aucun mois réel, aucune unité métrique. **63 910 mots.**
 
 Premier bloc d'écriture. Les ch. 27-28 et le ch. 29 sont voisins ; on ouvre la zone une fois.
 
-| | Item | Recommandation |
+| | Item | État |
 |---|---|---|
-| 1.1 | Réduire le recouvrement des ch. 27-28 | La décision 0.1 ne coupe rien du contenu ; reste le doublon de construction. Les deux chapitres racontent la même nuit avec une page commune (*« Il s'est retourné. »* / *« Je me suis retourné. »*). Le ch. 28 doit reprendre **après** la reprise, pas avant : ≈ 600 mots récupérés, aucun enjeu perdu. |
-| 1.2 | **Réécrire le ch. 29** (823 → 1 400-1 600 mots) | Le morceau le plus lourd de tout le plan. Supprimer la phrase d'excuse (*« on ne peut pas raconter »*). Ajouter **un** incident dont l'issue n'est pas acquise — ma préférence : la croûte qui cède sous Ysée, parce que ça paie la règle des trois gris posée au ch. 23 et que ça met Cael en position de la retenir avec des mains qui ne peuvent pas brûler. |
-| 1.3 | Développer la fente rouge (ch. 29) | Seule image de feu visible de toute la traversée ; elle tient en deux lignes. Lui en donner dix. |
+| 1.1 | Réduire le recouvrement des ch. 27-28 | **Appliqué — 220 mots, pas 600.** Quatre coupes, toutes justifiées par une répétition vérifiée ailleurs : la récitation de la liste des cinq choses (déjà posée au ch. 14, reprise au ch. 42) ; *« vingt-deux ans à un pouce du monde »* (ch. 14, puis ch. 27) ; l'échange *« — Je vais faire mal. — Vous ne pouvez pas »*, qui réexplique une règle donnée au ch. 15 et rejouée au ch. 27 ; l'odeur, décrite quinze lignes plus haut dans le ch. 27. À la place : *« elle venait de la défaire dans l'ordre, en commençant par la fin. »* Ch. 28 : 1 635 → 1 415 mots. |
+| 1.2 | **Réécrire le ch. 29** | **Appliqué — 823 → 1 839 mots.** La phrase d'excuse est remplacée par une méthode : *« une journée sans événement se relève par ce qui manque »*, puis le jour est donné heure par heure. Incident : la croûte cède sous Ysée jusqu'à la hanche. Il est causé par le genou dénoué qui lui fait poser le pied à côté des traces (*« Pas à côté. Dedans. »*, ch. 25) et il paie la troisième couleur du ch. 23, la seule qu'elle n'avait jamais vue de près. Il coûte : une gourde crevée sous le poids de Cael pendant qu'il la tire, et le linge de visage d'Ysée perdu dans le trou. |
+| 1.3 | Développer la fente rouge | **Appliqué.** Deux lignes → une page. Le point qui compte : *« à dix pas, la chaleur arrive par le sol avant d'arriver par l'air — ce qui brûle n'est pas dans la fente : la fente est seulement l'endroit où ça se voit. »* Et le verre porte un corps couché sans porter un homme debout, ce qui justifie enfin qu'on la passe en rampant. |
 
-**Pourquoi maintenant.** C'est le problème n° 2 de l'audit, c'est indépendant de tout le
-reste, et c'est le passage sur lequel un lecteur jugera le livre. Le traiter en premier vous
-remet aussi dans le registre physique avant les blocs 2 et 3, qui sont entièrement intérieurs.
+**Écart assumé n° 1 — la longueur du ch. 29.** La cible était 1 400-1 600 mots ; le chapitre
+fait 1 839. La cible était un proxy ; le vrai critère était la part de la traversée dans le
+livre, fixée à ≈ 12 %, et l'acte III est à **11,9 %**. Descendre à 1 600 aurait demandé de
+sacrifier l'un des trois mouvements — la fente, le genou, la croûte — et aucun des trois n'est
+de remplissage. 104 mots de gras ont été coupés ; au-delà, c'était du muscle.
 
-**Contrôle :** la traversée passe de 10,8 % à ≈ 12 % du texte ; le ch. 29 contient au moins
-un moment où l'on ne sait pas ce qui va arriver.
+**Écart assumé n° 2 — le ch. 30.** L'item 1.2 a une conséquence hors périmètre : si Cael donne
+son linge à Ysée au troisième jour, il ne peut pas l'enlever à la sortie. Le ch. 30 disait
+*« Cael a enlevé son linge »* ; il dit maintenant qu'il n'en avait plus depuis la veille, et
+Ysée lui rend le sien. Deux phrases, et le geste du ch. 29 se paie une lieue plus loin.
+
+**Contrôle — passé :** traversée à 11,9 % du texte ; le ch. 29 contient un moment dont l'issue
+n'est pas acquise ; aucun refus de décrire dans le chapitre ; *« Voilà. »* reste à Cael ;
+50 chapitres, tous avec en-tête POV ; acquis du bloc 0 intacts. **64 735 mots.**
 
 ---
 
@@ -212,14 +220,15 @@ vous vous ennuyez.
 | Bloc | Mois | Nature | Items | Écriture nouvelle |
 |---|---|---|---|---|
 | 0 | fin sept. 2026 | décisions | 3 | **appliqué** |
-| 1 | oct. 2026 | la traversée | 3 | ≈ +100 mots |
+| 1 | oct. 2026 | la traversée | 3 | **appliqué** — +825 mots |
 | 2 | nov. 2026 | l'acte IV | 3 | ≈ +2 200 mots |
 | 3 | déc. 2026 | la crise, le retour | 5 | ≈ +2 100 mots |
 | 4 | janv. 2027 | la fin | 4 | ≈ +700 mots |
 | 5 | févr. 2027 | coupes et renumérotation | 8 | ≈ −2 600 mots |
 | 6 | mars 2027 | style | 7 + reprises | ≈ ±0 |
 
-Volume attendu en sortie : **≈ 66 400 mots, 49 chapitres** (départ : 63 910 après le bloc 0).
+Volume attendu en sortie : **≈ 67 200 mots, 49 chapitres** (état au 18 septembre 2026 après
+les blocs 0 et 1 : 64 735 mots, 50 chapitres).
 
 **Ce qui fixe réellement la cadence**, et ce n'est pas le calendrier : les blocs 1, 2 et 3 sont
 de l'écriture neuve et demandent d'être dans le livre ; les blocs 5 et 6 sont de la mécanique
