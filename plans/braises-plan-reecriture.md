@@ -6,6 +6,10 @@ ce qui conditionne autre chose passe devant, même si c'est plus loin dans le li
 
 Calendrier : septembre 2026 → mars 2027, sept blocs.
 
+> **État au 17 septembre 2026 : le bloc 0 est appliqué.** Les deux arbitrages sont tranchés
+> et la faute est corrigée. Voir le bloc 0 ci-dessous pour les décisions retenues, dont une
+> qui s'écarte de ma recommandation et modifie le bloc 1.
+
 ---
 
 ## Les quatre règles qui fixent l'ordre
@@ -60,29 +64,39 @@ Rien à écrire. Deux arbitrages et une correction de cinq minutes.
 
 | | Item | Recommandation |
 |---|---|---|
-| 0.1 | **Public visé** | **Crossover (option b)** : garder tout, fermer le ch. 27 à *« Il s'est retourné. »*, reprendre le ch. 28 après. Coût ≈ 900 mots, aucun enjeu perdu. L'option adulte assumée reste défendable ; le YA véritable, non — rajeunir Cael détruit l'arithmétique des treize ans. |
-| 0.2 | **Kerlan et Orsange** | **Rétrograder en rumeur au ch. 2.** Les faire agir signifie greffer un fil de thriller sur un livre qui n'en veut pas, et qui a déjà son antagoniste. Deux phrases au ch. 2 suffisent : Vael *croit* que deux princes ont commandé, il ne le sait pas de source sûre. |
-| 0.3 | **Bran, « sept » / « neuf »** | Corriger le ch. 43 sur le ch. 42. Compte juste : **neuf**. |
+| 0.1 | **Public visé** | Ma recommandation était le crossover. **Décision de l'auteur : adulte assumé, aucune coupe.** Les ch. 27-28 restent intégralement. Le livre se positionne en fantasy adulte à échelle humaine ; le lectorat YA le lira s'il le trouve, mais il n'est pas vendu comme tel. |
+| 0.2 | **Kerlan et Orsange** | **Rétrogradés — appliqué.** Il n'y a plus de commande princière nulle part. Au ch. 2, deux maisons de la couronne ont fait consulter le fonds du Nord à quatre jours d'intervalle, *« avec des motifs différents et le même casier »* ; Vael le dit lui-même : *« Personne ne m'a rien commandé, et personne ne me commandera rien. On ne commande pas une feuille qu'on a l'intention de prendre. »* Reporté aux ch. 32, 40 et 42. |
+| 0.3 | **Bran, « sept » / « neuf »** | **Corrigé.** Ch. 43 aligné sur le ch. 42 : *« J'en ai passé neuf la première nuit. »* Le compte ferme désormais sur les ch. 33, 40, 42 et 43. |
 
-**Contrôle de fin de bloc :** aucune occurrence de « sept » dans la réplique de Bran ;
-la décision 0.1 est écrite en tête du plan pour que les blocs suivants s'y réfèrent.
+**Ce que la décision 0.1 change en aval.** Le bloc 1 perd sa coupe de contenu : il ne reste que
+la réduction du recouvrement narratif des ch. 27-28, qui est un problème de construction et non
+de registre, et qui vaut indépendamment du public. Rien d'autre dans le plan n'en dépend.
+
+**Ce que la décision 0.2 apporte en plus.** Deux gains non prévus. Ysée pose trois questions au
+ch. 2 au lieu d'une : elle vérifie une source, ce qui est son métier et ce qu'elle ne faisait
+nulle part dans l'acte I. Et *« le même casier »* plante, six heures avant qu'elle y descende,
+le casier trente et un du ch. 4.
+
+**Contrôle de fin de bloc — passé :** aucune occurrence de « sept la première » ; aucune
+commande princière dans le manuscrit ; les princes subsistent aux ch. 2, 32, 36, 40, 42 et 49 ;
+ch. 27-28 intacts ; 50 chapitres, tous avec en-tête POV, cartouche à soixante-huit jours,
+aucun mois réel, aucune unité métrique. **63 910 mots.**
 
 ---
 
 ## Bloc 1 — octobre 2026 · La région 25-29
 
-Premier bloc d'écriture, et il est ici pour une raison précise : **la décision 0.1 atterrit
-exactement là**. Les ch. 27-28 et le ch. 29 sont voisins ; on ouvre la zone une fois.
+Premier bloc d'écriture. Les ch. 27-28 et le ch. 29 sont voisins ; on ouvre la zone une fois.
 
 | | Item | Recommandation |
 |---|---|---|
-| 1.1 | Appliquer la décision 0.1 aux ch. 27-28 | Couper le recouvrement dans le même geste : le ch. 28 reprend **après** *« Il s'est retourné »*, pas avant. Deux problèmes réglés d'un coup. |
+| 1.1 | Réduire le recouvrement des ch. 27-28 | La décision 0.1 ne coupe rien du contenu ; reste le doublon de construction. Les deux chapitres racontent la même nuit avec une page commune (*« Il s'est retourné. »* / *« Je me suis retourné. »*). Le ch. 28 doit reprendre **après** la reprise, pas avant : ≈ 600 mots récupérés, aucun enjeu perdu. |
 | 1.2 | **Réécrire le ch. 29** (823 → 1 400-1 600 mots) | Le morceau le plus lourd de tout le plan. Supprimer la phrase d'excuse (*« on ne peut pas raconter »*). Ajouter **un** incident dont l'issue n'est pas acquise — ma préférence : la croûte qui cède sous Ysée, parce que ça paie la règle des trois gris posée au ch. 23 et que ça met Cael en position de la retenir avec des mains qui ne peuvent pas brûler. |
 | 1.3 | Développer la fente rouge (ch. 29) | Seule image de feu visible de toute la traversée ; elle tient en deux lignes. Lui en donner dix. |
 
 **Pourquoi maintenant.** C'est le problème n° 2 de l'audit, c'est indépendant de tout le
-reste, et c'est le passage sur lequel un lecteur jugera le livre. Le régler tôt vous dit aussi
-si la décision 0.1 tient à la relecture.
+reste, et c'est le passage sur lequel un lecteur jugera le livre. Le traiter en premier vous
+remet aussi dans le registre physique avant les blocs 2 et 3, qui sont entièrement intérieurs.
 
 **Contrôle :** la traversée passe de 10,8 % à ≈ 12 % du texte ; le ch. 29 contient au moins
 un moment où l'on ne sait pas ce qui va arriver.
@@ -197,15 +211,15 @@ vous vous ennuyez.
 
 | Bloc | Mois | Nature | Items | Écriture nouvelle |
 |---|---|---|---|---|
-| 0 | fin sept. 2026 | décisions | 3 | — |
-| 1 | oct. 2026 | la traversée | 3 | ≈ +700 mots |
+| 0 | fin sept. 2026 | décisions | 3 | **appliqué** |
+| 1 | oct. 2026 | la traversée | 3 | ≈ +100 mots |
 | 2 | nov. 2026 | l'acte IV | 3 | ≈ +2 200 mots |
 | 3 | déc. 2026 | la crise, le retour | 5 | ≈ +2 100 mots |
 | 4 | janv. 2027 | la fin | 4 | ≈ +700 mots |
 | 5 | févr. 2027 | coupes et renumérotation | 8 | ≈ −2 600 mots |
 | 6 | mars 2027 | style | 7 + reprises | ≈ ±0 |
 
-Volume attendu en sortie : **≈ 66 500 mots, 49 chapitres.**
+Volume attendu en sortie : **≈ 66 400 mots, 49 chapitres** (départ : 63 910 après le bloc 0).
 
 **Ce qui fixe réellement la cadence**, et ce n'est pas le calendrier : les blocs 1, 2 et 3 sont
 de l'écriture neuve et demandent d'être dans le livre ; les blocs 5 et 6 sont de la mécanique
