@@ -6,9 +6,10 @@ ce qui conditionne autre chose passe devant, même si c'est plus loin dans le li
 
 Calendrier : septembre 2026 → mars 2027, sept blocs.
 
-> **État au 18 septembre 2026 : les blocs 0 et 1 sont appliqués.** Manuscrit à **64 735 mots**,
-> 50 chapitres. Voir chaque bloc pour ce qui a été retenu, et les deux endroits où l'exécution
-> s'écarte du plan.
+> **État au 18 septembre 2026 : les blocs 0, 1 et 2 sont appliqués.** Manuscrit à **67 140 mots**,
+> 50 chapitres plus **deux chapitres provisoires** (`39bis`, `40bis`) qui seront absorbés par la
+> renumérotation de février, conformément à la règle 3. Voir chaque bloc pour ce qui a été
+> retenu et pour les écarts d'exécution.
 
 ---
 
@@ -31,14 +32,14 @@ Calendrier : septembre 2026 → mars 2027, sept blocs.
 Quatre chaînes, dont une seule est longue.
 
 **Chaîne A — Ysée (4 maillons, la chaîne critique)**
-`A1` Ysée refuse Tervi à voix haute (nouvelle scène, entre ch. 40 et 44)
+`A1` Ysée refuse Tervi à voix haute — **fait** (ch. 40 bis)
 → `A2` Développer l'interrogatoire du ch. 43 — elle a désormais quelque chose à défendre
 → `A3` Deux initiatives d'Ysée aux ch. 44-48, dont l'engagement arraché à Halden
 → `A4` Le désaccord du ch. 50
 
 **Chaîne B — Cael (3 maillons)**
-`B1` Seconde scène Cael / Aunis (entre ch. 38 et 41)
-→ `B2` +300 mots après la mort d'Aunis (ch. 41)
+`B1` Seconde scène Cael / Aunis — **fait** (ch. 39 bis)
+→ `B2` +300 mots après la mort d'Aunis (ch. 41) — **fait**
 → `B3` La décision de redescendre, jouée devant quelqu'un (ch. 44) → rejoint `A4`
 
 **Chaîne C — Halden (2 maillons)**
@@ -49,12 +50,12 @@ Quatre chaînes, dont une seule est longue.
 `D1` Alléger la liste au ch. 4
 → `D2` Couper le doublon au ch. 49
 
-**Indépendants** — se placent où l'on veut : ch. 29, recouvrement 27-28, faute Bran,
-amorce du ch. 16, promesse du ch. 40, réaction physique au ch. 31, séquelle au ch. 21,
-économie du Nord, voix entrante au ch. 4, redoublement 31/50.
+**Indépendants** — réglés : ch. 29, recouvrement 27-28, faute Bran, promesse du ch. 40.
+Restants : amorce du ch. 16, réaction physique au ch. 31, séquelle au ch. 21, économie du Nord,
+voix entrante au ch. 4, redoublement 31/50.
 
 **Bloqués jusqu'en février** — fusion 7+11, fusion 35+36, fusion 45+46, scission 43,
-scission 49, réduction du ch. 48.
+scission 49, réduction du ch. 48, et la résorption de `39bis` et `40bis`.
 
 ---
 
@@ -62,7 +63,7 @@ scission 49, réduction du ch. 48.
 
 Rien à écrire. Deux arbitrages et une correction de cinq minutes.
 
-| | Item | Recommandation |
+| | Item | État |
 |---|---|---|
 | 0.1 | **Public visé** | Ma recommandation était le crossover. **Décision de l'auteur : adulte assumé, aucune coupe.** Les ch. 27-28 restent intégralement. Le livre se positionne en fantasy adulte à échelle humaine ; le lectorat YA le lira s'il le trouve, mais il n'est pas vendu comme tel. |
 | 0.2 | **Kerlan et Orsange** | **Rétrogradés — appliqué.** Il n'y a plus de commande princière nulle part. Au ch. 2, deux maisons de la couronne ont fait consulter le fonds du Nord à quatre jours d'intervalle, *« avec des motifs différents et le même casier »* ; Vael le dit lui-même : *« Personne ne m'a rien commandé, et personne ne me commandera rien. On ne commande pas une feuille qu'on a l'intention de prendre. »* Reporté aux ch. 32, 40 et 42. |
@@ -70,17 +71,12 @@ Rien à écrire. Deux arbitrages et une correction de cinq minutes.
 
 **Ce que la décision 0.1 change en aval.** Le bloc 1 perd sa coupe de contenu : il ne reste que
 la réduction du recouvrement narratif des ch. 27-28, qui est un problème de construction et non
-de registre, et qui vaut indépendamment du public. Rien d'autre dans le plan n'en dépend.
+de registre, et qui vaut indépendamment du public.
 
-**Ce que la décision 0.2 apporte en plus.** Deux gains non prévus. Ysée pose trois questions au
-ch. 2 au lieu d'une : elle vérifie une source, ce qui est son métier et ce qu'elle ne faisait
-nulle part dans l'acte I. Et *« le même casier »* plante, six heures avant qu'elle y descende,
-le casier trente et un du ch. 4.
-
-**Contrôle de fin de bloc — passé :** aucune occurrence de « sept la première » ; aucune
-commande princière dans le manuscrit ; les princes subsistent aux ch. 2, 32, 36, 40, 42 et 49 ;
-ch. 27-28 intacts ; 50 chapitres, tous avec en-tête POV, cartouche à soixante-huit jours,
-aucun mois réel, aucune unité métrique.
+**Ce que la décision 0.2 apporte en plus.** Ysée pose trois questions au ch. 2 au lieu d'une :
+elle vérifie une source, ce qui est son métier et ce qu'elle ne faisait nulle part dans l'acte I.
+Et *« le même casier »* plante, six heures avant qu'elle y descende, le casier trente et un du
+ch. 4.
 
 ---
 
@@ -105,27 +101,47 @@ son linge à Ysée au troisième jour, il ne peut pas l'enlever à la sortie. Le
 *« Cael a enlevé son linge »* ; il dit maintenant qu'il n'en avait plus depuis la veille, et
 Ysée lui rend le sien. Deux phrases, et le geste du ch. 29 se paie une lieue plus loin.
 
-**Contrôle — passé :** traversée à 11,9 % du texte ; le ch. 29 contient un moment dont l'issue
-n'est pas acquise ; aucun refus de décrire dans le chapitre ; *« Voilà. »* reste à Cael ;
-50 chapitres, tous avec en-tête POV ; acquis du bloc 0 intacts. **64 735 mots.**
-
 ---
 
 ## Bloc 2 — novembre 2026 · L'acte IV, chaîne B et premier maillon de A
 
 On change de registre : après le physique, l'intime. C'est voulu.
 
-| | Item | Recommandation |
+| | Item | État |
 |---|---|---|
-| 2.1 | **`B1` Seconde scène Cael / Aunis** (800-1 000 mots, entre 38 et 41) | Ne refaites pas le ch. 38. Prenez le travail : il répare le bardeau, elle le regarde, et elle lui apprend une chose qu'un homme du Sud ne peut pas savoir — comment on tient un tour d'une heure sans se vider. Le savoir technique fait le travail émotionnel, comme au ch. 17. |
-| 2.2 | **`B2` +300 mots après la mort d'Aunis** (ch. 41) | Après *« Je suis resté là longtemps »*. Pas d'émotion déclarée : le compte qu'il ne fait pas. |
-| 2.3 | **`A1` Ysée refuse Tervi** (nouvelle scène) | À placer juste après le conseil du ch. 40, quand Hesk vient de dire *« Nous discuterons d'elle. Demain. »* — ce qui **paie du même coup l'amorce jamais tenue** (item indépendant). Elle refuse la table, et elle refuse mal : elle dit non à la place et pas à la demande, et promet les quarante-six bouches sans dire quand. C'est plus juste qu'un refus propre, et ça laisse l'arc ouvert pour le tome 2. |
+| 2.1 | **`B1` Seconde scène Cael / Aunis** | **Appliqué — nouveau ch. 39 bis, 986 mots, POV Cael.** Le moteur n'est pas le bardeau : c'est qu'*« au quatrième jour, il n'y avait plus rien à réparer »*. L'homme qui travaille pour ne pas parler n'a plus de travail, alors il s'assied, et elle parle. Elle lui donne deux choses qu'il ne pouvait avoir de personne d'autre : **pourquoi elle meurt à 53 ans quand Sarn en a 74** — dix-neuf hivers à chauffer trois pièces de Ghar pour une soixantaine de survivants, onze porteurs la première année, sept la sixième — et **ce qu'il a répondu à l'enfant sur sa pierre** au ch. 30. |
+| 2.2 | **`B2` +300 mots après la mort d'Aunis** (ch. 41) | **Appliqué — +330 mots.** Aucune émotion déclarée : il fait le seul geste qu'il sache faire, reconnaître ce qui est chaud, objet par objet, de près en loin, jusqu'à elle. Puis il met une bûche, parce que c'est la dernière instruction qu'il a d'elle. Puis il commence un compte et l'arrête au premier chiffre. |
+| 2.3 | **`A1` Ysée refuse Tervi** | **Appliqué — nouveau ch. 40 bis, 1 078 mots, POV Ysée.** Elle s'assied sur la table une fois avant de refuser, *« parce qu'un refus qu'on prononce sans avoir touché la chose ne coûte rien et ne vaut rien »*. Puis : *« — Non, ai-je dit. »* Elle refuse mal, comme prévu — mais l'écart utile est ailleurs (voir ci-dessous). |
 
-**Le maillon `A1` est le plus important du plan entier.** Tout l'arc d'Ysée des ch. 43 à 50 en
-dépend. Si vous ne faites qu'une chose cet hiver, faites celle-là.
+**Ce que le bloc 2 apporte au-delà du plan.**
 
-**Contrôle :** Aunis apparaît dans deux scènes jouées, pas une. Ysée a prononcé un refus.
-L'amorce du ch. 40 est payée.
+**Le ch. 39 bis prolonge le ch. 37 au lieu de le répéter.** *« Ce n'est pas le feu qui tue les
+Braises, c'est le rendement »* visait le Sud. Aunis retourne la phrase : à Ghar, personne n'a
+acheté personne, et ils se sont usés quand même, parce qu'ils n'étaient pas assez nombreux pour
+un hiver du Nord. *« Le rendement ne demande pas qui commande. Il demande seulement combien, et
+pendant combien de temps. »* Le livre cesse d'avoir un coupable et garde un mécanisme.
+
+**Tervi ne demande pas à Ysée de rester : elle lui demande d'écrire.** Le plan prévoyait
+qu'Ysée promette les bouches sans date. Tervi va plus loin et réclame les quarante et une
+qu'elle connaît, *« pour que ça sorte de ma tête »* — et Ysée répond *« Je le ferai — Quand ?
+— Je ne sais pas »*. **C'est l'amorce du rouleau de toile que Tervi lui met dans la main au
+ch. 44 et qu'elle ouvre au ch. 50 : une cordelette à quarante et un nœuds.** Le paiement
+existait déjà dans le livre sans avoir de dette en face ; il en a une maintenant.
+
+**L'amorce du ch. 40 est payée, et elle coûte.** *« Nous discuterons d'elle. Demain. »* Le
+conseil se tient, dure un quart d'heure, et Hesk le clôt par : *« Alors elle est de passage. On
+ne discute pas de quelqu'un qui est de passage. »*
+
+**Écart assumé — deux chapitres provisoires.** Les items 2.1 et 2.3 sont des chapitres entiers,
+pas des inserts. Les numéroter aurait décalé les onze derniers et cassé tous les renvois de
+l'audit et de ce plan, alors que la règle 3 réserve la renumérotation à février. Ils portent
+donc `39bis` et `40bis`, qui se trient exactement où il faut et que la passe 5.7 absorbera avec
+les fusions et les scissions.
+
+**Contrôle — passé :** Aunis apparaît dans trois scènes jouées au lieu d'une ; Ysée a
+prononcé un refus ; l'amorce du ch. 40 est payée ; alternance POV jamais supérieure à deux
+chapitres consécutifs ; durées écoulées monotones (31 → 33 → 34 → 36 jours) ; acquis des blocs
+0 et 1 intacts. **67 140 mots.**
 
 ---
 
@@ -135,7 +151,7 @@ Le bloc le plus chargé. Il consomme `A1` et `B1-B2`, et produit tout ce dont la
 
 | | Item | Recommandation |
 |---|---|---|
-| 3.1 | **`A2` Développer l'interrogatoire du ch. 43** | *« Nommez-moi une chose que vous avez faite pour l'aider à chercher »* mérite trois échanges, pas un. Elle doit essayer et échouer deux fois avant *« Je ne peux pas »*. Ne scindez pas encore le chapitre — écrivez, la scission est en février. |
+| 3.1 | **`A2` Développer l'interrogatoire du ch. 43** | *« Nommez-moi une chose que vous avez faite pour l'aider à chercher »* mérite trois échanges, pas un. Elle doit essayer et échouer deux fois avant *« Je ne peux pas »*. Elle a maintenant de quoi essayer : elle a refusé la table au ch. 40 bis, et elle ne peut pas le dire sans avouer qu'elle n'a rien demandé sur Aunis. Ne scindez pas encore le chapitre — écrivez, la scission est en février. |
 | 3.2 | **`B3` La décision de Cael, jouée** (ch. 44) | Devant Hesk, qui vient de dire *« Vous reviendrez. Pas vous deux. Ceux d'après. »* Ne lui faites pas dire pourquoi. Faites-lui poser les douze planches de bardeau et dire oui. |
 | 3.3 | **`A3` Deux initiatives d'Ysée** (ch. 44-48) | La première : elle demande à être deuxième dans l'ordre de marche au lieu de l'accepter. La seconde, essentielle : **elle arrache à Halden, au bord ou juste après, l'engagement écrit qu'il tiendra sa promesse** — une ligne dans le registre de toile noire, avec sa propre colonne de droite. |
 | 3.4 | **`C1` Des comptes sur le sel** (ch. 48) | Au muret de l'enclos, devant le registre. Elle lui demande ce qu'il dira à son père. Sa réponse est ce que Vael achètera au ch. 49. |
@@ -159,6 +175,7 @@ Tout arrive ici. Rien de ce bloc n'était écrivable avant.
 | 4.2 | **`C2` Reprendre l'objection de Vael** (ch. 49) | Ysée a maintenant une réponse partielle — l'engagement de Halden — et Vael doit pouvoir dire qu'une ligne dans un registre privé ne vaut pas une garantie. Il cède quand même, par comptabilité. Sa réplique finale (*« Vous ne m'avez pas convaincu »*) reste. |
 | 4.3 | **`D1` + `D2` Le décompte des croix** | Une seule décision, deux chapitres : garder la liste complète au **ch. 4** (c'est la découverte) et la réduire à deux items au **ch. 49** (c'est l'effet sur Vael qui compte). Garder *« La croix marque l'endroit où on en fabrique. »* |
 | 4.4 | **Reprendre la question laissée sans réponse** | *« Nommez-moi une chose »* n'obtient jamais de réponse, parce que Bran s'assied au milieu. Que quelqu'un y revienne une fois : Vael est le mieux placé, au ch. 49, en une phrase — il a lu le carnet de route, il sait ce qu'elle n'a pas demandé. |
+| 4.5 | **Les quarante et une de Tervi** | Nouveau, ouvert par le ch. 40 bis : Ysée a promis d'écrire les bouches sans donner de date. Le ch. 50 doit dire si elle l'a fait. La cordelette à quarante et un nœuds y est déjà ; il suffit d'une phrase pour qu'elle réponde à quelque chose. |
 
 **Contrôle :** relire les ch. 49 et 50 à la suite. Si le lecteur sait ce qu'Ysée a décidé pour
 les Fours hauts et ce que Cael a décidé pour lui-même, le bloc est bon.
@@ -179,13 +196,13 @@ on ne fait plus qu'enlever et réorganiser.
 | 5.5 | Fusionner ch. 45 + 46 | 3 201 mots pour un dispositif déjà connu. |
 | 5.6 | Réduire le ch. 48 | Sept séquences → quatre. Garder le rappel de la sangle (*« Deux doigts »*), fondre le défilé et Pierre-Fendue. |
 | 5.6 bis | Amorce du ch. 16 — la femme du fond de la salle | **Couper.** Les trois hommes du défilé viennent de Halden, qui n'avait besoin de personne. Payer cette amorce reviendrait à ajouter un informateur dont le livre n'a aucun usage. Une phrase à retirer. |
-| 5.7 | **Renumérotation complète** | +2 scissions, −3 fusions = le livre passe de 50 à **49 chapitres**. Refaire l'en-tête POV de chaque fichier et vérifier chaque renvoi interne. |
+| 5.7 | **Renumérotation complète** | +2 chapitres du bloc 2 (`39bis`, `40bis`), +2 scissions, −3 fusions = le livre passe de 50 à **51 chapitres**. Refaire l'en-tête de chaque fichier et vérifier chaque renvoi interne, y compris dans l'audit et dans ce plan. |
 
 **Recommandation forte :** ne faites 5.7 qu'une fois 5.1 à 5.6 toutes décidées et appliquées.
 Renuméroter deux fois est la meilleure façon de casser un manuscrit propre.
 
-**Contrôle :** 49 chapitres, tous avec en-tête POV, alternance jamais supérieure à deux
-chapitres consécutifs, aucun renvoi mort.
+**Contrôle :** 51 chapitres, plus aucun suffixe `bis`, tous avec en-tête POV, alternance jamais
+supérieure à deux chapitres consécutifs, aucun renvoi mort.
 
 ---
 
@@ -221,14 +238,14 @@ vous vous ennuyez.
 |---|---|---|---|---|
 | 0 | fin sept. 2026 | décisions | 3 | **appliqué** |
 | 1 | oct. 2026 | la traversée | 3 | **appliqué** — +825 mots |
-| 2 | nov. 2026 | l'acte IV | 3 | ≈ +2 200 mots |
+| 2 | nov. 2026 | l'acte IV | 3 | **appliqué** — +2 405 mots |
 | 3 | déc. 2026 | la crise, le retour | 5 | ≈ +2 100 mots |
-| 4 | janv. 2027 | la fin | 4 | ≈ +700 mots |
+| 4 | janv. 2027 | la fin | 5 | ≈ +750 mots |
 | 5 | févr. 2027 | coupes et renumérotation | 8 | ≈ −2 600 mots |
 | 6 | mars 2027 | style | 7 + reprises | ≈ ±0 |
 
-Volume attendu en sortie : **≈ 67 200 mots, 49 chapitres** (état au 18 septembre 2026 après
-les blocs 0 et 1 : 64 735 mots, 50 chapitres).
+Volume attendu en sortie : **≈ 67 400 mots, 51 chapitres** (état au 18 septembre 2026 après les
+blocs 0, 1 et 2 : 67 140 mots, 50 chapitres + 2 provisoires).
 
 **Ce qui fixe réellement la cadence**, et ce n'est pas le calendrier : les blocs 1, 2 et 3 sont
 de l'écriture neuve et demandent d'être dans le livre ; les blocs 5 et 6 sont de la mécanique
@@ -238,5 +255,4 @@ parce qu'il faut relire la fin froid pour savoir si le désaccord sonne juste.
 
 ---
 
-*Ce plan suppose que les lots A, B et C sont appliqués, ce qui est le cas. Les items non
-repris ici sont ceux que l'audit classe comme tenus : ne pas y toucher.*
+*Les items non repris ici sont ceux que l'audit classe comme tenus : ne pas y toucher.*
