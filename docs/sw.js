@@ -1,14 +1,15 @@
 /* Service worker de la bibliothèque.
  *
- * Stratégie : cache d'abord pour les ressources de l'application, avec
- * rafraîchissement en arrière-plan. Les textes des livres étant figés une fois
- * publiés, la lecture hors ligne est complète dès la première visite.
+ * Stratégie : réseau d'abord pour la page et son script, pour qu'une nouvelle
+ * publication soit prise en compte dès le rechargement suivant ; cache d'abord
+ * pour les textes, figés une fois publiés. La lecture hors ligne reste complète
+ * dès la première visite, le cache servant de repli quand le réseau manque.
  *
  * Pour forcer la mise à jour après publication d'un chapitre, incrémenter
  * VERSION ci-dessous : l'ancien cache est alors supprimé à l'activation.
  */
 
-const VERSION = 'liseuse-v2';
+const VERSION = 'liseuse-v3';
 
 const RESSOURCES = [
   './',
@@ -61,8 +62,13 @@ self.addEventListener('activate', e => {
   );
 });
 
-// Interception : cache d'abord, réseau en repli, et rafraîchissement
-// silencieux de l'entrée mise en cache quand le réseau répond.
+// La page et son script passent par le réseau d'abord, le cache ne servant que
+// de repli hors ligne. Sans cela, un index.html gardé en cache continue de
+// réclamer des fichiers de texte qu'une nouvelle publication a pu renommer ou
+// supprimer — et la bibliothèque s'affiche vide. Les textes, eux, ne changent
+// plus une fois publiés : ils restent servis par le cache d'abord.
+const RESEAU_DABORD = /\/(index\.html)?$|\/app\.js$|\/manifest\.json$/;
+
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
@@ -70,6 +76,21 @@ self.addEventListener('fetch', e => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;   // polices Google : réseau direct
 
+  if (req.mode === 'navigate' || RESEAU_DABORD.test(url.pathname)) {
+    e.respondWith(
+      fetch(req).then(rep => {
+        if (rep && rep.status === 200) {
+          const copie = rep.clone();
+          caches.open(VERSION).then(c => c.put(req, copie));
+        }
+        return rep;
+      }).catch(() => caches.match(req).then(enCache => enCache || Promise.reject('hors ligne')))
+    );
+    return;
+  }
+
+  // Textes et images : cache d'abord, réseau en repli, rafraîchissement
+  // silencieux de l'entrée mise en cache quand le réseau répond.
   e.respondWith(
     caches.match(req).then(enCache => {
       const reseau = fetch(req).then(rep => {

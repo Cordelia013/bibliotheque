@@ -1,8 +1,27 @@
 const BOOKS = [{"id": "castellano", "titre": "Le Prix du Silence, Don Castellano", "auteur": "Écrit avec Claude", "genres": ["Romance mafieuse", "Vengeance", "Drame", "Suspense"], "annee": "2026", "couleur": "#6d1f2c", "statut": "Terminé", "resume": "Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Sept ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit.", "chapitres": [], "couv": true, "maj": "2026-09-18"}, {"id": "lune", "titre": "La Part de Lune", "serie": "Les Deux Collines — tome 1", "auteur": "Écrit avec Claude", "genres": ["Urban fantasy", "Romance paranormale", "Loups & Lycans", "Âmes sœurs", "Série"], "annee": "2026", "couleur": "#1c2445", "statut": "À venir", "resume": "Lyon, aujourd'hui. Sous les traboules, deux meutes se partagent les collines, et des femmes appelées Lieuses constatent les liens que personne n'a choisis. Maël, aide-soignante de nuit, est frappée par un lien d'âmes sœurs le soir où un Alpha lui amène un loup qui n'en est pas un — et rejetée par lui devant le Concile trois jours plus tard. Ce qu'on ne lui a pas dit : le Rejet est irrévocable pour celui qui le prononce. Pas pour celle qui le reçoit.", "chapitres": [], "couv": true}, {"id": "vesper", "titre": "Le Contrat de Vesper", "auteur": "Écrit avec Claude", "genres": ["Dark romance", "Science-fiction", "Futuriste", "Obsession"], "annee": "2026", "couleur": "#2b2b33", "statut": "En cours", "resume": "Vesper, 2049. Chaque citoyen porte un score, et le score se propage : un cousin condamné, une facture impayée, et Ilya tombe à 412 en servant un café. Un homme à 940 lui propose de porter son risque pendant un an, chez lui, selon un contrat de trente-deux pages qui ne dit pas ce qu'il attend d'elle. Il ne la touche pas. Il la regarde. Et dans trois pièces fermées, dix cartons portent les noms de celles qui l'ont précédée. Avertissements : rapport de pouvoir déséquilibré, surveillance, obsession.", "chapitres": [], "couv": true, "maj": "2026-09-12"}, {"id": "braises", "titre": "La Saison des Braises", "serie": "Les Trois Cents Lieues — tome 1", "auteur": "Écrit avec Claude", "genres": ["Romance sensuelle", "Fantasy", "Enemies to lovers", "Slow burn", "Série"], "annee": "2026", "couleur": "#8a3a1f", "statut": "En cours", "resume": "Ysée Marrec ne dessine que ce qu'elle a vu, et la carte du Nord se termine en blanc : trois cents lieues au-delà de la Ligne des Cendres, là où la terre brûle depuis quatre-vingts ans. Pour la traverser, la Guilde lui donne un seul guide — Cael, un Braise, un homme que le feu a touché sans le tuer et qui ne connaît pas le froid. Ce qu'on ne lui a pas dit : la Ligne ne laisse passer que ceux qu'un Braise porte dans sa chaleur. Assez près. Pendant trois jours.", "chapitres": [], "couv": true, "maj": "2026-09-18"}, {"id": "verre", "titre": "La Dette de Verre", "auteur": "Écrit avec Claude", "genres": ["Romance", "Héritage", "Secret de famille", "Drame"], "annee": "2026", "couleur": "#1f4a52", "statut": "En cours", "resume": "Directrice générale du groupe hôtelier Valadares, Nour Belkacem hérite de trente-quatre pour cent des parts — à condition d'être encore en poste le jour de la mort du patriarche. Le fils revenu d'exil veut sa révocation. Une lettre laissée sous scellés lui apprend pourquoi ce legs n'était pas un cadeau, mais une dette : en 1997, Henrique Valadares a ruiné son père. À Lisbonne, tout le monde a de bonnes raisons.", "chapitres": [], "couv": true, "maj": "2026-09-12"}];
-BOOKS.find(b => b.id === 'castellano').chapitres = CASTELLANO_P1.concat(CASTELLANO_P2, CASTELLANO_P3, CASTELLANO_P4);
-BOOKS.find(b => b.id === 'vesper').chapitres = DATA_VESPER;
-BOOKS.find(b => b.id === 'braises').chapitres = BRAISES_P1.concat(BRAISES_P2, BRAISES_P3, BRAISES_P4, BRAISES_P5, BRAISES_P6, BRAISES_P7, BRAISES_P8, BRAISES_P9);
-BOOKS.find(b => b.id === 'verre').chapitres = DATA_VERRE;
+// Les textes arrivent par des balises <script> séparées, une par morceau.
+// Un morceau peut manquer à l'appel : après un changement de découpage, le
+// navigateur d'un lecteur déjà venu garde un index.html en cache qui réclame
+// un fichier désormais supprimé. On assemble donc chaque livre morceau par
+// morceau, sans laisser une absence emporter toute la bibliothèque : le livre
+// concerné s'affiche « Bientôt disponible », les autres restent lisibles.
+function texte(...morceaux) {
+  const chapitres = [];
+  for (const m of morceaux) {
+    try {
+      const lot = m();
+      if (Array.isArray(lot)) chapitres.push(...lot);
+    } catch (e) {
+      console.warn('Liseuse : un fichier de texte manque à l\'appel —', e.message);
+    }
+  }
+  return chapitres;
+}
+
+BOOKS.find(b => b.id === 'castellano').chapitres = texte(() => CASTELLANO_P1, () => CASTELLANO_P2, () => CASTELLANO_P3, () => CASTELLANO_P4);
+BOOKS.find(b => b.id === 'vesper').chapitres = texte(() => DATA_VESPER);
+BOOKS.find(b => b.id === 'braises').chapitres = texte(() => BRAISES_P1, () => BRAISES_P2, () => BRAISES_P3, () => BRAISES_P4, () => BRAISES_P5, () => BRAISES_P6, () => BRAISES_P7, () => BRAISES_P8, () => BRAISES_P9);
+BOOKS.find(b => b.id === 'verre').chapitres = texte(() => DATA_VERRE);
 
 const PERSONNAGES = {
   castellano: [
