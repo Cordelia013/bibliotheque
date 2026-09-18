@@ -134,6 +134,38 @@ Je me suis assis sur le tabouret, à sa gauche, là où je m'assieds.
 
 Je suis resté là longtemps. Je ne saurais pas dire combien : c'est la seule durée de toute ma vie que je n'aie pas comptée.
 
+Le feu a baissé pendant ce temps-là. Je l'ai regardé baisser.
+
+Il y a une chose que je sais faire depuis l'âge de six ans et que je ne peux pas m'empêcher de faire, même là : reconnaître ce qui est chaud et ce qui ne l'est pas, à distance, sans toucher. Alors je l'ai fait, dans l'ordre où on me l'a appris, de près en loin.
+
+Le tabouret sous moi : la température de la pièce.
+
+La chaise : la température de la pièce.
+
+La marmite sur la crémaillère, à trois pieds des braises : encore chaude, et elle le resterait une heure.
+
+Le mur du fond : plus froid que le reste, comme tous les murs du nord.
+
+Les douze planches contre la cloison : la température de la pièce.
+
+Elle : la température de la pièce.
+
+C'est tout ce que j'ai fait pendant ce temps que je n'ai pas compté. J'ai relevé la chaleur d'une pièce de deux pas sur trois, objet par objet, comme un imbécile, et je suis arrivé au bout, et j'ai recommencé.
+
+Puis le feu est tombé assez bas pour que la lumière change sur le plancher, et j'ai fait le geste de toute ma vie : j'ai tendu la main vers l'âtre.
+
+Je l'ai arrêtée à mi-chemin. Elle avait dit non quatre jours plus tôt, et elle avait dit pourquoi, et la raison tenait encore ce matin-là.
+
+Alors j'ai pris une bûche dans le tas que j'avais coupé court, et je l'ai mise, comme on fait ici.
+
+C'était la dernière instruction que j'avais d'elle. Je ne comptais pas en recevoir d'autre et j'ai préféré l'exécuter.
+
+Et il y a eu un moment — je ne sais plus où, dans ce temps-là — où j'ai commencé un compte et où je l'ai arrêté au premier chiffre.
+
+Quatre jours. Ça commençait par quatre jours.
+
+Je ne suis pas allé plus loin. On peut décider de ne pas finir un compte. C'est la seule chose qu'on peut décider quand on ne peut plus rien décider d'autre.
+
 ---
 
 Après, il y a eu ce qu'il y a après, et je le prends en bloc parce que tout s'est passé sans moi.
