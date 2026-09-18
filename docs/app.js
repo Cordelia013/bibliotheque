@@ -79,6 +79,13 @@ function etat(id){
   if (!S.livres[id]) S.livres[id] = { chap:0, scroll:0, bookmarks:[], vus:[] };
   return S.livres[id];
 }
+const ICONES = {
+  retour:   '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6"/></svg>',
+  signet:   '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3.5h8v13l-4-3-4 3z"/></svg>',
+  theme:    '<svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path class="plein" d="M10 3a7 7 0 0 0 0 14z"/></svg>',
+  sommaire: '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 6h12M4 10h12M4 14h8"/></svg>',
+  fermer:   '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"/></svg>'
+};
 function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('show');
   clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
 
@@ -237,7 +244,96 @@ function mesurerBarre(){
   #app .tab.on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
   #app .drawer { box-shadow: -18px 0 44px rgba(0,0,0,.18); }
   #app .rbtn.large { width: auto; min-width: 104px; padding: 0 12px;
-    font-size: 12px; letter-spacing: .04em; }`;
+    font-size: 12px; letter-spacing: .04em; }
+
+  /* ————— Itération 2, 18 septembre 2026 ————— */
+
+  /* Barre : icônes dessinées, cibles de 44 px, retrait en mode immersif. */
+  #app .icon { width: 44px; height: 44px; }
+  #app .icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5;
+    stroke-linecap: round; stroke-linejoin: round; pointer-events: none; }
+  #app .icon svg .plein, #app .icon.on svg path { fill: currentColor; }
+  #app .bar { transition: transform .2s cubic-bezier(.4,0,.2,1); }
+  #app .progress { transition: top .2s cubic-bezier(.4,0,.2,1); }
+  #app.immersif .bar { transform: translateY(-100%); }
+  #app.immersif .progress { top: 0; }
+
+  /* Bibliothèque. */
+  #app .cmeta .cetat { margin-top: 6px; }
+  #app .cbar + .cetat { margin-top: 5px; }
+  #app .effacer, #app .lien { background: none; border: none; padding: 10px 0; cursor: pointer;
+    font-family: 'Jost', sans-serif; font-size: 13px; letter-spacing: .04em; color: var(--accent-texte);
+    text-decoration: underline; text-underline-offset: 3px; }
+  #app #noRes .effacer { display: block; font-style: normal; }
+
+  /* Page de garde : résumé aligné à gauche, coupé à six lignes. */
+  #app .gres { text-align: left; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical; overflow: hidden; }
+  #app .gres.ouvert { display: block; -webkit-line-clamp: unset; overflow: visible; }
+  #app #gResPlus { display: block; margin: 0 0 26px; }
+
+  /* Fin de chapitre. */
+  #app .finlab { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+  #app .navbtn.suite { display: flex; flex-direction: column; gap: 6px; width: 100%; text-align: left;
+    padding: 18px 18px 20px; margin-bottom: 10px; background: var(--accent); border: none; color: #f2ede3; }
+  #app .navbtn.suite:hover { border: none; filter: brightness(1.1); }
+  #app .navbtn.suite small { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; opacity: .85; }
+  #app .navbtn.suite b { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 600; line-height: 1.15; }
+  #app .navbtn.suite em { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; opacity: .9; }
+  #app .finlivre { margin-bottom: 14px; }
+  #app .finlivre b { display: block; font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 600; }
+  #app .finlivre p { font-size: 14px; line-height: 1.55; color: var(--muted); margin: 6px 0 0; }
+  #app .finlivre .ghost { width: auto; padding: 12px 16px; }
+
+  /* Tiroir : réglages résumés, actes repliables, chapitre en cours. */
+  #app .rresume { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%;
+    text-align: left; background: none; border: 1px solid var(--rule); border-radius: 2px; padding: 10px 12px;
+    color: var(--ink); font-family: 'Jost', sans-serif; font-size: 12px; letter-spacing: .03em; cursor: pointer; }
+  #app .rresume small { display: block; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 3px; }
+  #app .rresume .rmod { color: var(--muted); flex: none; }
+  #app #rDetail { padding-top: 12px; }
+  #app .reglages { padding-bottom: 12px; }
+  #app .chapline.current { box-shadow: inset 3px 0 0 var(--accent-texte); padding-left: 14px; }
+  #app .chapline.current::before { content: none; }
+  #app .ptete { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%;
+    text-align: left; background: none; border: none; border-bottom: 1px solid var(--rule); padding: 14px 0;
+    color: var(--ink); cursor: pointer; font-family: 'Jost', sans-serif; }
+  #app .ptete b { display: block; font-family: 'Cormorant Garamond', serif; font-size: 19px; font-weight: 600; }
+  #app .ptete small { display: block; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 2px; }
+  #app .ptete svg { width: 16px; height: 16px; flex: none; fill: none; stroke: var(--muted); stroke-width: 1.5;
+    stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
+  #app .ptete[aria-expanded="true"] svg { transform: rotate(180deg); }
+
+  /* Feuille du bas. */
+  #app .fscrim { position: fixed; inset: 0; background: rgba(10,10,12,.55); z-index: 54; opacity: 0;
+    pointer-events: none; transition: opacity .2s; }
+  #app .fscrim.open { opacity: 1; pointer-events: auto; }
+  #app .feuille { position: fixed; left: 0; right: 0; bottom: 0; margin: 0 auto; max-width: 520px; max-height: 85vh;
+    overflow-y: auto; z-index: 55; box-sizing: border-box; background: var(--paper); color: var(--ink);
+    border-top: 1px solid var(--rule); border-radius: 8px 8px 0 0; box-shadow: 0 -12px 40px rgba(0,0,0,.2);
+    padding: 10px 20px max(28px, env(safe-area-inset-bottom)); transform: translateY(105%);
+    visibility: hidden; transition: transform .22s cubic-bezier(.4,0,.2,1), visibility 0s .22s; }
+  #app .feuille.open { transform: none; visibility: visible; transition: transform .22s cubic-bezier(.4,0,.2,1); }
+  #app .fpoignee { width: 36px; height: 4px; border-radius: 2px; background: var(--rule); margin: 0 auto 10px; }
+  #app .fhead { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+  #app .fhead h3 { margin: 0; font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 600; line-height: 1.2; }
+  #app .fsous { margin: 4px 0 0; font-size: 11px; letter-spacing: .13em; text-transform: uppercase; color: var(--muted); }
+  #app .fcitation { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.5; margin: 0 0 16px; }
+  #app .flabel { display: block; font-size: 13px; margin-bottom: 6px; }
+  #app .flabel span { color: var(--muted); }
+  #app .feuille textarea { width: 100%; box-sizing: border-box; resize: none; padding: 12px 14px;
+    background: var(--paper-deep); border: 1px solid var(--rule); border-radius: 2px; color: var(--ink);
+    font-family: 'Jost', sans-serif; font-size: 16px; line-height: 1.45; }
+  #app .feuille textarea::placeholder { color: var(--muted); }
+  #app .feuille textarea:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  #app .fcompte { text-align: right; font-size: 11px; color: var(--muted); margin: 4px 0 14px; }
+  #app .ftexte { font-size: 15px; line-height: 1.55; margin: 0 0 18px; }
+  #app .feuille .ghost.discret { display: block; width: auto; margin: 6px auto 0; }
+
+  @media (prefers-reduced-motion: reduce) {
+    #app .bar, #app .progress, #app .feuille, #app .feuille.open, #app .fscrim, #app .ptete svg { transition: none; }
+  }`;
   document.head.appendChild(s);
 })();
 
@@ -245,7 +341,9 @@ function appliquerTheme(){
   THEMES.forEach(t => app.classList.toggle(t, S.theme === t));
   app.classList.toggle('night', S.theme === 'nuit');   // compat règles existantes
   $('nightBtn').classList.toggle('on', S.theme !== 'clair');
-  $('nightBtn').title = 'Thème : ' + S.theme;
+  $('nightBtn').title = 'Thème : ' + nomTheme(S.theme);
+  $('nightBtn').setAttribute('aria-label', 'Changer de thème (actuel : ' + nomTheme(S.theme) + ')');
+  resumerReglages();
   const m = document.querySelector('meta[name="theme-color"]');
   if (m) m.content = S.theme==='nuit' ? '#14161a' : (S.theme==='sepia' ? '#f4ecd8' : '#f0ece4');
   poserAccent();   // le fond a changé : l'accent de texte se recalcule
@@ -259,12 +357,19 @@ function appliquerLecture(){
   const ba = $('alignBtn');
   if (ba) { ba.textContent = justifie ? 'Justifié' : 'À gauche';
     ba.setAttribute('aria-label', 'Alignement du texte : ' + ba.textContent); }
+  resumerReglages();
   const vt = $('valTaille'), vi = $('valInter');
   if (vt) vt.textContent = TAILLES[S.taille] + 'px';
   if (vi) vi.textContent = INTERLIGNES[S.inter].toFixed(2);
   ['tMoins','tPlus','iMoins','iPlus'].forEach(id => { const b=$(id); if(!b) return;
     b.disabled = (id==='tMoins' && S.taille===0) || (id==='tPlus' && S.taille===TAILLES.length-1)
               || (id==='iMoins' && S.inter===0)  || (id==='iPlus' && S.inter===INTERLIGNES.length-1); });
+}
+
+function resumerReglages(){
+  const r = $('rTexte'); if (!r) return;
+  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + TAILLES[S.taille] + ' px · interligne '
+    + String(INTERLIGNES[S.inter]).replace('.', ',') + ' · ' + (S.align === 'justifie' ? 'justifié' : 'à gauche');
 }
 
 function load(){
@@ -290,7 +395,7 @@ function load(){
     if (!ALIGNES.includes(S.align)) S.align = 'gauche';
     localStorage.setItem('liseuse:test','1'); localStorage.removeItem('liseuse:test');
     $('statusNote').textContent = 'Progression, réglages et marque-pages enregistrés sur cet appareil.';
-  } catch(e){ $('statusNote').textContent = 'Sauvegarde indisponible (navigation privée ?) : rien ne sera conservé.'; }
+  } catch(e){ $('statusNote').textContent = 'Votre progression ne peut pas être enregistrée sur cet appareil (navigation privée ou stockage bloqué).'; }
   ready = true;
 }
 function save(){ if(!ready) return; try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
@@ -314,6 +419,14 @@ function estNouveau(b){
   return d > visitePrec;
 }
 
+/* « En cours » et « Terminé » désignent l'écriture du livre, mais se lisaient comme
+   l'état de la lecture : on les dit autrement à l'affichage, sans toucher aux données. */
+function statutLisible(s){
+  return ({ 'Terminé':'Roman complet', 'En cours':"En cours d'écriture", 'À venir':'À paraître' })[s] || s;
+}
+function esc(t){ return String(t == null ? '' : t).replace(/[&<>"']/g,
+  c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[c]); }
+
 /* ---- pourcentage lu ---- */
 function pct(b){
   const e = S.livres[b.id]; if (!e || !e.vus) return 0;
@@ -324,9 +437,20 @@ function svgDe(id){
   const t = document.querySelector(`#couvertures template[data-livre="${id}"]`);
   return t ? t.innerHTML : '';
 }
+/* Chaque insertion d'une couverture reçoit ses propres identifiants SVG. Sans cela,
+   la couverture de la page de garde et celle de la grille (masquée) portaient les
+   mêmes id de dégradés : les url(#…) visaient la copie masquée et la page de
+   garde s'affichait sans ciel, sans braises, sans fissures. */
+let nCouv = 0;
+function idsUniques(svg){
+  const k = 'c' + (++nCouv) + '-';
+  return svg.replace(/\bid="([^"]+)"/g, (m, i) => `id="${k}${i}"`)
+            .replace(/url\(#([^)]+)\)/g, (m, i) => `url(#${k}${i})`)
+            .replace(/href="#([^"]+)"/g, (m, i) => `href="#${k}${i}"`);
+}
 function couverture(b, petit){
   if (b.couv) { const s = svgDe(b.id);
-    if (s) return `<div class="cover" style="padding:0;background:#0b0f1e">${s}</div>`; }
+    if (s) return `<div class="cover" style="padding:0;background:#0b0f1e">${idsUniques(s)}</div>`; }
   return `<div class="cover" style="background:linear-gradient(150deg,${b.couleur},#14161a)">
      <div class="ca">${b.genres[0].toUpperCase()}</div>
      <div><div class="ct">${b.titre}</div>
@@ -365,13 +489,30 @@ function renderLib(){
     const hay = (b.titre+' '+b.auteur+' '+b.genres.join(' ')+' '+b.resume).toLowerCase();
     return okG && (!q || hay.includes(q));
   });
-  $('noRes').style.display = res.length ? 'none' : '';
+  const nr = $('noRes');
+  nr.style.display = res.length ? 'none' : '';
+  if (!res.length) {
+    nr.innerHTML = '';
+    nr.appendChild(document.createTextNode(q
+      ? 'Aucun livre ne correspond à « ' + $('search').value.trim() + ' ».'
+      : 'Aucun livre ne correspond à ce genre.'));
+    const eff = document.createElement('button');
+    eff.className = 'effacer'; eff.type = 'button';
+    eff.textContent = q ? 'Effacer la recherche' : 'Voir tous les livres';
+    eff.onclick = () => { $('search').value = ''; filtre = null; renderLib(); $('search').focus(); };
+    nr.appendChild(eff);
+  }
   $('grid').innerHTML = res.map(b=>{
-    const p = pct(b);
+    const p = pct(b), e = S.livres[b.id];
+    const etatLecture = !b.chapitres.length ? 'Aucun chapitre publié'
+      : p === 0 ? b.chapitres.length + ' chapitres · ' + duree(b.chapitres.reduce((t,c)=>t+minutesDe(c),0))
+      : p >= 100 ? 'Lu'
+      : 'Chapitre ' + (b.chapitres[e.chap] || b.chapitres[0]).n + ' sur ' + b.chapitres.length + ' · ' + p + ' %';
     return `<button class="card" data-b="${b.id}">${couverture(b)}
       <div class="cmeta"><b>${b.titre}${estNouveau(b) ? '<span class="neuf">NOUVEAU</span>' : ''}</b>${b.serie ? `<div class="cpct" style="margin-top:3px">${b.serie}</div>` : ''}
-        <div class="cbar"><i style="width:${p}%"></i></div>
-        <div class="cpct">${p} % lu · ${b.statut}${b.maj ? ' · maj ' + dateCourte(b.maj) : ''}</div></div></button>`;
+        ${p > 0 && p < 100 ? `<div class="cbar"><i style="width:${p}%"></i></div>` : ''}
+        <div class="cpct cetat">${etatLecture}</div>
+        <div class="cpct">${statutLisible(b.statut)}</div></div></button>`;
   }).join('');
   [...$('grid').querySelectorAll('[data-b]')].forEach(c=>{
     c.onclick = () => ouvrirLivre(c.dataset.b);
@@ -387,15 +528,23 @@ function ouvrirLivre(id){
   $('gCover').innerHTML = couverture(livre);
   $('gTitle').textContent = livre.titre;
   $('gAuth').textContent = (livre.serie ? livre.serie.toUpperCase() + '  ·  ' : '') + livre.auteur.toUpperCase();
-  $('gChips').innerHTML = [livre.statut, ...livre.genres].map(g=>`<span>${g}</span>`).join('')
+  $('gChips').innerHTML = [statutLisible(livre.statut), ...livre.genres].map(g=>`<span>${g}</span>`).join('')
     + (livre.maj ? `<span>Mis à jour le ${dateCourte(livre.maj)}</span>` : '');
   $('gRes').textContent = livre.resume;
+  $('gRes').classList.remove('ouvert');
+  const plus = $('gResPlus');
+  if (plus) { plus.textContent = 'Lire tout le résumé'; plus.setAttribute('aria-expanded','false');
+    requestAnimationFrame(() => { plus.style.display =
+      $('gRes').scrollHeight > $('gRes').clientHeight + 2 ? '' : 'none'; }); }
+  // « 0 % » en grand n'apprend rien avant la première page.
   $('gPct').textContent = p + ' %';
+  $('gPct').style.display = p === 0 ? 'none' : '';
+  $('gBar').parentElement.style.display = p === 0 ? 'none' : '';
   $('gBar').style.width = p + '%';
   const restant = livre.chapitres.reduce((t,c,i) => t + (e.vus.includes(i) ? 0 : minutesDe(c)), 0);
-  $('gLab').textContent = !livre.chapitres.length ? 'En préparation · aucun chapitre publié'
+  $('gLab').textContent = !livre.chapitres.length ? 'Aucun chapitre publié pour l\'instant.'
     : p===0 ? livre.chapitres.length + ' chapitres · ' + duree(restant) + ' de lecture'
-    : (p===100 ? 'Terminé · ' + livre.chapitres.length + ' chapitres'
+    : (p===100 ? 'Lu en entier · ' + livre.chapitres.length + ' chapitres'
     : 'Chapitre ' + livre.chapitres[e.chap].n + ' sur ' + livre.chapitres.length + ' · ' + duree(restant) + ' restantes');
   const vide = !livre.chapitres.length;
   $('readBtn').textContent = vide ? 'Bientôt disponible' : (p===0 ? 'Commencer la lecture' : 'Reprendre au chapitre ' + livre.chapitres[e.chap].n);
@@ -405,16 +554,71 @@ function ouvrirLivre(id){
   aller('cover');
 }
 
+/* ---- adresses : une par écran ----
+   Le retour arrière du téléphone quittait la liseuse depuis n'importe quel écran.
+   Chaque écran a désormais son adresse (#/, #/livre/braises, #/lire/braises/12),
+   et le tiroir comme les feuilles occupent une entrée d'historique : le retour
+   arrière les referme avant de changer d'écran. */
+let depuisHistorique = false, ignorerPop = false;
+function adresse(v){
+  if (v === 'cover') return '#/livre/' + livre.id;
+  if (v === 'read') return '#/lire/' + livre.id + '/' + (etat(livre.id).chap + 1);
+  return '#/';
+}
+function parentDe(v){ return v === 'read' ? '#/livre/' + livre.id : '#/'; }
+function inscrire(v, remplacer){
+  if (depuisHistorique) return;
+  const h = adresse(v), st = history.state || {};
+  try {
+    if (!st.liseuse) history.replaceState({ liseuse:1, h, prec:null }, '', h);
+    else if (remplacer) history.replaceState({ liseuse:1, h, prec:st.prec }, '', h);
+    else if (st.ov) history.replaceState({ liseuse:1, h, prec:st.h }, '', h);
+    else if (st.h !== h) history.pushState({ liseuse:1, h, prec:st.h }, '', h);
+  } catch(e){}
+}
+function ouvrirEntree(){
+  try { const st = history.state || {};
+    history.pushState({ liseuse:1, ov:1, h:st.h || location.hash || '#/', prec:st.prec || null }, '', location.href);
+  } catch(e){}
+}
+function quitterEntree(){
+  try { if (history.state && history.state.ov) { ignorerPop = true; history.back(); } } catch(e){}
+}
+function router(){
+  const m = location.hash.match(/^#\/(livre|lire)\/([a-z0-9-]+)(?:\/(\d+))?/);
+  const b = m && BOOKS.find(x => x.id === m[2]);
+  depuisHistorique = true;
+  try {
+    if (!b) { aller('lib'); return; }
+    if (m[1] === 'livre' || !b.chapitres.length) { ouvrirLivre(b.id); return; }
+    const e = etat(b.id);
+    const n = Math.min(Math.max(1, +m[3] || e.chap + 1), b.chapitres.length);
+    livre = b; poserAccent(b.couleur);
+    const meme = e.chap === n - 1;
+    e.chap = n - 1; if (!meme) e.scroll = 0; save();
+    aller('read', meme);
+  } finally { depuisHistorique = false; }
+}
+addEventListener('popstate', () => {
+  if (ignorerPop) { ignorerPop = false; return; }
+  if (feuilleOuverte()) { fermerFeuille(true); return; }
+  if ($('drawer').classList.contains('open')) { fermer(true); return; }
+  router();
+});
+
 function aller(v, restore){
   vue = v;
   $('vLib').classList.toggle('on', v==='lib');
   $('vCover').classList.toggle('on', v==='cover');
   $('vRead').classList.toggle('on', v==='read');
   $('backBtn').style.display = v==='lib' ? 'none' : '';
+  $('backBtn').setAttribute('aria-label', v==='read' ? 'Retour au livre' : 'Retour à la bibliothèque');
   $('menuBtn').style.display = v==='read' ? '' : 'none';
   $('bmBtn').style.display = v==='read' ? '' : 'none';
+  app.classList.remove('immersif');
   $('barTitle').textContent = v==='lib' ? 'Bibliothèque'
     : (v==='cover' ? livre.titre : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
+  inscrire(v);
   if (v==='read') renderChap(restore); else { $('progBar').style.width = '0'; window.scrollTo(0,0); }
   if (v==='lib') { livre = null; poserAccent('#6d1f2c'); renderLib(); }
 }
@@ -446,70 +650,214 @@ function renderChap(restore){
     }
   }
   $('barTitle').textContent = 'Ch. ' + c.n + ' · ' + c.t;
-  $('prevBtn').disabled = e.chap===0;
-  $('nextBtn').disabled = e.chap===livre.chapitres.length-1;
-  if (!e.vus.includes(e.chap)) e.vus.push(e.chap);
+  // Un chapitre ne compte plus comme lu à l'ouverture, mais à 90 % de sa hauteur
+  // (voir updateProgress) : parcourir le sommaire gonflait le pourcentage.
   S.dernier = { id: livre.id, date: Date.now() };
   save();
-  buildChaps(); buildBms(); buildPers(); updateBm();
+  inscrire('read', true);
+  construireFin();
+  buildChaps(); buildBms(); buildPers();
   window.scrollTo(0, restore ? (e.scroll||0) : 0);
-  updateProgress();
+  dernierY = window.scrollY;
+  updateProgress(); updateBm();
+}
+function marquerLu(){
+  if (vue !== 'read' || !livre) return;
+  const e = etat(livre.id);
+  if (e.vus.includes(e.chap)) return;
+  e.vus.push(e.chap); save(); majFinLabel(); buildChaps();
 }
 function updateProgress(){
   if (vue!=='read') return;
   const e = etat(livre.id);
   const h = document.documentElement.scrollHeight - window.innerHeight;
-  const dans = h>0 ? Math.min(window.scrollY/h,1) : 0;
+  const dans = h>0 ? Math.min(window.scrollY/h,1) : 1;
   $('progBar').style.width = ((e.chap+dans)/livre.chapitres.length*100).toFixed(1) + '%';
+  if (dans >= .9) marquerLu();
 }
+
+/* ---- fin de chapitre ----
+   « Suivant → » n'annonçait rien, et au dernier chapitre le bouton se grisait sans
+   un mot. Le bouton suivant devient une carte qui présente le chapitre à venir ;
+   le dernier chapitre publié dit « À suivre » ou « Fin ». */
+function majFinLabel(){
+  const l = $('finLab'); if (!l || !livre) return;
+  const c = livre.chapitres[etat(livre.id).chap];
+  l.textContent = 'Fin du chapitre ' + c.n + '  ·  ' + pct(livre) + ' % du livre lu';
+}
+function construireFin(){
+  const e = etat(livre.id), i = e.chap;
+  const suiv = livre.chapitres[i+1], prec = livre.chapitres[i-1];
+  majFinLabel();
+  const nb = $('nextBtn'), pb = $('prevBtn'), fl = $('finLivre');
+  if (suiv) {
+    nb.style.display = ''; nb.disabled = false;
+    nb.innerHTML = `<small>Chapitre suivant · ${duree(minutesDe(suiv))}</small>`
+      + `<b>${esc(suiv.n)} — ${esc(suiv.t)}</b><em>Point de vue — ${esc(suiv.pov)}</em>`;
+    nb.setAttribute('aria-label', 'Chapitre suivant : ' + suiv.n + ', ' + suiv.t);
+    fl.style.display = 'none'; fl.innerHTML = '';
+  } else {
+    nb.style.display = 'none'; nb.disabled = true;
+    const fini = livre.statut === 'Terminé';
+    fl.innerHTML = fini
+      ? `<b>Fin</b><p>Vous avez terminé <i>${esc(livre.titre)}</i>.</p>`
+      : `<b>À suivre</b><p>Vous êtes à jour. Les prochains chapitres apparaîtront ici dès leur publication.</p>`;
+    const r = document.createElement('button');
+    r.className = 'ghost'; r.type = 'button'; r.textContent = 'Retour à la bibliothèque';
+    r.onclick = () => { marquerLu(); aller('lib'); };
+    fl.appendChild(r); fl.style.display = '';
+  }
+  pb.textContent = prec ? '← Chapitre ' + prec.n : '← Précédent';
+  pb.disabled = !prec;
+}
+
 function paraCourant(){
   const ps = [...document.querySelectorAll('#chapBody p')], mid = innerHeight*0.3;
   let best = 0; ps.forEach((p,i)=>{ if (p.getBoundingClientRect().top<=mid) best=i; }); return best;
 }
-function updateBm(){ const e=etat(livre.id); $('bmBtn').classList.toggle('on', e.bookmarks.some(b=>b.chap===e.chap)); }
+/* L'icône s'allumait s'il existait un marque-page n'importe où dans le chapitre,
+   mais ne retirait que celui du paragraphe courant : son état suit désormais le
+   paragraphe courant, comme l'action qu'elle déclenche. */
+function updateBm(){
+  if (!livre || vue !== 'read') return;
+  const e = etat(livre.id), para = paraCourant();
+  const on = e.bookmarks.some(b => b.chap===e.chap && b.para===para);
+  const bt = $('bmBtn');
+  bt.classList.toggle('on', on);
+  bt.setAttribute('aria-pressed', on ? 'true' : 'false');
+  bt.setAttribute('aria-label', on ? 'Retirer le marque-page de ce passage' : 'Marquer ce passage');
+}
 function toggleBm(){
   const e = etat(livre.id), para = paraCourant();
   const i = e.bookmarks.findIndex(b=>b.chap===e.chap && b.para===para);
-  if (i>-1){ e.bookmarks.splice(i,1); toast('Marque-page retiré'); }
-  else {
-    const t = livre.chapitres[e.chap].p[para]||'';
-    let note = '';
-    try { note = (prompt('Note pour ce marque-page (facultatif) :', '') || '').trim(); } catch(err){}
-    e.bookmarks.push({ chap:e.chap, para, note, extrait:t.slice(0,90)+(t.length>90?'…':''),
-      date:new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) });
-    e.bookmarks.sort((a,b)=>a.chap-b.chap||a.para-b.para);
-    toast(note ? 'Marque-page et note enregistrés' : 'Marque-page posé — chapitre ' + livre.chapitres[e.chap].n);
-  }
+  if (i>-1){ e.bookmarks.splice(i,1); updateBm(); buildBms(); save(); toast('Marque-page retiré'); return; }
+  const t = (livre.chapitres[e.chap].p[para]||'').replace(/<[^>]+>/g, '');
+  const bm = { chap:e.chap, para, note:'', extrait:t.slice(0,90)+(t.length>90?'…':''),
+    date:new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) };
+  e.bookmarks.push(bm);
+  e.bookmarks.sort((a,b)=>a.chap-b.chap||a.para-b.para);
   updateBm(); buildBms(); save();
+  feuilleNote(bm, true);
 }
+
+/* ---- feuilles ----
+   prompt() et confirm() sortaient de la liseuse : boîtes système impossibles à
+   styler, et annuler la note créait quand même le marque-page. Une feuille qui
+   monte du bas les remplace, dans les couleurs du thème. */
+let feuilleAuFermer = null, focusAvantFeuille = null;
+function feuilleOuverte(){ const f = $('feuille'); return !!(f && f.classList.contains('open')); }
+function ouvrirFeuille(o){
+  const f = $('feuille');
+  focusAvantFeuille = document.activeElement;
+  f.setAttribute('role', o.role || 'dialog');
+  f.removeAttribute('aria-describedby');
+  $('fTitre').textContent = o.titre;
+  $('fSous').textContent = o.sous || '';
+  $('fSous').style.display = o.sous ? '' : 'none';
+  $('fCorps').innerHTML = o.corps;
+  feuilleAuFermer = o.auFermer || null;
+  f.removeAttribute('inert'); f.setAttribute('aria-hidden','false');
+  f.classList.add('open'); $('fScrim').classList.add('open');
+  app.classList.remove('immersif');
+  ouvrirEntree();
+  setTimeout(() => { const x = o.focus && $(o.focus); try { (x || $('fFermer')).focus(); } catch(e){} }, 40);
+}
+function fermerFeuille(silencieux, sansRappel){
+  const f = $('feuille'); if (!f || !f.classList.contains('open')) return;
+  f.classList.remove('open'); $('fScrim').classList.remove('open');
+  if (f.contains(document.activeElement)) { try { document.activeElement.blur(); } catch(e){} }
+  f.setAttribute('inert',''); f.setAttribute('aria-hidden','true');
+  const cb = feuilleAuFermer; feuilleAuFermer = null;
+  if (!sansRappel && cb) cb();
+  if (focusAvantFeuille && document.contains(focusAvantFeuille)) { try { focusAvantFeuille.focus(); } catch(e){} }
+  if (!silencieux) quitterEntree();
+}
+function feuilleNote(bm, nouveau){
+  const c = livre.chapitres[bm.chap];
+  ouvrirFeuille({
+    titre: nouveau ? 'Passage marqué' : 'Note du marque-page',
+    sous: 'Chapitre ' + c.n + '  ·  ' + c.t,
+    corps: `<p class="fcitation">« ${esc(bm.extrait)} »</p>
+      <label class="flabel" for="fNote">Note <span>(facultatif)</span></label>
+      <textarea id="fNote" rows="3" maxlength="280" placeholder="Une remarque, une question pour plus tard…">${esc(bm.note || '')}</textarea>
+      <p class="fcompte" id="fCompte" aria-live="polite"></p>
+      <button class="primary" type="button" id="fOk">Enregistrer</button>
+      <button class="ghost discret" type="button" id="fSuppr">Retirer le marque-page</button>`,
+    focus: nouveau ? null : 'fNote',
+    auFermer: () => { if (nouveau) toast('Marque-page enregistré'); }
+  });
+  const ta = $('fNote'), cpt = $('fCompte');
+  const maj = () => { cpt.textContent = ta.value.length + ' / 280'; };
+  ta.oninput = maj; maj();
+  $('fOk').onclick = () => {
+    const avant = bm.note || '';
+    bm.note = ta.value.trim(); save(); buildBms();
+    fermerFeuille(false, true);
+    toast(bm.note ? 'Note enregistrée' : (nouveau ? 'Marque-page enregistré' : (avant ? 'Note supprimée' : 'Marque-page enregistré')));
+  };
+  $('fSuppr').onclick = () => {
+    const e = etat(livre.id), k = e.bookmarks.indexOf(bm);
+    if (k > -1) e.bookmarks.splice(k, 1);
+    save(); buildBms(); updateBm();
+    fermerFeuille(false, true);
+    toast('Marque-page retiré');
+  };
+}
+
+/* ---- sommaire ----
+   Une clé facultative `parties` dans BOOKS ([{ titre, debut }], debut = numéro
+   du premier chapitre) regroupe les chapitres en actes repliables. Sans elle,
+   la liste reste plate. */
 function buildChaps(){
   const e = etat(livre.id);
   $('dTitle').textContent = livre.titre;
-  $('paneChaps').innerHTML = livre.chapitres.map((c,i)=>
-    `<button class="chapline ${i===e.chap?'current':''}" data-go="${i}">
-      <em>Chapitre ${c.n} · ${c.pov} · ${duree(minutesDe(c))}${e.vus.includes(i)?' · lu':''}</em>${c.t}</button>`).join('');
+  const ligne = (c,i) => `<button class="chapline ${i===e.chap?'current':''}" data-go="${i}"${i===e.chap?' aria-current="true"':''}>
+      <em>Chapitre ${esc(c.n)} · ${esc(c.pov)} · ${duree(minutesDe(c))}${i===e.chap ? ' · en cours' : (e.vus.includes(i) ? ' · lu' : '')}</em>${esc(c.t)}</button>`;
+  const parts = (Array.isArray(livre.parties) ? livre.parties : [])
+    .filter(p => p && p.titre && +p.debut > 0)
+    .map(p => ({ titre:p.titre, i:livre.chapitres.findIndex(c => parseInt(c.n, 10) >= +p.debut) }))
+    .filter(p => p.i > -1);
+  let html;
+  if (!parts.length) html = livre.chapitres.map(ligne).join('');
+  else {
+    html = livre.chapitres.slice(0, parts[0].i).map(ligne).join('');
+    parts.forEach((p, k) => {
+      const fin = k+1 < parts.length ? parts[k+1].i : livre.chapitres.length;
+      const idx = []; for (let j = p.i; j < fin; j++) idx.push(j);
+      if (!idx.length) return;
+      const ouvert = e.chap >= p.i && e.chap < fin;
+      const lus = idx.filter(j => e.vus.includes(j)).length;
+      html += `<div class="partie"><button class="ptete" type="button" aria-expanded="${ouvert}" aria-controls="partie${k}">
+        <span><b>${esc(p.titre)}</b><small>Chapitres ${esc(livre.chapitres[p.i].n)} à ${esc(livre.chapitres[fin-1].n)} · ${lus} lu${lus>1?'s':''} sur ${idx.length}</small></span>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg></button>
+        <div class="pliste" id="partie${k}"${ouvert ? '' : ' hidden'}>${idx.map(j => ligne(livre.chapitres[j], j)).join('')}</div></div>`;
+    });
+  }
+  $('paneChaps').innerHTML = html;
+  [...$('paneChaps').querySelectorAll('.ptete')].forEach(t => {
+    t.onclick = () => { const l = $(t.getAttribute('aria-controls')), o = t.getAttribute('aria-expanded') === 'true';
+      t.setAttribute('aria-expanded', o ? 'false' : 'true'); l.hidden = o; };
+  });
   [...$('paneChaps').querySelectorAll('[data-go]')].forEach(b=>{
-    b.onclick = () => { e.chap = +b.dataset.go; e.scroll = 0; save(); fermer(); aller('read', false); };
+    b.onclick = () => { e.chap = +b.dataset.go; e.scroll = 0; save(); fermer(true); aller('read', false); };
   });
 }
 function buildBms(){
   const e = etat(livre.id), pane = $('paneBms');
-  if (!e.bookmarks.length){ pane.innerHTML = '<p class="empty">Aucun marque-page. Touchez ✦ en haut pour marquer le passage où vous êtes.</p>'; return; }
+  $('tabBms').textContent = 'Marque-pages' + (e.bookmarks.length ? ' (' + e.bookmarks.length + ')' : '');
+  if (!e.bookmarks.length){ pane.innerHTML = '<p class="empty">Aucun marque-page pour ce livre. Pendant la lecture, affichez la barre d\'un toucher puis choisissez l\'icône marque-page.</p>'; return; }
   pane.innerHTML = e.bookmarks.map((b,i)=>
-    `<div><button class="bmrow" data-bm="${i}"><small>Chapitre ${livre.chapitres[b.chap].n} · ${b.date}</small>
-      <span>« ${b.extrait} »</span>${b.note ? `<span class="bmnote">${b.note}</span>` : ''}</button>
+    `<div><button class="bmrow" data-bm="${i}"><small>Chapitre ${esc(livre.chapitres[b.chap].n)} · ${esc(b.date)}</small>
+      <span>« ${esc(b.extrait)} »</span>${b.note ? `<span class="bmnote">${esc(b.note)}</span>` : ''}</button>
       <div class="bmacts"><button class="del" data-note="${i}">${b.note ? 'Modifier la note' : 'Ajouter une note'}</button>
       <button class="del" data-del="${i}">Supprimer</button></div></div>`).join('');
   [...pane.querySelectorAll('[data-bm]')].forEach(x=>{
-    x.onclick = () => { const bm = e.bookmarks[+x.dataset.bm]; e.chap = bm.chap; save(); fermer(); aller('read', false);
+    x.onclick = () => { const bm = e.bookmarks[+x.dataset.bm]; e.chap = bm.chap; save(); fermer(true); aller('read', false);
       setTimeout(()=>{ const p = document.querySelector(`#chapBody p[data-i="${bm.para}"]`);
         if (p) p.scrollIntoView({behavior:'smooth',block:'center'}); }, 60); };
   });
   [...pane.querySelectorAll('[data-note]')].forEach(x=>{
-    x.onclick = () => { const bm = e.bookmarks[+x.dataset.note];
-      let n = null; try { n = prompt('Note pour ce marque-page :', bm.note || ''); } catch(err){}
-      if (n === null) return;
-      bm.note = n.trim(); buildBms(); save(); toast(bm.note ? 'Note enregistrée' : 'Note supprimée'); };
+    x.onclick = () => feuilleNote(e.bookmarks[+x.dataset.note], false);
   });
   [...pane.querySelectorAll('[data-del]')].forEach(x=>{
     x.onclick = () => { e.bookmarks.splice(+x.dataset.del,1); buildBms(); updateBm(); save(); toast('Marque-page supprimé'); };
@@ -525,10 +873,19 @@ function ouvrir(){
   focusAvant = document.activeElement;
   d.removeAttribute('inert'); d.setAttribute('aria-hidden','false');
   d.classList.add('open'); $('scrim').classList.add('open');
-  const premier = d.querySelector('button'); if (premier) premier.focus();
+  app.classList.remove('immersif');
+  ouvrirEntree();
+  // Le sommaire s'ouvre sur le chapitre en cours, pas en haut de la liste.
+  const cur = d.querySelector('.chapline.current');
+  if (cur && cur.offsetParent) {
+    let y = 0, n = cur; while (n && n !== d) { y += n.offsetTop; n = n.offsetParent; }
+    d.scrollTop = Math.max(0, y - d.clientHeight / 2 + cur.offsetHeight / 2);
+  }
+  const premier = d.querySelector('button'); if (premier) premier.focus({ preventScroll:true });
 }
-function fermer(){
+function fermer(silencieux){
   const d = $('drawer');
+  if (!d.classList.contains('open')) return;
   d.classList.remove('open'); $('scrim').classList.remove('open');
   if (focusAvant && document.contains(focusAvant) && !d.contains(focusAvant)) {
     try { focusAvant.focus(); } catch(e){}
@@ -536,29 +893,53 @@ function fermer(){
     try { document.activeElement.blur(); } catch(e){}
   }
   d.setAttribute('inert',''); d.setAttribute('aria-hidden','true');
+  if (silencieux !== true) quitterEntree();
 }
-$('menuBtn').onclick = ouvrir; $('closeBtn').onclick = fermer; $('scrim').onclick = fermer;
-$('tocBtn').onclick = () => { buildChaps(); buildBms(); buildPers(); ouvrir(); };
+function ouvrirSommaire(){ buildChaps(); buildBms(); buildPers(); ouvrir(); }
+$('menuBtn').onclick = ouvrirSommaire;
+$('closeBtn').onclick = () => fermer(); $('scrim').onclick = () => fermer();
+$('tocBtn').onclick = ouvrirSommaire;
 $('bmBtn').onclick = toggleBm;
-$('backBtn').onclick = () => { if (vue==='read') ouvrirLivre(livre.id); else aller('lib'); };
+$('backBtn').onclick = () => {
+  // Si l'écran précédent de l'historique est l'écran parent, on y revient par
+  // l'historique plutôt que d'empiler une nouvelle entrée.
+  const st = history.state || {};
+  if (!st.ov && st.prec && st.prec === parentDe(vue)) { history.back(); return; }
+  if (vue==='read') ouvrirLivre(livre.id); else aller('lib');
+};
 $('readBtn').onclick = () => aller('read', true);
 $('resetBtn').onclick = () => {
-  if (!confirm('Effacer votre progression et vos marque-pages pour ce livre ?')) return;
-  S.livres[livre.id] = { chap:0, scroll:0, bookmarks:[], vus:[] };
-  if (S.dernier && S.dernier.id === livre.id) S.dernier = null;
-  save(); ouvrirLivre(livre.id); toast('Progression réinitialisée');
+  const e = etat(livre.id), k = e.bookmarks.length, c = livre.chapitres[e.chap];
+  const pos = 'Votre progression (chapitre ' + (c ? c.n : 1) + ' sur ' + livre.chapitres.length + ')';
+  const texte = k
+    ? pos + ' et ' + (k === 1 ? 'votre marque-page' : 'vos ' + k + ' marque-pages') + ' sur <i>' + esc(livre.titre) + '</i> seront effacés de cet appareil. Cette action est définitive.'
+    : pos + ' sur <i>' + esc(livre.titre) + '</i> sera effacée de cet appareil. Cette action est définitive.';
+  ouvrirFeuille({ titre:'Recommencer ce livre ?', role:'alertdialog', focus:'fNon',
+    corps:`<p class="ftexte" id="fTexte">${texte}</p>
+      <button class="primary" type="button" id="fOui">Tout effacer</button>
+      <button class="ghost" type="button" id="fNon">Annuler</button>` });
+  $('feuille').setAttribute('aria-describedby', 'fTexte');
+  $('fNon').onclick = () => fermerFeuille();
+  $('fOui').onclick = () => {
+    const id = livre.id;
+    S.livres[id] = { chap:0, scroll:0, bookmarks:[], vus:[] };
+    if (S.dernier && S.dernier.id === id) S.dernier = null;
+    save(); fermerFeuille(false, true); ouvrirLivre(id); toast('Progression effacée');
+  };
 };
+function nomTheme(t){ return t==='clair' ? 'clair' : t==='sepia' ? 'sépia' : 'nuit'; }
 $('nightBtn').onclick = () => {
   S.theme = THEMES[(THEMES.indexOf(S.theme)+1) % THEMES.length];
   appliquerTheme(); save();
-  toast('Thème ' + (S.theme==='clair' ? 'clair' : S.theme==='sepia' ? 'sépia' : 'nuit'));
+  toast('Thème ' + nomTheme(S.theme));
 };
 $('prevBtn').onclick = () => { const e=etat(livre.id); if(e.chap>0){ e.chap--; e.scroll=0; save(); renderChap(false); } };
-$('nextBtn').onclick = () => { const e=etat(livre.id); if(e.chap<livre.chapitres.length-1){ e.chap++; e.scroll=0; save(); renderChap(false); } };
+$('nextBtn').onclick = () => { const e=etat(livre.id); if(e.chap<livre.chapitres.length-1){ marquerLu(); e.chap++; e.scroll=0; save(); renderChap(false); } };
 function ongletActif(nom){
   [['tabChaps','paneChaps'],['tabBms','paneBms'],['tabPers','panePers']].forEach(([t,p])=>{
     const bt=$(t), pn=$(p); if(!bt||!pn) return;
     bt.classList.toggle('on', t===nom);
+    bt.setAttribute('aria-selected', t===nom ? 'true' : 'false');
     pn.style.display = (t===nom) ? '' : 'none';
   });
 }
@@ -573,6 +954,21 @@ function buildPers(){
     `<div class="prow"><b>${p.nom}</b><small>${p.role}</small><p>${p.texte}</p></div>`).join('');
 }
 
+/* ---- mode immersif ----
+   La barre se retire quand on descend dans le texte et revient dès qu'on remonte,
+   qu'on touche le texte, en haut et en fin de chapitre. Le filet de progression
+   reste en place. */
+let dernierY = 0, cumulY = 0;
+function gererImmersif(){
+  if (vue !== 'read' || $('drawer').classList.contains('open') || feuilleOuverte()) {
+    app.classList.remove('immersif'); dernierY = scrollY; return; }
+  const y = scrollY, d = y - dernierY; dernierY = y;
+  const h = document.documentElement.scrollHeight - innerHeight;
+  if (y < 80 || y > h - 60) { app.classList.remove('immersif'); cumulY = 0; return; }
+  if (d > 0) { cumulY = Math.max(0, cumulY) + d; if (cumulY > 24) app.classList.add('immersif'); }
+  else if (d < 0) { cumulY = Math.min(0, cumulY) + d; if (cumulY < -8) app.classList.remove('immersif'); }
+}
+
 /* ---- éléments ajoutés au DOM ---- */
 (function monterUI(){
   // carte « Reprendre » en tête de bibliothèque
@@ -580,21 +976,29 @@ function buildPers(){
   box.className = 'reprise'; box.id = 'reprise'; box.style.display = 'none';
   $('libCount').insertAdjacentElement('afterend', box);
 
-  // réglages de lecture en tête du tiroir
+  // réglages de lecture en tête du tiroir, résumés sur une ligne tant qu'on ne
+  // les ouvre pas : dépliés, ils repoussaient le sommaire de trois lignes.
   const r = document.createElement('div');
   r.className = 'reglages';
-  r.innerHTML = `<h4>Confort de lecture</h4>
+  r.innerHTML = `<button class="rresume" id="rResume" type="button" aria-expanded="false" aria-controls="rDetail">
+      <span><small>Confort de lecture</small><span id="rTexte"></span></span><span class="rmod" id="rMod">Modifier</span></button>
+    <div id="rDetail" hidden>
     <div class="rline"><span>Taille du texte</span>
-      <button class="rbtn" id="tMoins">A−</button>
+      <button class="rbtn" id="tMoins" aria-label="Réduire le texte">A−</button>
       <span class="rval" id="valTaille"></span>
-      <button class="rbtn" id="tPlus">A+</button></div>
+      <button class="rbtn" id="tPlus" aria-label="Agrandir le texte">A+</button></div>
     <div class="rline"><span>Interligne</span>
-      <button class="rbtn" id="iMoins">−</button>
+      <button class="rbtn" id="iMoins" aria-label="Réduire l'interligne">−</button>
       <span class="rval" id="valInter"></span>
-      <button class="rbtn" id="iPlus">+</button></div>
+      <button class="rbtn" id="iPlus" aria-label="Augmenter l'interligne">+</button></div>
     <div class="rline"><span>Alignement</span>
-      <button class="rbtn large" id="alignBtn">À gauche</button></div>`;
+      <button class="rbtn large" id="alignBtn">À gauche</button></div></div>`;
   document.querySelector('.tabs').insertAdjacentElement('beforebegin', r);
+  $('rResume').onclick = () => {
+    const o = $('rResume').getAttribute('aria-expanded') === 'true';
+    $('rResume').setAttribute('aria-expanded', o ? 'false' : 'true');
+    $('rDetail').hidden = o; $('rMod').textContent = o ? 'Modifier' : 'Fermer';
+  };
 
   // troisième onglet : personnages
   const bt = document.createElement('button');
@@ -604,6 +1008,12 @@ function buildPers(){
   pn.id = 'panePers'; pn.style.display = 'none';
   $('paneBms').insertAdjacentElement('afterend', pn);
   bt.onclick = () => ongletActif('tabPers');
+  const tl = document.querySelector('.tabs'); tl.setAttribute('role','tablist');
+  [['tabChaps','paneChaps'],['tabBms','paneBms'],['tabPers','panePers']].forEach(([t,p]) => {
+    $(t).setAttribute('role','tab'); $(t).setAttribute('aria-controls', p);
+    $(t).setAttribute('aria-selected', $(t).classList.contains('on') ? 'true' : 'false');
+    $(p).setAttribute('role','tabpanel');
+  });
 
   $('tMoins').onclick = () => { if (S.taille>0){ S.taille--; appliquerLecture(); save(); } };
   $('tPlus').onclick  = () => { if (S.taille<TAILLES.length-1){ S.taille++; appliquerLecture(); save(); } };
@@ -615,9 +1025,59 @@ function buildPers(){
     toast(S.align === 'justifie' ? 'Texte justifié, avec césure' : 'Texte aligné à gauche');
   };
 
-  // Effacer sa progression est une action destructive : elle cesse de ressembler
-  // à « Sommaire et marque-pages ».
+  // Page de garde. Effacer sa progression est une action destructive : elle cesse
+  // de ressembler à « Sommaire », et dit ce qu'elle fait.
   $('resetBtn').classList.add('discret');
+  $('resetBtn').textContent = 'Recommencer ce livre';
+  $('tocBtn').textContent = 'Sommaire';
+  const plus = document.createElement('button');
+  plus.id = 'gResPlus'; plus.type = 'button'; plus.className = 'lien';
+  plus.setAttribute('aria-controls','gRes'); plus.setAttribute('aria-expanded','false');
+  plus.textContent = 'Lire tout le résumé';
+  $('gRes').insertAdjacentElement('afterend', plus);
+  plus.onclick = () => { const o = $('gRes').classList.toggle('ouvert');
+    plus.textContent = o ? 'Réduire le résumé' : 'Lire tout le résumé';
+    plus.setAttribute('aria-expanded', o ? 'true' : 'false'); };
+
+  // Bibliothèque : l'auteur est le même pour tous les livres ; la recherche porte
+  // aussi sur les résumés, donc sur les noms des personnages.
+  $('search').placeholder = 'Titre, genre, personnage…';
+  $('search').setAttribute('aria-label', 'Rechercher un livre');
+
+  // Fin de chapitre : ligne d'état, carte du chapitre suivant, bloc de fin de livre.
+  const em = document.querySelector('.endmark'), nr = document.querySelector('.navrow');
+  const fl = document.createElement('p'); fl.className = 'finlab'; fl.id = 'finLab';
+  em.insertBefore(fl, em.firstChild);
+  const fin = document.createElement('div'); fin.className = 'finlivre'; fin.id = 'finLivre'; fin.style.display = 'none';
+  em.insertBefore(fin, nr);
+  $('nextBtn').classList.add('suite');
+  em.insertBefore($('nextBtn'), nr);
+  const tf = document.createElement('button');
+  tf.className = 'navbtn'; tf.id = 'tocFin'; tf.type = 'button'; tf.textContent = 'Sommaire';
+  tf.onclick = ouvrirSommaire;
+  nr.appendChild(tf);
+  $('chapBody').addEventListener('click', () => {
+    // Toucher le texte fait revenir ou repartir la barre, sauf pendant une sélection.
+    const sel = window.getSelection && String(window.getSelection());
+    if (sel || scrollY < 80) return;
+    app.classList.toggle('immersif');
+  });
+  document.querySelector('.bar').addEventListener('focusin', () => app.classList.remove('immersif'));
+
+  // Feuille du bas : note de marque-page et confirmation d'effacement.
+  const fs = document.createElement('div'); fs.className = 'fscrim'; fs.id = 'fScrim';
+  fs.onclick = () => fermerFeuille();
+  const f = document.createElement('section');
+  f.className = 'feuille'; f.id = 'feuille';
+  f.setAttribute('role','dialog'); f.setAttribute('aria-modal','true');
+  f.setAttribute('aria-labelledby','fTitre');
+  f.setAttribute('inert',''); f.setAttribute('aria-hidden','true');
+  f.innerHTML = `<div class="fpoignee" aria-hidden="true"></div>
+    <div class="fhead"><div><h3 id="fTitre"></h3><p class="fsous" id="fSous"></p></div>
+    <button class="icon" id="fFermer" type="button" aria-label="Fermer">${ICONES.fermer}</button></div>
+    <div id="fCorps"></div>`;
+  app.appendChild(fs); app.appendChild(f);
+  $('fFermer').onclick = () => fermerFeuille();
 
   // Tiroir : hors de l'ordre de tabulation tant qu'il est fermé.
   const d = $('drawer');
@@ -625,22 +1085,46 @@ function buildPers(){
   d.setAttribute('aria-label','Sommaire, marque-pages et réglages');
   d.setAttribute('inert',''); d.setAttribute('aria-hidden','true');
 
-  // Les boutons de la barre n'étaient annoncés que par leur symbole.
-  const noms = { backBtn:'Retour', bmBtn:'Poser ou retirer un marque-page',
-                 nightBtn:'Changer de thème', menuBtn:'Ouvrir le sommaire', closeBtn:'Fermer' };
-  Object.keys(noms).forEach(id => { const b = $(id); if (b) b.setAttribute('aria-label', noms[id]); });
+  // Icônes dessinées plutôt que des caractères (✦ ◐ ☰ ✕), dont le rendu dépend de
+  // la police du système, et noms qui disent l'action.
+  const icones = { backBtn:ICONES.retour, bmBtn:ICONES.signet, nightBtn:ICONES.theme,
+                   menuBtn:ICONES.sommaire, closeBtn:ICONES.fermer };
+  Object.keys(icones).forEach(id => { const b = $(id); if (b) { b.innerHTML = icones[id]; b.type = 'button'; } });
+  const noms = { backBtn:'Retour à la bibliothèque', bmBtn:'Marquer ce passage',
+                 menuBtn:'Ouvrir le sommaire', closeBtn:'Fermer le sommaire' };
+  Object.keys(noms).forEach(id => { const b = $(id); if (b) { b.setAttribute('aria-label', noms[id]); b.removeAttribute('title'); } });
+
+  // Le zoom était bloqué par maximum-scale=1. index.html ne se modifie pas (il
+  // porte les couvertures) : on réécrit la balise d'ici.
+  const vp = document.querySelector('meta[name="viewport"]');
+  if (vp) vp.setAttribute('content', 'width=device-width, initial-scale=1');
 })();
+
+/* Focus gardé dans la feuille ou le tiroir ouverts. */
+function pieger(ev, zone){
+  const f = [...zone.querySelectorAll('button:not([disabled]),textarea,input,[href],[tabindex]:not([tabindex="-1"])')]
+    .filter(x => x.offsetParent !== null && !x.closest('[hidden]'));
+  if (!f.length) return;
+  const a = f[0], z = f[f.length-1];
+  if (ev.shiftKey && document.activeElement === a) { ev.preventDefault(); z.focus(); }
+  else if (!ev.shiftKey && document.activeElement === z) { ev.preventDefault(); a.focus(); }
+  else if (!zone.contains(document.activeElement)) { ev.preventDefault(); a.focus(); }
+}
 
 let tmr;
 addEventListener('scroll', () => {
   if (vue!=='read') return;
-  updateProgress(); updateBm();
+  updateProgress(); updateBm(); gererImmersif();
   etat(livre.id).scroll = scrollY;
   clearTimeout(tmr); tmr = setTimeout(save, 600);
 }, {passive:true});
 addEventListener('keydown', e => {
-  if (vue==='read'){ if(e.key==='ArrowRight') $('nextBtn').click(); if(e.key==='ArrowLeft') $('prevBtn').click(); }
-  if (e.key==='Escape') fermer();
+  const fo = feuilleOuverte(), dro = $('drawer').classList.contains('open');
+  if (e.key === 'Tab') { if (fo) pieger(e, $('feuille')); else if (dro) pieger(e, $('drawer')); return; }
+  if (e.key === 'Escape') { if (fo) fermerFeuille(); else if (dro) fermer(); return; }
+  const cible = e.target && e.target.tagName;
+  if (vue==='read' && !fo && !dro && cible !== 'INPUT' && cible !== 'TEXTAREA'){
+    if(e.key==='ArrowRight') $('nextBtn').click(); if(e.key==='ArrowLeft') $('prevBtn').click(); }
 });
 
 addEventListener('resize', mesurerBarre, {passive:true});
@@ -649,5 +1133,7 @@ addEventListener('orientationchange', () => setTimeout(mesurerBarre, 120));
 load();
 visitePrec = S.visite || 0;
 appliquerTheme(); appliquerLecture(); mesurerBarre(); renderLib();
+if (/^#\/(livre|lire)\//.test(location.hash)) router();
+try { history.replaceState({ liseuse:1, h:(vue === 'lib' ? '#/' : location.hash), prec:null }, '', vue === 'lib' ? '#/' : location.hash); } catch(e){}
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(mesurerBarre).catch(()=>{});
 S.visite = Date.now(); save();
