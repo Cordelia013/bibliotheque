@@ -6,14 +6,6 @@
 
 Je me suis retourné.
 
-Voilà ce qu'il faut savoir avant tout le reste, et je me le dis une fois pour ne plus avoir à y revenir.
-
-Le premier apprentissage d'un Braise, c'est la liste. On vous la fait réciter à six ans. Le linge. Les cheveux. La paille. Les bêtes. Les gens. Ce sont les cinq choses qu'on n'a pas le droit d'effleurer, et par-dessous il y en a une sixième que personne ne dit à voix haute devant un enfant, mais qu'on comprend vers quatorze ans, tout seul, dans un dortoir de fonderie : personne, jamais, nulle part.
-
-Vingt-deux ans que je vis à un pouce du monde.
-
-Et là, dans le seul endroit de la terre où tout est déjà en feu, où l'air prend tout ce qui sort de moi avant que ça n'arrive à quelqu'un, où je ne peux pas brûler parce qu'il n'y a plus rien à brûler — là, pour la première fois de ma vie, la liste n'existait pas.
-
 Elle était devant moi. Assez près pour que je voie la cendre dans ses cils.
 
 Et je suis resté comme ça, immobile, les bras écartés, les mains en l'air de chaque côté d'elle comme un homme qui vient de faire tomber quelque chose et qui n'ose plus bouger.
@@ -24,9 +16,7 @@ Elle a pris mes poignets. Elle les a descendus. Elle a mis mes mains où elle le
 
 — Comme ça, a-t-elle dit.
 
-— Je vais faire mal.
-
-— Vous ne pouvez pas. C'est vous qui me l'avez appris au septième jour, sur une crête, en me disant que l'air prend tout. Alors ce soir, Cael, vous ne pouvez pas.
+Je n'ai rien répondu. Il n'y avait rien à répondre. Depuis l'âge de six ans je sais par cœur la liste de ce qu'un Braise ne touche pas, et elle venait de la défaire dans l'ordre, en commençant par la fin.
 
 Elle a approché la figure. J'ai reculé d'un demi-pouce, par réflexe, et elle a suivi, et sa bouche a trouvé la mienne.
 
@@ -46,7 +36,7 @@ Je me suis arrêté net.
 
 Alors j'ai continué, et j'ai appris cette nuit-là un vocabulaire entier que je n'avais jamais eu : ce que veut dire un bruit, ce que veut dire une main qui serre l'arrière de mon crâne, ce que veut dire un genou qui remonte le long de ma cuisse. C'est une langue. Personne ne me l'avait parlée.
 
-Sa peau, sous ma bouche, sentait le sel de trois jours de marche et autre chose dessous, plus bas, plus épais, une odeur qui m'est entrée dans le ventre comme un coup et qui m'a fait comprendre d'un seul coup ce que c'était que le désir dans un corps — pas l'idée qu'on s'en fait à distance pendant vingt-deux ans : la chose elle-même, qui serre et qui presse et qui ne demande pas la permission.
+Et j'ai compris d'un seul coup ce que c'était que le désir dans un corps — pas l'idée qu'on s'en fait à distance pendant vingt-deux ans : la chose elle-même, qui serre et qui presse et qui ne demande pas la permission.
 
 Quand j'ai descendu la main entre ses cuisses, elle était trempée.
 
@@ -64,9 +54,7 @@ Elle a ri — dans ma bouche, un rire court, le premier vrai que je lui aie ente
 
 Puis elle a cessé de rire, et sa tête est partie en arrière, et j'ai compris que j'avais trouvé.
 
-Ce qui s'est passé ensuite, je ne peux le dire que d'une seule façon, et il faut que ce soit celle-là, parce que c'est la seule qui soit vraie.
-
-J'ai lâché.
+Et là, j'ai lâché.
 
 Pas les mains. Pas le corps. Ce que je tiens fermé depuis l'âge de six ans, ce que je surveille en dormant, ce que je mesure à la seconde près chaque fois qu'un être humain passe à moins d'un pas de moi — je l'ai ouvert en entier, d'un coup, comme on ouvre une vanne, parce que pour une nuit ça ne pouvait rien détruire.
 

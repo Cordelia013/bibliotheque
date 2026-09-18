@@ -12,7 +12,9 @@ J'ai relevé le premier caillou. Je l'ai fait par principe, avec l'heure et l'es
 
 *Fin de l'estimation. Reprise du relevé.*
 
-Il a fallu encore une lieue pour que l'air redevienne de l'air. Le vent tombait ; ou plutôt il continuait de souffler, mais il n'avait plus rien à faire de nous. Cael a enlevé son linge. Il a respiré, une fois, à fond, la bouche ouverte, comme un homme qui sort de l'eau.
+Il a fallu encore une lieue pour que l'air redevienne de l'air. Le vent tombait ; ou plutôt il continuait de souffler, mais il n'avait plus rien à faire de nous. Cael n'avait plus de linge depuis la veille. Il a respiré, une fois, à fond, la bouche ouverte, comme un homme qui sort de l'eau.
+
+J'ai dénoué le sien, qui était sur ma figure depuis vingt heures, et je le lui ai rendu. Il l'a pris. Il ne l'a pas remis.
 
 Et il s'est arrêté, et il a regardé, et je me suis mise à côté de lui — à côté, pas derrière — et j'ai regardé aussi.
 
