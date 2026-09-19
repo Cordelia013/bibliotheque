@@ -674,7 +674,7 @@ function appliquerLecture(){
     ba.setAttribute('aria-label', 'Alignement du texte : ' + ba.textContent); }
   resumerReglages();
   const vt = $('valTaille'), vi = $('valInter');
-  if (vt) vt.textContent = nombre(TAILLES[S.taille]) + ' px';
+  if (vt) vt.textContent = nombre(TAILLES[S.taille]) + ' px';
   if (vi) vi.textContent = nombre(INTERLIGNES[S.inter].toFixed(2));
   ['tMoins','tPlus','iMoins','iPlus'].forEach(id => { const b=$(id); if(!b) return;
     b.disabled = (id==='tMoins' && S.taille===0) || (id==='tPlus' && S.taille===TAILLES.length-1)
@@ -683,7 +683,7 @@ function appliquerLecture(){
 
 function resumerReglages(){
   const r = $('rTexte'); if (!r) return;
-  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + nombre(TAILLES[S.taille]) + ' px · interligne '
+  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + nombre(TAILLES[S.taille]) + ' px · interligne '
     + nombre(INTERLIGNES[S.inter]) + ' · ' + (S.align === 'justifie' ? 'justifié' : 'à gauche');
 }
 
@@ -899,7 +899,7 @@ function ouvrirLivre(id){
     requestAnimationFrame(() => { plus.style.display =
       $('gRes').scrollHeight > $('gRes').clientHeight + 2 ? '' : 'none'; }); }
   // « 0 % » en grand n'apprend rien avant la première page.
-  $('gPct').innerHTML = p + ' %<small>lu</small>';
+  $('gPct').innerHTML = p + ' %<small>lu</small>';
   $('gPct').style.display = p === 0 ? 'none' : '';
   $('gBar').parentElement.style.display = p === 0 ? 'none' : '';
   $('gBar').style.width = p + '%';
