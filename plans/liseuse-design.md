@@ -65,7 +65,7 @@ séparation.
   20 px sur les pastilles, 14 px sur la feuille du bas, 4 px sur les couvertures.
 - Corps : `TAILLES = [15.5, 16.5, 18, 20, 22.5]`, défaut 18 px.
   Interlignes : `[1.56, 1.67, 1.78, 1.9, 2.05]`, défaut 1,78.
-- Colonne de texte : `--mesure: 33em`.
+- Colonne de texte : `--mesure: 30em` depuis le contre-audit (33 em auparavant).
 - Cibles tactiles : 44 px partout, onglets du tiroir et boutons de réglage compris.
 - Nombres : virgule décimale et espace insécable avant l'unité (`nombre()`).
 
@@ -82,6 +82,34 @@ image. Chargement différé ; les fichiers entrent dans le précache du service 
 
 Déclarés : `braises`, `castellano`. **Fichiers à déposer** : tant qu'ils manquent,
 ces deux livres s'affichent avec leur SVG.
+
+## Contre-audit du 19 septembre (commit `159eeb0`)
+
+- **Panneau « Affichage »** : le bouton rond de la barre et la ligne « Affichage »
+  du tiroir ouvrent une feuille basse sur fond transparent (`.fscrim.leger`,
+  `.feuille.reglage`) : thème, taille, interligne, alignement. Les contrôles
+  (`#rDetail`) vivent hors du DOM entre deux ouvertures (`panneauReglages`).
+- **Livre commencé** (`commence()`) : toucher sa couverture ouvre le chapitre en
+  cours ; la page de garde passe progression et action avant le résumé
+  (`#vCover.commence`).
+- **Nouveaux chapitres** : `S.connus[id]` garde le nombre de chapitres connus à la
+  dernière ouverture du livre (`connaitre()`) ; la fiche affiche la différence
+  (`nouveaux()`), en ambre, sans aplat. Le badge NOUVEAU et `estNouveau()` sont
+  retirés.
+- **Une seule mesure d'avancement** sur les fiches et la carte « Reprendre » : la
+  position (« Chapitre 12 sur 52 » et sa jauge). Le pourcentage lu reste sur la
+  page de garde, suivi de « lu ».
+- **Fin de livre** : dernier paragraphe « FIN » en `p.finmanuscrit` ; pas de ligne
+  d'état au dernier chapitre ; retour à la bibliothèque en bouton principal.
+- **Sommaire** : `chapline.lu` porte une coche ; « lu » reste lisible par les
+  lecteurs d'écran (`.vh`).
+- **Bibliothèque** : titre et compteur masqués (la barre dit déjà
+  « Bibliothèque ») ; genres sur une rangée à toutes les largeurs, défilables à la
+  molette ; `.wrap` à 1 040 px au-delà de 900 px.
+- **Colonne de lecture** : `--mesure: 30em`, à confirmer avec Literata chargée.
+- **Note** : extrait coupé sur un mot ; compteur à partir de 200 signes.
+
+Reste ouvert (lot B) : recherche plein texte, vue « Mes notes ».
 
 ---
 
