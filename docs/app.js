@@ -940,6 +940,7 @@ function ongletActif(nom){
     const bt=$(t), pn=$(p); if(!bt||!pn) return;
     bt.classList.toggle('on', t===nom);
     bt.setAttribute('aria-selected', t===nom ? 'true' : 'false');
+    bt.tabIndex = t===nom ? 0 : -1;
     pn.style.display = (t===nom) ? '' : 'none';
   });
 }
@@ -1093,6 +1094,43 @@ function gererImmersif(){
   const noms = { backBtn:'Retour à la bibliothèque', bmBtn:'Marquer ce passage',
                  menuBtn:'Ouvrir le sommaire', closeBtn:'Fermer le sommaire' };
   Object.keys(noms).forEach(id => { const b = $(id); if (b) { b.setAttribute('aria-label', noms[id]); b.removeAttribute('title'); } });
+
+  // Onglets du tiroir : le rôle « tab » promet la navigation aux flèches.
+  [['tabChaps','paneChaps'],['tabBms','paneBms'],['tabPers','panePers']].forEach(([t]) => {
+    $(t).tabIndex = $(t).classList.contains('on') ? 0 : -1; });
+  tl.addEventListener('keydown', ev => {
+    const ids = ['tabChaps','tabBms','tabPers'], i = ids.indexOf(document.activeElement && document.activeElement.id);
+    if (i < 0) return;
+    let j = null;
+    if (ev.key === 'ArrowRight') j = (i + 1) % ids.length;
+    else if (ev.key === 'ArrowLeft') j = (i + ids.length - 1) % ids.length;
+    else if (ev.key === 'Home') j = 0;
+    else if (ev.key === 'End') j = ids.length - 1;
+    if (j === null) return;
+    ev.preventDefault(); ongletActif(ids[j]); $(ids[j]).focus();
+  });
+
+  // Les messages de confirmation n'étaient pas annoncés aux lecteurs d'écran.
+  const to = $('toast');
+  to.setAttribute('role','status'); to.setAttribute('aria-live','polite'); to.setAttribute('aria-atomic','true');
+
+  // Balayage latéral dans le texte : vers la gauche, chapitre suivant ; vers la
+  // droite, chapitre précédent. Geste net et rapide seulement, pour ne jamais
+  // se confondre avec le défilement vertical ni avec une sélection.
+  let tx = 0, ty = 0, tt = 0, tn = 0;
+  $('chapBody').addEventListener('touchstart', ev => {
+    tn = ev.touches.length; if (tn !== 1) return;
+    tx = ev.touches[0].clientX; ty = ev.touches[0].clientY; tt = Date.now();
+  }, {passive:true});
+  $('chapBody').addEventListener('touchend', ev => {
+    if (tn !== 1 || vue !== 'read' || feuilleOuverte() || $('drawer').classList.contains('open')) return;
+    const t = ev.changedTouches[0], dx = t.clientX - tx, dy = t.clientY - ty;
+    if (Date.now() - tt > 600 || Math.abs(dx) < 80 || Math.abs(dy) > Math.abs(dx) * .5) return;
+    if (window.getSelection && String(window.getSelection())) return;
+    const e = etat(livre.id);
+    if (dx < 0 && e.chap < livre.chapitres.length - 1) $('nextBtn').click();
+    else if (dx > 0 && e.chap > 0) $('prevBtn').click();
+  }, {passive:true});
 
   // Le zoom était bloqué par maximum-scale=1. index.html ne se modifie pas (il
   // porte les couvertures) : on réécrit la balise d'ici.
