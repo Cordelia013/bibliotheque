@@ -6,7 +6,7 @@ ce qui conditionne autre chose passe devant, même si c'est plus loin dans le li
 
 Calendrier : septembre 2026 → mars 2027, sept blocs.
 
-> **État au 18 septembre 2026 : les blocs 0, 1 et 2 sont appliqués.** Manuscrit à **67 140 mots**,
+> **État au 19 septembre 2026 : les blocs 0, 1 et 2 sont appliqués, le bloc 3 est écrit et attend relecture.** Au 18 septembre, manuscrit à **67 140 mots**,
 > 50 chapitres plus **deux chapitres provisoires** (`39bis`, `40bis`) qui seront absorbés par la
 > renumérotation de février, conformément à la règle 3. Voir chaque bloc pour ce qui a été
 > retenu et pour les écarts d'exécution.
@@ -147,21 +147,36 @@ chapitres consécutifs ; durées écoulées monotones (31 → 33 → 34 → 36 j
 
 ## Bloc 3 — décembre 2026 · La crise et le retour actif
 
-Le bloc le plus chargé. Il consomme `A1` et `B1-B2`, et produit tout ce dont la fin a besoin.
+> **Appliqué le 19 septembre 2026, en brouillon, à relire.** Les décisions 2 et 3 n'ayant pas
+> été tranchées par l'auteur, les recommandations ont été appliquées ; elles restent révisables.
+> Décision 2 : l'engagement écrit est gardé, et au ch. 49 Vael devra le retourner (une ligne de
+> plus sur du papier, donc une fuite de plus) avant de céder par comptabilité. Décision 3 :
+> Cael redescend pour elle, sans jamais le dire. Items 3.3-b et 3.4 fondus en une scène.
 
-| | Item | Recommandation |
+| | Item | État |
 |---|---|---|
-| 3.1 | **`A2` Développer l'interrogatoire du ch. 43** | *« Nommez-moi une chose que vous avez faite pour l'aider à chercher »* mérite trois échanges, pas un. Elle doit essayer et échouer deux fois avant *« Je ne peux pas »*. Elle a maintenant de quoi essayer : elle a refusé la table au ch. 40 bis, et elle ne peut pas le dire sans avouer qu'elle n'a rien demandé sur Aunis. Ne scindez pas encore le chapitre — écrivez, la scission est en février. |
-| 3.2 | **`B3` La décision de Cael, jouée** (ch. 44) | Devant Hesk, qui vient de dire *« Vous reviendrez. Pas vous deux. Ceux d'après. »* Ne lui faites pas dire pourquoi. Faites-lui poser les douze planches de bardeau et dire oui. |
-| 3.3 | **`A3` Deux initiatives d'Ysée** (ch. 44-48) | La première : elle demande à être deuxième dans l'ordre de marche au lieu de l'accepter. La seconde, essentielle : **elle arrache à Halden, au bord ou juste après, l'engagement écrit qu'il tiendra sa promesse** — une ligne dans le registre de toile noire, avec sa propre colonne de droite. |
-| 3.4 | **`C1` Des comptes sur le sel** (ch. 48) | Au muret de l'enclos, devant le registre. Elle lui demande ce qu'il dira à son père. Sa réponse est ce que Vael achètera au ch. 49. |
-| 3.5 | **Jouer le conseil du ch. 44** | La moitié du chapitre est un compte rendu. Ce conseil décide de la vie de cinq personnes : donner trois répliques à Hesk et Tervi au lieu de les résumer. |
+| 3.1 | **`A2` L'interrogatoire du ch. 43** | **Appliqué — +260 mots.** Trois échanges. 1) *« Je ne l'en ai pas empêché »* : Halden lui renvoie la consigne qu'elle vient de lire elle-même (*« Vous ne le lui interdirez pas non plus »*). 2) *« Avant-hier matin, j'ai… »* : elle s'arrête en comprenant que son refus de la table servait la lettre — elle avait choisi de rapporter la carte, exactement ce que Vael attendait. 3) *« Je ne peux pas. »* |
+| 3.2 | **`B3` La décision de Cael, jouée** (ch. 44) | **Appliqué.** Hesk lui dit *« Vous reviendrez. Pas vous deux. Ceux d'après. »* en face, par-dessus la salle, et Cael dit oui debout, devant lui. Puis : *« — Et elle ? — Elle passe derrière moi. »* Aucun pourquoi. Les douze planches restent à la fin du chapitre. |
+| 3.3-a | **Première initiative d'Ysée** (ch. 45) | **Appliqué, avec un écart — +260 mots.** L'ordre de marche n'a pas été touché : le ch. 45 tire toute sa force de *« Il m'a mise deuxième »*, et le lui faire demander détruirait la lecture. À la place, à Ghar, elle monte sur le mur sud poser à Orsa la question qu'elle n'a jamais posée : comment était Aunis avant. Réponse : les accoucheuses du quartier bas la faisaient chercher l'hiver pour réchauffer les nouveau-nés ; elle chantait faux. Ysée rouvre le blanc pour la première fois depuis la halle deux, pour une phrase qui ne parle pas d'elle. |
+| 3.3-b + 3.4 | **L'engagement de Halden et les comptes sur le sel** (ch. 48) | **Appliqué en une scène — +320 mots.** Au muret, Ysée lui demande ce qu'il dira à son père : *« Qu'il n'y a rien là-haut. »* Les trois mines : il n'est pas allé les voir, *« il aurait fallu que je les écrive »*. Elle lui fait écrire sous sa propre ligne : *Fours hauts. Deux cent onze. Rien vu, rien dit.* Colonne de droite vide : elle se remplit *« le jour où je meurs sans l'avoir dit »*. |
+| 3.5 | **Jouer le conseil du ch. 44** | **Appliqué.** Hesk a ses répliques au lieu d'un résumé ; Tervi garde son argument et reçoit une réplique de Hesk (*« Et s'il ment mal ? »*). Cael et Ysée sont présents au fond de la halle. |
 
-**Note.** 3.3 et 3.4 sont la même scène si vous voulez : l'engagement arraché *est* la réponse
-sur le sel. C'est plus économique et plus fort. Je le recommande.
+**Cohérence corrigée au passage.** Le ch. 44 disait que Hesk avait déclaré qu'Ysée ne
+repartirait pas, alors qu'au ch. 40 bis il clôt le conseil par *« elle est de passage »*. La
+phrase est supprimée.
 
-**Contrôle :** Ysée n'est plus passive sur les ch. 43-49 ; le trou de l'objection de Vael a une
-pièce pour le boucher.
+**Ce que le bloc 3 laisse ouvert pour le bloc 4.** Au ch. 49, Ysée répond encore *« Je ne sais
+pas »* à la question de Vael alors qu'elle a vu Halden écrire l'engagement : l'item 4.2 doit
+maintenant être fait, faute de quoi le ch. 49 contredit le ch. 48.
+
+**À valider par l'auteur (inventions de ce bloc).** Aunis réchauffait les nouveau-nés du quartier
+bas les six derniers hivers avant la rupture ; elle chantait faux. Halden n'est pas allé voir les
+trois mines. Si Cael est né l'hiver au quartier bas, Aunis l'a peut-être tenu : le texte ne le
+dit pas et ne doit pas le dire sans décision pour le tome 2.
+
+**Contrôle :** Ysée agit trois fois sur les ch. 43-48 (elle cherche une réponse, elle interroge
+Orsa, elle arrache l'engagement) ; Cael décide à voix haute ; le trou de l'objection de Vael a
+sa pièce.
 
 ---
 
@@ -239,7 +254,7 @@ vous vous ennuyez.
 | 0 | fin sept. 2026 | décisions | 3 | **appliqué** |
 | 1 | oct. 2026 | la traversée | 3 | **appliqué** — +825 mots |
 | 2 | nov. 2026 | l'acte IV | 3 | **appliqué** — +2 405 mots |
-| 3 | déc. 2026 | la crise, le retour | 5 | ≈ +2 100 mots |
+| 3 | déc. 2026 | la crise, le retour | 5 | **appliqué, à relire** — +1 100 mots |
 | 4 | janv. 2027 | la fin | 5 | ≈ +750 mots |
 | 5 | févr. 2027 | coupes et renumérotation | 8 | ≈ −2 600 mots |
 | 6 | mars 2027 | style | 7 + reprises | ≈ ±0 |
