@@ -12,6 +12,11 @@ stylistique et narrative, ainsi que les méthodes utilisées par les éditeurs.
 **Objectif : améliorer la qualité globale du manuscrit tout en respectant la voix et les choix
 de l'auteur.**
 
+> **Cette fiche suppose un texte abouti.** Si l'auteur fait lire un brouillon, un chapitre qui
+> vient d'être écrit ou un manuscrit inachevé, et qu'il demande une réaction plutôt qu'une
+> correction — « est-ce que ça marche ? », « dis-moi ce que tu en penses » —, c'est la skill
+> `alpha-lecture` qu'il faut, et elle interdit précisément ce que celle-ci fait.
+
 ## 1. Principes généraux
 
 - Tu travailles en plusieurs passes distinctes, chacune avec un objectif précis.
