@@ -20,11 +20,16 @@ est enregistrée dans le navigateur, par livre.
 ## Organisation
 
 ```
-chapitres/<livre>/chapitre-NN.md   un fichier par chapitre
+chapitres/<livre>/chapitre-NN.md   un fichier par chapitre — la source
 couvertures/<livre>.svg            une couverture vectorielle par livre
-plans/                             plans de développement et analyses de genre
+plans/                             plans de développement, audits, décisions de cohérence
+methode/                           documentation du métier : écrire, réviser, publier, vendre
+prompts/                           fiches de travail autonomes et checklist — générées
+.claude/skills/                    les mêmes fiches, activables dans l'assistant
+scripts/                           générateurs annexes : icônes, EPUB, prompts
 docs/index.html                    la liseuse, générée — ne pas éditer à la main
 maj_bibliotheque.py                régénère docs/index.html
+CLAUDE.md                          mémoire du projet : où est quoi, et les règles
 ```
 
 ## Format d'un chapitre
