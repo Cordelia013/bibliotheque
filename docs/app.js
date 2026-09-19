@@ -150,7 +150,23 @@ function poserAccent(couleur){
   let fond = '';
   try { fond = getComputedStyle(app).getPropertyValue('--paper-deep').trim(); } catch(e){}
   if (!/^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(fond)) fond = S.theme === 'nuit' ? '#191D30' : (S.theme === 'sepia' ? '#EADFC9' : '#F1F2F6');
-  app.style.setProperty('--accent-texte', accentLisible(accentCourant, fond));
+  app.style.setProperty('--accent-texte', eloignerDuRose(accentLisible(accentCourant, fond), fond));
+}
+/* En Nuit, un accent de livre éclairci pour rester lisible peut tomber dans la
+   famille du rose, réservé à ce que la lectrice a marqué (Castellano : #db5a6f
+   contre #F08BA4). Sa teinte est alors ramenée vers le rouge franc, à contraste
+   égal ou supérieur. */
+function eloignerDuRose(hex, fond){
+  try {
+    if (S.theme !== 'nuit') return hex;
+    const [h, s, l] = _versHsl(hex), deg = h * 360;
+    if (deg < 315 && deg > 2) return hex;
+    for (let i = 0; i <= 40; i++){
+      const c = _versHex(2/360, Math.min(1, s), Math.min(1, l + i/100));
+      if (contraste(c, fond) >= 4.5) return c;
+    }
+    return hex;
+  } catch(e){ return hex; }
 }
 
 /* La hauteur de la barre supérieure dépend du remplissage d'encoche : on la
@@ -525,7 +541,18 @@ function mesurerBarre(){
   }
 
   /* D · Colonne de lecture : autour de 65 signes avec Literata. */
-  html #app { --mesure: 30em; }`;
+  html #app { --mesure: 30em; }
+
+  /* ————— Page de garde, audit du 19 septembre ————— */
+  html #app .gtitle { margin-bottom: 2px; }
+  html #app .gsous { font-family: var(--f-titre); font-variation-settings: 'SOFT' 40, 'WONK' 1;
+    font-style: italic; font-weight: 400; font-size: 20px; line-height: 1.25; margin: 0 0 14px; color: var(--ink); }
+  html #app .gres { margin-left: 0; margin-right: 0; }
+  html #app .gstat.seul { border: none; padding: 0; margin-bottom: 14px; }
+  html #app .gstat.seul .glab { margin-top: 0; }
+  html #app .glab { font-size: 12px; letter-spacing: .06em; }
+  html #app .gchips span { font-size: 12px; }
+  html #app #vCover #tocBtn { margin-bottom: 26px; }`;
   document.head.appendChild(s);
 })();
 
@@ -552,7 +579,7 @@ function appliquerLecture(){
     ba.setAttribute('aria-label', 'Alignement du texte : ' + ba.textContent); }
   resumerReglages();
   const vt = $('valTaille'), vi = $('valInter');
-  if (vt) vt.textContent = nombre(TAILLES[S.taille]) + ' px';
+  if (vt) vt.textContent = nombre(TAILLES[S.taille]) + ' px';
   if (vi) vi.textContent = nombre(INTERLIGNES[S.inter].toFixed(2));
   ['tMoins','tPlus','iMoins','iPlus'].forEach(id => { const b=$(id); if(!b) return;
     b.disabled = (id==='tMoins' && S.taille===0) || (id==='tPlus' && S.taille===TAILLES.length-1)
@@ -561,7 +588,7 @@ function appliquerLecture(){
 
 function resumerReglages(){
   const r = $('rTexte'); if (!r) return;
-  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + nombre(TAILLES[S.taille]) + ' px · interligne '
+  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + nombre(TAILLES[S.taille]) + ' px · interligne '
     + nombre(INTERLIGNES[S.inter]) + ' · ' + (S.align === 'justifie' ? 'justifié' : 'à gauche');
 }
 
@@ -597,7 +624,7 @@ function save(){ if(!ready) return; try{ localStorage.setItem(KEY, JSON.stringif
 function motsDe(c){ return c.p.join(' ').split(/\s+/).length; }
 function minutesDe(c){ return Math.max(1, Math.round(motsDe(c)/220)); }
 function duree(min){ if (min < 60) return min + ' min';
-  const h = Math.floor(min/60), r = min%60; return r ? h+' h '+r : h+' h'; }
+  const h = Math.floor(min/60), r = min%60; return r ? h+' h '+String(r).padStart(2,'0') : h+' h'; }
 
 /* ---- dates ---- */
 function dateCourte(iso){
@@ -751,17 +778,24 @@ function ouvrirLivre(id){
   poserAccent(livre.couleur);
   const e = etat(id), p = pct(livre);
   $('gCover').innerHTML = couverture(livre);
-  $('gTitle').textContent = livre.titre;
+  // « Le Prix du Silence, Don Castellano » : un titre et un sous-titre, comme sur
+  // la couverture. La virgule les sépare ; sans virgule, le titre reste entier.
+  const k = livre.titre.indexOf(', ');
+  $('gTitle').textContent = k > 0 ? livre.titre.slice(0, k) : livre.titre;
+  $('gSous').textContent = k > 0 ? livre.titre.slice(k + 2) : '';
+  $('gSous').style.display = k > 0 ? '' : 'none';
   connaitre(livre);
   $('gAuth').textContent = livre.serie || livre.auteur;
+  // La date de mise à jour n'a d'intérêt que pour un livre qui s'écrit encore.
   $('gMeta').textContent = [livre.serie ? livre.auteur : '', statutLisible(livre.statut),
-    livre.maj ? 'mis à jour le ' + dateCourte(livre.maj) : ''].filter(Boolean).join(' · ');
+    livre.maj && livre.statut !== 'Terminé' ? 'mis à jour le ' + dateCourte(livre.maj) : ''].filter(Boolean).join(' · ');
   $('gChips').innerHTML = livre.genres.map(g=>`<span>${esc(g)}</span>`).join('');
   // Livre commencé : la progression et l'action passent avant le résumé.
   const v = $('vCover'), w = v.querySelector('.wrap'), deja = commence(livre);
   v.classList.toggle('commence', deja);
-  const ordre = deja ? ['gCover','gTitle','gAuth','gMeta','gStat','readBtn','tocBtn','gChips','gRes','gResPlus','resetBtn']
-                     : ['gCover','gTitle','gAuth','gMeta','gChips','gRes','gResPlus','gStat','readBtn','tocBtn','resetBtn'];
+  // Dans tous les états, l'action vient avant le résumé et les genres restent sous
+  // le titre qu'ils qualifient.
+  const ordre = ['gCover','gTitle','gSous','gAuth','gMeta','gChips','gStat','readBtn','tocBtn','gRes','gResPlus','resetBtn'];
   ordre.forEach(id => { const x = $(id); if (x) w.appendChild(x); });
   $('gRes').textContent = livre.resume;
   $('gRes').classList.remove('ouvert');
@@ -770,7 +804,7 @@ function ouvrirLivre(id){
     requestAnimationFrame(() => { plus.style.display =
       $('gRes').scrollHeight > $('gRes').clientHeight + 2 ? '' : 'none'; }); }
   // « 0 % » en grand n'apprend rien avant la première page.
-  $('gPct').innerHTML = p + ' %<small>lu</small>';
+  $('gPct').innerHTML = p + ' %<small>lu</small>';
   $('gPct').style.display = p === 0 ? 'none' : '';
   $('gBar').parentElement.style.display = p === 0 ? 'none' : '';
   $('gBar').style.width = p + '%';
@@ -780,7 +814,13 @@ function ouvrirLivre(id){
     : (p===100 ? 'Lu en entier · ' + livre.chapitres.length + ' chapitres'
     : 'Chapitre ' + livre.chapitres[e.chap].n + ' sur ' + livre.chapitres.length + ' · ' + duree(restant) + ' restantes');
   const vide = !livre.chapitres.length;
-  $('readBtn').textContent = vide ? 'Bientôt disponible' : (p===0 ? 'Commencer la lecture' : 'Reprendre au chapitre ' + livre.chapitres[e.chap].n);
+  $('gStat').classList.toggle('seul', p === 0);
+  // Livre lu en entier : on propose de le relire, sans rien effacer.
+  relire = p >= 100;
+  $('readBtn').textContent = vide ? 'Bientôt disponible' : (p===0 ? 'Commencer la lecture'
+    : relire ? 'Relire depuis le début' : 'Reprendre au chapitre ' + livre.chapitres[e.chap].n);
+  const nbm = e.bookmarks.length;
+  $('tocBtn').textContent = nbm ? 'Sommaire · ' + nbm + (nbm > 1 ? ' marque-pages' : ' marque-page') : 'Sommaire';
   $('readBtn').disabled = vide; $('readBtn').style.opacity = vide ? '.45' : '';
   $('tocBtn').style.display = vide ? 'none' : '';
   $('resetBtn').style.display = p===0 ? 'none' : '';
@@ -852,7 +892,7 @@ function aller(v, restore){
   app.classList.remove('immersif');
   app.classList.toggle('lecture', v==='read');
   $('barTitle').textContent = v==='lib' ? 'Bibliothèque'
-    : (v==='cover' ? livre.titre : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
+    : (v==='cover' ? '' : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
   inscrire(v);
   if (v==='read') renderChap(restore); else { $('progBar').style.width = '0'; window.scrollTo(0,0); }
   if (v==='lib') { livre = null; poserAccent('#6d1f2c'); renderLib(); }
@@ -1166,7 +1206,11 @@ $('backBtn').onclick = () => {
   if (!st.ov && st.prec && st.prec === parentDe(vue)) { history.back(); return; }
   if (vue==='read') ouvrirLivre(livre.id); else aller('lib');
 };
-$('readBtn').onclick = () => aller('read', true);
+let relire = false;
+$('readBtn').onclick = () => {
+  if (relire) { const e = etat(livre.id); e.chap = 0; e.scroll = 0; save(); aller('read', false); return; }
+  aller('read', true);
+};
 $('resetBtn').onclick = () => {
   const e = etat(livre.id), k = e.bookmarks.length, c = livre.chapitres[e.chap];
   const pos = 'Votre progression (chapitre ' + (c ? c.n : 1) + ' sur ' + livre.chapitres.length + ')';
@@ -1300,6 +1344,8 @@ function gererImmersif(){
   panneauReglages = $('rDetail'); panneauReglages.remove();
 
   // Page de garde : une ligne de métadonnées, et un conteneur pour la progression.
+  const gs = document.createElement('p'); gs.className = 'gsous'; gs.id = 'gSous';
+  $('gTitle').insertAdjacentElement('afterend', gs);
   const gm = document.createElement('p'); gm.className = 'gmeta'; gm.id = 'gMeta';
   $('gAuth').insertAdjacentElement('afterend', gm);
   document.querySelector('#vCover .gstat').id = 'gStat';
