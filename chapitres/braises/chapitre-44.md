@@ -10,7 +10,7 @@ C'était le rang suivant, rien de plus. Le sol est peu profond sur le plat, on c
 
 Sarn a dit son nom une fois à voix haute et les autres l'ont répété. Je l'ai répété aussi.
 
-Ils sont deux, maintenant, dans cette terre. Aunis avait cinquante-trois ans. Bran en avait vingt-trois. Je fais le compte une fois, et ce sera la dernière. Aunis a tenu vingt-deux ans en regardant vers le sud. Bran a tenu neuf jours en remontant vers le nord. Moi, on me donne encore treize ans. Mais ce chiffre-là, c'est une maison de sel de Valdren qui l'a écrit, pas le feu. Je le sais depuis huit jours. Je redescends quand même.
+Ils sont deux, maintenant, dans cette terre. Aunis avait cinquante-trois ans. Bran en avait vingt-trois. Je fais le compte une fois, et ce sera la dernière. Aunis a tenu vingt-deux ans en regardant vers le sud. Bran a tenu douze jours en remontant vers le nord. Moi, on me donne encore treize ans. Mais ce chiffre-là, c'est une maison de sel de Valdren qui l'a écrit, pas le feu. Je le sais depuis huit jours. Je redescends quand même.
 
 Trois points sur la même ligne. Je n'ai pas besoin de tracer la droite ; c'est le métier d'Ysée, pas le mien.
 

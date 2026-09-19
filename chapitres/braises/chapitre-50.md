@@ -194,7 +194,7 @@ Il sortira après-demain, en fin de journée. Il sera plein. Il ira s'asseoir co
 
 Orsa tient la veille sur le mur sud. C'est elle qui le verra la première.
 
-Je serai à la brèche avant lui. Je lui prendrai les poignets comme je les ai pris à Bran — le premier jour, et pas le neuvième.
+Je serai à la brèche avant lui. Je lui prendrai les poignets comme je les ai pris à Bran — le premier jour, et pas le douzième.
 
 C'est tout ce que je sais faire, et cette fois-ci j'arrive avant le chariot.
 

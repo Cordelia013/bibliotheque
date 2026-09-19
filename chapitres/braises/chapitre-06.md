@@ -86,6 +86,10 @@ Il a cherché à la troisième page, parce que lui ne la connaissait pas par cœ
 
 Il a dit ça sans méchanceté. Il faisait son métier, et son métier c'est de savoir ce que les choses coûtent, et pendant le temps de deux phrases cet homme m'a expliqué ma vie mieux que personne avant lui.
 
+Dans la cour des fours, Halden Serrande m'avait dit que la Guilde payait trois fois ce que vaut un contrat de four. Halden sait ce que coûte une chose ; il l'a su toute sa vie mieux que moi. Ce n'était donc pas une erreur.
+
+C'est la première fois que je l'ai pris à mentir, et il ne mentait pas pour gagner quelque chose : il mentait pour n'avoir pas à dire que son père avait vendu au-dessous du prix.
+
 J'ai signé.
 
 ---

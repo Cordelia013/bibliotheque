@@ -42,7 +42,7 @@ Il est plein.
 
 Il n'y a pas d'autre mot et il n'y en aura pas. Un Braise qui a passé la Ligne prend et garde ; c'est comme ça qu'on y passe, et de l'autre côté il faut rendre. Moi, j'ai rendu. J'avais quelqu'un contre moi trois nuits et une main sur ma peau à la cinquième halte. Ce que je lâchais était mangé par l'air avant d'arriver à Ysée, et ça m'a fait une porte.
 
-Bran a porté neuf hommes pendant trois jours. Il est sorti de la Ligne il y a treize jours avec tout ça dedans, et depuis il monte, et il n'a rien lâché.
+Bran a porté neuf hommes pendant trois jours. Il est sorti de la Ligne il y a onze jours avec tout ça dedans, et depuis il monte, et il n'a rien lâché.
 
 On le voit à des choses que personne d'autre ne voit. Il ne transpire pas. L'air au-dessus de ses épaules ne tient pas droit. Il tient les bras écartés du corps d'un demi-pouce, en permanence, comme un homme qui vient de se laver les mains et qui cherche un linge.
 

@@ -32,7 +32,7 @@ Orsa est descendue avec sa lenteur de propriétaire. Elle a regardé les cinq. H
 
 — Sur la Ligne ?
 
-— Après. Neuf jours après. Il n'avait rien rendu.
+— Après. Il n'avait rien rendu.
 
 Orsa a hoché la tête, une fois, sans demander d'explication. Dans cette ville, tout le monde sait ce que veut dire *il n'avait rien rendu* ; c'est le Sud qui a besoin qu'on le lui explique.
 

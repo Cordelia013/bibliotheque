@@ -44,7 +44,7 @@ J'ai roulé la carte et je l'ai portée à l'étage. Le vieux Marbier l'a dérou
 
 J'ai vingt-quatre ans.
 
-Je suis redescendue par la cour. Il pleuvait sur les toits de Valdren, et la mer, en bas de la ville, avait cette couleur de plomb qu'elle prend à l'arrière-saison.
+Je suis redescendue par la cour. Il pleuvait sur les toits de Valdren, et la mer, en bas de la ville, avait cette couleur de plomb qu'elle prend quand l'été finit.
 
 Alors j'ai sorti mon autre carnet.
 

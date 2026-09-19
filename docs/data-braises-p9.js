@@ -420,7 +420,7 @@ const BRAISES_P9 = [
 "Il est entré derrière nous, avec un jour et demi de retard. Depuis deux jours, il prend pour treize sans rien lâcher : c'est la seule manière d'y passer. De l'autre côté, il faudra qu'il rende, et personne ne le lui aura dit. Ceux qui le savent sont tous de ce côté-ci.",
 "Il sortira après-demain, en fin de journée. Il sera plein. Il ira s'asseoir contre une pierre froide, dans une ville qu'on lui aura décrite morte, et il se dira que ça descend toujours au bout de trois jours.",
 "Orsa tient la veille sur le mur sud. C'est elle qui le verra la première.",
-"Je serai à la brèche avant lui. Je lui prendrai les poignets comme je les ai pris à Bran — le premier jour, et pas le neuvième.",
+"Je serai à la brèche avant lui. Je lui prendrai les poignets comme je les ai pris à Bran — le premier jour, et pas le douzième.",
 "C'est tout ce que je sais faire, et cette fois-ci j'arrive avant le chariot.",
 "Le reste, je ne le comprends pas. Je n'ai personne à qui le demander : il n'y a jamais eu de Braise qui ait traversé la Ligne deux fois, et il n'y en a jamais eu un seul à qui quelqu'un ait tenu la main.",
 "Alors je porte la question comme j'ai porté le reste.",

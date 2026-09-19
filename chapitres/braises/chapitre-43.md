@@ -180,7 +180,7 @@ Cael s'est mis à genoux devant Bran. Il lui a pris les deux poignets, de force,
 
 Il y a eu des gens autour. Berne. Le vieux du banc, Sarn, qui a mis longtemps à s'agenouiller et qui a posé ses mains sur la nuque de Bran. D'autres. Six, huit, je ne les ai pas comptés, et je le regrette.
 
-Ils sont cent quarante dans cette ville à porter le feu. Quelques-uns d'entre eux tenaient un garçon de vingt-trois ans en essayant de lui reprendre neuf jours.
+Ils sont cent quarante dans cette ville à porter le feu. Quelques-uns d'entre eux tenaient un garçon de vingt-trois ans en essayant de lui reprendre douze jours.
 
 Ça a marché un peu. J'ai vu que ça marchait un peu : il a repris de l'air, une fois, proprement, comme quelqu'un qui remonte.
 

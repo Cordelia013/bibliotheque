@@ -5,7 +5,7 @@ const BRAISES_P2 = [
 "pov": "Ysée",
 "p": [
 "La veille du départ, Cael était déjà dans la cour des écuries, près d'un cheval qui n'était pas sellé, les bras croisés, sans manteau.",
-"C'est la première chose que j'ai vue, et c'est celle que tout le monde voit : un Braise n'a pas froid. À l'aube, en fin d'automne, dans une cour où ma respiration faisait de la buée, la sienne n'en faisait pas.",
+"C'est la première chose que j'ai vue, et c'est celle que tout le monde voit : un Braise n'a pas froid. À l'aube, au début de l'automne, dans une cour où ma respiration faisait de la buée, la sienne n'en faisait pas.",
 "J'avais préparé quelque chose. Une phrase courtoise, neutre. Je ne l'ai pas dite, parce qu'en approchant j'ai vu ses mains.",
 "Elles n'étaient pas brûlées. C'est plus difficile à regarder que des brûlures. La peau était lisse, tendue, trop fine, comme du parchemin trop gratté — la peau d'un vieillard au bout des bras d'un homme jeune.",
 "Des années de four. L'acte de la Guilde n'en dit rien.",

@@ -11,10 +11,10 @@ texte : tout ce qui suit est un constat à trancher.
 Chaque point distingue **le fait** (ce que le texte dit, vérifiable) de **la conséquence**
 (ce qui ne ferme pas) et propose une correction minimale.
 
-> **État au 19 septembre 2026 : le premier lot est appliqué** — les six corrections qui ne
-> demandaient aucun arbitrage (A3, A4, A8, B2, C1, C2). Elles sont marquées **appliqué** dans
-> le corps du document. Restent les quatre décisions (A1, A6, A7, B1), les trois passages
-> d'écriture neuve (A2, C5, C7) et les quatre reprises de coupe (A5, C3, C6, C8).
+> **État au 19 septembre 2026.** Dix points sur dix-huit sont réglés : les six corrections sans
+> arbitrage (A3, A4, A8, B2, C1, C2), puis les quatre décisions de l'autrice — A1 **douze jours**,
+> A6 **Halden ment une fois**, A7 **rien ne bouge**, B1 **départ au début de l'automne**. Restent
+> les trois passages d'écriture neuve (A2, C5, C7) et les quatre reprises de coupe (A5, C3, C6, C8).
 
 ---
 
@@ -45,7 +45,7 @@ Les écarts ci-dessous sont donc des accidents locaux, pas un défaut de tenue g
 
 ## A. Contradictions de fait
 
-### A1. Le temps que Bran garde le feu : trois chiffres incompatibles
+### A1. Le temps que Bran garde le feu : trois chiffres incompatibles — **appliqué**
 
 **Le fait.** Le texte donne trois valeurs pour la même durée — de la sortie de la Ligne à la
 mort de Bran :
@@ -65,8 +65,15 @@ J24 (ch. 40), les quatre hommes restent « couchés quatre jours dans le quartie
 remontent en sept jours, arrivent à J35 (ch. 42) ; Bran meurt à J36 (ch. 43). Soit **douze
 jours**. Aucune des deux valeurs du texte ne tombe dessus.
 
-**Correction proposée.** Retenir **douze**, qui est la seule valeur que le calendrier autorise.
-« Neuf » ne peut pas être sauvé en raccourcissant le séjour à Ghar : la date de sortie est tenue
+**Correction appliquée : douze**, seule valeur que le calendrier autorise — et confirmée par un
+quatrième ancrage repéré en appliquant la correction : au ch. 45, Cael annonce à Orsa la mort
+d'Aunis « **il y a douze jours** », ce qui tombe juste (J34 → J46) et fixe l'échelle.
+
+Le chiffre a donc été **retiré** de la réplique sur Bran au même endroit — « — Après. Neuf jours
+après. » devient « — **Après.** Il n'avait rien rendu. » — pour éviter deux « douze jours »
+désignant deux morts différentes à six lignes d'intervalle. Le compte est porté par les ch. 43,
+44 et 50 ; le ch. 42, qui se situe la veille, passe à « il y a onze jours ».
+« Neuf » ne pouvait pas être sauvé en raccourcissant le séjour à Ghar : la date de sortie est tenue
 par deux ancrages indépendants (« il y a neuf jours » au ch. 40, « trois semaines plus tôt » au
 ch. 45) et la date de la mort par un troisième (le lendemain de l'enterrement d'Aunis, lui-même
 fixé au cinquième jour après l'arrivée de Cael). Il faut donc corriger les quatre occurrences de
@@ -143,7 +150,7 @@ distance (« deux jours à faire trois lieues » entre la sortie et la ferme), c
 profit d'une formule sans mesure (« sur le dernier sol qui acceptait une tente »). La demi-lieue
 n'est gagée nulle part ; les trois lieues le sont deux fois.
 
-### A6. Le prix du contrat : trois fois sa valeur, ou en dessous ?
+### A6. Le prix du contrat : trois fois sa valeur, ou en dessous ? — **appliqué**
 
 **Le fait.** Ch. 3, Halden : « Il paie **trois fois** ce que vaut un contrat de four, et mon père
 a soixante-douze ans et pense que l'argent vaut mieux que le sel. »
@@ -155,12 +162,20 @@ la valeur d'un contrat de four. Lecture possible : Halden justifie la décision 
 l'exagérant. Mais rien dans le texte ne signale l'exagération, et Halden est par ailleurs le
 personnage qui ne se dérobe jamais.
 
-**Correction proposée.** Soit aligner Halden sur le clerc (« il paie le prix d'un contrat de
-four pour un homme qu'il envoie mourir »), soit — meilleur — garder l'écart et le faire relever
-par Cael d'une demi-ligne au ch. 6, qui vient de lire l'acte : Halden a menti une fois sur le
-prix, et Cael le sait. Cela ne coûte rien et paie le personnage.
+**Correction appliquée.** L'écart est gardé et devient un fait de personnage : deux paragraphes
+au ch. 6, après la réplique du clerc, où Cael prend Halden en défaut. *« Halden sait ce que coûte
+une chose ; il l'a su toute sa vie mieux que moi. Ce n'était donc pas une erreur. (…) il ne
+mentait pas pour gagner quelque chose : il mentait pour n'avoir pas à dire que son père avait
+vendu au-dessous du prix. »*
 
-### A7. « Quatre cents charges de sel » : une journée de production vaut l'homme entier
+Effet de bord favorable : le ch. 6 amorce maintenant la question d'Ysée au ch. 48 — *« Qu'est-ce
+que vous direz à votre père ? »* — et la seule dérobade de Halden dans le livre porte, aux deux
+bouts, sur le même homme.
+
+Conséquence technique : le ch. 6 gagne deux paragraphes, donc les coupures de scène enregistrées
+dans `docs/app.js` ont été recalculées (`"6": [6, 12, 22, 38, 49]` → `[6, 12, 22, 40, 51]`).
+
+### A7. « Quatre cents charges de sel » : une journée de production vaut l'homme entier — **écart assumé**
 
 **Le fait.** Ch. 3 : « Un homme qui perd un Braise perd **quatre cents charges de sel par
 jour**. »
@@ -171,9 +186,16 @@ de sel.** »
 rendement**. Le texte ne relève pas l'absurdité — or c'est la phrase qui fait s'appuyer Ysée au
 mur, et elle est citée deux fois. Le lecteur attentif calcule et le trait perd sa force.
 
-**Correction proposée.** Changer une des deux échelles. Le plus simple : au ch. 3, « quatre
-cents charges de sel par **saison** » ou « quarante charges par jour ». L'acte, lui, ne doit pas
-bouger : les deux citations en dépendent, et *« Ils l'avaient chiffré en sel »* est gagé dessus.
+**Décision de l'autrice (19 septembre 2026) : ne rien changer.** Les deux chiffres restent tels
+quels.
+
+Ce qui la défend : l'acte n'est pas un calcul de rendement, c'est une écriture administrative, et
+le clerc dit lui-même au ch. 6 ce que vaut ce genre d'estimation — *« On ne vous paie pas ce que
+vous valez : on vous paie ce qu'il restera de vous à l'arrivée, multiplié par la chance que vous
+y arriviez. »* Qu'un homme de vingt-sept ans soit chiffré au-dessous de ce qu'il rapporte en une
+journée n'est pas une erreur de comptable : c'est le sujet du livre.
+
+Point consigné ici pour qu'on ne le « corrige » pas par inadvertance à une passe ultérieure.
 
 ### A8. Le carnet blanc : cousu dans la doublure, ou au fond d'une sacoche ? — **appliqué**
 
@@ -196,7 +218,7 @@ le ch. 8 fonder le geste. Le ch. 43 y gagne : la couture date bien du départ.
 
 ## B. Calendrier et saisons
 
-### B1. L'hiver n'arrive jamais
+### B1. L'hiver n'arrive jamais — **appliqué**
 
 **Le fait.** Départ de Valdren « à l'aube, **en fin d'automne** » (ch. 7). Trente-quatre jours
 plus tard, aux Fours hauts — c'est-à-dire six jours de marche **au nord** de Ghar, elle-même au
@@ -212,11 +234,23 @@ nord de quatre-vingt-deux lieues de cendre — on parle de l'hiver au futur :
 automne. Le retour aggrave l'écart : soixante-huit jours de voyage, douze jours à Valdren, puis
 une nouvelle traversée — sans qu'aucun chapitre ne mentionne la neige, le gel ou le jour court.
 
-**Correction proposée.** Décider de la saison de départ et la tenir. Le plus économique est de
-partir **en fin d'été / début d'automne** : le ch. 7 perd deux mots, tout le nord devient juste,
-et le titre du livre travaille (une saison, celle des braises, court du départ au retour). Le
-seul point à reprendre serait l'arrière-saison du ch. 1 (« cette couleur de plomb qu'elle prend
-à l'arrière-saison ») et la buée de la cour au ch. 7.
+**Correction appliquée : départ au début de l'automne.** Deux retouches.
+
+- ch. 7 : « À l'aube, **en fin d'automne** » → « **au début de l'automne** ». Le début a été
+  préféré à la fin de l'été pour deux raisons : la buée dans la cour, qui porte toute la
+  démonstration (« un Braise n'a pas froid »), et le cheval du ch. 48, « gras comme une chose qui
+  **n'a rien fait de l'automne** » — vrai si on le laisse au dix-septième jour et qu'on le
+  reprend au cinquante et unième.
+- ch. 1 : « cette couleur de plomb qu'elle prend **à l'arrière-saison** » → « **quand l'été
+  finit** ».
+
+Tout le nord devient juste : aux Fours hauts, au trentième jour, on est au milieu de l'automne et
+l'hiver est encore à venir, ce que disent les ch. 39 bis, 41 et 44.
+
+**Reste à surveiller au bloc 6.** Le retour à Valdren tombe alors en fin d'automne et la seconde
+traversée au tout début de l'hiver, sans qu'aucun chapitre ne marque le froid, le jour court ou
+la neige sur les seize jours de route du ch. 50. Ce n'est pas une contradiction — c'est un décor
+qui manque.
 
 ### B2. « Dimanche » — **appliqué**
 
@@ -316,9 +350,10 @@ raccorderait les deux sans rien coûter.
 A3 (l'hiver de la veuve), A4 (un mois et demi), A8 (le carnet cousu), B2 (dimanche),
 C1 (l'incise sur les neuf), C2 (les quarante-six bouches).~~ — **fait le 19 septembre 2026.**
 
-**À trancher avant d'écrire** — une décision commande la rédaction :
-A1 (neuf ou treize jours : choisir la valeur, puis ajuster le séjour à Ghar),
-A6 (Halden ment-il sur le prix ?), A7 (l'échelle du sel), B1 (la saison de départ).
+~~**À trancher avant d'écrire** — une décision commande la rédaction :
+A1 (neuf ou treize jours), A6 (Halden ment-il sur le prix ?), A7 (l'échelle du sel),
+B1 (la saison de départ).~~ — **tranché et appliqué le 19 septembre 2026** ; A7 est un écart
+assumé, les trois autres sont dans le texte.
 
 **Écriture neuve, à faire avec le bloc 4** :
 A2 (l'engagement de Halden au ch. 49 — c'est l'item 4.2 du plan, il est bloquant),
