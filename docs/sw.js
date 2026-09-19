@@ -9,7 +9,7 @@
  * VERSION ci-dessous : l'ancien cache est alors supprimé à l'activation.
  */
 
-const VERSION = 'liseuse-v4';
+const VERSION = 'liseuse-v5';
 
 const RESSOURCES = [
   './',
@@ -33,7 +33,9 @@ const RESSOURCES = [
   './data-verre.js',
   './icone-192.png',
   './icone-512.png',
-  './apple-touch-icon.png'
+  './apple-touch-icon.png',
+  './couvertures/braises.jpg',
+  './couvertures/castellano.jpg'
 ];
 
 // Installation : mise en cache initiale. Chaque ressource est demandée
