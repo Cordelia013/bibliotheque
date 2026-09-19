@@ -9,7 +9,7 @@
  * VERSION ci-dessous : l'ancien cache est alors supprimé à l'activation.
  */
 
-const VERSION = 'liseuse-v5';
+const VERSION = 'liseuse-v6';
 
 const RESSOURCES = [
   './',
@@ -31,8 +31,8 @@ const RESSOURCES = [
   './data-braises-p8.js',
   './data-braises-p9.js',
   './data-verre.js',
-  './couvertures/braises.jpg',
-  './couvertures/castellano.jpg',
+  './couvertures/braises.svg',
+  './couvertures/castellano.svg',
   './icone-192.png',
   './icone-512.png',
   './apple-touch-icon.png'
