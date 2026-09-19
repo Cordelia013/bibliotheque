@@ -69,8 +69,20 @@ const PERSONNAGES = {
 const app = document.getElementById('app'), $ = id => document.getElementById(id);
 const KEY = 'liseuse:v2';
 const THEMES = ['clair','sepia','nuit'];
-const TAILLES = [17, 18.5, 20, 23, 26];      // px
-const INTERLIGNES = [1.5, 1.62, 1.72, 1.85, 2];
+// Direction D : échelles réglées sur Literata, dont l'œil est bien plus grand que
+// celui de Cormorant Garamond. Les index stockés chez les lecteurs restent valides.
+const TAILLES = [15.5, 16.5, 18, 20, 22.5];      // px
+const INTERLIGNES = [1.56, 1.67, 1.78, 1.9, 2.05];
+/* Nombres à la française : virgule décimale, espace insécable avant l'unité. */
+function nombre(x){ return String(x).replace('.', ','); }
+
+/* Couvertures en image. Un livre bascule sur son image dès qu'il est déclaré ici
+   (JPEG 600 × 900 dans docs/couvertures/) ; si le fichier manque ou ne se charge
+   pas, couvRepli() rend la main à la couverture SVG d'index.html. */
+const COUV_IMAGE = {
+  braises: 'couvertures/braises.jpg',
+  castellano: 'couvertures/castellano.jpg'
+};
 const ALIGNES = ['gauche','justifie'];
 let S = { theme:'clair', taille:2, inter:2, align:'gauche', dernier:null, visite:0, livres:{} };
 let visitePrec = 0;
@@ -137,7 +149,7 @@ function poserAccent(couleur){
   app.style.setProperty('--accent', accentCourant);
   let fond = '';
   try { fond = getComputedStyle(app).getPropertyValue('--paper-deep').trim(); } catch(e){}
-  if (!/^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(fond)) fond = S.theme === 'nuit' ? '#1c1f25' : '#e4ded2';
+  if (!/^#([0-9a-f]{3}|[0-9a-f]{6})$/i.test(fond)) fond = S.theme === 'nuit' ? '#191D30' : (S.theme === 'sepia' ? '#EADFC9' : '#F1F2F6');
   app.style.setProperty('--accent-texte', accentLisible(accentCourant, fond));
 }
 
@@ -147,6 +159,17 @@ function mesurerBarre(){
   const b = document.querySelector('.bar'); if (!b) return;
   app.style.setProperty('--barh', Math.round(b.getBoundingClientRect().height) + 'px');
 }
+
+/* ---- polices de la direction D ----
+   Fraunces pour les titres, Literata pour tout le reste. Chargées ici plutôt que
+   dans index.html, qui ne sert qu'aux couvertures SVG et garde Cormorant et Jost. */
+(function chargerPolices(){
+  if (document.getElementById('policesD')) return;
+  const l = document.createElement('link');
+  l.id = 'policesD'; l.rel = 'stylesheet';
+  l.href = 'https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,0..100,0..1;1,9..144,400..700,0..100,0..1&family=Literata:ital,opsz,wght@0,7..72,300..700;1,7..72,300..700&display=swap';
+  document.head.appendChild(l);
+})();
 
 /* ---- styles injectés (thème sépia + réglages de lecture) ---- */
 (function injecterStyles(){
@@ -340,7 +363,110 @@ function mesurerBarre(){
 
   @media (prefers-reduced-motion: reduce) {
     #app .bar, #app .progress, #app .feuille, #app .feuille.open, #app .fscrim, #app .ptete svg { transition: none; }
-  }`;
+  }
+
+  /* ————— Direction D · Veilleuse, validée le 19 septembre 2026 —————
+     Sélecteur html #app : ces règles redéfinissent des jetons et des familles que
+     la feuille d'origine pose sur #app lui-même. */
+
+  /* Ce qui ne bouge jamais : l'aplat ambre sur encre (9,42:1), identique dans
+     les trois thèmes. */
+  html #app { --ambre: #FFB25C; --ambre-encre: #2A1A08; --mesure: 33em;
+    --f-titre: 'Fraunces', Georgia, serif; --f-texte: 'Literata', Georgia, serif;
+    font-family: var(--f-texte); }
+  /* Les trois thèmes. Identifiants internes inchangés : clair, sepia, nuit. */
+  html #app.clair { --paper:#FCFCFD; --paper-deep:#F1F2F6; --ink:#14151C; --muted:#5A5D6B;
+    --ambre-texte:#8F5410; --rose:#A8305A; --rule:#E2E3EA; --rule-fort:#83868F; --brass:#8F5410;
+    --halo: rgba(255,178,92,.16); }
+  html #app.sepia { --paper:#F3EADA; --paper-deep:#EADFC9; --ink:#23201A; --muted:#615A4C;
+    --ambre-texte:#8A5310; --rose:#A33256; --rule:#E0D3BB; --rule-fort:#857B66; --brass:#8A5310;
+    --halo: rgba(255,178,92,.20); }
+  html #app.nuit { --paper:#0F1220; --paper-deep:#191D30; --ink:#F2F1EE; --muted:#9B9FB3;
+    --ambre-texte:#FFB25C; --rose:#F08BA4; --rule:#2E3349; --rule-fort:#767C99; --brass:#FFB25C;
+    --halo: rgba(255,178,92,.13); }
+
+  /* Deux familles, et deux seulement. */
+  html #app button, html #app input, html #app textarea,
+  html #app .chapline em, html #app .bmrow small, html #app .del, html #app .bmnote,
+  html #app .prow small, html #app .reglages h4, html #app .effacer, html #app .lien,
+  html #app .rresume, html #app .ptete, html #app .feuille textarea, html #app .chapline,
+  html #app .bmrow, html #app .empty, html #app .gres, html #app .body p, html #app .pov,
+  html #app .fcitation, html #app .navbtn.suite em { font-family: var(--f-texte); }
+  html #app .libhead, html #app .gtitle, html #app h2, html #app .dhead, html #app .bar .title,
+  html #app .cmeta b, html #app .reprise b, html #app .navbtn.suite b, html #app .finlivre b,
+  html #app .fhead h3, html #app .ptete b, html #app .prow b {
+    font-family: var(--f-titre); font-variation-settings: 'SOFT' 40, 'WONK' 1; font-weight: 600; }
+  html #app .libhead { letter-spacing: -.02em; }
+  html #app .bar .title { font-size: 16px; font-weight: 500; }
+
+  /* Formes : angles arrondis, commandes dessinées en --rule-fort (3:1 au moins). */
+  html #app .icon, html #app .rbtn, html #app .tab, html #app .search, html #app .ghost,
+  html #app .navbtn, html #app .rresume, html #app .feuille textarea { border-radius: 8px; border-color: var(--rule-fort); }
+  html #app .ghost.discret, html #app .navbtn.suite { border: none; }
+  html #app .chip, html #app .gchips span { border-color: var(--rule-fort); border-radius: 20px; }
+  html #app .reprise, html #app .primary, html #app .navbtn.suite { border-radius: 10px; }
+  html #app .cover { border-radius: 4px; }
+  html #app .feuille { border-radius: 14px 14px 0 0; }
+  html #app .icon:hover, html #app .navbtn:hover:not(:disabled) { border-color: var(--ink); }
+
+  /* L'ambre, voix de la liseuse : aplat sur encre partout où il remplit. */
+  html #app .primary, html #app .navbtn.suite, html #app .neuf, html #app .tab.on, html #app .chip.on {
+    background: var(--ambre); color: var(--ambre-encre); border-color: var(--ambre); }
+  html #app .primary { font-weight: 600; letter-spacing: .02em; }
+  html #app .navbtn.suite:hover, html #app .primary:hover:not(:disabled) { filter: brightness(1.05); }
+  html #app .progress i { background: var(--ambre); }
+  html #app .chapnum { color: var(--ambre-texte); font-size: 11px; font-weight: 600;
+    letter-spacing: .2em; text-transform: uppercase; }
+  html #app .body p.ouverture .cap, html #app .chapline.current { color: var(--ambre-texte); }
+  html #app .chapline.current { box-shadow: inset 3px 0 0 var(--ambre-texte); }
+  /* Le bouton de thème n'est plus rempli : un seul aplat par écran. */
+  html #app #nightBtn.on { background: none; color: var(--ink); border-color: var(--rule-fort); }
+
+  /* La couleur du livre reste au livre. */
+  html #app .cbar i, html #app .gbar i { background: var(--accent-texte); }
+  html #app .gpct { color: var(--accent-texte); }
+  html #app .reprise { border-color: var(--rule); border-left: 4px solid var(--livre, var(--accent)); }
+
+  /* Le rose est au lecteur : ce qu'il a marqué. */
+  html #app #bmBtn.on { background: none; color: var(--rose); border-color: var(--rose); }
+  html #app .bmnote { border-left-color: var(--rose); }
+  html #app .body p.marque { position: relative; }
+  html #app .body p.marque::before { content: ''; position: absolute; left: -12px; top: .3em; bottom: .3em;
+    width: 3px; border-radius: 2px; background: var(--rose); }
+
+  /* Le halo ambré en tête de l'écran de lecture, accroché à la fenêtre, sous la barre. */
+  html #app.lecture::before { content: ''; position: fixed; left: 0; right: 0; top: var(--barh, 65px);
+    height: 190px; pointer-events: none; z-index: 0;
+    background: radial-gradient(ellipse 70% 100% at 50% 0, var(--halo), transparent 100%);
+    transition: top .2s cubic-bezier(.4,0,.2,1); }
+  html #app.lecture.immersif::before { top: 0; }
+  html #app.lecture #vRead .wrap { position: relative; z-index: 1; }
+
+  /* Texte : corps et colonne réglés sur Literata. */
+  html #app .body p { max-width: var(--mesure); }
+  html #app .body p.ouverture { font-size: calc(var(--taille, 18px) * 1.1); }
+  html #app .body p.ouverture .cap { font-family: var(--f-titre); font-variation-settings: 'SOFT' 40, 'WONK' 1; }
+  html #app .pov { font-style: italic; color: var(--muted); font-size: 14px; padding-bottom: 0; margin-bottom: 30px; }
+  html #app .pov::after { content: none; }
+  html #app h2 { line-height: 1.15; }
+  /* Coupure de scène : trois points ambrés, centrés sur la colonne de texte. */
+  html #app .body .scene { max-width: var(--mesure); line-height: 1; }
+  html #app .body .scene::before { content: '·  ·  ·'; width: auto; height: auto; background: none;
+    color: var(--ambre-texte); opacity: 1; font-size: 20px; letter-spacing: .1em; white-space: pre; }
+
+  /* Bibliothèque : les cartes s'alignent en haut, quelle que soit la longueur du titre. */
+  html #app .grid { align-items: start; }
+  html #app .cover.image { padding: 0; background: var(--paper-deep); }
+  html #app .cover.image::after { content: none; }
+  html #app .cover.image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+  /* Tiroir : onglets à 44 px. */
+  html #app .tab { min-height: 44px; }
+  html #app .rbtn { width: 44px; height: 44px; }
+  html #app .rbtn.large { width: auto; }
+  html #app .drawer { box-shadow: -18px 0 44px rgba(0,0,0,.22); }
+
+  @media (prefers-reduced-motion: reduce) { html #app.lecture::before { transition: none; } }`;
   document.head.appendChild(s);
 })();
 
@@ -352,7 +478,7 @@ function appliquerTheme(){
   $('nightBtn').setAttribute('aria-label', 'Changer de thème (actuel : ' + nomTheme(S.theme) + ')');
   resumerReglages();
   const m = document.querySelector('meta[name="theme-color"]');
-  if (m) m.content = S.theme==='nuit' ? '#14161a' : (S.theme==='sepia' ? '#f4ecd8' : '#f0ece4');
+  if (m) m.content = S.theme==='nuit' ? '#0F1220' : (S.theme==='sepia' ? '#F3EADA' : '#FCFCFD');
   poserAccent();   // le fond a changé : l'accent de texte se recalcule
 }
 function appliquerLecture(){
@@ -366,8 +492,8 @@ function appliquerLecture(){
     ba.setAttribute('aria-label', 'Alignement du texte : ' + ba.textContent); }
   resumerReglages();
   const vt = $('valTaille'), vi = $('valInter');
-  if (vt) vt.textContent = TAILLES[S.taille] + 'px';
-  if (vi) vi.textContent = INTERLIGNES[S.inter].toFixed(2);
+  if (vt) vt.textContent = nombre(TAILLES[S.taille]) + ' px';
+  if (vi) vi.textContent = nombre(INTERLIGNES[S.inter].toFixed(2));
   ['tMoins','tPlus','iMoins','iPlus'].forEach(id => { const b=$(id); if(!b) return;
     b.disabled = (id==='tMoins' && S.taille===0) || (id==='tPlus' && S.taille===TAILLES.length-1)
               || (id==='iMoins' && S.inter===0)  || (id==='iPlus' && S.inter===INTERLIGNES.length-1); });
@@ -375,8 +501,8 @@ function appliquerLecture(){
 
 function resumerReglages(){
   const r = $('rTexte'); if (!r) return;
-  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + TAILLES[S.taille] + ' px · interligne '
-    + String(INTERLIGNES[S.inter]).replace('.', ',') + ' · ' + (S.align === 'justifie' ? 'justifié' : 'à gauche');
+  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + nombre(TAILLES[S.taille]) + ' px · interligne '
+    + nombre(INTERLIGNES[S.inter]) + ' · ' + (S.align === 'justifie' ? 'justifié' : 'à gauche');
 }
 
 function load(){
@@ -455,7 +581,17 @@ function idsUniques(svg){
             .replace(/url\(#([^)]+)\)/g, (m, i) => `url(#${k}${i})`)
             .replace(/href="#([^"]+)"/g, (m, i) => `href="#${k}${i}"`);
 }
+/* Une image qui ne se charge pas rend la main au SVG d'origine. */
+function couvRepli(img){
+  const box = img.closest('.cover'), id = img.dataset.livre;
+  const s = svgDe(id); if (!box) return;
+  box.classList.remove('image');
+  box.style.background = '#0b0f1e';
+  box.innerHTML = s ? idsUniques(s) : '';
+}
 function couverture(b, petit){
+  if (COUV_IMAGE[b.id]) return `<div class="cover image"><img src="${COUV_IMAGE[b.id]}" alt="" width="600" height="900"`
+    + ` loading="lazy" decoding="async" data-livre="${b.id}" onerror="couvRepli(this)"></div>`;
   if (b.couv) { const s = svgDe(b.id);
     if (s) return `<div class="cover" style="padding:0;background:#0b0f1e">${idsUniques(s)}</div>`; }
   return `<div class="cover" style="background:linear-gradient(150deg,${b.couleur},#14161a)">
@@ -474,6 +610,7 @@ function renderReprise(){
   const e = etat(b.id), c = b.chapitres[e.chap];
   if (!c) { box.style.display = 'none'; return; }
   box.style.display = '';
+  box.style.setProperty('--livre', b.couleur);
   box.innerHTML = `<small>Reprendre ma lecture</small><b>${b.titre}</b>
     <em>Chapitre ${c.n} · ${c.t} · ${duree(minutesDe(c))}</em>`;
   box.onclick = () => { livre = b; poserAccent(b.couleur); aller('read', true); };
@@ -623,6 +760,7 @@ function aller(v, restore){
   $('menuBtn').style.display = v==='read' ? '' : 'none';
   $('bmBtn').style.display = v==='read' ? '' : 'none';
   app.classList.remove('immersif');
+  app.classList.toggle('lecture', v==='read');
   $('barTitle').textContent = v==='lib' ? 'Bibliothèque'
     : (v==='cover' ? livre.titre : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
   inscrire(v);
@@ -734,10 +872,19 @@ function updateBm(){
   if (!livre || vue !== 'read') return;
   const e = etat(livre.id), para = paraCourant();
   const on = e.bookmarks.some(b => b.chap===e.chap && b.para===para);
+  marquerPassages();
   const bt = $('bmBtn');
   bt.classList.toggle('on', on);
   bt.setAttribute('aria-pressed', on ? 'true' : 'false');
   bt.setAttribute('aria-label', on ? 'Retirer le marque-page de ce passage' : 'Marquer ce passage');
+}
+/* Le passage marqué porte un filet rose dans la marge, là où on l'a laissé. */
+function marquerPassages(){
+  if (!livre) return;
+  const e = etat(livre.id);
+  const ici = new Set(e.bookmarks.filter(b => b.chap === e.chap).map(b => b.para));
+  document.querySelectorAll('#chapBody p[data-i]').forEach(p =>
+    p.classList.toggle('marque', ici.has(+p.dataset.i)));
 }
 function toggleBm(){
   const e = etat(livre.id), para = paraCourant();
@@ -939,7 +1086,7 @@ $('resetBtn').onclick = () => {
     save(); fermerFeuille(false, true); ouvrirLivre(id); toast('Progression effacée');
   };
 };
-function nomTheme(t){ return t==='clair' ? 'clair' : t==='sepia' ? 'sépia' : 'nuit'; }
+function nomTheme(t){ return t==='clair' ? 'jour' : t==='sepia' ? 'papier' : 'nuit'; }
 $('nightBtn').onclick = () => {
   S.theme = THEMES[(THEMES.indexOf(S.theme)+1) % THEMES.length];
   appliquerTheme(); save();
