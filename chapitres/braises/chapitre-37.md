@@ -4,9 +4,9 @@
 
 *POV Cael*
 
-La source n'est pas une source. C'est une pente de pierres sous lesquelles l'eau sort de partout à la fois, sur cinquante pas de large, si froide qu'Ysée n'a pas pu y tenir la main plus de quatre secondes.
+La source, c'est une pente de pierres d'où l'eau sort de partout à la fois, sur toute la largeur, plus froide encore que le ruisseau.
 
-J'y ai laissé la mienne.
+J'y ai remis la main.
 
 Je ne sais pas comment dire ce que ça fait. Toute ma vie, l'eau a été une chose que je chauffe. On me l'apporte tiède, je la rends bouillante ; on me met les mains dans un baquet après une coulée et le baquet fume. J'ai vingt-sept ans et je n'avais jamais senti le froid me monter dans le poignet depuis le dehors.
 
@@ -20,13 +20,13 @@ Et sur le plat, à une demi-lieue, il y avait de la fumée.
 
 Orsa avait dit : *c'est une fumée honnête, c'est du bois, ils font cuire.* Elle avait raison et ça ne m'a servi à rien. J'ai regardé cette fumée pendant tout le temps qu'il nous a fallu pour traverser le plat, et à chaque pas j'ai compté une raison de ne pas arriver.
 
-Les Fours hauts, ce n'est pas une ville. C'est une usine dans laquelle des gens se sont installés.
+Les Fours hauts, c'est une usine dans laquelle des gens se sont installés.
 
-Il faut le voir pour le croire. Il y a d'abord les grandes halles : quatre bâtiments de pierre, longs de cent pas, avec des voûtes et des cheminées carrées hautes comme des tours, et des ouvertures en arc au niveau du sol par où passaient les chariots. C'est bâti pour durer mille ans et ça n'a pas servi depuis longtemps ; les portes de fonte ne sont plus là, les rails de chariot ont été arrachés, et dans la troisième halle il pousse un bouleau au milieu.
+Il y a d'abord les grandes halles : quatre longs bâtiments de pierre, avec des voûtes et des cheminées carrées hautes comme des tours, et des ouvertures en arc au niveau du sol par où passaient les chariots. C'est bâti pour durer mille ans, et ça n'a pas servi depuis longtemps. Les portes de fonte ne sont plus là, les rails de chariot ont été arrachés, et un bouleau pousse au milieu de la troisième halle.
 
-Et dedans, entre les piliers, il y a des maisons. Des vraies, petites, avec des toits refaits en bardeau, des cheminées percées dans la voûte, du linge, des enclos à chèvres, un four à pain. Deux cents personnes qui vivent à l'abri d'un bâtiment que d'autres ont construit pour fondre du métal.
+Et dedans, entre les piliers, il y a des maisons. Des vraies, petites, avec des toits refaits en planchettes de bois, des cheminées percées dans la voûte, du linge, des enclos à chèvres, un four à pain. Deux cents personnes qui vivent à l'abri d'un bâtiment que d'autres ont construit pour fondre du métal.
 
-C'est chauffé. Pas par le sol : le sol est froid ici, les veines sont bouchées depuis des siècles et Ysée a relevé six bouches avant d'arriver. C'est chauffé comme le reste.
+C'est chauffé. Le sol est froid ici : les veines sont bouchées depuis des siècles, Ysée a relevé les bouches en montant. C'est chauffé comme partout ailleurs.
 
 Par nous.
 
@@ -62,13 +62,13 @@ Hesk m'a regardé encore.
 
 — Tu es le petit d'Aunis.
 
-Il l'a dit à plat, sans étonnement, comme un homme qui vérifie un chargement contre un bordereau. J'ai compris à cet instant que quelqu'un était arrivé de Ghar avant nous — il y a des gens qui font la route dans les deux sens, et six jours de marche pour un homme seul et sans genou cassé, c'est quatre.
+Il l'a dit à plat, sans étonnement, comme un homme qui coche un chargement sur une liste. J'ai compris à cet instant que quelqu'un était monté de Ghar avant nous : un homme seul, sans genou cassé, va plus vite.
 
 — Oui.
 
-— Elle est là, a-t-il dit. Tu entreras quand même par où tout le monde entre, et tu diras ce que tu viens faire, et la femme aussi.
+— Ta mère est là, a-t-il dit. Tu entreras quand même par où tout le monde entre, et tu diras ce que tu viens faire. La femme aussi.
 
-Ce n'était pas de la méchanceté. C'était un homme qui tient une porte, et je connais ce métier mieux que lui.
+Il n'y avait pas de méchanceté là-dedans. Hesk tient une porte, et je connais ce métier mieux que lui.
 
 ---
 
@@ -78,17 +78,17 @@ Il y avait un vieux assis sur un banc, contre le pilier, au soleil.
 
 Un vieux. Soixante-dix ans, peut-être davantage. La figure creusée, les mains sur un bâton, les yeux clairs des gens de cet âge-là.
 
-Et il était des nôtres. On ne se trompe pas là-dessus. À douze pas, on sent ce qu'un Braise porte, comme on sent une halle de fours en y entrant, et celui-ci en portait autant que moi.
+Et il était des nôtres. Je ne pouvais pas m'y tromper : de loin déjà, on sent ce qu'un Braise porte, comme une halle de fours quand on y entre, et celui-ci en portait autant que moi.
 
 Je me suis arrêté au milieu du passage.
 
-Ysée est allée trois pas plus loin avant de s'apercevoir que je n'étais plus derrière elle.
+Ysée est allée quelques pas plus loin avant de s'apercevoir que je n'étais plus derrière elle.
 
-Il faut poser les chiffres, parce que ma vie entière est dans les chiffres et qu'on me les a donnés tôt.
+Je pose les chiffres : ma vie entière tient dedans, et on me les a donnés tôt.
 
-Un Braise brûle de l'intérieur. C'est la première chose qu'on nous apprend après la liste des choses qu'on ne touche pas. À quarante ans, un homme qui tient un four a les mains d'un vieillard. Vaugrin est mort à quarante-quatre ans en s'asseyant sur un banc de cour, après vingt-six ans de fonte. Quand j'ai signé chez le clerc de la Guilde, j'ai fait le compte sans y penser, comme on lit l'heure : dix-neuf ans de four, vingt-sept ans d'âge, treize ans devant.
+Un Braise brûle de l'intérieur. On nous l'apprend tout petits. À quarante ans, un homme qui tient un four a des mains de vieillard. Vaugrin s'est assis un matin sur un banc de la cour, et il ne s'est pas relevé. Quand j'ai signé à la Guilde, j'ai fait le compte sans y penser. Il me restait treize ans.
 
-Treize. C'est un chiffre que je porte depuis mes vingt ans et que je n'ai jamais discuté avec personne, parce qu'il n'y avait personne avec qui le discuter : tous ceux qui pouvaient en parler étaient dans la même halle que moi et arrivaient au même résultat.
+Treize. C'est le compte que j'ai fait en signant à la Guilde, et je ne l'ai jamais discuté avec personne : tous ceux qui pouvaient en parler étaient dans la même halle que moi et arrivaient au même résultat.
 
 Le vieux sur le banc avait soixante-dix ans.
 
@@ -96,7 +96,7 @@ Le vieux sur le banc avait soixante-dix ans.
 
 ---
 
-L'explication a pris quatre phrases. Je les rapporte telles quelles, parce que j'ai eu besoin de me les faire répéter.
+L'explication a tenu en quelques phrases. Je les rapporte telles quelles : j'ai eu besoin de me les faire répéter.
 
 Ici, personne ne tient un four. Les veines sont bouchées et on ne les ouvre pas. Ce qui doit chauffer — le pain, la forge, les bains, les séchoirs, les maisons en hiver — est chauffé par ceux qui portent le feu, à tour de rôle.
 
@@ -104,15 +104,15 @@ Le tour, c'est une heure. Un jour sur cinq.
 
 J'ai fait le compte debout, dans le passage, avec le vieux qui me regardait.
 
-Aux fours de Serrande, j'entrais à la première cloche et je poussais jusqu'à la sixième, six cuves les bons jours, dix heures les mauvais, tous les jours sauf les fêtes de la maison, pendant dix-neuf ans.
+Aux fours de Serrande, je poussais de la première cloche à la sixième, souvent plus, tous les jours sauf les fêtes de la maison.
 
 Ce que je donnais en une semaine, ils le donnent en un an.
 
-Ce n'est pas le feu qui tue les Braises. C'est le rendement. On nous l'a dit à six ans dans un dortoir de fonderie, on nous l'a répété à chaque contremaître, on l'écrit dans les registres de la Guilde à côté du tonnage : *un contrat-de-feu s'use, prévoir le remplacement à quarante ans.* Ce n'est pas une loi de la nature. C'est une ligne de comptabilité qu'on a fait passer pour une loi de la nature, et je l'ai crue pendant vingt-deux ans parce que tous les hommes autour de moi mouraient à la date prévue.
+Ce n'est pas le feu qui tue les Braises. C'est le rendement. Les contremaîtres nous répètent le contraire, et la Guilde l'écrit dans ses registres, à côté du poids de sel : *un contrat-de-feu s'use, prévoir le remplacement à quarante ans.* Une ligne de comptes, qu'on a fait passer pour une loi de la nature. Je l'ai crue toute ma vie : tous les hommes autour de moi mouraient à la date prévue.
 
 Le vieux a levé son bâton et l'a pointé vers le banc à côté de lui.
 
-Je ne me suis pas assis. Je suis resté debout, et j'ai dit une chose stupide, la seule qui soit venue :
+Je ne me suis pas assis. Je suis resté debout, et j'ai dit une chose stupide, la première qui soit venue :
 
 — Vous en avez d'autres, des vieux ?
 
@@ -120,7 +120,7 @@ Je ne me suis pas assis. Je suis resté debout, et j'ai dit une chose stupide, l
 
 — Pourquoi onze seulement ?
 
-— Parce que les autres sont morts à Ghar, a-t-il dit. Ceux qui sont ici sont ceux qui sont sortis. Nous ne sommes pas nombreux à être vieux ; c'est la guerre, ce n'est pas le feu.
+— Parce que les autres sont morts à Ghar, a-t-il dit. Ceux qui sont ici sont ceux qui sont sortis. Si nous sommes peu de vieux, c'est à cause de la guerre.
 
 ---
 
@@ -152,15 +152,15 @@ Il a attendu la question suivante avec la patience d'un homme qui l'a déjà vue
 
 Il m'a laissé avec ça et il est parti devant.
 
-Je n'ai pas insisté. J'ai pensé, très vite, en marchant derrière lui, à ce que ça voulait dire : que nous ne sommes pas une fournée, une génération d'accidentés qu'il suffit d'attendre pour que le problème se règle de lui-même. Que le Sud a passé vingt-deux ans à croire qu'il gérait un stock.
+Je n'ai pas insisté. J'ai pensé, très vite, en marchant derrière lui, à ce que ça voulait dire : que nous ne sommes pas une génération d'accidentés qu'il suffit d'attendre pour que le problème se règle de lui-même. Que le Sud a cru tout ce temps qu'il vidait une réserve.
 
 Et j'ai pensé à Ysée, qui marchait à ma gauche avec un étui de fer-blanc sur le dos.
 
-Je n'ai rien dit. Je ne sais pas encore ce qu'il faut en faire.
+Je n'ai rien dit. Je ne sais pas encore ce que je dois en faire.
 
 ---
 
-Hesk s'est arrêté au bout de la deuxième halle, là où les maisons s'espacent, et il a montré du menton une porte basse, à trente pas, avec un appentis et du bois empilé dessous.
+Hesk s'est arrêté au bout de la deuxième halle, là où les maisons s'espacent, et il a montré du menton une porte basse, un peu plus loin, avec un appentis et du bois empilé dessous.
 
 — C'est là.
 
