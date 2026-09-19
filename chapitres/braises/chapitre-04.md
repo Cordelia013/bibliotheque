@@ -8,37 +8,33 @@ Je n'ai pas dormi. J'ai fait autre chose.
 
 Les archives de la Guilde ferment à la sixième cloche, mais les pupilles ont les clés parce que ce sont les pupilles qui rangent. C'est l'un des rares privilèges de n'être rien : on vous confie tout.
 
-On descend par l'escalier de service, trois étages, et il fait plus froid à chaque palier. C'est voulu : le vélin se garde au froid et au sec, et il y a dans le mur nord une gaine qui prend l'air de la cour et qu'on ne bouche jamais, même au cœur de l'hiver. Les copistes travaillent en manteau. On le sait avant d'entrer.
+On descend par l'escalier de service, trois étages, et il fait plus froid à chaque palier. C'est voulu : le parchemin se garde au froid et au sec. Dans le mur nord, un conduit laisse entrer l'air de la cour, et on ne le bouche jamais, même en plein hiver. Les copistes travaillent en manteau. On le sait avant d'entrer.
 
-Au bas de l'escalier, il y a un pupitre avec un registre, une plume et une chaîne. On y inscrit ce qu'on emporte, la date, son nom. Les Relevés signent. Les Doyens ne signent pas, parce qu'on ne demande pas à un Doyen ce qu'il prend chez lui.
+Au bas de l'escalier, il y a un pupitre avec un registre, une plume et une chaîne. On y inscrit ce qu'on emporte, la date, son nom. Les cartographes titulaires, qu'on appelle les Relevés, signent. Les Doyens ne signent pas, parce qu'on ne demande pas à un Doyen ce qu'il prend chez lui.
 
 Les pupilles ne signent pas non plus. Une pupille ne sort rien. Une pupille range.
 
-J'ai donc pu descendre cette nuit-là, ouvrir un casier, étaler neuf cartes par terre et rester six heures dessus sans que personne, jamais, puisse établir que j'y étais. Je n'avais pas mesuré jusque-là à quel point ce néant pouvait servir.
+J'ai donc pu descendre cette nuit-là, ouvrir un casier, étaler neuf cartes et rester six heures dessus sans que personne, jamais, puisse établir que j'y étais. Je n'avais jamais mesuré à quel point n'être rien pouvait servir.
 
 ---
 
-La salle du fond sent trois choses, et toujours dans le même ordre : la poussière de pierre, la colle de peau, et dessous, très loin, le vinaigre dont on lave les tables.
+La salle du fond sent deux choses, toujours dans le même ordre : la poussière de pierre, et dessous, très loin, le vinaigre dont on lave les tables.
 
-Les casiers sont en chêne, à claire-voie, numérotés au fer. Les cartes ne se rangent pas à plat : on les roule sur un mandrin, on les lie d'un ruban de lin, un tour et un nœud plat, et on les couche comme des bouteilles.
+Les casiers sont en chêne, ajourés, numérotés au fer. Les cartes ne se rangent pas à plat : on les roule sur un tube de bois, on les lie d'un ruban de lin, un tour et un nœud plat, et on les couche comme des bouteilles.
 
-Campagnes du Nord : casier trente et un, quatrième travée, du sol à hauteur d'épaule.
+Campagnes du Nord : casier trente et un. Des dizaines de rouleaux, du sol à hauteur d'épaule.
 
-Quarante-six rouleaux.
-
-J'ai pris la plus belle, et il faut que je dise pourquoi, parce que c'est là que tout se joue et que personne ne me croira.
-
-Je l'ai prise parce qu'elle est belle.
+J'ai pris la plus belle. C'est aussi bête que ça.
 
 *Quartier bas des Fours de Ghar. Relevé du 14 du mois des vents, an 39. Dressé sous l'autorité du Doyen Aldric Vael.*
 
-C'est la quatrième des neuf que j'ai tramées. Je me rappelle même dans quel ordre je les ai faites, ce qui donne la mesure de ce que cette année-là comptait pour moi.
+C'est la quatrième des neuf que j'ai hachurées. Je me rappelle même dans quel ordre je les ai faites, ce qui donne la mesure de ce que cette année-là comptait pour moi.
 
 Je l'ai déroulée sur la grande table, j'ai posé les quatre plombs aux coins, j'ai approché la lampe, et pendant un long moment je n'ai rien fait d'autre que la regarder comme un ouvrier regarde le travail d'un autre ouvrier.
 
 C'est un très beau relevé. Je le dis encore aujourd'hui et je ne vois pas comment le dire autrement.
 
-Le trait est fin et il ne tremble pas. Les rues sont à l'échelle et les carrefours ferment — c'est la chose la plus difficile d'un plan de ville, faire fermer les carrefours, et sur trois cents pas il n'y a pas un angle qui ment. Les puits sont relevés un par un avec leur profondeur en pieds à côté du signe. Les ponts portent leur largeur. Il y a même, dans la marge basse, une note sur l'état de la chaussée au dégel, qui ne sert à personne et que l'homme a écrite parce qu'il l'avait vue.
+Le trait est fin et il ne tremble pas. Chaque rue est à sa place, chaque angle est juste. Chaque puits porte sa profondeur. Chaque pont porte sa largeur. Il y a même, en bas de la marge, une note sur l'état de la chaussée au dégel, qui ne sert à personne et que l'arpenteur a écrite parce qu'il l'avait vue.
 
 Un homme qui écrit ça a marché dans cette rue.
 
@@ -46,27 +42,27 @@ Et par-dessus le relevé, à l'encre rouge, les hachures.
 
 ---
 
-Voilà ce que j'ai cru pendant huit ans, et je le mets en entier parce que c'est le cœur de l'affaire.
+Voici ce que j'ai cru pendant huit ans.
 
-On donne les cartes de guerre aux pupilles. Elles sont fastidieuses : il faut reproduire la trame au tire-ligne, ce qui prend trois jours par feuille, abîme les doigts et n'apprend rien. Les fils de famille n'en veulent pas. J'en ai fait neuf à seize ans quand ils en faisaient trois, et j'en ai été fière, et je me souviens précisément de cette fierté — c'est la part que je ne me pardonne pas.
+On donne les copies des cartes de guerre aux pupilles. C'est un travail ingrat : il faut recopier les hachures trait par trait. On y passe des jours, on s'abîme les doigts, et on n'apprend rien. Les fils de famille n'en veulent pas. J'en ai fait neuf à seize ans quand ils en faisaient trois. J'en ai été fière, et je me souviens très bien de cette fierté : c'est elle que je ne me pardonne pas.
 
 La légende est dans le coin inférieur droit. Je l'ai recopiée neuf fois de ma main :
 
-*Trame serrée : densité forte. Trame lâche : densité faible. Croix : confirmé.*
+*Hachures serrées : densité forte. Hachures lâches : densité faible. Croix : confirmé.*
 
 Densité de quoi.
 
-Il n'y a pas de mot après *densité*. Il n'y en a sur aucune des quarante-six. C'est une convention militaire, et je la connaissais avant de savoir tailler une plume : on ne nomme pas la cible sur le document, on la nomme dans l'ordre de mission, parce qu'un document voyage et qu'un ordre de mission se brûle.
+Il n'y a pas de mot après *densité*. Il n'y en a sur aucune des cartes du casier. C'est la règle, à l'armée : on n'écrit jamais la cible sur la carte.
 
 À seize ans, j'ai mis un mot dessous tout de même. Dans ma tête, sans le dire à personne. J'ai mis *troupes*.
 
-Ce n'était pas stupide. C'est même exactement ce qu'un enfant raisonnable met : densité forte, beaucoup d'hommes ; densité lâche, peu d'hommes ; croix, position confirmée par un observateur. J'ai tramé neuf feuilles avec ce mot-là dans la tête, trois jours par feuille, et je n'ai pas eu une seconde d'inquiétude.
+C'est ce que met une enfant raisonnable : hachures serrées, beaucoup d'hommes ; hachures lâches, peu d'hommes ; croix, position vérifiée par un observateur. J'ai hachuré neuf feuilles avec ce mot-là dans la tête, sans une seconde d'inquiétude.
 
-Personne ne m'a menti. Personne ne m'a rien dit du tout.
+On ne m'a pas menti. On ne m'a simplement rien dit.
 
 ---
 
-Ce qui m'a arrêtée cette nuit-là, ce n'est pas la trame. C'est une croix.
+Cette nuit-là, c'est une croix qui m'a arrêtée.
 
 Elle est à l'angle de deux rues, dans le quartier bas, sur un bâtiment long avec une cour. Le signe est de ma main : je reconnais ma façon de croiser les deux traits, qui déborde d'un cheveu en haut à droite et que le vieux Marbier m'a fait corriger l'année suivante.
 
@@ -90,37 +86,33 @@ Les enfants des forgerons y entraient à cinq ans pour apprendre le feu.
 
 Alors j'ai compté. C'est ce que je fais quand je ne sais plus quoi faire.
 
-J'ai étalé les neuf. Toutes les neuf, celles de ma main. Il n'y avait pas la place sur la table ; j'en ai mis quatre par terre, et je me suis agenouillée dans la poussière avec la lampe posée à côté de moi, et j'ai relevé les croix une par une comme on relève une côte.
+J'ai étalé les neuf. Toutes les neuf, celles de ma main. Il n'y avait pas la place sur la table ; j'en ai mis quatre par terre, et je me suis agenouillée dans la poussière, la lampe à côté de moi. J'ai compté les croix une par une.
 
 Trente et une.
 
-Puis j'ai fait ce qu'on fait toujours avec un relevé : je l'ai repris dans l'autre sens. Pour chacune des trente et une, je suis allée chercher ce qu'il y avait dessous sur le plan civil.
+Puis j'ai vérifié dans l'autre sens, comme on vérifie toujours un relevé. Pour chaque croix, je suis allée chercher ce qu'il y avait dessous sur le plan civil.
 
 Dix-neuf écoles de forge.
 
-Sept dortoirs d'apprentis.
+Les autres : des dortoirs d'apprentis, des halles de fonte. Sur deux de ces halles, en marge du plan civil, il y a la mention *enfants admis dès six ans*, d'une écriture qui n'avait pas prévu qu'on la lise pour ça.
 
-Trois halles de fonte, dont deux portent la mention *enfants admis dès six ans* en marge du plan civil, d'une écriture qui n'avait pas prévu qu'on la lise pour ça.
-
-Deux que je n'ai pas pu identifier, parce que le plan civil s'arrête au ruisseau et que la croix est au-delà.
-
-Trame serrée sur les quartiers d'habitation. Trame lâche sur les entrepôts.
+Hachures serrées sur les quartiers d'habitation. Hachures lâches sur les entrepôts.
 
 Croix sur les écoles.
 
-Ce ne sont pas des positions militaires. Une armée ne loge pas ses hommes dans un préau. Les hachures ne mesurent pas ce qu'on croit quand on a seize ans et qu'on tient un tire-ligne : elles mesurent où les gens dorment, et les croix disent lesquels on a vérifiés.
+Une armée ne loge pas ses soldats sous un préau. Les hachures mesurent où les gens dorment. Les croix disent lesquels on a vérifiés.
 
 ---
 
-Il reste une chose, et c'est la pire, et je la note tout de suite parce que si je ne le fais pas maintenant je ne le ferai jamais.
+Je note la suite tout de suite, sinon je ne le ferai jamais.
 
-Sur cette feuille-là — la quatrième, celle du quartier bas, celle que j'ai prise en premier parce qu'elle est belle —, dans la marge de gauche, il y a une petite marque au crayon de plomb que personne n'a gommée.
+Sur cette feuille-là, la quatrième, celle du quartier bas, dans la marge de gauche, il y a une petite marque au crayon de plomb que personne n'a gommée.
 
-C'est une marque de copiste. On l'apprend la première semaine : quand on ne comprend pas un signe du modèle, on ne devine pas, on ne corrige pas — on trame quand même, on met la marque dans la marge, et à la fin le maître passe et répond.
+C'est une marque de copiste. On l'apprend la première semaine : quand on ne comprend pas un signe du modèle, on ne devine pas, on ne corrige pas — on hachure quand même, on met la marque dans la marge, et à la fin le maître passe et répond.
 
 Elle est de ma main. Elle est à côté d'une croix.
 
-J'avais donc, à seize ans, dans une salle bien éclairée, avec un maître à quatre pas, levé la tête de mon tire-ligne et réfléchi assez longtemps pour poser un crayon dans une marge.
+J'avais donc, à seize ans, dans une salle bien éclairée, avec un maître tout près de moi, levé la tête de ma plume et réfléchi assez longtemps pour poser un crayon dans une marge.
 
 Je ne me rappelle pas la question. Je ne me rappelle pas la réponse.
 
@@ -132,7 +124,7 @@ Je n'ai pas pleuré. J'ai fait ce que je fais.
 
 J'ai sorti le blanc, et j'ai noté, et ma main tremblait tellement que j'ai dû m'y reprendre à deux fois :
 
-*Campagnes du Nord, an 39. Neuf cartes tramées par moi. Trente et une croix : dix-neuf écoles de forge, sept dortoirs d'apprentis, trois halles de fonte, deux hors du plan civil. Les hachures ne mesurent pas des positions. Elles mesurent des gens. Je ne l'ai pas vu, je ne l'ai pas demandé — et j'ai posé une marque de copiste à côté d'une croix, et j'ai attendu qu'on me réponde, et je n'ai pas redemandé.*
+*Campagnes du Nord, an 39. Neuf cartes hachurées par moi. Trente et une croix, dont dix-neuf écoles de forge. Les hachures ne mesurent pas des positions : elles mesurent des gens. Je ne l'ai pas vu. J'ai posé une marque de copiste à côté d'une croix, j'ai attendu qu'on me réponde, et je n'ai pas redemandé.*
 
 Et en dessous, plus bas, une ligne que je n'ai jamais relue sans avoir chaud au visage :
 
@@ -140,7 +132,7 @@ Et en dessous, plus bas, une ligne que je n'ai jamais relue sans avoir chaud au 
 
 ---
 
-J'ai roulé les neuf feuilles sur leur mandrin. J'ai refait les rubans de lin, un tour, un nœud plat. Je les ai couchées dans le casier trente et un, quatrième travée, dans l'ordre, parce qu'une pupille range.
+J'ai roulé les neuf feuilles sur leur tube. J'ai refait les rubans de lin, un tour, un nœud plat. Je les ai couchées dans le casier trente et un, quatrième rangée, dans l'ordre, parce qu'une pupille range.
 
 Je n'ai rien emporté. Il n'y avait rien à emporter : je les ai dans la tête, et c'est le problème de toute ma vie.
 

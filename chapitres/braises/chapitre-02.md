@@ -8,15 +8,15 @@ Le bureau du Doyen occupe tout le dernier étage de la tour de la Guilde, et ses
 
 Je les connais toutes. J'en ai copié la moitié.
 
-Aldric Vael a soixante et un ans, des mains de copiste et une réputation de guerre. C'est lui qui a dressé les cartes des campagnes du Nord, il y a vingt-deux ans — celles qui ont permis aux armées du Sud de savoir où frapper. La Guilde ne le dit pas comme ça. La Guilde dit : *le Doyen a servi la couronne pendant les Fours*.
+Le Doyen Aldric Vael a soixante et un ans, des mains de copiste et une réputation de guerre. C'est lui qui a dressé les cartes des campagnes du Nord, il y a vingt-deux ans — celles qui ont permis aux armées du Sud de savoir où frapper. La Guilde ne le dit pas comme ça. La Guilde dit : *le Doyen a servi la couronne pendant la guerre des Fours*. Les Fours, c'étaient les villes du Nord qui vivaient du feu de la terre. On dit qu'il n'en reste rien.
 
 Il ne m'a pas fait asseoir.
 
-— Kern est bonne, a-t-il dit sans préambule. La passe a bougé et vous l'avez vue. Personne d'autre ne l'aurait vue.
+— Kern est bonne, a-t-il dit tout de suite. La passe a bougé et vous l'avez vue. Personne d'autre ne l'aurait vue.
 
 — Merci, Doyen.
 
-— Ce n'est pas un compliment. C'est un état de fait, et j'ai besoin d'un état de fait ce matin.
+— Je ne vous fais pas un compliment. Je constate un fait, et j'ai besoin d'un fait ce matin.
 
 Il a marché jusqu'au mur du fond, et il a tiré sur une cordelette.
 
@@ -32,11 +32,11 @@ Au-dessus, il n'y a rien. Du papier nu sur trois cents lieues. Pas une côte, pa
 
 C'est le plus grand blanc du monde connu.
 
-— La Ligne des Cendres, a dit Vael. Quatre-vingt-deux lieues de large au plus étroit. Au-delà, plus personne n'est allé depuis vingt-deux ans.
+— La Ligne des Cendres, a dit le Doyen. Quatre-vingt-deux lieues de large au plus étroit. Au-delà, plus personne n'est allé depuis vingt-deux ans.
 
 — Des expéditions ont essayé.
 
-— Onze. Vous voulez le détail ? Quatre ont renoncé avant la Ligne. Six y sont entrées et ne sont pas ressorties. Une est ressortie : trois hommes sur neuf, brûlés jusqu'à l'os, incapables de dire ce qu'ils avaient vu. Ils sont morts dans la semaine.
+— Onze. Six y sont entrées et ne sont jamais ressorties. Une seule en est revenue : trois hommes brûlés jusqu'à l'os, qui n'ont jamais pu dire ce qu'ils avaient vu. Ils sont morts dans la semaine. Les autres ont renoncé avant d'y entrer.
 
 Il s'est retourné.
 
@@ -46,25 +46,25 @@ J'ai mis un temps à comprendre que ce n'était pas une hypothèse.
 
 — Pourquoi maintenant ?
 
-C'est la seule question qui comptait, et il l'a su, et il a eu — c'est la seule fois — quelque chose comme du respect dans le regard.
+C'était la question qui comptait. Il l'a su, et pour la première fois, j'ai vu dans son regard quelque chose comme du respect.
 
-— Parce que deux maisons de la couronne ont fait consulter le fonds du Nord dans mes archives, à quatre jours d'intervalle. Kerlan au levant, Orsange au couchant. Des hommes polis, avec des motifs différents et le même casier. Chacun croit être le seul.
+— Parce que deux princes de la couronne ont fait fouiller mes archives du Nord, à quatre jours d'intervalle. Kerlan, à l'est. Orsange, à l'ouest. Des hommes polis, avec des motifs différents et le même casier. Chacun croit être le seul.
 
 — Ils vous ont commandé une carte ?
 
-— Personne ne m'a rien commandé, et personne ne me commandera rien. On ne commande pas une feuille qu'on a l'intention de prendre.
+— Personne ne m'a rien commandé, et personne ne me commandera rien. Ils ne veulent pas m'acheter une carte. Ils veulent la prendre.
 
 — Qu'est-ce qu'ils ont trouvé ?
 
-— Rien. Il n'y a rien à trouver, c'est toute l'affaire. Mais quand deux hommes qui se détestent cherchent la même chose la même semaine, ce n'est pas de la curiosité. C'est qu'ils ont appris quelque chose, et je ne sais pas quoi.
+— Rien. Il n'y a rien à trouver, c'est toute l'affaire. Mais quand deux hommes qui se détestent cherchent la même chose la même semaine, c'est qu'ils ont appris quelque chose. Et je ne sais pas quoi.
 
 — Et vous voulez le savoir avant eux.
 
-— Je veux la carte avant eux, ce qui n'est pas la même chose et ce qui suffit. Celui qui sait ce qu'il y a derrière la Ligne tient les deux autres.
+— Je veux la carte avant eux. Ça suffit. Celui qui sait ce qu'il y a derrière la Ligne tient les deux autres.
 
 J'ai regardé le blanc.
 
-Trois cents lieues. Une vie entière de relevés. La seule carte, dans toute l'histoire de cette Guilde, qui ne serait pas une correction d'une carte plus ancienne.
+Trois cents lieues. Une vie entière de terrain. La première carte, dans toute l'histoire de cette Guilde, qui ne serait pas une correction d'une carte plus ancienne.
 
 — Combien d'hommes ?
 
@@ -76,15 +76,15 @@ J'ai cru avoir mal entendu.
 
 J'ai dû faire une tête, parce qu'il a précisé, du ton dont on récite une évidence :
 
-— Un de ceux qui étaient dans les Fours quand ils ont été rompus. Le feu est entré en eux et n'en est jamais ressorti. Les plus vieux avaient trente ans, les plus jeunes venaient de naître ; cela n'a fait aucune différence. Ils ne craignent pas la chaleur. C'est le seul moyen de passer la Ligne, et je ne vous expliquerai pas pourquoi aujourd'hui : vous n'êtes pas encore engagée, et ce n'est pas une chose qui se dit à quelqu'un qui n'est pas engagé.
+— Un homme qui était dans les Fours quand ils ont été rompus. Ce jour-là, le feu est entré dans tous ceux qui s'y trouvaient, des nouveau-nés aux hommes faits, et il n'en est jamais ressorti. On les appelle les Braises. La chaleur ne leur fait rien. C'est le seul moyen de passer la Ligne. Le reste, je vous le dirai quand vous aurez accepté.
 
 — Et si je refuse ?
 
 Le Doyen a laissé retomber le rideau sur la carte.
 
-— Vous êtes pupille de cette maison, Ysée Marrec. Orpheline recueillie à sept ans. Elle vous a nourrie, logée et instruite pendant dix-sept ans, et en échange vous ne refusez jamais une mission — c'est écrit sur le registre que quelqu'un a signé à votre place quand vous aviez sept ans.
+— Vous êtes pupille de cette maison, Ysée Marrec. Orpheline, recueillie, nourrie, logée, instruite. En échange, vous ne refusez jamais une mission : c'est écrit sur le registre que quelqu'un a signé à votre place quand vous aviez sept ans.
 
-Il a laissé cela retomber.
+Il a laissé passer un temps.
 
 — Alors non, vous ne refusez pas. Mais je préfère que vous acceptiez, parce que quelqu'un qui n'a pas envie d'être là ne voit rien.
 

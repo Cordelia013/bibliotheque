@@ -6,7 +6,7 @@
 
 — J'accepte, ai-je dit.
 
-Le Doyen Vael a levé les yeux de son courrier avec l'air d'un homme qui n'avait pas prévu d'autre réponse et qui trouve pourtant que celle-ci arrive trop vite.
+Le Doyen a levé les yeux de son courrier avec l'air d'un homme qui n'avait pas prévu d'autre réponse et qui trouvait pourtant que celle-ci arrive trop vite.
 
 — Bien.
 
@@ -32,15 +32,13 @@ Il m'a regardée un long moment.
 
 — Accordé. Deuxièmement ?
 
-— Le carnet de relevé m'appartient. La carte est à vous. Le carnet est à moi. Tout ce que je verrai et que vous ne m'avez pas demandé de voir reste dans mes mains.
+— Mon carnet de terrain m'appartient. La carte est à vous. Le carnet est à moi. Tout ce que je verrai en dehors de la mission reste à moi.
 
 — Pourquoi ?
 
 — Parce que j'ai copié neuf de vos cartes des Fours à seize ans, ai-je dit.
 
-Le silence, alors, a changé de nature.
-
-Vael n'a pas bougé. Il n'a pas nié, il ne s'est pas expliqué, il n'a pas eu ce réflexe des hommes pris en faute qui consiste à parler de l'époque et des ordres. Il est resté parfaitement immobile, et j'ai vu passer dans ses yeux quelque chose de très vieux et de très fatigué.
+Le Doyen n'a pas bougé. Il n'a pas nié, il ne s'est pas expliqué, il n'a pas eu ce réflexe des hommes pris en faute qui consiste à parler de l'époque et des ordres. Il est resté parfaitement immobile, et j'ai vu passer dans ses yeux quelque chose de très vieux et de très fatigué.
 
 — Accordé, a-t-il dit enfin.
 
@@ -48,7 +46,7 @@ Vael n'a pas bougé. Il n'a pas nié, il ne s'est pas expliqué, il n'a pas eu c
 
 — Qui vous l'a dit ?
 
-— Personne. Un contrat comme le sien ne s'éteint pas, il change de main — c'est la loi, elle est dans un livre que cette maison possède, et je l'ai lu cette nuit. Vous lui avez promis sa liberté en échange du voyage. Ce n'est pas sa liberté que vous lui avez donnée. C'est un nouveau maître, et c'est vous.
+— Personne. Ce genre de contrat passe d'un maître à l'autre, c'est la loi. Elle est dans un livre que cette maison possède, et je l'ai lu. Vous lui avez promis sa liberté en échange du voyage. En réalité, vous lui avez donné un nouveau maître : vous.
 
 Il n'a pas nié cela non plus.
 
@@ -56,9 +54,9 @@ Il n'a pas nié cela non plus.
 
 — Pour quoi faire ?
 
-— Pour qu'il existe un exemplaire hors de cette tour. Si je meurs là-bas, tant pis. Si je reviens, je veux pouvoir prouver ce qu'il a été promis à cet homme, et je ne veux pas dépendre de votre mémoire.
+— Pour qu'il existe un exemplaire hors de cette tour. Si je meurs là-bas, tant pis. Si je reviens, je veux pouvoir prouver ce qui a été promis à cet homme, et je ne veux pas dépendre de votre mémoire.
 
-Vael a ri. Un rire bref, sans joie, presque admiratif.
+Le Doyen a ri. Un rire bref, sans joie, presque admiratif.
 
 — Vous savez ce que vous êtes en train de faire, Ysée Marrec ? Vous êtes en train de me dire que vous ne me faites pas confiance, dans mon bureau, en me demandant un document.
 
@@ -66,7 +64,7 @@ Vael a ri. Un rire bref, sans joie, presque admiratif.
 
 — Et vous croyez que je vais vous le donner.
 
-— Je crois que vous allez me le donner, ai-je dit, parce que dans dix ans, quand cette carte sera dans toutes les cours du monde avec votre nom dessus, vous préférerez qu'on se souvienne du Doyen qui a envoyé une pupille et un Braise au Nord, plutôt que de celui qui a envoyé deux choses qui lui appartenaient.
+— Oui, ai-je dit. Dans dix ans, cette carte sera dans toutes les cours du monde, avec votre nom dessus. Vous préférerez qu'on se souvienne du Doyen qui a envoyé au Nord une pupille et un Braise. Pas de celui qui y a envoyé deux choses qui lui appartenaient.
 
 Il est resté silencieux très longtemps.
 
@@ -86,13 +84,13 @@ Je me suis arrêtée, la main sur la porte.
 
 — Pourquoi ?
 
-— Parce que c'est un homme qui a dix-neuf ans de four dans le corps et vingt-deux ans de colère dans la tête, et qu'il vous faut seize jours de route avec lui avant la Ligne. S'il apprend ce qu'il apprendra de toute façon, qu'il l'apprenne tard.
+— Parce que cet homme a passé sa vie devant un four, et qu'il a vingt-deux ans de colère dans la tête. Vous avez seize jours de route avec lui avant la Ligne. Ce qu'il apprendra de toute façon, qu'il l'apprenne tard.
 
 J'ai refermé la porte derrière moi.
 
 Dans le couloir, je l'ai déplié.
 
-Tout y était : le prix, les signatures, et une ligne précisant qu'en cas d'échec de l'expédition, il retournerait aux marchands de sel comme une marchandise qu'on rapporte.
+Tout y était : le prix, les signatures, et une ligne précisant qu'en cas d'échec de l'expédition, Cael retournerait à la maison Serrande, les marchands de sel, comme une marchandise qu'on rapporte.
 
 Et en bas de page, dans la case où l'on note ce qui est vendu, une phrase d'écriture administrative, parfaitement neutre, qui m'a fait m'appuyer au mur :
 

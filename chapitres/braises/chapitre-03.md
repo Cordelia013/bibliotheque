@@ -4,7 +4,7 @@
 
 *POV Cael*
 
-Le sel qu'on sort de la mine n'est pas du sel. C'est de la pierre grise, dure, pleine de terre. Pour en tirer du sel blanc, il faut la fondre, et pour la fondre, il faut une chaleur qu'aucun feu de bois ne donne.
+Le sel qu'on sort de la mine ressemble à tout sauf à du sel : de la pierre grise, dure, pleine de terre. Pour en tirer du sel blanc, il faut la fondre, et pour la fondre, il faut une chaleur qu'aucun feu de bois ne donne.
 
 C'est pour cela que la maison Serrande nous possède, nous autres, à quatre.
 
@@ -12,13 +12,13 @@ Mon travail tient en quatre gestes. J'entre dans la halle au lever du jour. Je p
 
 Dix-neuf ans.
 
-J'avais huit ans quand on m'a assis devant cette porte. Un Braise vaut par son feu, pas par sa taille, et la maison ne pouvait pas attendre que je grandisse : Vaugrin tenait le four un et Vaugrin n'en avait plus pour longtemps. Torve me tenait debout, les premières semaines, parce que je m'endormais contre la fonte.
+J'avais huit ans quand on m'a assis devant cette porte. Un Braise vaut par son feu, pas par sa taille, et la maison ne pouvait pas attendre que je grandisse : le vieux Vaugrin, qui tenait le four un, n'en avait plus pour longtemps. Torve me tenait debout, les premières semaines, parce que je m'endormais contre la fonte.
 
-Voilà ce que personne ne dit sur nous.
+Il y a une chose que personne ne dit sur nous.
 
 La chaleur ne vient pas de l'air. Elle vient de moi. Et chaque fois que je la donne, elle ne revient pas tout à fait. Nous ne vieillissons pas comme les autres : nous brûlons de l'intérieur, lentement, jusqu'au bout. À quarante ans, un homme qui tient un four a les mains d'un vieillard.
 
-Vaugrin, qui tenait ce four avant moi, est mort à quarante-quatre ans en s'asseyant sur un banc.
+Vaugrin est mort à quarante-quatre ans, en s'asseyant sur un banc.
 
 J'en ai vingt-sept.
 
@@ -30,23 +30,25 @@ Halden Serrande m'attendait dans la cour, hors de la chaleur, avec des gants. Il
 
 — Dorne.
 
+C'est le nom de mon contrat. Ici, personne ne m'appelle Cael.
+
 — Maître Serrande.
 
 — Ton contrat est levé.
 
-Je suis resté immobile. Il y a des phrases qu'on n'entend pas du premier coup, parce qu'on a passé dix-neuf ans à ne pas les espérer.
+Je suis resté immobile. Il y a des phrases qu'on n'entend pas du premier coup, parce qu'on a passé sa vie à ne pas les espérer.
 
 — Pardon ?
 
 — Levé. Racheté. Éteint. Tu ne travailles plus pour cette maison à compter de demain.
 
-Il l'a dit avec un calme parfait, et c'est le calme qui m'a averti. Un homme qui perd un Braise perd quatre cents mesures de sel par jour. Un homme qui perd quatre cents mesures de sel par jour ne le dit pas avec calme.
+Il l'a dit avec un calme parfait, et c'est le calme qui m'a averti. Un homme qui perd un Braise perd quatre cents charges de sel par jour. Ça ne s'annonce pas avec calme.
 
 — Qui ?
 
 — Cela ne te regarde pas.
 
-— Maître Serrande. Un contrat comme le mien ne s'éteint pas. Il change de main. C'est la loi, et je la connais par cœur, parce que c'est le seul texte qu'on m'ait laissé apprendre à lire pendant six ans. Alors je repose la question : qui ?
+— Maître Serrande. Un contrat comme le mien ne s'éteint pas. Il change de main. C'est la loi. Je la connais par cœur : c'est le premier texte que j'aie su lire. Alors je repose la question : qui ?
 
 Quelque chose a bougé dans son visage. De la colère, et dessous, autre chose — de l'embarras. Comme un homme qui vend un cheval qu'il aimait bien.
 
@@ -58,7 +60,7 @@ Le sol a tenu bon sous mes pieds. C'est tout ce que je peux en dire.
 
 — En personne.
 
-Des années que je porte ce nom dans la tête. Le cartographe de la couronne. L'homme dont les cartes hachurées désignaient, sur le papier, les quartiers des Fours où l'on trouvait le plus d'enfants. Je les ai vues une fois, dans une cave de Valdren, chez un homme qui avait servi comme copiste, qui en avait gardé copie et qui buvait pour l'oublier.
+Des années que je porte ce nom dans la tête. Le cartographe de la couronne. L'homme dont les cartes ont montré aux armées où frapper, dans les Fours. Je les ai vues une fois, dans une cave de Valdren, chez un vieil homme qui buvait pour oublier ce qu'il avait tracé.
 
 — Pourquoi ?
 
@@ -78,6 +80,6 @@ Il s'est arrêté.
 
 — Où m'envoie-t-il ?
 
-Et Halden Serrande, l'homme qui allait passer les mois suivants à essayer de m'empêcher d'arriver, m'a répondu la vérité pour la seule et unique fois de notre vie :
+Et Halden Serrande, l'homme qui allait passer les mois suivants à essayer de m'empêcher d'arriver, m'a répondu la vérité, cette fois-là et jamais plus :
 
 — Au Nord. De l'autre côté de la Ligne. Chez toi.

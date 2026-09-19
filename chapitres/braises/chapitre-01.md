@@ -6,15 +6,15 @@
 
 J'arrive toujours à l'atelier une heure avant les autres.
 
-Ce n'est pas du zèle. C'est que le soleil du matin entre par la fenêtre du fond, et que pendant une heure, il tombe exactement sur ma table. Après, il glisse vers celle de Tomas, dont le père siège au Conseil et qui n'a jamais eu besoin de se lever tôt.
+Pour le soleil. Le matin, il entre par la fenêtre du fond et, pendant une heure, il tombe en plein sur ma table. Après, il glisse vers celle de Tomas, dont le père siège au Conseil et qui n'a jamais eu besoin de se lever tôt.
 
 Ce matin-là, je terminais la côte.
 
-Trois mois de travail. Trois mois à marcher le bord de mer, une chaîne d'arpenteur au poing — cent pas de chaîne, qu'on tend, qu'on marque, qu'on recommence — pour mesurer quatre-vingt-douze lieues de littoral. Tout ça pour arriver à ceci : une feuille de vélin de deux coudées sur trois, où chaque crique est à sa place.
+Trois mois de travail. Trois mois à longer la mer, une chaîne d'arpenteur¹ au poing : on la tend, on marque, on recommence. Tout ça pour arriver à ceci : une feuille de parchemin de deux coudées sur trois², où chaque crique est à sa place.
 
 Et une correction, au milieu, dont j'étais fière.
 
-Le passage entre les deux bancs de sable, à l'entrée du port de Kern, n'est plus là où les cartes le disent. La dernière carte datait de trente ans. Le sable a bougé de deux cents pas vers l'ouest depuis. Personne n'était allé vérifier. Deux navires s'y sont éventrés l'hiver dernier.
+Le passage entre les deux bancs de sable, à l'entrée du port de Kern, n'est plus là où les cartes le disent. La dernière carte datait de trente ans, et depuis, le sable a glissé vers l'ouest. Personne n'était allé vérifier. Deux navires s'y sont éventrés l'hiver dernier.
 
 Moi, j'y suis allée. Deux fois.
 
@@ -50,11 +50,11 @@ Alors j'ai sorti mon autre carnet.
 
 Le petit. Celui que je garde cousu dans la doublure de mon manteau, et dont personne ici ne connaît l'existence. J'y note ce que je vois et que la Guilde ne me demande pas de dessiner.
 
-*Le passage de Kern a bougé de deux cents pas vers l'ouest. Ce n'est pas la mer. C'est la digue que les marchands de sel ont fait bâtir plus haut sur la côte, il y a dix ans : elle a coupé le courant, et le courant déplaçait le sable. Je ne l'ai pas mis sur la carte. Personne ne me l'a demandé.*
+*Le passage de Kern a glissé vers l'ouest. La mer n'y est pour rien : il y a dix ans, les marchands de sel ont fait bâtir une digue plus haut sur la côte. Elle a coupé le courant qui tenait le sable en place. Je ne l'ai pas mis sur la carte. Personne ne me l'a demandé.*
 
 Huit ans que je le remplis. Il est plein aux trois quarts.
 
-Je l'appelle le blanc.
+Je l'appelle le blanc, comme les zones vides des cartes. C'est là que je range ce qui n'a pas le droit d'y être.
 
 C'est à ce moment-là que le coursier m'a trouvée, essoufflé, sa livrée trempée de pluie.
 
@@ -62,8 +62,12 @@ C'est à ce moment-là que le coursier m'a trouvée, essoufflé, sa livrée trem
 
 J'ai refermé le carnet.
 
-En huit ans de Relevés, le Doyen Vael ne m'avait jamais adressé la parole. Il avait signé quarante-trois de mes cartes.
+En huit ans de terrain, le Doyen ne m'avait jamais adressé la parole. Il avait signé quarante-trois de mes cartes.
 
 — Maintenant ?
 
 — Il a dit : avant qu'elle enlève ses bottes.
+
+*¹ Chaîne d'arpenteur : une chaîne de mesure, faite de maillons de longueur égale, qu'on tend sur le sol pour mesurer les distances.*
+
+*² Coudée : la longueur d'un avant-bras, du coude au bout des doigts. Une feuille de deux coudées sur trois couvre à peu près le dessus d'une table.*
