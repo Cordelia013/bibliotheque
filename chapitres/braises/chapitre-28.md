@@ -6,7 +6,7 @@
 
 Je me suis retourné.
 
-Elle était devant moi. Assez près pour que je voie la cendre dans ses cils.
+Ysée était devant moi. Assez près pour que je voie la cendre dans ses cils.
 
 Et je suis resté comme ça, immobile, les bras écartés, les mains en l'air de chaque côté d'elle comme un homme qui vient de faire tomber quelque chose et qui n'ose plus bouger.
 
@@ -24,9 +24,9 @@ Je n'ai pas su quoi en faire pendant un temps que je ne saurais pas chiffrer. Pu
 
 Sa bouche était fraîche. C'est le mot qui revient et je n'en trouve pas d'autre : tout, chez elle, était frais. Les lèvres, la langue, le dedans des joues, la peau du cou quand je suis descendu — j'ai découvert cette nuit-là qu'un corps qui n'est pas en feu a une température, et qu'on peut la boire.
 
-Elle a défait sa chemise elle-même, parce que j'avais les mains qui tremblaient et qu'elle a vu que j'allais mettre une heure. En dessous, elle était plus pâle que la figure, avec la marque de la sangle sur l'épaule et deux traces sombres aux hanches là où les sacoches avaient frotté pendant seize jours.
+Elle a défait sa chemise elle-même : j'avais les mains qui tremblaient, et elle a vu que j'allais mettre une heure. En dessous, elle était plus pâle que la figure, avec la marque de la sangle sur l'épaule et deux traces sombres aux hanches là où les sacoches avaient frotté pendant seize jours.
 
-J'ai posé la bouche dessus. Sur la marque de la sangle d'abord, parce que c'était celle que je connaissais, puisque c'était moi qui lui avais appris à serrer.
+J'ai posé la bouche dessus. Sur la marque de la sangle d'abord. Je la connaissais : c'était moi qui lui avais appris à serrer.
 
 Elle a eu un bruit dans la gorge.
 
@@ -36,11 +36,11 @@ Je me suis arrêté net.
 
 Alors j'ai continué, et j'ai appris cette nuit-là un vocabulaire entier que je n'avais jamais eu : ce que veut dire un bruit, ce que veut dire une main qui serre l'arrière de mon crâne, ce que veut dire un genou qui remonte le long de ma cuisse. C'est une langue. Personne ne me l'avait parlée.
 
-Et j'ai compris d'un seul coup ce que c'était que le désir dans un corps — pas l'idée qu'on s'en fait à distance pendant vingt-deux ans : la chose elle-même, qui serre et qui presse et qui ne demande pas la permission.
+Et j'ai compris d'un seul coup ce que c'était que le désir dans un corps. J'en avais une idée, de loin, depuis toujours. Là, c'était la chose elle-même, qui serre et qui presse et qui ne demande pas la permission.
 
 Quand j'ai descendu la main entre ses cuisses, elle était trempée.
 
-Je me suis immobilisé une seconde, bêtement, parce que je ne m'attendais pas à ça — je n'avais jamais rien touché de mouillé et de vivant, et la seule chose qui m'est venue, la seule, c'est qu'elle était fraîche là aussi, fraîche et glissante autour de mes doigts, et que ma main n'y faisait aucun mal.
+Je me suis immobilisé une seconde, bêtement : je ne m'attendais pas à ça. Je n'avais jamais rien touché de mouillé et de vivant. La seule chose qui m'est venue, c'est qu'elle était fraîche là aussi, et glissante autour de mes doigts, et que ma main n'y faisait aucun mal.
 
 — Cael.
 
@@ -50,17 +50,17 @@ Je me suis immobilisé une seconde, bêtement, parce que je ne m'attendais pas �
 
 — C'est ce que je fais.
 
-Elle a ri — dans ma bouche, un rire court, le premier vrai que je lui aie entendu — et elle a pris ma main et elle m'a montré, deux doigts sur les miens, comme j'avais montré la boucle du contre-sanglon à Pierre-Fendue.
+Elle a ri dans ma bouche, un rire court, le premier vrai que je lui aie entendu. Puis elle a pris ma main et elle m'a montré, deux doigts sur les miens, comme je lui avais montré la bonne boucle de la sangle.
 
 Puis elle a cessé de rire, et sa tête est partie en arrière, et j'ai compris que j'avais trouvé.
 
 Et là, j'ai lâché.
 
-Pas les mains. Pas le corps. Ce que je tiens fermé depuis l'âge de six ans, ce que je surveille en dormant, ce que je mesure à la seconde près chaque fois qu'un être humain passe à moins d'un pas de moi — je l'ai ouvert en entier, d'un coup, comme on ouvre une vanne, parce que pour une nuit ça ne pouvait rien détruire.
+Ce que je tiens fermé depuis l'enfance, ce que je surveille en dormant, ce que je mesure à la seconde près chaque fois qu'un être humain passe à moins d'un pas de moi — je l'ai ouvert en entier, d'un coup, comme on ouvre une écluse. Pour une nuit, ça ne pouvait rien détruire.
 
 La chaleur est sortie par tout ce qui la touchait.
 
-Elle a crié. J'ai eu, une demi-seconde, la terreur de toute ma vie — et puis j'ai vu sa figure, et ce n'était pas de la douleur. Elle s'est arc-boutée contre moi et elle a dit *encore*, et le vent a pris ce qui débordait et l'a emporté vers le nord, et il n'est rien resté sur sa peau. Pas une marque. Rien.
+Elle a crié. J'ai eu, une demi-seconde, la terreur de toute ma vie — et puis j'ai vu sa figure. Elle n'avait pas mal. Elle s'est cambrée contre moi et elle a dit *encore*, et le vent a pris ce qui débordait et l'a emporté vers le nord, et il n'est rien resté sur sa peau. Pas une marque. Rien.
 
 Je suis entré en elle comme ça, ouvert, à découvert, en donnant tout.
 
@@ -86,7 +86,7 @@ C'est le mot. Quelque chose a lâché dans ma poitrine, plus bas que le feu, un 
 
 Après, il y a eu le vent, et rien d'autre.
 
-Elle avait la tête sur mon bras. Je prenais toujours, et ça passait en elle par tout le côté de son corps qui me touchait, et ça se perdait dans l'air, et j'étais à la bonne température, ce qui ne m'était pas arrivé depuis Valdren — pas creux comme après les fours, pas plein comme la veille : juste.
+Elle avait la tête sur mon bras. Je prenais toujours. Ça passait en elle par tout le côté de son corps qui me touchait, et ça se perdait dans l'air. J'étais à la bonne température, ce qui ne m'était pas arrivé depuis Valdren — pas creux comme après les fours, pas plein comme la veille : juste.
 
 — Vous avez compté ? a-t-elle dit.
 
@@ -108,7 +108,7 @@ Elle a mis un moment à comprendre. Puis elle a compris, et elle n'a pas fait se
 
 — Parce que là-bas l'air ne prend plus.
 
-— De l'autre côté, je redeviens ce que j'étais. La laine, trois secondes. Vous, jamais.
+— De l'autre côté, je redeviens ce que j'étais. Je pourrai toucher la laine trois secondes. Vous, jamais.
 
 Sa main a bougé sur ma poitrine, s'est arrêtée.
 
@@ -130,12 +130,12 @@ Elle s'est endormie tout de suite après, ce qu'elle fait toujours quand elle a 
 
 Je suis resté éveillé.
 
-J'ai pensé à Vaugrin sur son banc, à quarante-quatre ans, avec tout ce qu'il avait gardé et nulle part où le mettre. *On ne pousse jamais tout. Tu gardes toujours une braise pour toi.* Je venais de tout pousser, ce qu'on ne fait jamais, et je ne m'étais pas éteint.
+J'ai pensé à Vaugrin sur son banc, avec tout ce qu'il avait gardé et nulle part où le mettre. *On ne pousse jamais tout. Tu gardes toujours une braise pour toi.* Je venais de tout pousser, ce qu'on ne fait jamais, et je ne m'étais pas éteint.
 
 J'ai pensé qu'il restait un jour de Ligne. Un jour de vent, et pas de nuit : si nous tenions le pas, nous serions de l'autre côté avant le soir.
 
 Une seule nuit, donc. Celle-ci. Qui finissait.
 
-Je l'ai regardée dormir dans la lumière laiteuse, le linge tombé, la figure grise de cendre, et j'ai passé la main à plat sur son dos nu, lentement, du cou aux reins, pour la seule raison que je pouvais le faire et que dans vingt heures je ne le pourrais plus.
+Je l'ai regardée dormir dans la lumière laiteuse, le linge tombé, la figure grise de cendre. J'ai passé la main à plat sur son dos nu, lentement, du cou aux reins. Je pouvais le faire, et le lendemain soir je ne le pourrais plus.
 
 Pas de marque. J'ai regardé trois fois.
