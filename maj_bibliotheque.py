@@ -26,6 +26,12 @@ DOSSIER = "docs"
 # pour éviter les problèmes rencontrés avec les très gros fichiers uniques.
 DECOUPAGE = {"castellano": 10, "braises": 6}   # id -> chapitres par fichier
 
+# Position des coupures de scène — les lignes « --- » du manuscrit —, relevée à
+# la lecture des chapitres. Elle est écrite dans docs/app.js, à côté de BOOKS,
+# plutôt que dans un fichier de plus : les fichiers de texte n'ont pas à changer
+# de forme, et index.html n'a pas à être republié pour une balise de script.
+SEPARATIONS = {}
+
 CATALOGUE = [
  {"id":"castellano","titre":"Le Prix du Silence, Don Castellano","auteur":"Écrit avec Claude",
   "genres":["Romance mafieuse","Vengeance","Drame","Suspense"],"annee":"2026","couleur":"#6d1f2c",
@@ -60,6 +66,7 @@ def charger(bid):
     entre chapitre-39.md et chapitre-40.md).
     """
     chaps = []
+    separations = SEPARATIONS.setdefault(bid, {})
     for f in sorted(glob.glob(f"chapitres/{bid}/chapitre-*.md")):
         txt = open(f, encoding="utf-8").read()
         m = re.search(r'## Chapitre (\d+(?: (?:bis|ter|quater))?) — (.+)', txt)
@@ -69,11 +76,27 @@ def charger(bid):
         pov = re.search(r'\*POV (.+?)\*', txt)
         pov = pov.group(1).strip() if pov else ""
         corps = txt.split(f"*POV {pov}*", 1)[1] if pov else txt.split(m.group(0), 1)[1]
-        paras = [p.strip() for p in corps.split("\n\n") if p.strip() and p.strip() != "---"]
-        paras = [re.sub(r'\*{1,2}(.+?)\*{1,2}', r'\1', p).replace("\n", " ") for p in paras]
+        # Les lignes « --- » séparent les scènes. Ce ne sont pas des paragraphes,
+        # mais leur position compte : on relève l'indice du dernier paragraphe
+        # avant chaque coupure, pour que la liseuse puisse la rendre.
+        paras, coupures = [], []
+        for bloc in corps.split("\n\n"):
+            b = bloc.strip()
+            if not b:
+                continue
+            if b == "---":
+                if paras and (not coupures or coupures[-1] != len(paras) - 1):
+                    coupures.append(len(paras) - 1)
+                continue
+            paras.append(re.sub(r'\*{1,2}(.+?)\*{1,2}', r'\1', b).replace("\n", " "))
+        # Une coupure après le dernier paragraphe ne sépare rien.
+        coupures = [i for i in coupures if i < len(paras) - 1]
+
         numero = m.group(1)
         numero = int(numero) if numero.isdigit() else numero
         chaps.append({"n": numero, "t": m.group(2).strip(), "pov": pov, "p": paras})
+        if coupures:
+            separations[str(numero)] = coupures
     return chaps
 
 
@@ -96,7 +119,11 @@ def ecrire_si_different(chemin, contenu):
     ancien = None
     if os.path.exists(chemin):
         ancien = open(chemin, encoding="utf-8").read()
-    if ancien == contenu:
+    # Un saut de ligne final n'est pas une différence : un fichier publié peut en
+    # porter un que ce script ne produit pas, et sans cette tolérance il se
+    # présenterait comme modifié à chaque passage — ce qui daterait le livre à
+    # tort et masquerait les vrais changements.
+    if ancien is not None and ancien.rstrip("\n") == contenu.rstrip("\n"):
         return False
     open(chemin, "w", encoding="utf-8").write(contenu)
     return True
@@ -177,6 +204,26 @@ def main():
             ligne = "const BOOKS = " + json.dumps(livres, ensure_ascii=False) + ";"
             open(APP, "w", encoding="utf-8").write(app[:debut] + ligne + app[fin + 2:])
             print(f"  dates mises à jour ({aujourdhui}) : {', '.join(sorted(modifies))}")
+
+    # coupures de scène dans app.js, sur leur propre ligne à la suite de BOOKS
+    if os.path.exists(APP):
+        sep = {b: ch for b, ch in SEPARATIONS.items() if ch}
+        ligne = "const SEPARATEURS = " + json.dumps(sep, ensure_ascii=False) + ";"
+        app = open(APP, encoding="utf-8").read()
+        trouve = re.search(r'^const SEPARATEURS = .*;$', app, flags=re.M)
+        if trouve:
+            nouveau = app[:trouve.start()] + ligne + app[trouve.end():]
+        else:
+            fin = app.find("];")          # fin de la ligne BOOKS
+            if fin == -1:
+                nouveau = app
+                print("  !! BOOKS introuvable dans app.js — coupures non écrites")
+            else:
+                nouveau = app[:fin + 2] + "\n" + ligne + app[fin + 2:]
+        if nouveau != app:
+            open(APP, "w", encoding="utf-8").write(nouveau)
+            total = sum(len(c) for ch in sep.values() for c in ch.values())
+            print(f"  coupures de scène relevées : {total}")
 
     print()
     for titre, n, statut, lots in resume:
