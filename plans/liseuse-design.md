@@ -1,103 +1,148 @@
 # Liseuse — règles de design
 
-État au 19 septembre 2026, après la passe de design (commit `8e622ed`), l'itération 2
-(commit `7e2bb65`) et les corrections d'accessibilité qui la suivent.
+État au 19 septembre 2026. La **direction D · Veilleuse** est validée par l'autrice
+et appliquée. Historique : passe de design (`8e622ed`), itération 2 (`7e2bb65`),
+corrections d'accessibilité (`815f71d`), coupures de scène (`2ba93ed`), puis la
+direction D avec les couvertures en image.
+
+---
+
+## Direction D · Veilleuse — la charte
+
+Validée le 19 septembre 2026 après comparaison de quatre directions (A · L'Atelier,
+B · La Page, C · La Collection, D · Veilleuse). Choisie pour sa typographie (reprise
+de B) et son univers reconnaissable ; le beige de B a été écarté, et la direction a
+été étendue du seul mode sombre à trois thèmes à la demande de l'autrice.
+
+### Ce qui ne bouge jamais
+
+- **L'aplat ambre** `#FFB25C` sur encre `#2A1A08` — contraste **9,42:1**, identique
+  dans les trois thèmes. Il porte la carte « chapitre suivant », le bouton
+  principal, le badge NOUVEAU, l'onglet et la pastille actifs. Un seul aplat par
+  écran : le bouton de thème n'est plus rempli.
+- **Deux familles, et deux seulement** : **Fraunces** pour les titres
+  (`font-variation-settings: 'SOFT' 40, 'WONK' 1`), **Literata** pour tout le
+  reste. Chargées par `app.js` (`chargerPolices()`), pas par `index.html`.
+- **Le halo ambré** en tête de l'écran de lecture : `#app.lecture::before`, fixé à
+  la fenêtre, qui commence sous la barre (`--barh`) et s'éteint sur 190 px.
+
+Cormorant Garamond et Jost restent chargées par `index.html` : **les couvertures
+SVG gardent leur propre dessin.** Ne pas y toucher.
+
+### Les trois thèmes
+
+Identifiants internes inchangés (`clair`, `sepia`, `nuit`), écrits dans le stockage
+local des lecteurs. Noms affichés : Jour, Papier, Nuit.
+
+| Jeton | **Jour** (`clair`) | **Papier** (`sepia`) | **Nuit** (`nuit`) |
+|---|---|---|---|
+| `--paper` | `#FCFCFD` | `#F3EADA` | `#0F1220` |
+| `--paper-deep` | `#F1F2F6` | `#EADFC9` | `#191D30` |
+| `--ink` | `#14151C` | `#23201A` | `#F2F1EE` |
+| `--muted` | `#5A5D6B` | `#615A4C` | `#9B9FB3` |
+| `--ambre-texte` | `#8F5410` | `#8A5310` | `#FFB25C` |
+| `--rose` | `#A8305A` | `#A33256` | `#F08BA4` |
+| `--rule` | `#E2E3EA` | `#E0D3BB` | `#2E3349` |
+| `--rule-fort` | `#83868F` | `#857B66` | `#767C99` |
+
+`--rule-fort` dessine les commandes (3:1 au moins) ; `--rule` reste au filet de
+séparation.
+
+### Les trois couleurs et ce qu'elles disent
+
+- **L'ambre est la voix de la liseuse** : barre de progression, étiquette de
+  chapitre, initiale d'ouverture, points de coupure de scène, chapitre en cours dans
+  le sommaire, carte « chapitre suivant », bouton principal, onglet actif.
+- **La couleur du livre reste au livre** : couverture, jauges (`.cbar i`, `.gbar i`),
+  pourcentage de la page de garde (`.gpct`), filet gauche de la carte « Reprendre »,
+  qui prend la couleur du livre repris (`--livre`, posé par `renderReprise()`).
+- **Le rose est au lecteur** : icône de marque-page active, filet des notes, et le
+  passage marqué dans le texte (`p.marque`, posée par `marquerPassages()`).
+
+### Formes et échelles
+
+- Angles : 8 px sur les commandes, 10 px sur les cartes et le bouton principal,
+  20 px sur les pastilles, 14 px sur la feuille du bas, 4 px sur les couvertures.
+- Corps : `TAILLES = [15.5, 16.5, 18, 20, 22.5]`, défaut 18 px.
+  Interlignes : `[1.56, 1.67, 1.78, 1.9, 2.05]`, défaut 1,78.
+- Colonne de texte : `--mesure: 33em`.
+- Cibles tactiles : 44 px partout, onglets du tiroir et boutons de réglage compris.
+- Nombres : virgule décimale et espace insécable avant l'unité (`nombre()`).
+
+---
+
+## Couvertures en image
+
+Un fichier par livre, JPEG 600 × 900, dans `docs/couvertures/`. `COUV_IMAGE` associe
+un identifiant de livre à son fichier ; un livre déclaré bascule sur son image, les
+autres gardent leur SVG. Si le fichier manque ou ne se charge pas, `couvRepli()`
+rend la main au SVG d'origine. Pas de filet de tranche (`.cover::after`) sur une
+image. Chargement différé ; les fichiers entrent dans le précache du service worker
+(`liseuse-v5`).
+
+Déclarés : `braises`, `castellano`. **Fichiers à déposer** : tant qu'ils manquent,
+ces deux livres s'affichent avec leur SVG.
+
+---
 
 ## Où écrire
 
 La feuille de style d'origine est dans `docs/index.html`, **à l'intérieur du corps
-de la page**. Toute règle ajoutée par `docs/app.js` est injectée dans `<head>`,
-donc plus tôt dans l'ordre du document : à spécificité égale, c'est celle du corps
-qui l'emporte. **Les règles injectées doivent donc porter le sélecteur `#app`.**
+de la page**. Toute règle ajoutée par `docs/app.js` est injectée dans `<head>` : à
+spécificité égale, celle du corps l'emporte. **Les règles injectées portent donc le
+sélecteur `#app`**, et **`html #app`** pour la direction D, qui redéfinit des jetons
+posés sur `#app` lui-même.
 
-Conséquence pratique : une modification de design se fait dans `app.js` seul
-plutôt que dans `index.html`, qui pèse 42 Ko dont la quasi-totalité en couvertures
-SVG. Les nouveaux éléments d'interface se créent dans `monterUI()`.
+Une modification de design se fait dans `app.js` seul ; `index.html` (44 Ko, presque
+tout en couvertures SVG) ne se republie pas. Les nouveaux éléments d'interface se
+créent dans `monterUI()`. Les données du générateur s'écrivent aussi dans `app.js`,
+sur leur propre ligne (`BOOKS`, `SEPARATEURS`).
 
-## Couleurs
+## Couleurs — mécanique
 
-Chaque livre a sa couleur (`couleur` dans `BOOKS`), posée sur `--accent`. Les cinq
-sont sombres, ce qui convient au papier clair et pas du tout au fond nuit :
-mesurées, elles y donnaient **1,20 à 2,33** de contraste là où la norme demande 4,5
-pour du texte.
-
-`--accent-texte` est donc calculé à l'exécution par `poserAccent()` : la clarté
-monte par paliers d'un centième, à teinte constante et saturation relevée de 15 %,
-jusqu'à atteindre 4,5 contre `--paper-deep`, qui est toujours le plus défavorable
-des deux fonds d'un thème. Braises passe ainsi de `#8a3a1f` à `#df6035` en mode nuit.
-
-**Règle** : `--accent` pour les aplats (barre de progression, bouton principal,
-carte « chapitre suivant », badge NOUVEAU), `--accent-texte` dès qu'il s'agit de
-texte ou d'un signe fin.
-
-Les gris de légende passaient eux aussi sous le seuil sur le fond du tiroir :
-`--muted` corrigé en `#686156` (clair, 4,57) et `#72604b` (sépia, 4,54). Le mode
-nuit était déjà conforme.
+`--accent` porte la couleur du livre. `--accent-texte` est calculé par
+`poserAccent()` pour atteindre 4,5 contre `--paper-deep` ; il ne sert plus qu'à ce
+que la direction D laisse au livre.
 
 ## Texte
 
-- **Ouverture de chapitre** : pas de lettrine flottante. Les chapitres de ce corpus
-  s'ouvrent presque tous sur une phrase de vingt à soixante signes — une lettrine
-  de trois lignes déborde sous un paragraphe qui n'en fait que deux, et
-  `::first-letter` emportait l'apostrophe (« J' » en corps 3). L'initiale est
-  haussée dans la ligne, dans un `<span class="cap">` construit en JavaScript, et
-  le paragraphe d'ouverture est grossi de 10 %.
-- **Répliques** : tout paragraphe commençant par un tiret cadratin reçoit la classe
-  `dlg` — retrait pendant de 0,75 em, jamais justifié, jamais de césure.
-- **Alignement** : réglage du lecteur, à gauche par défaut, justifié avec césure en
-  option. Stocké dans `S.align`.
-- **Point de vue** : italique, `--accent-texte`, filet laiton de 46 px dessous.
-
-## Mesures plutôt que constantes
-
-La ligne de progression suit `--barh`, hauteur de la barre mesurée au chargement,
-au redimensionnement, à la rotation et une fois les polices chargées. En mode
-immersif, elle remonte à `top: 0`.
+- **Ouverture de chapitre** : initiale haussée dans la ligne (`<span class="cap">`),
+  en ambre et en Fraunces ; paragraphe d'ouverture à `calc(var(--taille) * 1.1)`.
+- **Répliques** : classe `dlg`, retrait pendant de 0,75 em, jamais justifiées.
+- **Coupures de scène** : table `SEPARATEURS` écrite par le générateur ;
+  `<div class="scene" aria-hidden="true">` rendu en trois points ambrés centrés sur
+  la colonne.
+- **Alignement** : à gauche par défaut, justifié avec césure en option (`S.align`).
+- **Étiquette de chapitre** : ambre, capitales, 11 px, interlettrage 0,2 em.
+- **Point de vue** : italique, gris de légende, 14 px, sans filet.
 
 ## Comportements (itération 2)
 
-- **Progression** : un chapitre entre dans `vus` à 90 % de sa hauteur, ou quand on
-  passe au suivant par la carte de fin — plus à l'ouverture. Les progressions
-  enregistrées avant le 18 septembre restent surévaluées.
-- **Couvertures** : identifiants SVG préfixés à chaque insertion (`idsUniques()`).
-- **Feuille du bas** : un seul composant (`ouvrirFeuille()` / `fermerFeuille()`)
-  pour la note de marque-page et la confirmation « Recommencer ce livre ». Aucun
-  `prompt()` ni `confirm()`. Les notes sont échappées à l'affichage (`esc()`).
-- **Adresses** : `#/`, `#/livre/{id}`, `#/lire/{id}/{n}` ; tiroir et feuilles
-  occupent une entrée d'historique, le retour arrière les referme d'abord.
-- **Barre** : icônes SVG (`ICONES`), cibles de 44 px, noms qui disent l'action ;
-  masquée en mode immersif (classe `immersif` sur `#app`) quand on descend dans le
-  texte, rendue quand on remonte, qu'on touche le texte, en haut et en fin de
-  chapitre.
-- **Navigation entre chapitres** : carte « chapitre suivant » (titre, durée, point
-  de vue), flèches du clavier, balayage latéral net (80 px au moins, en moins de
-  600 ms, nettement plus horizontal que vertical). « À suivre » ou « Fin » au
-  dernier chapitre publié.
-- **Statuts affichés** (`statutLisible()`) : Roman complet, En cours d'écriture,
-  À paraître — les données `BOOKS` gardent Terminé, En cours, À venir.
-- **Sommaire** : ouvert sur le chapitre en cours, réglages résumés sur une ligne.
-  Clé facultative `parties: [{ titre, debut }]` dans `BOOKS` pour grouper en actes
-  repliables ; aucun livre ne la porte encore.
-- **Zoom** : la balise viewport est réécrite depuis `app.js` sans
-  `maximum-scale=1` ; effet sur iPhone non vérifié.
+- Progression : un chapitre entre dans `vus` à 90 % de sa hauteur, ou par la carte
+  de fin.
+- Couvertures SVG : identifiants préfixés à chaque insertion (`idsUniques()`).
+- Feuille du bas : `ouvrirFeuille()` / `fermerFeuille()` pour la note et la
+  confirmation « Recommencer ce livre ».
+- Adresses : `#/`, `#/livre/{id}`, `#/lire/{id}/{n}`.
+- Barre masquée en mode immersif (`immersif` sur `#app`) ; classe `lecture` en vue
+  de lecture, qui porte le halo.
+- Navigation : carte « chapitre suivant », flèches, balayage latéral net.
+- Statuts affichés : Roman complet, En cours d'écriture, À paraître.
+- Sommaire ouvert sur le chapitre en cours ; clé facultative `parties`.
 
 ## Accessibilité
 
-- Tiroir et feuilles : `role="dialog"` (ou `alertdialog`), `aria-modal`, focus
-  gardé à l'intérieur, rendu au bouton d'origine à la fermeture, Échap pour fermer.
-- Onglets du tiroir : `role="tab"`, un seul dans l'ordre de tabulation, flèches
-  gauche et droite, Début et Fin pour passer de l'un à l'autre.
-- Messages de confirmation : `#toast` en `role="status"`, annoncés sans prendre
-  le focus.
+- Tiroir et feuilles : `role="dialog"`/`alertdialog`, `aria-modal`, focus gardé,
+  rendu à la fermeture, Échap.
+- Onglets : `role="tab"`, flèches, Début et Fin ; 44 px de haut.
+- `#toast` en `role="status"`.
 - Contour de focus : 2 px `--ink`, décalé de 2 px.
 
-## Défaut connu, non corrigé
+## Points ouverts
 
-**Les séparateurs de scène disparaissent de la liseuse.** `maj_bibliotheque.py`
-filtre les lignes `---` en construisant les paragraphes. Le chapitre 29 des Braises
-en compte cinq dans le manuscrit et zéro dans les données publiées.
-
-Le corriger demande d'émettre un marqueur dans le générateur, de le rendre dans
-`app.js`, puis de **republier les quinze fichiers de données** — l'API GitHub
-exigeant le contenu complet de chaque fichier, c'est une opération longue et
-sensible à l'erreur de transcription. À décider séparément.
+- **Polices hors ligne** : Fraunces et Literata viennent de Google Fonts, non mises
+  en cache ; hors connexion, repli sur Georgia.
+- **Mesure de colonne** à confirmer avec la police réellement chargée : les
+  vérifications ont été faites sans accès à Google Fonts.
+- **Couvertures** : `braises.jpg` et `castellano.jpg` à déposer ; Vesper, Verre et
+  Lune non traités.
