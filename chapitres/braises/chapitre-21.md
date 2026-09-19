@@ -4,25 +4,25 @@
 
 *POV Cael*
 
-Elle avait raison à trente pas près.
+Ysée avait raison, à quelques pas près.
 
-Sur sa feuille, le défilé de Marne se resserre trois fois. Le premier resserrement est trop près de l'entrée : on y voit encore le jour derrière soi. Le troisième est trop près de la sortie, et un homme qui fuit vers le nord est un homme qui arrive quand même. C'était donc le deuxième, à la deuxième lieue, là où la paroi est de la roche friable et où il y a, sur le côté est, une coulée d'éboulis assez haute pour tenir deux hommes et assez pentue pour qu'on descende dessus en quatre secondes.
+Sur sa feuille, le défilé de Marne se resserre trois fois. Le premier resserrement est trop près de l'entrée : on y voit encore le jour derrière soi. Le troisième est trop près de la sortie, et un homme qui fuit vers le nord est un homme qui arrive quand même. C'était donc le deuxième, à la deuxième lieue. La paroi y est friable, et il y a sur le côté est une coulée d'éboulis assez haute pour tenir deux hommes, assez pentue pour qu'on la descende en un instant.
 
-Elle avait dessiné cette coulée quatre ans plus tôt avec un petit signe en peigne, parce que c'est comme ça qu'on note un éboulis, sans imaginer une seconde à quoi ça servirait.
+Elle avait dessiné cette coulée des années plus tôt, d'un petit signe en peigne, celui des éboulis, sans imaginer une seconde à quoi ça servirait.
 
 Nous sommes entrés dans le défilé une heure avant le jour.
 
-Ce n'était pas une ruse compliquée. Ils attendaient deux voyageurs fatigués au milieu de la matinée, quand la chaleur tape dans le couloir de pierre ; ils ont eu deux voyageurs dans le noir. J'ai fait marcher les chevaux dans le lit de cailloux du milieu, qui sonne, pendant qu'elle allait à pied contre la paroi ouest, dans l'ombre, avec les sacoches et le carnet.
+La ruse était simple. Ils attendaient deux voyageurs fatigués au milieu de la matinée, quand la chaleur tape dans le couloir de pierre ; ils ont eu deux voyageurs dans le noir. J'ai fait marcher les chevaux dans le lit de cailloux du milieu, qui sonne, pendant qu'elle allait à pied contre la paroi ouest, dans l'ombre, avec les sacoches et le carnet.
 
 Ils étaient trois, pas deux.
 
-C'est ma faute, et c'est la seule erreur de ce voyage que je ne me pardonne pas : j'avais compté sur la façon dont un marchand compte, et Halden Serrande n'a pas envoyé le nombre d'hommes qu'il fallait pour nous suivre, il a envoyé le nombre d'hommes qu'il fallait pour finir.
+C'est ma faute, et c'est l'erreur de ce voyage que je ne me pardonne pas : j'avais compté comme compte un marchand. Halden, lui, avait envoyé assez d'hommes pour finir le travail.
 
 Le premier est descendu de l'éboulis en criant quelque chose, pour les chevaux — on crie toujours pour les chevaux, c'est ce qui vous désigne comme un homme qui a déjà fait ça.
 
-Je reprends la suite exactement, parce qu'elle a tout vu et qu'elle mérite qu'au moins l'un de nous deux en tienne le compte honnête.
+Je reprends la suite avec précision. Ysée a tout vu, et elle mérite qu'au moins l'un de nous deux en tienne un compte honnête.
 
-Je ne lance pas de feu. Personne ne lance de feu. Ce n'est pas une chose qui sort des mains comme l'eau d'une cruche.
+Je ne lance pas de feu. Personne ne lance de feu : il ne sort pas des mains comme l'eau d'une cruche.
 
 Ce que je fais, c'est donner de la chaleur à ce qui en veut bien. La pierre en veut peu et lentement. L'air en veut beaucoup et n'en garde rien. Le métal en veut énormément et le garde.
 
@@ -38,25 +38,25 @@ Le deuxième m'a pris par-derrière, aux bras, en me serrant contre lui pour blo
 
 Sauf qu'on ne me tient pas.
 
-Je n'ai pas eu besoin des mains. J'ai simplement cessé de me retenir — j'ai ouvert ce que je passe ma vie à tenir fermé — et il a lâché prise en une seconde et demie, et il est parti en arrière en tapant sur ses propres avant-bras, et sa chemise fumait le long des coutures.
+Je n'ai pas eu besoin des mains. J'ai simplement cessé de me retenir — j'ai ouvert ce que je passe ma vie à tenir fermé. Il a lâché prise presque aussitôt, il est parti en arrière en tapant sur ses propres avant-bras, et sa chemise fumait le long des coutures.
 
 Le troisième n'est pas descendu.
 
 Il est resté en haut de l'éboulis, et il a fait la seule chose intelligente de la matinée : il a visé Ysée.
 
-Il avait un arc court, une arme de convoi, et il était à vingt pas.
+Il avait un arc court, une arme de convoi, et il était à une vingtaine de pas.
 
-Je n'ai pas réfléchi. Il n'y a rien à réfléchir : entre lui et elle il y avait de l'air, et l'air est la seule chose qui prend tout de suite.
+Je n'ai pas réfléchi. Il n'y a rien à réfléchir : entre lui et elle il y avait de l'air, et l'air prend tout de suite.
 
 J'ai chauffé le couloir.
 
-C'est interdit. Je ne dis pas interdit par un édit : interdit par ce qu'on sait, entre nous, depuis la Guerre des Fours. On ne chauffe pas l'air d'un espace fermé quand il y a des gens dedans, parce qu'on ne choisit pas qui respire.
+C'est interdit. Aucun édit ne le dit ; c'est ce qu'on sait, entre nous, depuis la Guerre des Fours. On ne chauffe pas l'air d'un espace fermé quand il y a des gens dedans : on ne choisit pas qui respire.
 
-Pendant une seconde, dans quinze pas de défilé, l'air a été celui d'un four qu'on ouvre.
+Pendant une seconde, sur une quinzaine de pas de défilé, l'air a été celui d'un four qu'on ouvre.
 
 Sa flèche est partie n'importe où. Il est tombé assis, les mains sur la figure. Les chevaux ont hurlé — les chevaux hurlent, les gens ne savent pas ça — et se sont arrachés vers le nord.
 
-Et Ysée Marrec, à onze pas de moi, contre la paroi ouest, a respiré cet air-là aussi.
+Et Ysée, à quelques pas de moi, contre la paroi ouest, a respiré cet air-là aussi.
 
 Après, il y a eu le silence et le bruit des chevaux qui s'éloignaient.
 
@@ -74,7 +74,7 @@ Elle a dit :
 
 — Une couverture, ai-je réussi à dire. Deux. Et du temps.
 
-Elle est allée chercher les couvertures dans les sacoches qu'elle avait gardées, et elle me les a mises sur les épaules, et elle a serré le col dans son poing pour que ça tienne fermé, et ce faisant elle a posé la main pleine sur ma nuque nue pendant deux, trois, cinq secondes, bien plus que trois.
+Elle est allée chercher les couvertures dans les sacoches qu'elle avait gardées et me les a mises sur les épaules. Elle a serré le col dans son poing pour que ça tienne fermé. Ce faisant, elle a posé la main pleine sur ma nuque nue pendant deux, trois, cinq secondes, bien plus qu'un Braise ne permet sur une peau nue.
 
 Elle n'a pas compté.
 

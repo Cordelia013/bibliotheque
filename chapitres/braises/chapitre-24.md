@@ -4,11 +4,11 @@
 
 *POV Ysée*
 
-Il a fallu organiser, parce que c'est ce que je sais faire quand j'ai peur.
+J'ai organisé. C'est ce que je sais faire quand j'ai peur.
 
-J'ai étendu une couverture au sol, du côté du feu qui n'était pas au vent. J'ai plié la seconde en deux dans le sens de la longueur. J'ai enlevé mes bottes, pas mon manteau. J'ai annoncé à voix haute que je me coucherais sur le côté droit, parce que je dors sur le côté droit, et qu'il valait mieux le savoir tout de suite.
+J'ai étendu une couverture au sol, du côté du feu qui n'était pas au vent. J'ai plié la seconde en deux dans le sens de la longueur. J'ai enlevé mes bottes, pas mon manteau. J'ai annoncé à voix haute que je me coucherais sur le côté droit. Je dors sur le côté droit, et il valait mieux le savoir tout de suite.
 
-Il m'a écoutée faire tout ça debout, les bras le long du corps, avec l'expression d'un homme à qui l'on explique une cérémonie religieuse dont il n'a pas la foi.
+Cael m'a écoutée faire tout ça debout, les bras le long du corps, avec l'expression d'un homme à qui l'on explique une cérémonie religieuse dont il n'a pas la foi.
 
 — Couchez-vous, ai-je dit.
 
@@ -16,11 +16,11 @@ Il s'est couché sur le dos.
 
 — Sur le côté. Vous avez dit *dans votre dos*.
 
-Il s'est mis sur le côté, face au feu, et il a mis les bras devant lui, contre sa poitrine, en les repliant — un homme de six pieds qui ramène tout vers l'intérieur, comme on range ses outils avant de laisser entrer quelqu'un dans un atelier.
+Il s'est mis sur le côté, face au feu, et il a mis les bras devant lui, contre sa poitrine, en les repliant — un grand homme qui ramène tout vers l'intérieur, comme un artisan range ses outils avant de laisser entrer quelqu'un dans son atelier.
 
 Je me suis allongée derrière lui.
 
-Je n'ai pas touché tout de suite. Nous sommes restés une minute entière à un demi-pied l'un de l'autre, et le demi-pied était chaud comme un mur de four le soir, et je regardais la laine de sa chemise entre les omoplates monter et descendre beaucoup trop vite pour un homme couché.
+Je n'ai pas touché tout de suite. Nous sommes restés un moment tout près l'un de l'autre, sans nous toucher, et l'espace entre nous était chaud comme un mur de four le soir. Je regardais la laine de sa chemise entre les omoplates monter et descendre beaucoup trop vite pour un homme couché.
 
 — Cael.
 
@@ -30,15 +30,15 @@ Je n'ai pas touché tout de suite. Nous sommes restés une minute entière à un
 
 — Oui.
 
-— De quoi exactement ? Soyez précis, ça m'aidera.
+— De quoi ? Soyez précis, ça m'aidera.
 
 — Que vous vous réveilliez avec une marque, a-t-il dit. Que vous ne le disiez pas. Et que vous continuiez à dormir là quand même, pendant trois nuits, parce que vous avez décidé que c'était de la méthode.
 
 J'ai posé le front entre ses omoplates.
 
-Voilà. C'était fait.
+C'était fait.
 
-Il s'est raidi d'un bloc — tout le dos, d'un coup, comme une porte qu'on claque — et j'ai attendu, sans bouger, sans parler, exactement comme lui avait attendu, quatre soirs de suite, de l'autre côté d'un feu, que je veuille bien le regarder.
+Il s'est raidi d'un bloc — tout le dos, d'un coup, comme une porte qu'on claque — et j'ai attendu, sans bouger, sans parler, comme lui avait attendu, quatre soirs de suite, de l'autre côté d'un feu, que je veuille bien le regarder.
 
 Il a fallu longtemps.
 
@@ -50,9 +50,9 @@ Puis le dos a cédé. Pas tout ; une épaule. Puis l'autre. Puis le souffle a ra
 
 — Vous diriez si c'était trop chaud.
 
-— Je dirais tout de suite, ai-je dit. Vous avez ma parole de Relevée, ce qui est la seule parole que j'aie jamais donnée à qui que ce soit.
+— Je dirais tout de suite, ai-je dit. Vous avez ma parole de Relevée. C'est la seule parole que j'aie jamais donnée à qui que ce soit.
 
-J'ai passé le bras par-dessus lui pour ramener la couverture, parce qu'elle glissait, et ma main est restée sur son avant-bras, à plat, là où la manche était retroussée et où il n'y avait plus de laine entre nous.
+J'ai passé le bras par-dessus lui pour ramener la couverture qui glissait, et ma main est restée sur son avant-bras, à plat, là où la manche était retroussée et où il n'y avait plus de laine entre nous.
 
 Il n'a rien dit.
 
@@ -74,9 +74,9 @@ Il aurait pu demander ça de vingt façons. Il l'a demandé comme il demande tou
 
 J'ai regardé le feu par-dessus son épaule.
 
-J'ai pensé à une cave d'archives et à neuf cartes par terre. J'ai pensé à quatre mille couronnes posées sur un marchepied. J'ai pensé à un homme à genoux dans des cailloux, en train de trembler, qui avait chauffé l'air d'un couloir en sachant ce que ça coûte, pour une femme qui avait copié la carte de ses zones à seize ans et qui en avait été fière.
+J'ai pensé à la cave des archives de la Guilde et à neuf cartes étalées par terre. J'ai pensé à la bourse de Halden, posée sur un marchepied. J'ai pensé à un homme à genoux dans des cailloux, en train de trembler, qui avait chauffé l'air d'un couloir en sachant ce que ça coûte. Il l'avait fait pour une femme qui avait copié la carte de ses zones à seize ans et qui en avait été fière.
 
-Et j'ai dit la vérité, qui était aussi, très exactement, un mensonge par omission — et c'est cette phrase, plus que tout le reste, que je me repasserai pendant des mois :
+Et j'ai dit la vérité, qui était aussi un mensonge par omission. C'est cette phrase, plus que tout le reste, que je me repasserai pendant des mois :
 
 — Je m'entraîne à la distance.
 
@@ -84,9 +84,9 @@ Il n'a pas répondu.
 
 Je me suis endormie comme ça, la main sur son avant-bras, à la limite exacte où l'on tient sans lâcher, et je n'ai pas rêvé.
 
-Je me suis réveillée deux heures avant le jour, parce que le froid m'avait prise dans le dos — l'avant tiède, l'arrière glacé, comme on se réveille devant un feu qui a baissé.
+Je me suis réveillée bien avant le jour : le froid m'avait prise dans le dos — l'avant tiède, l'arrière glacé, comme devant un feu qui a baissé.
 
-Il dormait. Vraiment. La respiration sans rythme, celle qui traîne et qui repart.
+Cael dormait. Vraiment. La respiration sans rythme, celle qui traîne et qui repart.
 
 Je me suis levée sans le réveiller. J'ai remis la couverture sur lui, et j'ai fait le tour du camp comme je fais le tour des camps, par habitude, pour voir.
 
@@ -94,7 +94,7 @@ Deux choses.
 
 La première : le pli.
 
-Je l'avais dans la doublure depuis Valdren, contre le blanc. *À ouvrir à la Ligne*, quatre mots de la main du Doyen Aldric Vael. J'étais à une demi-lieue du bord et je ne serais jamais plus près d'un endroit où l'on peut lire à la lumière d'un feu.
+Je l'avais dans la doublure depuis Valdren, contre le blanc. *À ouvrir à la Ligne*, de la main du Doyen. J'étais tout près du bord et je ne serais jamais plus près d'un endroit où l'on peut lire à la lumière d'un feu.
 
 Je l'ai ouvert.
 
@@ -114,6 +114,6 @@ Puis j'ai levé les yeux, et j'ai vu la deuxième chose.
 
 Au sud, sur la route par où nous étions venus, à deux lieues et demie — la distance, toujours la même distance, celle qu'on tient — il y avait des feux de camp.
 
-Je les ai comptés deux fois pour être sûre, parce qu'on ne relève pas un chiffre qu'on n'a pas compté deux fois.
+Je les ai comptés deux fois : on ne relève pas un chiffre qu'on n'a pas compté deux fois.
 
 Neuf.
