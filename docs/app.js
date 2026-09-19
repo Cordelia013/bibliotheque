@@ -76,12 +76,13 @@ const INTERLIGNES = [1.56, 1.67, 1.78, 1.9, 2.05];
 /* Nombres à la française : virgule décimale, espace insécable avant l'unité. */
 function nombre(x){ return String(x).replace('.', ','); }
 
-/* Couvertures en image. Un livre bascule sur son image dès qu'il est déclaré ici
-   (JPEG 600 × 900 dans docs/couvertures/) ; si le fichier manque ou ne se charge
-   pas, couvRepli() rend la main à la couverture SVG d'index.html. */
+/* Couvertures en image. Un livre bascule sur son image dès qu'il est déclaré ici ;
+   si le fichier manque ou ne se charge pas, couvRepli() rend la main à la
+   couverture SVG d'index.html. Les fichiers sont des SVG qui enveloppent une image
+   WebP 480 × 720 : l'API de publication du dépôt n'accepte que du texte. */
 const COUV_IMAGE = {
-  braises: 'couvertures/braises.jpg',
-  castellano: 'couvertures/castellano.jpg'
+  braises: 'couvertures/braises.svg',
+  castellano: 'couvertures/castellano.svg'
 };
 const ALIGNES = ['gauche','justifie'];
 let S = { theme:'clair', taille:2, inter:2, align:'gauche', dernier:null, visite:0, livres:{} };
