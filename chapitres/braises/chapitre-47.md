@@ -4,11 +4,11 @@
 
 *POV Ysée*
 
-Le deuxième soir, il a fait le signe de la halte quatre cents pas trop tôt.
+Le deuxième soir, Cael a fait le signe de la halte quatre cents pas trop tôt.
 
-Je le sais parce que c'est mon métier et parce que j'ai le carnet de route de la traversée aller, avec les heures, les détours, la fente rouge et l'estimation de distance depuis le poirier. J'ai relevé notre position du soir comme je relève tout : au temps de marche et au compas.
+Je le sais : c'est mon métier, et j'ai le carnet de route de la traversée aller, avec les heures, les détours, la fente rouge et l'estimation de distance depuis le poirier. J'ai relevé notre position du soir comme toujours : au temps de marche et à la boussole.
 
-Nous étions à quatre cents pas au sud-est de l'endroit.
+Nous étions à quatre cents pas au sud-est de l'endroit où nous avions dormi le deuxième soir de l'aller.
 
 Pas quatre lieues. Pas un demi-mille. Quatre cents pas — la distance qu'il faut pour qu'un homme puisse se dire qu'il ne s'est pas arrêté là, et pas une de plus.
 
@@ -18,39 +18,39 @@ Il compte.
 
 ---
 
-La croûte de verre était la même. Le vent tournait de la même façon, par bouffées, une de four puis une qui n'est que chaude. Et à quatre cents pas au nord-ouest, dans la lumière laiteuse que le sol donne toute la nuit, il y avait un endroit où j'ai posé la main sur la peau d'un homme et où il a lâché, pour la première et la seule fois de sa vie, tout ce qu'il tient fermé depuis l'âge de six ans.
+La croûte de verre était la même. Le vent tournait de la même façon, par bouffées, une de four puis une qui n'est que chaude. Et là-bas, au nord-ouest, dans la lumière laiteuse que le sol donne toute la nuit, il y avait un endroit où j'ai posé la main sur la peau d'un homme, et où il a lâché, pour la première fois de sa vie, tout ce qu'il tient fermé depuis l'âge de six ans.
 
 Nous nous sommes couchés à cinq, en enfilade, dans l'ordre de marche.
 
-Lui au sud. Mauger contre son dos. Moi contre Mauger. Tiec. Et Halden Serrande au bout, qui n'avait plus d'outre depuis la quatrième heure de la journée et qui n'avait rien dit à personne.
+Cael au sud. Mauger contre son dos. Moi contre Mauger. Tiec. Et Halden au bout, qui n'avait plus d'outre depuis la quatrième heure de la journée et qui n'avait rien dit à personne.
 
 J'ai dormi trois heures. C'est plus que je ne pensais.
 
-Je me suis réveillée parce que quelque chose avait changé dans le dos de Mauger : il s'était mis à trembler, pas de froid — il n'y a pas de froid ici — mais de cette manière régulière qu'ont les hommes qui récupèrent. Ce qui voulait dire que ça allait mieux. Ce qui voulait dire que la place derrière Cael faisait son travail.
+Je me suis réveillée parce que quelque chose avait changé dans le dos de Mauger : il s'était mis à trembler, pas de froid — il n'y a pas de froid ici — mais de cette manière régulière qu'ont les hommes qui récupèrent. Il allait mieux. La place derrière Cael faisait son travail.
 
 Et j'ai fait, dans le noir, le calcul que je n'avais pas osé faire debout.
 
-Si la place fonctionne, quelqu'un la paie. Il y a une quantité de chaleur qui passe dans cette file et elle ne disparaît pas parce qu'on change l'ordre. Mauger allait mieux depuis qu'il était deuxième. Il y avait donc, à onze pas derrière moi, un homme de trente-deux ans qui allait exactement d'autant plus mal.
+Si Mauger allait mieux, quelqu'un payait à sa place. La chaleur ne disparaît pas quand on change l'ordre de la file : elle passe sur un autre. Et cet autre, c'était Halden, couché au bout, onze pas derrière moi.
 
 Je me suis relevée sur un coude.
 
-On ne voit rien la nuit sur la Ligne, sauf le sol, qui donne cette lueur laiteuse par en dessous, si bien que les gens couchés dessus sont des formes noires posées sur du lait.
+On ne voit rien la nuit sur la Ligne, sauf le sol, et les gens couchés dessus sont des formes noires posées sur du lait.
 
 La forme du bout ne bougeait pas.
 
-Elle ne bougeait pas du tout, et un homme qui dort bouge, et j'ai su à cet instant-là ce qui arriverait le lendemain avec la même certitude que j'ai eue devant six points de poussière sur une route royale.
+Elle ne bougeait pas du tout, et un homme qui dort bouge. J'ai su à cet instant-là ce qui arriverait le lendemain, avec la même certitude que devant six points de poussière sur une route royale.
 
-Je n'ai réveillé personne. On ne parle pas. Et il n'y avait rien à dire qu'un homme devant moi n'eût déjà calculé trois fois.
+Je n'ai réveillé personne. On ne parle pas. Et il n'y avait rien à dire que Cael n'eût déjà calculé trois fois.
 
 ---
 
-Le troisième jour, Halden Serrande s'est assis à la cinquième heure.
+Le troisième jour, Halden s'est assis à la cinquième heure.
 
-Il ne s'est pas effondré. Personne ne s'effondre. Il a ralenti pendant vingt pas, puis il s'est mis à genoux, puis il s'est assis sur les talons et il a posé les mains à plat sur la croûte de verre de chaque côté de lui, très proprement, comme un homme qui s'installe pour réfléchir.
+Il ne s'est pas effondré. Personne ne s'effondre. Il a ralenti sur quelques pas, puis il s'est mis à genoux, puis il s'est assis sur les talons et il a posé les mains à plat sur la croûte de verre de chaque côté de lui, très proprement, comme un homme qui s'installe pour réfléchir.
 
 C'est Tiec qui l'a vu.
 
-Le petit a fait une chose qui n'était dans aucune consigne : il a quitté la file, il est revenu en arrière en courant sur six pas, et il a attrapé Halden par le col.
+Le petit a fait une chose qui n'était dans aucune consigne : il a quitté la file, il est revenu en arrière en courant, et il a attrapé Halden par le col.
 
 Il n'aurait pas dû. Il perdait sa place et il en perdait le bénéfice, et il était trop léger pour relever un homme assis.
 
@@ -60,13 +60,13 @@ Il l'a fait quand même. À vingt ans, pour son patron, qui ne le saura jamais p
 
 Cael était déjà en train de revenir.
 
-Il est passé à côté de moi sans me voir. Il a remonté la file à l'envers, ce qui veut dire qu'il a marché, pendant sept pas, avec le vent en pleine figure au lieu de dans le dos, et j'ai vu ce que ça fait : sa manche a fumé.
+Il est passé à côté de moi sans me voir. Il a remonté la file à l'envers, le vent en pleine figure au lieu de dans le dos, et j'ai vu ce que ça fait : sa manche a fumé.
 
 Il a écarté Tiec d'une main. Il s'est accroupi devant Halden.
 
 Je n'ai pas entendu ce qu'il a dit. Je ne crois pas qu'il ait dit quelque chose. Il a pris la figure de Halden entre ses deux mains, à peau nue, et il l'a tenue comme ça pendant le temps qu'il faut pour respirer trois fois.
 
-Sur la Ligne, il ne peut brûler personne. L'air prend tout ce qui sort de lui avant que ça n'arrive à une peau. Je suis la seule personne vivante à le savoir de cette façon-là, et pendant trois secondes j'ai été la seule personne vivante à comprendre ce que Cael Dorne était en train de faire à Halden Serrande, dont la maison l'avait possédé pendant dix-neuf ans : il le réchauffait.
+Sur la Ligne, il ne peut brûler personne. L'air prend tout ce qui sort de lui avant que ça n'arrive à une peau. Personne d'autre ne le sait de cette façon-là. Et pendant ces trois souffles, j'ai été seule à comprendre ce que Cael faisait au fils de la maison qui l'avait possédé dix-neuf ans : il le réchauffait.
 
 Ça n'a pas suffi. Un homme vide ne se remplit pas comme ça ; ce n'est pas le même manque.
 
@@ -76,23 +76,23 @@ Alors il l'a chargé sur son dos.
 
 *Personne ne porte personne sur la Ligne. On y passe debout.*
 
-Il me l'a dit au sixième jour de route, à côté d'un feu, dans un pays de landes, en remuant une bûche. C'est la première règle qu'il m'ait apprise et il l'a énoncée comme une loi de la nature.
+Cael me l'a dit au sixième jour de route, à côté d'un feu, dans un pays de landes, en remuant une bûche. C'est la première règle qu'il m'ait apprise et il l'a énoncée comme une loi de la nature.
 
-Il a porté Halden Serrande pendant quatre heures.
+Il a porté Halden pendant quatre heures.
 
-Il a refait la file autrement, avec des gestes, et je note l'ordre parce que je note tout : Cael devant avec un homme sur le dos, Mauger à deux pas, moi collée à Mauger, Tiec collé à moi.
+Il a refait la file autrement, avec des gestes, et je note l'ordre : Cael devant avec un homme sur le dos, Mauger à deux pas, moi collée à Mauger, Tiec collé à moi.
 
 Et il a marché.
 
-Je voudrais écrire quelque chose de juste sur ces quatre heures et je n'y arrive pas. Il n'y avait rien à voir. Un homme qui marche en portant un autre homme, dans un vent qui vous prend l'eau du corps, sous un linge mouillé, à trois lieues du bord. Il ne titubait pas. Il n'a pas fait de halte hors des heures. Il n'a pas changé de rythme, et c'est la chose qui m'a fait le plus peur, parce qu'un homme qui ne change pas de rythme quand la charge change est un homme qui a décidé de ne plus rien décider.
+Je voudrais écrire quelque chose de juste sur ces quatre heures et je n'y arrive pas. Il n'y avait rien à voir. Un homme qui marche en portant un autre homme, dans un vent qui vous prend l'eau du corps, sous un linge mouillé, à trois lieues du bord. Il ne titubait pas, ne faisait pas de halte hors des heures, ne changeait pas de rythme. C'est ce qui m'a fait le plus peur : un homme qui garde le même pas quand la charge change a décidé de ne plus rien décider.
 
 À la troisième heure, l'air derrière lui n'était plus supportable.
 
-Il faut avoir marché dans cette ombre-là pour comprendre. Depuis le premier jour, il y avait derrière son dos une zone où l'air était tenable — pas frais : tenable. À la troisième heure de cette journée, cette zone avait la largeur d'une main.
+Depuis le premier jour, il y avait derrière son dos une zone où l'air restait tenable. À la troisième heure, cette zone avait la largeur d'une main.
 
 Il ne prenait plus.
 
-Il était plein. Il avait pris pour quatre pendant deux jours et demi, et il portait cent soixante livres d'homme depuis trois heures, et il n'avait rien où le mettre.
+Il était plein. Il avait pris pour quatre pendant deux jours et demi, et il portait un homme depuis trois heures, et il n'avait rien où le mettre.
 
 *Le jour où tu prends tout, tu ne trouves plus la porte.*
 
@@ -100,7 +100,7 @@ Il était plein. Il avait pris pour quatre pendant deux jours et demi, et il por
 
 Je suis passée devant Mauger.
 
-Je l'ai fait sans y penser, en le doublant par la gauche, et Mauger n'a rien dit parce qu'on ne parle pas et parce qu'il a compris, je crois, qu'il se passait une chose dont il n'avait pas les éléments.
+Je l'ai fait sans y penser, en le doublant par la gauche, et Mauger n'a rien dit : on ne parle pas, et il a compris, je crois, qu'il se passait une chose dont il n'avait pas les éléments.
 
 Je me suis mise à un demi-pas derrière Cael, du côté où Halden ne pendait pas.
 
@@ -112,7 +112,7 @@ Ce qu'il y avait là-dessous, je n'ai pas de mot pour le dire et je n'ai pas l'i
 
 J'ai gardé la main.
 
-Je savais ce que je faisais. C'est la seule chose de tout ce voyage que j'aie faite en sachant exactement ce que je faisais : je l'avais fait au deuxième soir de la traversée aller, dans le noir, en tirant sur le pan de sa chemise, et il avait dit *ça ne vous fait rien* et j'avais dit non, et le vent avait pris ce qui débordait avant que ça n'arrive à ma peau.
+Je savais ce que je faisais. De tout ce voyage, c'est la seule fois. Je l'avais déjà fait au deuxième soir de la traversée aller, dans le noir, en tirant sur le pan de sa chemise. Il avait dit *ça ne vous fait rien* et j'avais dit non, et le vent avait pris ce qui débordait avant que ça n'arrive à ma peau.
 
 Ça a mis longtemps.
 
@@ -120,13 +120,13 @@ Puis ça s'est ouvert, comme cette nuit-là, et j'ai senti passer dans mon bras 
 
 Ses épaules ont cédé d'un cran.
 
-Il n'a pas tourné la tête. Il n'a pas ralenti. Il a continué à marcher avec un homme sur le dos et ma main sur sa nuque, et nous avons fait comme ça les trois dernières heures, moi à un demi-pas, hors de l'ombre, dans l'air plein — ce qui m'a coûté deux jours de lèvres fendues et une semaine sans voir net de l'œil gauche.
+Il n'a pas tourné la tête. Il n'a pas ralenti. Il a continué à marcher avec un homme sur le dos et ma main sur sa nuque, et nous avons fait comme ça la dernière heure, moi à un demi-pas, hors de l'ombre, dans l'air plein. Ça m'a coûté deux jours de lèvres fendues et une semaine sans voir net de l'œil gauche.
 
 Nous n'avons pas échangé un mot.
 
 C'était le seul endroit du monde où nous pouvions nous toucher, et nous l'avons traversé en nous touchant, et ce n'était pas un pardon : c'était une pièce de mécanique. Une main fraîche sur une peau qui déborde. Ça se serait passé pareil avec n'importe quelle main.
 
-Je me le suis dit à chaque pas pendant trois heures, exactement comme on répète un chiffre pour ne pas le perdre.
+Je me le suis répété à chaque pas jusqu'au bord, comme un chiffre qu'on ne veut pas perdre.
 
 ---
 
@@ -138,8 +138,8 @@ Cael a fait trois pas de plus. Puis il s'est arrêté.
 
 Et il a retiré sa nuque de dessous ma main.
 
-Il ne l'a pas fait brutalement. Il a fait ce qu'il fait depuis qu'il a six ans, et il l'a fait proprement, et il n'y avait rien d'autre à faire : de ce côté-ci, l'air ne prend plus rien, et trois secondes sur de la laine sèche, et moins sur de la peau.
+Il ne l'a pas fait brutalement. Il a fait ce qu'il fait depuis qu'il a six ans, et il l'a fait proprement, et il n'y avait rien d'autre à faire : de ce côté-ci, l'air ne prend plus rien. Trois secondes suffisent à roussir la laine sèche, et il en faut moins pour la peau.
 
-Il a posé Halden Serrande par terre, sur le côté, la tête sur un bras.
+Il a posé Halden par terre, sur le côté, la tête sur un bras.
 
 Puis il s'est assis à côté de lui, dans l'herbe morte. Il ne s'était pas assis depuis trois jours.
