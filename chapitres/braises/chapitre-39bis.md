@@ -6,13 +6,13 @@
 
 Le quatrième jour, il n'y avait plus rien à réparer.
 
-C'est une chose que je n'avais pas prévue et qui aurait dû me venir à l'esprit, parce que j'ai passé dix-neuf ans dans une halle où il y a toujours quelque chose à faire, et qu'une maison de deux pièces n'est pas une halle. Le bardeau du nord était repris. Le poteau de l'appentis était droit. La porte fermait. Le bois était recoupé court, et il y en avait sous l'appentis de quoi tenir jusqu'au printemps si l'on comptait large, ce que j'avais fait.
+Je ne l'avais pas prévu. J'ai passé dix-neuf ans dans une halle où il y a toujours quelque chose à faire, et une maison de deux pièces n'est pas une halle. Le toit, le poteau, la porte : tout tenait. Sous l'abri, il y avait assez de bois coupé court pour tenir jusqu'au printemps, en comptant large.
 
 Je suis resté debout dans la cour avec les mains vides.
 
 Puis je suis entré, parce qu'il n'y avait pas d'autre endroit où aller, et je me suis assis sur le tabouret, à sa gauche, là où je m'assieds.
 
-Elle n'a rien dit pendant un moment. Elle m'a laissé arriver au bout.
+Aunis n'a rien dit pendant un moment. Elle m'a laissé arriver au bout.
 
 — Tu as fini, a-t-elle dit.
 
@@ -42,23 +42,23 @@ Elle a remonté la couverture sur ses épaules, et elle a eu, au coin de la bouc
 
 J'ai dit le compte en entier.
 
-— Ici, on prend son tour. Une heure, un jour sur cinq. Ça donne soixante-quatorze ans, et il y en a onze comme lui. Vous êtes montée il y a trois hivers. Trois hivers sur ce régime-là n'usent personne. Donc ce n'est pas ici que vous vous êtes usée. C'est en bas, et je ne comprends pas, parce qu'en bas il n'y a plus de four et plus de maison et plus personne pour compter votre tonnage.
+— Ici, on prend son tour une heure, un jour sur cinq, et on arrive à son âge. Ils sont onze comme lui. Vous êtes montée il y a trois hivers, et trois hivers de ce régime n'usent personne. Vous vous êtes usée en bas. Et je ne comprends pas : en bas, il n'y a plus de four, plus de maison, plus personne pour compter ce que vous donnez.
 
-Elle a regardé le feu un long moment.
+Elle a regardé le feu.
 
 — Il n'y avait pas de four, a-t-elle dit. C'est vrai. Il y avait cent vingt personnes dans une ville brûlée, et l'hiver du Nord.
 
 ---
 
-Je vais le poser comme elle me l'a posé, parce qu'elle l'a posé en quatre phrases et que je n'en ai pas trouvé de meilleures depuis.
+Je le pose comme elle me l'a posé. Je n'ai pas trouvé mieux depuis.
 
-Après la rupture, l'hiver est arrivé quatre mois plus tard. Il n'y avait plus de veines ouvertes — c'est ce qui brûlait en dessous qui les avait chassés des maisons —, plus de toits entiers, plus de bois sec à moins de six lieues. Sur les cent vingt, quarante ne passaient pas la nuit dans une pièce froide : les vieux, les brûlés, et les enfants en dessous de six ans.
+Après la rupture, l'hiver est arrivé quatre mois plus tard. Plus de veines ouvertes — c'est ce qui brûlait en dessous qui les avait chassés des maisons —, plus de toits entiers, plus de bois sec à des lieues à la ronde. Sur les cent vingt, quarante ne passaient pas la nuit dans une pièce froide : les vieux, les brûlés, les petits enfants.
 
 Alors ceux qui portaient le feu ont chauffé.
 
 Pas une heure, un jour sur cinq. Toutes les nuits, à tour de rôle, dans les trois pièces où l'on entassait les quarante, du premier gel à la fonte.
 
-Ils étaient onze à tenir une nuit entière la première année. Ils ont été neuf la troisième, et sept la sixième.
+La première année, ils étaient onze à tenir une nuit entière. Puis neuf. Puis sept.
 
 Aucun n'est mort d'une nuit. On ne meurt pas d'une nuit : on cesse de pouvoir, et un autre prend la nuit, et on s'assied bien plus tard, sur un banc, un dimanche, comme tout le monde.
 
@@ -68,7 +68,7 @@ J'ai mis un temps à comprendre ce qu'elle venait de me dire.
 
 Puis j'ai fait ce que je fais, parce que je ne sais pas faire autrement : j'ai posé les deux comptes l'un à côté de l'autre.
 
-Dix-neuf ans de four, dix heures par jour, pour le sel d'une maison qui m'avait payé douze cents couronnes.
+Dix-neuf ans de four, dix heures par jour, pour le sel d'une maison qui m'a revendu pour douze cents couronnes.
 
 Dix-neuf hivers de nuits, pour que quarante personnes n'aient pas froid.
 
@@ -80,7 +80,7 @@ Je n'ai rien dit. Les deux colonnes tombaient au même endroit, et je n'ai pas v
 
 Elle a laissé ça.
 
-— Et puis il y avait le mur, a-t-elle dit. J'y ai tenu la veille vingt-deux ans. Orsa te dira que c'est ça qui m'a usée. Elle se trompe, et je ne la corrige pas, parce que ça lui fait une explication et qu'elle en a besoin d'une.
+— Et puis il y avait le mur, a-t-elle dit. J'y ai tenu la veille dix-neuf ans. Orsa te dira que c'est ça qui m'a usée. Elle se trompe, et je ne la corrige pas, parce que ça lui fait une explication et qu'elle en a besoin d'une.
 
 ---
 
@@ -104,6 +104,6 @@ Elle a rouvert les yeux.
 
 — Tu en connais dix mots et tu ne le sais pas. Ils sont dedans. Ils sortiront quand on ne te regardera pas.
 
-Puis elle a tendu la main vers la marmite, s'est arrêtée à mi-chemin, a laissé retomber le bras — elle fait ce geste vingt fois par jour et elle ne s'en aperçoit pas.
+Puis elle a tendu la main vers la marmite, s'est arrêtée à mi-chemin, a laissé retomber le bras. Elle fait ce geste vingt fois par jour sans s'en apercevoir.
 
-— Sers-toi, a-t-elle dit. Tu as fini le bardeau, tu n'as plus d'excuse pour ressortir.
+— Sers-toi, a-t-elle dit. Tu as fini le toit, tu n'as plus d'excuse pour ressortir.

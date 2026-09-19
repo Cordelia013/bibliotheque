@@ -6,13 +6,13 @@
 
 La porte était ouverte.
 
-Pas entrebâillée : ouverte, calée par une pierre, comme on laisse une porte quand on attend quelqu'un depuis quatre jours et qu'on ne veut pas avoir à se lever.
+Grande ouverte, calée par une pierre, pour quelqu'un qu'on attend depuis des jours sans vouloir se lever à chaque bruit.
 
 Dans la pièce, il y avait un feu.
 
 Un feu de bois, dans un âtre, avec une marmite dessus et une chaise tirée devant, tout près, à un pied des braises. Je suis resté sur le seuil à regarder ce feu comme on regarde un cheval dans une cuisine.
 
-Elle était assise dessus. Sur la chaise. Enveloppée.
+Ma mère était assise sur la chaise, enveloppée.
 
 — Ferme, a-t-elle dit. Il y a du vent.
 
@@ -20,9 +20,9 @@ J'ai fermé la porte.
 
 ---
 
-Elle s'appelle Aunis. Elle a cinquante-trois ans. Elle est maigre de la maigreur des gens qui mangent, parce qu'il y a de la nourriture, et qui la brûlent avant qu'elle serve à quelque chose.
+Elle s'appelle Aunis. Elle a cinquante-trois ans. Elle est maigre comme ceux qui mangent à leur faim et qui brûlent tout avant que ça leur profite.
 
-Elle m'a regardé traverser la pièce et elle n'a pas eu une seconde d'hésitation. Pas un instant où elle aurait cherché, comparé, remonté vingt-deux ans. Rien de ce que j'avais imaginé mille fois, dans une halle de fours, en poussant sur une porte de fonte.
+Elle m'a regardé traverser la pièce et elle n'a pas eu une seconde d'hésitation. Pas un instant où elle aurait cherché, comparé, remonté le temps. Rien de ce que j'avais imaginé mille fois, dans une halle de fours, en poussant sur une porte de fonte.
 
 Elle m'a vu entrer et elle savait. C'est tout. On l'aurait dit d'un homme qui rentre du champ.
 
@@ -42,7 +42,7 @@ Elle a tendu la main vers la marmite, s'est arrêtée à mi-chemin, a laissé re
 
 — Alors tu n'as pas mangé, a-t-elle dit. Sers-toi.
 
-Je me suis servi. J'ai mangé pendant qu'elle me regardait manger, et elle n'a pas dit un mot pendant tout ce temps-là, et ce n'était pas un silence qui attendait quelque chose. C'était une femme qui regarde quelqu'un manger.
+Je me suis servi. J'ai mangé pendant qu'elle me regardait manger, et elle n'a pas dit un mot pendant tout ce temps-là. Elle n'attendait rien. Elle me regardait manger.
 
 Quand j'ai eu fini, elle a dit :
 
@@ -56,7 +56,7 @@ Elle les a prises, les deux, les paumes en l'air, et elle les a tenues dans les 
 
 Ses mains étaient froides.
 
-Je le dis une fois et je n'en fais rien : ses mains étaient froides, et elle était assise à un pied d'un feu de bois qu'on avait allumé pour elle, et il y avait sous l'appentis de quoi tenir un mois.
+Je le dis une fois et je n'en fais rien : ses mains étaient froides, et elle était assise tout contre un feu de bois qu'on avait allumé pour elle, et il y avait sous l'appentis de quoi tenir un mois.
 
 Elle a regardé mes paumes. Elle a passé le pouce sur la peau, celle qui est lisse et un peu luisante et trop fine, la peau d'un homme de soixante ans au bout des bras d'un homme de vingt-sept.
 
@@ -82,11 +82,11 @@ Elle a levé les yeux.
 
 Elle a tenu mes mains encore un moment. Ses pouces se sont arrêtés.
 
-Puis elle a reposé mes mains sur mes genoux, soigneusement, une à côté de l'autre, comme on repose des outils qu'on vient d'inspecter. Elle s'est levée — il lui faut du temps pour se lever, elle prend appui sur le bras de la chaise avec les deux mains — et elle est allée jusqu'à l'étagère du fond, dos tourné, et elle a déplacé deux écuelles qui n'avaient pas besoin d'être déplacées.
+Puis elle a reposé mes mains sur mes genoux, soigneusement, une à côté de l'autre, comme des outils qu'on vient d'inspecter. Elle s'est levée ; il lui faut du temps, elle prend appui des deux mains sur le bras de la chaise. Elle est allée jusqu'à l'étagère du fond, dos tourné, et elle a déplacé deux écuelles qui n'avaient pas besoin d'être déplacées.
 
 Elle est restée là un moment.
 
-Sur le montant de la porte, à hauteur d'épaule, il y avait des entailles. Des centaines. Serrées, par groupes, sur toute la hauteur du bois et jusqu'au chambranle.
+Sur le montant de la porte, il y avait des entailles. Des centaines. Serrées, par groupes, sur toute la hauteur du bois et jusqu'au chambranle.
 
 Je n'ai pas demandé. Je sais compter ; je n'avais pas envie de savoir le chiffre.
 
@@ -136,11 +136,9 @@ Elle a hoché la tête, lentement, deux fois.
 
 — Tu aurais dû.
 
-Voilà.
+Toute ma vie, j'ai porté cette phrase dans l'autre sens. *Ne regarde pas derrière.* C'est la seule chose que j'aie jamais faite pour elle, et tout ce que je savais d'elle. Je l'ai tenue à cinq ans dans un chariot en marche, et ensuite dans tout le reste.
 
-Vingt-deux ans que je porte cette phrase dans l'autre sens. *Ne regarde pas derrière.* C'est la seule chose que j'aie jamais faite pour elle, la seule chose que je savais d'elle, et je l'ai tenue à cinq ans dans un chariot en marche et ensuite pendant vingt-deux ans dans tout le reste.
-
-— Ça n'aurait rien changé, ai-je dit. J'avais cinq ans. Le chariot roulait. À deux cents pas il y avait la fumée de toute la ville, et même en regardant je n'aurais vu personne sortir de la porte, et même en vous voyant je n'aurais pas pu descendre.
+— Ça n'aurait rien changé, ai-je dit. J'avais cinq ans. Le chariot roulait. Derrière nous, il y avait la fumée de toute la ville, et même en regardant je n'aurais vu personne sortir de la porte, et même en vous voyant je n'aurais pas pu descendre.
 
 — Je sais, a dit Aunis.
 
@@ -162,11 +160,11 @@ Le feu baissait. J'ai tendu la main vers l'âtre, machinalement, pour relancer �
 
 J'ai arrêté.
 
-— Tu as fait dix heures par jour pendant dix-neuf ans, a-t-elle dit. Ici on prend son tour. Le tien sera dans cinq jours comme tout le monde. Tu ne chaufferas pas ma chambre.
+— Tu as fait dix heures par jour toute ta vie, a-t-elle dit. Ici on prend son tour. Le tien sera dans cinq jours comme tout le monde. Tu ne chaufferas pas ma chambre.
 
 Elle a montré le bois de l'autre côté de la porte.
 
-— Mets une bûche, comme on fait ici.
+— Mets une bûche. C'est comme ça, ici.
 
 J'ai mis une bûche.
 
