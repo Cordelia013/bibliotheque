@@ -1,0 +1,4 @@
+Les couvertures refaites (JPEG 600x900) se deposent ici :
+braises.jpg et castellano.jpg, declarees dans COUV_IMAGE de docs/app.js.
+Tant qu'un fichier manque, la liseuse retombe sur la couverture SVG
+d'origine dessinee dans index.html.
