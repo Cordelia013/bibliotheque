@@ -90,6 +90,24 @@ archive intègre) avant de la publier.
 
 ---
 
+## Fiches de travail littéraire
+
+```bash
+python3 scripts/generer_prompts.py
+```
+
+Produit `prompts/<nom>.md` à partir de chaque `.claude/skills/<nom>/SKILL.md` : la même méthode,
+détachée du dépôt, à copier dans n'importe quel outil.
+
+Sont retirés au passage l'en-tête technique de la fiche, la section « Application à ce dépôt »
+et les renvois écrits en langage d'outil — « la skill `relecture` » devient « le prompt
+*Correcteur-relecteur professionnel* ».
+
+La source est la fiche, jamais le fichier produit : une correction faite dans `prompts/` serait
+écrasée au passage suivant. `prompts/checklist.md` fait exception, il s'écrit à la main.
+
+---
+
 ## Nom de domaine
 
 Le domaine `entrelespages.fr` n'est pas encore acheté. La marche à suivre est
