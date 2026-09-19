@@ -1,4 +1,5 @@
 const BOOKS = [{"id": "castellano", "titre": "Le Prix du Silence, Don Castellano", "auteur": "Écrit avec Claude", "genres": ["Romance mafieuse", "Vengeance", "Drame", "Suspense"], "annee": "2026", "couleur": "#6d1f2c", "statut": "Terminé", "resume": "Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Sept ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit.", "chapitres": [], "couv": true, "maj": "2026-09-18"}, {"id": "lune", "titre": "La Part de Lune", "serie": "Les Deux Collines — tome 1", "auteur": "Écrit avec Claude", "genres": ["Urban fantasy", "Romance paranormale", "Loups & Lycans", "Âmes sœurs", "Série"], "annee": "2026", "couleur": "#1c2445", "statut": "À venir", "resume": "Lyon, aujourd'hui. Sous les traboules, deux meutes se partagent les collines, et des femmes appelées Lieuses constatent les liens que personne n'a choisis. Maël, aide-soignante de nuit, est frappée par un lien d'âmes sœurs le soir où un Alpha lui amène un loup qui n'en est pas un — et rejetée par lui devant le Concile trois jours plus tard. Ce qu'on ne lui a pas dit : le Rejet est irrévocable pour celui qui le prononce. Pas pour celle qui le reçoit.", "chapitres": [], "couv": true}, {"id": "vesper", "titre": "Le Contrat de Vesper", "auteur": "Écrit avec Claude", "genres": ["Dark romance", "Science-fiction", "Futuriste", "Obsession"], "annee": "2026", "couleur": "#2b2b33", "statut": "En cours", "resume": "Vesper, 2049. Chaque citoyen porte un score, et le score se propage : un cousin condamné, une facture impayée, et Ilya tombe à 412 en servant un café. Un homme à 940 lui propose de porter son risque pendant un an, chez lui, selon un contrat de trente-deux pages qui ne dit pas ce qu'il attend d'elle. Il ne la touche pas. Il la regarde. Et dans trois pièces fermées, dix cartons portent les noms de celles qui l'ont précédée. Avertissements : rapport de pouvoir déséquilibré, surveillance, obsession.", "chapitres": [], "couv": true, "maj": "2026-09-12"}, {"id": "braises", "titre": "La Saison des Braises", "serie": "Les Trois Cents Lieues — tome 1", "auteur": "Écrit avec Claude", "genres": ["Romance sensuelle", "Fantasy", "Enemies to lovers", "Slow burn", "Série"], "annee": "2026", "couleur": "#8a3a1f", "statut": "En cours", "resume": "Ysée Marrec ne dessine que ce qu'elle a vu, et la carte du Nord se termine en blanc : trois cents lieues au-delà de la Ligne des Cendres, là où la terre brûle depuis quatre-vingts ans. Pour la traverser, la Guilde lui donne un seul guide — Cael, un Braise, un homme que le feu a touché sans le tuer et qui ne connaît pas le froid. Ce qu'on ne lui a pas dit : la Ligne ne laisse passer que ceux qu'un Braise porte dans sa chaleur. Assez près. Pendant trois jours.", "chapitres": [], "couv": true, "maj": "2026-09-18"}, {"id": "verre", "titre": "La Dette de Verre", "auteur": "Écrit avec Claude", "genres": ["Romance", "Héritage", "Secret de famille", "Drame"], "annee": "2026", "couleur": "#1f4a52", "statut": "En cours", "resume": "Directrice générale du groupe hôtelier Valadares, Nour Belkacem hérite de trente-quatre pour cent des parts — à condition d'être encore en poste le jour de la mort du patriarche. Le fils revenu d'exil veut sa révocation. Une lettre laissée sous scellés lui apprend pourquoi ce legs n'était pas un cadeau, mais une dette : en 1997, Henrique Valadares a ruiné son père. À Lisbonne, tout le monde a de bonnes raisons.", "chapitres": [], "couv": true, "maj": "2026-09-12"}];
+const SEPARATEURS = {"braises": {"4": [5, 18, 27, 37, 48, 55, 60], "6": [6, 12, 22, 38, 50], "20": [3, 17, 23, 35, 45, 56], "29": [10, 14, 26, 31, 52], "35": [35, 49], "36": [3, 11, 26, 36], "37": [5, 11, 30, 41, 54, 71], "38": [6, 20, 40, 55, 69], "39": [14, 20, 40, 47], "39 bis": [7, 20, 36], "40": [4, 31, 38, 49, 62, 73, 78], "40 bis": [6, 13, 19, 30, 37, 41], "41": [8, 27, 51, 77, 86], "42": [3, 12, 24, 38, 56, 61], "43": [3, 16, 24, 33, 44, 61, 66, 84, 97], "44": [4, 17, 26, 48, 53, 61], "45": [5, 24, 30, 34, 59, 66], "46": [6, 13, 19, 30, 40, 50], "47": [5, 17, 23, 30, 41, 56], "48": [5, 19, 24, 32, 34, 44, 49], "49": [2, 14, 25, 35, 42, 72, 86, 117, 123, 150], "50": [9, 20, 38, 42, 59, 69, 74]}};
 // Les textes arrivent par des balises <script> séparées, une par morceau.
 // Un morceau peut manquer à l'appel : après un changement de découpage, le
 // navigateur d'un lecteur déjà venu garde un index.html en cache qui réclame
@@ -217,6 +218,12 @@ function mesurerBarre(){
   #app .body p.ouverture .cap { font-size: 1.5em; line-height: 1; font-weight: 600;
     color: var(--accent-texte); }
   #app .body p.dlg { text-indent: -.75em; padding-left: .75em; text-align: left; hyphens: manual; }
+  /* Coupure de scène : les lignes « --- » du manuscrit, que les fichiers de texte
+     ne portent pas. Leur position vient de SEPARATEURS, écrit par le générateur.
+     Le filet est centré sur la colonne de texte, pas sur la page. */
+  #app .body .scene { max-width: 34em; margin: 2.2em 0; text-align: center; line-height: 0; }
+  #app .body .scene::before { content:''; display:inline-block; width:44px; height:1px;
+    background: var(--brass); opacity:.8; vertical-align: middle; }
   #app .pov { padding-bottom: 18px; margin-bottom: 26px; position: relative; }
   #app .pov::after { content:''; position:absolute; left:0; bottom:0;
     width:46px; height:1px; background: var(--brass); }
@@ -630,9 +637,14 @@ function renderChap(restore){
   $('chapTitle').textContent = c.t;
   $('chapPov').textContent = 'Point de vue — ' + c.pov;
   // Une réplique commence par un tiret cadratin : retrait pendant, pas de lettrine.
+  // Les coupures de scène sont données par SEPARATEURS sous la forme des indices
+  // des paragraphes après lesquels elles tombent.
+  const coupures = (typeof SEPARATEURS === 'object' && SEPARATEURS
+    && SEPARATEURS[livre.id] && SEPARATEURS[livre.id][String(c.n)]) || [];
   $('chapBody').innerHTML = c.p.map((t,i)=>{
     const dlg = /^\s*[—–-]/.test(t) ? ' class="dlg"' : '';
-    return `<p data-i="${i}"${dlg}>${t}</p>`;
+    const fin = coupures.indexOf(i) > -1 ? '<div class="scene" aria-hidden="true"></div>' : '';
+    return `<p data-i="${i}"${dlg}>${t}</p>` + fin;
   }).join('');
   // Ouverture de chapitre. La lettrine flottante ne convenait pas à ce manuscrit :
   // elle emportait l'apostrophe (« J' » en corps 3) et, les chapitres s'ouvrant
