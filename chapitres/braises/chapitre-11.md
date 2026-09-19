@@ -6,7 +6,7 @@
 
 Je suis partie de Valdren sans que personne me dise au revoir, et c'est la chose que j'avais le mieux prévue.
 
-J'ai fait le tour de ma cellule à la deuxième cloche. Quatre pas sur six. Un lit, une planche, une chaise, et sur le mur, punaisée depuis sept ans, une carte de la côte de Kern que j'avais dressée à dix-sept ans et qui était fausse en trois endroits.
+J'ai fait le tour de ma cellule à la deuxième cloche. Un lit, une planche, une chaise, et sur le mur, punaisée depuis des années, une de mes premières cartes : la côte de Kern, fausse en trois endroits.
 
 Je l'ai laissée.
 
@@ -14,13 +14,13 @@ J'ai pris mon manteau, mes deux sacoches allégées, et j'ai descendu l'escalier
 
 Dans la cour d'honneur, le Doyen n'était pas là.
 
-Je ne sais pas ce que j'attendais. Un mot. Une consigne. Qu'un homme qui envoie deux personnes dans quatre-vingt-deux lieues de feu descende trois étages pour les regarder partir.
+Je ne sais pas ce que j'attendais. Un mot. Une consigne. Qu'un homme qui envoie deux personnes dans la Ligne descende l'escalier pour les regarder partir.
 
 Il y avait, à la place, un clerc, avec une bourse de route et un registre.
 
 — Signez la sortie.
 
-J'ai signé. Il a compté les pièces à voix haute, deux fois, parce que c'est la procédure.
+J'ai signé. Il a compté les pièces à voix haute, deux fois : c'est la procédure.
 
 Puis il a dit, sans lever les yeux :
 
@@ -32,13 +32,13 @@ Un pli scellé. Sur le rabat, quatre mots de sa main :
 
 Je l'ai glissé dans la doublure, contre le blanc.
 
-Cael m'attendait sous le porche avec les chevaux. Il avait attaché les sacoches lui-même, réparti autrement que la veille, et je n'ai pas discuté.
+Cael m'attendait sous le porche avec les chevaux. Il avait attaché les sacoches lui-même, réparties autrement que la veille, et je n'ai pas discuté.
 
 — Vous avez laissé la carte au mur, a-t-il dit.
 
 — Comment savez-vous ça ?
 
-— Votre manteau sent la colle de punaise. On ne décroche pas une carte punaisée depuis sept ans sans emporter l'odeur.
+— Votre manteau sent la colle de punaise. On ne décroche pas une carte punaisée depuis des années sans emporter l'odeur.
 
 Je l'ai regardé.
 
@@ -50,13 +50,13 @@ Je l'ai regardé.
 
 — Non, a-t-il dit. Seulement quand on m'en donne le temps.
 
-Nous sommes sortis par la porte du levant, au moment où le ciel virait.
+Nous sommes sortis par la porte du levant, au moment où le jour se levait.
 
 Valdren dort tard. Les rues étaient vides, sauf les porteurs d'eau et les boulangers, et un chien qui a suivi les chevaux jusqu'au troisième carrefour avant de renoncer.
 
 Au pied des remparts, j'ai levé la tête.
 
-Il y avait un homme sur le chemin de ronde.
+Il y avait un homme tout en haut.
 
 Trop loin pour le visage. Assez près pour la silhouette, le manteau, les gants clairs sur la pierre sombre. Il ne bougeait pas. Il ne s'est pas caché quand je l'ai vu.
 
@@ -66,23 +66,23 @@ Il nous a regardés passer sous lui, et quand nous avons été au-delà du foss�
 
 — Halden Serrande.
 
-Il n'a pas réagi tout de suite. Puis :
+Cael n'a pas réagi tout de suite. Puis :
 
 — Le fils.
 
 — Vous le connaissez aussi.
 
-— J'ai fondu du sel pour sa famille pendant dix-neuf ans. Il m'a annoncé lui-même la levée de mon contrat. Qu'est-ce qu'il vous voulait ?
+— J'ai fondu du sel pour sa famille. Il m'a annoncé lui-même la levée de mon contrat. Qu'est-ce qu'il vous voulait ?
 
-J'ai hésité une seconde. Une seule.
+J'ai hésité. Une seconde, pas plus.
 
-Je me suis rappelé une cave d'archives, neuf cartes par terre, et une phrase écrite de ma main : *je n'ai rien vu.*
+Je me suis rappelé une phrase écrite de ma main : *je n'ai rien vu.*
 
-— Il m'a offert quatre mille couronnes pour que la carte du Nord soit incomplète, ai-je dit. Il y a trois gisements de sel gemme au-delà de la Ligne dans les registres d'avant-guerre. Sa maison est ruinée si on les trouve. J'ai refusé hier soir, dans la rue des Copistes, et il l'a très bien pris, ce qui m'inquiète beaucoup plus que s'il avait crié.
+— Il m'a offert de l'argent pour que la carte du Nord reste incomplète, ai-je dit. Il y a du sel au-delà de la Ligne, et si on le trouve, sa maison perd la moitié de sa valeur. J'ai refusé hier soir. Il l'a très bien pris, et ça m'inquiète beaucoup plus que s'il avait crié.
 
-Cael a tiré sur les rênes. Le cheval s'est arrêté.
+Cael a tiré sur les rênes et arrêté son cheval.
 
-Il m'a regardée comme s'il me découvrait — pas avec chaleur ; avec attention, ce qui chez lui est la même chose.
+Il m'a regardée comme s'il me découvrait, avec cette attention qui, chez lui, tient lieu de chaleur.
 
 — Pourquoi vous me le dites ?
 

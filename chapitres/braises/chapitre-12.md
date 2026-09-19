@@ -6,9 +6,9 @@
 
 Le premier soir, nous avons campé à la sortie des terres cultivées, dans un repli de colline avec un muret de pierres sèches pour couper le vent.
 
-Elle a dessellé son cheval toute seule. Mal. Elle a mis un temps considérable et elle a refusé l'aide que je n'ai pas proposée, ce qui est une négociation entière conduite sans un mot.
+Ysée a dessellé son cheval toute seule. Mal. Ça lui a pris longtemps, et elle a refusé l'aide que je n'ai pas proposée : toute une négociation, sans un mot.
 
-J'ai ramassé du bois mort. Pas parce que j'en ai besoin : parce qu'un feu qui brûle sans bois attire l'œil, et qu'à trois lieues d'une route, on ne sait jamais qui regarde.
+J'ai ramassé du bois mort. Je n'en ai pas besoin, mais un feu qui brûle sans bois attire l'œil, et si près d'une route, on ne sait jamais qui regarde.
 
 Puis je me suis accroupi, et j'ai posé les mains dessus.
 
@@ -40,11 +40,9 @@ Je suis resté accroupi devant le feu plus longtemps que nécessaire, ce soir-l�
 
 Personne n'avait jamais détourné les yeux.
 
-Ce n'est pas de la pudeur. On ne peut pas détourner le regard par pudeur devant une chose qu'on n'a jamais vue ; la curiosité gagne toujours. Pour faire ça quatre soirs de suite, il faut avoir décidé.
+Elle, elle l'avait décidé. Elle avait dû y penser seule, la veille du départ : à ce que ça fait d'être regardé.
 
-Il faut avoir pensé, seule, la veille du départ, à ce que ça fait d'être regardé.
-
-Je me suis assis à ma place, à trois pas, du côté d'où venait le vent.
+Je me suis assis à ma place, du côté d'où venait le vent.
 
 — Marrec.
 
@@ -62,7 +60,7 @@ Elle a fermé le carnet. Elle a posé la plume dessus.
 
 Et le lendemain soir, quand je me suis accroupi, elle a regardé.
 
-Elle n'a rien dit. Elle n'a pas eu ce petit bruit dans la gorge que les gens font. Elle a regardé mes mains, puis le bois, puis mes mains, avec cette attention plate et sérieuse qu'elle met à relever une côte.
+Elle n'a rien dit. Elle n'a pas eu ce petit bruit dans la gorge que les gens font. Elle a regardé mes mains, puis le bois, puis mes mains, avec cette attention plate et sérieuse qu'elle met à dessiner un rivage.
 
 Quand le feu a pris, elle a hoché la tête une fois, comme on ferme une porte de four : sans forcer, parce que c'est lourd et qu'il suffit d'accompagner.
 

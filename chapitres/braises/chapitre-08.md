@@ -4,11 +4,11 @@
 
 *POV Cael*
 
-J'ai vidé ses sacoches sur les pavés de la cour, parce que c'est la première chose qu'on fait et parce que j'avais besoin de faire quelque chose avec mes mains.
+J'ai vidé les sacoches d'Ysée sur les pavés de la cour. C'est la première chose qu'on fait, et j'avais besoin d'occuper mes mains.
 
 Elle n'a pas protesté. Elle a regardé.
 
-Trois livres. Une trousse de plumes en cuir, usée aux angles, qui valait plus que tout le reste. Des flacons d'encre bouchés à la cire. Deux chaînes d'arpenteur. Une boussole. Un rouleau de vélin vierge dans un étui de fer-blanc. Des vêtements pour quatre jours, pour un voyage de trente.
+Trois livres. Une trousse de plumes en cuir, usée aux angles, qui valait plus que tout le reste. Des flacons d'encre bouchés à la cire. Deux chaînes à mesurer. Une boussole. Un rouleau de parchemin vierge dans un étui de fer-blanc. Des vêtements pour quatre jours, pour un voyage de plusieurs semaines.
 
 — Ceux-là, non, ai-je dit en écartant deux des livres.
 
@@ -30,7 +30,7 @@ Elle a bougé si vite que j'ai reculé d'un pas.
 
 — Non.
 
-Un seul mot. Pas fort. Mais il y avait dedans quelque chose que je n'avais pas entendu chez elle jusque-là, et que j'ai reconnu immédiatement parce que je l'ai dans la voix aussi quand on approche de certaines choses.
+Un seul mot. Pas fort. Mais il y avait dedans quelque chose que je n'avais pas entendu chez elle jusque-là, et que j'ai reconnu tout de suite : je l'ai dans la voix, moi aussi, quand on approche de certaines choses.
 
 J'ai reposé le carnet dans sa main.
 
@@ -46,7 +46,7 @@ Elle a serré la ficelle.
 
 — Pourquoi le garder ?
 
-— Parce qu'une carte, c'est une décision, ai-je dit. On décide de ce qui existe. Tout ce qu'on ne met pas dessus n'existe pas, et au bout de trente ans, plus personne ne se souvient que ça a existé.
+— Parce qu'une carte, c'est une décision, a-t-elle dit. On décide de ce qui existe. Tout ce qu'on ne met pas dessus n'existe pas, et au bout d'une génération, plus personne ne se souvient que ça a existé.
 
 Elle a rangé le carnet dans la doublure de son manteau. Pas dans la sacoche. Dans la doublure.
 
@@ -54,14 +54,14 @@ Elle a rangé le carnet dans la doublure de son manteau. Pas dans la sacoche. Da
 
 Je n'ai rien répondu.
 
-J'ai fini de charger les sacoches. J'ai vérifié les sangles deux fois au lieu d'une. Et pendant tout ce temps, j'ai pensé à une chose que je n'ai pas dite, ce jour-là ni les quinze suivants.
+J'ai fini de charger les sacoches. J'ai vérifié les sangles deux fois au lieu d'une. Et pendant tout ce temps, j'ai pensé à une chose que je n'ai pas dite, ce jour-là ni les suivants.
 
-Les Fours de Ghar n'existent sur aucune carte d'après-guerre. Le Sud ne les a pas effacés par malveillance. Il les a simplement arrêtés de dessiner, parce qu'après la Ligne il n'y avait plus rien à vendre là-bas, et qu'on ne dessine pas ce qui ne se vend pas.
+Les Fours de Ghar n'existent sur aucune carte d'après-guerre. Le Sud a simplement cessé de les dessiner : après la Ligne, il n'y avait plus rien à vendre là-bas.
 
 Vingt-deux ans que je cherche quelqu'un dans un endroit qui, officiellement, n'existe pas.
 
-Et la Guilde venait de me donner, pour douze cents couronnes, une femme dont le métier entier consistait à décider de ce qui existe.
+Et la Guilde, qui venait de m'acheter, me donnait pour compagne une femme dont le métier entier consistait à décider de ce qui existe.
 
-Je ne le lui ai pas dit. Pas au huitième jour, pas au vingtième.
+Je ne le lui ai pas dit. Pas avant longtemps.
 
 Mais c'est ce matin-là, dans une cour d'écuries, que j'ai cessé de la considérer comme une passagère.

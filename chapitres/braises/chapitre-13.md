@@ -6,17 +6,17 @@
 
 Personne ne m'avait prévenue que le cheval ne se paie pas le jour même.
 
-Une pupille ne monte pas. On relève à pied — c'est le métier —, et pour aller d'un relevé à l'autre on voyage dans les chariots de la Guilde ou sur les ballots d'un convoi de sel ; la Guilde ne confie pas de monture à quelqu'un qui n'a pas de rente pour la remplacer si elle se casse une jambe. La bête que j'avais sous moi depuis six jours était la première qui fût à moi. J'avais mis deux jours à comprendre que c'était une charge, et non un privilège.
+Les pupilles de la Guilde ne montent pas à cheval. Nous travaillons à pied. Entre deux chantiers, nous voyageons dans les chariots de la Guilde, ou assises sur les sacs d'un convoi de sel. Un cheval qui se casse une jambe se remplace, et je n'avais pas un sou à moi. Celui-ci était mon premier. Il m'avait fallu deux jours pour comprendre que c'était un poids, pas un cadeau.
 
-Le premier jour, on est fatiguée. Le deuxième, on a mal, et on trouve ça normal, parce qu'on a mal aux endroits qu'on attendait. Le troisième, la douleur change de nature : elle quitte les muscles et s'installe dans les articulations, où elle n'a rien à faire, et elle s'y installe pour de bon. Le quatrième et le cinquième, on croit s'habituer, et c'est faux : on apprend seulement à ne plus le dire.
+Le premier jour, j'étais fatiguée. Le deuxième, j'avais mal, et je trouvais ça normal : j'avais mal où je m'y attendais. Le troisième, la douleur a quitté les muscles pour les articulations, où elle n'avait rien à faire, et elle s'y est installée pour de bon. Le quatrième et le cinquième, j'ai cru m'habituer. J'apprenais seulement à ne plus le dire.
 
 Le sixième jour, mes genoux ne pliaient plus dans le bon sens.
 
-Je n'ai rien dit. Il y a une raison très simple à ça, et ce n'est pas la fierté : c'est que dans toute ma vie de Relevée, la seule chose qui m'ait jamais protégée, c'est de ne jamais donner à la Guilde un motif de me juger fragile. Une pupille qui se plaint est une pupille qu'on ne renvoie plus sur le terrain. Une pupille qu'on ne renvoie plus sur le terrain devient copiste. Et une copiste dessine ce que d'autres ont vu jusqu'à ce que ses yeux la lâchent.
+Je n'ai rien dit. Toute ma vie de Relevée, une chose m'a protégée : ne jamais donner à la Guilde une raison de me croire fragile. Une pupille qui se plaint, on ne la renvoie plus sur le terrain. Elle devient copiste, et elle dessine ce que d'autres ont vu jusqu'à ce que ses yeux la lâchent.
 
-Alors on ne dit rien, et on apprend à mesurer la douleur comme on mesure une côte : en la reportant à l'échelle.
+Alors je me suis tue, et j'ai mesuré ma douleur comme une pente : en chiffres, sans commentaire.
 
-Nous avions quitté les terres à blé pour un pays de landes qui montait par paliers. C'est un relief agréable à cartographier et haïssable à monter : chaque palier promet le sommet, et chaque sommet découvre le palier suivant. J'ai relevé trois de ces paliers sur le carnet de route en calculant les dénivelés à la vue, ce qui m'occupait les mains et me permettait de ne pas penser à mes genoux.
+Nous avions quitté les terres à blé pour des landes qui montaient par étages. C'est un relief agréable à dessiner et haïssable à monter : chaque étage promet le sommet, et chaque sommet en découvre un autre. J'en ai relevé trois sur le carnet de route en estimant les hauteurs à l'œil. Ça m'occupait les mains et ça m'empêchait de penser à mes genoux.
 
 Vers la quatrième heure, Cael a dit :
 
@@ -26,13 +26,13 @@ Vers la quatrième heure, Cael a dit :
 
 — On s'arrête, a-t-il répété, et il a mis pied à terre.
 
-Il l'a fait de cette manière qu'ont les gens qui n'ont pas appris à monter dans une école : sans élégance, avec une efficacité un peu brutale, la paume posée sur l'encolure pour que le cheval sache où il est.
+Il l'a fait à la manière des gens qui n'ont pas appris à monter dans une école. Sans élégance, avec une efficacité un peu brutale, la paume posée sur le cou du cheval pour qu'il sache où il est.
 
 J'ai voulu descendre aussi.
 
-Voici ce qui s'est passé, dans l'ordre, parce que je tiens à la précision même quand elle me dessert.
+Voici ce qui s'est passé. Je tiens à la précision, même quand elle me dessert.
 
-J'ai dégagé le pied droit. J'ai fait passer la jambe. Et à l'instant où mon poids est venu sur le pied gauche encore à l'étrier, le genou n'a pas répondu — pas cédé, pas plié : il n'a rien fait du tout, comme s'il ne m'appartenait pas, comme un mot qu'on ne retrouve pas.
+J'ai dégagé le pied droit. J'ai fait passer la jambe. Et à l'instant où mon poids est venu sur le pied gauche encore à l'étrier, le genou n'a rien fait du tout. Ni cédé, ni plié. Il ne m'appartenait plus, comme un mot qu'on ne retrouve pas.
 
 Je suis partie en arrière.
 
@@ -58,11 +58,11 @@ Je me suis tenue à la sangle.
 
 Il n'a rien dit.
 
-Il est allé s'occuper des chevaux. Il a desselé le sien, puis le mien, et il a porté les deux selles au muret sans me demander si je voulais qu'il le fasse, ce qui est la seule manière de rendre un service à quelqu'un qui n'en veut pas.
+Il est allé s'occuper des chevaux. Il a dessellé le sien, puis le mien, et il a porté les deux selles au muret sans me demander si je voulais qu'il le fasse. Il avait compris que je n'aurais pas dit oui.
 
-Je me suis assise sur une pierre. J'ai sorti le carnet — pas celui des relevés : l'autre. Le blanc.
+Je me suis assise sur une pierre. J'ai sorti l'autre carnet, pas celui des relevés. Le blanc.
 
-C'est un carnet que je tiens depuis huit ans. J'y note ce que je ne peux pas mettre sur une carte : ce qu'on m'a dit et que je n'ai pas vérifié, ce que j'ai vu et que je n'ai pas compris, ce qui n'a pas de signe conventionnel. Une carte ne supporte que le certain. Tout le reste doit bien aller quelque part.
+C'est un carnet que je tiens depuis huit ans. J'y note ce qui ne va pas sur une carte. Ce qu'on m'a dit et que je n'ai pas vérifié, ce que j'ai vu et que je n'ai pas compris, ce qui n'a pas de signe. Une carte ne supporte que le certain. Tout le reste doit bien aller quelque part.
 
 J'ai écrit, ce soir-là, sous la date :
 
@@ -84,14 +84,14 @@ J'ai regardé. C'était devenu, en quelques soirs, une chose qu'on faisait : lui
 
 — Demain, vous montez une heure, vous descendez, vous marchez un quart d'heure, vous remontez. Toute la journée.
 
-— Ça va nous coûter une demi-journée sur seize.
+— Ça va nous coûter une demi-journée.
 
-— Ça va vous coûter une demi-journée, a-t-il dit. Ou ça va vous coûter le genou, et alors ce sera quatre jours, et à quatre jours près la Ligne aura tourné et nous passerons dans le vent au lieu de passer dans le dos du vent.
+— Ça va vous coûter une demi-journée, a-t-il dit. Ou ça va vous coûter le genou, et alors ce sera quatre jours. D'ici là, la Ligne aura tourné, et nous aurons le vent de face au lieu de l'avoir dans le dos.
 
 Il a remué une bûche.
 
 — Et je ne peux pas vous porter là-bas, a-t-il ajouté. Personne ne porte personne sur la Ligne. On y passe debout.
 
-Il m'a parlé de la Ligne, ce soir-là, comme d'un lieu dont il connaissait les habitudes. *Nous passerons dans le dos du vent.* On ne dit pas ça d'un endroit où l'on n'est jamais allé ; on dit ça d'une rue.
+Il m'a parlé de la Ligne, ce soir-là, comme d'un lieu dont il connaissait les habitudes. *Le vent dans le dos.* Il en parlait comme d'une rue.
 
-Le Doyen m'a donné un guide et ne m'a pas dit d'où celui-ci tenait ce qu'il sait. Je venais d'entendre un homme me donner le régime des vents d'un pays que personne n'a jamais relevé, et le lendemain, en montant à cheval une heure sur deux comme on me l'avait dit, j'ai passé la journée à me demander qui le lui avait appris.
+Le Doyen m'a donné un guide et ne m'a pas dit d'où Cael tenait ce qu'il savait. Je venais d'entendre un homme me décrire les vents d'un pays que personne n'a jamais relevé. Le lendemain, en montant à cheval une heure sur deux comme il me l'avait dit, j'ai passé la journée à me demander qui le lui avait appris.
