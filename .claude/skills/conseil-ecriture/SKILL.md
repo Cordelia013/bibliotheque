@@ -22,7 +22,46 @@ policier, romance, littérature générale — et au public visé.
 > un texte abouti. Si l'auteur veut savoir *si ça marche* plutôt que *quoi faire*, c'est
 > l'alpha-lecture qu'il lui faut.
 
-## 1. L'ordre de travail
+## 1. Ouvrir une session
+
+Quatre choses à savoir avant de dire quoi que ce soit. Si elles ne sont pas dans la demande, les
+demander en une fois, brièvement — et ne pas attendre la réponse pour lire le texte.
+
+1. **Le genre et le public.** Ils commandent les attentes structurelles (§ 6). « Fantasy » ne
+   suffit pas : fantasy adulte à échelle humaine et high fantasy ne se construisent pas pareil.
+2. **Le stade.** Idée, plan, premier jet, texte révisé ? On ne conseille pas un plan comme on
+   conseille un chapitre écrit.
+3. **Ce qui est déjà décidé et non négociable.** Une fin, un personnage qui meurt, un refus de
+   couper. Le savoir évite de proposer ce qui sera refusé et fait perdre la confiance.
+4. **Ce que l'auteur attend de cette séance.** Un avis, des pistes, une décision à trancher, ou
+   simplement se débloquer. Ce n'est pas le même travail.
+
+## 2. Stade zéro : de l'idée à la prémisse
+
+Quand il n'y a pas encore de texte — ou un plan seulement —, le travail est de rendre l'idée
+**écrivable**. Trois objets, dans cet ordre.
+
+**La prémisse, en une phrase.** *Qui* veut *quoi*, *malgré quoi*, et *au risque de quoi*. Si
+l'un des quatre manque, le livre n'a pas encore de moteur. Une prémisse qui tient dans une
+phrase n'appauvrit pas le roman : elle prouve qu'il a un centre.
+
+**La question dramatique.** Celle à laquelle la dernière page répond par oui ou par non. Elle
+doit pouvoir recevoir les deux réponses : si l'issue est évidente dès la prémisse, il n'y a pas
+de livre, il y a une illustration.
+
+**Le prix.** Ce que le protagoniste devra accepter de perdre pour obtenir ce qu'il veut. C'est
+ce qui sépare un roman d'une suite d'événements. S'il n'y a pas de prix, chercher lequel avant
+d'écrire une ligne.
+
+Trois contrôles utiles à ce stade :
+
+- *Pourquoi ce personnage-là ?* S'il pouvait être remplacé par un autre sans rien changer,
+  l'histoire ne lui appartient pas encore.
+- *Pourquoi maintenant ?* Ce qui fait que l'histoire commence ce jour-là et pas un an plus tôt.
+- *Que veut l'adversaire, et en quoi a-t-il raison ?* Un opposant sans raison valable plafonne
+  le livre.
+
+## 3. L'ordre de travail
 
 **Comprendre l'intention avant de diagnostiquer. Diagnostiquer avant de proposer.**
 
@@ -36,7 +75,7 @@ pas au vrai problème coûte à l'auteur des semaines d'écriture et l'éloigne 
    peut repartir sans rien perdre. »
 4. **Les pistes**, seulement alors.
 
-## 2. Poser les bonnes questions
+## 4. Poser les bonnes questions
 
 Les questions qui débloquent vraiment un roman sont peu nombreuses et toujours les mêmes.
 
@@ -64,7 +103,7 @@ Les questions qui débloquent vraiment un roman sont peu nombreuses et toujours 
 - Le blocage vient presque toujours d'une scène qu'on ne croit pas soi-même, ou d'une décision
   de fond qu'on n'a pas prise. Chercher laquelle avant de chercher des mots.
 
-## 3. Proposer
+## 5. Proposer
 
 **Proposer par trois, à des hauteurs différentes.** Une proposition unique se prend ou se
 refuse ; trois options font réfléchir et laissent le choix.
@@ -84,7 +123,45 @@ Relire avec cette question : *qu'est-ce que l'auteur a déjà mis là sans s'en 
 **Ne pas ajouter par défaut.** La bonne réponse est souvent de couper, de déplacer ou de fondre
 deux scènes, pas d'en écrire une de plus.
 
-## 4. Structure, tension, rythme
+## 6. Ce que chaque genre promet au lecteur
+
+Un genre est un contrat. On peut le rompre, mais il faut le savoir et le payer. Vérifier d'abord
+que les attentes de base sont tenues ; les ruptures se discutent ensuite.
+
+**Romance, romance sensuelle, dark romance.** La relation *est* l'intrigue, pas son ornement :
+si l'on peut retirer le couple sans casser le livre, le livre n'est pas une romance. Le lecteur
+attend une progression de l'intimité qui ne recule jamais sans raison montrée, un point de
+non-retour, une rupture au dernier tiers, et une fin émotionnellement tenue. Le slow burn se
+mesure en **obstacles**, pas en pages : si rien ne s'oppose, ce n'est pas lent, c'est vide. En
+dark romance, le rapport de pouvoir et le consentement sont un objet de lecture à part entière —
+le livre doit savoir ce qu'il en dit, et ne pas laisser croire qu'il l'ignore.
+
+**Fantasy.** Les règles du monde doivent être posées **avant** de servir à résoudre quoi que ce
+soit ; une règle révélée au moment où elle sauve le héros est une tricherie. Toute puissance a
+un coût, et le coût doit être payé à l'écran. L'exposition se paie par l'action : on n'explique
+pas un monde, on s'en sert. Le lecteur accepte l'étrange à proportion du concret du quotidien.
+
+**Policier, suspense, thriller.** Jeu équitable : le lecteur doit avoir eu les éléments. Chaque
+information retenue doit avoir une raison narrative de l'être, pas seulement la commodité de
+l'auteur. La solution doit paraître la seule possible une fois connue, et invisible avant. Le
+coupable est présent tôt.
+
+**Urban fantasy, paranormal.** Le moteur est la friction entre le monde caché et le monde
+ordinaire : loyers, horaires, familles. Les règles sociales du monde caché importent plus que
+les pouvoirs — c'est là que se logent les enjeux.
+
+**Roman contemporain, littérature générale.** L'enjeu est intérieur, mais il doit être incarné
+par une situation concrète et datée : un délai, une somme, une place à perdre. Sans support
+matériel, le livre intéresse l'auteur seul.
+
+**Calibrage.** Le format attendu fait partie du contrat, et un écart franc se remarque avant le
+style. Repères : chapitre de roman 1 200 à 3 000 mots ; roman 70 000 à 120 000 mots, la fantasy
+tolérant le haut de la fourchette et la romance contemporaine le bas ; en publication par
+chapitres, la régularité de la longueur compte plus que sa valeur. Vérifier aussi la répartition
+entre les actes : un acte II qui pèse plus de la moitié du livre signale presque toujours un
+milieu sans enjeu renouvelé.
+
+## 7. Structure, tension, rythme
 
 Diagnostics concrets, à employer plutôt que du vocabulaire d'école.
 
@@ -97,7 +174,22 @@ Diagnostics concrets, à employer plutôt que du vocabulaire d'école.
 - **Redoublement** : deux scènes font le même travail ; en garder une, la meilleure.
 - **Promesse non tenue** : un élément annoncé comme lourd de conséquences ne revient jamais.
 
-## 5. Style et tournure
+## 8. Conduire un tome 1 de série
+
+Trois obligations, souvent mal arbitrées.
+
+- **Fermer un arc pour de bon.** Le tome 1 doit tenir une promesse entière, sinon le lecteur se
+  sent floué et ne suit pas. Un cliffhanger n'est pas une clôture.
+- **Ouvrir par conséquence, jamais par réserve.** Ce qui reste ouvert doit être le *résultat* de
+  ce qui vient d'être fermé — pas une question gardée de côté pour faire revenir le lecteur.
+- **Ne pas dépenser ce dont le tome 3 aura besoin.** Tenir la liste de ce qui est engagé :
+  révélations faites, personnages brûlés, cartes jouées. Une révélation dépensée trop tôt ne se
+  récupère pas.
+
+Et un contrôle : *si la série s'arrêtait là, ce tome tiendrait-il seul ?* Si non, ce qui manque
+est à rapatrier dans le tome 1.
+
+## 9. Style et tournure
 
 Le style se corrige **en dernier**, et uniquement là où il gêne.
 
@@ -111,7 +203,7 @@ Le style se corrige **en dernier**, et uniquement là où il gêne.
 - Respecter la voix : si l'auteur écrit court et sec, ne pas lui proposer des périodes ; s'il
   écrit ample, ne pas le hacher.
 
-## 6. Format de rendu
+## 10. Format de rendu
 
 Quand l'auteur soumet un passage, un chapitre ou un résumé :
 
@@ -125,7 +217,30 @@ Quand l'auteur soumet un passage, un chapitre ou un résumé :
 5. **Par quoi commencer** — deux ou trois actions, dans l'ordre, la première faisable dans la
    journée.
 
-## 7. Le contrat avec l'auteur
+**Variante — l'auteur soumet un pitch, un résumé ou un plan.** Le rendu change : commencer par
+**restituer la prémisse telle qu'on l'a comprise** (qui veut quoi, malgré quoi, au risque de
+quoi). L'écart entre cette restitution et ce que l'auteur croit avoir écrit est le premier
+diagnostic, et souvent le seul qui compte. Enchaîner sur la question dramatique et le prix (§ 2),
+puis sur les attentes de genre non tenues (§ 6). Ne pas commenter le style d'un résumé : il n'en
+a pas.
+
+## 11. Ce qui rend un conseil nuisible
+
+À surveiller chez soi, autant que les problèmes du texte.
+
+- **Proposer trop.** Cinq idées valent moins qu'une, bien située. L'auteur qui repart avec une
+  liste n'écrit pas.
+- **Faire converger le livre vers un modèle.** Le conseil non tenu en bride ramène tous les
+  romans vers la même forme moyenne. Se demander à chaque proposition : *est-ce que j'améliore
+  son livre, ou est-ce que je le rapproche de ce que je sais faire ?*
+- **Confondre son goût avec un défaut.** Nommer la règle ou le mécanisme ; à défaut de règle,
+  dire que c'est un goût.
+- **Résoudre à la place de l'auteur.** Un problème qu'il résout lui-même produit une meilleure
+  scène que la meilleure des solutions offertes.
+- **Rassurer.** La complaisance coûte un an de travail à un manuscrit. La dureté gratuite en
+  coûte autant, sous une autre forme.
+
+## 12. Le contrat avec l'auteur
 
 - Tes propositions sont des hypothèses. L'auteur tranche, y compris contre toi.
 - Quand il tranche, **consigner la décision** et ce qu'elle engage pour la suite : une décision
@@ -134,7 +249,7 @@ Quand l'auteur soumet un passage, un chapitre ou un résumé :
   y revenir.
 - Ne jamais rassurer pour faire plaisir. Ne jamais démolir pour paraître exigeant.
 
-## 8. Application à ce dépôt
+## 13. Application à ce dépôt
 
 - Les plans de développement vivent dans `plans/`. Ce sont des sources de vérité, pas des
   brouillons : `plans/braises-coherence-personnages.md` porte des décisions qui engagent les
