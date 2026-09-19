@@ -466,16 +466,76 @@ function mesurerBarre(){
   html #app .rbtn.large { width: auto; }
   html #app .drawer { box-shadow: -18px 0 44px rgba(0,0,0,.22); }
 
-  @media (prefers-reduced-motion: reduce) { html #app.lecture::before { transition: none; } }`;
+  @media (prefers-reduced-motion: reduce) { html #app.lecture::before { transition: none; } }
+
+  /* ————— Contre-audit du 19 septembre 2026 : lots A, C, D ————— */
+
+  /* A · Panneau « Affichage » : le texte reste visible au-dessus pendant le réglage. */
+  html #app .fscrim.leger { background: transparent; }
+  html #app .feuille.reglage { max-height: 60vh; }
+  html #app .rtheme { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 14px; }
+  html #app .rtheme button { min-height: 44px; border-radius: 8px; border: 1px solid var(--rule-fort);
+    background: none; color: var(--ink); font-size: 13px; cursor: pointer; }
+  html #app .rtheme button[aria-pressed="true"] { border: 2px solid var(--ambre-texte); color: var(--ambre-texte); font-weight: 600; }
+  html #app .rtheme .pastille { display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+    margin-right: 7px; vertical-align: -1px; border: 1px solid var(--rule-fort); }
+  html #app .feuille .rline { margin-bottom: 10px; }
+  html #app .rresume .rmod { color: var(--ambre-texte); }
+
+  /* A · Carte « Reprendre » : où l'on en est, d'un coup d'œil. */
+  html #app .reprise .cbar { margin-top: 10px; height: 3px; border-radius: 2px; overflow: hidden; }
+  html #app .reprise .cbar i { background: var(--livre, var(--accent-texte)); }
+  html #app .cbar { border-radius: 2px; overflow: hidden; }
+
+  /* A · Nouveaux chapitres : dit en ambre, sans aplat. */
+  html #app .nouveaux { display: block; margin-top: 4px; font-size: 11.5px; font-weight: 600;
+    letter-spacing: .02em; color: var(--ambre-texte); }
+
+  /* C · Page de garde : un seul axe, l'action avant le résumé. */
+  html #app #vCover .gcover { margin-left: 0; }
+  html #app .gtitle, html #app .gauth { text-align: left; }
+  html #app .gauth { letter-spacing: .08em; margin-bottom: 6px; }
+  html #app .gmeta { color: var(--muted); font-size: 12.5px; margin: 0 0 16px; }
+  html #app .gchips { justify-content: flex-start; margin-bottom: 22px; }
+  html #app #vCover.commence .gstat { border-top: none; padding-top: 0; margin-bottom: 14px; }
+  html #app #vCover.commence #tocBtn { margin-bottom: 26px; }
+  html #app .gpct small { font-family: var(--f-texte); font-size: 14px; font-weight: 400; color: var(--muted); margin-left: 6px; }
+
+  /* C · Fin de livre : le « FIN » du manuscrit posé comme une coupure. */
+  html #app .body p.finmanuscrit { text-align: center; max-width: var(--mesure); margin-top: 2.4em;
+    letter-spacing: .3em; font-size: 13px; font-weight: 600; color: var(--ambre-texte); }
+  html #app .finlivre .primary { width: 100%; margin-top: 14px; }
+
+  /* C · Sommaire : une coche discrète plutôt que « · lu » à chaque ligne. */
+  html #app .chapline.lu em::after { content: '✓'; margin-left: 8px; color: var(--ambre-texte); letter-spacing: 0; }
+  html #app .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* D · Bibliothèque : en-tête allégé, genres sur une rangée, grille élargie. */
+  html #app .libhead, html #app .libsub { display: none; }
+  html #app #vLib .wrap { padding-top: 22px; }
+  @media (min-width: 760px) {
+    html #app .chips { flex-wrap: nowrap; overflow-x: auto;
+      mask-image: linear-gradient(90deg, #000 calc(100% - 30px), transparent);
+      -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 30px), transparent); }
+    html #app .chips.fin { mask-image: none; -webkit-mask-image: none; }
+  }
+  @media (min-width: 900px) {
+    html #app #vLib .wrap { max-width: 1040px; }
+    html #app #vLib .grid { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 30px 22px; }
+  }
+
+  /* D · Colonne de lecture : autour de 65 signes avec Literata. */
+  html #app { --mesure: 30em; }`;
   document.head.appendChild(s);
 })();
 
 function appliquerTheme(){
   THEMES.forEach(t => app.classList.toggle(t, S.theme === t));
   app.classList.toggle('night', S.theme === 'nuit');   // compat règles existantes
-  $('nightBtn').classList.toggle('on', S.theme !== 'clair');
-  $('nightBtn').title = 'Thème : ' + nomTheme(S.theme);
-  $('nightBtn').setAttribute('aria-label', 'Changer de thème (actuel : ' + nomTheme(S.theme) + ')');
+  $('nightBtn').classList.remove('on');
+  $('nightBtn').removeAttribute('title');
+  $('nightBtn').setAttribute('aria-label', 'Affichage : thème ' + nomTheme(S.theme) + ', taille et interligne');
+  $('nightBtn').setAttribute('aria-haspopup', 'dialog');
   resumerReglages();
   const m = document.querySelector('meta[name="theme-color"]');
   if (m) m.content = S.theme==='nuit' ? '#0F1220' : (S.theme==='sepia' ? '#F3EADA' : '#FCFCFD');
@@ -492,7 +552,7 @@ function appliquerLecture(){
     ba.setAttribute('aria-label', 'Alignement du texte : ' + ba.textContent); }
   resumerReglages();
   const vt = $('valTaille'), vi = $('valInter');
-  if (vt) vt.textContent = nombre(TAILLES[S.taille]) + ' px';
+  if (vt) vt.textContent = nombre(TAILLES[S.taille]) + ' px';
   if (vi) vi.textContent = nombre(INTERLIGNES[S.inter].toFixed(2));
   ['tMoins','tPlus','iMoins','iPlus'].forEach(id => { const b=$(id); if(!b) return;
     b.disabled = (id==='tMoins' && S.taille===0) || (id==='tPlus' && S.taille===TAILLES.length-1)
@@ -501,7 +561,7 @@ function appliquerLecture(){
 
 function resumerReglages(){
   const r = $('rTexte'); if (!r) return;
-  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + nombre(TAILLES[S.taille]) + ' px · interligne '
+  r.textContent = nomTheme(S.theme).replace(/^./, x => x.toUpperCase()) + ' · ' + nombre(TAILLES[S.taille]) + ' px · interligne '
     + nombre(INTERLIGNES[S.inter]) + ' · ' + (S.align === 'justifie' ? 'justifié' : 'à gauche');
 }
 
@@ -546,11 +606,17 @@ function dateCourte(iso){
   if (isNaN(d)) return '';
   return d.toLocaleDateString('fr-FR', { day:'numeric', month:'short', year:'numeric' });
 }
-function estNouveau(b){
-  if (!b.maj || !visitePrec) return false;
-  const d = new Date(b.maj + 'T00:00:00').getTime();
-  return d > visitePrec;
+/* « NOUVEAU » s'allumait sur la date de régénération du fichier, même sans un mot
+   de neuf. On compte désormais les chapitres parus depuis la dernière fois que le
+   livre a été ouvert : S.connus garde, par livre, le nombre de chapitres vus alors. */
+function nouveaux(b){
+  if (!S.connus) S.connus = {};
+  if (typeof S.connus[b.id] !== 'number') { S.connus[b.id] = b.chapitres.length; return 0; }
+  return Math.max(0, b.chapitres.length - S.connus[b.id]);
 }
+function connaitre(b){ if (!S.connus) S.connus = {}; S.connus[b.id] = b.chapitres.length; save(); }
+function commence(b){ const e = S.livres[b.id];
+  return !!(e && b.chapitres.length && ((e.vus && e.vus.length) || e.chap > 0 || e.scroll > 0)); }
 
 /* « En cours » et « Terminé » désignent l'écriture du livre, mais se lisaient comme
    l'état de la lecture : on les dit autrement à l'affichage, sans toucher aux données. */
@@ -611,9 +677,11 @@ function renderReprise(){
   if (!c) { box.style.display = 'none'; return; }
   box.style.display = '';
   box.style.setProperty('--livre', b.couleur);
+  const pos = Math.round((e.chap + 1) / b.chapitres.length * 100);
   box.innerHTML = `<small>Reprendre ma lecture</small><b>${b.titre}</b>
-    <em>Chapitre ${c.n} · ${c.t} · ${duree(minutesDe(c))}</em>`;
-  box.onclick = () => { livre = b; poserAccent(b.couleur); aller('read', true); };
+    <em>Chapitre ${c.n} sur ${b.chapitres.length} · ${c.t}</em>
+    <div class="cbar" aria-hidden="true"><i style="width:${pos}%"></i></div>`;
+  box.onclick = () => { livre = b; poserAccent(b.couleur); connaitre(b); aller('read', true); };
 }
 
 function renderLib(){
@@ -627,6 +695,8 @@ function renderLib(){
   const ch = $('chips');
   const bord = () => ch.classList.toggle('fin', ch.scrollLeft + ch.clientWidth >= ch.scrollWidth - 2);
   ch.onscroll = bord; bord();
+  ch.onwheel = ev => { if (Math.abs(ev.deltaY) > Math.abs(ev.deltaX) && ch.scrollWidth > ch.clientWidth) {
+    ch.scrollLeft += ev.deltaY; ev.preventDefault(); } };
   const q = $('search').value.trim().toLowerCase();
   const res = BOOKS.filter(b=>{
     const okG = !filtre || b.genres.includes(filtre);
@@ -648,18 +718,29 @@ function renderLib(){
   }
   $('grid').innerHTML = res.map(b=>{
     const p = pct(b), e = S.livres[b.id];
+    // Une seule mesure d'avancement sur la fiche : la position dans le livre.
+    const debut = commence(b), nv = nouveaux(b);
+    const pos = debut ? Math.round((e.chap + 1) / b.chapitres.length * 100) : 0;
     const etatLecture = !b.chapitres.length ? 'Aucun chapitre publié'
-      : p === 0 ? b.chapitres.length + ' chapitres · ' + duree(b.chapitres.reduce((t,c)=>t+minutesDe(c),0))
-      : p >= 100 ? 'Lu'
-      : 'Chapitre ' + (b.chapitres[e.chap] || b.chapitres[0]).n + ' sur ' + b.chapitres.length + ' · ' + p + ' %';
+      : !debut ? b.chapitres.length + ' chapitres · ' + duree(b.chapitres.reduce((t,c)=>t+minutesDe(c),0))
+      : p >= 100 ? 'Lu en entier'
+      : 'Chapitre ' + (b.chapitres[e.chap] || b.chapitres[0]).n + ' sur ' + b.chapitres.length;
     return `<button class="card" data-b="${b.id}">${couverture(b)}
-      <div class="cmeta"><b>${b.titre}${estNouveau(b) ? '<span class="neuf">NOUVEAU</span>' : ''}</b>${b.serie ? `<div class="cpct" style="margin-top:3px">${b.serie}</div>` : ''}
-        ${p > 0 && p < 100 ? `<div class="cbar"><i style="width:${p}%"></i></div>` : ''}
+      <div class="cmeta"><b>${b.titre}</b>${nv ? `<span class="nouveaux">${nv === 1 ? '1 nouveau chapitre' : nv + ' nouveaux chapitres'}</span>` : ''}${b.serie ? `<div class="cpct" style="margin-top:3px">${b.serie}</div>` : ''}
+        ${debut && p < 100 ? `<div class="cbar"><i style="width:${pos}%"></i></div>` : ''}
         <div class="cpct cetat">${etatLecture}</div>
         <div class="cpct">${statutLisible(b.statut)}</div></div></button>`;
   }).join('');
+  // Un livre commencé s'ouvre sur son chapitre en cours ; la page de garde reste à
+  // un geste, par le bouton retour de la lecture. Un livre jamais ouvert, lui,
+  // passe par sa page de garde.
   [...$('grid').querySelectorAll('[data-b]')].forEach(c=>{
-    c.onclick = () => ouvrirLivre(c.dataset.b);
+    const b = BOOKS.find(x => x.id === c.dataset.b);
+    if (commence(b)) c.setAttribute('aria-label', b.titre + ' — reprendre au chapitre ' + b.chapitres[etat(b.id).chap].n);
+    c.onclick = () => {
+      if (!commence(b)) { ouvrirLivre(b.id); return; }
+      livre = b; poserAccent(b.couleur); connaitre(b); aller('read', true);
+    };
   });
 }
 $('search').oninput = renderLib;
@@ -671,9 +752,17 @@ function ouvrirLivre(id){
   const e = etat(id), p = pct(livre);
   $('gCover').innerHTML = couverture(livre);
   $('gTitle').textContent = livre.titre;
-  $('gAuth').textContent = (livre.serie ? livre.serie.toUpperCase() + '  ·  ' : '') + livre.auteur.toUpperCase();
-  $('gChips').innerHTML = [statutLisible(livre.statut), ...livre.genres].map(g=>`<span>${g}</span>`).join('')
-    + (livre.maj ? `<span>Mis à jour le ${dateCourte(livre.maj)}</span>` : '');
+  connaitre(livre);
+  $('gAuth').textContent = livre.serie || livre.auteur;
+  $('gMeta').textContent = [livre.serie ? livre.auteur : '', statutLisible(livre.statut),
+    livre.maj ? 'mis à jour le ' + dateCourte(livre.maj) : ''].filter(Boolean).join(' · ');
+  $('gChips').innerHTML = livre.genres.map(g=>`<span>${esc(g)}</span>`).join('');
+  // Livre commencé : la progression et l'action passent avant le résumé.
+  const v = $('vCover'), w = v.querySelector('.wrap'), deja = commence(livre);
+  v.classList.toggle('commence', deja);
+  const ordre = deja ? ['gCover','gTitle','gAuth','gMeta','gStat','readBtn','tocBtn','gChips','gRes','gResPlus','resetBtn']
+                     : ['gCover','gTitle','gAuth','gMeta','gChips','gRes','gResPlus','gStat','readBtn','tocBtn','resetBtn'];
+  ordre.forEach(id => { const x = $(id); if (x) w.appendChild(x); });
   $('gRes').textContent = livre.resume;
   $('gRes').classList.remove('ouvert');
   const plus = $('gResPlus');
@@ -681,7 +770,7 @@ function ouvrirLivre(id){
     requestAnimationFrame(() => { plus.style.display =
       $('gRes').scrollHeight > $('gRes').clientHeight + 2 ? '' : 'none'; }); }
   // « 0 % » en grand n'apprend rien avant la première page.
-  $('gPct').textContent = p + ' %';
+  $('gPct').innerHTML = p + ' %<small>lu</small>';
   $('gPct').style.display = p === 0 ? 'none' : '';
   $('gBar').parentElement.style.display = p === 0 ? 'none' : '';
   $('gBar').style.width = p + '%';
@@ -722,6 +811,7 @@ function inscrire(v, remplacer){
 }
 function ouvrirEntree(){
   try { const st = history.state || {};
+    if (st.ov) return;
     history.pushState({ liseuse:1, ov:1, h:st.h || location.hash || '#/', prec:st.prec || null }, '', location.href);
   } catch(e){}
 }
@@ -780,7 +870,8 @@ function renderChap(restore){
   const coupures = (typeof SEPARATEURS === 'object' && SEPARATEURS
     && SEPARATEURS[livre.id] && SEPARATEURS[livre.id][String(c.n)]) || [];
   $('chapBody').innerHTML = c.p.map((t,i)=>{
-    const dlg = /^\s*[—–-]/.test(t) ? ' class="dlg"' : '';
+    const dlg = /^\s*[—–-]/.test(t) ? ' class="dlg"'
+      : (i === c.p.length - 1 && /^\s*fin\.?\s*$/i.test(t) ? ' class="finmanuscrit"' : '');
     const fin = coupures.indexOf(i) > -1 ? '<div class="scene" aria-hidden="true"></div>' : '';
     return `<p data-i="${i}"${dlg}>${t}</p>` + fin;
   }).join('');
@@ -833,8 +924,11 @@ function updateProgress(){
 function majFinLabel(){
   const l = $('finLab'); if (!l || !livre) return;
   const c = livre.chapitres[etat(livre.id).chap];
-  l.textContent = 'Fin du chapitre ' + c.n + '  ·  ' + pct(livre) + ' % du livre lu';
+  l.textContent = 'Fin du chapitre ' + c.n;
+  // Au dernier chapitre, le bloc de fin parle seul : pas de pourcentage qui le contredise.
+  l.style.display = livre.chapitres[etat(livre.id).chap + 1] ? '' : 'none';
 }
+function c0(b, i){ const p = b.chapitres[i].p; return String(p[p.length - 1] || ''); }
 function construireFin(){
   const e = etat(livre.id), i = e.chap;
   const suiv = livre.chapitres[i+1], prec = livre.chapitres[i-1];
@@ -849,11 +943,12 @@ function construireFin(){
   } else {
     nb.style.display = 'none'; nb.disabled = true;
     const fini = livre.statut === 'Terminé';
+    const finTexte = /^\s*fin\.?\s*$/i.test(c0(livre, i));
     fl.innerHTML = fini
-      ? `<b>Fin</b><p>Vous avez terminé <i>${esc(livre.titre)}</i>.</p>`
+      ? `${finTexte ? '' : '<b>Fin</b>'}<p>Vous avez terminé <i>${esc(livre.titre)}</i>.</p>`
       : `<b>À suivre</b><p>Vous êtes à jour. Les prochains chapitres apparaîtront ici dès leur publication.</p>`;
     const r = document.createElement('button');
-    r.className = 'ghost'; r.type = 'button'; r.textContent = 'Retour à la bibliothèque';
+    r.className = 'primary'; r.type = 'button'; r.textContent = 'Retour à la bibliothèque';
     r.onclick = () => { marquerLu(); aller('lib'); };
     fl.appendChild(r); fl.style.display = '';
   }
@@ -891,7 +986,10 @@ function toggleBm(){
   const i = e.bookmarks.findIndex(b=>b.chap===e.chap && b.para===para);
   if (i>-1){ e.bookmarks.splice(i,1); updateBm(); buildBms(); save(); toast('Marque-page retiré'); return; }
   const t = (livre.chapitres[e.chap].p[para]||'').replace(/<[^>]+>/g, '');
-  const bm = { chap:e.chap, para, note:'', extrait:t.slice(0,90)+(t.length>90?'…':''),
+  // L'extrait s'arrête sur une fin de mot, pas au milieu.
+  let ex = t;
+  if (t.length > 90) { ex = t.slice(0, 90); const k = ex.lastIndexOf(' '); ex = (k > 50 ? ex.slice(0, k) : ex).replace(/[\s,;:—–-]+$/, '') + '…'; }
+  const bm = { chap:e.chap, para, note:'', extrait:ex,
     date:new Date().toLocaleDateString('fr-FR',{day:'numeric',month:'short'}) };
   e.bookmarks.push(bm);
   e.bookmarks.sort((a,b)=>a.chap-b.chap||a.para-b.para);
@@ -923,7 +1021,7 @@ function ouvrirFeuille(o){
 }
 function fermerFeuille(silencieux, sansRappel){
   const f = $('feuille'); if (!f || !f.classList.contains('open')) return;
-  f.classList.remove('open'); $('fScrim').classList.remove('open');
+  f.classList.remove('open', 'reglage'); $('fScrim').classList.remove('open', 'leger');
   if (f.contains(document.activeElement)) { try { document.activeElement.blur(); } catch(e){} }
   f.setAttribute('inert',''); f.setAttribute('aria-hidden','true');
   const cb = feuilleAuFermer; feuilleAuFermer = null;
@@ -946,7 +1044,8 @@ function feuilleNote(bm, nouveau){
     auFermer: () => { if (nouveau) toast('Marque-page enregistré'); }
   });
   const ta = $('fNote'), cpt = $('fCompte');
-  const maj = () => { cpt.textContent = ta.value.length + ' / 280'; };
+  // Le compteur n'apparaît qu'à l'approche de la limite.
+  const maj = () => { cpt.textContent = ta.value.length >= 200 ? ta.value.length + ' / 280' : ''; };
   ta.oninput = maj; maj();
   $('fOk').onclick = () => {
     const avant = bm.note || '';
@@ -970,8 +1069,9 @@ function feuilleNote(bm, nouveau){
 function buildChaps(){
   const e = etat(livre.id);
   $('dTitle').textContent = livre.titre;
-  const ligne = (c,i) => `<button class="chapline ${i===e.chap?'current':''}" data-go="${i}"${i===e.chap?' aria-current="true"':''}>
-      <em>Chapitre ${esc(c.n)} · ${esc(c.pov)} · ${duree(minutesDe(c))}${i===e.chap ? ' · en cours' : (e.vus.includes(i) ? ' · lu' : '')}</em>${esc(c.t)}</button>`;
+  const ligne = (c,i) => { const lu = i !== e.chap && e.vus.includes(i);
+    return `<button class="chapline ${i===e.chap?'current':''}${lu?' lu':''}" data-go="${i}"${i===e.chap?' aria-current="true"':''}>
+      <em>Chapitre ${esc(c.n)} · ${esc(c.pov)} · ${duree(minutesDe(c))}${i===e.chap ? ' · en cours' : ''}${lu ? '<span class="vh">, lu</span>' : ''}</em>${esc(c.t)}</button>`; };
   const parts = (Array.isArray(livre.parties) ? livre.parties : [])
     .filter(p => p && p.titre && +p.debut > 0)
     .map(p => ({ titre:p.titre, i:livre.chapitres.findIndex(c => parseInt(c.n, 10) >= +p.debut) }))
@@ -1087,11 +1187,21 @@ $('resetBtn').onclick = () => {
   };
 };
 function nomTheme(t){ return t==='clair' ? 'jour' : t==='sepia' ? 'papier' : 'nuit'; }
-$('nightBtn').onclick = () => {
-  S.theme = THEMES[(THEMES.indexOf(S.theme)+1) % THEMES.length];
-  appliquerTheme(); save();
-  toast('Thème ' + nomTheme(S.theme));
-};
+/* Panneau « Affichage » : thème, taille, interligne et alignement, dans une feuille
+   basse sur fond transparent. Le texte reste visible au-dessus pendant le réglage ;
+   dans le tiroir, il n'en restait que 47 px. */
+let panneauReglages = null;
+function ouvrirReglages(){
+  if ($('drawer').classList.contains('open')) fermer(true);
+  ouvrirFeuille({ titre:'Affichage', corps:'', focus:'thm-' + S.theme });
+  $('feuille').classList.add('reglage'); $('fScrim').classList.add('leger');
+  $('fCorps').appendChild(panneauReglages);
+  majTheme(); appliquerLecture();
+}
+function majTheme(){
+  document.querySelectorAll('.rtheme button').forEach(b => b.setAttribute('aria-pressed', b.dataset.t === S.theme ? 'true' : 'false'));
+}
+$('nightBtn').onclick = ouvrirReglages;
 $('prevBtn').onclick = () => { const e=etat(livre.id); if(e.chap>0){ e.chap--; e.scroll=0; save(); renderChap(false); } };
 $('nextBtn').onclick = () => { const e=etat(livre.id); if(e.chap<livre.chapitres.length-1){ marquerLu(); e.chap++; e.scroll=0; save(); renderChap(false); } };
 function ongletActif(nom){
@@ -1140,9 +1250,13 @@ function gererImmersif(){
   // les ouvre pas : dépliés, ils repoussaient le sommaire de trois lignes.
   const r = document.createElement('div');
   r.className = 'reglages';
-  r.innerHTML = `<button class="rresume" id="rResume" type="button" aria-expanded="false" aria-controls="rDetail">
-      <span><small>Confort de lecture</small><span id="rTexte"></span></span><span class="rmod" id="rMod">Modifier</span></button>
-    <div id="rDetail" hidden>
+  r.innerHTML = `<button class="rresume" id="rResume" type="button" aria-haspopup="dialog">
+      <span><small>Affichage</small><span id="rTexte"></span></span><span class="rmod" id="rMod">Régler</span></button>
+    <div id="rDetail">
+    <div class="rtheme" role="group" aria-label="Thème">
+      <button type="button" id="thm-clair" data-t="clair"><span class="pastille" style="background:#FCFCFD"></span>Jour</button>
+      <button type="button" id="thm-sepia" data-t="sepia"><span class="pastille" style="background:#F3EADA"></span>Papier</button>
+      <button type="button" id="thm-nuit" data-t="nuit"><span class="pastille" style="background:#0F1220"></span>Nuit</button></div>
     <div class="rline"><span>Taille du texte</span>
       <button class="rbtn" id="tMoins" aria-label="Réduire le texte">A−</button>
       <span class="rval" id="valTaille"></span>
@@ -1154,11 +1268,7 @@ function gererImmersif(){
     <div class="rline"><span>Alignement</span>
       <button class="rbtn large" id="alignBtn">À gauche</button></div></div>`;
   document.querySelector('.tabs').insertAdjacentElement('beforebegin', r);
-  $('rResume').onclick = () => {
-    const o = $('rResume').getAttribute('aria-expanded') === 'true';
-    $('rResume').setAttribute('aria-expanded', o ? 'false' : 'true');
-    $('rDetail').hidden = o; $('rMod').textContent = o ? 'Modifier' : 'Fermer';
-  };
+  $('rResume').onclick = ouvrirReglages;
 
   // troisième onglet : personnages
   const bt = document.createElement('button');
@@ -1184,6 +1294,15 @@ function gererImmersif(){
     appliquerLecture(); save();
     toast(S.align === 'justifie' ? 'Texte justifié, avec césure' : 'Texte aligné à gauche');
   };
+  document.querySelectorAll('.rtheme button').forEach(b => b.onclick = () => {
+    S.theme = b.dataset.t; appliquerTheme(); majTheme(); save(); });
+  // Les contrôles quittent le tiroir : ils vivent dans le panneau Affichage.
+  panneauReglages = $('rDetail'); panneauReglages.remove();
+
+  // Page de garde : une ligne de métadonnées, et un conteneur pour la progression.
+  const gm = document.createElement('p'); gm.className = 'gmeta'; gm.id = 'gMeta';
+  $('gAuth').insertAdjacentElement('afterend', gm);
+  document.querySelector('#vCover .gstat').id = 'gStat';
 
   // Page de garde. Effacer sa progression est une action destructive : elle cesse
   // de ressembler à « Sommaire », et dit ce qu'elle fait.
