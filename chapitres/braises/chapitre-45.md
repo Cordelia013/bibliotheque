@@ -6,25 +6,25 @@
 
 Il y a une chose que personne ne dit sur le silence : il s'organise.
 
-Au bout de deux jours de descente, nous avions un système. Il marchait devant et je marchais quatrième, derrière Tiec, parce que c'est la place d'où l'on voit tout le monde. Il désignait les haltes d'un geste. Je faisais bouillir l'eau et Mauger montait le feu — un feu de bois, avec des allumettes, parce que personne n'a demandé à Cael d'en faire un seul et qu'il n'en a pas proposé.
+Au bout de deux jours de descente, nous avions un système. Cael marchait devant et je marchais quatrième, derrière Tiec : de là, on voit tout le monde. Il désignait les haltes d'un geste. Je faisais bouillir l'eau et Mauger montait le feu — un feu de bois, avec des allumettes. Personne n'a demandé à Cael d'en faire un, et il n'en a pas proposé.
 
-Au troisième jour, mon genou a lâché en descendant un ressaut.
+Au troisième jour, mon genou a lâché en descendant une marche de rocher.
 
 Il s'est retourné. Il a regardé. Il a attendu que je me relève.
 
 Puis il a fait demi-tour et il a repris le pas, un peu plus lent, et il a tenu ce pas-là jusqu'au soir sans que personne ne sache pourquoi sauf lui et moi.
 
-C'est tout ce que j'ai eu pendant neuf jours, et je ne le raconte à personne parce que dit à voix haute, ce n'est rien du tout : un homme qui ralentit de trois pas à l'heure.
+C'est tout ce que j'ai eu de lui pendant neuf jours. Je ne le raconte à personne : dit à voix haute, ce n'est rien. Un homme qui ralentit de trois pas à l'heure.
 
 ---
 
 Nous sommes arrivés à Ghar le neuvième jour, en fin d'après-midi, par la porte nord.
 
-Il est passé dessous sans lever la tête. Moi si. L'arche est toujours là, avec ses deux tours inégales, la gauche plus haute et la droite effondrée à mi-hauteur, et quatre lignes maladroites gravées sur une plaque de fer de trois doigts dans la poche intérieure d'un homme qui ne les regardait plus.
+Cael est passé dessous sans lever la tête. Moi si. L'arche est toujours là, avec ses deux tours inégales, la gauche plus haute, la droite effondrée à mi-hauteur. Les mêmes que sur la plaque de fer qu'il porte dans sa poche intérieure, et qu'il ne regardait plus.
 
 Orsa était sur le mur sud. Évidemment.
 
-Elle est descendue avec sa lenteur d'ayant droit. Elle a regardé les cinq — Halden Serrande d'abord, longuement, parce qu'elle l'avait vu passer trois semaines plus tôt et qu'elle savait exactement ce qu'il était venu faire —, puis elle a cherché le sixième.
+Orsa est descendue avec sa lenteur de propriétaire. Elle a regardé les cinq. Halden d'abord, longuement : elle l'avait vu passer trois semaines plus tôt et savait ce qu'il était venu faire. Puis elle a cherché le sixième.
 
 — Où est le jeune ?
 
@@ -34,17 +34,17 @@ Elle est descendue avec sa lenteur d'ayant droit. Elle a regardé les cinq — H
 
 — Après. Neuf jours après. Il n'avait rien rendu.
 
-Orsa a hoché la tête, une fois, et elle n'a pas demandé d'explication, parce que dans cette ville tout le monde sait ce que veut dire *il n'avait rien rendu* et que c'est le Sud qui a besoin qu'on le lui explique.
+Orsa a hoché la tête, une fois, sans demander d'explication. Dans cette ville, tout le monde sait ce que veut dire *il n'avait rien rendu* ; c'est le Sud qui a besoin qu'on le lui explique.
 
 Puis elle a regardé Cael et elle a attendu.
 
-Il a mis du temps.
+Cael a mis du temps.
 
-— Elle est morte, a-t-il dit. Il y a huit jours. Elle s'est assise.
+— Aunis est morte, a-t-il dit. Il y a douze jours. Elle s'est assise.
 
-C'est le moment que je ne relèverai pas correctement, et j'en suis fâchée, parce que c'est mon métier de relever et que j'étais à quatre pas.
+C'est le moment que je ne relèverai pas correctement, et j'en suis fâchée : relever, c'est mon métier, et j'étais tout près.
 
-Orsa n'a pas pleuré. Elle n'a pas non plus fait ce que font les gens qui ne pleurent pas, c'est-à-dire se raidir. Elle a simplement cessé de faire une chose qu'elle faisait depuis vingt-deux ans sans que personne s'en aperçoive, et j'ai vu la différence sans pouvoir nommer ce qui avait changé.
+Orsa n'a pas pleuré. Elle n'a pas non plus fait ce que font les gens qui ne pleurent pas, c'est-à-dire se raidir. Elle a simplement cessé de faire une chose qu'elle faisait depuis la rupture sans que personne s'en aperçoive, et j'ai vu la différence sans pouvoir nommer ce qui avait changé.
 
 Elle a dit :
 
@@ -56,6 +56,30 @@ Elle a dit :
 
 Elle est remontée sur le mur avant la nuit, parce que c'était son tour et qu'il n'y a personne d'autre.
 
+Je l'ai suivie.
+
+Je n'avais aucune raison de le faire, et c'est pour ça que je l'ai fait. L'escalier du mur sud est taillé dans le rempart, et il y manque des marches ; mon genou m'a fait payer toutes les autres. Orsa m'a entendue monter et ne s'est pas retournée.
+
+— Vous venez relever le mur, a-t-elle dit.
+
+— Non. Je viens vous poser une question.
+
+— Vous en posez, maintenant ?
+
+Je l'avais mérité, alors je n'ai pas répondu à celle-là.
+
+— Comment était-elle, ai-je dit. Avant.
+
+Orsa a regardé le sud longtemps, du côté où la plaine brune se fatigue.
+
+— Chaude, a-t-elle dit. C'est tout ce que les gens d'ici vous diront, et vous croirez qu'ils ne savent pas parler. Les accoucheuses du quartier bas la faisaient chercher la nuit. Un enfant qui vient de naître, l'hiver, ça perd sa chaleur en une heure, et elle, elle arrivait, elle le prenait contre elle et elle le rendait tiède. Six hivers. Combien d'enfants, je ne sais pas. Personne n'a compté ; on ne comptait pas ces choses-là, avant.
+
+Elle s'est tue. Puis :
+
+— Elle chantait faux. Elle le savait. Elle disait que les enfants s'en fichent tant qu'on est chaud.
+
+Je suis restée à côté d'elle jusqu'à la relève, sans rien dire, parce qu'il n'y avait plus rien à demander et que partir tout de suite aurait voulu dire que j'étais venue chercher quelque chose.
+
 ---
 
 Nous avons dormi à Ghar, dans la maison à trois murs.
@@ -64,11 +88,17 @@ Pas tous. Les trois hommes du Sud ont été logés dans le quartier bas, sépar�
 
 Cael a dormi dehors, contre le mur, sous la brèche du toit.
 
-Moi j'ai dormi dedans, à l'endroit où j'avais dormi, à trois pas d'un homme qui a couché son dos contre la pierre pour que je puisse avoir la pièce.
+Moi j'ai dormi dedans, à l'endroit où j'avais dormi, à quelques pas d'un homme qui a couché son dos contre la pierre pour que je puisse avoir la pièce.
 
-J'ai sorti le blanc et je ne l'ai pas ouvert.
+J'ai sorti le blanc.
 
-Je le note parce que c'est arrivé quatre fois depuis la halle deux, et que ça ne m'était jamais arrivé en huit ans : sortir le carnet, le tenir, et ne pas écrire. Ce n'est pas que je n'aie rien vu. C'est que le blanc est un carnet honnête ou il n'est rien, et que je ne sais plus écrire une phrase honnête sur moi.
+Depuis la halle deux, je l'avais plusieurs fois tenu sans l'ouvrir. Ça ne m'était jamais arrivé en huit ans : le blanc est un carnet honnête ou il n'est rien, et je ne savais plus écrire une phrase honnête sur moi.
+
+Celle-là n'était pas sur moi. Je l'ai écrite à la lueur de la brèche, sans rature :
+
+*Aunis. Les nuits d'hiver, au quartier bas, les nouveau-nés. Chantait faux. — Orsa, mur sud, le quarante-sixième jour.*
+
+Je ne sais pas à qui je la garde. Je sais que je ne l'ai pas écrite pour la carte.
 
 ---
 
@@ -76,13 +106,13 @@ Le lendemain, deux lieues jusqu'au bord.
 
 Le bord n'existe pas — je l'ai écrit en montant et c'est toujours vrai : la plaine brune se fatigue, la terre a des trous gris, les trous deviennent de la cendre, et à un moment on marche dessus.
 
-Il nous a arrêtés à un demi-mille, sur le dernier sol qui porte de la végétation.
+Cael nous a arrêtés un peu avant, sur le dernier sol qui porte de la végétation.
 
-Et il a parlé. Longuement, à cinq personnes à la fois, ce qu'il n'avait pas fait depuis la halle deux.
+Et il a parlé. Longuement, à nous quatre à la fois, ce qu'il n'avait pas fait depuis la halle deux.
 
 ---
 
-Il a commencé par ce que je connaissais : les trois gris, la croûte de verre, le gris doux qui ne porte pas, la fente rouge, les yeux à demi fermés, le linge mouillé, deux gorgées à chaque halte et six haltes par jour.
+Il a commencé par ce que je connaissais déjà : les gris de la cendre, celui qui ne porte pas, la fente rouge, les yeux mi-clos, le linge mouillé, deux gorgées à chaque halte.
 
 Puis les signes. Il les a fait répéter. Mauger les connaissait à peu près ; il en a inventé un faux pour voir, et Cael l'a repris sèchement, et Mauger n'a pas recommencé.
 
@@ -102,7 +132,7 @@ Il a regardé le sol pendant qu'il parlait. Pas nous.
 
 « Mauger, quatrième.
 
-Il a laissé un temps exactement de la longueur qu'il fallait.
+Il a laissé un temps, juste ce qu'il fallait.
 
 — Mauger, vous avez passé la Ligne une fois. Dites à Tiec ce que veut dire quatrième.
 
@@ -126,7 +156,7 @@ Cael a relevé la tête.
 
 — Serrande.
 
-Halden n'a pas bronché. Il a fait une chose que je note parce qu'elle était exacte : il a hoché la tête comme un homme à qui l'on vient d'expliquer une clause et qui vérifie qu'il l'a comprise.
+Halden n'a pas bronché. Il a fait une chose que je note, parce qu'elle était juste : il a hoché la tête comme un homme à qui l'on vient d'expliquer une clause et qui vérifie qu'il l'a comprise.
 
 — Je suis premier parce que je dois arriver, a-t-il dit.
 
@@ -134,15 +164,15 @@ Halden n'a pas bronché. Il a fait une chose que je note parce qu'elle était ex
 
 ---
 
-Voilà ce que j'ai lu dans cet ordre-là, et je vais l'écrire une fois, parce que c'est le seul message que j'aie reçu de lui en dix jours et que je l'ai reçu debout, au bord d'une terre qui brûle, devant trois hommes qui ne comprenaient rien à ce qui se disait.
+Ce que j'ai lu dans cet ordre-là, je l'écris une fois. C'est le seul message que j'aie reçu de lui en dix jours, et je l'ai reçu debout, au bord d'une terre qui brûle, devant trois hommes qui ne comprenaient rien à ce qui se disait.
 
 Il ne m'a pas mise première. Une femme qu'on protège d'abord, on la met première.
 
-Il ne m'a pas mise quatrième non plus. Une femme qu'on punit, on la met quatrième, et personne au monde ne pourrait le lui reprocher, et j'aurais marché à la quatrième place sans dire un mot parce que je n'ai plus aucun droit de discuter un ordre de marche.
+Il ne m'a pas mise quatrième non plus. Une femme qu'on punit, on la met quatrième, et personne ne le lui aurait reproché. J'y aurais marché sans un mot : je n'ai plus le droit de discuter un ordre de marche.
 
 Il m'a mise deuxième.
 
-Deuxième, c'est la place où l'on vit si l'on fait exactement ce qu'on vous dit. Ce n'est ni un pardon ni une sentence : c'est un calcul, fait par un homme qui a promis à une ville de faire arriver Halden Serrande et qui a l'intention de tenir sa promesse, et qui a mis, juste derrière, la seule autre personne qu'il puisse couvrir.
+Deuxième, c'est la place où l'on vit si l'on fait ce qu'on vous dit. C'est un calcul, fait par un homme qui a promis à une ville de faire arriver Halden et qui a l'intention de tenir sa promesse, et qui a mis, juste derrière, la seule autre personne qu'il puisse couvrir.
 
 Il ne m'a pas dit qu'il me gardait. Il ne me l'aurait pas dit sous la torture.
 
@@ -156,7 +186,7 @@ J'ai chargé l'étui de fer-blanc en travers du dos, avec le rouleau de toile de
 
 Cael est passé devant chacun pour vérifier les linges. Il a serré celui de Tiec, qui l'avait mis trop haut. Il a retourné celui de Mauger.
 
-Quand il est arrivé à moi, il a regardé le nœud, et il ne l'a pas touché, et il a dit les deux seuls mots qu'il m'ait adressés à moi seule depuis la halle deux :
+Quand il est arrivé à moi, il a regardé le nœud, et il ne l'a pas touché, et il a dit les premiers mots qu'il m'ait adressés, à moi seule, depuis la halle deux :
 
 — Deux pas.
 
