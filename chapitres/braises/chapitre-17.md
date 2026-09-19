@@ -4,17 +4,17 @@
 
 *POV Cael*
 
-Je ne l'ai pas remerciée.
+Je n'ai pas remercié Ysée.
 
-J'y ai pensé toute la nuit, aux communs, en écoutant la pluie et en l'écoutant, elle, changer de position toutes les vingt minutes parce que ses jambes la faisaient souffrir couchée aussi.
+J'y ai pensé toute la nuit, aux communs, en écoutant la pluie et en l'écoutant, elle, changer de position sans arrêt : ses jambes la faisaient souffrir couchée aussi.
 
 Le problème n'est pas que je ne voulais pas. Le problème est que je ne sais pas le faire.
 
-Un remerciement, c'est une phrase qui suppose qu'on peut rendre. On remercie un homme d'avoir tenu une porte parce qu'un jour on lui tiendra une porte. Quand on appartient à quelqu'un, on n'a rien à rendre : tout ce qu'on possède appartient déjà au propriétaire du contrat, y compris le temps qu'on mettrait à rendre. Alors on apprend à ne pas remercier. On apprend à recevoir en silence, ce que les gens prennent pour de l'ingratitude, et qui est seulement une comptabilité honnête.
+Remercier, c'est promettre de rendre. Moi, je n'ai rien à rendre : tout ce que j'ai appartient déjà au propriétaire de mon contrat, jusqu'au temps que je mettrais à rendre. Alors j'ai appris à recevoir en silence. Les gens prennent ça pour de l'ingratitude. Je tiens seulement mes comptes honnêtement.
 
 Ce qu'un Braise peut donner, c'est du travail.
 
-Au matin, la pluie s'était arrêtée. Elle est sortie des communs en marchant comme une femme de quatre-vingts ans et elle a essayé de me le cacher en allant droit au puits.
+Au matin, la pluie s'était arrêtée. Elle est sortie des communs en marchant comme une vieille femme et elle a essayé de me le cacher en allant droit au puits.
 
 — Marrec.
 
@@ -24,15 +24,15 @@ Au matin, la pluie s'était arrêtée. Elle est sortie des communs en marchant c
 
 — Vous le faites mieux.
 
-— Je le fais plus vite. Ce n'est pas la même chose, et dans six jours il n'y aura peut-être personne pour le faire à votre place.
+— Je le fais plus vite. Et dans six jours il n'y aura peut-être personne pour le faire à votre place.
 
 Elle est venue.
 
 Je me repasse cette leçon telle que je l'ai donnée, parce que c'est la seule heure de ce voyage dont je suis entièrement fier.
 
-Je ne l'ai pas touchée. Pas une fois. C'est une discipline, pour enseigner un geste : la main du maître se pose sur celle de l'élève, c'est comme ça qu'on apprend à ferrer, à souder, à tenir une lame. Je ne l'ai jamais eu. J'ai appris à enseigner avec des mots et par-devant, en montrant sur moi.
+Je ne l'ai pas touchée. Pas une fois. D'habitude, pour enseigner un geste, la main du maître se pose sur celle de l'élève : c'est comme ça qu'on apprend à ferrer, à souder, à tenir une lame. Moi, personne ne m'a jamais appris comme ça. J'ai appris à enseigner avec des mots, en montrant sur moi.
 
-— Le tapis d'abord. Plus haut. Encore. Sur le garrot, puis vous le faites glisser vers l'arrière, jamais vers l'avant.
+— Le tapis d'abord. Plus haut. Encore. Au-dessus des épaules, puis vous le faites glisser vers l'arrière, jamais vers l'avant.
 
 — Pourquoi ?
 
@@ -40,7 +40,7 @@ Je ne l'ai pas touchée. Pas une fois. C'est une discipline, pour enseigner un g
 
 Elle a fait glisser le tapis. Elle l'a fait bien.
 
-— La selle maintenant. Des deux mains, au troussequin et au pommeau — l'arrière et l'avant. Vous la posez, vous ne la jetez pas. Si vous l'entendez, c'est trop fort.
+— La selle maintenant. Des deux mains, à l'arrière et à l'avant. Vous la posez, vous ne la jetez pas. Si vous l'entendez, c'est trop fort.
 
 Elle l'a posée. Ça s'est entendu.
 
@@ -52,7 +52,7 @@ Elle a recommencé. Quatre fois. À la quatrième, ça n'a pas fait de bruit, et
 
 — Il quoi ?
 
-— Il retient son souffle. Tous les chevaux le font, les bons comme les mauvais. Vous sanglez sur un ventre plein d'air, il souffle en marchant, et à la troisième lieue la selle tourne avec vous dessus. Vous serrez à peu près, vous lui faites faire dix pas, et vous resserrez.
+— Il retient son souffle. Tous les chevaux le font, les bons comme les mauvais. Vous sanglez sur un ventre plein d'air, il souffle en marchant, et au bout d'une lieue la selle tourne avec vous dessus. Vous serrez à peu près, vous lui faites faire dix pas, et vous resserrez.
 
 — Comment on sait que c'est assez ?
 
@@ -64,7 +64,7 @@ Elle a glissé deux doigts sous la sangle. Elle a fait la moue.
 
 — Alors il y a de la place pour que la selle tourne.
 
-Elle a tiré. Elle n'a pas assez de force dans les bras — elle a une force de poignet et de dos, une force de gens qui tiennent une plume et portent des rouleaux, ce n'est pas la même — et elle a dû s'y prendre à deux fois en s'aidant du genou contre le flanc du cheval, ce que je ne lui avais pas montré et qu'elle a inventé sur place.
+Elle a tiré. Elle n'a pas assez de force dans les bras : elle a une force de poignet et de dos, celle des gens qui tiennent une plume et portent des rouleaux. Elle a dû s'y prendre à deux fois en s'aidant du genou contre le flanc du cheval, ce que je ne lui avais pas montré et qu'elle a inventé sur place.
 
 — Comme ça ?
 
@@ -72,13 +72,13 @@ Elle a tiré. Elle n'a pas assez de force dans les bras — elle a une force de 
 
 Et là je l'ai fait.
 
-Elle avait passé la boucle dans le mauvais contre-sanglon, celui du haut, qui lâche quand la bête se cabre. C'était l'affaire d'un pouce à déplacer. J'ai avancé la main et je l'ai posée sur la sienne pour lui montrer où, exactement comme un maître de forge le ferait avec un apprenti, exactement comme on me l'a fait à moi zéro fois en vingt-deux ans.
+Elle avait passé la boucle dans le mauvais contre-sanglon, celui du haut, qui lâche quand la bête se cabre. C'était l'affaire d'un pouce à déplacer. J'ai avancé la main et je l'ai posée sur la sienne pour lui montrer où, comme un maître de forge le ferait avec un apprenti.
 
 Ma main sur sa main.
 
 J'ai retiré si vite que la boucle est tombée.
 
-Je ne saurai jamais combien de temps ça a duré. Moins d'une seconde ; la moitié d'un battement. Il n'y avait rien à craindre à ce contact-là, aucune marque possible, je le savais et je l'ai retirée quand même, parce que le réflexe est plus vieux que le savoir.
+Je ne saurai jamais combien de temps ça a duré. Moins d'une seconde ; la moitié d'un battement. Il n'y avait rien à craindre à ce contact-là, aucune marque possible, je le savais, et j'ai retiré ma main quand même. Le réflexe est plus vieux que le savoir.
 
 Elle n'a pas bougé.
 
@@ -100,4 +100,4 @@ En franchissant le pont de Pierre-Fendue, elle a dit, sans tourner la tête :
 
 Je n'ai rien répondu.
 
-Ce n'était pas la peine ; elle avait déjà sorti le carnet, et je voyais bien, à la façon dont elle écrivait d'une main en tenant les rênes de l'autre, que ce n'était pas le carnet des relevés.
+Ce n'était pas la peine ; elle avait déjà sorti le carnet. À la façon dont elle écrivait, d'une main, en tenant les rênes de l'autre, je voyais bien que ce n'était pas le carnet des relevés.

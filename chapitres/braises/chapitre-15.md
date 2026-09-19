@@ -4,9 +4,9 @@
 
 *POV Cael*
 
-Le septième jour, elle m'a demandé à quoi ça ressemblait.
+Le septième jour, Ysée m'a demandé à quoi ça ressemblait.
 
-Nous marchions — c'était un de ses quarts d'heure à pied, elle tenait les deux chevaux par les rênes parce qu'elle avait décidé que si elle ne montait pas elle servirait à quelque chose — et la route suivait une crête d'où l'on voyait très loin vers le nord.
+Nous marchions : c'était un de ses quarts d'heure à pied. Elle tenait les deux chevaux par les rênes ; puisqu'elle ne montait pas, elle avait décidé de servir à quelque chose. La route suivait une crête d'où l'on voyait très loin vers le nord.
 
 On ne voyait rien, d'ailleurs. Du gris.
 
@@ -14,7 +14,7 @@ On ne voyait rien, d'ailleurs. Du gris.
 
 J'ai réfléchi à ce que je pouvais lui donner.
 
-— Je n'ai jamais traversé, ai-je dit. Je l'ai vue de près deux fois. Les Serrande ont des salines à Saulnes ; c'est à sept lieues du bord. Quand le vent tourne au nord, on ferme les volets et on ne sort pas les bêtes.
+— Je n'ai jamais traversé, ai-je dit. Je l'ai vue de près deux fois. Les Serrande ont des marais salants à Saulnes, pas loin du bord. Quand le vent tourne au nord, on ferme les volets et on ne sort pas les bêtes.
 
 — Ça ressemble à quoi.
 
@@ -24,11 +24,11 @@ Elle m'a regardé.
 
 — Il n'y a pas de flammes ?
 
-— Ce qui brûle est dessous. Les Fours, c'étaient des veines de feu dans la terre, que les gens du Nord avaient apprises à ouvrir et à refermer comme on ouvre une vanne. Quand ils ont été rompus, personne n'a refermé. Le feu s'est mis à courir dans la roche. Ça fait vingt-deux ans que ça court.
+— Ce qui brûle est dessous. Les Fours, c'étaient des veines de feu dans la terre, que les gens du Nord avaient appris à ouvrir et à refermer comme on ouvre une vanne. Quand ils ont été rompus, personne n'a refermé. Le feu s'est mis à courir dans la roche. Depuis, il court.
 
 — Donc le sol.
 
-— Le sol est chaud. Par endroits il est tiède comme une pierre au soleil et vous marchez dessus une journée entière sans y penser. Par endroits il a la couleur de la cendre et il y a un pied de croûte au-dessus du rouge, et cette croûte tient le poids d'un homme ou ne le tient pas, et ça ne se voit pas d'avance.
+— Le sol est chaud. Par endroits il est tiède comme une pierre au soleil et vous marchez dessus une journée entière sans y penser. Par endroits il a la couleur de la cendre, avec une croûte mince au-dessus du rouge. Cette croûte tient le poids d'un homme ou ne le tient pas, et ça ne se voit pas d'avance.
 
 — Et l'air.
 
@@ -36,7 +36,7 @@ Elle m'a regardé.
 
 Je lui ai expliqué, parce qu'elle avait besoin de le savoir et parce qu'il valait mieux qu'elle l'apprenne d'un homme qui n'y mettrait pas de poésie.
 
-Au-dessus d'une terre qui brûle, l'air monte. Quand l'air monte quelque part, il arrive d'ailleurs pour le remplacer, et sur quatre-vingt-deux lieues de large ça fait un vent qui souffle toujours du sud vers le nord, en rasant le sol, en ramassant la cendre. Ce vent est à la température d'un four qu'on vient d'éteindre. Il n'enflamme pas les vêtements. Il assèche. Les gens qui meurent sur la Ligne meurent presque tous de la même façon : ils respirent pendant trois jours un air qui leur prend l'eau du corps, et le quatrième jour ils s'assoient parce qu'ils sont fatigués, et ils ne se relèvent pas.
+La terre brûle, alors l'air monte. D'autre air arrive pour prendre sa place. Ça fait un vent qui ne s'arrête jamais. Il souffle vers le nord, au ras du sol, chargé de cendre, chaud comme un four qu'on vient d'éteindre. Il ne met pas le feu à vos habits. Il vous sèche. Sur la Ligne, presque tout le monde meurt pareil : trois jours à respirer cet air-là. Le quatrième jour, on s'assoit parce qu'on est fatigué. On ne se relève pas.
 
 — C'est pour ça que les caravanes ne passent pas, a-t-elle dit.
 
@@ -68,9 +68,9 @@ Elle a eu l'air, pendant un instant, d'une femme qui vient de trouver l'erreur d
 
 — Il m'a engagé un abri.
 
-— Il a racheté un abri, ai-je dit. Ce n'est pas la même chose. On n'engage pas un Braise, madame Marrec. On acquiert son contrat. Le mien appartenait à la maison Serrande ; depuis le douze de ce mois il appartient au Doyen Aldric Vael, qui l'a payé douze cents couronnes. Je ne l'ai jamais vu. C'est un clerc qui me l'a fait signer, dans une pièce sans fenêtre, en soupirant parce que je lisais.
+— Il a racheté un abri, ai-je dit. On n'engage pas un Braise, madame Marrec. On achète son contrat. Le mien appartenait à la maison Serrande ; depuis ce mois-ci, il appartient au Doyen, qui l'a payé douze cents couronnes. Je n'ai jamais vu le Doyen. C'est un clerc qui m'a fait signer, dans une pièce sans fenêtre, en soupirant parce que je lisais.
 
-C'est sorti plus sec que je ne voulais. Il y a des phrases qu'on prépare pendant des semaines sans savoir qu'on les prépare.
+C'est sorti plus sec que je ne voulais. Je préparais cette phrase depuis des semaines sans le savoir.
 
 Elle n'a pas dit *je suis désolée*. Je lui en ai été reconnaissant ; les gens disent ça et ensuite ils attendent quelque chose en échange.
 
@@ -78,23 +78,21 @@ Elle a dit :
 
 — Il vous a promis la levée.
 
-— Il m'a promis la levée au retour. Un homme qui vient de payer douze cents couronnes pour une chose ne la jette pas quand elle revient intacte.
+— Il m'a promis la levée au retour. Un homme qui vient de payer ce prix-là pour une chose ne la jette pas quand elle revient intacte.
 
 — Alors pourquoi vous avez signé ?
 
-Voilà.
-
-Le vent venait du nord, ce jour-là, très faible, avec cette odeur que je connais depuis que j'ai cinq ans et que je ne sais décrire à personne : ce n'est pas de la fumée, c'est plus propre que de la fumée, c'est l'odeur d'une chose qui a déjà fini de brûler.
+Le vent venait du nord, ce jour-là, très faible. Il portait cette odeur que je connais depuis que j'ai cinq ans et que je ne sais décrire à personne : plus propre que la fumée, l'odeur d'une chose qui a déjà fini de brûler.
 
 J'aurais pu lui dire la vérité. J'y ai pensé sérieusement, pendant le temps qu'il faut à un cheval pour faire trois pas.
 
-Mais la vérité ne m'appartient pas tout à fait. Elle appartient aussi à quelqu'un d'autre, qui est peut-être vivant, et une carte est une chose qu'on publie.
+Mais la vérité n'est pas qu'à moi. Elle est aussi à quelqu'un d'autre, qui est peut-être vivant. Et ce qu'on confie à une cartographe finit un jour sur une carte, sous les yeux de tous.
 
-— Parce qu'on m'a proposé de marcher vers le nord, ai-je dit. En vingt-deux ans, personne ne me l'avait proposé.
+— Parce qu'on m'a proposé de marcher vers le nord, ai-je dit. De ma vie, personne ne me l'avait proposé.
 
 Ce n'était pas un mensonge. C'était une porte laissée entrouverte sur une pièce qu'on ne montre pas.
 
-Elle m'a regardé un long moment. Elle a compris qu'il y avait une pièce. Elle n'est pas entrée.
+Elle m'a regardé longtemps. Elle a compris qu'il y avait une pièce. Elle n'est pas entrée.
 
 — Bien, a-t-elle dit. Alors je note *assez près* et je ne discuterai pas là-dessus le moment venu.
 
