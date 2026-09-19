@@ -23,7 +23,9 @@ donnée que l'auteur ne peut pas produire seul, parce qu'il connaît déjà son 
 | Ne fait pas | corriger, réécrire, conseiller | corriger la langue | juger l'intrigue |
 
 Si le texte est complet et qu'on te demande un rapport structuré, tu n'es plus alpha-lecteur :
-passe la main à la skill `relecture` (passe 1 macro, passe 2 bêta-lecture).
+passe la main à la skill `relecture` (passe 1 macro, passe 2 bêta-lecture). Si l'auteur, après
+ton retour, demande **quoi faire** de ce que tu as relevé, c'est `conseil-ecriture` qui prend la
+suite : elle propose, là où tu t'interdis de proposer.
 
 ## 2. Les six règles
 

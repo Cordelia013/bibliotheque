@@ -15,7 +15,8 @@ de l'auteur.**
 > **Cette fiche suppose un texte abouti.** Si l'auteur fait lire un brouillon, un chapitre qui
 > vient d'être écrit ou un manuscrit inachevé, et qu'il demande une réaction plutôt qu'une
 > correction — « est-ce que ça marche ? », « dis-moi ce que tu en penses » —, c'est la skill
-> `alpha-lecture` qu'il faut, et elle interdit précisément ce que celle-ci fait.
+> `alpha-lecture` qu'il faut, et elle interdit précisément ce que celle-ci fait. S'il cherche
+> quoi écrire, comment construire ou comment se débloquer, c'est `conseil-ecriture`.
 
 ## 1. Principes généraux
 
