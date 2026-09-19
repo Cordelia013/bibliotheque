@@ -60,11 +60,16 @@ J24 (ch. 40), les quatre hommes restent « couchés quatre jours dans le quartie
 remontent en sept jours, arrivent à J35 (ch. 42) ; Bran meurt à J36 (ch. 43). Soit **douze
 jours**. Aucune des deux valeurs du texte ne tombe dessus.
 
-**Correction proposée.** Retenir **neuf** comme valeur canonique — c'est celle qu'utilisent
-quatre passages, dont la dernière page du livre — et corriger le ch. 42 en conséquence. Deux
-voies : soit ramener « treize » à « onze », soit rendre le ch. 42 compatible avec neuf en
-raccourcissant le séjour à Ghar (« quatre jours » → « deux jours », ch. 40) et la remontée. La
-seconde est plus propre : elle sauve la phrase du ch. 50, qui est gagée.
+**Correction proposée.** Retenir **douze**, qui est la seule valeur que le calendrier autorise.
+« Neuf » ne peut pas être sauvé en raccourcissant le séjour à Ghar : la date de sortie est tenue
+par deux ancrages indépendants (« il y a neuf jours » au ch. 40, « trois semaines plus tôt » au
+ch. 45) et la date de la mort par un troisième (le lendemain de l'enterrement d'Aunis, lui-même
+fixé au cinquième jour après l'arrivée de Cael). Il faut donc corriger les quatre occurrences de
+« neuf » et aligner le ch. 42, qui se situe la veille : « il y a onze jours ».
+
+Variante, si l'on préfère ne pas manipuler cinq chiffres : ne garder le compte qu'à un seul
+endroit — la dernière page (ch. 50, « le premier jour, et pas le douzième ») — et supprimer le
+chiffre ailleurs (« depuis la Ligne », « depuis qu'il est sorti »).
 
 ### A2. L'engagement écrit de Halden ne sert pas au chapitre 49
 
