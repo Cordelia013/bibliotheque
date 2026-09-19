@@ -48,7 +48,7 @@ Je suis redescendue par la cour. Il pleuvait sur les toits de Valdren, et la mer
 
 Alors j'ai sorti mon autre carnet.
 
-Le petit. Celui que je garde cousu dans la doublure de mon manteau, et dont personne ici ne connaît l'existence. J'y note ce que je vois et que la Guilde ne me demande pas de dessiner.
+Le petit. Celui que je garde sur moi, et dont personne ici ne connaît l'existence. J'y note ce que je vois et que la Guilde ne me demande pas de dessiner.
 
 *Le passage de Kern a glissé vers l'ouest. La mer n'y est pour rien : il y a dix ans, les marchands de sel ont fait bâtir une digue plus haut sur la côte. Elle a coupé le courant qui tenait le sable en place. Je ne l'ai pas mis sur la carte. Personne ne me l'a demandé.*
 

@@ -60,7 +60,7 @@ Pas une heure, un jour sur cinq. Toutes les nuits, à tour de rôle, dans les tr
 
 La première année, ils étaient onze à tenir une nuit entière. Puis neuf. Puis sept.
 
-Aucun n'est mort d'une nuit. On ne meurt pas d'une nuit : on cesse de pouvoir, et un autre prend la nuit, et on s'assied bien plus tard, sur un banc, un dimanche, comme tout le monde.
+Aucun n'est mort d'une nuit. On ne meurt pas d'une nuit : on cesse de pouvoir, et un autre prend la nuit, et on s'assied bien plus tard, sur un banc, un jour ordinaire, comme tout le monde.
 
 — Personne ne nous a obligés, a-t-elle dit. C'est la différence, et c'est toute la différence, et elle ne change rien au chiffre.
 

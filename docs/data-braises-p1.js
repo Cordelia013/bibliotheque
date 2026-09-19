@@ -26,7 +26,7 @@ const BRAISES_P1 = [
 "J'ai vingt-quatre ans.",
 "Je suis redescendue par la cour. Il pleuvait sur les toits de Valdren, et la mer, en bas de la ville, avait cette couleur de plomb qu'elle prend à l'arrière-saison.",
 "Alors j'ai sorti mon autre carnet.",
-"Le petit. Celui que je garde cousu dans la doublure de mon manteau, et dont personne ici ne connaît l'existence. J'y note ce que je vois et que la Guilde ne me demande pas de dessiner.",
+"Le petit. Celui que je garde sur moi, et dont personne ici ne connaît l'existence. J'y note ce que je vois et que la Guilde ne me demande pas de dessiner.",
 "Le passage de Kern a glissé vers l'ouest. La mer n'y est pour rien : il y a dix ans, les marchands de sel ont fait bâtir une digue plus haut sur la côte. Elle a coupé le courant qui tenait le sable en place. Je ne l'ai pas mis sur la carte. Personne ne me l'a demandé.",
 "Huit ans que je le remplis. Il est plein aux trois quarts.",
 "Je l'appelle le blanc, comme les zones vides des cartes. C'est là que je range ce qui n'a pas le droit d'y être.",

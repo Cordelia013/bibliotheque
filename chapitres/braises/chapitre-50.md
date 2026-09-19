@@ -94,7 +94,7 @@ Ysée derrière moi à deux pas, ses pieds dans les miens. Une main levée, halt
 
 L'index sur le genou, qu'elle n'a jamais utilisé et qu'elle voulait qui existe.
 
-Le genou a tenu trois jours. Elle avait passé l'hiver à monter et descendre l'escalier de la veuve plusieurs fois par jour, ce qu'elle ne m'a dit qu'au deuxième soir, quand je lui ai demandé comment elle faisait.
+Le genou a tenu trois jours. Elle avait passé ces douze jours à monter et descendre l'escalier de la veuve plusieurs fois par jour, ce qu'elle ne m'a dit qu'au deuxième soir, quand je lui ai demandé comment elle faisait.
 
 ---
 
@@ -110,7 +110,7 @@ Je les ai comptés deux fois : on ne relève pas un chiffre qu'on n'a pas compt�
 
 Quatorze.
 
-Quatorze feux au bord sud de la Ligne, près du poirier et de la dernière ferme, un mois et demi après que la carte est partie chez le graveur avec sa phrase dans le cartouche :
+Quatorze feux au bord sud de la Ligne, près du poirier et de la dernière ferme, un mois après que la carte est partie chez le graveur avec sa phrase dans le cartouche :
 
 *Passage impossible sans un contrat-de-feu en tête.*
 

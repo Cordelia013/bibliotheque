@@ -18,7 +18,7 @@ Ce sont des choses inutiles. C'est tout ce que je possède.
 
 Vaugrin tenait ce four avant moi. Il m'a appris en trois mois ce qu'un Braise doit savoir. Ce qu'un homme doit savoir, il me l'a appris en une phrase, et j'ai mis toutes ces années à la comprendre : *on ne pousse jamais tout. Tu gardes toujours une braise pour toi. Le jour où tu pousses tout, tu ne trouves plus la porte.*
 
-Il est mort un dimanche, en s'asseyant sur le banc de la cour. Pendant vingt-six ans, il avait tout poussé, tous les jours. La maison Serrande l'a fait enterrer correctement. Elle avait déjà pris la précaution de placer son remplaçant à côté de lui.
+Il est mort un jour de fête de la maison, en s'asseyant sur le banc de la cour. Pendant vingt-six ans, il avait tout poussé, tous les jours. La maison Serrande l'a fait enterrer correctement. Elle avait déjà pris la précaution de placer son remplaçant à côté de lui.
 
 Le remplaçant, c'était moi. J'avais huit ans.
 

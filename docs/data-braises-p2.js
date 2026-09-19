@@ -132,7 +132,7 @@ const BRAISES_P2 = [
 "Je connais chaque fissure du fer de ce four. Je sais laquelle s'ouvre quand on monte trop vite et laquelle ne s'ouvrira jamais. Je sais à quelle heure la lumière entre par la verrière nord, et combien de coups il faut pour casser une cuve refroidie sans la fendre en travers.",
 "Ce sont des choses inutiles. C'est tout ce que je possède.",
 "Vaugrin tenait ce four avant moi. Il m'a appris en trois mois ce qu'un Braise doit savoir. Ce qu'un homme doit savoir, il me l'a appris en une phrase, et j'ai mis toutes ces années à la comprendre : on ne pousse jamais tout. Tu gardes toujours une braise pour toi. Le jour où tu pousses tout, tu ne trouves plus la porte.",
-"Il est mort un dimanche, en s'asseyant sur le banc de la cour. Pendant vingt-six ans, il avait tout poussé, tous les jours. La maison Serrande l'a fait enterrer correctement. Elle avait déjà pris la précaution de placer son remplaçant à côté de lui.",
+"Il est mort un jour de fête de la maison, en s'asseyant sur le banc de la cour. Pendant vingt-six ans, il avait tout poussé, tous les jours. La maison Serrande l'a fait enterrer correctement. Elle avait déjà pris la précaution de placer son remplaçant à côté de lui.",
 "Le remplaçant, c'était moi. J'avais huit ans.",
 "J'ai posé la main sur le fer tiède, une dernière fois, et je me suis autorisé une chose que je ne fais jamais : j'ai poussé un peu.",
 "Pas pour fondre. Juste assez pour que le métal passe du tiède au chaud sous ma paume.",

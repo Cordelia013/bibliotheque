@@ -68,7 +68,7 @@ Je reprends ce qu'il a dit d'un bout à l'autre, parce qu'il n'a rien dit de bê
 
 — Je m'appelle Halden Serrande. Ma maison achète et vend du sel à Valdren depuis quatre-vingts ans. J'ai trente-deux ans, mon père en a soixante-douze, et trois cents personnes touchent chez nous le premier de chaque mois.
 
-« Je suis parti de Valdren avec dix-huit hommes. Neuf sont entrés sur la Ligne avec moi ; les autres avaient fait demi-tour au bord ou m'avaient quitté en route. J'en ai perdu six dedans. Je ne vous demande pas de me plaindre. Je vous donne un chiffre : il vous dit ce que ça m'a coûté d'être ici, et ce que je suis prêt à payer.
+« Je suis parti de Valdren avec dix-huit hommes. Neuf sont entrés sur la Ligne avec moi, le Braise compris ; les autres avaient fait demi-tour au bord ou m'avaient quitté en route. J'en ai perdu six dedans. Je ne vous demande pas de me plaindre. Je vous donne un chiffre : il vous dit ce que ça m'a coûté d'être ici, et ce que je suis prêt à payer.
 
 « Voilà votre situation. Vous la connaissez mieux que moi, mais je vais la dire à voix haute, puisque personne ne la dit.
 

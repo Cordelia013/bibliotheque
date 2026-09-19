@@ -11,6 +11,11 @@ texte : tout ce qui suit est un constat à trancher.
 Chaque point distingue **le fait** (ce que le texte dit, vérifiable) de **la conséquence**
 (ce qui ne ferme pas) et propose une correction minimale.
 
+> **État au 19 septembre 2026 : le premier lot est appliqué** — les six corrections qui ne
+> demandaient aucun arbitrage (A3, A4, A8, B2, C1, C2). Elles sont marquées **appliqué** dans
+> le corps du document. Restent les quatre décisions (A1, A6, A7, B1), les trois passages
+> d'écriture neuve (A2, C5, C7) et les quatre reprises de coupe (A5, C3, C6, C8).
+
 ---
 
 ## Ce qui tient
@@ -92,7 +97,7 @@ cède quand même **par comptabilité** (« Serrande est ruiné le jour où une 
 là-haut »), réplique qui existe déjà dans le chapitre. Sa conclusion *« Vous ne m'avez pas
 convaincu »* reste intacte.
 
-### A3. « Elle avait passé l'hiver » — impossible dans le calendrier du livre
+### A3. « Elle avait passé l'hiver » — impossible dans le calendrier du livre — **appliqué**
 
 **Le fait.** Ch. 50 : Cael demande à Ysée comment son genou a tenu trois jours. Réponse :
 « Elle avait passé **l'hiver** à monter et descendre l'escalier de la veuve plusieurs fois par
@@ -108,7 +113,7 @@ a pas d'hiver dans cet intervalle.
 la veuve. » Un mot. La phrase gagne même en dureté : douze jours d'escalier pour trois jours de
 Ligne.
 
-### A4. « Un mois et demi » après le graveur
+### A4. « Un mois et demi » après le graveur — **appliqué**
 
 **Le fait.** Ch. 50 : « Quatorze feux au bord sud de la Ligne (…) **un mois et demi** après que
 la carte est partie chez le graveur. »
@@ -170,7 +175,7 @@ mur, et elle est citée deux fois. Le lecteur attentif calcule et le trait perd 
 cents charges de sel par **saison** » ou « quarante charges par jour ». L'acte, lui, ne doit pas
 bouger : les deux citations en dépendent, et *« Ils l'avaient chiffré en sel »* est gagé dessus.
 
-### A8. Le carnet blanc : cousu dans la doublure, ou au fond d'une sacoche ?
+### A8. Le carnet blanc : cousu dans la doublure, ou au fond d'une sacoche ? — **appliqué**
 
 **Le fait.** Ch. 1 : « Le petit. Celui que je garde **cousu dans la doublure de mon manteau**, et
 dont personne ici ne connaît l'existence. »
@@ -213,7 +218,7 @@ et le titre du livre travaille (une saison, celle des braises, court du départ 
 seul point à reprendre serait l'arrière-saison du ch. 1 (« cette couleur de plomb qu'elle prend
 à l'arrière-saison ») et la buée de la cour au ch. 7.
 
-### B2. « Dimanche »
+### B2. « Dimanche » — **appliqué**
 
 **Le fait.** Le monde date par son propre calendrier : « Relevé du **14 du mois des vents**, an
 39 » (ch. 4), « le premier jour du mois des vents » (ch. 50). Mais deux passages emploient un
@@ -225,10 +230,15 @@ jour de la semaine réelle :
 **La conséquence.** Le contrôle 6.7 du plan de réécriture exige « aucun mois réel ». Le dimanche
 est du même ordre : il importe une semaine chrétienne dans un monde qui a ses mois à lui.
 
-**Correction proposée.** Les deux occurrences forment un écho volontaire (Vaugrin / les porteurs
-de Ghar) : il faut donc les changer **ensemble**, et garder l'écho. Par exemple « un jour de
-repos », ou un nom propre au monde. À défaut, assumer le dimanche et le poser ailleurs dans le
-livre pour qu'il cesse d'être une exception.
+**Correction appliquée.** Les deux occurrences ont été traitées séparément, parce que l'écho
+entre les deux passages ne tient pas au jour mais au **banc** — motif qui porte déjà Vaugrin,
+Sarn, Bran et Aunis, et que le ch. 37 emploie sans date (« Vaugrin s'est assis un matin sur un
+banc de la cour »).
+
+- ch. 10 : « Il est mort **un jour de fête de la maison** » — gagé par le ch. 37 (« tous les
+  jours sauf les fêtes de la maison »), et l'ironie est juste : il meurt le seul jour où l'on ne
+  le fait pas pousser.
+- ch. 39 bis : « sur un banc, **un jour ordinaire**, comme tout le monde ».
 
 ---
 
@@ -243,8 +253,7 @@ ch. 42, Halden : « **Neuf sont entrés sur la Ligne avec moi** ; (…) J'en ai 
 ch. 43, Bran : « J'en ai passé **neuf** la première nuit (…) J'en ai sorti trois de l'autre côté. »
 Le compte ne ferme que si l'on lit « neuf sont entrés avec moi » comme **incluant Bran** — et
 alors Bran porte huit hommes plus Halden, ce qui fait bien neuf, six s'assoient, trois sortent,
-quatre arrivent (ch. 40, ch. 42). Lu autrement, il manque ou il reste un homme. Une incise
-lèverait l'ambiguïté : « Neuf sont entrés sur la Ligne avec moi, le Braise compris. »
+quatre arrivent (ch. 40, ch. 42). Lu autrement, il manque ou il reste un homme. **Appliqué** : « Neuf sont entrés sur la Ligne avec moi, **le Braise compris**. »
 Corollaire : le ch. 24 fait compter **neuf feux de camp** à Ysée au bord sud, et le ch. 50 pose
 l'équation un feu = un homme (« Quatorze feux (…) Il en porte donc treize »). Neuf feux pour dix
 personnes ne tombe pas juste.
@@ -303,9 +312,9 @@ raccorderait les deux sans rien coûter.
 
 ## Ordre de traitement recommandé
 
-**Cinq minutes chacun, aucun effet de bord** — à faire tout de suite :
+~~**Cinq minutes chacun, aucun effet de bord** — à faire tout de suite :
 A3 (l'hiver de la veuve), A4 (un mois et demi), A8 (le carnet cousu), B2 (dimanche),
-C1 (l'incise sur les neuf), C2 (les quarante-six bouches).
+C1 (l'incise sur les neuf), C2 (les quarante-six bouches).~~ — **fait le 19 septembre 2026.**
 
 **À trancher avant d'écrire** — une décision commande la rédaction :
 A1 (neuf ou treize jours : choisir la valeur, puis ajuster le séjour à Ghar),

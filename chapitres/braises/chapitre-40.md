@@ -160,7 +160,7 @@ Ils se sont disputés un quart d'heure. Je ne l'ai pas noté ; ce n'était pas �
 
 Tervi n'a pris aucun des deux côtés. Elle a dit une phrase, vers la fin, en regardant ses mains :
 
-— Moi, j'ai besoin de mes quarante-six bouches, et je n'ai personne d'autre qu'elle.
+— Moi, j'ai besoin de mes quarante-six bouches. Il m'en manque cinq, et je n'ai personne d'autre qu'elle.
 
 ---
 
