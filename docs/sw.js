@@ -9,7 +9,7 @@
  * VERSION ci-dessous : l'ancien cache est alors supprimé à l'activation.
  */
 
-const VERSION = 'liseuse-v3';
+const VERSION = 'liseuse-v4';
 
 const RESSOURCES = [
   './',
