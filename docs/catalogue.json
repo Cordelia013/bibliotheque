@@ -42,25 +42,25 @@
      "n": 4,
      "t": "Le trou dans les comptes",
      "pov": "Salvatore",
-     "mots": 534
+     "mots": 1694
     },
     {
      "n": 5,
-     "t": "Une offre, pas une supplique",
+     "t": "Le figuier",
      "pov": "Livia",
-     "mots": 595
+     "mots": 1795
     },
     {
      "n": 6,
      "t": "La boîte en fer",
      "pov": "Livia",
-     "mots": 550
+     "mots": 1537
     },
     {
      "n": 7,
      "t": "Annonce",
      "pov": "Salvatore",
-     "mots": 374
+     "mots": 1461
     },
     {
      "n": 8,
@@ -269,12 +269,12 @@
    ],
    "morceaux": [
     {
-     "url": "data-castellano-p1.json?v=5ee5582b",
+     "url": "data-castellano-p1.json?v=e9fc3a2d",
      "de": 0,
      "a": 5
     },
     {
-     "url": "data-castellano-p2.json?v=66351fc1",
+     "url": "data-castellano-p2.json?v=e69f800d",
      "de": 6,
      "a": 11
     },
