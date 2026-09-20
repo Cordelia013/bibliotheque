@@ -1,6 +1,6 @@
 {
  "format": 3,
- "genere": "2026-09-19",
+ "genere": "2026-09-21",
  "livres": [
   {
    "id": "castellano",
@@ -18,7 +18,7 @@
    "resume": "Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Sept ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit.",
    "couv": true,
    "couvImage": "couvertures/castellano.svg",
-   "maj": "2026-09-18",
+   "maj": "2026-09-21",
    "chapitres": [
     {
      "n": 1,
@@ -259,6 +259,12 @@
      "t": "Ce qu'on écrit sur les registres",
      "pov": "Salvatore",
      "mots": 551
+    },
+    {
+     "n": 44,
+     "t": "La virgule de la page onze",
+     "pov": "Salvatore",
+     "mots": 704
     }
    ],
    "morceaux": [
@@ -293,9 +299,9 @@
      "a": 35
     },
     {
-     "url": "data-castellano-p7.json?v=00ee6d02",
+     "url": "data-castellano-p7.json?v=3661c558",
      "de": 36,
-     "a": 39
+     "a": 40
     }
    ],
    "personnages": [
