@@ -87,8 +87,10 @@ def main():
         description = sans_jargon(description)
         corps = sans_jargon(sans_section_depot(corps))
         # Le titre de la fiche est déjà dans le corps ; on lui ajoute l'usage.
+        # En citation, pas en italique : la description peut contenir un titre
+        # en italique, et l'italique ne s'imbrique pas en Markdown.
         corps = corps.replace(
-            "\n\n", f"\n\n*{description}*\n\n", 1
+            "\n\n", f"\n\n> {description}\n\n", 1
         ) if description else corps
         contenu = (
             corps.rstrip()

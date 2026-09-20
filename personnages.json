@@ -1,0 +1,161 @@
+{
+  "castellano": [
+    {
+      "nom": "Livia Sarti",
+      "role": "Narratrice principale",
+      "texte": "Consigliere de la famille Castellano pendant six ans et, depuis trois ans, l'épouse secrète de Salvatore. Une balle sous la clavicule le 17 mars, un appel auquel il répond sans savoir que c'est elle : elle rend les clés et demande le divorce devant vingt-deux couverts."
+    },
+    {
+      "nom": "Salvatore Castellano",
+      "role": "Narrateur — le Don",
+      "texte": "Dirige la famille sans savoir lire un bilan. Épouse Livia en secret par peur de ce qu'il aurait à perdre au grand jour, puis met onze mois à formuler la seule phrase qu'elle lui avait demandée."
+    },
+    {
+      "nom": "Damiano Rocchi",
+      "role": "Narrateur — famille rivale",
+      "texte": "Héritier des Rocchi, associé de Livia à cinquante-cinquante. L'a croisée dix ans plus tôt à un colloque à Milan sans lui demander son nom. A financé, sans savoir qui s'y trouverait, l'opération du quai nord."
+    },
+    {
+      "nom": "Matteo Rocchi",
+      "role": "Patriarche des Rocchi",
+      "texte": "A perdu son fils aîné en 2003, enlevé par les Ferraro. A attendu vingt-trois ans non pour se venger, mais pour obtenir une preuve. C'est lui qui propose à Livia une maison à elle plutôt qu'une place dans la sienne."
+    },
+    {
+      "nom": "Serena Vitale",
+      "role": "Fiancée officielle de Salvatore",
+      "texte": "Payée depuis quatre ans par les Ferraro pour éteindre la dette de son père. A organisé un anniversaire le 17 mars pour éloigner Salvatore du quai. Apporte à Livia quatre ans de rapports, et meurt trois jours plus tard."
+    },
+    {
+      "nom": "Enzo",
+      "role": "Assistant de Livia",
+      "texte": "Entré dans la maison à dix-neuf ans, n'a jamais pris une décision : il transmet. A communiqué les horaires du quai nord sans savoir, puis entre dans un commissariat en sachant ce que cela lui coûte."
+    },
+    {
+      "nom": "Bruno Castellano",
+      "role": "Oncle de Salvatore",
+      "texte": "Soixante et un ans, a enterré le père de Salvatore et vu arriver les Ferraro en 2003. Le seul à dire tout haut que la maison tenait grâce à Livia."
+    },
+    {
+      "nom": "Madame Castellano",
+      "role": "Mère de Salvatore",
+      "texte": "A tenu la maison pendant les douze années de fuite de son mari. Signe l'entrée des Ferraro trois semaines avant l'emprunt, et fait passer le message qu'il faut « régler la question » Serena."
+    },
+    {
+      "nom": "Gianfranco Ferraro",
+      "role": "Antagoniste",
+      "texte": "Conseil en investissement, prête onze millions aux Castellano pour les tenir. Mis en examen le 4 juin, quitte le pays le 6 avec un passeport qui n'est pas le sien."
+    },
+    {
+      "nom": "Le père de Livia",
+      "role": "Famille",
+      "texte": "A gardé le port en 2003 plutôt que de sauver le fils de Matteo Rocchi, et en est mort un peu chaque jour pendant vingt-trois ans. Enlevé à son tour, il ne répond pas cette fois."
+    },
+    {
+      "nom": "Commissaire Renzi",
+      "role": "Police",
+      "texte": "Ne croit pas une seconde à la culpabilité de Salvatore : un homme qui organise un homicide n'invente pas un alibi qu'il refuse de nommer."
+    },
+    {
+      "nom": "Chiara Belloni",
+      "role": "Auditrice",
+      "texte": "Apprend à Salvatore à lire un bilan, deux soirs par semaine. Avait travaillé pour Livia en 2022."
+    }
+  ],
+  "vesper": [
+    {
+      "nom": "Ilya Marchetti",
+      "role": "Narratrice principale",
+      "texte": "Vingt-sept ans, serveuse. Son score tombe à 412 un mardi à onze heures quatorze, par propagation : un cousin condamné, une amie qui a manifesté, une facture impayée par sa mère."
+    },
+    {
+      "nom": "Aurel Sarn",
+      "role": "Narrateur — le garant",
+      "texte": "Score de 940, garant depuis huit ans. Onze personnes portées, dix dossiers classés dans trois pièces fermées. Il ne les touche jamais : il les regarde, et il garde."
+    },
+    {
+      "nom": "Nadia Marchetti",
+      "role": "Mère d'Ilya",
+      "texte": "Ingénieure au Bureau des Scores de 2041 à 2046, autrice de la règle de propagation qui fera tomber sa propre fille. A passé ses deux dernières années à essayer de casser ce qu'elle avait construit, et a caché son correctif dans son dossier médical."
+    },
+    {
+      "nom": "Verrien",
+      "role": "Agent du Bureau",
+      "texte": "Sourit bien. Propose 850 points et une stabilité « définitive » — l'article 44 précise que le portage d'État est irrévocable pour la personne portée."
+    },
+    {
+      "nom": "Hedda",
+      "role": "Employée de maison",
+      "texte": "Ne parle pas, sauf une fois. C'est elle qui prévient Ilya sur ce qui est arrivé à la précédente."
+    },
+    {
+      "nom": "Mina",
+      "role": "La précédente",
+      "texte": "Vingt-trois ans, restée sept mois. A trouvé son carton au sixième mois et lu ce qu'Aurel avait noté : rien de sale, des choses justes. Elle a préféré 380 à un homme qui savait qu'elle avait arrêté de chanter."
+    }
+  ],
+  "braises": [
+    {
+      "nom": "Ysée Marrec",
+      "role": "Narratrice principale",
+      "texte": "Vingt-quatre ans, pupille de la Guilde des Cartographes depuis l'âge de sept ans. Ne dessine que ce qu'elle a vu, et tient un second carnet — « le blanc » — pour tout ce que la Guilde ne lui demande pas de dessiner."
+    },
+    {
+      "nom": "Cael Dorne",
+      "role": "Narrateur — le Braise",
+      "texte": "Vingt-sept ans, dix-neuf ans de four. Le feu est entré en lui à la rupture des Fours et n'en est jamais ressorti : il ne craint pas la chaleur, mais il brûle de l'intérieur. Vendu à la Guilde pour douze cents couronnes, chiffré en quatre cents charges de sel."
+    },
+    {
+      "nom": "Aldric Vael",
+      "role": "Doyen de la Guilde",
+      "texte": "Soixante et un ans. A dressé les cartes des campagnes du Nord il y a vingt-deux ans — celles dont les hachures mesuraient des gens et dont les croix marquaient les écoles de forge."
+    },
+    {
+      "nom": "Halden Serrande",
+      "role": "Marchand de sel",
+      "texte": "Propose quatre mille couronnes pour que la carte du Nord reste incomplète : trois gisements au-delà de la Ligne ruineraient sa maison. Refuse honnêtement de trouver sa raison plus laide qu'une autre."
+    },
+    {
+      "nom": "Vaugrin",
+      "role": "Braise, mort avant le récit",
+      "texte": "Tenait le four un. Mort à quarante-quatre ans sur un banc de la cour. Laisse une plaque de fer gravée à la main : la porte nord de Ghar, que personne n'avait jamais dessinée."
+    },
+    {
+      "nom": "Torve",
+      "role": "Contremaître",
+      "texte": "Ignore les ordres depuis trente ans, ce qui est sa manière à lui d'être un homme. Transmet à Cael l'héritage de Vaugrin."
+    }
+  ],
+  "verre": [
+    {
+      "nom": "Nour Belkacem",
+      "role": "Narratrice principale",
+      "texte": "Directrice générale du groupe Valadares, entrée comme assistante à vingt-trois ans. Hérite de trente-quatre pour cent des parts, à condition d'être encore en poste au jour du décès."
+    },
+    {
+      "nom": "Rafael Valadares",
+      "role": "Narrateur — le fils",
+      "texte": "Quarante ans, absent de l'entreprise depuis douze ans. A monté une société de conseil en refusant d'apprendre à lire les registres de ses propres véhicules — le reproche exact que son père lui faisait en 2014."
+    },
+    {
+      "nom": "Henrique Valadares",
+      "role": "Le patriarche, mort au premier chapitre",
+      "texte": "A racheté en 1997 un immeuble rue da Boavista au quart de sa valeur, en déclenchant lui-même la procédure. La famille s'appelait Belkacem. Il l'a su en 2016 et a préféré promouvoir plutôt que dire."
+    },
+    {
+      "nom": "Teresa Moura",
+      "role": "Directrice financière",
+      "texte": "Son plan de cession des trois hôtels de l'Algarve a été refusé par Nour en quarante minutes devant tout le conseil. Dîne avec Duarte Pinheiro depuis un an et demi."
+    },
+    {
+      "nom": "Duarte Pinheiro",
+      "role": "Associé de Rafael",
+      "texte": "A monté le véhicule d'acquisition qui rachèterait l'Algarve, au nom d'une société que Rafael préside sans la lire."
+    },
+    {
+      "nom": "Karim Belkacem",
+      "role": "Père de Nour",
+      "texte": "Menuisier. A vendu l'immeuble familial en 1997 à un homme qui lui expliquait qu'il n'aurait pas d'autre offre. Mort en 2000, à cinquante-trois ans."
+    }
+  ],
+  "lune": []
+}

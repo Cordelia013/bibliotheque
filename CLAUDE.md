@@ -12,23 +12,25 @@ Dépôt d'écriture : cinq romans en markdown et une liseuse web autonome géné
 | `methode/` | documentation du métier : écrire, réviser, publier, vendre | référence |
 | `prompts/` | les trois fiches de travail, autonomes, plus une checklist | généré |
 | `.claude/skills/` | les mêmes fiches, activables ici | source des précédentes |
-| `docs/` | la liseuse | **généré, ne pas éditer à la main** |
+| `docs/` | la liseuse : moteur tenu à la main, contenu généré | voir `ARCHITECTURE.md` |
+| `personnages.json` | fiches personnages, recopiées dans le catalogue | source |
+| `ARCHITECTURE.md` | le contrat générateur ↔ moteur, et ce qui reste pour une version publique | référence |
 | `scripts/` | générateurs annexes : icônes, EPUB, prompts | outils |
 
 ## Règles techniques
 
-1. **La source est `chapitres/`.** Les fichiers de `docs/` sont produits par
-   `python3 maj_bibliotheque.py`. Ne jamais corriger un texte dans `docs/` sans corriger le
-   chapitre correspondant.
-2. **Après toute modification du texte**, répercuter dans les fichiers publiés — en relançant le
-   script, ou à la main pour conserver leur mise en forme actuelle — puis **vérifier que le
-   publié correspond aux sources**.
-3. **Divergence de format connue** : les `docs/data-braises-p*.js` sont en JSON multi-ligne
-   (`json.dumps(..., indent=0)`) alors que `maj_bibliotheque.py` écrit sur une seule ligne. Le
-   contenu est identique ; relancer le script réécrit les dix fichiers sans rien changer au
-   texte. Arbitrage en attente.
-4. **Ajouter ou retirer un paragraphe décale les coupures de scène** enregistrées dans
-   `SEPARATEURS` (`docs/app.js`) : les recalculer.
+1. **La source est `chapitres/`.** Le contenu de `docs/` — `catalogue.json` et les morceaux
+   `data-<id>-pN.json` — est produit par `python3 maj_bibliotheque.py`. Ne jamais corriger un
+   texte dans `docs/` : corriger le chapitre, relancer le script.
+2. **Après toute modification du texte**, relancer le script. Il ne réécrit que ce qui a changé,
+   recalcule les coupures de scène et les versions des morceaux, et date les seuls livres dont le
+   texte a bougé. Vérifier ensuite que le publié correspond aux sources.
+3. **Le moteur ne contient aucun contenu.** `docs/app.js`, `docs/sw.js` et `docs/index.html`
+   (hors bloc des couvertures) sont du code, tenu à la main, et le script n'y touche pas. Le
+   contrat entre les deux est dans `ARCHITECTURE.md` ; le respecter avant de toucher à l'un ou à
+   l'autre.
+4. **Les fiches personnages** vivent dans `personnages.json`, à la racine, et sont recopiées dans
+   le catalogue. C'est là qu'on les édite.
 5. **Format de chapitre**, en-têtes, suffixes `bis` : voir `README.md`.
 6. Les fiches de `prompts/` sont **générées** par `scripts/generer_prompts.py` depuis
    `.claude/skills/`. Corriger la fiche source, jamais le fichier produit.

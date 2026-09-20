@@ -1,4 +1,4 @@
-const BRAISES_P3 = [
+[
 {
 "n": 13,
 "t": "Ce que le corps sait",
@@ -50,7 +50,8 @@ const BRAISES_P3 = [
 "— Et je ne peux pas vous porter là-bas, a-t-il ajouté. Personne ne porte personne sur la Ligne. On y passe debout.",
 "Il m'a parlé de la Ligne, ce soir-là, comme d'un lieu dont il connaissait les habitudes. Le vent dans le dos. Il en parlait comme d'une rue.",
 "Le Doyen m'a donné un guide et ne m'a pas dit d'où Cael tenait ce qu'il savait. Je venais d'entendre un homme me décrire les vents d'un pays que personne n'a jamais relevé. Le lendemain, en montant à cheval une heure sur deux comme il me l'avait dit, j'ai passé la journée à me demander qui le lui avait appris."
-]
+],
+"s": []
 },
 {
 "n": 14,
@@ -86,7 +87,8 @@ const BRAISES_P3 = [
 "Puis j'ai pensé : je suis probablement dedans.",
 "Et j'ai découvert, en sellant, que cette idée ne me déplaisait pas. C'était nouveau. Toute ma vie, être écrit quelque part avait voulu dire un registre, un contrat, une ligne de compte.",
 "On m'avait déjà mis sur du papier. Jamais sur du papier qui n'avait de valeur pour personne."
-]
+],
+"s": []
 },
 {
 "n": 15,
@@ -140,7 +142,8 @@ const BRAISES_P3 = [
 "Elle m'a regardé longtemps. Elle a compris qu'il y avait une pièce. Elle n'est pas entrée.",
 "— Bien, a-t-elle dit. Alors je note assez près et je ne discuterai pas là-dessus le moment venu.",
 "Et elle est remontée en selle toute seule, mal, en trois fois, en me tournant le dos pour que je ne compte pas les essais."
-]
+],
+"s": []
 },
 {
 "n": 16,
@@ -196,7 +199,8 @@ const BRAISES_P3 = [
 "Plus tard, aux communs, il s'est couché contre la porte et moi contre le mur du fond. Il l'a arrangé sans en parler, en posant les selles en ligne entre nous comme une frontière convenue.",
 "J'ai écouté l'eau sur le toit de pierre.",
 "Et j'ai pensé à la femme du fond de la salle, celle dont je n'avais pas su lire l'expression. J'ai compris beaucoup plus tard — trop tard — qu'elle avait dû se lever tout de suite après notre départ pour aller parler à quelqu'un."
-]
+],
+"s": []
 },
 {
 "n": 17,
@@ -252,7 +256,8 @@ const BRAISES_P3 = [
 "— Vous savez que vous venez de me remercier.",
 "Je n'ai rien répondu.",
 "Ce n'était pas la peine ; elle avait déjà sorti le carnet. À la façon dont elle écrivait, d'une main, en tenant les rênes de l'autre, je voyais bien que ce n'était pas le carnet des relevés."
-]
+],
+"s": []
 },
 {
 "n": 18,
@@ -297,6 +302,7 @@ const BRAISES_P3 = [
 "Vers le milieu de la nuit, je me suis réveillée.",
 "La pièce ne brûlait pas. La pièce était tiède comme une écurie en plein hiver, comme une cuisine à quatre heures du matin, comme toutes les pièces où j'ai eu froid dans ma vie et où j'aurais voulu ne pas avoir froid.",
 "J'ai dormi jusqu'au jour sans bouger d'un pouce."
-]
+],
+"s": []
 }
-];
+]

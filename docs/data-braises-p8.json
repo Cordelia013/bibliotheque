@@ -1,4 +1,4 @@
-const BRAISES_P8 = [
+[
 {
 "n": 41,
 "t": "Le tour",
@@ -100,6 +100,13 @@ const BRAISES_P8 = [
 "Je sais compter. C'est ce que je sais faire le mieux, avec pousser.",
 "Je suis resté devant ce montant avec le couteau dans la main, et j'ai su, à trois ou quatre près, ce que je trouverais si je commençais par le haut.",
 "J'ai mis le couteau dans la poche intérieure, avec la plaque de Vaugrin, et je suis sorti, et j'ai fermé la porte."
+],
+"s": [
+8,
+27,
+51,
+77,
+86
 ]
 },
 {
@@ -192,6 +199,14 @@ const BRAISES_P8 = [
 "Bran a regardé ma main.",
 "Puis il a fait ce qu'on lui a appris. Ce que je lui ai appris, moi, dans une halle de fours, un matin, quand il est arrivé à vingt et un ans, qu'il ne savait rien et qu'il fallait qu'il apprenne vite : le linge, les cheveux, la paille, les bêtes, les gens.",
 "Il a mis les mains derrière son dos."
+],
+"s": [
+3,
+12,
+24,
+38,
+56,
+61
 ]
 },
 {
@@ -311,6 +326,17 @@ const BRAISES_P8 = [
 "Et tout le monde est sorti. En franchissant la porte, j'ai compris que personne ne me redemanderait ce que j'allais dessiner. La question pour laquelle j'avais traversé la Ligne resterait sans réponse, parce qu'un garçon s'était assis au milieu.",
 "Cael est resté dans la halle.",
 "Je ne suis pas allée le chercher. Il y a un moment où l'on cesse d'avoir le droit d'aller chercher quelqu'un, et je savais à quelle phrase de quelle lettre ce moment se situait."
+],
+"s": [
+3,
+16,
+24,
+33,
+43,
+71,
+76,
+94,
+106
 ]
 },
 {
@@ -398,6 +424,14 @@ const BRAISES_P8 = [
 "Ça ne se décide pas sur la Ligne. Là-bas, on ne parle pas : chaque phrase coûte de l'eau. Ça se décide au bord, en une fois, la veille, avec des signes convenus et un ordre de marche.",
 "Quatre personnes derrière moi et deux places qui tiennent.",
 "Je n'ai pas encore décidé de l'ordre."
+],
+"s": [
+4,
+21,
+36,
+58,
+63,
+71
 ]
 },
 {
@@ -494,6 +528,14 @@ const BRAISES_P8 = [
 "— Deux pas.",
 "— Deux pas, ai-je dit.",
 "Et nous sommes entrés."
+],
+"s": [
+5,
+36,
+45,
+49,
+74,
+81
 ]
 },
 {
@@ -563,6 +605,14 @@ const BRAISES_P8 = [
 "Ce n'était pas l'heure d'une halte. Nous avons bu quand même, deux gorgées, et j'ai remouillé le linge de Tiec qui l'avait encore mis trop haut.",
 "Voilà ce que j'étais en train de faire, et je ne veux pas le déguiser : je ne calculais pas comment le sauver.",
 "Je calculais quand."
+],
+"s": [
+6,
+13,
+19,
+30,
+40,
+50
 ]
 }
-];
+]

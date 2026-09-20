@@ -27,8 +27,10 @@ methode/                           documentation du métier : écrire, réviser,
 prompts/                           fiches de travail autonomes et checklist — générées
 .claude/skills/                    les mêmes fiches, activables dans l'assistant
 scripts/                           générateurs annexes : icônes, EPUB, prompts
-docs/index.html                    la liseuse, générée — ne pas éditer à la main
-maj_bibliotheque.py                régénère docs/index.html
+docs/                              la liseuse : moteur (app.js, sw.js, index.html) et contenu généré
+maj_bibliotheque.py                régénère le contenu de docs/ : catalogue.json et morceaux de texte
+personnages.json                   fiches personnages, écrites à la main, recopiées dans le catalogue
+ARCHITECTURE.md                    le contrat entre le générateur et le moteur
 CLAUDE.md                          mémoire du projet : où est quoi, et les règles
 ```
 
@@ -60,14 +62,19 @@ Après avoir ajouté ou modifié des chapitres :
 python3 maj_bibliotheque.py
 ```
 
-Le script relit tous les dossiers de `chapitres/`, réinjecte le texte et les
-couvertures dans `docs/index.html`, et affiche le compte par livre. Les
-marque-pages et la position de lecture sont stockés séparément du texte : ils
-survivent à chaque mise à jour.
+Le script relit tous les dossiers de `chapitres/`, écrit `docs/catalogue.json` — les
+métadonnées des livres et l'index de leurs chapitres — et les morceaux de texte
+`docs/data-<id>-pN.json`, six chapitres par fichier, puis réinjecte les couvertures dans
+`docs/index.html`. Il ne touche jamais au code de l'application. Les marque-pages et la
+position de lecture sont stockés séparément du texte : ils survivent à chaque mise à jour.
 
-Pour ajouter un livre, déclarer une entrée dans la liste `CATALOGUE` en haut du
-script (identifiant, titre, genres, couleur, statut, résumé, couverture), créer
-le dossier `chapitres/<identifiant>/`, puis relancer le script.
+La liseuse ne télécharge que le catalogue pour s'afficher, puis un morceau quand on lit un
+chapitre qu'il contient. Chaque morceau porte dans son adresse une version tirée de son texte,
+si bien qu'une nouvelle publication est visible au rechargement suivant sans rien vider.
+
+Pour ajouter un livre, déclarer une entrée dans la liste `CATALOGUE` en haut du script
+(identifiant, titre, genres, couleur, statut, résumé, couverture), créer le dossier
+`chapitres/<identifiant>/`, puis relancer le script. Rien d'autre à modifier.
 
 ## Publier la liseuse en ligne
 

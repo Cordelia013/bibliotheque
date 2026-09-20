@@ -1,4 +1,4 @@
-const BRAISES_P7 = [
+[
 {
 "n": 37,
 "t": "Les vieux",
@@ -87,6 +87,14 @@ const BRAISES_P7 = [
 "— Non, a-t-il dit. Elle a fait monter du bois.",
 "J'ai regardé l'appentis. Il y avait là de quoi tenir un mois.",
 "Personne ne fait monter du bois pour un Braise. Un Braise, c'est ce qu'on met à la place du bois."
+],
+"s": [
+5,
+11,
+30,
+41,
+54,
+71
 ]
 },
 {
@@ -173,6 +181,13 @@ const BRAISES_P7 = [
 "J'ai mis une bûche.",
 "Puis elle a dit, en s'installant contre le dossier, les yeux déjà mi-clos :",
 "— Va chercher ta cartographe. Elle attend dehors depuis une heure et elle n'a pas mangé non plus."
+],
+"s": [
+6,
+20,
+40,
+55,
+68
 ]
 },
 {
@@ -239,6 +254,12 @@ const BRAISES_P7 = [
 "J'ai sorti le blanc ce soir-là et je suis restée la plume en l'air aussi longtemps que devant la table.",
 "Puis j'ai écrit une ligne :",
 "J'ai dit non à quatre mille couronnes en quatre phrases. Je n'ai rien répondu du tout à une table."
+],
+"s": [
+14,
+20,
+40,
+47
 ]
 },
 {
@@ -295,6 +316,11 @@ const BRAISES_P7 = [
 "— Tu en connais dix mots et tu ne le sais pas. Ils sont dedans. Ils sortiront quand on ne te regardera pas.",
 "Puis elle a tendu la main vers la marmite, s'est arrêtée à mi-chemin, a laissé retomber le bras. Elle fait ce geste vingt fois par jour sans s'en apercevoir.",
 "— Sers-toi, a-t-elle dit. Tu as fini le toit, tu n'as plus d'excuse pour ressortir."
+],
+"s": [
+7,
+20,
+36
 ]
 },
 {
@@ -387,6 +413,15 @@ const BRAISES_P7 = [
 "Il y a trente-trois jours, j'ai lu dans un couloir de la Guilde une phrase d'écriture administrative, parfaitement neutre, qui m'a fait m'appuyer au mur : Un homme, vingt-sept ans, dix-neuf années de four. Nom : Dorne, Cael. Valeur estimée : quatre cents charges de sel.",
 "J'ai marché tout ce temps à côté de cet homme en me disant que j'étais de l'autre bord de cette phrase.",
 "Il aura fallu une heure."
+],
+"s": [
+4,
+31,
+38,
+49,
+62,
+73,
+78
 ]
 },
 {
@@ -440,6 +475,14 @@ const BRAISES_P7 = [
 "Il y a trente-quatre jours, un homme m'a offert une maison pour que la carte soit incomplète, et j'ai dit non en quatre phrases et j'en ai été fière. Ce matin une femme m'a demandé quarante et une lignes d'écriture et j'ai dit oui sans donner de date. On appelle ça oui. Ce n'en est pas un.",
 "J'ai écrit cela au milieu de la matinée du trente-quatrième jour, appuyée contre un pilier, en me trouvant sévère avec moi-même.",
 "Je n'ai rien écrit d'autre ce jour-là."
+],
+"s": [
+6,
+13,
+19,
+30,
+37,
+41
 ]
 }
-];
+]

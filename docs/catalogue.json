@@ -1,0 +1,1011 @@
+{
+ "format": 3,
+ "genere": "2026-09-19",
+ "livres": [
+  {
+   "id": "castellano",
+   "titre": "Le Prix du Silence, Don Castellano",
+   "auteur": "Écrit avec Claude",
+   "genres": [
+    "Romance mafieuse",
+    "Vengeance",
+    "Drame",
+    "Suspense"
+   ],
+   "annee": "2026",
+   "couleur": "#6d1f2c",
+   "statut": "Terminé",
+   "resume": "Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Sept ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit.",
+   "couv": true,
+   "couvImage": "couvertures/castellano.svg",
+   "maj": "2026-09-18",
+   "chapitres": [
+    {
+     "n": 1,
+     "t": "La voix au téléphone",
+     "pov": "Livia",
+     "mots": 643
+    },
+    {
+     "n": 2,
+     "t": "Le dîner",
+     "pov": "Salvatore",
+     "mots": 913
+    },
+    {
+     "n": 3,
+     "t": "Ce qu'on ne dit pas à ses parents",
+     "pov": "Livia",
+     "mots": 657
+    },
+    {
+     "n": 4,
+     "t": "Le trou dans les comptes",
+     "pov": "Salvatore",
+     "mots": 534
+    },
+    {
+     "n": 5,
+     "t": "Une offre, pas une supplique",
+     "pov": "Livia",
+     "mots": 595
+    },
+    {
+     "n": 6,
+     "t": "La boîte en fer",
+     "pov": "Livia",
+     "mots": 550
+    },
+    {
+     "n": 7,
+     "t": "Annonce",
+     "pov": "Salvatore",
+     "mots": 374
+    },
+    {
+     "n": 8,
+     "t": "La maison du lac",
+     "pov": "Livia",
+     "mots": 498
+    },
+    {
+     "n": 9,
+     "t": "Sept ans",
+     "pov": "Damiano",
+     "mots": 346
+    },
+    {
+     "n": 10,
+     "t": "Conditions",
+     "pov": "Livia",
+     "mots": 454
+    },
+    {
+     "n": 11,
+     "t": "Ce que je ne comprenais pas",
+     "pov": "Salvatore",
+     "mots": 478
+    },
+    {
+     "n": 12,
+     "t": "Le fil",
+     "pov": "Livia",
+     "mots": 409
+    },
+    {
+     "n": 13,
+     "t": "La vente",
+     "pov": "Livia",
+     "mots": 575
+    },
+    {
+     "n": 14,
+     "t": "Ce que coûte une salle pleine",
+     "pov": "Salvatore",
+     "mots": 389
+    },
+    {
+     "n": 15,
+     "t": "Ce qu'on trouve en cherchant autre chose",
+     "pov": "Livia",
+     "mots": 628
+    },
+    {
+     "n": 16,
+     "t": "Le chiffre qui ment",
+     "pov": "Livia",
+     "mots": 329
+    },
+    {
+     "n": 17,
+     "t": "L'homme qui signe",
+     "pov": "Salvatore",
+     "mots": 343
+    },
+    {
+     "n": 18,
+     "t": "La visite de Serena",
+     "pov": "Livia",
+     "mots": 484
+    },
+    {
+     "n": 19,
+     "t": "Trois enveloppes",
+     "pov": "Livia",
+     "mots": 335
+    },
+    {
+     "n": 20,
+     "t": "Quarante-huit heures",
+     "pov": "Salvatore",
+     "mots": 448
+    },
+    {
+     "n": 21,
+     "t": "Quinze minutes",
+     "pov": "Livia",
+     "mots": 541
+    },
+    {
+     "n": 22,
+     "t": "La cuillère",
+     "pov": "Livia",
+     "mots": 602
+    },
+    {
+     "n": 23,
+     "t": "Ce que ma mère a fait",
+     "pov": "Salvatore",
+     "mots": 584
+    },
+    {
+     "n": 24,
+     "t": "Le calcul de mon père",
+     "pov": "Damiano",
+     "mots": 547
+    },
+    {
+     "n": 25,
+     "t": "Le figuier",
+     "pov": "Livia",
+     "mots": 492
+    },
+    {
+     "n": 26,
+     "t": "La table de cuisine",
+     "pov": "Salvatore",
+     "mots": 637
+    },
+    {
+     "n": 27,
+     "t": "Ce qu'il aurait dû dire",
+     "pov": "Livia",
+     "mots": 651
+    },
+    {
+     "n": 28,
+     "t": "Onze heures",
+     "pov": "Salvatore",
+     "mots": 535
+    },
+    {
+     "n": 29,
+     "t": "Via Pratello",
+     "pov": "Livia",
+     "mots": 547
+    },
+    {
+     "n": 30,
+     "t": "Ce que je vaux",
+     "pov": "Livia",
+     "mots": 596
+    },
+    {
+     "n": 31,
+     "t": "Trois ans, morceau par morceau",
+     "pov": "Livia",
+     "mots": 462
+    },
+    {
+     "n": 32,
+     "t": "L'homme qui apprend",
+     "pov": "Salvatore",
+     "mots": 494
+    },
+    {
+     "n": 33,
+     "t": "Enzo",
+     "pov": "Livia",
+     "mots": 424
+    },
+    {
+     "n": 34,
+     "t": "La réponse que je dois",
+     "pov": "Livia",
+     "mots": 584
+    },
+    {
+     "n": 35,
+     "t": "Bellaria",
+     "pov": "Salvatore",
+     "mots": 377
+    },
+    {
+     "n": 36,
+     "t": "Le nom sur la porte",
+     "pov": "Livia",
+     "mots": 452
+    },
+    {
+     "n": 37,
+     "t": "L'article 14",
+     "pov": "Salvatore",
+     "mots": 480
+    },
+    {
+     "n": 38,
+     "t": "Le figuier, encore",
+     "pov": "Livia",
+     "mots": 476
+    },
+    {
+     "n": 39,
+     "t": "Une question, enfin",
+     "pov": "Livia",
+     "mots": 362
+    },
+    {
+     "n": 40,
+     "t": "Ce qu'on écrit sur les registres",
+     "pov": "Salvatore",
+     "mots": 551
+    }
+   ],
+   "morceaux": [
+    {
+     "url": "data-castellano-p1.json?v=d558a285",
+     "de": 0,
+     "a": 5
+    },
+    {
+     "url": "data-castellano-p2.json?v=66351fc1",
+     "de": 6,
+     "a": 11
+    },
+    {
+     "url": "data-castellano-p3.json?v=ce94bfc1",
+     "de": 12,
+     "a": 17
+    },
+    {
+     "url": "data-castellano-p4.json?v=c58f1942",
+     "de": 18,
+     "a": 23
+    },
+    {
+     "url": "data-castellano-p5.json?v=d03f2434",
+     "de": 24,
+     "a": 29
+    },
+    {
+     "url": "data-castellano-p6.json?v=4f677618",
+     "de": 30,
+     "a": 35
+    },
+    {
+     "url": "data-castellano-p7.json?v=00ee6d02",
+     "de": 36,
+     "a": 39
+    }
+   ],
+   "personnages": [
+    {
+     "nom": "Livia Sarti",
+     "role": "Narratrice principale",
+     "texte": "Consigliere de la famille Castellano pendant six ans et, depuis trois ans, l'épouse secrète de Salvatore. Une balle sous la clavicule le 17 mars, un appel auquel il répond sans savoir que c'est elle : elle rend les clés et demande le divorce devant vingt-deux couverts."
+    },
+    {
+     "nom": "Salvatore Castellano",
+     "role": "Narrateur — le Don",
+     "texte": "Dirige la famille sans savoir lire un bilan. Épouse Livia en secret par peur de ce qu'il aurait à perdre au grand jour, puis met onze mois à formuler la seule phrase qu'elle lui avait demandée."
+    },
+    {
+     "nom": "Damiano Rocchi",
+     "role": "Narrateur — famille rivale",
+     "texte": "Héritier des Rocchi, associé de Livia à cinquante-cinquante. L'a croisée dix ans plus tôt à un colloque à Milan sans lui demander son nom. A financé, sans savoir qui s'y trouverait, l'opération du quai nord."
+    },
+    {
+     "nom": "Matteo Rocchi",
+     "role": "Patriarche des Rocchi",
+     "texte": "A perdu son fils aîné en 2003, enlevé par les Ferraro. A attendu vingt-trois ans non pour se venger, mais pour obtenir une preuve. C'est lui qui propose à Livia une maison à elle plutôt qu'une place dans la sienne."
+    },
+    {
+     "nom": "Serena Vitale",
+     "role": "Fiancée officielle de Salvatore",
+     "texte": "Payée depuis quatre ans par les Ferraro pour éteindre la dette de son père. A organisé un anniversaire le 17 mars pour éloigner Salvatore du quai. Apporte à Livia quatre ans de rapports, et meurt trois jours plus tard."
+    },
+    {
+     "nom": "Enzo",
+     "role": "Assistant de Livia",
+     "texte": "Entré dans la maison à dix-neuf ans, n'a jamais pris une décision : il transmet. A communiqué les horaires du quai nord sans savoir, puis entre dans un commissariat en sachant ce que cela lui coûte."
+    },
+    {
+     "nom": "Bruno Castellano",
+     "role": "Oncle de Salvatore",
+     "texte": "Soixante et un ans, a enterré le père de Salvatore et vu arriver les Ferraro en 2003. Le seul à dire tout haut que la maison tenait grâce à Livia."
+    },
+    {
+     "nom": "Madame Castellano",
+     "role": "Mère de Salvatore",
+     "texte": "A tenu la maison pendant les douze années de fuite de son mari. Signe l'entrée des Ferraro trois semaines avant l'emprunt, et fait passer le message qu'il faut « régler la question » Serena."
+    },
+    {
+     "nom": "Gianfranco Ferraro",
+     "role": "Antagoniste",
+     "texte": "Conseil en investissement, prête onze millions aux Castellano pour les tenir. Mis en examen le 4 juin, quitte le pays le 6 avec un passeport qui n'est pas le sien."
+    },
+    {
+     "nom": "Le père de Livia",
+     "role": "Famille",
+     "texte": "A gardé le port en 2003 plutôt que de sauver le fils de Matteo Rocchi, et en est mort un peu chaque jour pendant vingt-trois ans. Enlevé à son tour, il ne répond pas cette fois."
+    },
+    {
+     "nom": "Commissaire Renzi",
+     "role": "Police",
+     "texte": "Ne croit pas une seconde à la culpabilité de Salvatore : un homme qui organise un homicide n'invente pas un alibi qu'il refuse de nommer."
+    },
+    {
+     "nom": "Chiara Belloni",
+     "role": "Auditrice",
+     "texte": "Apprend à Salvatore à lire un bilan, deux soirs par semaine. Avait travaillé pour Livia en 2022."
+    }
+   ]
+  },
+  {
+   "id": "lune",
+   "titre": "La Part de Lune",
+   "serie": "Les Deux Collines — tome 1",
+   "auteur": "Écrit avec Claude",
+   "genres": [
+    "Urban fantasy",
+    "Romance paranormale",
+    "Loups & Lycans",
+    "Âmes sœurs",
+    "Série"
+   ],
+   "annee": "2026",
+   "couleur": "#1c2445",
+   "statut": "À venir",
+   "resume": "Lyon, aujourd'hui. Sous les traboules, deux meutes se partagent les collines, et des femmes appelées Lieuses constatent les liens que personne n'a choisis. Maël, aide-soignante de nuit, est frappée par un lien d'âmes sœurs le soir où un Alpha lui amène un loup qui n'en est pas un — et rejetée par lui devant le Concile trois jours plus tard. Ce qu'on ne lui a pas dit : le Rejet est irrévocable pour celui qui le prononce. Pas pour celle qui le reçoit.",
+   "couv": true,
+   "maj": null,
+   "chapitres": [],
+   "morceaux": [],
+   "personnages": []
+  },
+  {
+   "id": "vesper",
+   "titre": "Le Contrat de Vesper",
+   "auteur": "Écrit avec Claude",
+   "genres": [
+    "Dark romance",
+    "Science-fiction",
+    "Futuriste",
+    "Obsession"
+   ],
+   "annee": "2026",
+   "couleur": "#2b2b33",
+   "statut": "En cours",
+   "resume": "Vesper, 2049. Chaque citoyen porte un score, et le score se propage : un cousin condamné, une facture impayée, et Ilya tombe à 412 en servant un café. Un homme à 940 lui propose de porter son risque pendant un an, chez lui, selon un contrat de trente-deux pages qui ne dit pas ce qu'il attend d'elle. Il ne la touche pas. Il la regarde. Et dans trois pièces fermées, dix cartons portent les noms de celles qui l'ont précédée. Avertissements : rapport de pouvoir déséquilibré, surveillance, obsession.",
+   "couv": true,
+   "maj": "2026-09-12",
+   "chapitres": [
+    {
+     "n": 1,
+     "t": "Score",
+     "pov": "Ilya",
+     "mots": 623
+    },
+    {
+     "n": 2,
+     "t": "Ce que j'achète",
+     "pov": "Aurel",
+     "mots": 613
+    },
+    {
+     "n": 3,
+     "t": "Zone Nord",
+     "pov": "Ilya",
+     "mots": 632
+    },
+    {
+     "n": 4,
+     "t": "Onze",
+     "pov": "Aurel",
+     "mots": 519
+    },
+    {
+     "n": 5,
+     "t": "La précédente",
+     "pov": "Ilya",
+     "mots": 614
+    },
+    {
+     "n": 6,
+     "t": "Le dîner du vingt-troisième jour",
+     "pov": "Ilya",
+     "mots": 680
+    },
+    {
+     "n": 7,
+     "t": "Ce que je ne lui ai pas dit",
+     "pov": "Aurel",
+     "mots": 593
+    },
+    {
+     "n": 8,
+     "t": "Vesper-Est",
+     "pov": "Ilya",
+     "mots": 512
+    },
+    {
+     "n": 9,
+     "t": "Trente-deux pages",
+     "pov": "Aurel",
+     "mots": 599
+    },
+    {
+     "n": 10,
+     "t": "Deux mille quatre cents",
+     "pov": "Ilya",
+     "mots": 757
+    }
+   ],
+   "morceaux": [
+    {
+     "url": "data-vesper-p1.json?v=9e62c4d1",
+     "de": 0,
+     "a": 5
+    },
+    {
+     "url": "data-vesper-p2.json?v=31c0e74d",
+     "de": 6,
+     "a": 9
+    }
+   ],
+   "personnages": [
+    {
+     "nom": "Ilya Marchetti",
+     "role": "Narratrice principale",
+     "texte": "Vingt-sept ans, serveuse. Son score tombe à 412 un mardi à onze heures quatorze, par propagation : un cousin condamné, une amie qui a manifesté, une facture impayée par sa mère."
+    },
+    {
+     "nom": "Aurel Sarn",
+     "role": "Narrateur — le garant",
+     "texte": "Score de 940, garant depuis huit ans. Onze personnes portées, dix dossiers classés dans trois pièces fermées. Il ne les touche jamais : il les regarde, et il garde."
+    },
+    {
+     "nom": "Nadia Marchetti",
+     "role": "Mère d'Ilya",
+     "texte": "Ingénieure au Bureau des Scores de 2041 à 2046, autrice de la règle de propagation qui fera tomber sa propre fille. A passé ses deux dernières années à essayer de casser ce qu'elle avait construit, et a caché son correctif dans son dossier médical."
+    },
+    {
+     "nom": "Verrien",
+     "role": "Agent du Bureau",
+     "texte": "Sourit bien. Propose 850 points et une stabilité « définitive » — l'article 44 précise que le portage d'État est irrévocable pour la personne portée."
+    },
+    {
+     "nom": "Hedda",
+     "role": "Employée de maison",
+     "texte": "Ne parle pas, sauf une fois. C'est elle qui prévient Ilya sur ce qui est arrivé à la précédente."
+    },
+    {
+     "nom": "Mina",
+     "role": "La précédente",
+     "texte": "Vingt-trois ans, restée sept mois. A trouvé son carton au sixième mois et lu ce qu'Aurel avait noté : rien de sale, des choses justes. Elle a préféré 380 à un homme qui savait qu'elle avait arrêté de chanter."
+    }
+   ]
+  },
+  {
+   "id": "braises",
+   "titre": "La Saison des Braises",
+   "serie": "Les Trois Cents Lieues — tome 1",
+   "auteur": "Écrit avec Claude",
+   "genres": [
+    "Romance sensuelle",
+    "Fantasy",
+    "Enemies to lovers",
+    "Slow burn",
+    "Série"
+   ],
+   "annee": "2026",
+   "couleur": "#8a3a1f",
+   "statut": "En cours",
+   "resume": "Ysée Marrec ne dessine que ce qu'elle a vu, et la carte du Nord se termine en blanc : trois cents lieues au-delà de la Ligne des Cendres, là où la terre brûle depuis quatre-vingts ans. Pour la traverser, la Guilde lui donne un seul guide — Cael, un Braise, un homme que le feu a touché sans le tuer et qui ne connaît pas le froid. Ce qu'on ne lui a pas dit : la Ligne ne laisse passer que ceux qu'un Braise porte dans sa chaleur. Assez près. Pendant trois jours.",
+   "couv": true,
+   "couvImage": "couvertures/braises.svg",
+   "maj": "2026-09-19",
+   "chapitres": [
+    {
+     "n": 1,
+     "t": "Ce qu'on n'a pas vu",
+     "pov": "Ysée",
+     "mots": 644
+    },
+    {
+     "n": 2,
+     "t": "Trois cents lieues de blanc",
+     "pov": "Ysée",
+     "mots": 845
+    },
+    {
+     "n": 3,
+     "t": "Le sel",
+     "pov": "Cael",
+     "mots": 704
+    },
+    {
+     "n": 4,
+     "t": "Les hachures",
+     "pov": "Ysée",
+     "mots": 1571
+    },
+    {
+     "n": 5,
+     "t": "J'accepte",
+     "pov": "Ysée",
+     "mots": 764
+    },
+    {
+     "n": 6,
+     "t": "Ce que je signe",
+     "pov": "Cael",
+     "mots": 1426
+    },
+    {
+     "n": 7,
+     "t": "La cour des écuries",
+     "pov": "Ysée",
+     "mots": 652
+    },
+    {
+     "n": 8,
+     "t": "Le poids",
+     "pov": "Cael",
+     "mots": 553
+    },
+    {
+     "n": 9,
+     "t": "L'offre",
+     "pov": "Ysée",
+     "mots": 662
+    },
+    {
+     "n": 10,
+     "t": "La dernière coulée",
+     "pov": "Cael",
+     "mots": 609
+    },
+    {
+     "n": 11,
+     "t": "Ce qu'on laisse",
+     "pov": "Ysée",
+     "mots": 710
+    },
+    {
+     "n": 12,
+     "t": "Le premier feu",
+     "pov": "Cael",
+     "mots": 578
+    },
+    {
+     "n": 13,
+     "t": "Ce que le corps sait",
+     "pov": "Ysée",
+     "mots": 1082
+    },
+    {
+     "n": 14,
+     "t": "Trois secondes",
+     "pov": "Cael",
+     "mots": 708
+    },
+    {
+     "n": 15,
+     "t": "Ce que la Ligne reconnaît",
+     "pov": "Cael",
+     "mots": 935
+    },
+    {
+     "n": 16,
+     "t": "L'édit des Veilles",
+     "pov": "Ysée",
+     "mots": 996
+    },
+    {
+     "n": 17,
+     "t": "La leçon",
+     "pov": "Cael",
+     "mots": 869
+    },
+    {
+     "n": 18,
+     "t": "L'auberge du Gué",
+     "pov": "Ysée",
+     "mots": 857
+    },
+    {
+     "n": 19,
+     "t": "Le creux",
+     "pov": "Cael",
+     "mots": 769
+    },
+    {
+     "n": 20,
+     "t": "Relevé d'un homme",
+     "pov": "Ysée",
+     "mots": 1584
+    },
+    {
+     "n": 21,
+     "t": "Le défilé de Marne",
+     "pov": "Cael",
+     "mots": 1040
+    },
+    {
+     "n": 22,
+     "t": "Ce que j'ai vu",
+     "pov": "Ysée",
+     "mots": 1067
+    },
+    {
+     "n": 23,
+     "t": "Ce que la Ligne exige",
+     "pov": "Cael",
+     "mots": 1029
+    },
+    {
+     "n": 24,
+     "t": "L'entraînement",
+     "pov": "Ysée",
+     "mots": 1000
+    },
+    {
+     "n": 25,
+     "t": "Jour un",
+     "pov": "Ysée",
+     "mots": 1048
+    },
+    {
+     "n": 26,
+     "t": "Ce que je prends",
+     "pov": "Cael",
+     "mots": 910
+    },
+    {
+     "n": 27,
+     "t": "Ce qui ne brûle pas",
+     "pov": "Ysée",
+     "mots": 1341
+    },
+    {
+     "n": 28,
+     "t": "La nuit du deuxième jour",
+     "pov": "Cael",
+     "mots": 1379
+    },
+    {
+     "n": 29,
+     "t": "Jour trois",
+     "pov": "Ysée",
+     "mots": 1728
+    },
+    {
+     "n": 30,
+     "t": "Derrière les hachures",
+     "pov": "Ysée",
+     "mots": 866
+    },
+    {
+     "n": 31,
+     "t": "Ce dont le Nord se souvient",
+     "pov": "Cael",
+     "mots": 827
+    },
+    {
+     "n": 32,
+     "t": "La première ligne",
+     "pov": "Ysée",
+     "mots": 903
+    },
+    {
+     "n": 33,
+     "t": "Ce qui traverse",
+     "pov": "Cael",
+     "mots": 1262
+    },
+    {
+     "n": 34,
+     "t": "Le nom",
+     "pov": "Ysée",
+     "mots": 1354
+    },
+    {
+     "n": 35,
+     "t": "Le compte",
+     "pov": "Cael",
+     "mots": 1347
+    },
+    {
+     "n": 36,
+     "t": "Le chemin",
+     "pov": "Ysée",
+     "mots": 1410
+    },
+    {
+     "n": 37,
+     "t": "Les vieux",
+     "pov": "Cael",
+     "mots": 1518
+    },
+    {
+     "n": 38,
+     "t": "Les mains",
+     "pov": "Cael",
+     "mots": 1066
+    },
+    {
+     "n": 39,
+     "t": "La deuxième offre",
+     "pov": "Ysée",
+     "mots": 1416
+    },
+    {
+     "n": "39 bis",
+     "t": "Ce qu'il reste à faire",
+     "pov": "Cael",
+     "mots": 941
+    },
+    {
+     "n": 40,
+     "t": "Le serment",
+     "pov": "Ysée",
+     "mots": 1924
+    },
+    {
+     "n": "40 bis",
+     "t": "La table",
+     "pov": "Ysée",
+     "mots": 997
+    },
+    {
+     "n": 41,
+     "t": "Le tour",
+     "pov": "Cael",
+     "mots": 2006
+    },
+    {
+     "n": 42,
+     "t": "Le contrat",
+     "pov": "Cael",
+     "mots": 1826
+    },
+    {
+     "n": 43,
+     "t": "Confié",
+     "pov": "Ysée",
+     "mots": 2233
+    },
+    {
+     "n": 44,
+     "t": "Assez près",
+     "pov": "Cael",
+     "mots": 1838
+    },
+    {
+     "n": 45,
+     "t": "L'ordre",
+     "pov": "Ysée",
+     "mots": 1816
+    },
+    {
+     "n": 46,
+     "t": "Cinq",
+     "pov": "Cael",
+     "mots": 1454
+    },
+    {
+     "n": 47,
+     "t": "Quatre cents pas",
+     "pov": "Ysée",
+     "mots": 1620
+    },
+    {
+     "n": 48,
+     "t": "Deux doigts",
+     "pov": "Cael",
+     "mots": 1794
+    },
+    {
+     "n": 49,
+     "t": "La deuxième ligne",
+     "pov": "Ysée",
+     "mots": 3815
+    },
+    {
+     "n": 50,
+     "t": "Dans l'autre sens",
+     "pov": "Cael",
+     "mots": 2049
+    }
+   ],
+   "morceaux": [
+    {
+     "url": "data-braises-p1.json?v=17f3ce23",
+     "de": 0,
+     "a": 5
+    },
+    {
+     "url": "data-braises-p2.json?v=31e6270d",
+     "de": 6,
+     "a": 11
+    },
+    {
+     "url": "data-braises-p3.json?v=9edb8c16",
+     "de": 12,
+     "a": 17
+    },
+    {
+     "url": "data-braises-p4.json?v=8497279a",
+     "de": 18,
+     "a": 23
+    },
+    {
+     "url": "data-braises-p5.json?v=d1945a69",
+     "de": 24,
+     "a": 29
+    },
+    {
+     "url": "data-braises-p6.json?v=e8c29616",
+     "de": 30,
+     "a": 35
+    },
+    {
+     "url": "data-braises-p7.json?v=dffe222f",
+     "de": 36,
+     "a": 41
+    },
+    {
+     "url": "data-braises-p8.json?v=8a3be5a4",
+     "de": 42,
+     "a": 47
+    },
+    {
+     "url": "data-braises-p9.json?v=6c0481a2",
+     "de": 48,
+     "a": 51
+    }
+   ],
+   "personnages": [
+    {
+     "nom": "Ysée Marrec",
+     "role": "Narratrice principale",
+     "texte": "Vingt-quatre ans, pupille de la Guilde des Cartographes depuis l'âge de sept ans. Ne dessine que ce qu'elle a vu, et tient un second carnet — « le blanc » — pour tout ce que la Guilde ne lui demande pas de dessiner."
+    },
+    {
+     "nom": "Cael Dorne",
+     "role": "Narrateur — le Braise",
+     "texte": "Vingt-sept ans, dix-neuf ans de four. Le feu est entré en lui à la rupture des Fours et n'en est jamais ressorti : il ne craint pas la chaleur, mais il brûle de l'intérieur. Vendu à la Guilde pour douze cents couronnes, chiffré en quatre cents charges de sel."
+    },
+    {
+     "nom": "Aldric Vael",
+     "role": "Doyen de la Guilde",
+     "texte": "Soixante et un ans. A dressé les cartes des campagnes du Nord il y a vingt-deux ans — celles dont les hachures mesuraient des gens et dont les croix marquaient les écoles de forge."
+    },
+    {
+     "nom": "Halden Serrande",
+     "role": "Marchand de sel",
+     "texte": "Propose quatre mille couronnes pour que la carte du Nord reste incomplète : trois gisements au-delà de la Ligne ruineraient sa maison. Refuse honnêtement de trouver sa raison plus laide qu'une autre."
+    },
+    {
+     "nom": "Vaugrin",
+     "role": "Braise, mort avant le récit",
+     "texte": "Tenait le four un. Mort à quarante-quatre ans sur un banc de la cour. Laisse une plaque de fer gravée à la main : la porte nord de Ghar, que personne n'avait jamais dessinée."
+    },
+    {
+     "nom": "Torve",
+     "role": "Contremaître",
+     "texte": "Ignore les ordres depuis trente ans, ce qui est sa manière à lui d'être un homme. Transmet à Cael l'héritage de Vaugrin."
+    }
+   ]
+  },
+  {
+   "id": "verre",
+   "titre": "La Dette de Verre",
+   "auteur": "Écrit avec Claude",
+   "genres": [
+    "Romance",
+    "Héritage",
+    "Secret de famille",
+    "Drame"
+   ],
+   "annee": "2026",
+   "couleur": "#1f4a52",
+   "statut": "En cours",
+   "resume": "Directrice générale du groupe hôtelier Valadares, Nour Belkacem hérite de trente-quatre pour cent des parts — à condition d'être encore en poste le jour de la mort du patriarche. Le fils revenu d'exil veut sa révocation. Une lettre laissée sous scellés lui apprend pourquoi ce legs n'était pas un cadeau, mais une dette : en 1997, Henrique Valadares a ruiné son père. À Lisbonne, tout le monde a de bonnes raisons.",
+   "couv": true,
+   "maj": "2026-09-12",
+   "chapitres": [
+    {
+     "n": 1,
+     "t": "La clause de la femme",
+     "pov": "Nour",
+     "mots": 527
+    },
+    {
+     "n": 2,
+     "t": "Douze ans",
+     "pov": "Rafael",
+     "mots": 527
+    },
+    {
+     "n": 3,
+     "t": "L'enveloppe",
+     "pov": "Nour",
+     "mots": 576
+    },
+    {
+     "n": 4,
+     "t": "Ce que je ne savais pas signer",
+     "pov": "Rafael",
+     "mots": 498
+    },
+    {
+     "n": 5,
+     "t": "Rue da Boavista",
+     "pov": "Nour",
+     "mots": 559
+    }
+   ],
+   "morceaux": [
+    {
+     "url": "data-verre-p1.json?v=95a61ae4",
+     "de": 0,
+     "a": 4
+    }
+   ],
+   "personnages": [
+    {
+     "nom": "Nour Belkacem",
+     "role": "Narratrice principale",
+     "texte": "Directrice générale du groupe Valadares, entrée comme assistante à vingt-trois ans. Hérite de trente-quatre pour cent des parts, à condition d'être encore en poste au jour du décès."
+    },
+    {
+     "nom": "Rafael Valadares",
+     "role": "Narrateur — le fils",
+     "texte": "Quarante ans, absent de l'entreprise depuis douze ans. A monté une société de conseil en refusant d'apprendre à lire les registres de ses propres véhicules — le reproche exact que son père lui faisait en 2014."
+    },
+    {
+     "nom": "Henrique Valadares",
+     "role": "Le patriarche, mort au premier chapitre",
+     "texte": "A racheté en 1997 un immeuble rue da Boavista au quart de sa valeur, en déclenchant lui-même la procédure. La famille s'appelait Belkacem. Il l'a su en 2016 et a préféré promouvoir plutôt que dire."
+    },
+    {
+     "nom": "Teresa Moura",
+     "role": "Directrice financière",
+     "texte": "Son plan de cession des trois hôtels de l'Algarve a été refusé par Nour en quarante minutes devant tout le conseil. Dîne avec Duarte Pinheiro depuis un an et demi."
+    },
+    {
+     "nom": "Duarte Pinheiro",
+     "role": "Associé de Rafael",
+     "texte": "A monté le véhicule d'acquisition qui rachèterait l'Algarve, au nom d'une société que Rafael préside sans la lire."
+    },
+    {
+     "nom": "Karim Belkacem",
+     "role": "Père de Nour",
+     "texte": "Menuisier. A vendu l'immeuble familial en 1997 à un homme qui lui expliquait qu'il n'aurait pas d'autre offre. Mort en 2000, à cinquante-trois ans."
+    }
+   ]
+  }
+ ]
+}

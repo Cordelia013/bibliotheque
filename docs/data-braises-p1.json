@@ -1,4 +1,4 @@
-const BRAISES_P1 = [
+[
 {
 "n": 1,
 "t": "Ce qu'on n'a pas vu",
@@ -38,7 +38,8 @@ const BRAISES_P1 = [
 "— Il a dit : avant qu'elle enlève ses bottes.",
 "¹ Chaîne d'arpenteur : une chaîne de mesure, faite de maillons de longueur égale, qu'on tend sur le sol pour mesurer les distances.",
 "² Coudée : la longueur d'un avant-bras, du coude au bout des doigts. Une feuille de deux coudées sur trois couvre à peu près le dessus d'une table."
-]
+],
+"s": []
 },
 {
 "n": 2,
@@ -93,7 +94,8 @@ const BRAISES_P1 = [
 "— Doyen. Pourquoi moi ?",
 "Il n'a pas levé les yeux.",
 "— Parce que vous voyez ce que personne ne demande à voir. Et parce que vous êtes la seule ici dont personne ne viendra réclamer le corps."
-]
+],
+"s": []
 },
 {
 "n": 3,
@@ -140,7 +142,8 @@ const BRAISES_P1 = [
 "— Où m'envoie-t-il ?",
 "Et Halden Serrande, l'homme qui allait passer les mois suivants à essayer de m'empêcher d'arriver, m'a répondu la vérité, cette fois-là et jamais plus :",
 "— Au Nord. De l'autre côté de la Ligne. Chez toi."
-]
+],
+"s": []
 },
 {
 "n": 4,
@@ -210,6 +213,15 @@ const BRAISES_P1 = [
 "À l'aube, j'étais debout devant la fenêtre de ma cellule, et le ciel virait au gris au-dessus des toits mouillés de Valdren, et je savais deux choses.",
 "La première, c'est que j'allais dire oui.",
 "La seconde, c'est que ce ne serait pas parce que le Doyen me l'avait ordonné."
+],
+"s": [
+5,
+16,
+25,
+35,
+44,
+51,
+56
 ]
 },
 {
@@ -264,7 +276,8 @@ const BRAISES_P1 = [
 "Et en bas de page, dans la case où l'on note ce qui est vendu, une phrase d'écriture administrative, parfaitement neutre, qui m'a fait m'appuyer au mur :",
 "Un homme, vingt-sept ans, dix-neuf années de four. Nom : Dorne, Cael. Valeur estimée : quatre cents charges de sel.",
 "Ils l'avaient chiffré en sel."
-]
+],
+"s": []
 },
 {
 "n": 6,
@@ -330,6 +343,13 @@ const BRAISES_P1 = [
 "Je ne savais rien d'elle à ce moment-là. Je savais seulement que la Guilde avait rangé nos deux noms dans la même pile, le même jour, dans la même écriture administrative.",
 "Et j'ai eu une pensée que j'ai chassée immédiatement, et qui est revenue sept jours plus tard sur la route, et qui n'est plus jamais repartie :",
 "Elle aussi, ils l'ont chiffrée."
+],
+"s": [
+6,
+12,
+22,
+40,
+51
 ]
 }
-];
+]

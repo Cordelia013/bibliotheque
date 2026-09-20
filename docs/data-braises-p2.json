@@ -1,4 +1,4 @@
-const BRAISES_P2 = [
+[
 {
 "n": 7,
 "t": "La cour des écuries",
@@ -41,7 +41,8 @@ const BRAISES_P2 = [
 "— J'en étais fière. J'en faisais plus que les fils de famille. J'ai su ce qu'elles étaient il y a deux nuits, dans une cave, toute seule. Et je serais partie même sans l'ordre du Doyen.",
 "Il a hoché la tête. Une fois. Lentement.",
 "Puis il a tenu l'étrier pendant que je montais comme quelqu'un qui n'est jamais monté à cheval. Il n'a fait aucun commentaire. J'ai compris plus tard que c'était sa manière de refermer une conversation qu'il avait décidé de ne pas rouvrir."
-]
+],
+"s": []
 },
 {
 "n": 8,
@@ -79,7 +80,8 @@ const BRAISES_P2 = [
 "Et la Guilde, qui venait de m'acheter, me donnait pour compagne une femme dont le métier entier consistait à décider de ce qui existe.",
 "Je ne le lui ai pas dit. Pas avant longtemps.",
 "Mais c'est ce matin-là, dans une cour d'écuries, que j'ai cessé de la considérer comme une passagère."
-]
+],
+"s": []
 },
 {
 "n": 9,
@@ -118,7 +120,8 @@ const BRAISES_P2 = [
 "La voiture est partie.",
 "Ce soir-là, j'ai ajouté une ligne dans le blanc :",
 "Le sel. Trois mines au nord des Fours, dans les registres d'avant la guerre. Le Doyen ne m'a pas parlé de sel. Il ne m'a pas parlé de ce qu'il cherche. Un homme qui vous envoie chercher quelque chose sans vous dire quoi vous a déjà menti une fois."
-]
+],
+"s": []
 },
 {
 "n": 10,
@@ -154,7 +157,8 @@ const BRAISES_P2 = [
 "C'est ce qu'on nous a appris à faire, nous autres : ne pas demander, pour ne pas entendre.",
 "J'ai mis la plaque dans ma poche intérieure. Elle y est restée tout le voyage.",
 "Et quand Ysée m'a demandé, bien plus tard, au milieu du feu, pourquoi j'avais accepté de traverser, c'est cette plaque que j'ai sortie, et pas un mot."
-]
+],
+"s": []
 },
 {
 "n": 11,
@@ -211,7 +215,8 @@ const BRAISES_P2 = [
 "— Alors nous sommes deux à ne pas savoir ce qu'on nous envoie chercher, a-t-il dit. C'est déjà mieux qu'un.",
 "Il a relancé le cheval.",
 "Derrière nous, Valdren s'est mise à rapetisser, et je n'ai pas regardé en arrière — pas par bravoure : parce que la route montait, et qu'en haut de la côte il y avait un pays que je n'avais jamais dessiné."
-]
+],
+"s": []
 },
 {
 "n": 12,
@@ -251,6 +256,7 @@ const BRAISES_P2 = [
 "— Merci, a-t-elle dit.",
 "Vingt-deux ans que je fais ce geste devant des gens.",
 "Personne, avant elle, ne m'avait remercié de l'avoir laissé voir."
-]
+],
+"s": []
 }
-];
+]

@@ -174,3 +174,25 @@ que la direction D laisse au livre.
   vérifications ont été faites sans accès à Google Fonts.
 - **Couvertures** : `braises.jpg` et `castellano.jpg` à déposer ; Vesper, Verre et
   Lune non traités.
+
+
+---
+
+## Texte à la demande — 20 septembre 2026
+
+Décision appliquée : la liseuse ne charge plus le texte intégral des cinq livres au démarrage.
+Elle charge `catalogue.json` — métadonnées et index des chapitres —, puis un morceau de six
+chapitres quand on lit un chapitre qu'il contient. Le service worker ne précache que la coquille.
+
+Ce que ça change pour le lecteur : la première visite coûte la page, le script et le catalogue
+au lieu de 531 Ko de texte (173 Ko compressés) ; un livre dont on a lu un chapitre se retrouve
+entier en cache par préchargement à l'oisiveté, sauf si l'appareil demande l'économie de
+données ; un livre seulement ouvert n'est pas disponible hors ligne. La progression, les marque-pages et les réglages sont
+intacts (même clé, mêmes indices).
+
+Ce que ça change pour l'autrice : rien à faire d'autre que relancer le script. Plus de balise
+dans `index.html`, plus d'affectation dans `app.js`, plus de liste dans `sw.js`. Les coupures de
+scène voyagent avec le texte. La divergence de format entre les fichiers publiés et le script
+est levée : le script écrit lui-même le JSON lisible, un paragraphe par ligne.
+
+Contrat et points ouverts pour une version publique : `ARCHITECTURE.md`.

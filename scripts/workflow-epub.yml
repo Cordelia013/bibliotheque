@@ -1,6 +1,6 @@
 name: Générer les EPUB
 
-# Régénère docs/epub/*.epub dès qu'un fichier de données change,
+# Régénère docs/epub/*.epub dès que le catalogue ou un morceau de texte change,
 # et permet un lancement manuel depuis l'onglet Actions.
 #
 # ⚠ Ce fichier doit être déplacé vers .github/workflows/epub.yml
@@ -9,7 +9,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'docs/data-*.js'
+      - 'docs/catalogue.json'
+      - 'docs/data-*.json'
       - 'scripts/generer_epub.py'
       - '.github/workflows/epub.yml'
   workflow_dispatch:

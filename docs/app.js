@@ -1,165 +1,81 @@
-const BOOKS = [
-{
-"id": "castellano",
-"titre": "Le Prix du Silence, Don Castellano",
-"auteur": "Écrit avec Claude",
-"genres": [
-"Romance mafieuse",
-"Vengeance",
-"Drame",
-"Suspense"
-],
-"annee": "2026",
-"couleur": "#6d1f2c",
-"statut": "Terminé",
-"resume": "Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Sept ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit.",
-"chapitres": [],
-"couv": true,
-"maj": "2026-09-18"
-},
-{
-"id": "lune",
-"titre": "La Part de Lune",
-"serie": "Les Deux Collines — tome 1",
-"auteur": "Écrit avec Claude",
-"genres": [
-"Urban fantasy",
-"Romance paranormale",
-"Loups & Lycans",
-"Âmes sœurs",
-"Série"
-],
-"annee": "2026",
-"couleur": "#1c2445",
-"statut": "À venir",
-"resume": "Lyon, aujourd'hui. Sous les traboules, deux meutes se partagent les collines, et des femmes appelées Lieuses constatent les liens que personne n'a choisis. Maël, aide-soignante de nuit, est frappée par un lien d'âmes sœurs le soir où un Alpha lui amène un loup qui n'en est pas un — et rejetée par lui devant le Concile trois jours plus tard. Ce qu'on ne lui a pas dit : le Rejet est irrévocable pour celui qui le prononce. Pas pour celle qui le reçoit.",
-"chapitres": [],
-"couv": true
-},
-{
-"id": "vesper",
-"titre": "Le Contrat de Vesper",
-"auteur": "Écrit avec Claude",
-"genres": [
-"Dark romance",
-"Science-fiction",
-"Futuriste",
-"Obsession"
-],
-"annee": "2026",
-"couleur": "#2b2b33",
-"statut": "En cours",
-"resume": "Vesper, 2049. Chaque citoyen porte un score, et le score se propage : un cousin condamné, une facture impayée, et Ilya tombe à 412 en servant un café. Un homme à 940 lui propose de porter son risque pendant un an, chez lui, selon un contrat de trente-deux pages qui ne dit pas ce qu'il attend d'elle. Il ne la touche pas. Il la regarde. Et dans trois pièces fermées, dix cartons portent les noms de celles qui l'ont précédée. Avertissements : rapport de pouvoir déséquilibré, surveillance, obsession.",
-"chapitres": [],
-"couv": true,
-"maj": "2026-09-12"
-},
-{
-"id": "braises",
-"titre": "La Saison des Braises",
-"serie": "Les Trois Cents Lieues — tome 1",
-"auteur": "Écrit avec Claude",
-"genres": [
-"Romance sensuelle",
-"Fantasy",
-"Enemies to lovers",
-"Slow burn",
-"Série"
-],
-"annee": "2026",
-"couleur": "#8a3a1f",
-"statut": "En cours",
-"resume": "Ysée Marrec ne dessine que ce qu'elle a vu, et la carte du Nord se termine en blanc : trois cents lieues au-delà de la Ligne des Cendres, là où la terre brûle depuis quatre-vingts ans. Pour la traverser, la Guilde lui donne un seul guide — Cael, un Braise, un homme que le feu a touché sans le tuer et qui ne connaît pas le froid. Ce qu'on ne lui a pas dit : la Ligne ne laisse passer que ceux qu'un Braise porte dans sa chaleur. Assez près. Pendant trois jours.",
-"chapitres": [],
-"couv": true,
-"maj": "2026-09-19"
-},
-{
-"id": "verre",
-"titre": "La Dette de Verre",
-"auteur": "Écrit avec Claude",
-"genres": [
-"Romance",
-"Héritage",
-"Secret de famille",
-"Drame"
-],
-"annee": "2026",
-"couleur": "#1f4a52",
-"statut": "En cours",
-"resume": "Directrice générale du groupe hôtelier Valadares, Nour Belkacem hérite de trente-quatre pour cent des parts — à condition d'être encore en poste le jour de la mort du patriarche. Le fils revenu d'exil veut sa révocation. Une lettre laissée sous scellés lui apprend pourquoi ce legs n'était pas un cadeau, mais une dette : en 1997, Henrique Valadares a ruiné son père. À Lisbonne, tout le monde a de bonnes raisons.",
-"chapitres": [],
-"couv": true,
-"maj": "2026-09-12"
-}
-];
-const SEPARATEURS = {"braises": {"4": [5, 16, 25, 35, 44, 51, 56], "6": [6, 12, 22, 40, 51], "20": [3, 17, 23, 35, 45, 56], "29": [10, 14, 26, 31, 52], "35": [34, 47], "36": [3, 11, 26, 36], "37": [5, 11, 30, 41, 54, 71], "38": [6, 20, 40, 55, 68], "39": [14, 20, 40, 47], "39 bis": [7, 20, 36], "40": [4, 31, 38, 49, 62, 73, 78], "40 bis": [6, 13, 19, 30, 37, 41], "41": [8, 27, 51, 77, 86], "42": [3, 12, 24, 38, 56, 61], "43": [3, 16, 24, 33, 43, 71, 76, 94, 106], "44": [4, 21, 36, 58, 63, 71], "45": [5, 36, 45, 49, 74, 81], "46": [6, 13, 19, 30, 40, 50], "47": [5, 17, 23, 30, 41, 56], "48": [5, 19, 24, 50, 52, 62, 67], "49": [2, 14, 26, 36, 43, 73, 87, 118, 124, 151], "50": [9, 20, 38, 42, 59, 69, 74]}};
-// Les textes arrivent par des balises <script> séparées, une par morceau.
-// Un morceau peut manquer à l'appel : après un changement de découpage, le
-// navigateur d'un lecteur déjà venu garde un index.html en cache qui réclame
-// un fichier désormais supprimé. On assemble donc chaque livre morceau par
-// morceau, sans laisser une absence emporter toute la bibliothèque : le livre
-// concerné s'affiche « Bientôt disponible », les autres restent lisibles.
-function texte(...morceaux) {
-  const chapitres = [];
-  for (const m of morceaux) {
-    try {
-      const lot = m();
-      if (Array.isArray(lot)) chapitres.push(...lot);
-    } catch (e) {
-      console.warn('Liseuse : un fichier de texte manque à l\'appel —', e.message);
-    }
+/* Bibliothèque — moteur de la liseuse.
+   Ce fichier ne contient aucun contenu. Les livres viennent de catalogue.json ;
+   leur texte, de morceaux data-<id>-pN.json chargés au moment de lire. Le
+   contrat entre les deux est décrit dans ARCHITECTURE.md, à la racine du dépôt. */
+const FORMAT_CATALOGUE = 3;
+let BOOKS = [];
+let catalogueCharge = false;
+
+/* ---- texte à la demande ----
+   Un livre du catalogue porte l'index de ses chapitres — numéro, titre, point de
+   vue, nombre de mots — et la liste de ses morceaux : { url, de, a }, l'adresse
+   d'un fichier et les indices des chapitres qu'il couvre. Le morceau d'un
+   chapitre se charge quand on le lit, une fois par visite ; ses paragraphes (p)
+   et ses coupures de scène (s) sont alors posés sur l'entrée d'index. */
+const morceauxEnCours = new Map();
+function morceauDe(b, i){ return b.morceaux.find(m => i >= m.de && i <= m.a); }
+function chargerMorceau(b, i){
+  const c = b.chapitres[i];
+  if (!c) return Promise.reject(new Error('chapitre inexistant'));
+  if (c.p) return Promise.resolve();
+  const m = morceauDe(b, i);
+  if (!m) return Promise.reject(new Error('morceau introuvable'));
+  if (!morceauxEnCours.has(m.url)) {
+    const p = fetch(m.url)
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(lot => {
+        if (!Array.isArray(lot)) throw new Error('morceau illisible');
+        lot.forEach((ch, k) => {
+          const cible = b.chapitres[m.de + k];
+          if (cible && String(cible.n) === String(ch.n)) { cible.p = ch.p || []; cible.s = ch.s || []; }
+        });
+        if (!c.p) throw new Error('chapitre absent du morceau');
+      })
+      .finally(() => morceauxEnCours.delete(m.url));
+    morceauxEnCours.set(m.url, p);
   }
-  return chapitres;
+  return morceauxEnCours.get(m.url);
 }
-
-BOOKS.find(b => b.id === 'castellano').chapitres = texte(() => CASTELLANO_P1, () => CASTELLANO_P2, () => CASTELLANO_P3, () => CASTELLANO_P4);
-BOOKS.find(b => b.id === 'vesper').chapitres = texte(() => DATA_VESPER);
-BOOKS.find(b => b.id === 'braises').chapitres = texte(() => BRAISES_P1, () => BRAISES_P2, () => BRAISES_P3, () => BRAISES_P4, () => BRAISES_P5, () => BRAISES_P6, () => BRAISES_P7, () => BRAISES_P8, () => BRAISES_P9);
-BOOKS.find(b => b.id === 'verre').chapitres = texte(() => DATA_VERRE);
-
-const PERSONNAGES = {
-  castellano: [
-    { nom:"Livia Sarti", role:"Narratrice principale", texte:"Consigliere de la famille Castellano pendant six ans et, depuis trois ans, l'épouse secrète de Salvatore. Une balle sous la clavicule le 17 mars, un appel auquel il répond sans savoir que c'est elle : elle rend les clés et demande le divorce devant vingt-deux couverts." },
-    { nom:"Salvatore Castellano", role:"Narrateur — le Don", texte:"Dirige la famille sans savoir lire un bilan. Épouse Livia en secret par peur de ce qu'il aurait à perdre au grand jour, puis met onze mois à formuler la seule phrase qu'elle lui avait demandée." },
-    { nom:"Damiano Rocchi", role:"Narrateur — famille rivale", texte:"Héritier des Rocchi, associé de Livia à cinquante-cinquante. L'a croisée dix ans plus tôt à un colloque à Milan sans lui demander son nom. A financé, sans savoir qui s'y trouverait, l'opération du quai nord." },
-    { nom:"Matteo Rocchi", role:"Patriarche des Rocchi", texte:"A perdu son fils aîné en 2003, enlevé par les Ferraro. A attendu vingt-trois ans non pour se venger, mais pour obtenir une preuve. C'est lui qui propose à Livia une maison à elle plutôt qu'une place dans la sienne." },
-    { nom:"Serena Vitale", role:"Fiancée officielle de Salvatore", texte:"Payée depuis quatre ans par les Ferraro pour éteindre la dette de son père. A organisé un anniversaire le 17 mars pour éloigner Salvatore du quai. Apporte à Livia quatre ans de rapports, et meurt trois jours plus tard." },
-    { nom:"Enzo", role:"Assistant de Livia", texte:"Entré dans la maison à dix-neuf ans, n'a jamais pris une décision : il transmet. A communiqué les horaires du quai nord sans savoir, puis entre dans un commissariat en sachant ce que cela lui coûte." },
-    { nom:"Bruno Castellano", role:"Oncle de Salvatore", texte:"Soixante et un ans, a enterré le père de Salvatore et vu arriver les Ferraro en 2003. Le seul à dire tout haut que la maison tenait grâce à Livia." },
-    { nom:"Madame Castellano", role:"Mère de Salvatore", texte:"A tenu la maison pendant les douze années de fuite de son mari. Signe l'entrée des Ferraro trois semaines avant l'emprunt, et fait passer le message qu'il faut « régler la question » Serena." },
-    { nom:"Gianfranco Ferraro", role:"Antagoniste", texte:"Conseil en investissement, prête onze millions aux Castellano pour les tenir. Mis en examen le 4 juin, quitte le pays le 6 avec un passeport qui n'est pas le sien." },
-    { nom:"Le père de Livia", role:"Famille", texte:"A gardé le port en 2003 plutôt que de sauver le fils de Matteo Rocchi, et en est mort un peu chaque jour pendant vingt-trois ans. Enlevé à son tour, il ne répond pas cette fois." },
-    { nom:"Commissaire Renzi", role:"Police", texte:"Ne croit pas une seconde à la culpabilité de Salvatore : un homme qui organise un homicide n'invente pas un alibi qu'il refuse de nommer." },
-    { nom:"Chiara Belloni", role:"Auditrice", texte:"Apprend à Salvatore à lire un bilan, deux soirs par semaine. Avait travaillé pour Livia en 2022." }
-  ],
-  vesper: [
-    { nom:"Ilya Marchetti", role:"Narratrice principale", texte:"Vingt-sept ans, serveuse. Son score tombe à 412 un mardi à onze heures quatorze, par propagation : un cousin condamné, une amie qui a manifesté, une facture impayée par sa mère." },
-    { nom:"Aurel Sarn", role:"Narrateur — le garant", texte:"Score de 940, garant depuis huit ans. Onze personnes portées, dix dossiers classés dans trois pièces fermées. Il ne les touche jamais : il les regarde, et il garde." },
-    { nom:"Nadia Marchetti", role:"Mère d'Ilya", texte:"Ingénieure au Bureau des Scores de 2041 à 2046, autrice de la règle de propagation qui fera tomber sa propre fille. A passé ses deux dernières années à essayer de casser ce qu'elle avait construit, et a caché son correctif dans son dossier médical." },
-    { nom:"Verrien", role:"Agent du Bureau", texte:"Sourit bien. Propose 850 points et une stabilité « définitive » — l'article 44 précise que le portage d'État est irrévocable pour la personne portée." },
-    { nom:"Hedda", role:"Employée de maison", texte:"Ne parle pas, sauf une fois. C'est elle qui prévient Ilya sur ce qui est arrivé à la précédente." },
-    { nom:"Mina", role:"La précédente", texte:"Vingt-trois ans, restée sept mois. A trouvé son carton au sixième mois et lu ce qu'Aurel avait noté : rien de sale, des choses justes. Elle a préféré 380 à un homme qui savait qu'elle avait arrêté de chanter." }
-  ],
-  braises: [
-    { nom:"Ysée Marrec", role:"Narratrice principale", texte:"Vingt-quatre ans, pupille de la Guilde des Cartographes depuis l'âge de sept ans. Ne dessine que ce qu'elle a vu, et tient un second carnet — « le blanc » — pour tout ce que la Guilde ne lui demande pas de dessiner." },
-    { nom:"Cael Dorne", role:"Narrateur — le Braise", texte:"Vingt-sept ans, dix-neuf ans de four. Le feu est entré en lui à la rupture des Fours et n'en est jamais ressorti : il ne craint pas la chaleur, mais il brûle de l'intérieur. Vendu à la Guilde pour douze cents couronnes, chiffré en quatre cents charges de sel." },
-    { nom:"Aldric Vael", role:"Doyen de la Guilde", texte:"Soixante et un ans. A dressé les cartes des campagnes du Nord il y a vingt-deux ans — celles dont les hachures mesuraient des gens et dont les croix marquaient les écoles de forge." },
-    { nom:"Halden Serrande", role:"Marchand de sel", texte:"Propose quatre mille couronnes pour que la carte du Nord reste incomplète : trois gisements au-delà de la Ligne ruineraient sa maison. Refuse honnêtement de trouver sa raison plus laide qu'une autre." },
-    { nom:"Vaugrin", role:"Braise, mort avant le récit", texte:"Tenait le four un. Mort à quarante-quatre ans sur un banc de la cour. Laisse une plaque de fer gravée à la main : la porte nord de Ghar, que personne n'avait jamais dessinée." },
-    { nom:"Torve", role:"Contremaître", texte:"Ignore les ordres depuis trente ans, ce qui est sa manière à lui d'être un homme. Transmet à Cael l'héritage de Vaugrin." }
-  ],
-  verre: [
-    { nom:"Nour Belkacem", role:"Narratrice principale", texte:"Directrice générale du groupe Valadares, entrée comme assistante à vingt-trois ans. Hérite de trente-quatre pour cent des parts, à condition d'être encore en poste au jour du décès." },
-    { nom:"Rafael Valadares", role:"Narrateur — le fils", texte:"Quarante ans, absent de l'entreprise depuis douze ans. A monté une société de conseil en refusant d'apprendre à lire les registres de ses propres véhicules — le reproche exact que son père lui faisait en 2014." },
-    { nom:"Henrique Valadares", role:"Le patriarche, mort au premier chapitre", texte:"A racheté en 1997 un immeuble rue da Boavista au quart de sa valeur, en déclenchant lui-même la procédure. La famille s'appelait Belkacem. Il l'a su en 2016 et a préféré promouvoir plutôt que dire." },
-    { nom:"Teresa Moura", role:"Directrice financière", texte:"Son plan de cession des trois hôtels de l'Algarve a été refusé par Nour en quarante minutes devant tout le conseil. Dîne avec Duarte Pinheiro depuis un an et demi." },
-    { nom:"Duarte Pinheiro", role:"Associé de Rafael", texte:"A monté le véhicule d'acquisition qui rachèterait l'Algarve, au nom d'une société que Rafael préside sans la lire." },
-    { nom:"Karim Belkacem", role:"Père de Nour", texte:"Menuisier. A vendu l'immeuble familial en 1997 à un homme qui lui expliquait qu'il n'aurait pas d'autre offre. Mort en 2000, à cinquante-trois ans." }
-  ],
-  lune: []
-};
-
+/* Le morceau suivant part dès qu'un chapitre s'affiche, pour que le chapitre
+   d'après s'ouvre sans attente. Le reste du livre ne part qu'une fois un premier
+   chapitre lu en entier (voir marquerLu) : qui ouvre un livre pour y jeter un
+   œil ne paie pas le livre. Il suit alors quand le navigateur n'a rien d'autre à
+   faire, et la lecture peut continuer hors ligne — sauf si l'appareil demande à
+   économiser les données. */
+function precharger(b, i){
+  if (b.chapitres[i + 1] && !b.chapitres[i + 1].p) chargerMorceau(b, i + 1).catch(() => {});
+}
+const livresPrecharges = new Set();
+function prechargerLivre(b){
+  if (livresPrecharges.has(b.id)) return;
+  if (navigator.connection && navigator.connection.saveData) return;
+  livresPrecharges.add(b.id);
+  const oisif = window.requestIdleCallback || (f => setTimeout(f, 2000));
+  oisif(async () => {
+    for (const m of b.morceaux) {
+      if (livre !== b) { livresPrecharges.delete(b.id); return; }
+      if (b.chapitres[m.de] && !b.chapitres[m.de].p) {
+        try { await chargerMorceau(b, m.de); } catch (e) { livresPrecharges.delete(b.id); return; }
+      }
+    }
+  });
+}
+function chargerCatalogue(){
+  return fetch('catalogue.json')
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(cat => {
+      if (!cat || !Array.isArray(cat.livres)) throw new Error('catalogue illisible');
+      if (cat.format !== FORMAT_CATALOGUE)
+        console.warn('Liseuse : catalogue au format ' + cat.format + ', attendu ' + FORMAT_CATALOGUE);
+      cat.livres.forEach(b => {
+        b.chapitres = Array.isArray(b.chapitres) ? b.chapitres : [];
+        b.morceaux = Array.isArray(b.morceaux) ? b.morceaux : [];
+        b.genres = Array.isArray(b.genres) ? b.genres : [];
+        b.personnages = Array.isArray(b.personnages) ? b.personnages : [];
+      });
+      return cat.livres;
+    });
+}
 const app = document.getElementById('app'), $ = id => document.getElementById(id);
 const KEY = 'liseuse:v2';
 const THEMES = ['clair','sepia','nuit'];
@@ -170,14 +86,9 @@ const INTERLIGNES = [1.56, 1.67, 1.78, 1.9, 2.05];
 /* Nombres à la française : virgule décimale, espace insécable avant l'unité. */
 function nombre(x){ return String(x).replace('.', ','); }
 
-/* Couvertures en image. Un livre bascule sur son image dès qu'il est déclaré ici ;
-   si le fichier manque ou ne se charge pas, couvRepli() rend la main à la
-   couverture SVG d'index.html. Les fichiers sont des SVG qui enveloppent une image
-   WebP 480 × 720 : l'API de publication du dépôt n'accepte que du texte. */
-const COUV_IMAGE = {
-  braises: 'couvertures/braises.svg',
-  castellano: 'couvertures/castellano.svg'
-};
+/* Couvertures en image : un livre bascule sur son image dès que le catalogue lui
+   en donne une (couvImage) ; si le fichier manque ou ne se charge pas,
+   couvRepli() rend la main à la couverture SVG d'index.html. */
 const ALIGNES = ['gauche','justifie'];
 let S = { theme:'clair', taille:2, inter:2, align:'gauche', dernier:null, visite:0, livres:{} };
 let visitePrec = 0;
@@ -185,7 +96,16 @@ let vue = 'lib', livre = null, ready = false, filtre = null;
 
 function etat(id){
   if (!S.livres[id]) S.livres[id] = { chap:0, scroll:0, bookmarks:[], vus:[] };
-  return S.livres[id];
+  const e = S.livres[id], b = BOOKS.find(x => x.id === id);
+  // Une position hors du livre — chapitre retiré, morceau manquant — ferait
+  // tomber l'affichage ; on la ramène au dernier chapitre publié.
+  if (b && b.chapitres.length) {
+    if (!(e.chap >= 0 && e.chap < b.chapitres.length))
+      e.chap = Math.min(Math.max(0, e.chap | 0), b.chapitres.length - 1);
+    if (Array.isArray(e.bookmarks) && e.bookmarks.some(m => !(m && m.chap >= 0 && m.chap < b.chapitres.length)))
+      e.bookmarks = e.bookmarks.filter(m => m && m.chap >= 0 && m.chap < b.chapitres.length);
+  }
+  return e;
 }
 const ICONES = {
   retour:   '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6"/></svg>',
@@ -352,9 +272,9 @@ function mesurerBarre(){
   #app .body p.ouverture .cap { font-size: 1.5em; line-height: 1; font-weight: 600;
     color: var(--accent-texte); }
   #app .body p.dlg { text-indent: -.75em; padding-left: .75em; text-align: left; hyphens: manual; }
-  /* Coupure de scène : les lignes « --- » du manuscrit, que les fichiers de texte
-     ne portent pas. Leur position vient de SEPARATEURS, écrit par le générateur.
-     Le filet est centré sur la colonne de texte, pas sur la page. */
+  /* Coupure de scène : les lignes « --- » du manuscrit. Leur position voyage avec
+     le chapitre (s), écrite par le générateur. Le filet est centré sur la colonne
+     de texte, pas sur la page. */
   #app .body .scene { max-width: 34em; margin: 2.2em 0; text-align: center; line-height: 0; }
   #app .body .scene::before { content:''; display:inline-block; width:44px; height:1px;
     background: var(--brass); opacity:.8; vertical-align: middle; }
@@ -716,7 +636,7 @@ function load(){
 function save(){ if(!ready) return; try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
 
 /* ---- temps de lecture ---- */
-function motsDe(c){ return c.p.join(' ').split(/\s+/).length; }
+function motsDe(c){ return typeof c.mots === 'number' ? c.mots : (c.p ? c.p.join(' ').split(/\s+/).length : 0); }
 function minutesDe(c){ return Math.max(1, Math.round(motsDe(c)/220)); }
 function duree(min){ if (min < 60) return min + ' min';
   const h = Math.floor(min/60), r = min%60; return r ? h+' h '+String(r).padStart(2,'0') : h+' h'; }
@@ -778,7 +698,7 @@ function couvRepli(img){
   box.innerHTML = s ? idsUniques(s) : '';
 }
 function couverture(b, petit){
-  if (COUV_IMAGE[b.id]) return `<div class="cover image"><img src="${COUV_IMAGE[b.id]}" alt="" width="600" height="900"`
+  if (b.couvImage) return `<div class="cover image"><img src="${esc(b.couvImage)}" alt="" width="600" height="900"`
     + ` loading="lazy" decoding="async" data-livre="${b.id}" onerror="couvRepli(this)"></div>`;
   if (b.couv) { const s = svgDe(b.id);
     if (s) return `<div class="cover" style="padding:0;background:#0b0f1e">${idsUniques(s)}</div>`; }
@@ -807,6 +727,7 @@ function renderReprise(){
 }
 
 function renderLib(){
+  if (!catalogueCharge) return;
   $('libCount').textContent = BOOKS.length + (BOOKS.length>1 ? ' livres' : ' livre');
   renderReprise();
   $('chips').innerHTML = tousGenres().map(g=>`<button class="chip ${filtre===g?'on':''}" data-g="${g}">${g}</button>`).join('');
@@ -954,6 +875,7 @@ function quitterEntree(){
   try { if (history.state && history.state.ov) { ignorerPop = true; history.back(); } } catch(e){}
 }
 function router(){
+  if (!catalogueCharge) return;
   const m = location.hash.match(/^#\/(livre|lire)\/([a-z0-9-]+)(?:\/(\d+))?/);
   const b = m && BOOKS.find(x => x.id === m[2]);
   depuisHistorique = true;
@@ -989,21 +911,50 @@ function aller(v, restore){
   $('barTitle').textContent = v==='lib' ? 'Bibliothèque'
     : (v==='cover' ? '' : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
   inscrire(v);
-  if (v==='read') renderChap(restore); else { $('progBar').style.width = '0'; window.scrollTo(0,0); }
+  if (v==='read') lireChapitre(restore); else { $('progBar').style.width = '0'; window.scrollTo(0,0); }
   if (v==='lib') { livre = null; poserAccent('#6d1f2c'); renderLib(); }
 }
 
-/* ---- lecture ---- */
+/* ---- lecture ----
+   Le chapitre s'affiche dès que son morceau est là ; en attendant, l'en-tête est
+   en place et le corps le dit. Si le réseau manque et que le morceau n'est pas en
+   cache, on le dit aussi, avec de quoi réessayer. */
+function lireChapitre(restore){
+  const b = livre, e = etat(b.id), i = e.chap, c = b.chapitres[i];
+  if (!c) { aller('cover'); return; }
+  if (c.p) { renderChap(restore); precharger(b, i); return; }
+  $('chapNum').textContent = 'Chapitre ' + c.n;
+  $('chapTitle').textContent = c.t;
+  $('chapPov').textContent = 'Point de vue — ' + c.pov;
+  $('chapBody').innerHTML = '<p class="empty" aria-live="polite">Chargement du chapitre…</p>';
+  $('finLivre').style.display = 'none'; $('nextBtn').style.display = 'none';
+  window.scrollTo(0, 0);
+  // Le lecteur a pu changer de chapitre pendant le chargement : on ne rend que si
+  // l'on est toujours sur celui qu'on a demandé.
+  const encore = () => livre === b && vue === 'read' && etat(b.id).chap === i;
+  chargerMorceau(b, i).then(() => {
+    if (!encore()) return;
+    renderChap(restore); precharger(b, i);
+  }).catch(err => {
+    console.warn('Liseuse : morceau non chargé —', err.message);
+    if (!encore()) return;
+    $('chapBody').innerHTML = '';
+    const p = document.createElement('p'); p.className = 'empty';
+    p.textContent = 'Ce chapitre n\'a pas pu être chargé. Vérifiez la connexion, puis réessayez.';
+    const r = document.createElement('button'); r.className = 'primary'; r.type = 'button'; r.textContent = 'Réessayer';
+    r.onclick = () => lireChapitre(restore);
+    $('chapBody').append(p, r);
+  });
+}
 function renderChap(restore){
   const e = etat(livre.id), c = livre.chapitres[e.chap];
   $('chapNum').textContent = 'Chapitre ' + c.n + '  ·  ' + duree(minutesDe(c));
   $('chapTitle').textContent = c.t;
   $('chapPov').textContent = 'Point de vue — ' + c.pov;
   // Une réplique commence par un tiret cadratin : retrait pendant, pas de lettrine.
-  // Les coupures de scène sont données par SEPARATEURS sous la forme des indices
-  // des paragraphes après lesquels elles tombent.
-  const coupures = (typeof SEPARATEURS === 'object' && SEPARATEURS
-    && SEPARATEURS[livre.id] && SEPARATEURS[livre.id][String(c.n)]) || [];
+  // Les coupures de scène voyagent avec le chapitre (s) : les indices des
+  // paragraphes après lesquels elles tombent.
+  const coupures = c.s || [];
   $('chapBody').innerHTML = c.p.map((t,i)=>{
     const dlg = /^\s*[—–-]/.test(t) ? ' class="dlg"'
       : (i === c.p.length - 1 && /^\s*fin\.?\s*$/i.test(t) ? ' class="finmanuscrit"' : '');
@@ -1042,6 +993,7 @@ function marquerLu(){
   const e = etat(livre.id);
   if (e.vus.includes(e.chap)) return;
   e.vus.push(e.chap); save(); majFinLabel(); buildChaps();
+  prechargerLivre(livre);
 }
 function updateProgress(){
   if (vue!=='read') return;
@@ -1341,8 +1293,9 @@ function majTheme(){
   document.querySelectorAll('.rtheme button').forEach(b => b.setAttribute('aria-pressed', b.dataset.t === S.theme ? 'true' : 'false'));
 }
 $('nightBtn').onclick = ouvrirReglages;
-$('prevBtn').onclick = () => { const e=etat(livre.id); if(e.chap>0){ e.chap--; e.scroll=0; save(); renderChap(false); } };
-$('nextBtn').onclick = () => { const e=etat(livre.id); if(e.chap<livre.chapitres.length-1){ marquerLu(); e.chap++; e.scroll=0; save(); renderChap(false); } };
+// Un chapitre voisin peut être dans un autre morceau : on passe par aller(), qui charge.
+$('prevBtn').onclick = () => { const e=etat(livre.id); if(e.chap>0){ e.chap--; e.scroll=0; save(); aller('read', false); } };
+$('nextBtn').onclick = () => { const e=etat(livre.id); if(e.chap<livre.chapitres.length-1){ marquerLu(); e.chap++; e.scroll=0; save(); aller('read', false); } };
 function ongletActif(nom){
   [['tabChaps','paneChaps'],['tabBms','paneBms'],['tabPers','panePers']].forEach(([t,p])=>{
     const bt=$(t), pn=$(p); if(!bt||!pn) return;
@@ -1357,10 +1310,10 @@ $('tabBms').onclick = () => ongletActif('tabBms');
 
 function buildPers(){
   const pane = $('panePers'); if (!pane) return;
-  const liste = (livre && PERSONNAGES[livre.id]) || [];
+  const liste = (livre && livre.personnages) || [];
   if (!liste.length){ pane.innerHTML = '<p class="empty">Aucune fiche personnage pour ce livre.</p>'; return; }
   pane.innerHTML = liste.map(p =>
-    `<div class="prow"><b>${p.nom}</b><small>${p.role}</small><p>${p.texte}</p></div>`).join('');
+    `<div class="prow"><b>${esc(p.nom)}</b><small>${esc(p.role)}</small><p>${esc(p.texte)}</p></div>`).join('');
 }
 
 /* ---- mode immersif ----
@@ -1589,8 +1542,27 @@ addEventListener('orientationchange', () => setTimeout(mesurerBarre, 120));
 
 load();
 visitePrec = S.visite || 0;
-appliquerTheme(); appliquerLecture(); mesurerBarre(); renderLib();
-if (/^#\/(livre|lire)\//.test(location.hash)) router();
-try { history.replaceState({ liseuse:1, h:(vue === 'lib' ? '#/' : location.hash), prec:null }, '', vue === 'lib' ? '#/' : location.hash); } catch(e){}
+appliquerTheme(); appliquerLecture(); mesurerBarre();
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(mesurerBarre).catch(()=>{});
-S.visite = Date.now(); save();
+
+/* Le catalogue est la seule chose que la bibliothèque télécharge pour s'afficher.
+   S'il manque — première visite hors ligne —, on le dit et on propose de réessayer. */
+function demarrer(){
+  $('libCount').textContent = 'Chargement…';
+  $('noRes').style.display = 'none';
+  chargerCatalogue().then(livres => {
+    BOOKS = livres; catalogueCharge = true;
+    renderLib();
+    if (/^#\/(livre|lire)\//.test(location.hash)) router();
+    try { history.replaceState({ liseuse:1, h:(vue === 'lib' ? '#/' : location.hash), prec:null }, '', vue === 'lib' ? '#/' : location.hash); } catch(e){}
+    S.visite = Date.now(); save();
+  }).catch(err => {
+    console.warn('Liseuse : catalogue non chargé —', err.message);
+    $('libCount').textContent = '';
+    const nr = $('noRes'); nr.style.display = ''; nr.innerHTML = '';
+    nr.appendChild(document.createTextNode('La bibliothèque n\'a pas pu être chargée. Vérifiez la connexion, puis réessayez.'));
+    const r = document.createElement('button'); r.className = 'effacer'; r.type = 'button'; r.textContent = 'Réessayer';
+    r.onclick = demarrer; nr.appendChild(r);
+  });
+}
+demarrer();

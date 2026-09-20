@@ -1,4 +1,4 @@
-const BRAISES_P5 = [
+[
 {
 "n": 25,
 "t": "Jour un",
@@ -38,7 +38,8 @@ const BRAISES_P5 = [
 "Avant de dormir, j'ai fait la seule chose que je pouvais faire sans parler : j'ai posé la main sur son épaule, une seconde.",
 "Il a posé la sienne dessus.",
 "Trois secondes. Il a compté, je l'ai senti compter. Et puis il n'a pas retiré."
-]
+],
+"s": []
 },
 {
 "n": 26,
@@ -74,7 +75,8 @@ const BRAISES_P5 = [
 "Et j'ai marché autrement. Pas plus vite. Avec, dans le dos, plus qu'un poids : un endroit où ce que je porte pouvait aller. Un pouce à la fois. Assez pour tenir.",
 "Vaugrin est mort en s'asseyant sur un banc. Il avait tout poussé, toute sa vie, et il n'avait jamais eu où mettre ce qu'il gardait.",
 "Je ne me suis pas assis."
-]
+],
+"s": []
 },
 {
 "n": 27,
@@ -157,7 +159,8 @@ const BRAISES_P5 = [
 "— Il n'y a rien à savoir faire, ai-je dit. Il y a une nuit. Une seule, dans toute votre vie et dans toute la mienne, où vous ne pouvez me faire aucun mal, et elle est en train de passer pendant que vous vous excusez.",
 "Son odeur avait changé. Plus de laine ni de fer : quelque chose de plus bas, de plus animal — du sel, de la peau chauffée. Ça m'est entré dans le ventre et ça m'a fait serrer les cuisses l'une contre l'autre. Et j'ai su, à cet instant précis, que j'étais déjà humide, et depuis un moment.",
 "Il s'est retourné."
-]
+],
+"s": []
 },
 {
 "n": 28,
@@ -232,7 +235,8 @@ const BRAISES_P5 = [
 "Une seule nuit, donc. Celle-ci. Qui finissait.",
 "Je l'ai regardée dormir dans la lumière laiteuse, le linge tombé, la figure grise de cendre. J'ai passé la main à plat sur son dos nu, lentement, du cou aux reins. Je pouvais le faire, et le lendemain soir je ne le pourrais plus.",
 "Pas de marque. J'ai regardé trois fois."
-]
+],
+"s": []
 },
 {
 "n": 29,
@@ -302,6 +306,13 @@ const BRAISES_P5 = [
 "Puis il a repris le pas.",
 "Je n'ai pas demandé quel mot c'était. Il y a des choses qu'on ne met pas dans le blanc : on ne les a pas vues, on les a seulement devinées.",
 "Mais je crois que c'était un nom."
+],
+"s": [
+10,
+14,
+26,
+31,
+52
 ]
 },
 {
@@ -345,6 +356,7 @@ const BRAISES_P5 = [
 "J'ai écrit, sous la date, avec une main qui n'était pas tout à fait stable :",
 "Ghar, quartier bas. Derrière les hachures : un ruisseau, une enfant, une langue. Des gens. Il y a des gens.",
 "Je n'ai rien vu. Maintenant je vois."
-]
+],
+"s": []
 }
-];
+]

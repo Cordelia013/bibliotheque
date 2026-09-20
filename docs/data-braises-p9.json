@@ -1,4 +1,4 @@
-const BRAISES_P9 = [
+[
 {
 "n": 47,
 "t": "Quatre cents pas",
@@ -68,6 +68,14 @@ const BRAISES_P9 = [
 "Il ne l'a pas fait brutalement. Il a fait ce qu'il fait depuis qu'il a six ans, et il l'a fait proprement, et il n'y avait rien d'autre à faire : de ce côté-ci, l'air ne prend plus rien. Trois secondes suffisent à roussir la laine sèche, et il en faut moins pour la peau.",
 "Il a posé Halden par terre, sur le côté, la tête sur un bras.",
 "Puis il s'est assis à côté de lui, dans l'herbe morte. Il ne s'était pas assis depuis trois jours."
+],
+"s": [
+5,
+17,
+23,
+30,
+41,
+56
 ]
 },
 {
@@ -157,6 +165,15 @@ const BRAISES_P9 = [
 "Elle a fait faire dix pas au cheval. Elle a resserré.",
 "Puis elle est montée, mal, en trois fois, en me tournant le dos pour que je ne compte pas les essais.",
 "Et j'ai compté quand même, parce que je compte tout, et parce que c'est la seule manière que j'aie jamais trouvée de regarder quelqu'un longtemps."
+],
+"s": [
+5,
+19,
+24,
+50,
+52,
+62,
+67
 ]
 },
 {
@@ -325,6 +342,18 @@ const BRAISES_P9 = [
 "C'est un aveu, et il est vrai, et il est de ma main, et il restera sur cette feuille aussi longtemps que la feuille — c'est-à-dire trois cents ans si on la range à plat et qu'on ne la roule pas trop serré.",
 "Un jour, quelqu'un les lira et se demandera où je me suis arrêtée.",
 "Bien."
+],
+"s": [
+2,
+14,
+26,
+36,
+43,
+73,
+87,
+118,
+124,
+151
 ]
 },
 {
@@ -425,6 +454,15 @@ const BRAISES_P9 = [
 "Le reste, je ne le comprends pas. Je n'ai personne à qui le demander : il n'y a jamais eu de Braise qui ait traversé la Ligne deux fois, et il n'y en a jamais eu un seul à qui quelqu'un ait tenu la main.",
 "Alors je porte la question comme j'ai porté le reste.",
 "Est-ce que c'est elle qui ne brûle pas — ou est-ce que c'est moi qui ai cessé ?"
+],
+"s": [
+9,
+20,
+38,
+42,
+59,
+69,
+74
 ]
 }
-];
+]

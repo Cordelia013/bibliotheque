@@ -1,4 +1,4 @@
-const BRAISES_P6 = [
+[
 {
 "n": 31,
 "t": "Ce dont le Nord se souvient",
@@ -41,7 +41,8 @@ const BRAISES_P6 = [
 "En passant la brèche, Ysée a mis sa main dans la mienne. Et de l'autre côté de la Ligne, dans l'air qui ne prenait plus rien, où trois secondes redevenaient trois secondes, je l'ai laissée, et j'ai compté, et à trois je n'ai pas retiré.",
 "Il n'y a pas eu de marque. Je le sais parce que j'ai regardé, le soir, quand elle dormait, sa main ouverte sur la couverture.",
 "Je ne comprends pas. Je le constate comme je constate un chiffre qui ne tombe pas."
-]
+],
+"s": []
 },
 {
 "n": 32,
@@ -87,7 +88,8 @@ const BRAISES_P6 = [
 "— Parce qu'on ne dessine que ce qu'on a vu, ai-je dit. Et que je n'ai pas encore vu ce qu'il y a derrière.",
 "Elle a ri — un rire court, comme celui de la petite fille sur sa pierre, la même famille de rire.",
 "— Alors viens voir, a-t-elle dit."
-]
+],
+"s": []
 },
 {
 "n": 33,
@@ -162,7 +164,8 @@ const BRAISES_P6 = [
 "— Demain, ai-je dit, je vous dirai pourquoi j'ai signé. Tout. Et ensuite vous me direz ce que vous voulez que je fasse, et je le ferai.",
 "— Pourquoi demain ?",
 "— Parce que ce soir, ai-je dit, je ne suis pas sûr de savoir encore le nom."
-]
+],
+"s": []
 },
 {
 "n": 34,
@@ -228,7 +231,8 @@ const BRAISES_P6 = [
 "Ce soir-là, dans la maison à trois murs, quand Cael s'est endormi pour de bon — je l'entendais à son souffle —, j'ai sorti le pli du Doyen de la doublure. Je l'ai relu une fois à la lueur du sol, qui entre par la brèche du toit.",
 "Puis je l'ai replié, et je l'ai remis contre le blanc, sans rien en dire, et sans rien en écrire.",
 "C'est la première chose, depuis Valdren, que j'ai décidé de ne pas noter."
-]
+],
+"s": []
 },
 {
 "n": 35,
@@ -307,6 +311,10 @@ const BRAISES_P6 = [
 "— Un, a-t-elle dit. Deux.",
 "J'ai retiré la main.",
 "— Encore, a-t-elle dit."
+],
+"s": [
+34,
+47
 ]
 },
 {
@@ -370,6 +378,12 @@ const BRAISES_P6 = [
 "— Oui.",
 "Il a sorti la main de l'eau. Elle fumait un peu.",
 "— Alors c'est au-dessus."
+],
+"s": [
+3,
+11,
+26,
+36
 ]
 }
-];
+]

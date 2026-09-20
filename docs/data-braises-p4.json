@@ -1,4 +1,4 @@
-const BRAISES_P4 = [
+[
 {
 "n": 19,
 "t": "Le creux",
@@ -41,7 +41,8 @@ const BRAISES_P4 = [
 "— Oui ?",
 "— Je n'ai pas eu chaud cette nuit, a-t-elle dit. J'ai eu tiède. Ce n'est pas la même chose et je tenais à le préciser, puisque vous m'aviez prévenue.",
 "Et elle a relancé son cheval vers l'autre rive avant que j'aie trouvé quoi que ce soit à répondre. C'est sa façon de terminer les conversations qu'elle a gagnées. J'en compte trois depuis Valdren."
-]
+],
+"s": []
 },
 {
 "n": 20,
@@ -112,6 +113,14 @@ const BRAISES_P4 = [
 "Il m'a regardée. Les yeux s'étaient remis à bouger.",
 "Et il a souri pour de bon, bref, un peu féroce. C'était le premier vrai sourire que je lui voyais.",
 "— Alors montrez-moi la feuille, a-t-il dit."
+],
+"s": [
+3,
+17,
+23,
+35,
+45,
+56
 ]
 },
 {
@@ -161,7 +170,8 @@ const BRAISES_P4 = [
 "Elle a regardé le défilé, les trois hommes, moi par terre.",
 "Puis elle a dit, très calmement, comme on donne une consigne à quelqu'un dont on sait qu'il va la suivre :",
 "— Bien. Maintenant vous allez me dire comment on soigne une main brûlée, parce que je ne vais pas laisser trois hommes mourir dans un endroit que j'ai dessiné."
-]
+],
+"s": []
 },
 {
 "n": 22,
@@ -214,7 +224,8 @@ const BRAISES_P4 = [
 "Il m'a rendu le carnet.",
 "Il ne l'a pas posé sur la couverture entre nous. Il me l'a tendu, et j'ai dû avancer la main, et pendant l'instant où nous tenions tous les deux le carnet, il n'a pas lâché tout de suite.",
 "Il n'avait encore jamais tardé à lâcher."
-]
+],
+"s": []
 },
 {
 "n": 23,
@@ -260,7 +271,8 @@ const BRAISES_P4 = [
 "— Nous avons une nuit. La dernière avant le bord. Vous venez de m'expliquer toutes ces règles, que je dois savoir par cœur avant demain midi ; celle-là est la seule que je ne peux pas apprendre dans un carnet. Donc nous nous entraînerons ce soir, comme on essaie une sangle avant de charger, et demain ce ne sera plus une première fois. C'est de la méthode, Cael. Rien d'autre.",
 "Elle a dit ça d'une voix parfaitement professionnelle.",
 "Et elle est allée chercher les couvertures sans attendre ma réponse. C'était une manière de ne pas me laisser le temps de trouver une objection. C'était aussi — je le comprendrais plus tard, quand j'aurais appris à la lire — une manière de ne pas me laisser voir sa figure."
-]
+],
+"s": []
 },
 {
 "n": 24,
@@ -324,6 +336,7 @@ const BRAISES_P4 = [
 "Au sud, sur la route par où nous étions venus, à deux lieues et demie — la distance, toujours la même distance, celle qu'on tient — il y avait des feux de camp.",
 "Je les ai comptés deux fois : on ne relève pas un chiffre qu'on n'a pas compté deux fois.",
 "Neuf."
-]
+],
+"s": []
 }
-];
+]
