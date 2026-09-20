@@ -1,85 +1,171 @@
 # Le Prix du Silence, Don Castellano
 
-## Chapitre 32 — L'homme qui apprend
+## Chapitre 32 — Ce qu’il aurait dû dire
 
-*POV Salvatore*
+*POV Livia*
 
-Je passai l'été à apprendre à lire.
+À trois heures du matin, tout le monde dort sauf nous deux.
 
-C'est la façon la plus exacte de le dire. Deux soirs par semaine, un cabinet d'audit de Bologne m'envoyait une femme de trente-quatre ans nommée Chiara Belloni, qui posait un dossier devant moi et me faisait expliquer chaque ligne à voix haute.
+Ma mère est montée à minuit, sans un mot, en emportant la montre de mon père serrée dans son poing. Bruno ronfle sur le canapé du salon, sa veste roulée sous la tête. Les hommes de Tonio se relaient dans la rue, dans deux voitures. Damiano est dans le jardin. Je le vois par la fenêtre de la cuisine, assis sur le muret, sous le figuier, une cigarette qui s’allume et s’éteint dans le noir.
 
-La première séance dura trois heures pour douze pages.
+Salvatore n’est pas parti.
 
-— Vous ne savez pas lire un bilan, dit-elle à la fin, sans méchanceté.
+Il s’est assis dans le fauteuil du salon. Celui de mon père. Et il regarde le jardin par la porte-fenêtre, sans bouger, depuis une heure.
 
-— Non.
+Je fais deux cafés. Je lui en apporte un. Je m’assois en face de lui, sur le pouf de ma mère.
 
-— Vous dirigez ces sociétés depuis six ans.
+— Tu ne dors pas, dit-il.
 
-— Sept.
+— Toi non plus.
 
-Elle referma son cahier.
+— Moi, je ne dors plus depuis juillet.
 
-— Alors quelqu'un d'autre les dirigeait.
+On boit le café. Il est trop fort. Ma mère le fait toujours trop fort.
+
+Dehors, le figuier bouge un peu dans le vent. La cigarette de Damiano s’allume. S’éteint.
+
+— C’est ici, dit Salvatore soudain. La voiture. Le mercredi de Serena. J’étais garé juste là, devant le mur.
+
+— Je sais. Renzi m’a montré la photo.
+
+Il ferme les yeux.
+
+— Tu n’étais même pas là, dit-il. Je l’ai appris par Renzi, en garde à vue. Tu étais au pied de l’immeuble de Serena. Et moi, je regardais ta lampe. Deux heures. Une lampe dans une chambre vide.
 
 — Oui.
 
-Elle attendit que j'ajoute quelque chose. Je n'ajoutai rien. Elle nota une heure sur sa feuille et partit, et revint le jeudi suivant, et le jeudi d'après.
+— C’est tellement moi, ça, dit-il avec un petit rire sans joie. Arriver sept minutes trop tard et rester deux heures devant ce qui n’est plus là.
 
-En septembre, je compris un montage de garantie croisée sans aide. Je restai assis devant la feuille comme un gamin devant un devoir corrigé.
+---
 
-Bruno me trouva là à minuit.
+Il pose sa tasse sur le tapis. Il se penche en avant, les coudes sur les genoux.
 
-— Tu ressembles à un idiot heureux.
+— Livia. Je vais dire quelque chose. Et je te demande de me laisser le dire en entier. Parce que si tu m’interromps, je vais recommencer à négocier, et ce n’est pas ce que je veux.
 
-— J'ai compris l'article 9.
+Je ne dis rien. Je serre ma tasse.
 
-— Félicitations. Il t'a fallu un divorce, une garde à vue et une famille en ruine.
+— Je t’ai épousée en secret parce que j’avais peur, dit-il. Peur du jour où ce serait public. Parce que ce jour-là, tu deviendrais quelque chose que je pourrais perdre. Tant que personne ne savait, tu n’étais pas un enjeu. Tu étais juste à moi. Dans le noir. Sans que ça me coûte rien.
 
-Il s'assit en face de moi, se servit un verre de ce que je buvais, et nous restâmes silencieux un moment.
+Il regarde ses mains.
 
-— Elle ne reviendra pas, dit-il enfin.
+— Et j’ai passé trois ans à te faire payer ma peur en te faisant croire que c’était de la stratégie. J’ai dit à tout le monde que tu étais indispensable, et je ne te l’ai jamais dit à toi. J’ai laissé une autre femme s’asseoir à ma droite, parce qu’avec elle, il n’y avait rien à perdre. Et le 17 mars, j’ai retourné mon téléphone contre le bois parce que je ne voulais pas d’un problème. Et le problème, c’était toi. En train de mourir.
+
+Sa voix ne tremble pas. C’est le pire.
+
+— Je ne te demande pas de revenir. Je ne te demande pas de me pardonner. Ton avocate m’a envoyé la demande de séparation. Je ne la contesterai pas. Je signerai tout ce qu’elle voudra. C’est la seule chose que je peux te donner qui ne soit pas une demande déguisée.
+
+Il s’arrête. Il relève les yeux vers moi.
+
+— Voilà. C’est la phrase que tu m’as demandée, sous le figuier. Ce soir-là, je n’ai pas su la dire. J’ai mis cinq mois à la trouver.
+
+Je ne dis rien.
+
+Il y a six ans, cette phrase m’aurait tuée de bonheur. Il y a six mois, elle m’aurait tuée tout court.
+
+Cette nuit, elle ne me tue pas. Elle se pose quelque part en moi, tranquillement. Comme une chose vraie, arrivée trop tard, et qui reste vraie quand même.
+
+— Merci, je dis.
+
+Il comprend exactement ce que ce merci veut dire. Il ne demande rien de plus.
+
+---
+
+Je crois qu’il a fini. Je me lève pour rapporter les tasses.
+
+— Il y a autre chose, dit-il.
+
+Je m’arrête.
+
+— Il y a une raison, Livia. Au secret. Une vraie. Je ne te l’ai jamais dite. Je m’en suis servi comme d’une excuse, et c’est pour ça que je ne pouvais pas te la dire. Parce qu’elle était vraie, et que je l’utilisais pour mentir.
+
+Je me rassois. Lentement.
+
+— Mon père, dit-il. Le dernier soir. À l’hôpital. Il m’a pris le poignet. Il avait encore de la force, tu te souviens comme il était fort. Il m’a dit : « La fille Sarti. J’ai promis à son père. En 2004. De la protéger. Elle est sur une liste des Ferraro depuis qu’elle a dix ans. Une Sarti, c’est une cible. Une Sarti qui devient une Castellano, c’est deux cibles. Si tu l’épouses un jour, Salvatore, personne ne doit le savoir. Personne. Jure-le. »
+
+Je ne respire plus.
+
+— J’ai juré, dit Salvatore. Et trois ans plus tard, je t’ai épousée. À minuit. Dans une chapelle vide. Et j’ai tenu parole.
+
+Il me regarde.
+
+— La promesse était vraie. Mon père avait raison. Les Ferraro sont revenus, et ils t’ont trouvée quand même. Mais moi, Livia… Moi, je ne t’ai pas cachée pour te protéger. Je t’ai cachée pour ne jamais avoir à me battre pour toi. La promesse de mon père, c’était mon abri. Je me suis caché derrière. Et je ne t’ai jamais rien dit, parce que si je t’avais dit la vérité, tu m’aurais demandé : « Alors pourquoi tu ne te bats pas ? »
+
+Je me lève.
+
+Je vais jusqu’à la porte-fenêtre. Je pose le front contre la vitre froide. Dehors, sous le figuier, Damiano a arrêté de fumer. Il regarde la maison.
+
+Mon père et sa lettre au fond d’une boîte en fer. Carmine et sa promesse arrachée sur un lit d’hôpital. Salvatore et son serment de minuit. Damiano et son virement du 11 mars. Je devrais faire la colonne, poser les dates, additionner les années, tirer le trait et trouver le total, parce que c’est ce que je fais depuis que je sais tenir un stylo — et ce soir, le front contre une vitre froide, dans la maison où j’ai appris à lire, je m’aperçois que je n’en ai aucune envie et que ça ne changerait rien au résultat.
+
+Ma vie entière a été décidée dans des pièces où je n’étais pas.
+
+Je suis très, très fatiguée.
+
+— Tu aurais pu me le dire, je murmure contre la vitre.
+
+— Oui.
+
+— Tu aurais pu me le dire la nuit de la chapelle. J’aurais dit oui quand même. Tu le sais ?
+
+— Je le sais maintenant.
+
+Je me retourne. Il est toujours dans le fauteuil de mon père. Il n’a pas bougé.
+
+— La voiture, je dis.
+
+Il lève les yeux.
+
+— L’hiver. Au pied de mon immeuble. Elle tournait dix minutes avant que je descende, pour que le chauffage monte. Tous les matins de novembre à mars. Pendant trois ans.
+
+Il ne répond pas.
+
+— Et la lampe du couloir, à la villa. Les soirs où je restais tard.
+
+Il regarde sa tasse sur le tapis. Il la ramasse. Sa main tremble. Juste un peu. Le café fait des petites vagues. Il repose la tasse, vite, pour que je ne voie pas. J’ai vu.
+
+— Tu savais, dit-il.
+
+— J’ai tout gardé. Chaque fois. Je croyais que c’était tout ce que tu avais à donner.
+
+— C’était tout ce que j’avais le droit de donner, dit-il. Mon père avait dit : personne ne doit savoir. Alors je t’aimais dans des endroits où personne ne regardait. Dans une voiture vide. Dans un couloir.
+
+Il se tait. Il se reprend. Je le vois remettre son visage en place, trait par trait, comme on reboutonne une veste.
+
+— C’était lâche, dit-il d’une voix redevenue plate. Ça restait lâche.
+
+Je le regarde. Et je sais une chose que je ne lui dirai pas, ni ce soir ni jamais.
+
+Je l’aime encore. Moins qu’avant, et trop peu pour revenir. Mais je l’aime. C’est une pièce de moi qu’on ne peut pas vendre avec le reste.
+
+Ça ne change rien.
+
+---
+
+— Salvatore.
+
+— Oui ?
+
+— Demain, quand tu verras Ferraro. Il va te proposer quelque chose. Il va te dire qu’il peut effacer les onze millions.
 
 — Je sais.
 
-— Non, Salvatore. Tu ne sais pas. Tu es en train d'apprendre à lire des bilans en espérant qu'un jour, quelqu'un lui dira « il a changé ». C'est encore une façon de calculer.
+— Je voulais juste te dire que je le sais aussi. Et que je te laisse choisir. Sans surveillance.
 
-Je regardai le fond de mon verre.
+Il a un sourire étrange. Presque un rire.
 
-Il avait raison. C'était insupportable, et il avait raison.
+— Tu me fais confiance ?
 
-— Alors je fais quoi, Bruno ?
+— Non, je dis. Je te donne l’occasion d’être un homme à qui je pourrais.
 
-— La même chose. Mais pour toi. Et le jour où tu la croiseras et que tu n'auras pas envie de lui montrer ton bulletin, tu sauras que c'est fini.
+Il me regarde. Longtemps. Puis il hoche la tête. Une fois, lentement, comme une signature.
 
-Je croisai Livia trois semaines plus tard, à la conférence annuelle de la chambre portuaire, à laquelle j'assistais pour la première fois de ma vie.
+Je prends les deux tasses. Je vais dans la cuisine. J’en remplis une troisième, avec ce qui reste de café, trop fort, froid.
 
-Elle intervenait en deuxième table ronde. Elle parla onze minutes de la réforme des concessions, sans notes, et deux armateurs prirent des photos de sa diapositive.
+J’ouvre la porte du jardin. Je traverse l’herbe mouillée. Je pose la tasse sur le muret, à côté de Damiano, sans le regarder.
 
-À la pause, nous nous retrouvâmes au même bout de buffet.
+Je ne dis rien. Lui non plus.
 
-— Tu es venu, dit-elle.
+Je retourne dans la maison.
 
-— J'apprends.
+Quand je me retourne, à la fenêtre, il a pris la tasse dans ses deux mains, et il la tient contre lui, sans la boire, comme une bouillotte en plein hiver.
 
-— Je sais. Chiara Belloni a travaillé pour moi en 2022.
-
-Je faillis rire.
-
-— Tu me l'as envoyée ?
-
-— Non. Elle m'a appelée pour savoir si elle devait accepter le contrat. Je lui ai dit que oui, et de ne rien vous passer.
-
-Elle prit un verre d'eau. Elle portait le collier.
-
-— Ça te va bien, dis-je.
-
-— Merci.
-
-Et ce fut tout. Trois minutes de conversation, un sujet technique, une politesse.
-
-En rentrant, je m'aperçus que je n'avais pas cherché une seule fois, pendant ces trois minutes, ce qu'il fallait dire pour obtenir quelque chose.
-
-Bruno avait dit que je le saurais ce jour-là.
-
-Il s'était trompé sur un point : ça ne fait pas du bien. Ça fait juste enfin silence.
+---
