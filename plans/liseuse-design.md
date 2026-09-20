@@ -123,8 +123,10 @@ posés sur `#app` lui-même.
 
 Une modification de design se fait dans `app.js` seul ; `index.html` (44 Ko, presque
 tout en couvertures SVG) ne se republie pas. Les nouveaux éléments d'interface se
-créent dans `monterUI()`. Les données du générateur s'écrivent aussi dans `app.js`,
-sur leur propre ligne (`BOOKS`, `SEPARATEURS`).
+créent dans `monterUI()`. *Depuis le 20 septembre 2026, les données ne s'écrivent plus dans
+`app.js` : elles viennent de `catalogue.json` et des morceaux de texte (voir plus bas). La
+règle reste vraie pour le design : `app.js` est du code, tenu à la main, que le générateur ne
+touche pas.*
 
 ## Couleurs — mécanique
 

@@ -15,7 +15,7 @@ suit vaut au 20 septembre 2026 ; le site est servi à l'adresse
 | Écrire, corriger, ajouter un chapitre | vous |
 | Pousser sur `main` | vous |
 | Régénérer le catalogue et les morceaux de texte | l'action GitHub `publication.yml` |
-| Produire les EPUB | l'action |
+| Produire les EPUB dans `docs/epub/` — accessibles à `…/bibliotheque/epub/<id>.epub`, sans lien depuis la liseuse | l'action |
 | Vérifier que tout se tient avant de publier | l'action |
 | Mettre le site à jour | GitHub Pages, une minute après |
 | Faire apparaître la nouveauté chez un lecteur | son prochain chargement de la page |
@@ -30,13 +30,23 @@ pousser : l'action commite dans `docs/` après vous, donc `git pull` d'abord.
 git pull                                  # récupérer ce que l'action a commité
 # … écrire dans chapitres/<livre>/ …
 python3 maj_bibliotheque.py               # facultatif : vérifier en local, voir § 9
-git add chapitres
+git add chapitres docs                    # les deux, si le script a tourné
 git commit -m "Braises : chapitre 53"
 git push                                  # sur main
 ```
 
-Une minute plus tard, le chapitre est en ligne. Le script local et l'action produisent
-exactement le même résultat ; relancer le script chez soi ne sert qu'à vérifier avant de pousser.
+Une minute plus tard, le chapitre est en ligne.
+
+**Si le script a tourné en local, commiter aussi `docs/`** — ou bien l'annuler par
+`git restore docs` avant de commiter. Sinon, les fichiers régénérés restent modifiés dans
+l'arbre local, l'action pousse les mêmes, et le `git pull` suivant est refusé : Git s'arrête
+devant un fichier modifié localement même quand son contenu est identique à ce qui arrive
+(vérifié). Commiter les deux est le plus simple ; l'action constate alors qu'il n'y a rien à
+publier et ne commite pas.
+
+Le script local et l'action produisent le même résultat, y compris la date de mise à jour :
+elle est calculée en heure de Paris des deux côtés, l'action tournant sinon en temps
+universel.
 
 ## 3. Modifier un chapitre existant
 
@@ -69,22 +79,32 @@ Une ligne « --- » seule marque une coupure de scène.
 
 Les trois en-têtes sont obligatoires : le titre du livre, la ligne `## Chapitre N — Titre`,
 la ligne `*POV Prénom*`. Un chapitre sans en-tête reconnaissable est ignoré, avec un
-avertissement dans le journal de l'action. L'italique `*…*` et le gras `**…**` sont retirés
-à la publication.
+avertissement dans le journal de l'action.
+
+**L'italique et le gras ne sont pas rendus.** Les marques `*…*` et `**…**` sont retirées à la
+publication ; le texte s'affiche en romain. C'est ainsi depuis l'origine de la liseuse, et
+les manuscrits en font pourtant grand usage — près de deux cents passages dans *La Saison des
+Braises* (les notes du blanc, les mots soulignés). Les conserver demande une évolution du
+moteur et des EPUB, notée dans `ARCHITECTURE.md`. Tant qu'elle n'est pas faite, ne pas
+compter sur l'italique pour porter un sens.
 
 Le nom du fichier fixe l'ordre de lecture ; le numéro dans l'en-tête, l'affichage.
 
-## 5. Insérer un chapitre sans renuméroter
+## 5. Insérer un chapitre sans renuméroter les fichiers
 
 Pour glisser un chapitre entre le 39 et le 40 : `chapitre-39bis.md`, titré
 `## Chapitre 39 bis — …`. Il se range de lui-même, la liseuse affiche « Chapitre 39 bis ».
 Suffixes reconnus : `bis`, `ter`, `quater`.
 
-**Renuméroter un livre que des lecteurs ont commencé leur fait perdre leur position** : la
-progression et les marque-pages sont stockés par rang dans la liste, pas par numéro. Insérer
-un `bis` ne décale rien pour les chapitres suivants dans la lecture en cours — mais un rang
-de plus avant le chapitre où quelqu'un s'est arrêté le renvoie au chapitre précédent. À faire
-en une fois, en fin de rédaction, comme le prévoit le plan de réécriture des *Braises*.
+Le `bis` évite de renommer les fichiers suivants. **Il ne protège pas la position des
+lecteurs** : la progression et les marque-pages sont stockés par rang dans la liste des
+chapitres, pas par numéro. Un `bis` inséré *après* la position d'un lecteur ne change rien
+pour lui ; inséré *avant*, il le renvoie d'un chapitre en arrière — et ses marque-pages avec.
+L'opération n'est sans conséquence que sur des chapitres que personne n'a encore lus.
+
+Il en va de même, en plus fort, d'une renumérotation ou d'une fusion de chapitres. À faire en
+une seule fois, en fin de rédaction, comme le prévoit le plan de réécriture des *Braises*, et
+en sachant que les lecteurs en cours retomberont à côté de leur page.
 
 ## 6. Ajouter un livre
 
@@ -105,7 +125,7 @@ Quatre gestes, tous dans les sources ; la liseuse découvre le livre dans le cat
 | `titre`, `serie` | `serie` est facultatif |
 | `genres` | le premier sert de sous-titre sur la couverture de secours ; tous servent aux filtres |
 | `couleur` | l'accent du livre, en hexadécimal |
-| `statut` | `À venir`, `En cours` ou `Terminé` — c'est l'état de l'écriture ; la liseuse l'affiche autrement |
+| `statut` | `À venir`, `En cours` ou `Terminé` — l'état de l'écriture. La liseuse affiche respectivement « À paraître », « En cours d'écriture », « Roman complet » |
 | `couv` | la couverture vectorielle, dans `couvertures/` |
 | `couv_image` | facultatif : une couverture en image, dans `docs/couvertures/` (voir § 8) |
 | `parties` | facultatif : `[{"titre":"Acte I","debut":1}, …]` regroupe le sommaire en actes |
@@ -155,7 +175,13 @@ Deux formes, la seconde prenant le pas sur la première quand elle existe.
   `docs/couvertures/` et déclaré par `couv_image` dans `CATALOGUE`. Si l'image ne se charge
   pas, la vectorielle reprend. Les deux couvertures en image actuelles viennent de Canva.
 
-Ces fichiers sont les seuls que l'on dépose directement dans `docs/`.
+Ces fichiers sont les seuls *contenus* que l'on dépose directement dans `docs/`.
+
+**Ce que l'action écrit dans `docs/`, et ce qu'elle ne touche pas.** Elle écrit
+`catalogue.json`, les morceaux `data-<id>-pN.json`, le bloc des couvertures d'`index.html` et
+`epub/`. Elle ne touche jamais à `app.js`, `sw.js`, `manifest.json`, aux icônes, ni au reste
+d'`index.html` : c'est le moteur, du code tenu à la main. Une modification de design se fait
+donc bien dans `app.js`, comme le dit `plans/liseuse-design.md`, et n'est pas écrasée.
 
 ## 9. Vérifier avant de pousser
 
@@ -189,8 +215,9 @@ navigateur (voir `scripts/README.md`). Ce n'est pas nécessaire pour publier un 
 
 - **Pousser sans avoir tiré.** L'action commite dans `docs/` ; sans `git pull`, la poussée
   suivante est refusée. Rien de cassé, il suffit de tirer puis de pousser.
-- **Éditer `docs/` à la main.** Écrasé à la publication suivante. Sauf les couvertures en
-  image (§ 8).
+- **Corriger un texte dans `docs/`.** Le catalogue, les morceaux et le bloc des
+  couvertures sont écrasés à la publication suivante. Le moteur (`app.js`, `sw.js`), lui, se
+  modifie à la main et n'est pas touché (§ 8).
 - **Changer l'`id` d'un livre.** Les lecteurs perdent leur progression, les adresses
   partagées ne mènent plus nulle part.
 - **Renuméroter des chapitres déjà lus.** Voir § 5.
@@ -218,6 +245,9 @@ l'historique tel qu'il est.
 - Le format de chapitre en détail, l'organisation du dépôt : `README.md`.
 - Le contrat entre le générateur et la liseuse, ce qui reste pour une version publique :
   `ARCHITECTURE.md`.
+- La relecture des textes — cohérence, style, langue — n'est pas dans la chaîne de
+  publication : l'action vérifie la structure des fichiers, pas leur fond. Les fiches de
+  `prompts/` et les documents de `plans/` restent l'étape d'avant.
 - Les scripts annexes, le test, l'action : `scripts/README.md`.
 - Les règles de travail sur les textes et les décisions qui font foi : `CLAUDE.md`, `plans/`.
 

@@ -26,6 +26,14 @@ Les fiches personnages se tiennent dans personnages.json, à la racine.
 """
 import datetime, glob, hashlib, json, os, re
 
+# La date de mise à jour d'un livre doit être la même qu'on publie depuis un
+# ordinateur à Paris ou depuis l'action GitHub, qui tourne en temps universel.
+try:
+    from zoneinfo import ZoneInfo
+    FUSEAU = ZoneInfo("Europe/Paris")
+except Exception:                                  # pas de base de fuseaux : UTC
+    FUSEAU = datetime.timezone.utc
+
 HTML = "docs/index.html"
 DOSSIER = "docs"
 CATALOGUE_JSON = os.path.join(DOSSIER, "catalogue.json")
@@ -210,7 +218,7 @@ def couvertures_dans_index(templates, manquantes):
 
 
 def main():
-    aujourdhui = datetime.date.today().isoformat()
+    aujourdhui = datetime.datetime.now(FUSEAU).date().isoformat()
     precedent = lire_json(CATALOGUE_JSON)
     dates = dates_precedentes(precedent)
     personnages = lire_personnages()

@@ -156,7 +156,16 @@ Par ordre d'importance.
    (bibliothèque, page de garde, lecture, coupures, hors ligne, poids téléchargé). Il demande
    Playwright, seule dépendance non standard du dépôt, et n'est pas branché sur une
    intégration continue.
-6. **Décider du sort des fiches personnages.** Elles vivent dans `personnages.json` à la
+6. **Rendre l'italique.** Le générateur retire les marques `*…*` et `**…**` des paragraphes
+   depuis l'origine ; les manuscrits en font grand usage (près de deux cents passages dans
+   *La Saison des Braises*). Les conserver suppose de les transporter dans les morceaux —
+   sous une forme neutre, par exemple des balises `<em>` après échappement — et de les rendre
+   dans le moteur comme dans les EPUB, où `page_chapitre` échappe aujourd'hui tout le texte.
+7. **Échapper le texte.** Le moteur insère chaque paragraphe tel quel dans le HTML
+   (`renderChap`). Les manuscrits ne contiennent ni `<` ni entité — seulement quelques `&`
+   isolés, que les navigateurs tolèrent —, mais un jour un chapitre en contiendra. À traiter
+   avec le point précédent : échapper d'abord, marquer l'italique ensuite.
+8. **Décider du sort des fiches personnages.** Elles vivent dans `personnages.json` à la
    racine, écrites à la main, recopiées dans le catalogue. Une version publique pourrait les
    tirer d'un fichier par livre à côté des chapitres.
 
