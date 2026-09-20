@@ -11,6 +11,9 @@ générateur et l'application.
 | **Le moteur** | `docs/index.html`, `docs/app.js`, `docs/sw.js`, `docs/manifest.json`, icônes | à la main, comme du code |
 | **Le contenu** | `docs/catalogue.json`, `docs/data-<id>-pN.json`, couvertures | `maj_bibliotheque.py`, depuis `chapitres/`, `couvertures/`, `personnages.json` |
 
+Un livre se compose de `chapitres/<id>/prologue.md` (facultatif), des `chapitre-*.md` dans
+l'ordre de leur nom, puis de `epilogue.md` (facultatif).
+
 Le moteur ne contient aucun titre, aucun texte, aucune fiche. Le contenu ne contient aucun
 code. Un seul point de contact subsiste : le bloc `<div id="couvertures" hidden>` d'`index.html`,
 dans lequel le générateur injecte les couvertures SVG — parce que le dépôt ne peut publier que
@@ -42,6 +45,7 @@ applicatif, aucune dépendance de construction.
       "couv": true,
       "couvImage": "couvertures/braises.svg",
       "maj": "2026-09-19",
+      "revision": "v2-2026-09-20",
       "chapitres": [ { "n": 1, "t": "Ce qu'on n'a pas vu", "pov": "Ysée", "mots": 812 }, … ],
       "morceaux":  [ { "url": "data-braises-p1.json?v=1a2b3c4d", "de": 0, "a": 5 }, … ],
       "personnages": [ { "nom": "…", "role": "…", "texte": "…" } ],
@@ -58,14 +62,20 @@ applicatif, aucune dépendance de construction.
 - `id` — identifiant stable, `[a-z0-9-]`. Il sert de clé au stockage local et aux adresses ;
   **le changer perd la progression des lecteurs**.
 - `chapitres` — l'**index** : tout ce qu'il faut pour afficher la bibliothèque, la page de garde
-  et le sommaire sans un mot du texte. `n` est un entier ou un texte (« 39 bis »). `mots` sert
-  au temps de lecture.
+  et le sommaire sans un mot du texte. `n` est un entier ou un texte (« 39 bis », « Prologue »,
+  « Épilogue »). Le moteur n'écrit « Chapitre » devant `n` que s'il commence par un chiffre :
+  ailleurs, `n` est le nom de la section et se suffit. `mots` sert au temps de lecture.
 - `morceaux` — les fichiers de texte, avec les indices (dans `chapitres`) du premier et du
   dernier chapitre qu'ils couvrent. L'`url` est relative au dossier servi et porte une version :
   **une adresse donnée ne change jamais de contenu**.
 - `couv` — vrai si `index.html` porte une couverture SVG pour ce livre. `couvImage` — chemin
   d'une couverture en image, prioritaire ; en cas d'échec de chargement, la SVG reprend.
 - `maj` — date de dernier changement de texte, ou `null`. Affichée sur les livres en cours.
+- `revision` — facultatif. Identifie la **version du texte**, à distinguer de sa date : on ne la
+  change que lorsque le livre cesse d'être le même texte — réécriture, renumérotation, fusion de
+  chapitres. La progression étant stockée par indice, elle deviendrait alors fausse sans que rien
+  ne le signale ; le moteur remet ce livre à zéro, une fois, et le dit au lecteur. Un livre sans
+  `revision` n'est jamais remis à zéro.
 - `parties` — facultatif : regroupe le sommaire en actes.
 
 ### `data-<id>-pN.json`
@@ -124,7 +134,7 @@ Clé `liseuse:v2` dans `localStorage`, un seul objet :
 ```json
 { "theme": "clair|sepia|nuit", "taille": 2, "inter": 2, "align": "gauche|justifie",
   "dernier": { "id": "braises", "date": 0 }, "visite": 0,
-  "connus": { "braises": 52 },
+  "connus": { "braises": 52 }, "revisions": { "castellano": "v2-2026-09-20" },
   "livres": { "braises": { "chap": 12, "scroll": 1480, "vus": [0, 1, …],
                            "bookmarks": [ { "chap": 3, "para": 8, "note": "", "extrait": "…", "date": "…" } ] } } }
 ```
@@ -132,8 +142,12 @@ Clé `liseuse:v2` dans `localStorage`, un seul objet :
 `chap` et `para` sont des **indices** dans `chapitres` et dans `p`. Une position hors du livre —
 chapitre retiré — est ramenée au dernier chapitre publié à la lecture de l'état ; un marque-page
 qui pointe hors du livre est abandonné. Une renumérotation des chapitres décale toutes les
-positions : c'est la limite d'un stockage par indices, à garder en tête avant d'insérer ou de
-fusionner des chapitres dans un livre déjà lu. Le stockage est
+positions : c'est la limite d'un stockage par indices, et c'est à quoi répond `revision`.
+`revisions` garde, par livre, la version du texte à laquelle la progression appartient ; quand le
+catalogue en annonce une autre, ce livre est remis à zéro et le lecteur en est averti. Une
+progression dont la révision est inconnue — marqueur introduit après coup — n'est pas conservée :
+on ne peut pas la valider, et reprendre au mauvais chapitre sans le savoir coûte plus cher que
+repartir du début. Le stockage est
 lié à l'origine : changer d'adresse remet la progression à zéro pour le lecteur.
 
 ## 6. Ce qu'il resterait à faire pour une version publique
