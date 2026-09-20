@@ -4,68 +4,210 @@
 
 *POV Salvatore*
 
-Le lundi, à neuf heures, le bureau de Livia était vide.
+Lundi, neuf heures. Le bureau de Livia est vide.
 
-À neuf heures quarante, Bruno entra dans le mien sans frapper, ce qu'il n'avait pas fait depuis la mort de mon père.
+Je le sais parce que je suis passé devant trois fois. La première, je me suis dit qu’elle était en retard. La deuxième, qu’elle était aux toilettes. La troisième, je me suis arrêté sur le seuil et j’ai regardé la chaise poussée contre la table, bien droite, comme dans un bureau que personne n’occupe.
+
+Elle ne viendra pas. Je le savais mardi soir. Je le sais encore mieux maintenant.
+
+À neuf heures quarante, Bruno entre dans mon bureau sans frapper. Il n’a pas fait ça depuis la mort de mon père.
 
 — On a un problème.
 
-— Elle reviendra.
+— Elle va revenir.
 
-— Ce n'est pas d'elle que je parle. Enfin si. C'est d'elle que je parle, mais pas comme tu crois.
+— Je ne te parle pas d’elle. Enfin si. Je te parle d’elle, mais pas comme tu crois.
 
-Il posa un dossier devant moi. Des relevés. Sept sociétés, sept colonnes, sept totaux.
+Il pose un dossier devant moi. Des relevés bancaires. Sept colonnes, une par société. Sept totaux en bas.
 
-— Regarde la colonne des flux sortants.
+— Regarde la ligne des sorties.
 
-Je regardai. Je ne comprenais pas. Ce fut la première chose humiliante de cette journée : je regardais les comptes de ma propre famille et je ne comprenais pas ce que je voyais.
+Je regarde. Des chiffres. Des dates. Des codes. Je ne comprends pas.
+
+Et c’est la première humiliation de la journée. Je suis le Don de cette famille, je regarde nos propres comptes, et je ne comprends pas ce que je vois.
 
 — Explique.
 
-— Chaque société verse une commission mensuelle à une huitième structure. Depuis six ans. Toujours le même jour, toujours le même pourcentage.
+— Chaque mois, les sept sociétés versent un petit pourcentage à une huitième. Toujours le même jour, toujours le même montant. Depuis six ans.
 
-— Elle nous volait ?
+— Elle nous volait ?
 
-Bruno me regarda comme on regarde un enfant qui vient de dire une énormité.
+Bruno me regarde comme on regarde un gamin qui vient de dire une énorme bêtise à table.
 
-— Non, Salvatore. Elle nous *protégeait*. Cette huitième structure, c'est une caisse de réserve. Elle a couvert la saisie de la villa en 2021. Elle a payé les avocats de ton cousin Nino. Elle a racheté la dette du port avant que les Rocchi ne mettent la main dessus. Trois fois, cette famille a failli tomber, et trois fois, personne n'a rien vu, parce qu'elle était déjà debout à quatre heures du matin en train de tout ramasser.
+— Non, Salvatore. Elle nous protégeait. Cette huitième société, c’est une caisse de réserve. De l’argent mis de côté, au cas où. Tu te souviens quand la banque voulait saisir la villa, il y a cinq ans ? C’est cette caisse qui a payé. Les avocats de Nino, quand il a été arrêté ? Cette caisse. La dette du port, que les Rocchi allaient racheter pour nous étrangler ? Cette caisse. Trois fois, la famille a failli tomber. Trois fois, personne n’a rien vu. Parce qu’elle était debout à quatre heures du matin pour tout ramasser.
 
-Je restai silencieux.
+Je ne dis rien. Je regarde les colonnes.
 
-— Et maintenant ? demandai-je enfin.
+— Et maintenant ? je finis par demander.
 
-— Maintenant, les virements se sont arrêtés vendredi soir. Parce que la seule signataire de cette caisse, c'est elle.
+— Maintenant, les versements se sont arrêtés mardi soir. Et il n’y a qu’elle qui puisse signer sur cette caisse.
 
-Je passai la journée dans son bureau.
+— Qui l’a enregistrée ?
 
-Je crois que je cherchais des chiffres. En réalité, je cherchais elle. Une trace. Un mot. Un carnet.
+— Je n’en sais rien. Pas Vasari, en tout cas. Vasari n’aurait jamais eu un secret pour ton père.
 
-Il n'y avait rien. Pas une photo, pas un objet personnel, pas une écriture en marge. Six ans dans cette pièce et elle n'y avait laissé aucune preuve de son passage, comme quelqu'un qui savait, depuis le premier jour, qu'il faudrait pouvoir partir vite.
+Je note. Personne, dans cette maison, n’imagine Vasari avec un secret.
 
-Dans le tiroir du bas, une seule chose : un flacon de médicaments contre la douleur, prescrit le 19 mars, presque vide.
+---
 
-Le 19 mars. Deux jours après le port.
+Je passe la journée dans son bureau.
 
-Je restai longtemps avec ce flacon dans la main.
+Je me dis que je cherche des chiffres. Un code, un mot de passe, une note. En vrai, je la cherche, elle. N’importe quelle trace. Un carnet. Une photo. Un mot écrit dans une marge.
 
-Je me souvins, enfin, de ce que j'avais fait ce soir-là. Le gâteau. Les bougies. La main de Serena sur la mienne pour couper la première part, et mon téléphone qui vibrait encore et encore sur la desserte, et moi qui l'avais retourné face contre le bois parce que « ça peut attendre demain ».
+Il n’y a rien.
 
-Quatorze appels.
+Pas une photo. Pas un objet. Pas une tasse avec son prénom dessus. Six ans dans cette pièce et elle n’a rien laissé d’elle, pas même l’odeur de son parfum. Elle savait depuis le premier jour qu’il faudrait partir vite.
 
-Je posai le flacon. Je sortis du bureau. Dans le couloir, je croisai Enzo, qui détourna les yeux.
+Qu’est-ce que ça dit de moi, ça ? Qu’elle ait vécu six ans dans ma maison comme dans une chambre d’hôtel ?
+
+Je ne veux pas répondre à cette question. Je commence à répondre quand même, et je m’arrête à la moitié, parce que la réponse commence par « elle n’a rien laissé parce que » et qu’après ce « parce que » il n’y a que des phrases dont je suis le sujet.
+
+Dans le tiroir du bas, sous une pile de chemises vides, je ne trouve qu’une chose.
+
+Un flacon de médicaments. Des antidouleurs. Presque vide.
+
+L’étiquette de la pharmacie porte une date. *19 mars.*
+
+Deux jours après le quai nord.
+
+Je m’assois dans son fauteuil, le flacon dans la main. Il est léger. Il fait un petit bruit quand je le secoue, les trois derniers comprimés qui roulent contre le plastique.
+
+Le 17 mars.
+
+*Toi, tu le sais. Tu as décroché.*
+
+Et d’un coup, ça revient.
+
+Ça me frappe comme une gifle.
+
+Le restaurant sur la plage de Marina, à vingt minutes de la ville. L’anniversaire de Serena. Ma mère avait tout organisé, les fleurs, le gâteau à trois étages, les amis de Serena que je ne connaissais pas. Il y avait de la musique, on riait fort, et mon téléphone n’arrêtait pas de vibrer sur la desserte.
+
+Encore. Et encore. Et encore.
+
+Je l’ai retourné face contre le bois. *Ça peut attendre demain.*
+
+Il a continué à vibrer. Contre le bois, ça faisait un bruit de guêpe coincée. Serena m’a regardé. Ma mère m’a regardé. Et à un moment, pour que ça s’arrête, j’ai décroché sans regarder l’écran, juste au moment où Serena venait me chercher pour le gâteau.
+
+*J’arrive, mon cœur. Une minute.*
+
+Et j’ai raccroché.
+
+Mes mains sont moites. Je pose le flacon sur la table. Je sors mon téléphone. Je fais défiler l’historique des appels, en arrière, en arrière, des semaines, des mois, mes doigts qui glissent sur l’écran, jusqu’au 17 mars.
+
+Et je les vois.
+
+*Livia — appel manqué. 22 h 31.*
+
+*Livia — appel manqué. 22 h 33.*
+
+*Livia — appel manqué. 22 h 34.*
+
+Une colonne entière. Son prénom, encore et encore, en rouge. Quatorze fois.
+
+Et en dessous, en noir, la quinzième.
+
+*Livia — 0:04.*
+
+Quatre secondes.
+
+Je reste là, dans son fauteuil, avec l’écran allumé dans la main, et je n’arrive plus à respirer normalement.
+
+Elle était en train de se vider de son sang. Elle m’a appelé quatorze fois. Et quand j’ai enfin décroché, c’est « mon cœur » qu’elle a entendu. Pour une autre.
+
+Et après ? Qu’est-ce que j’ai fait, après ? Je suis rentré à deux heures du matin. Le matin, j’ai vu la notification. Je l’ai balayée du pouce. Trois jours plus tard, elle avait le bras en écharpe et elle m’a parlé d’un escalier de parking, et moi, j’ai dit « Fais attention ».
+
+*Fais attention.*
+
+J’ai envie de casser quelque chose. J’ai envie de hurler. Je ne fais rien. Je reste assis dans le fauteuil de ma femme, dans le bureau vide de ma femme, et je regarde son prénom répété quatorze fois en rouge sur un écran.
+
+Je l’ai épousée en secret pour que personne ne puisse me la prendre. C’est ce que je lui ai dit, dans la chapelle. Et c’est ce que j’avais promis à mon père, le dernier soir, quand il m’a serré le poignet si fort que j’ai eu des marques pendant deux jours. *Personne ne doit savoir, Salvatore. Personne.* J’ai tenu parole. C’est la seule promesse que j’ai tenue.
+
+Personne ne l’a su. Pas même moi, quand elle saignait sur une table.
+
+J’appuie sur son prénom.
+
+Ça sonne. Une fois. Deux fois. Trois fois. Mon cœur cogne si fort que je l’entends dans le combiné.
+
+*« Vous êtes bien sur la messagerie de Livia Sarti. »*
+
+Sarti. Pas Castellano. Évidemment. Elle ne s’est jamais appelée Castellano nulle part, même pas sur son répondeur. C’est moi qui l’ai voulu.
+
+Je raccroche. Je rappelle.
+
+Messagerie.
+
+Je rappelle une troisième fois, et au bout de la deuxième sonnerie, je raccroche moi-même, le pouce tremblant, parce que je ne supporte pas d’entendre encore sa voix enregistrée me dire qu’elle n’est pas là.
+
+Trois appels. Je n’ai pas tenu plus de trois appels.
+
+Elle, elle a tenu jusqu’à quinze. Avec une balle sous la clavicule.
+
+Je pose le téléphone à l’envers sur son bureau. Face contre le bois. Et je le regarde comme si c’était une bête qui allait me mordre.
+
+---
+
+À six heures du soir, je sors enfin du bureau.
+
+Dans le couloir, je tombe sur Enzo. Il porte une pile de dossiers contre sa poitrine, comme un bouclier. Quand il me voit, il détourne les yeux.
+
+Enzo détourne toujours les yeux. Mais pas comme ça. Pas aussi vite.
 
 — Enzo.
 
 — Don Castellano.
 
-— Tu lui parles encore ?
+— Tu lui parles encore ?
 
-Un silence d'une seconde de trop.
+Un silence. Court. Assez pour que je comprenne.
 
 — Non, monsieur.
 
-Il mentait. Je le sus immédiatement, et je décidai immédiatement de ne pas le lui dire, parce que cela signifiait que j'avais encore un fil qui menait jusqu'à elle.
+Il ment.
 
-Ce que je ne savais pas, c'est qu'à cette seconde précise, à l'autre bout de la ville, Livia venait de comprendre exactement la même chose au sujet d'Enzo.
+Je le sais tout de suite. Enzo a toujours été un très mauvais menteur, c’est même pour ça que mon père l’a gardé : il disait qu’on peut faire confiance à un homme qui rougit. Il est rouge jusqu’aux oreilles. Ses lunettes glissent sur son nez et il n’ose pas les remonter.
 
-Et qu'elle avait pris une décision différente de la mienne.
+Il lui parle. Il sait où elle est. Il sait comment elle va.
+
+La colère monte d’un coup. Toute la journée qui remonte. Les quatorze lignes rouges, le flacon, la messagerie de « Livia Sarti ».
+
+Je l’attrape par la cravate.
+
+Je le plaque contre le mur du couloir, si fort que les dossiers lui tombent des bras et s’éparpillent par terre. Sa tête cogne contre un cadre. Le cadre tombe aussi. Il ne se défend pas. Il ferme les yeux et il attend le coup.
+
+Mon père faisait ça. Je l’ai vu faire cent fois, quand j’étais gamin, caché derrière une porte. Je me suis juré que je ne le ferais jamais.
+
+Je le fais.
+
+Et ce n’est même pas que je perde le contrôle — c’est que le geste était déjà prêt, rangé quelque part depuis trente ans, et qu’il n’attendait qu’une journée comme celle-là pour sortir tout seul.
+
+— Tu me mens, Enzo. Dans ma maison. En face.
+
+— Pardon, monsieur. Pardon.
+
+Il tremble. Ses lunettes pendent de travers sur son nez. Il pue la peur.
+
+Et c’est cette odeur-là qui m’arrête. Je me vois. Je vois mon père. Je desserre les doigts.
+
+Parce que derrière la colère, il y a autre chose, de plus bête et de plus urgent. Enzo, c’est un fil. Le seul qui me reste, et il mène jusqu’à elle.
+
+Je lui lâche la cravate. Je la lisse, même, du plat de la main, sur sa chemise. Il ne respire plus.
+
+— D’accord, Enzo. Tu ne lui parles pas.
+
+Il ouvre les yeux, surpris. Il s’attendait à autre chose.
+
+— Mais la prochaine fois que tu ne lui parles pas, tu viens me raconter ce qu’elle ne t’a pas dit. D’accord ?
+
+Il ouvre la bouche. Il la referme.
+
+— Oui, monsieur.
+
+— Et Enzo.
+
+— Oui ?
+
+Je pense aux quatorze lignes rouges. À un escalier de parking qui n’a jamais existé.
+
+— Demande-lui si elle dort.
+
+---
