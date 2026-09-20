@@ -64,27 +64,27 @@
     },
     {
      "n": 8,
-     "t": "La maison du lac",
+     "t": "La maison de la lagune",
      "pov": "Livia",
-     "mots": 498
+     "mots": 1744
     },
     {
      "n": 9,
-     "t": "Sept ans",
+     "t": "Dix ans",
      "pov": "Damiano",
-     "mots": 346
+     "mots": 1665
     },
     {
      "n": 10,
      "t": "Conditions",
      "pov": "Livia",
-     "mots": 454
+     "mots": 1476
     },
     {
      "n": 11,
      "t": "Ce que je ne comprenais pas",
      "pov": "Salvatore",
-     "mots": 478
+     "mots": 1652
     },
     {
      "n": 12,
@@ -274,7 +274,7 @@
      "a": 5
     },
     {
-     "url": "data-castellano-p2.json?v=e69f800d",
+     "url": "data-castellano-p2.json?v=cc2e0c91",
      "de": 6,
      "a": 11
     },
