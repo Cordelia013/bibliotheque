@@ -5,12 +5,7 @@ name: Publier la bibliothèque
 # de texte de docs/, puis les EPUB, vérifie le tout et commite le résultat.
 # GitHub Pages redéploie ensuite de lui-même, en une minute environ.
 #
-# Ce fichier remplace scripts/workflow-epub.yml, dont il reprend l'étape EPUB.
-#
-# ⚠ Pour être pris en compte par GitHub, il doit être déplacé vers
-#   .github/workflows/publication.yml — à la main, depuis l'interface web ou en
-#   ligne de commande : les jetons d'API n'ont pas le droit d'écrire dans
-#   .github/workflows/. Voir scripts/README.md.
+# Peut aussi être lancé à la main depuis l'onglet Actions. Voir scripts/README.md.
 on:
   push:
     branches: [main]
