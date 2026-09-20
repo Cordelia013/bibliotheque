@@ -160,27 +160,27 @@
     },
     {
      "n": 24,
-     "t": "Le calcul de mon père",
-     "pov": "Damiano",
-     "mots": 547
+     "t": "Quarante-huit heures",
+     "pov": "Salvatore",
+     "mots": 1427
     },
     {
      "n": 25,
-     "t": "Le figuier",
+     "t": "La photographie",
      "pov": "Livia",
-     "mots": 492
+     "mots": 1397
     },
     {
      "n": 26,
-     "t": "La table de cuisine",
-     "pov": "Salvatore",
-     "mots": 637
+     "t": "La cuillère",
+     "pov": "Livia",
+     "mots": 1497
     },
     {
      "n": 27,
-     "t": "Ce qu'il aurait dû dire",
-     "pov": "Livia",
-     "mots": 651
+     "t": "Ce que ma mère a fait",
+     "pov": "Salvatore",
+     "mots": 1487
     },
     {
      "n": 28,
@@ -284,12 +284,12 @@
      "a": 17
     },
     {
-     "url": "data-castellano-p4.json?v=094bb308",
+     "url": "data-castellano-p4.json?v=9667f49f",
      "de": 18,
      "a": 23
     },
     {
-     "url": "data-castellano-p5.json?v=d03f2434",
+     "url": "data-castellano-p5.json?v=930c7101",
      "de": 24,
      "a": 29
     },
