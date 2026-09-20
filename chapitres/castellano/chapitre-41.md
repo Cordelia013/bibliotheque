@@ -1,0 +1,251 @@
+# Le Prix du Silence, Don Castellano
+
+## Chapitre 41 — Lundi, neuf heures douze
+
+*POV Livia*
+
+Enzo témoigne quatre fois.
+
+La quatrième, en décembre, au procès de Gianfranco Ferraro, dure six heures. Et elle le détruit.
+
+L’avocat de la défense fait ce que font les avocats de la défense. Il transforme un homme de trente-neuf ans qui n’a jamais rien décidé de sa vie en homme qui a tout décidé. Un manifeste glissé dans un courrier. Un horaire de ronde donné. Un appel passé à une femme, à dix heures vingt, un mercredi soir. Une femme morte à onze heures.
+
+Chaque fait est vrai. L’avocat ne ment jamais. Et pourtant, à la fin, le portrait qu’il a dessiné ne ressemble pas à Enzo. Il ressemble à un monstre.
+
+À la suspension, deux carabiniers l’accompagnent aux toilettes du tribunal. Il vomit. Enzo est en détention depuis un an, et il en a encore pour des mois. Le président m’accorde cinq minutes avec lui, sur un banc en bois dur, dans le couloir, sous un portrait de juge du dix-neuvième siècle et sous l’œil des carabiniers.
+
+Il revient. Il s’assoit à côté de moi. Il a les yeux rouges.
+
+— Ils vont me condamner, dit-il.
+
+— Probablement. Deux ans, peut-être trois. Moins, avec ta coopération.
+
+— Deux ans.
+
+Il met ses coudes sur ses genoux. Il regarde le carrelage.
+
+— Tu sais ce qui est le plus dur ? Ce n’est pas la prison. C’est que pendant six heures, un homme a raconté ma vie, et tout ce qu’il a dit était vrai. Chaque fait. Chaque date. Et pourtant ce n’était pas moi.
+
+— Si, Enzo. C’était toi.
+
+Il relève la tête. Il a l’air blessé. Comme un chien qu’on a frappé sans raison.
+
+— Tu pourrais me mentir, aujourd’hui. Juste aujourd’hui.
+
+— Non. Ça, je ne peux pas. Parce que c’est ce que tout le monde t’a fait pendant vingt ans. Arranger la vérité pour que tu restes utile.
+
+Je lui prends la main. Elle est moite.
+
+— Tu as transmis des horaires qui ont failli me tuer. C’est vrai. Tu as appelé Serena. C’est vrai. Et tu as aussi été la seule personne de cette maison à venir me voir quand j’étais partie. Et tu es entré dans un commissariat, en sachant ce que ça te coûterait. Les deux sont vrais, Enzo. Tu vas devoir apprendre à porter les deux. Personne ne peut le faire à ta place.
+
+Il pleure un peu. Discrètement. Comme il fait tout.
+
+— Qu’est-ce que je vais faire, après ?
+
+— Tu as vingt ans d’expérience en organisation. Une mémoire que je n’ai jamais vue chez personne. Quand tu sortiras, tu viendras me voir.
+
+Il me regarde comme si je venais de le gifler.
+
+— Tu… tu m’embaucherais ?
+
+— Non. Je te ferai passer un entretien. Comme à tout le monde. Avec Chiara Belloni, une auditrice que j’ai recrutée le mois dernier et qui fait pleurer les directeurs financiers. Elle sera dure. Si tu es bon, tu auras un poste. Et un contrat écrit, avec une fiche de fonction. Et personne ne te demandera plus jamais de rendre un service qui n’est pas écrit sur cette fiche.
+
+Il regarde la fiche. Il ne dit rien.
+
+— Livia.
+
+— Oui ?
+
+— Est-ce que tu me pardonnes ?
+
+Je réfléchis. Pour de vrai. Il mérite une vraie réponse.
+
+— Pas encore, je dis. Mais je ne t’ai pas lâché. Et je ne compte pas le faire. Chez moi, c’est plus rare que le pardon.
+
+---
+
+Le lendemain, c’est mon tour. La cour d’assises, avec ses deux juges en robe et ses six jurés populaires en écharpe tricolore.
+
+Je témoigne pour l’enlèvement de mon père. Pour la conciergerie. Pour Serena, que j’ai trouvée dans une flaque. Le procureur Aldini me pose ses questions d’une voix de moine, et je réponds comme j’ai appris à répondre : court, exact, sans adjectifs. Une heure dix. Je ne regarde pas Gianfranco Ferraro, dans son box, en costume gris. Je sens qu’il me regarde, lui.
+
+Puis l’avocat de la défense se lève.
+
+Maître Gherardi. Soixante ans, une voix douce, des lunettes demi-lune. Celui qui a détruit Enzo hier. Il me remercie pour ma précision. Il dit qu’il va être bref. Il ne l’est jamais.
+
+— Madame Sarti. Le lundi 23 novembre de l’année dernière, à neuf heures douze, vous avez déposé une lettre au greffe du parquet. Pouvez-vous confirmer ?
+
+— Je confirme.
+
+— Cette lettre annonçait un pli. Dans ce pli, il y avait une clé USB. Sur cette clé, la voix de Serena Vitale. Quinze minutes et douze secondes, où elle se désigne elle-même comme informatrice des Ferraro.
+
+— Oui.
+
+Il hoche la tête, poliment. Il prend une feuille dans son dossier. Une photocopie. Une page de petit carnet, avec une écriture ronde, un peu serrée, que je reconnais avant même qu’il la montre à la cour.
+
+— Pièce 214, dit-il. Saisie par la police dans l’appartement de Mme Vitale, près de la gare. Dernière entrée, datée du samedi 21 novembre. Je lis : « Vu L. S. Tout donné. L. a promis jeudi. Je la crois. »
+
+La salle bouge. Un froissement. Des têtes qui se tournent.
+
+Je n’ai jamais lu cette pièce. Je n’ai jamais demandé l’accès au dossier. J’étais seulement témoin. Et je ne voulais pas savoir ce qu’il y avait dans l’appartement près de la gare.
+
+— Madame Sarti. Mme Vitale vous avait-elle demandé d’attendre le jeudi ?
+
+Je sens mon visage. Chaque muscle. Je les tiens un par un.
+
+— Oui.
+
+— Le lui aviez-vous promis ?
+
+— Oui.
+
+— Et vous avez déposé sa voix au parquet le lundi.
+
+— Oui.
+
+Il lit ensuite deux lignes de la déposition du greffier Fontana, et c’est là que je comprends que je n’oublierai jamais ce nom-là. *L’homme m’avait dit qu’il voulait juste savoir qui accusait sa famille. J’ai cru que je vendais un nom sur une enveloppe. Douze cents euros. Ma fille avait des frais de scolarité en retard.*
+
+— Le greffier Fontana, qui a reçu ce pli, est aujourd’hui mis en examen pour corruption. Il a reconnu avoir transmis l’enregistrement le soir même à un intermédiaire des Ferraro. Je ne dis pas que mon client a ordonné quoi que ce soit, madame. Je dis seulement que la mort de Serena Vitale a commencé un lundi matin, à neuf heures douze, par une promesse que quelqu’un n’a pas tenue. Et que ce quelqu’un n’est pas dans le box.
+
+— Objection, dit Aldini.
+
+— Je retire, dit Gherardi, doucement. Je n’ai plus de questions.
+
+Il se rassoit.
+
+Je ne bouge pas. Le président me dit que je peux regagner ma place. Je l’entends de très loin. Je me lève. Je marche. Mes talons font un bruit normal sur le carrelage. Je le sais parce que je les écoute.
+
+Je ne pleure pas. Il y a quarante personnes dans cette salle, et des journalistes, et Ferraro dans son box. Je ne leur donnerai pas ça.
+
+Et c’est en revenant à ma place que je le vois.
+
+Salvatore. Au quatrième rang, côté parties civiles, avec Bruno. Il est venu pour les onze millions. Il a son visage de réunion.
+
+Il n’est pas surpris.
+
+Tout le monde, dans cette salle, a eu un mouvement. Un sursaut. Un froissement. Pas lui. Il a juste baissé les yeux sur ses mains. Comme un homme qui entend enfin à voix haute une phrase qu’il connaît par cœur.
+
+Il relève les yeux. Il croise les miens.
+
+Et je sais.
+
+---
+
+Je vais à la villa à huit heures du soir. Je sonne. C’est lui qui ouvre. Il n’y a plus de domestique depuis l’été.
+
+Il ne me demande pas pourquoi je suis là. Il s’efface pour me laisser entrer.
+
+La bibliothèque. Le fauteuil de son père. Les dossiers du trimestre empilés sur la table, avec des annotations au crayon. Son écriture a changé. Elle est plus petite.
+
+Je reste debout.
+
+— Depuis quand ?
+
+Il ne fait pas semblant de ne pas comprendre. Ça, je le lui reconnais, ce soir.
+
+— Depuis Ferraro. Le jour de la conciergerie. Il me l’a dit à la porte de son bureau, pour me faire mal.
+
+— Le lendemain du figuier.
+
+— Oui.
+
+— Douze mois.
+
+— Douze mois.
+
+— Cette nuit-là, dans le salon de mon père, tu m’as tout dit. Ton père. La chapelle. Ta peur. Je t’ai cru.
+
+— Ce soir-là, c’était vrai. Le lendemain, ça ne l’était plus.
+
+— Et tu as décidé.
+
+— J’ai décidé.
+
+— Pourquoi ?
+
+Il met longtemps. Il regarde ses mains. Puis il me répond sans les lever.
+
+— Parce que ce jour-là, tu étais dans une cave avec ton père, et que si je te l’avais dit, tu te serais arrêtée. Parce qu’ensuite il y a eu le micro, et le procès, et que tu étais la seule qui tenait tout. Parce qu’à l’enterrement de ma mère, tu étais venue, et je n’ai pas pu. Parce qu’il y avait toujours une bonne raison. Toujours.
+
+Il relève les yeux.
+
+— Et parce que j’avais peur que tu me regardes comme tu me regardes maintenant.
+
+Je ris. Un son affreux, qui ne ressemble à rien.
+
+— Tu as fait ce que ton père a fait. Ce que mon père a fait. Ce que Damiano a fait. Cacher. Pour me protéger. Vous êtes toujours quatre. Toi, deux fois.
+
+— Oui.
+
+— Et moi…
+
+Je m’arrête.
+
+Parce que la phrase qui vient ensuite, je ne peux pas la dire debout.
+
+Et moi, j’ai fait pire que vous quatre. Moi, je n’ai rien caché. J’ai fait un calcul. À minuit. Par terre, dans un appartement sous les toits, avec du café. Trois jours contre onze millions. Et j’ai eu raison sur les onze millions. J’avais raison. Les comptes ont été gelés le mardi. Tout ce qui a suivi, tout, le procès, la chute des Ferraro, le nom de Paolo dit à voix haute, tout est sorti de ce calcul-là.
+
+Et elle est morte le mercredi.
+
+Il manquait une ligne à ma colonne. Une seule. Un greffier de tribunal, douze cents euros, des frais de scolarité en retard, un nom lu sur une enveloppe un lundi matin à neuf heures douze et revendu le soir même — j’ai passé cette nuit-là à peser le bureau d’Aldini qui ne fuit pas, ce que tout le monde dit, ce que mon père dit, et je n’ai pas pensé une seule seconde à l’homme qui tamponne les heures.
+
+*Je la crois.*
+
+Mes jambes cèdent.
+
+Je glisse, le dos contre les rayonnages, jusqu’au tapis. Des livres de droit maritime me rentrent dans les omoplates. Je ne les sens pas.
+
+Et ça sort.
+
+Quelque chose de plus bas que les larmes, de plus vieux. Un bruit que je n’ai jamais fait. Un bruit d’animal, comme celui de ma mère le soir où mon père a vu ma cicatrice. Je me plie en deux sur le tapis de la bibliothèque des Castellano, les bras autour de moi, et je ne peux plus m’arrêter. Tout ce que j’ai tenu pendant deux ans. La balle. Les quatorze appels. La flaque. La cave. Nando dans les orties. Tout. Ça sort par la bouche, par les yeux, par le ventre.
+
+Je ne sais pas combien de temps.
+
+Salvatore ne me touche pas. Il sait qu’il n’en a pas le droit. Il s’assoit par terre, lui aussi, de l’autre côté du tapis. Un mètre entre nous. Il ne dit rien. Il ne me dit pas que ce n’est pas ma faute. S’il l’avait dit, je crois que je l’aurais tué.
+
+Il reste là. C’est tout.
+
+Quand je peux de nouveau respirer, il est plus de dix heures. Il a les yeux rouges. Je ne l’ai jamais vu comme ça.
+
+Je reste par terre. Il y a une chose que je lui dois, et je vais la dire mal.
+
+— Elle avait posé deux conditions. Au bureau, le samedi.
+
+Il ne bouge pas.
+
+— La première, tout le monde la connaît, maintenant. La seconde, c’était toi. Elle a dit : il ne doit jamais savoir que c’est moi qui vous ai donné ça. Laissez-lui une femme, dans cette histoire, qu’il puisse se rappeler sans honte.
+
+Le silence dure.
+
+— J’ai préparé cette audience toute la nuit sur la première, je dis. C’est la seconde que Gherardi a fait tomber. Je ne l’avais même pas vue venir.
+
+Il regarde le tapis.
+
+— Je savais que c’était elle, dit-il enfin. Depuis un an. Ferraro me l’a dit pour me faire mal.
+
+— Le savoir dans un couloir, ce n’est pas l’entendre lire à voix haute, avec son carnet photocopié dans les mains d’un avocat.
+
+— Non, dit-il. Ce n’est pas la même chose.
+
+Il ne me dit pas qu’elle n’avait pas à me demander ça. Il ne me dit pas que ce n’est pas grave. Il fait pire.
+
+— Merci de me l’avoir dit.
+
+Et je comprends ce qu’elle avait vu de lui, que je n’avais jamais vu. Elle lui laissait la seule chose qu’on pouvait encore lui laisser. Et c’est moi qui la lui ai reprise.
+
+— Qui tu veux que j’appelle ? demande-t-il.
+
+Je ne réponds pas. Je ne peux pas.
+
+Il sort son téléphone. Il cherche un numéro. Je vois le nom sur l’écran, à l’envers. Je sais lire à l’envers, moi aussi. Enzo me l’a appris.
+
+*Rocchi.*
+
+Il appuie.
+
+— C’est Castellano, dit-il. Elle est chez moi. Elle a besoin de toi. Viens.
+
+Il raccroche. Il repose le téléphone sur le tapis, entre nous.
+
+— Je lui devais bien ça, dit-il. Je te devais bien ça. Je ne sais pas lequel des deux.
+
+---
