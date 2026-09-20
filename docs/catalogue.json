@@ -279,10 +279,34 @@
      "mots": 2263
     },
     {
+     "n": 42,
+     "t": "Ce qu’on porte",
+     "pov": "Damiano",
+     "mots": 1656
+    },
+    {
+     "n": 43,
+     "t": "La condition",
+     "pov": "Damiano",
+     "mots": 1846
+    },
+    {
      "n": 44,
      "t": "La virgule de la page onze",
      "pov": "Salvatore",
      "mots": 704
+    },
+    {
+     "n": 45,
+     "t": "Le figuier, encore",
+     "pov": "Livia",
+     "mots": 2230
+    },
+    {
+     "n": 46,
+     "t": "Onze noms",
+     "pov": "Livia",
+     "mots": 1309
     }
    ],
    "morceaux": [
@@ -322,9 +346,9 @@
      "a": 41
     },
     {
-     "url": "data-castellano-p8.json?v=c287e9cc",
+     "url": "data-castellano-p8.json?v=669ab54a",
      "de": 42,
-     "a": 43
+     "a": 47
     }
    ],
    "personnages": [
