@@ -1,87 +1,223 @@
 # Le Prix du Silence, Don Castellano
 
-## Chapitre 13 — La vente
+## Chapitre 13 — Trois heures du matin
 
-*POV Livia*
+*POV Damiano*
 
-La maison de ventes Aldrovandi tenait sa vacation d'automne le premier jeudi d'octobre. Lot 47 : un collier en or et grenat, milieu du siècle dernier, provenance « collection privée ».
+Les lasagnes de Graziella Sarti sont les meilleures de toute la Romagne, et je ne l’ai dit à personne, parce que ma grand-mère se retournerait dans sa tombe.
 
-Je connaissais ce collier. Ma mère l'avait porté à son mariage. Mon père l'avait vendu en 2003 pour payer les hommes qui devaient protéger la maison après l'affaire du port.
+J’en ai mangé trois parts. Trois. Graziella m’a regardé manger avec l’air d’une femme qui vient de gagner une guerre.
 
-Je ne l'avais pas revu depuis vingt-trois ans.
+Livia, elle, n’a presque rien mangé. Elle m’a regardé pendant tout le repas comme si j’étais une bombe qu’on avait posée sur la nappe de sa mère.
 
-— Vous êtes sûre de vouloir y aller ? demanda Damiano dans la voiture.
+Et Aurelio Sarti n’a rien dit du tout. Jusqu’au café.
 
-— Vous m'avez fait chercher ce collier pendant six semaines.
+Au café, il m’a demandé de l’aider à porter les tasses dans la cuisine. Il n’y avait que quatre tasses. Il n’avait pas besoin d’aide.
 
-— Je vous ai fait chercher un collier. Je ne vous ai pas demandé d'aller le reprendre dans la même salle que lui.
+Dans la cuisine, il a fermé la porte. Il m’a regardé avec ses yeux de comptable, derrière ses grosses lunettes.
 
-Car Salvatore serait là. Les Castellano avaient trois lots en vente ce soir-là — des lots que personne ne met en vente publique quand tout va bien.
+— Tu ressembles à ton frère, a-t-il dit.
 
-La salle était pleine. Nous étions en loge, au premier balcon. Lui était en bas, au troisième rang, avec Serena à sa droite et Bruno derrière.
+J’ai failli lâcher les tasses.
 
-Il me vit à l'instant où je m'assis. Je le sus sans le regarder.
+Personne ne me parle de Paolo. Personne. Même pas mon père. Surtout pas mon père.
 
-Les lots défilèrent. Le service en argent des Castellano partit à moitié prix. La collection de montres de son père, à un tiers. Chaque coup de marteau était un os qui cassait, et toute la ville, dans cette salle, comptait les fractures.
+— Vous l’avez connu ?
 
-Lot 47.
+— Il venait jouer ici, quand vous étiez petits. Tu ne t’en souviens pas, tu avais quatre ou cinq ans. Il grimpait dans le figuier. Il volait les figues avant qu’elles soient mûres et il les jetait sur le chat.
 
-Le commissaire-priseur ouvrit à quatre mille.
+Il a posé les tasses dans l’évier.
 
-Je levai ma raquette.
+— Je voulais que tu le saches. Qu’il y a quelqu’un d’autre que ton père qui se souvient de lui.
 
-Un murmure parcourut la salle — pas pour le prix, mais parce que tout le monde venait de comprendre que Livia Sarti enchérissait en public, sous son nom, aux côtés d'un Rocchi, pour la première fois.
+Je n’ai rien répondu. Je ne pouvais pas.
 
-Et alors, en bas, Salvatore leva la sienne.
+Et en revenant dans la salle à manger, j’ai croisé le regard de Livia, et j’ai compris qu’elle savait exactement ce qu’on s’était dit. Elle n’a rien demandé.
 
-Je me tournai vers lui. Il me regardait. Il n'avait aucune idée de ce qu'était ce collier — il n'avait jamais rencontré ma mère en robe de mariée, il n'avait jamais demandé.
+Elle a juste posé une quatrième part de lasagnes dans mon assiette.
 
-Il enchérissait parce que c'était moi.
+---
 
-Six mille. Huit. Douze. Vingt.
+Quatre jours plus tard, il est trois heures du matin et on est encore au bureau.
 
-À trente mille, Bruno posa la main sur son bras et Salvatore la retira d'un geste sec, comme on chasse une mouche.
+On prépare le dossier du port. Des centaines de pages. Des baux, des cartes, des relevés de sociétés luxembourgeoises. Livia a étalé tout ça sur la grande table de réunion, en petits tas bien droits, avec des post-it de trois couleurs que je n’ai pas le droit de toucher.
 
-À quarante-cinq mille, la salle ne respirait plus.
+— Jaune, c’est les Ferraro, m’a-t-elle expliqué vers minuit. Rose, c’est les Castellano. Vert, c’est vous.
 
-Damiano se pencha vers moi.
+— Pourquoi on est en vert ?
 
-— Il n'a pas cet argent.
+— Parce que vous êtes les seuls que je n’ai pas encore compris.
 
-— Je sais.
+Elle a dit ça sans lever la tête. J’ai passé une heure à me demander si c’était un compliment.
 
-— Vous pouvez vous arrêter. Je le rachèterai à celui qui l'emportera, la semaine prochaine, pour la moitié.
+À trois heures, j’ai faim. Tellement faim que je vois des spaghettis danser sur les baux.
 
-— Je sais ça aussi.
+— Vous avez mangé ? je demande.
 
-Je levai ma raquette une dernière fois. Cinquante mille.
+— Un yaourt. Vers huit heures.
 
-Et en bas, Salvatore leva la main — puis s'arrêta à mi-hauteur.
+— Un yaourt. Votre mère va me tuer.
 
-Il la garda là, suspendue, pendant trois secondes qui durèrent un an. Je vis son visage. Je vis le calcul, encore, l'éternel calcul, et je vis le moment exact où le chiffre l'emporta sur tout le reste.
+Je me lève. Je vais dans la petite cuisine du fond, celle qui ne sert à rien, celle où je suis venu m’accrocher à l’évier le premier jour. J’y ai rangé quelques trucs depuis. Des pâtes. Une bouteille d’huile. De l’ail. Un piment séché. Je ne sais pas trop pour qui. Si, je sais.
 
-Sa main redescendit.
+Je fais des spaghettis à l’ail et au piment. Le plat des étudiants et des gens désespérés. Je les apporte dans deux assiettes dépareillées, avec du parmesan que j’ai volé chez mon père.
 
-— Adjugé, dit le commissaire.
+Elle regarde l’assiette. Elle me regarde.
 
-Je récupérai le collier au guichet, dans une boîte plate. Il m'attendait dans le hall, près des portes, seul — Serena était déjà dehors.
+— Vous cuisinez.
 
-— Qu'est-ce que c'était ? demanda-t-il.
+— Je cuisine trois choses. Celle-là, et deux autres que je vous montrerai si vous êtes sage.
 
-— Le collier de mariage de ma mère.
+Elle goûte. Elle ferme les yeux.
 
-Il devint très pâle.
+— C’est dégoûtant de bon, dit-elle.
 
-— Je ne savais pas.
+— Merci.
 
-— Non, dis-je. Tu n'as jamais rien su. Ce n'est pas un reproche, Salvatore, c'est un constat : en six ans, tu ne m'as jamais posé une seule question dont la réponse ne t'était pas utile.
+— Vous avez mis beaucoup trop de piment.
 
-Je passai devant lui.
+— Je sais. C’est pour que vous ne puissiez pas parler en mangeant. Vous parlez trop de dossiers.
 
-— Livia.
+Et là, elle rit.
 
-Je m'arrêtai.
+Un vrai rire. La tête en arrière. Le même qu’au café de l’hôtel, à Milan, il y a dix ans.
 
-— Je serais monté à cent mille, dit-il. Si j'avais su.
+Je reste figé avec ma fourchette en l’air.
 
-— C'est bien le problème. Tu ne montes que quand tu sais ce que tu achètes.
+Elle s’arrête de rire. Elle me regarde bizarrement.
+
+— Quoi ?
+
+— Rien. Vous avez de la sauce sur le menton.
+
+C’est faux. Elle n’en a pas. Mais elle s’essuie quand même, et elle me lance un regard noir, et je souris dans mes spaghettis.
+
+---
+
+Vers quatre heures, elle s’endort.
+
+Elle s’endort assise, la joue posée sur un bail de 2019, un post-it jaune collé sur la tempe. Elle respire doucement. Ses cheveux se sont détachés.
+
+Je devrais la réveiller. Je ne la réveille pas. Je la regarde dormir comme un pervers, pendant deux minutes, trois minutes. Je ne suis pas fier de moi.
+
+Le col de son chemisier a glissé. Je vois la cicatrice. En entier, cette fois. Elle part de la clavicule et descend en biais, rose, épaisse, avec les petites marques des points de suture de chaque côté, comme une fermeture éclair.
+
+J’ai payé ça.
+
+Et je reste là à la regarder respirer, à compter les points parce qu’il faut bien compter quelque chose quand on n’a pas le droit de toucher — onze de chaque côté, vingt-deux petites marques blanches qu’un homme a faites à trois heures du matin sur une table de clinique, pendant que moi, à vingt kilomètres, je dormais très bien.
+
+Je m’approche. Je m’accroupis à côté de sa chaise. Ma main s’avance toute seule, je ne sais pas pour faire quoi. Pour remonter le col. Pour toucher la cicatrice. Pour lui demander pardon à voix basse pendant qu’elle dort, comme un lâche.
+
+*Livia. C’est moi. Le quai nord, c’est moi.*
+
+J’ouvre la bouche.
+
+Et c’est là que je sens l’odeur.
+
+De la fumée.
+
+---
+
+Je me relève d’un coup. Je cours jusqu’à la porte du couloir. L’odeur est plus forte. Elle monte par l’escalier. Il y a une lueur orange en bas, sur les murs, qui danse.
+
+Le rez-de-chaussée. L’entrepôt. C’est là que mon père garde nos archives depuis vingt ans. Des centaines de cartons. Tout ce qu’on a sur les Ferraro.
+
+Et Ugo. Ugo est en bas. Il garde la porte toutes les nuits depuis quinze ans, avec sa radio et ses mots croisés. Il aurait dû crier. Il aurait dû appeler.
+
+— Livia !
+
+Elle se réveille en sursaut. Le post-it jaune tombe de sa tempe.
+
+— Quoi ? Qu’est-ce qui…
+
+— Le feu. En bas. Prenez votre sac, on sort.
+
+Elle ne prend pas son sac. Elle se lève et elle fonce vers l’escalier.
+
+— Livia, non !
+
+— Les archives ! Tout le dossier Ferraro est en bas, Damiano, tout ce que vous avez là-dessous !
+
+Je la rattrape dans l’escalier. La fumée est grise, épaisse, elle pique les yeux. En bas, près de la porte, Ugo est assis par terre contre le mur, la tête sur la poitrine, un filet de sang sur la tempe. Il respire. Je le traîne dehors d’abord, sur le quai, et je remonte en courant.
+
+Le fond de l’entrepôt brûle. Les flammes montent le long d’une étagère de cartons, lentement, en crépitant. Ça sent l’essence. Quelqu’un a mis de l’essence.
+
+— On sort. Tout de suite.
+
+— Les cartons du mur de gauche, crie-t-elle en toussant. Ils ne brûlent pas encore. Les rouges. C’est les Ferraro.
+
+Je la regarde. Elle a les yeux qui pleurent à cause de la fumée, la chemise de travers, un bras qu’elle ne peut pas lever. Et elle ne bougera pas d’ici sans ces cartons. Je le sais.
+
+— Vous restez à la porte, je dis. Vous. À la porte. Je vous les passe.
+
+Elle ne discute pas. Pour une fois.
+
+Je fonce vers le mur de gauche. La chaleur me frappe au visage comme une porte de four ouverte. J’attrape un carton rouge, je le lance vers la porte. Un deuxième. Un troisième. Elle les tire dehors un par un, avec son bras gauche, en hurlant mon nom à chaque fois pour savoir si je suis encore là.
+
+Au septième carton, une étagère s’effondre derrière moi. Des flammes jaillissent. Je sens mes cheveux grésiller sur ma nuque.
+
+— Damiano ! Ça suffit ! Sortez !
+
+Je prends le huitième. Le dernier. Je cours.
+
+Elle m’attrape par la chemise à la porte et me tire dehors, sur le quai, dans l’air frais de la nuit. On tombe tous les deux sur les pavés, au milieu des cartons rouges. Je tousse à m’en arracher les poumons.
+
+Elle est à genoux à côté de moi. Elle a de la suie partout. Sur le front, sur les joues, sur le nez. Elle me tient le visage entre ses deux mains, la bonne et la mauvaise.
+
+— Vous êtes complètement idiot, dit-elle.
+
+Sa voix tremble.
+
+— C’est vous qui vouliez les cartons.
+
+— Je voulais les cartons, pas vous brûlé dedans !
+
+Elle s’arrête. Elle se rend compte de ce qu’elle vient de dire. Ses mains sont toujours sur mon visage.
+
+On se regarde. Dans la lueur orange du feu. Avec les sirènes des pompiers qui arrivent au loin, sur l’autre rive du canal.
+
+Je lève la main. Doucement. J’essuie une trace de suie sur sa joue, avec mon pouce.
+
+Elle ne recule pas.
+
+Elle ferme les yeux.
+
+Et puis les pompiers arrivent, les gyrophares, les tuyaux, les hommes en jaune qui crient, et elle retire ses mains, et le moment se casse en mille morceaux.
+
+---
+
+Plus tard, pendant qu’un pompier lui met un masque à oxygène sur le visage, je retourne à ma voiture, garée le long du quai.
+
+Il y a une feuille coincée sous l’essuie-glace.
+
+Une feuille blanche, pliée en deux. Je la déplie.
+
+Trois lignes, tapées à l’ordinateur.
+
+*« Ce soir, ce sont des cartons.*
+
+*La prochaine fois, elle sera dedans.*
+
+*Dites-le à votre père. »*
+
+Je la replie. Je la glisse dans ma poche.
+
+Et quelque chose en moi devient très froid. Très calme. Un calme que je connais, que je tiens de mon père et que je déteste, celui qui vient juste avant que les gens aient mal.
+
+Je sors mon téléphone. J’appelle Tonio, mon homme de confiance.
+
+— Ugo a été frappé. L’entrepôt a brûlé. Quelqu’un a laissé un mot sur ma voiture.
+
+— J’arrive, patron.
+
+— Non. Tu vas chez l’intermédiaire. Celui des Ferraro, celui qui vend aux deux côtés. Tu me le ramènes à la lagune avant l’aube.
+
+— Vivant ?
+
+Je regarde Livia, au loin, assise sur le bord de l’ambulance avec son masque à oxygène, la suie sur les joues. Elle me cherche des yeux. Elle me trouve. Elle me fait un petit signe de la main, fatigué.
+
+Je lui souris.
+
+— Vivant, je dis à Tonio. Pour l’instant.
+
+---

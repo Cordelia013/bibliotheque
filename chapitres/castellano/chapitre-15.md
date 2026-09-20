@@ -1,85 +1,201 @@
 # Le Prix du Silence, Don Castellano
 
-## Chapitre 15 — Ce qu'on trouve en cherchant autre chose
+## Chapitre 15 — La vente
 
 *POV Livia*
 
-C'est en vérifiant un cadastre que je suis tombée dessus.
+Lot 47. Un collier en or et grenats. Milieu du siècle dernier. Provenance : « collection privée ».
 
-Rien de spectaculaire. Un entrepôt du quai nord, parcelle 114, propriété d'une société luxembourgeoise — l'une des dix-sept de ma liste. Je remontais la chaîne de détention pour préparer notre offensive suivante lorsque je suis arrivée à la holding faîtière.
+Je le regarde sur la page du catalogue depuis trois jours. Je connais chaque pierre. Il y en a onze, rouge sombre, comme des gouttes de vin. Celle du milieu est un peu plus grosse et un peu fêlée sur le côté gauche.
 
-Et au bas du registre des mandataires, une signature scannée.
+Ma mère l’a porté le jour de son mariage. Il y a une photo dans l’entrée, chez mes parents : elle a vingt-deux ans, une robe trop grande et ce collier autour du cou, et elle rit.
 
-*D. Rocchi.*
+Mon père l’a vendu en 2003. Pour payer des hommes qui dormaient devant notre porte, après l’affaire du port.
 
-Je restai immobile devant l'écran pendant peut-être deux minutes.
+Je ne l’avais pas revu depuis vingt-trois ans.
 
-Puis j'ai fait ce que je fais toujours : j'ai vérifié. Trois fois. Les statuts, les procès-verbaux, les virements. Un versement, daté du 11 mars, autorisé par mandat spécial, à destination d'un prestataire de sécurité dont j'avais moi-même croisé le nom dans le rapport interne des Castellano sur l'embuscade du quai nord.
+C’est Damiano qui l’a trouvé. Je lui avais parlé du collier une fois, une seule, vers deux heures du matin, au milieu d’un dossier. Je ne pensais pas qu’il écoutait. Trois semaines plus tard, il a posé le catalogue de la maison de ventes sur mon bureau, ouvert à la bonne page, sans rien dire.
 
-Six jours avant qu'on me tire dessus, mon associé avait payé les hommes qui l'ont fait.
+J’ai dû sortir dans le couloir pour qu’il ne voie pas ma tête.
 
-J'ai refermé l'ordinateur. J'ai mis mon manteau. Je suis allée marcher au bord du lac, une heure, dans le froid, jusqu'à ce que mes mains cessent de trembler — parce que je refusais d'entrer dans son bureau avec des mains qui tremblent.
+— Vous êtes sûre de vouloir y aller ? demande-t-il dans la voiture.
 
-Puis je suis remontée.
+— Oui.
 
-Damiano travaillait, la cravate desserrée. Il leva la tête et sourit, et le sourire mourut à mi-chemin, parce qu'il a toujours su lire mon visage plus vite que je ne l'aurais voulu.
+— Vous savez qu’il sera là.
 
-— Parcelle 114, dis-je.
+— Oui.
 
-Il ne demanda pas de quoi je parlais. Ce fut sa première élégance et sa première condamnation.
+Les Castellano ont trois lots dans la vente de ce soir. L’argenterie de la famille. La collection de montres de Carmine. Un tableau de l’entrée. Des choses qu’on ne met pas en vente publique quand tout va bien.
 
-— Asseyez-vous, Livia.
+— Je peux y aller seul, dit Damiano. Enchérir pour vous.
 
-— Non.
+— Non. Je veux qu’il me voie.
 
-— Je vais tout vous dire. Mais je préfère que vous soyez assise, parce que la vérité est pire que ce que vous croyez, et meilleure aussi.
+Il tourne la tête vers moi. Il sourit, en coin.
 
-— Répondez à une question, et une seule. Est-ce que vous saviez que je serais sur ce quai ?
+— Vous êtes méchante, parfois.
 
-Il se leva. Il fit le tour du bureau. Il s'arrêta à un mètre, les mains vides, offertes.
+— Je sais. Ça vous dérange ?
 
-— Non.
+— Pas du tout. C’est même un peu effrayant à quel point ça ne me dérange pas.
 
-— Damiano.
+---
 
-— Non, répéta-t-il. Sur la tombe de mon frère, non. J'ai payé une opération contre un chargement des Ferraro. On m'avait donné une date, un lieu, une heure. On ne m'a pas donné de nom.
+La salle de vente est pleine. Des lustres, des chaises dorées, des gens en costume qui chuchotent derrière leurs catalogues. Toute la bonne société de la ville est venue voir les Castellano vendre leur argenterie. On ne rate pas un enterrement quand il est gratuit.
 
-— Qui, « on » ?
+On est en loge, au premier balcon. Je porte une robe longue, pour cacher mes genoux encore couverts de croûtes. Damiano porte un costume noir et une cravate que ma mère lui a choisie par téléphone.
 
-Et alors il dit le mot que j'attendais depuis le début sans le savoir :
+Salvatore est en bas. Au troisième rang. Serena à sa droite, en gris perle. Bruno derrière, les bras croisés.
 
-— Votre mari.
+Il me voit à l’instant où je m’assois. Je le sais sans le regarder. Je sens son regard sur ma nuque comme une main.
 
-La pièce se rétrécit.
+Je ne baisse pas les yeux sur lui. Pas une fois.
 
-— Salvatore ne travaille pas avec vous.
+Les lots défilent. L’argenterie des Castellano part à moitié prix. Les montres de Carmine, à un tiers. Chaque coup de marteau résonne dans la salle comme un os qui craque, et toute la ville compte les fractures en faisant semblant de lire son catalogue.
 
-— Salvatore ne savait pas qu'il travaillait avec moi. L'information m'est venue par un intermédiaire des Ferraro qui la vendait des deux côtés. Livia — l'homme qui a communiqué l'horaire du quai nord aux Ferraro, c'est Enzo.
+Je devrais être contente. C’est moi qui leur ai pris leurs contrats. C’est à cause de moi qu’ils vendent leurs cuillères.
 
-Je crois que j'ai ri. Un son court, laid.
+Je ne suis pas contente. J’ai envie de vomir.
 
-— Enzo n'a jamais pris une décision de sa vie.
+— Vous tenez le coup ? chuchote Damiano.
 
-— C'est exactement pour ça qu'on s'est servi de lui. Comme vous vous en servez aujourd'hui.
+— Très bien.
 
-Je m'assis, finalement. Pas parce qu'il me l'avait demandé. Parce que mes jambes avaient cessé de m'appartenir.
+— Menteuse. Vous êtes verte.
 
-— Pourquoi ne m'avoir rien dit le premier jour ?
+— C’est l’éclairage.
 
-Damiano resta debout.
+— L’éclairage vous va très mal, alors.
 
-— Parce que le premier jour, vous étiez une femme qui venait de tout perdre et à qui j'allais demander de se battre. Si je vous avais dit que j'avais financé la balle, vous seriez partie. Et si vous étiez partie, vous seriez morte, parce que la liste des Ferraro n'a jamais été annulée.
+— Lot 47, annonce le commissaire-priseur.
 
-Il s'accroupit devant moi, pour que nos yeux soient à la même hauteur.
+Je cesse de respirer.
 
-— J'ai menti pour vous garder en vie et je savais, en mentant, que ça me coûterait le reste. Je le referais. C'est la chose la plus honnête que j'aie jamais dite à quelqu'un.
+— Un collier en or et grenats, milieu du vingtième siècle. Mise à prix : quatre mille euros.
 
-Je me levai. J'allai jusqu'à la porte.
+Je lève ma raquette.
 
-Et sur le seuil, sans me retourner :
+Un murmure traverse la salle. Tout le monde me regarde. Livia Sarti qui enchérit en public, sous son nom, à côté d’un Rocchi, dans la vente où les Castellano bradent leurs couverts. Les gens se tordent le cou pour voir la loge. Une dame en vison sort ses lunettes.
 
-— Faites-moi une copie de tout. Les virements, les mandats, l'intermédiaire, tout.
+Et en bas, au troisième rang, Salvatore lève sa raquette.
 
-— Pour me détruire ?
+Je me tourne enfin vers lui.
 
-— Pour détruire quelqu'un. Je vous dirai qui quand je le saurai.
+Il me regarde. Juste moi. Il n’a aucune idée de ce qu’est ce collier. Il n’a jamais vu ma mère en robe de mariée. Il n’a jamais demandé.
+
+Il enchérit parce que c’est moi.
+
+— Six mille, dit le commissaire.
+
+Je lève.
+
+— Huit mille.
+
+Il lève.
+
+— Douze. Vingt. Vingt-cinq.
+
+À trente mille, Bruno pose la main sur son bras. Salvatore la retire d’un geste sec, comme on chasse une mouche. Serena ne bouge pas. Elle regarde droit devant elle, les mains serrées sur son sac.
+
+— Quarante mille.
+
+— Quarante-cinq.
+
+La salle ne respire plus. Plus personne ne fait semblant de lire son catalogue.
+
+Damiano se penche vers moi. Son épaule contre la mienne.
+
+— Il n’a pas cet argent, murmure-t-il.
+
+— Je sais.
+
+— Vous pouvez arrêter. Je le rachèterai à celui qui l’emportera, la semaine prochaine. Pour la moitié.
+
+— Je sais ça aussi.
+
+— Alors pourquoi…
+
+— Parce que je veux savoir jusqu’où il monte.
+
+Il me regarde. Je ne sais pas ce qu’il voit dans mon visage. Il se tait.
+
+Je lève ma raquette une dernière fois.
+
+— Cinquante mille, annonce le commissaire.
+
+Et en bas, Salvatore lève sa raquette.
+
+Puis s’arrête. À mi-hauteur.
+
+Il la garde là, suspendue, pendant trois secondes qui durent une année. Je vois son visage. Et j’imagine le calcul, parce que je le connais par cœur. L’éternel calcul. La dette, les banques, la maison du bord de mer qu’on veut vendre, les contrats que je lui ai pris un par un.
+
+Je vois le moment où le chiffre gagne. Où il gagne sur tout le reste. Sur moi.
+
+La raquette redescend.
+
+— Adjugé, dit le commissaire. Cinquante mille euros. Madame, au premier balcon.
+
+Le marteau tombe.
+
+Je n’entends pas les applaudissements. Je n’entends rien. J’ai gagné, et j’ai l’impression qu’on vient de m’arracher quelque chose.
+
+Damiano ne dit rien. Il pose juste sa main sur la mienne, sur l’accoudoir de velours. Une seconde. Puis il la retire, avant que quelqu’un le voie.
+
+---
+
+Je récupère le collier au guichet. Dans une boîte plate, en carton gris, avec un ruban.
+
+Salvatore m’attend dans le hall. Seul. Près des portes vitrées. Serena est déjà dehors, sous la pluie qui commence. Bruno fume sur le trottoir.
+
+Je pourrais passer à côté de lui sans m’arrêter. Je m’arrête.
+
+— Qu’est-ce que c’était ? demande-t-il.
+
+Sa voix est rauque.
+
+— Le collier de mariage de ma mère.
+
+Il devient blanc.
+
+Tout le sang quitte son visage d’un coup.
+
+— Je ne savais pas.
+
+— Non. Tu n’as jamais rien su.
+
+Je serre la boîte contre moi.
+
+— Je constate, Salvatore. En six ans, tu ne m’as jamais posé une seule question dont la réponse ne te servait à rien.
+
+Il ouvre la bouche. Il la referme. Il regarde la boîte grise dans mes mains, comme si elle pouvait le mordre.
+
+Je passe devant lui. La porte vitrée. La pluie. L’air froid d’octobre sur mon visage brûlant.
+
+— Livia.
+
+Je m’arrête. Je ne me retourne pas.
+
+— Je serais monté à cent mille, dit-il derrière moi. Si j’avais su.
+
+Et c’est ça, justement. C’est exactement ça.
+
+Je me retourne. Je le regarde dans les yeux, sous le néon du hall, avec la pluie qui me coule dans le cou.
+
+— C’est bien le problème, Salvatore. Tu ne montes que quand tu sais ce que tu achètes.
+
+Je le laisse là.
+
+Dans la voiture, Damiano démarre sans un mot. Il met le chauffage. Il me tend un paquet de mouchoirs, des vrais, cette fois, qu’il a dû acheter exprès.
+
+J’ouvre la boîte grise sur mes genoux.
+
+Le collier est là. Les onze grenats. La pierre du milieu avec sa petite fêlure. Il est plus petit que dans mes souvenirs. Tout est plus petit que dans les souvenirs.
+
+Je le prends dans mes mains. Il est froid.
+
+Cinquante mille euros pour onze cailloux rouges qui en valent quatre, soit douze fois ce que mon père en a tiré en 2003, soit à peu près ce que rapportait en une année la concession qu’il a refusé de céder pour un garçon de dix-sept ans — et je fais ce calcul-là assise dans une voiture, le collier de ma mère entre les mains, parce que je ne sais faire que ça.
+
+Et je pleure. Enfin. Pour de vrai. Pas pour Salvatore. Pour une jeune fille de vingt-deux ans en robe trop grande, qui riait sur une photo, et qui ne savait pas encore ce que les hommes de cette ville allaient lui coûter.
+
+---
