@@ -183,22 +183,28 @@
      "mots": 1487
     },
     {
+     "n": "27 bis",
+     "t": "Vingt mètres",
+     "pov": "Damiano",
+     "mots": 1323
+    },
+    {
      "n": 28,
-     "t": "Onze heures",
-     "pov": "Salvatore",
-     "mots": 535
+     "t": "Parcelle 114",
+     "pov": "Livia",
+     "mots": 1380
     },
     {
      "n": 29,
-     "t": "Via Pratello",
-     "pov": "Livia",
-     "mots": 547
+     "t": "Le calcul de mon père",
+     "pov": "Damiano",
+     "mots": 1751
     },
     {
      "n": 30,
-     "t": "Ce que je vaux",
+     "t": "La montre",
      "pov": "Livia",
-     "mots": 596
+     "mots": 1530
     },
     {
      "n": 31,
@@ -289,19 +295,19 @@
      "a": 23
     },
     {
-     "url": "data-castellano-p5.json?v=930c7101",
+     "url": "data-castellano-p5.json?v=606b3f3d",
      "de": 24,
      "a": 29
     },
     {
-     "url": "data-castellano-p6.json?v=4f677618",
+     "url": "data-castellano-p6.json?v=a963d58b",
      "de": 30,
      "a": 35
     },
     {
-     "url": "data-castellano-p7.json?v=9e210dda",
+     "url": "data-castellano-p7.json?v=7b12bb03",
      "de": 36,
-     "a": 40
+     "a": 41
     }
    ],
    "personnages": [
