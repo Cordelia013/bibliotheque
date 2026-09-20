@@ -4,7 +4,7 @@
 
 *POV Salvatore*
 
-Le 12 juin, Bruno pose deux offres pour le port sur mon bureau. La trêve expire dans quinze jours : dix-huit mois sans rien vendre ni acheter, quatre sociétés fermées sur sept, la maison du bord de mer vendue, et les onze millions des Ferraro gagnés en appel. Maintenant, on peut vendre. Les Grecs paient comptant, quarante pour cent au-dessus du marché. Rocchi & Sarti paient trois points en dessous, en trois ans, avec une part de la concession pour nous pendant dix ans.
+Le 12 juin, Bruno pose deux offres pour le port sur mon bureau. La trêve expire dans quinze jours : dix-huit mois sans rien vendre ni acheter, quatre sociétés fermées sur sept, la maison du bord de mer vendue, et les onze millions des Ferraro gagnés en appel. Maintenant, on peut vendre. Les Grecs paient comptant, quarante pour cent au-dessus du marché. Rocchi & Sarti paient trois points en dessous, en trois ans, avec une part de la concession pour nous pendant dix ans.
 
 — Les Grecs sont meilleurs, dit Bruno.
 
@@ -12,7 +12,7 @@ Le 12 juin, Bruno pose deux offres pour le port sur mon bureau. La trêve expire
 
 — Sur dix-huit mois, c’est tout ce qui compte pour un homme de mon âge.
 
-Je les lis moi-même, toute la nuit, avec un crayon et une feuille blanche, comme la nuit de l’article 14. À quatre heures du matin, je la trouve : une ligne, page dix-neuf, qui permettrait aux Grecs de revendre le port à n’importe qui de leur groupe sans rien demander à personne.
+Je les lis moi-même, toute la nuit, avec un crayon et une feuille blanche, comme la nuit de l’article 14. À quatre heures du matin, je la trouve : une ligne, page dix-neuf, qui permettrait aux Grecs de revendre le port à n’importe qui de leur groupe sans rien demander à personne.
 
 Il y a trois ans, j’aurais signé sans la voir.
 
@@ -22,7 +22,7 @@ Le matin, je dis à Bruno que je prends l’offre des Rocchi.
 
 — Non. Je le fais parce que c’est la meilleure, et que je peux le démontrer. Qu’elle soit en face, c’est une coïncidence désagréable.
 
-C’est vrai à quatre-vingt-dix pour cent, et les dix qui restent, je les connais : j’ai passé la nuit sur ces deux offres en sachant d’avance qu’à quatre heures du matin je trouverais quelque chose, parce que je voulais avoir le droit de choisir la sienne sans que ce soit pour elle. La ligne de la page dix-neuf existe. Je ne l’ai pas inventée. Je l’ai seulement cherchée plus longtemps que je ne l’aurais cherchée chez d’autres.
+C’est vrai à quatre-vingt-dix pour cent, et les dix qui restent, je les connais : j’ai passé la nuit sur ces deux offres en sachant d’avance qu’à quatre heures du matin je trouverais quelque chose, parce que je voulais avoir le droit de choisir la sienne sans que ce soit pour elle. La ligne de la page dix-neuf existe. Je ne l’ai pas inventée. Je l’ai seulement cherchée plus longtemps que je ne l’aurais cherchée chez d’autres.
 
 Il se lève. Il s’arrête à la porte.
 
@@ -64,7 +64,7 @@ Elle me rattrape dans le couloir.
 
 — Salvatore.
 
-— Oui ?
+— Oui ?
 
 Elle hésite. Elle n’hésite jamais.
 
