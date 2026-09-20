@@ -307,6 +307,12 @@
      "t": "Onze noms",
      "pov": "Livia",
      "mots": 1309
+    },
+    {
+     "n": 47,
+     "t": "Ce qu’on écrit sur les registres",
+     "pov": "Salvatore",
+     "mots": 917
     }
    ],
    "morceaux": [
@@ -349,6 +355,11 @@
      "url": "data-castellano-p8.json?v=669ab54a",
      "de": 42,
      "a": 47
+    },
+    {
+     "url": "data-castellano-p9.json?v=354a1c4f",
+     "de": 48,
+     "a": 48
     }
    ],
    "personnages": [
