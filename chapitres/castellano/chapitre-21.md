@@ -28,7 +28,7 @@ Elle a l’air d’une étudiante qui a raté son train.
 
 Elle reste sur le seuil.
 
-— J’ai quinze minutes à vous demander, dit-elle. Après, je disparaîs. Que vous acceptiez ou non.
+— J’ai quinze minutes à vous demander, dit-elle. Après, je disparais. Que vous acceptiez ou non.
 
 Je la regarde. La femme au gâteau. La voix au téléphone. *Salvo, on n’a pas encore coupé mon gâteau.* J’ai entendu cette voix dans ma tête des centaines de fois depuis mars. Au réveil. Sous la douche. Dans les réunions.
 
