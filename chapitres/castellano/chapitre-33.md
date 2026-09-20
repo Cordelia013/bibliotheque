@@ -52,7 +52,7 @@ Je ne regarde pas ma montre. Je m’interdis de regarder ma montre.
 
 — Onze millions deux cent mille, avec les intérêts. Je peux l’effacer.
 
-Des mains très soignées, avec une chevelière. Comme un prêtre qui va bénir quelqu’un.
+Des mains très soignées, avec une chevalière. Comme un prêtre qui va bénir quelqu’un.
 
 — Vous me cédez la clause de préemption. L’article 14. Vous signez une délégation de gestion sur vos sociétés portuaires. Et la dette disparaît. Aujourd’hui. Votre famille est sauvée, Don Castellano. Vous redevenez ce que votre père était.
 
