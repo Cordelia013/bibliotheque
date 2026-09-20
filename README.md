@@ -76,11 +76,11 @@ Pour ajouter un livre, déclarer une entrée dans la liste `CATALOGUE` en haut d
 (identifiant, titre, genres, couleur, statut, résumé, couverture), créer le dossier
 `chapitres/<identifiant>/`, puis relancer le script. Rien d'autre à modifier.
 
-## Publier la liseuse en ligne
+## Publier
 
-Dans les réglages du dépôt, section Pages : choisir la branche `main` et le
-dossier `/docs`. La liseuse devient accessible depuis n'importe quel navigateur,
-téléphone compris, à l'adresse fournie par GitHub.
+On écrit dans `chapitres/`, on pousse sur `main`, une action GitHub régénère la liseuse et
+GitHub Pages la met en ligne. Le mode d'emploi complet — modifier, ajouter un chapitre ou un
+livre, vérifier, pièges — est dans `PUBLIER.md`.
 
 ## Licence
 
