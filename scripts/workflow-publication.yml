@@ -1,0 +1,111 @@
+name: Publier la bibliothèque
+
+# À chaque modification poussée sur main d'un chapitre, d'une couverture, des
+# fiches personnages ou du générateur : régénère le catalogue et les morceaux
+# de texte de docs/, puis les EPUB, vérifie le tout et commite le résultat.
+# GitHub Pages redéploie ensuite de lui-même, en une minute environ.
+#
+# Ce fichier remplace scripts/workflow-epub.yml, dont il reprend l'étape EPUB.
+#
+# ⚠ Pour être pris en compte par GitHub, il doit être déplacé vers
+#   .github/workflows/publication.yml — à la main, depuis l'interface web ou en
+#   ligne de commande : les jetons d'API n'ont pas le droit d'écrire dans
+#   .github/workflows/. Voir scripts/README.md.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'chapitres/**'
+      - 'couvertures/**'
+      - 'personnages.json'
+      - 'maj_bibliotheque.py'
+      - 'scripts/generer_epub.py'
+      - '.github/workflows/publication.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Une publication à la fois : deux poussées rapprochées ne se marchent pas dessus.
+concurrency:
+  group: publication
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Préparer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Régénérer le catalogue et les morceaux de texte
+        run: python3 maj_bibliotheque.py
+
+      - name: Vérifier le catalogue
+        run: |
+          python3 - <<'EOF'
+          import json, os, sys
+          cat = json.load(open('docs/catalogue.json', encoding='utf-8'))
+          erreurs = 0
+          for livre in cat['livres']:
+              vus = 0
+              for m in livre['morceaux']:
+                  chemin = os.path.join('docs', m['url'].split('?')[0])
+                  if not os.path.exists(chemin):
+                      print(f"{livre['id']} : morceau manquant {chemin}"); erreurs += 1; continue
+                  lot = json.load(open(chemin, encoding='utf-8'))
+                  attendu = livre['chapitres'][m['de']:m['a'] + 1]
+                  if [c['n'] for c in lot] != [c['n'] for c in attendu]:
+                      print(f"{livre['id']} : {chemin} ne couvre pas les chapitres annoncés"); erreurs += 1
+                  vus += len(lot)
+              if vus != len(livre['chapitres']):
+                  print(f"{livre['id']} : {vus} chapitres dans les morceaux, {len(livre['chapitres'])} à l'index"); erreurs += 1
+              print(f"{livre['id']:12s} {len(livre['chapitres']):3d} chapitres, {len(livre['morceaux'])} morceau(x)")
+          sys.exit(1 if erreurs else 0)
+          EOF
+
+      - name: Générer les fichiers EPUB
+        run: python3 scripts/generer_epub.py
+
+      - name: Vérifier les archives produites
+        run: |
+          python3 - <<'EOF'
+          import zipfile, os, sys
+          from xml.etree import ElementTree as ET
+          dossier = 'docs/epub'
+          erreurs = 0
+          for f in sorted(os.listdir(dossier)):
+              if not f.endswith('.epub'):
+                  continue
+              z = zipfile.ZipFile(os.path.join(dossier, f))
+              i0 = z.infolist()[0]
+              if i0.filename != 'mimetype' or i0.compress_type != zipfile.ZIP_STORED:
+                  print(f'{f} : mimetype non conforme'); erreurs += 1
+              if z.testzip() is not None:
+                  print(f'{f} : archive corrompue'); erreurs += 1
+              for n in z.namelist():
+                  if n.endswith(('.xhtml', '.opf', '.xml')):
+                      try:
+                          ET.fromstring(z.read(n))
+                      except Exception as e:
+                          print(f'{f}/{n} : XML invalide ({e})'); erreurs += 1
+              print(f'{f} : {len(z.namelist())} fichiers')
+          sys.exit(1 if erreurs else 0)
+          EOF
+
+      - name: Publier si quelque chose a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --staged --quiet; then
+            echo "Rien à publier : docs/ est déjà à jour."
+          else
+            git commit -m "Publication automatique : catalogue, morceaux de texte et EPUB régénérés"
+            git push
+          fi

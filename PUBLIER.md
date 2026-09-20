@@ -48,7 +48,13 @@ git commit -m "Braises : acte II"
 git push
 ```
 
-La page publiée se met à jour toute seule en une minute environ.
+La page publiée se met à jour toute seule en une minute environ — **à condition que la
+poussée aille sur `main`**, la branche que sert GitHub Pages. Une modification poussée sur une
+autre branche n'est pas publiée tant qu'elle n'est pas fusionnée.
+
+L'action GitHub décrite dans `scripts/README.md` (« Automatiser la publication ») rend la
+première ligne inutile : une fois activée, c'est elle qui régénère `docs/` à chaque poussée de
+chapitres sur `main`. Tant qu'elle ne l'est pas, relancer le script reste à faire à la main.
 
 ### Ce que fait le script
 

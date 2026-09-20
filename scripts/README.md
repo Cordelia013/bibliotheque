@@ -56,29 +56,35 @@ est pris en compte sans rien changer ici.
 
 ---
 
-## Automatiser la régénération
+## Automatiser la publication
 
-Le fichier `scripts/workflow-epub.yml` contient une action GitHub qui
-régénère et publie les EPUB à chaque modification du catalogue ou d'un morceau de texte.
+Le fichier `scripts/workflow-publication.yml` contient une action GitHub qui, à chaque
+modification poussée sur `main` d'un chapitre, d'une couverture, de `personnages.json` ou du
+générateur, régénère le catalogue et les morceaux de texte, produit les EPUB, vérifie le tout et
+commite le résultat dans `docs/`. GitHub Pages redéploie ensuite de lui-même.
 
-Pour l'activer, il faut le déplacer à l'emplacement attendu par GitHub —
-opération à faire depuis l'interface web ou en ligne de commande, car les
-jetons d'API n'ont pas le droit d'écrire dans `.github/workflows/` :
+**Tant qu'elle n'est pas activée, la publication reste manuelle** : `python3 maj_bibliotheque.py`,
+puis `git add`, `git commit`, `git push` sur `main`.
+
+Pour l'activer, il faut déplacer le fichier à l'emplacement attendu par GitHub — opération à
+faire depuis l'interface web ou en ligne de commande, car les jetons d'API n'ont pas le droit
+d'écrire dans `.github/workflows/` :
 
 ```bash
 mkdir -p .github/workflows
-git mv scripts/workflow-epub.yml .github/workflows/epub.yml
-git commit -m "Activation de la génération automatique des EPUB"
+git mv scripts/workflow-publication.yml .github/workflows/publication.yml
+git commit -m "Activation de la publication automatique"
 git push
 ```
 
-Depuis l'interface web : créer un fichier nommé `.github/workflows/epub.yml`
-et y coller le contenu de `scripts/workflow-epub.yml`.
+Depuis l'interface web : créer un fichier nommé `.github/workflows/publication.yml` et y coller
+le contenu de `scripts/workflow-publication.yml`.
 
-Une fois en place, l'action se déclenche sur toute modification d'un fichier
-de données et peut aussi être lancée manuellement depuis l'onglet **Actions**.
-Elle vérifie chaque archive produite (mimetype conforme, XML bien formé,
-archive intègre) avant de la publier.
+Une fois en place, l'action se déclenche sur toute modification des sources et peut aussi être
+lancée manuellement depuis l'onglet **Actions**. Elle vérifie le catalogue (chaque morceau cité
+existe et couvre bien les chapitres annoncés) et chaque archive EPUB produite (mimetype
+conforme, XML bien formé, archive intègre) avant de publier. Elle remplace l'ancienne action
+limitée aux EPUB.
 
 ---
 

@@ -24,7 +24,9 @@ Dépôt d'écriture : cinq romans en markdown et une liseuse web autonome géné
    texte dans `docs/` : corriger le chapitre, relancer le script.
 2. **Après toute modification du texte**, relancer le script. Il ne réécrit que ce qui a changé,
    recalcule les coupures de scène et les versions des morceaux, et date les seuls livres dont le
-   texte a bougé. Vérifier ensuite que le publié correspond aux sources.
+   texte a bougé. Vérifier ensuite que le publié correspond aux sources. Une action GitHub prête
+   à activer (`scripts/workflow-publication.yml`) fera ce travail sur `main` ; tant qu'elle n'est
+   pas en place, c'est manuel.
 3. **Le moteur ne contient aucun contenu.** `docs/app.js`, `docs/sw.js` et `docs/index.html`
    (hors bloc des couvertures) sont du code, tenu à la main, et le script n'y touche pas. Le
    contrat entre les deux est dans `ARCHITECTURE.md` ; le respecter avant de toucher à l'un ou à
