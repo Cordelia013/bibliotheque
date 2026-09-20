@@ -232,27 +232,27 @@
     },
     {
      "n": 35,
-     "t": "Bellaria",
-     "pov": "Salvatore",
-     "mots": 377
+     "t": "Ce que je dois",
+     "pov": "Damiano",
+     "mots": 1735
     },
     {
      "n": 36,
-     "t": "Le nom sur la porte",
+     "t": "Ce que je vaux",
      "pov": "Livia",
-     "mots": 452
+     "mots": 2685
     },
     {
      "n": 37,
-     "t": "L'article 14",
+     "t": "Le micro",
      "pov": "Salvatore",
-     "mots": 480
+     "mots": 1792
     },
     {
      "n": 38,
-     "t": "Le figuier, encore",
+     "t": "La maison du bord de mer",
      "pov": "Livia",
-     "mots": 476
+     "mots": 1276
     },
     {
      "n": 39,
@@ -300,12 +300,12 @@
      "a": 29
     },
     {
-     "url": "data-castellano-p6.json?v=093a3134",
+     "url": "data-castellano-p6.json?v=a87426ab",
      "de": 30,
      "a": 35
     },
     {
-     "url": "data-castellano-p7.json?v=7b12bb03",
+     "url": "data-castellano-p7.json?v=79a8311d",
      "de": 36,
      "a": 41
     }
