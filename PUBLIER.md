@@ -52,9 +52,10 @@ La page publiée se met à jour toute seule en une minute environ — **à condi
 poussée aille sur `main`**, la branche que sert GitHub Pages. Une modification poussée sur une
 autre branche n'est pas publiée tant qu'elle n'est pas fusionnée.
 
-L'action GitHub décrite dans `scripts/README.md` (« Automatiser la publication ») rend la
-première ligne inutile : une fois activée, c'est elle qui régénère `docs/` à chaque poussée de
-chapitres sur `main`. Tant qu'elle ne l'est pas, relancer le script reste à faire à la main.
+La première ligne est facultative : l'action GitHub `.github/workflows/publication.yml`
+régénère `docs/` à chaque poussée de chapitres sur `main` (voir `scripts/README.md`,
+« Publication automatique »). Si l'on relance le script en local avant de pousser, le résultat
+est le même ; il faut alors tirer avant la poussée suivante pour récupérer le commit du robot.
 
 ### Ce que fait le script
 

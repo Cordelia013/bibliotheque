@@ -56,35 +56,21 @@ est pris en compte sans rien changer ici.
 
 ---
 
-## Automatiser la publication
+## Publication automatique
 
-Le fichier `scripts/workflow-publication.yml` contient une action GitHub qui, à chaque
-modification poussée sur `main` d'un chapitre, d'une couverture, de `personnages.json` ou du
-générateur, régénère le catalogue et les morceaux de texte, produit les EPUB, vérifie le tout et
-commite le résultat dans `docs/`. GitHub Pages redéploie ensuite de lui-même.
+`.github/workflows/publication.yml` : à chaque modification poussée sur `main` d'un chapitre,
+d'une couverture, de `personnages.json` ou du générateur, l'action régénère le catalogue et les
+morceaux de texte, produit les EPUB, vérifie le tout et commite le résultat dans `docs/`.
+GitHub Pages redéploie ensuite de lui-même. Active depuis le 20 septembre 2026.
 
-**Tant qu'elle n'est pas activée, la publication reste manuelle** : `python3 maj_bibliotheque.py`,
-puis `git add`, `git commit`, `git push` sur `main`.
+Elle vérifie le catalogue — chaque morceau cité existe et couvre bien les chapitres annoncés —
+et chaque archive EPUB produite — mimetype conforme, XML bien formé, archive intègre — avant
+de publier. Elle peut aussi être lancée à la main depuis l'onglet **Actions**.
 
-Pour l'activer, il faut déplacer le fichier à l'emplacement attendu par GitHub — opération à
-faire depuis l'interface web ou en ligne de commande, car les jetons d'API n'ont pas le droit
-d'écrire dans `.github/workflows/` :
-
-```bash
-mkdir -p .github/workflows
-git mv scripts/workflow-publication.yml .github/workflows/publication.yml
-git commit -m "Activation de la publication automatique"
-git push
-```
-
-Depuis l'interface web : créer un fichier nommé `.github/workflows/publication.yml` et y coller
-le contenu de `scripts/workflow-publication.yml`.
-
-Une fois en place, l'action se déclenche sur toute modification des sources et peut aussi être
-lancée manuellement depuis l'onglet **Actions**. Elle vérifie le catalogue (chaque morceau cité
-existe et couvre bien les chapitres annoncés) et chaque archive EPUB produite (mimetype
-conforme, XML bien formé, archive intègre) avant de publier. Elle remplace l'ancienne action
-limitée aux EPUB.
+Ce qu'elle change pour l'écriture : après avoir modifié un chapitre, il suffit de pousser sur
+`main`. Relancer `python3 maj_bibliotheque.py` en local reste possible et donne le même
+résultat ; dans ce cas, tirer (`git pull`) avant la poussée suivante pour récupérer le commit du
+robot.
 
 ---
 
