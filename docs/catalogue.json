@@ -256,15 +256,27 @@
     },
     {
      "n": 39,
-     "t": "Une question, enfin",
+     "t": "Le 17 mars",
      "pov": "Livia",
-     "mots": 362
+     "mots": 1733
+    },
+    {
+     "n": "39 bis",
+     "t": "Ce que ça coûte à qui",
+     "pov": "Damiano",
+     "mots": 1521
     },
     {
      "n": 40,
-     "t": "Ce qu'on écrit sur les registres",
+     "t": "L’homme qui apprend",
      "pov": "Salvatore",
-     "mots": 551
+     "mots": 1784
+    },
+    {
+     "n": 41,
+     "t": "Lundi, neuf heures douze",
+     "pov": "Livia",
+     "mots": 2263
     },
     {
      "n": 44,
@@ -305,9 +317,14 @@
      "a": 35
     },
     {
-     "url": "data-castellano-p7.json?v=79a8311d",
+     "url": "data-castellano-p7.json?v=498f6d6a",
      "de": 36,
      "a": 41
+    },
+    {
+     "url": "data-castellano-p8.json?v=c287e9cc",
+     "de": 42,
+     "a": 43
     }
    ],
    "personnages": [
