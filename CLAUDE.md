@@ -51,11 +51,11 @@ Dépôt d'écriture : cinq romans en markdown et une liseuse web autonome géné
 - **Trois postures, trois fiches** : conseiller (`conseil-ecriture`), alpha-lire
   (`alpha-lecture`), corriger (`relecture`). Ne pas les mélanger dans la même séance.
 
-## État au 19 septembre 2026
+## État au 20 septembre 2026
 
 | Livre | Chapitres | Statut |
 |---|---|---|
-| Le Prix du Silence, Don Castellano | 40 | terminé |
+| Le Prix du Silence, Don Castellano | 50 | terminé — v2, révisée et publiée le 20 sept. 2026 |
 | La Saison des Braises *(t. 1)* | 52 | en cours — blocs 4 à 6 du plan de réécriture |
 | Le Contrat de Vesper | 10 | en cours, jamais audité |
 | La Dette de Verre | 5 | en cours, jamais audité |
