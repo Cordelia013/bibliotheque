@@ -1,109 +1,203 @@
 # Le Prix du Silence, Don Castellano
 
-## Chapitre 2 — Le dîner
+## Chapitre 2 — Vingt-deux couverts
 
 *POV Salvatore*
 
-La table des Castellano comptait vingt-deux couverts, et le vingt-deuxième était vide.
+Vingt-deux couverts sur la terrasse, et le vingt-deuxième est vide.
 
-Je le remarquai à peine. Livia arrivait toujours en retard aux dîners de famille — elle finissait un dossier, vérifiait un transfert, réglait un problème dont je n'entendrais jamais parler parce qu'elle l'aurait réglé avant qu'il n'en devienne un. C'était ainsi depuis six ans. Je m'étais habitué à ce que le monde tienne debout sans que j'aie besoin de comprendre comment.
+Je le remarque à peine. Livia est toujours en retard aux dîners de famille. Elle finit un dossier, elle vérifie un virement, elle règle un problème dont je n’entendrai jamais parler, parce qu’elle l’aura réglé avant qu’il en devienne un. C’est comme ça depuis six ans. Le monde tient debout et je n’ai pas besoin de savoir comment.
 
-À ma droite, Serena posa sa main sur mon bras.
+Tout à l’heure, en traversant la villa, j’ai allumé la lampe du couloir de l’aile est. Celui qui mène à son bureau. Je le fais chaque fois qu’elle travaille tard. Elle ne l’a jamais remarqué. Ce n’est pas fait pour qu’elle le remarque. Un Don n’allume pas les lampes pour sa femme. Surtout pas pour une femme que personne ne connaît.
+
+Ou alors c’est fait exactement pour ça, et je ne me le suis jamais dit dans ces mots-là.
+
+Il est neuf heures du soir, il fait encore trente degrés, et les cigales hurlent dans les pins comme si on les payait à l’heure.
+
+La villa est posée sur la première colline au-dessus de la plaine. D’ici, on voit toute la ville, les lumières du port, le canal qui file vers la mer comme une coupure sur une peau noire. Mon père aimait dîner dehors l’été pour cette vue. Il disait qu’un Don doit pouvoir regarder ce qu’il possède en mangeant.
+
+Mon père disait beaucoup de choses.
+
+Autour de la table, je compte. Ma mère, Adelina, en bout de table, droite comme une statue. Mon oncle Bruno à ma gauche, qui a déjà desserré sa cravate. Mes cousins, leurs femmes, deux enfants qui s’endorment sur leur chaise. Mon cousin Nino, qui boit trop. Et à ma droite, à la place que ma mère lui a donnée sans me demander mon avis : Serena.
+
+Serena pose sa main sur mon bras.
 
 — Tu es tendu.
 
-— Le port, mentis-je.
+— Le port, je mens.
 
-Elle sourit, de ce sourire que j'avais fini par confondre avec du repos. Serena ne me demandait rien. Elle ne vérifiait rien. Elle ne me regardait pas comme Livia me regardait — avec cette attention qui donnait l'impression d'être lu jusqu'à la dernière ligne. Avec Serena, je pouvais être un homme ordinaire pendant deux heures. Je m'étais dit que c'était cela, l'amour. J'avais tort, mais je ne le savais pas encore.
+Elle sourit. Ce sourire-là, je l’ai confondu pendant longtemps avec du repos. Serena ne me demande rien. Elle ne vérifie rien. Elle ne me regarde pas comme Livia me regarde, avec cette attention qui donne l’impression d’être lu jusqu’à la dernière ligne, notes de bas de page comprises.
 
-La porte s'ouvrit.
+Avec Serena, je suis un homme ordinaire pendant deux heures. Je me suis dit que c’était ça, l’amour. Que c’était reposant.
 
-Livia entra sans manteau, en noir, les cheveux relevés, une chemise cartonnée à la main. Elle ne regarda personne. Elle contourna la table, passa derrière ma mère, derrière mon oncle Bruno, derrière mes cousins, et vint se placer face à moi, de l'autre côté de la nappe blanche.
+Ce n’est pas ce que je me disais à l’époque. À l’époque, je ne me disais rien du tout. La phrase est venue après, pour avoir quelque chose à me répondre.
 
-— Tu es en retard, dis-je.
+La porte-fenêtre s’ouvre.
 
-— Non. Je suis en avance. Pour la première fois.
+Livia entre.
 
-Elle posa la chemise entre mon assiette et celle de Serena.
+Elle est en noir, une robe simple, les cheveux relevés. Elle tient une chemise cartonnée contre sa poitrine, de la main gauche. Seulement de la main gauche. Son bras droit reste collé à son corps, bizarrement raide, comme si on l’avait vissé là.
 
-Je sus, avant même de l'ouvrir. Quelque chose dans la façon dont elle se tenait — pas droite, *finie*. Comme une lame qu'on a rangée.
+Elle ne regarde personne. Elle contourne la table, passe derrière ma mère, derrière Bruno, derrière les cousins, et elle vient se planter en face de moi, de l’autre côté de la nappe blanche.
 
-Ma mère fut la première à parler.
+— Tu es en retard, je dis.
 
-— Qu'est-ce que c'est que cette mise en scène, Livia ?
+— Non. Je suis en avance. Pour une fois.
 
-— Une formalité, madame Castellano. Votre fils et moi sommes mariés depuis trois ans. Il va falloir que quelqu'un le sache pour que nous puissions cesser de l'être.
+Elle pose la chemise entre mon assiette et celle de Serena.
 
-Le silence qui suivit n'était pas un silence. C'était vingt personnes qui cessaient de respirer en même temps.
+Et je sais. Avant même de l’ouvrir, je sais.
 
-Mon oncle Bruno reposa son verre si lentement que je l'entendis toucher la nappe.
+C’est sa façon de se tenir. *Finie.* Comme une lame qu’on a remise dans son fourreau.
 
-— Salvatore, dit-il. Dis-lui qu'elle plaisante.
+Ma mère parle la première, évidemment.
 
-Je regardai Livia. Elle soutint mon regard sans une seconde d'hésitation, et je compris que c'était la dernière fois qu'elle me faisait ce cadeau.
+— Qu’est-ce que c’est que ce théâtre, Livia ?
 
-— Elle ne plaisante pas, dis-je.
+— Une formalité, madame Castellano.
 
-À ma droite, la main de Serena glissa de mon bras.
+Livia se tourne vers elle, très calme.
 
-— Depuis trois ans ? murmura-t-elle.
+— Votre fils et moi sommes mariés depuis trois ans. Il va bien falloir que quelqu’un le sache, pour qu’on puisse arrêter de l’être.
 
-Livia tourna enfin la tête vers elle. C'était la première fois qu'elles se trouvaient dans la même pièce en sachant qui elles étaient l'une pour l'autre. Je m'attendais à de la haine. Il n'y en eut pas. Il y eut quelque chose de bien plus terrible : de la reconnaissance.
+Sur la terrasse, vingt personnes arrêtent de respirer en même temps. Même les cigales, j’ai l’impression.
 
-— Trois ans, un mois et douze jours, dit Livia. Vous, c'est depuis quand ?
+Bruno repose son verre si lentement que j’entends le pied toucher la nappe.
 
-Serena ne répondit pas.
+— Salvatore, dit-il. Dis-lui qu’elle plaisante.
 
-— Ce n'est pas grave, poursuivit Livia. Je le sais. Je sais tout ce qui concerne cette famille. C'est ce pour quoi on me paie. C'est ce pour quoi on m'a épousée, je crois.
+Je regarde Livia. Elle soutient mon regard sans ciller.
 
-— Livia—
+Et je comprends que c’est la dernière fois qu’elle me fait ce cadeau-là. Me regarder en face. Me laisser le temps de trouver quoi dire.
+
+— Elle ne plaisante pas.
+
+À ma droite, la main de Serena glisse de mon bras. Tout doucement, jusqu’à la nappe. Elle a posé sa fourchette bien avant que Livia parle. Avant même qu’elle entre dans la pièce.
+
+— Depuis trois ans ? murmure-t-elle.
+
+Livia tourne enfin la tête vers elle.
+
+C’est la première fois qu’elles sont dans la même pièce en sachant qui elles sont l’une pour l’autre. Je m’attends à de la haine. À une gifle, à un verre de vin au visage, à quelque chose. Il n’y a rien de tout ça. Il y a pire.
+
+Livia regarde Serena avec quelque chose qui ressemble à de la reconnaissance.
+
+— Trois ans, un mois et douze jours, dit-elle. Et vous, c’est depuis quand ?
+
+Serena ne répond pas. Ses joues sont devenues toutes blanches.
+
+— Ce n’est pas grave, reprend Livia. Je le sais. Je sais tout ce qui concerne cette famille. C’est pour ça qu’on me paie.
+
+Elle me regarde.
+
+— C’est pour ça qu’on m’a épousée, je crois.
+
+— Livia…
 
 — Signe.
 
-Elle avait dit cela sans élever la voix. J'ouvris la chemise. Le contrat était impeccable — je n'en attendais pas moins d'elle. Répartition des biens : elle ne demandait rien. Pas la maison du lac, pas les parts, pas même la voiture. Une seule clause en gras, en bas de la deuxième page : *renonciation définitive à toute fonction au sein des entreprises de la famille Castellano.*
+Elle ne crie pas. Elle ne lève même pas la voix. Elle dit juste ce mot, et vingt personnes baissent les yeux sur leur assiette.
 
-Elle ne quittait pas seulement mon lit. Elle quittait la maison. Tout entière.
+J’ouvre la chemise.
 
-— Non, dis-je.
+Le contrat est parfait. Évidemment qu’il est parfait, c’est elle qui l’a écrit. Partage des biens : elle ne demande rien. Pas la maison du bord de mer, pas les parts, pas même la voiture. Rien.
 
-Le mot sortit avant que j'aie décidé de le dire.
+Il y a une seule ligne en gras, en bas de la deuxième page.
 
-Livia ne cilla pas.
+*Renonciation définitive à toute fonction au sein des sociétés de la famille Castellano.*
 
-— Tu n'as pas le choix.
+Elle quitte mon lit, et avec lui la maison. Tout entière. Les sept sociétés, les comptes, les contrats, les nuits blanches, tout.
 
-— J'ai toujours le choix. Je suis le Don.
+Je calcule. Six ans de travail qui partent par la porte-fenêtre avec elle. Combien de semaines avant que quelque chose casse ? Combien de jours ?
 
-— Tu es le Don parce que je t'ai fait Don.
+— Non.
 
-Personne autour de cette table ne pouvait la contredire. Pas Bruno, qui savait que c'était Livia qui avait négocié la trêve avec les Rocchi après la mort de mon père. Pas ma mère, qui savait qui avait sauvé la villa de la saisie. Pas moi.
+Le mot sort avant que je l’aie décidé.
 
-Je refermai la chemise. Je la repoussai vers elle.
+Livia ne bouge pas un cil.
 
-— Tu reprends le travail lundi. Nous parlerons du reste en privé.
+— Tu n’as pas le choix.
 
-— Il n'y a plus de reste.
+— J’ai toujours le choix. Je suis le Don.
 
-Elle reprit la chemise. Elle la glissa sous son bras, comme un dossier parmi d'autres, et fit demi-tour.
+— Tu es le Don parce que je t’ai fait Don.
+
+Personne ne la contredit. Personne ne peut.
+
+Pas Bruno, qui sait que c’est elle qui a négocié la trêve avec les Rocchi quand mon père est mort. Moi, j’étais trop occupé à recevoir des condoléances pour comprendre qu’on était en train de nous dépecer. Pas ma mère, qui sait qui a empêché la banque de saisir cette villa, il y a cinq ans, la villa où nous sommes tous assis à manger du poisson en regardant la mer.
+
+Pas moi.
+
+Je referme la chemise. Je la repousse vers elle, sur la nappe.
+
+— Tu reprends le travail lundi. On parlera du reste en privé.
+
+— Il n’y a plus de reste, Salvatore.
+
+Elle reprend la chemise, de la main gauche encore, et la glisse sous son bras comme n’importe quel dossier. Puis elle se retourne pour partir.
+
+C’est là que je le vois.
+
+Quand elle pivote, la bretelle de sa robe bouge, et en haut de son épaule droite, juste sous la clavicule, il y a le bord d’une cicatrice. Rose. Épaisse. Mal refermée.
+
+L’escalier du parking. C’est ce qu’elle m’a dit, en mars. *Je suis tombée dans l’escalier du parking.* Et moi, j’ai répondu « Fais attention », et j’ai continué à lire mes messages.
+
+On ne se fait pas ça en tombant dans un escalier.
+
+Mon cerveau fait ce qu’il fait toujours. Il range, il date, il compare. Mars. Le rapport sur l’attaque de l’entrepôt du quai nord, que j’ai lu trois jours après, entre deux réunions. Lucio, le petit gardien, blessé à la jambe. *Une deuxième personne touchée, que le gardien refuse de nommer. Il dit qu’on lui a demandé de se taire.*
+
+Je n’ai pas cherché à savoir qui. J’avais autre chose en tête. Je ne me rappelle même plus quoi.
+
+Ou — et c’est plus près de la vérité, ce qui est en train de devenir une habitude désagréable — je n’ai pas cherché parce que chercher aurait voulu dire lire le rapport en entier, et lire le rapport en entier aurait voulu dire savoir ce qu’il y avait dans cet entrepôt à dix heures du soir, et je n’ai jamais voulu savoir ce qu’il y a dans mes entrepôts.
 
 — Livia.
 
-Elle s'arrêta, sans se retourner.
+Elle s’arrête. Sans se retourner.
 
-— Où étais-tu, le soir du dix-sept mars ?
+— Où étais-tu, le soir du 17 mars ?
 
-C'était la date de l'embuscade du port. Je le savais parce que je l'avais lue dans un rapport, trois jours après. J'avais été trop occupé ce soir-là pour lire les rapports. Ce fut une bouffée d'air froid, soudaine, qui me fit comprendre que je n'avais jamais posé la question à la seule personne qui pouvait y répondre.
+Elle se retourne, lentement.
 
-Elle se retourna.
+Et elle sourit.
 
-Et elle sourit. Un sourire que je ne lui connaissais pas — sans amertume, presque tendre, comme on sourit à quelqu'un qui vient enfin de comprendre une évidence, beaucoup trop tard.
+Je ne connais pas ce sourire. Presque doux, sans rien d’amer. Le sourire qu’on fait à quelqu’un qui vient enfin de comprendre une chose évidente, beaucoup, beaucoup trop tard.
 
 — Toi, tu le sais, dit-elle. Tu as décroché.
 
-Elle sortit.
+Elle s’en va.
 
-La porte se referma sur elle, et Serena, à côté de moi, demanda tout bas ce que le dix-sept mars voulait dire. Je ne répondis pas. Je regardais la chaise vide, la vingt-deuxième, et je réalisai une chose que j'aurais dû réaliser depuis longtemps :
+La porte-fenêtre se referme derrière elle. Les rideaux bougent encore un peu. Puis plus rien.
 
-Ce n'était pas un dîner de famille. C'était la dernière fois que j'aurais eu l'occasion de la retenir.
+Décroché ? Décroché quoi ?
 
-Et dehors, sous les fenêtres, une voiture noire que je ne connaissais pas démarrait déjà.
+Je ne comprends pas. Je fouille dans ma tête et je ne trouve rien. Pas d’appel. Pas de souvenir. Rien qu’un trou, là où il devrait y avoir quelque chose.
+
+— Salvatore.
+
+Ma mère est debout. Elle tient le dossier de sa chaise à deux mains.
+
+— Tu vas me dire que c’est vrai ? Tu as épousé la fille Sarti ? En cachette ? Comme un voleur ?
+
+Je ne réponds pas. Bruno non plus. Bruno me regarde avec une tête que je ne lui ai jamais vue, un mélange de tristesse et de quelque chose qui ressemble à de la honte. Pour moi.
+
+À côté de moi, Serena n’a pas bougé. Elle fixe son verre. Sa main tremble tellement que le vin fait des petites vagues.
+
+— Le 17 mars, dit-elle tout bas.
+
+— Quoi ?
+
+Elle lève les yeux vers moi. Elle est blanche comme la nappe.
+
+— Le 17 mars, Salvatore. C’était mon anniversaire. Tu ne te souviens pas ? Le gâteau. Tu étais avec moi.
+
+Je la regarde. Elle a l’air terrifiée, et je me dis que c’est la jalousie, la honte, le choc d’apprendre qu’elle est la deuxième femme d’un homme marié. Je me dis toutes les choses raisonnables qu’un homme raisonnable se dit.
+
+Je ne me demande pas pourquoi elle tremble autant pour une simple date.
+
+Je me lève. Je vais jusqu’au bord de la terrasse, là où mon père aimait regarder la ville.
+
+En bas, devant la grille, une voiture noire démarre. Pas une des nôtres. Je connais toutes nos voitures.
+
+Ses phares descendent la route de la colline, virage après virage, jusqu’à la plaine.
+
+---
