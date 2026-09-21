@@ -50,11 +50,18 @@ FORMAT = 3
 CHAPITRES_PAR_MORCEAU = 6
 DECOUPAGE = {}                                   # id -> chapitres par morceau
 
+# « revision » : à changer quand un livre cesse d'être le même texte — réécriture,
+# renumérotation, fusion de chapitres. La progression des lecteurs est stockée par
+# indice ; sans ce marqueur, un lecteur garderait une position devenue fausse sans
+# que rien ne le signale. La liseuse remet alors ce livre à zéro, une fois, et le
+# dit. Un livre sans « revision » n'est jamais remis à zéro.
+
 CATALOGUE = [
  {"id":"castellano","titre":"Le Prix du Silence, Don Castellano","auteur":"Écrit avec Claude",
   "genres":["Romance mafieuse","Vengeance","Drame","Suspense"],"annee":"2026","couleur":"#6d1f2c",
   "statut":"Terminé","couv":"couvertures/don-castellano.svg","couv_image":"couvertures/castellano.svg",
-  "resume":"Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Sept ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit."},
+  "revision":"v2-2026-09-20",
+  "resume":"Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Huit ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit."},
  {"id":"lune","titre":"La Part de Lune","serie":"Les Deux Collines — tome 1","auteur":"Écrit avec Claude",
   "genres":["Urban fantasy","Romance paranormale","Loups & Lycans","Âmes sœurs","Série"],"annee":"2026","couleur":"#1c2445",
   "statut":"À venir","couv":"couvertures/la-part-de-lune.svg",
@@ -73,6 +80,19 @@ CATALOGUE = [
   "resume":"Directrice générale du groupe hôtelier Valadares, Nour Belkacem hérite de trente-quatre pour cent des parts — à condition d'être encore en poste le jour de la mort du patriarche. Le fils revenu d'exil veut sa révocation. Une lettre laissée sous scellés lui apprend pourquoi ce legs n'était pas un cadeau, mais une dette : en 1997, Henrique Valadares a ruiné son père. À Lisbonne, tout le monde a de bonnes raisons."},
 ]
 
+def fichiers_du_livre(bid):
+    """Les fichiers d'un livre, dans l'ordre de lecture.
+
+    Un prologue et un épilogue encadrent les chapitres, quel que soit le tri du
+    système de fichiers : prologue.md d'abord, chapitre-*.md ensuite dans l'ordre
+    de leur nom, epilogue.md en dernier. Les trois sont facultatifs.
+    """
+    d = f"chapitres/{bid}"
+    avant = [p for p in (os.path.join(d, "prologue.md"),) if os.path.exists(p)]
+    apres = [p for p in (os.path.join(d, "epilogue.md"),) if os.path.exists(p)]
+    return avant + sorted(glob.glob(os.path.join(d, "chapitre-*.md"))) + apres
+
+
 def charger(bid):
     """Lit les chapitres markdown d'un livre.
 
@@ -82,15 +102,19 @@ def charger(bid):
     l'ordre de lecture venant du nom des fichiers (chapitre-39bis.md se range
     entre chapitre-39.md et chapitre-40.md).
 
+    Un prologue ou un épilogue porte son nom en guise de numéro — « Prologue »,
+    « Épilogue ». La liseuse n'écrit « Chapitre » devant un numéro que s'il
+    commence par un chiffre.
+
     Chaque chapitre rendu porte ses paragraphes (p) et les indices des
     paragraphes après lesquels tombe une coupure de scène (s) — les lignes
     « --- » du manuscrit. Les deux voyagent ensemble : une coupure indexe des
     paragraphes, elle ne peut pas venir d'une autre publication qu'eux.
     """
     chaps = []
-    for f in sorted(glob.glob(f"chapitres/{bid}/chapitre-*.md")):
+    for f in fichiers_du_livre(bid):
         txt = open(f, encoding="utf-8").read()
-        m = re.search(r'## Chapitre (\d+(?: (?:bis|ter|quater))?) — (.+)', txt)
+        m = re.search(r'## (?:Chapitre (\d+(?: (?:bis|ter|quater))?)|(Prologue|Épilogue)) — (.+)', txt)
         if not m:
             print(f"  !! en-tête de chapitre introuvable : {f}")
             continue
@@ -110,9 +134,12 @@ def charger(bid):
         # Une coupure après le dernier paragraphe ne sépare rien.
         coupures = [i for i in coupures if i < len(paras) - 1]
 
-        numero = m.group(1)
-        numero = int(numero) if numero.isdigit() else numero
-        chaps.append({"n": numero, "t": m.group(2).strip(), "pov": pov, "p": paras, "s": coupures})
+        if m.group(2):                             # Prologue, Épilogue
+            numero = m.group(2)
+        else:
+            numero = m.group(1)
+            numero = int(numero) if numero.isdigit() else numero
+        chaps.append({"n": numero, "t": m.group(3).strip(), "pov": pov, "p": paras, "s": coupures})
     return chaps
 
 
@@ -266,7 +293,8 @@ def main():
             couv_image = None
 
         livre = {k: meta[k] for k in ("id", "titre", "serie", "auteur", "genres", "annee",
-                                      "couleur", "statut", "resume", "parties") if k in meta}
+                                      "couleur", "statut", "resume", "parties",
+                                      "revision") if k in meta}
         livre["couv"] = couv
         if couv_image:
             livre["couvImage"] = couv_image

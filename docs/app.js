@@ -114,8 +114,17 @@ const ICONES = {
   sommaire: '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 6h12M4 10h12M4 14h8"/></svg>',
   fermer:   '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"/></svg>'
 };
-function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('show');
-  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'),1900); }
+function toast(m, ms){ const t=$('toast'); t.textContent=m; t.classList.add('show');
+  clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('show'), ms || 1900); }
+
+/* Un numéro de chapitre peut ne pas être un rang : « Prologue », « Épilogue ».
+   On n'écrit « Chapitre » que devant ce qui commence par un chiffre — « 12 »,
+   « 39 bis ». Ailleurs, le nom de la section se suffit. */
+function estRang(n){ return /^\s*\d/.test(String(n == null ? '' : n)); }
+function libelle(n, minuscule){
+  const s = String(n == null ? '' : n);
+  return estRang(s) ? (minuscule ? 'chapitre ' : 'Chapitre ') + s : s;
+}
 
 /* ---- contraste : un accent de livre lisible sur le fond du thème courant ----
    Les cinq couleurs de livre sont sombres. Sur le papier clair elles passent
@@ -657,6 +666,42 @@ function nouveaux(b){
   return Math.max(0, b.chapitres.length - S.connus[b.id]);
 }
 function connaitre(b){ if (!S.connus) S.connus = {}; S.connus[b.id] = b.chapitres.length; save(); }
+
+/* ---- livres réécrits -------------------------------------------------------
+   La progression et les marque-pages sont stockés par indice. Quand un livre
+   cesse d'être le même texte — réécriture, renumérotation, fusion —, ces indices
+   pointent des chapitres qui n'ont plus rien à voir, et rien ne le signale : le
+   lecteur reprend au mauvais endroit en croyant reprendre au bon, avec des
+   chapitres qu'il n'a pas lus marqués comme lus.
+
+   Le catalogue donne donc une « revision » aux livres concernés. Quand elle
+   change, on remet ce livre à zéro, une fois, et on le dit. Un livre sans
+   « revision » n'est jamais touché : les quatre autres ne bougent pas.
+
+   Cas d'une progression dont on ignore la révision (marqueur introduit après
+   coup) : on ne peut pas la valider, donc on ne la garde pas. Perdre une page
+   se répare en un geste ; reprendre au mauvais chapitre sans le savoir, non. */
+let revisionsRemises = [];
+function appliquerRevisions(){
+  if (!S.revisions) S.revisions = {};
+  revisionsRemises = [];
+  BOOKS.forEach(b => {
+    if (!b.revision) return;
+    const connue = S.revisions[b.id];
+    if (connue === b.revision) return;
+    const e = S.livres[b.id];
+    const entame = !!(e && ((e.vus && e.vus.length) || e.chap > 0 || e.scroll > 0
+                            || (e.bookmarks && e.bookmarks.length)));
+    if (entame) {
+      S.livres[b.id] = { chap:0, scroll:0, bookmarks:[], vus:[] };
+      if (S.connus) S.connus[b.id] = b.chapitres.length;
+      if (S.dernier && S.dernier.id === b.id) S.dernier = null;
+      revisionsRemises.push(b.titre);
+    }
+    S.revisions[b.id] = b.revision;
+  });
+  if (revisionsRemises.length) save();
+}
 function commence(b){ const e = S.livres[b.id];
   return !!(e && b.chapitres.length && ((e.vus && e.vus.length) || e.chap > 0 || e.scroll > 0)); }
 
@@ -721,7 +766,7 @@ function renderReprise(){
   box.style.setProperty('--livre', b.couleur);
   const pos = Math.round((e.chap + 1) / b.chapitres.length * 100);
   box.innerHTML = `<small>Reprendre ma lecture</small><b>${b.titre}</b>
-    <em>Chapitre ${c.n} sur ${b.chapitres.length} · ${c.t}</em>
+    <em>${libelle(c.n)} sur ${b.chapitres.length} · ${c.t}</em>
     <div class="cbar" aria-hidden="true"><i style="width:${pos}%"></i></div>`;
   box.onclick = () => { livre = b; poserAccent(b.couleur); connaitre(b); aller('read', true); };
 }
@@ -767,7 +812,7 @@ function renderLib(){
     const etatLecture = !b.chapitres.length ? 'Aucun chapitre publié'
       : !debut ? b.chapitres.length + ' chapitres · ' + duree(b.chapitres.reduce((t,c)=>t+minutesDe(c),0))
       : p >= 100 ? 'Lu en entier'
-      : 'Chapitre ' + (b.chapitres[e.chap] || b.chapitres[0]).n + ' sur ' + b.chapitres.length;
+      : libelle((b.chapitres[e.chap] || b.chapitres[0]).n) + ' sur ' + b.chapitres.length;
     return `<button class="card" data-b="${b.id}">${couverture(b)}
       <div class="cmeta"><b>${b.titre}</b>${nv ? `<span class="nouveaux">${nv === 1 ? '1 nouveau chapitre' : nv + ' nouveaux chapitres'}</span>` : ''}${b.serie ? `<div class="cpct" style="margin-top:3px">${b.serie}</div>` : ''}
         ${debut && p < 100 ? `<div class="cbar"><i style="width:${pos}%"></i></div>` : ''}
@@ -779,7 +824,7 @@ function renderLib(){
   // passe par sa page de garde.
   [...$('grid').querySelectorAll('[data-b]')].forEach(c=>{
     const b = BOOKS.find(x => x.id === c.dataset.b);
-    if (commence(b)) c.setAttribute('aria-label', b.titre + ' — reprendre au chapitre ' + b.chapitres[etat(b.id).chap].n);
+    if (commence(b)) c.setAttribute('aria-label', b.titre + ' — reprendre au ' + libelle(b.chapitres[etat(b.id).chap].n, true));
     c.onclick = () => {
       if (!commence(b)) { ouvrirLivre(b.id); return; }
       livre = b; poserAccent(b.couleur); connaitre(b); aller('read', true);
@@ -828,13 +873,13 @@ function ouvrirLivre(id){
   $('gLab').textContent = !livre.chapitres.length ? 'Aucun chapitre publié pour l\'instant.'
     : p===0 ? livre.chapitres.length + ' chapitres · ' + duree(restant) + ' de lecture'
     : (p===100 ? 'Lu en entier · ' + livre.chapitres.length + ' chapitres'
-    : 'Chapitre ' + livre.chapitres[e.chap].n + ' sur ' + livre.chapitres.length + ' · ' + duree(restant) + ' restantes');
+    : libelle(livre.chapitres[e.chap].n) + ' sur ' + livre.chapitres.length + ' · ' + duree(restant) + ' restantes');
   const vide = !livre.chapitres.length;
   $('gStat').classList.toggle('seul', p === 0);
   // Livre lu en entier : on propose de le relire, sans rien effacer.
   relire = p >= 100;
   $('readBtn').textContent = vide ? 'Bientôt disponible' : (p===0 ? 'Commencer la lecture'
-    : relire ? 'Relire depuis le début' : 'Reprendre au chapitre ' + livre.chapitres[e.chap].n);
+    : relire ? 'Relire depuis le début' : 'Reprendre au ' + libelle(livre.chapitres[e.chap].n, true));
   const nbm = e.bookmarks.length;
   $('tocBtn').textContent = nbm ? 'Sommaire · ' + nbm + (nbm > 1 ? ' marque-pages' : ' marque-page') : 'Sommaire';
   $('readBtn').disabled = vide; $('readBtn').style.opacity = vide ? '.45' : '';
@@ -909,7 +954,7 @@ function aller(v, restore){
   app.classList.remove('immersif');
   app.classList.toggle('lecture', v==='read');
   $('barTitle').textContent = v==='lib' ? 'Bibliothèque'
-    : (v==='cover' ? '' : 'Ch. ' + (livre.chapitres[etat(livre.id).chap]||{n:''}).n);
+    : (v==='cover' ? '' : (function(x){ return estRang(x) ? 'Ch. ' + x : x; })((livre.chapitres[etat(livre.id).chap]||{n:''}).n));
   inscrire(v);
   if (v==='read') lireChapitre(restore); else { $('progBar').style.width = '0'; window.scrollTo(0,0); }
   if (v==='lib') { livre = null; poserAccent('#6d1f2c'); renderLib(); }
@@ -923,7 +968,7 @@ function lireChapitre(restore){
   const b = livre, e = etat(b.id), i = e.chap, c = b.chapitres[i];
   if (!c) { aller('cover'); return; }
   if (c.p) { renderChap(restore); precharger(b, i); return; }
-  $('chapNum').textContent = 'Chapitre ' + c.n;
+  $('chapNum').textContent = libelle(c.n);
   $('chapTitle').textContent = c.t;
   $('chapPov').textContent = 'Point de vue — ' + c.pov;
   $('chapBody').innerHTML = '<p class="empty" aria-live="polite">Chargement du chapitre…</p>';
@@ -948,7 +993,7 @@ function lireChapitre(restore){
 }
 function renderChap(restore){
   const e = etat(livre.id), c = livre.chapitres[e.chap];
-  $('chapNum').textContent = 'Chapitre ' + c.n + '  ·  ' + duree(minutesDe(c));
+  $('chapNum').textContent = libelle(c.n) + '  ·  ' + duree(minutesDe(c));
   $('chapTitle').textContent = c.t;
   $('chapPov').textContent = 'Point de vue — ' + c.pov;
   // Une réplique commence par un tiret cadratin : retrait pendant, pas de lettrine.
@@ -1011,7 +1056,7 @@ function updateProgress(){
 function majFinLabel(){
   const l = $('finLab'); if (!l || !livre) return;
   const c = livre.chapitres[etat(livre.id).chap];
-  l.textContent = 'Fin du chapitre ' + c.n;
+  l.textContent = estRang(c.n) ? 'Fin du chapitre ' + c.n : 'Fin du ' + String(c.n).toLowerCase();
   // Au dernier chapitre, le bloc de fin parle seul : pas de pourcentage qui le contredise.
   l.style.display = livre.chapitres[etat(livre.id).chap + 1] ? '' : 'none';
 }
@@ -1025,7 +1070,7 @@ function construireFin(){
     nb.style.display = ''; nb.disabled = false;
     nb.innerHTML = `<small>Chapitre suivant · ${duree(minutesDe(suiv))}</small>`
       + `<b>${esc(suiv.n)} — ${esc(suiv.t)}</b><em>Point de vue — ${esc(suiv.pov)}</em>`;
-    nb.setAttribute('aria-label', 'Chapitre suivant : ' + suiv.n + ', ' + suiv.t);
+    nb.setAttribute('aria-label', 'Section suivante : ' + libelle(suiv.n) + ', ' + suiv.t);
     fl.style.display = 'none'; fl.innerHTML = '';
   } else {
     nb.style.display = 'none'; nb.disabled = true;
@@ -1039,7 +1084,7 @@ function construireFin(){
     r.onclick = () => { marquerLu(); aller('lib'); };
     fl.appendChild(r); fl.style.display = '';
   }
-  pb.textContent = prec ? '← Chapitre ' + prec.n : '← Précédent';
+  pb.textContent = prec ? '← ' + libelle(prec.n) : '← Précédent';
   pb.disabled = !prec;
 }
 
@@ -1120,7 +1165,7 @@ function feuilleNote(bm, nouveau){
   const c = livre.chapitres[bm.chap];
   ouvrirFeuille({
     titre: nouveau ? 'Passage marqué' : 'Note du marque-page',
-    sous: 'Chapitre ' + c.n + '  ·  ' + c.t,
+    sous: libelle(c.n) + '  ·  ' + c.t,
     corps: `<p class="fcitation">« ${esc(bm.extrait)} »</p>
       <label class="flabel" for="fNote">Note <span>(facultatif)</span></label>
       <textarea id="fNote" rows="3" maxlength="280" placeholder="Une remarque, une question pour plus tard…">${esc(bm.note || '')}</textarea>
@@ -1158,7 +1203,7 @@ function buildChaps(){
   $('dTitle').textContent = livre.titre;
   const ligne = (c,i) => { const lu = i !== e.chap && e.vus.includes(i);
     return `<button class="chapline ${i===e.chap?'current':''}${lu?' lu':''}" data-go="${i}"${i===e.chap?' aria-current="true"':''}>
-      <em>Chapitre ${esc(c.n)} · ${esc(c.pov)} · ${duree(minutesDe(c))}${i===e.chap ? ' · en cours' : ''}${lu ? '<span class="vh">, lu</span>' : ''}</em>${esc(c.t)}</button>`; };
+      <em>${esc(libelle(c.n))} · ${esc(c.pov)} · ${duree(minutesDe(c))}${i===e.chap ? ' · en cours' : ''}${lu ? '<span class="vh">, lu</span>' : ''}</em>${esc(c.t)}</button>`; };
   const parts = (Array.isArray(livre.parties) ? livre.parties : [])
     .filter(p => p && p.titre && +p.debut > 0)
     .map(p => ({ titre:p.titre, i:livre.chapitres.findIndex(c => parseInt(c.n, 10) >= +p.debut) }))
@@ -1193,7 +1238,7 @@ function buildBms(){
   $('tabBms').textContent = 'Marque-pages' + (e.bookmarks.length ? ' (' + e.bookmarks.length + ')' : '');
   if (!e.bookmarks.length){ pane.innerHTML = '<p class="empty">Aucun marque-page pour ce livre. Pendant la lecture, affichez la barre d\'un toucher puis choisissez l\'icône marque-page.</p>'; return; }
   pane.innerHTML = e.bookmarks.map((b,i)=>
-    `<div><button class="bmrow" data-bm="${i}"><small>Chapitre ${esc(livre.chapitres[b.chap].n)} · ${esc(b.date)}</small>
+    `<div><button class="bmrow" data-bm="${i}"><small>${esc(libelle(livre.chapitres[b.chap].n))} · ${esc(b.date)}</small>
       <span>« ${esc(b.extrait)} »</span>${b.note ? `<span class="bmnote">${esc(b.note)}</span>` : ''}</button>
       <div class="bmacts"><button class="del" data-note="${i}">${b.note ? 'Modifier la note' : 'Ajouter une note'}</button>
       <button class="del" data-del="${i}">Supprimer</button></div></div>`).join('');
@@ -1260,7 +1305,7 @@ $('readBtn').onclick = () => {
 };
 $('resetBtn').onclick = () => {
   const e = etat(livre.id), k = e.bookmarks.length, c = livre.chapitres[e.chap];
-  const pos = 'Votre progression (chapitre ' + (c ? c.n : 1) + ' sur ' + livre.chapitres.length + ')';
+  const pos = 'Votre progression (' + libelle(c ? c.n : 1, true) + ' sur ' + livre.chapitres.length + ')';
   const texte = k
     ? pos + ' et ' + (k === 1 ? 'votre marque-page' : 'vos ' + k + ' marque-pages') + ' sur <i>' + esc(livre.titre) + '</i> seront effacés de cet appareil. Cette action est définitive.'
     : pos + ' sur <i>' + esc(livre.titre) + '</i> sera effacée de cet appareil. Cette action est définitive.';
@@ -1552,7 +1597,13 @@ function demarrer(){
   $('noRes').style.display = 'none';
   chargerCatalogue().then(livres => {
     BOOKS = livres; catalogueCharge = true;
+    appliquerRevisions();
     renderLib();
+    if (revisionsRemises.length) {
+      const l = revisionsRemises;
+      toast((l.length === 1 ? l[0] + ' a été réécrit' : l.join(', ') + ' ont été réécrits')
+            + ' : la lecture repart du début.', 6000);
+    }
     if (/^#\/(livre|lire)\//.test(location.hash)) router();
     try { history.replaceState({ liseuse:1, h:(vue === 'lib' ? '#/' : location.hash), prec:null }, '', vue === 'lib' ? '#/' : location.hash); } catch(e){}
     S.visite = Date.now(); save();
