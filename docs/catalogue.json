@@ -15,11 +15,18 @@
    "annee": "2026",
    "couleur": "#6d1f2c",
    "statut": "Terminé",
-   "resume": "Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Sept ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit.",
+   "resume": "Livia Sarti est la consigliere de la famille Castellano et, depuis trois ans, l'épouse secrète de son Don. Une balle sur le quai nord, un appel auquel il répond sans savoir que c'est elle, et tout s'écroule. Elle rend les clés, demande le divorce devant vingt-deux couverts, et s'allie à la famille rivale. Huit ans pour comprendre qu'on n'attend pas qu'on écrive votre nom quelque part : on l'écrit.",
+   "revision": "v2-2026-09-20",
    "couv": true,
    "couvImage": "couvertures/castellano.svg",
    "maj": "2026-09-21",
    "chapitres": [
+    {
+     "n": "Prologue",
+     "t": "Le quai nord",
+     "pov": "Livia",
+     "mots": 1900
+    },
     {
      "n": 1,
      "t": "Les clés",
@@ -317,49 +324,49 @@
    ],
    "morceaux": [
     {
-     "url": "data-castellano-p1.json?v=e9fc3a2d",
+     "url": "data-castellano-p1.json?v=13eac756",
      "de": 0,
      "a": 5
     },
     {
-     "url": "data-castellano-p2.json?v=60c7fe06",
+     "url": "data-castellano-p2.json?v=24ad9f74",
      "de": 6,
      "a": 11
     },
     {
-     "url": "data-castellano-p3.json?v=74390e9c",
+     "url": "data-castellano-p3.json?v=f3ac8cf3",
      "de": 12,
      "a": 17
     },
     {
-     "url": "data-castellano-p4.json?v=9667f49f",
+     "url": "data-castellano-p4.json?v=fdea39c1",
      "de": 18,
      "a": 23
     },
     {
-     "url": "data-castellano-p5.json?v=606b3f3d",
+     "url": "data-castellano-p5.json?v=c65685e2",
      "de": 24,
      "a": 29
     },
     {
-     "url": "data-castellano-p6.json?v=a87426ab",
+     "url": "data-castellano-p6.json?v=1ea2c68b",
      "de": 30,
      "a": 35
     },
     {
-     "url": "data-castellano-p7.json?v=498f6d6a",
+     "url": "data-castellano-p7.json?v=db53cbb4",
      "de": 36,
      "a": 41
     },
     {
-     "url": "data-castellano-p8.json?v=669ab54a",
+     "url": "data-castellano-p8.json?v=40c67a6c",
      "de": 42,
      "a": 47
     },
     {
-     "url": "data-castellano-p9.json?v=354a1c4f",
+     "url": "data-castellano-p9.json?v=bdde6ffe",
      "de": 48,
-     "a": 48
+     "a": 49
     }
    ],
    "personnages": [
