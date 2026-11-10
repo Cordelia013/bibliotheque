@@ -83,8 +83,13 @@ avertissement dans le journal de l'action.
 
 **L'italique et le gras sont rendus**, dans la liseuse comme dans les EPUB : `*…*` donne de
 l'italique, `**…**` du gras. Ouvrir et fermer la marque dans le même paragraphe : une étoile
-sans sa jumelle reste une étoile à l'écran. Un retour à la ligne à l'intérieur d'un paragraphe
-n'est pas conservé — les lignes sont jointes d'une espace.
+sans sa jumelle reste une étoile à l'écran.
+
+**Un retour à la ligne à l'intérieur d'un paragraphe est conservé.** Deux lignes qui se suivent
+sans ligne vide entre elles s'affichent l'une sous l'autre — pour une plaque, une adresse, une
+liste. Conséquence : ne pas couper un paragraphe ordinaire en plusieurs lignes dans le fichier,
+il s'afficherait coupé au même endroit. Une marque d'italique ou de gras se ferme sur la ligne
+où elle s'ouvre.
 
 Le nom du fichier fixe l'ordre de lecture ; le numéro dans l'en-tête, l'affichage.
 

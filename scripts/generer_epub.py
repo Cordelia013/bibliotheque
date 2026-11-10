@@ -124,7 +124,9 @@ def fragment(p):
     fier : tout autre « < » et toute esperluette isolée sont échappés ici.
     """
     p = re.sub(r"&(?!(?:amp|lt|gt|quot|#\d+);)", "&amp;", p)
-    return re.sub(r"<(?!/?(?:em|strong)>)", "&lt;", p)
+    p = re.sub(r"<(?!/?(?:em|strong)>)", "&lt;", p)
+    # Un retour à la ligne dans le paragraphe en est un dans le livre.
+    return p.replace("\n", "<br/>")
 
 
 def page_chapitre(chapitre):
@@ -132,7 +134,8 @@ def page_chapitre(chapitre):
     coupures = set(chapitre.get("s", []))
     lignes = []
     for i, p in enumerate(chapitre["p"]):
-        lignes.append("    <p>%s</p>" % fragment(p))
+        # Un paragraphe en plusieurs lignes — plaque, liste — ne se justifie ni ne s'indente.
+        lignes.append("    <p%s>%s</p>" % (' class="lignes"' if "\n" in p else "", fragment(p)))
         if i in coupures:
             lignes.append('    <p class="scene">\u00b7 \u00b7 \u00b7</p>')
     paragraphes = "\n".join(lignes)
@@ -191,6 +194,7 @@ p.chapnum { text-indent: 0; font-size: .8em; letter-spacing: .2em;
   text-transform: uppercase; margin-bottom: .4em; }
 p.pov { text-indent: 0; font-style: italic; margin-bottom: 1.6em; }
 p.auteur, p.info { text-indent: 0; font-size: .9em; }
+p.lignes { text-indent: 0; text-align: left; }
 p.scene { text-indent: 0; text-align: center; letter-spacing: .5em; margin: 1.6em 0; }
 section.garde { text-align: center; margin-top: 25%; }
 body.couverture { margin: 0; text-align: center; }

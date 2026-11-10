@@ -245,6 +245,31 @@ Castellano 191, les Braises 196, Vesper 18, Verre 11.
   lui garde sa mise en forme propre, sans gras ; l'EPUB le rend en gras.
 - Le **gras** sert, dans les Braises (ch. 20 et 23), d'intertitre en tête de paragraphe — relevés
   datés, consignes. Il est rendu tel quel, en gras dans le fil du texte, sans style d'intertitre.
-- Un **retour à la ligne à l'intérieur d'un paragraphe** n'est toujours pas conservé : la plaque
-  « ROCCHI & SARTI / Gestion portuaire et industrielle » (Castellano, ch. 43) se lit sur une
-  ligne. Point ouvert, noté dans `ARCHITECTURE.md`, § 6.
+- Un **retour à la ligne à l'intérieur d'un paragraphe** n'était pas conservé à cette date ;
+  il l'est depuis la décision suivante.
+
+
+---
+
+## Retour à la ligne dans un paragraphe — 10 novembre 2026
+
+Décision appliquée, à la demande de l'autrice : deux lignes qui se suivent sans ligne vide, dans
+un chapitre, s'affichent l'une sous l'autre, dans la liseuse comme dans les EPUB. Jusqu'ici
+elles étaient jointes d'une espace.
+
+- **Ce que ça touche aujourd'hui** : deux paragraphes, tous deux au chapitre 43 de Castellano —
+  la plaque « ROCCHI & SARTI / Gestion portuaire et industrielle » et la règle encadrée, dont le
+  texte dit qu'elle tient en « cinq lignes ». Aucun autre chapitre des quatre livres ne porte de
+  paragraphe en plusieurs lignes (vérifié sur l'ensemble de `chapitres/`).
+- **Sources** : rien n'a été touché dans `chapitres/`.
+- **Contrat** : le retour à la ligne voyage tel quel (`\n`) dans le paragraphe. Le format reste
+  4 : un moteur plus ancien le lit comme une espace, c'est-à-dire comme avant.
+- **Mise en page** : un paragraphe en plusieurs lignes n'est ni justifié ni, dans l'EPUB,
+  indenté.
+- **Dates** : Castellano n'est pas redaté. Le générateur ne compte plus les blancs quand il
+  compare deux publications : une espace devenue retour à la ligne est de la mise en page.
+
+Ce que ça engage pour l'écriture : **une ligne du fichier est une ligne à l'écran.** Un
+paragraphe ordinaire s'écrit d'un seul tenant ; le couper dans le fichier le couperait pour le
+lecteur. C'est un écart par rapport au markdown courant, où un retour à la ligne simple ne
+compte pas — assumé, parce que c'est ainsi que les manuscrits l'emploient déjà.

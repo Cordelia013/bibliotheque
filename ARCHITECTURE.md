@@ -102,7 +102,9 @@ Un tableau de chapitres, dans l'ordre de l'index :
   pas pour autant et échappent, avant d'insérer, tout `<` qui n'ouvre pas l'une de ces deux
   balises et toute esperluette isolée. Qui lit le texte au lieu de l'afficher — compte des mots,
   extrait d'un marque-page — retire les balises et les entités. Un paragraphe commençant par un
-  tiret est une réplique.
+  tiret est une réplique. Un retour à la ligne (`\n`) dans un paragraphe est un retour à la
+  ligne voulu — plaque, adresse, liste : le moteur le rend par `<br>` et ne justifie pas ce
+  paragraphe. Il ne change pas le format : un moteur plus ancien le lit comme une espace.
 - `s` — les indices des paragraphes **après** lesquels tombe une coupure de scène. Ils voyagent
   avec les paragraphes qu'ils indexent : c'est ce qui garantit qu'ils ne viendront jamais d'une
   autre publication que le texte.
@@ -188,11 +190,9 @@ Par ordre d'importance.
    racine, écrites à la main, recopiées dans le catalogue. Une version publique pourrait les
    tirer d'un fichier par livre à côté des chapitres.
 
-Faits depuis la première rédaction de cette liste : l'italique et le gras sont rendus, et le
-texte est échappé (format 4, 10 novembre 2026 — voir la section 2 et `plans/liseuse-design.md`).
-Reste, dans le même ordre d'idées, le **retour à la ligne à l'intérieur d'un paragraphe** : les
-lignes d'un même bloc du manuscrit sont jointes d'une espace, si bien qu'une plaque ou une
-adresse écrite sur deux lignes se lit sur une seule.
+Faits depuis la première rédaction de cette liste : l'italique et le gras sont rendus, le texte
+est échappé et le retour à la ligne à l'intérieur d'un paragraphe est conservé (format 4,
+10 novembre 2026 — voir la section 2 et `plans/liseuse-design.md`).
 
 ## 7. Ce qui ne change pas d'une publication à l'autre
 

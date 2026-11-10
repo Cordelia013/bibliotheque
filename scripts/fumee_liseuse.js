@@ -18,7 +18,7 @@
  * « vesper », « braises », « verre » et « castellano » dans le catalogue, le
  * chapitre 4 des Braises à sept coupures de scène, de l'italique en tête de son
  * chapitre 26, du gras au chapitre 20, et dans Castellano une esperluette au
- * chapitre 43 et un « FIN » en gras au dernier. À adapter si le catalogue change.
+ * chapitre 43, où une règle tient en cinq lignes, et un « FIN » en gras au dernier. À adapter si le catalogue change.
  */
 const { chromium } = require('playwright');
 const { spawn } = require('child_process');
@@ -116,6 +116,9 @@ const PORT = 8800 + (process.pid % 150), BASE = `http://127.0.0.1:${PORT}/`;
   await page.waitForFunction(() => /Chapitre 43\b/.test(document.querySelector('#chapNum').textContent) && document.querySelectorAll('#chapBody p[data-i]').length > 3, null, { timeout: 8000 });
   const corps43 = await page.textContent('#chapBody');
   ok(/ROCCHI & SARTI/.test(corps43) && !/&amp;/.test(corps43), 'esperluette échappée dans le morceau, lisible à l\'écran');
+  const regle = await page.evaluate(() => { const p = [...document.querySelectorAll('#chapBody p')].find(e => /Toute décision qui engage/.test(e.textContent));
+    return { br: p.querySelectorAll('br').length, lignes: p.classList.contains('lignes') }; });
+  ok(regle.br === 4 && regle.lignes, 'retours à la ligne gardés dans un paragraphe : cinq lignes pour la règle encadrée');
   await page.goto(BASE + '#/lire/castellano/50');
   await page.waitForFunction(() => !!document.querySelector('#chapBody p.finmanuscrit'), null, { timeout: 8000 });
   ok(await page.evaluate(() => { const p = document.querySelector('#chapBody p.finmanuscrit'); return p.textContent.trim() === 'FIN' && !p.querySelector('strong'); }),

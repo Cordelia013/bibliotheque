@@ -46,7 +46,9 @@ FORMAT = 4
 
 # Format 4 : les paragraphes ne sont plus du texte brut. Le texte est échappé
 # (&amp; &lt; &gt;) et l'italique et le gras du manuscrit y sont portés par
-# <em> et <strong> — les deux seules balises permises.
+# <em> et <strong> — les deux seules balises permises. Un retour à la ligne à
+# l'intérieur d'un paragraphe y reste un retour à la ligne (« \n ») : une plaque,
+# une adresse, une liste écrite sur plusieurs lignes se lisent ligne par ligne.
 
 # Un morceau pèse de l'ordre de 10 à 20 Ko compressés à six chapitres : c'est
 # ce que coûte l'ouverture d'un chapitre au lecteur. DECOUPAGE permet de
@@ -155,12 +157,15 @@ def baliser(bloc):
 
     On échappe d'abord, on marque ensuite : le texte ne peut donc porter
     d'autres balises que celles posées ici. « **…** » devient <strong>,
-    « *…* » devient <em>. Les lignes d'un même bloc sont jointes d'une espace.
+    « *…* » devient <em>. Une marque s'ouvre et se ferme sur la même ligne.
+
+    Les lignes d'un même bloc restent des lignes : le retour à la ligne est
+    gardé tel quel, débarrassé des blancs qui l'entourent.
     """
     t = html.escape(bloc, quote=False)
     t = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', t)
     t = re.sub(r'\*(.+?)\*', r'<em>\1</em>', t)
-    return t.replace("\n", " ")
+    return "\n".join(ligne.strip() for ligne in t.splitlines() if ligne.strip())
 
 
 def texte_nu(paragraphe):
@@ -218,10 +223,13 @@ def meme_texte(avant, apres, sans_balises=False):
     sans_balises : on compare les mots seuls. Sert au passage d'un format à
     l'autre — rendre l'italique d'un texte qui n'a pas changé n'en fait pas un
     livre mis à jour, et ne doit pas le dater.
+
+    Dans tous les cas les blancs ne comptent pas : une espace devenue retour à
+    la ligne, ou l'inverse, est de la mise en page, pas du texte.
     """
     if avant is None or len(avant) != len(apres):
         return False
-    nu = (lambda ps: [texte_nu(p) for p in ps or []]) if sans_balises else (lambda ps: ps)
+    nu = lambda ps: [" ".join((texte_nu(p) if sans_balises else p).split()) for p in ps or []]
     return all(all(a.get(k) == b.get(k) for k in ("n", "t", "pov", "s"))
                and nu(a.get("p")) == nu(b.get("p")) for a, b in zip(avant, apres))
 

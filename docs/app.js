@@ -280,6 +280,7 @@ function mesurerBarre(){
   #app .body p.ouverture { font-size: 1.1em; }
   #app .body p.ouverture .cap { font-size: 1.5em; line-height: 1; font-weight: 600;
     color: var(--accent-texte); }
+  #app .body p.lignes { text-align: left; hyphens: manual; }
   #app .body p.dlg { text-indent: -.75em; padding-left: .75em; text-align: left; hyphens: manual; }
   /* Coupure de scène : les lignes « --- » du manuscrit. Leur position voyage avec
      le chapitre (s), écrite par le générateur. Le filet est centré sur la colonne
@@ -716,11 +717,12 @@ function statutLisible(s){
 /* Un paragraphe publié est du texte échappé où seules <em> et <strong> sont
    permises (format 4 du catalogue). On s'en assure plutôt que de s'y fier :
    tout autre « < » et toute esperluette isolée sont échappés avant l'insertion.
+   Un retour à la ligne dans le paragraphe en est un à l'écran.
    texteNu rend le même paragraphe sans balises ni entités, pour tout ce qui lit
    le texte au lieu de l'afficher — extrait d'un marque-page, tests sur le contenu. */
 function fragment(t){ return String(t == null ? '' : t)
-  .replace(/&(?!(?:amp|lt|gt|quot|#\d+);)/g, '&amp;').replace(/<(?!\/?(?:em|strong)>)/g, '&lt;'); }
-function texteNu(t){ return String(t == null ? '' : t).replace(/<\/?(?:em|strong)>/g, '')
+  .replace(/&(?!(?:amp|lt|gt|quot|#\d+);)/g, '&amp;').replace(/<(?!\/?(?:em|strong)>)/g, '&lt;').replace(/\n/g, '<br>'); }
+function texteNu(t){ return String(t == null ? '' : t).replace(/<\/?(?:em|strong)>/g, '').replace(/\s*\n\s*/g, ' ')
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&'); }
 function esc(t){ return String(t == null ? '' : t).replace(/[&<>"']/g,
   c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[c]); }
@@ -1019,7 +1021,9 @@ function renderChap(restore){
   $('chapBody').innerHTML = c.p.map((t,i)=>{
     const nu = texteNu(t);
     const finMs = i === c.p.length - 1 && /^\s*fin\.?\s*$/i.test(nu);
-    const dlg = /^\s*[—–-]/.test(nu) ? ' class="dlg"' : (finMs ? ' class="finmanuscrit"' : '');
+    // Un paragraphe en plusieurs lignes — plaque, liste — ne se justifie pas.
+    const dlg = /^\s*[—–-]/.test(nu) ? ' class="dlg"' : (finMs ? ' class="finmanuscrit"'
+      : (t.indexOf('\n') > -1 ? ' class="lignes"' : ''));
     const fin = coupures.indexOf(i) > -1 ? '<div class="scene" aria-hidden="true"></div>' : '';
     // Le « FIN » du manuscrit a sa propre mise en forme : il se pose sans gras ni italique.
     return `<p data-i="${i}"${dlg}>${finMs ? esc(nu) : fragment(t)}</p>` + fin;
