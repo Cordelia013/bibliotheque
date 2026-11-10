@@ -11,7 +11,7 @@ est enregistrée dans le navigateur, par livre.
 
 | Titre | Genre | Statut | Chapitres |
 |---|---|---|---|
-| **Le Prix du Silence, Don Castellano** | Romance mafieuse, vengeance | Terminé | 40 |
+| **Le Prix du Silence, Don Castellano** | Romance mafieuse, vengeance | Terminé | 50 — un prologue et 49 chapitres |
 | **Le Contrat de Vesper** | Dark romance, science-fiction | En cours | 10 |
 | **La Saison des Braises** *(Les Trois Cents Lieues, t. 1)* | Romance sensuelle, fantasy | En cours | 52 |
 | **La Dette de Verre** | Romance, héritage | En cours | 5 |
@@ -48,6 +48,10 @@ Le texte, en paragraphes séparés par une ligne vide.
 
 Le numéro, le titre et le point de vue sont lus automatiquement par le script.
 Le nom du fichier fixe l'ordre : `chapitre-07.md`, sur deux chiffres.
+
+Un livre peut s'ouvrir sur `prologue.md` et se fermer sur `epilogue.md`, titrés
+`## Prologue — …` et `## Épilogue — …`. Ils se rangent d'eux-mêmes avant et après les
+chapitres, et la liseuse affiche « Prologue », sans « Chapitre » devant.
 
 Pour insérer un chapitre sans renuméroter la suite, on lui donne un suffixe :
 `chapitre-39bis.md`, titré `## Chapitre 39 bis — …`. Il se range de lui-même

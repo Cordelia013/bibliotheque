@@ -51,15 +51,16 @@ Dépôt d'écriture : cinq romans en markdown et une liseuse web autonome géné
 - **Trois postures, trois fiches** : conseiller (`conseil-ecriture`), alpha-lire
   (`alpha-lecture`), corriger (`relecture`). Ne pas les mélanger dans la même séance.
 
-## État au 20 septembre 2026
+## État au 10 novembre 2026
 
 | Livre | Chapitres | Statut |
 |---|---|---|
-| Le Prix du Silence, Don Castellano | 50 | terminé — v2, révisée et publiée le 20 sept. 2026 |
-| La Saison des Braises *(t. 1)* | 52 | en cours — blocs 4 à 6 du plan de réécriture |
+| Le Prix du Silence, Don Castellano | 50 (un prologue, 49 chapitres) | terminé — v2, révisée, publiée le 21 sept. 2026 |
+| La Saison des Braises *(t. 1)* | 52 | en cours — blocs 0 à 2 appliqués, bloc 3 appliqué en brouillon et à relire, restent les blocs 4 à 6 |
 | Le Contrat de Vesper | 10 | en cours, jamais audité |
 | La Dette de Verre | 5 | en cours, jamais audité |
 | La Part de Lune *(t. 1)* | 0 | plan seul |
 
-La branche de travail est `claude/sleepy-cerf-ts5mmq` ; `main` sert GitHub Pages et publie
-automatiquement ce qu'on y pousse.
+Dernier changement de texte publié : 21 septembre 2026. Il n'y a pas de branche de travail
+permanente : chaque séance prépare la sienne, qu'on fusionne dans `main`. `main` sert GitHub
+Pages et publie automatiquement ce qu'on y pousse.

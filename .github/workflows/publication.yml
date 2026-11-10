@@ -84,7 +84,7 @@ jobs:
               if z.testzip() is not None:
                   print(f'{f} : archive corrompue'); erreurs += 1
               for n in z.namelist():
-                  if n.endswith(('.xhtml', '.opf', '.xml')):
+                  if n.endswith(('.xhtml', '.opf', '.xml', '.svg')):
                       try:
                           ET.fromstring(z.read(n))
                       except Exception as e:

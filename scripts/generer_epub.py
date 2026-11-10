@@ -21,15 +21,21 @@ import re
 import sys
 import unicodedata
 import zipfile
-from datetime import datetime, timezone
 from html import escape
+from xml.etree import ElementTree
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(RACINE, "docs")
 SORTIE = os.path.join(DOCS, "epub")
 
 CATALOGUE = os.path.join(DOCS, "catalogue.json")
+INDEX = os.path.join(DOCS, "index.html")
 LANGUE = "fr"
+
+# Date portée par chaque entrée de l'archive. Fixe : deux générations du même
+# texte doivent donner le même fichier, à l'octet près, sans quoi l'action
+# recommiterait tous les EPUB à chaque passage.
+DATE_ARCHIVE = (1980, 1, 1, 0, 0, 0)
 
 
 def lire_catalogue():
@@ -56,6 +62,60 @@ def identifiant(titre):
     return "bibliotheque-" + base
 
 
+def libelle(n):
+    """Même règle que la liseuse : « Chapitre » ne précède un numéro que s'il
+    commence par un chiffre — « 12 », « 39 bis ». Ailleurs le nom de la section
+    se suffit : « Prologue », et non « Chapitre Prologue »."""
+    n = str(n)
+    return "Chapitre " + n if n[:1].isdigit() else n
+
+
+def couverture(livre):
+    """La couverture du livre, en SVG, ou None.
+
+    Même priorité que la liseuse : la couverture en image déclarée par le
+    catalogue (couvImage) d'abord, sinon la vectorielle injectée dans
+    index.html. Une couverture qui ne serait pas du XML bien formé est écartée :
+    elle rendrait l'archive invalide.
+    """
+    svg = None
+    image = livre.get("couvImage")
+    if image and os.path.exists(os.path.join(DOCS, image)):
+        with open(os.path.join(DOCS, image), encoding="utf-8") as f:
+            svg = f.read()
+    elif livre.get("couv") and os.path.exists(INDEX):
+        with open(INDEX, encoding="utf-8") as f:
+            m = re.search(
+                r'<template class="couv" data-livre="%s">(.*?)</template>' % re.escape(livre["id"]),
+                f.read(), flags=re.S)
+        svg = m.group(1) if m else None
+    if not svg:
+        return None
+    svg = re.sub(r"<\?xml.*?\?>", "", svg).strip()
+    try:
+        ElementTree.fromstring(svg)
+    except ElementTree.ParseError as e:
+        print("  !! couverture écartée (%s) : %s" % (e, livre["id"]))
+        return None
+    return '<?xml version="1.0" encoding="utf-8"?>\n' + svg + "\n"
+
+
+def page_couverture(titre):
+    return """<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{langue}" lang="{langue}">
+<head>
+  <meta charset="utf-8"/>
+  <title>{titre}</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body class="couverture">
+  <img src="couverture.svg" alt="Couverture : {titre}"/>
+</body>
+</html>
+""".format(langue=LANGUE, titre=escape(titre))
+
+
 def page_chapitre(chapitre):
     # Les coupures de scène (s) : indices des paragraphes après lesquels elles tombent.
     coupures = set(chapitre.get("s", []))
@@ -70,12 +130,12 @@ def page_chapitre(chapitre):
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{langue}" lang="{langue}">
 <head>
   <meta charset="utf-8"/>
-  <title>Chapitre {n} — {titre}</title>
+  <title>{n} — {titre}</title>
   <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
   <section>
-    <p class="chapnum">Chapitre {n}</p>
+    <p class="chapnum">{n}</p>
     <h2>{titre}</h2>
     <p class="pov">Point de vue — {pov}</p>
 {paragraphes}
@@ -84,7 +144,7 @@ def page_chapitre(chapitre):
 </html>
 """.format(
         langue=LANGUE,
-        n=chapitre["n"],
+        n=escape(libelle(chapitre["n"])),
         titre=escape(chapitre["t"]),
         pov=escape(chapitre["pov"]),
         paragraphes=paragraphes,
@@ -122,6 +182,8 @@ p.pov { text-indent: 0; font-style: italic; margin-bottom: 1.6em; }
 p.auteur, p.info { text-indent: 0; font-size: .9em; }
 p.scene { text-indent: 0; text-align: center; letter-spacing: .5em; margin: 1.6em 0; }
 section.garde { text-align: center; margin-top: 25%; }
+body.couverture { margin: 0; text-align: center; }
+body.couverture img { max-width: 100%; max-height: 100%; }
 """
 
 CONTAINER = """<?xml version="1.0" encoding="UTF-8"?>
@@ -133,13 +195,19 @@ CONTAINER = """<?xml version="1.0" encoding="UTF-8"?>
 """
 
 
-def contenu_opf(titre, auteur, uid, chapitres, date):
+def contenu_opf(titre, auteur, uid, chapitres, date, avec_couverture):
     manifeste = [
         '<item id="style" href="style.css" media-type="text/css"/>',
         '<item id="nav" href="nav.xhtml" properties="nav" media-type="application/xhtml+xml"/>',
         '<item id="garde" href="garde.xhtml" media-type="application/xhtml+xml"/>',
     ]
     colonne = ['<itemref idref="garde"/>']
+    if avec_couverture:
+        manifeste += [
+            '<item id="couverture-image" href="couverture.svg" properties="cover-image" media-type="image/svg+xml"/>',
+            '<item id="couverture" href="couverture.xhtml" media-type="application/xhtml+xml"/>',
+        ]
+        colonne.insert(0, '<itemref idref="couverture"/>')
     for i, _ in enumerate(chapitres, 1):
         manifeste.append(
             '<item id="ch%d" href="ch%d.xhtml" media-type="application/xhtml+xml"/>' % (i, i)
@@ -174,8 +242,8 @@ def contenu_opf(titre, auteur, uid, chapitres, date):
 
 def navigation(titre, chapitres):
     entrees = "\n".join(
-        '      <li><a href="ch%d.xhtml">Chapitre %s — %s</a></li>'
-        % (i, c["n"], escape(c["t"]))
+        '      <li><a href="ch%d.xhtml">%s — %s</a></li>'
+        % (i, escape(libelle(c["n"])), escape(c["t"]))
         for i, c in enumerate(chapitres, 1)
     )
     return """<?xml version="1.0" encoding="utf-8"?>
@@ -196,37 +264,42 @@ def navigation(titre, chapitres):
 """.format(langue=LANGUE, titre=escape(titre), entrees=entrees)
 
 
-def ecrire_epub(livre_id, titre, auteur, chapitres):
+def ecrire_epub(livre, chapitres, date):
+    """Écrit l'archive. Rien n'y dépend de l'heure de la génération : les
+    entrées portent une date fixe, et « dcterms:modified » celle du dernier
+    changement de texte du livre."""
     os.makedirs(SORTIE, exist_ok=True)
-    cible = os.path.join(SORTIE, livre_id + ".epub")
-    date = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    uid = identifiant(titre)
+    cible = os.path.join(SORTIE, livre["id"] + ".epub")
+    titre, auteur = livre["titre"], livre.get("auteur", "")
+    svg = couverture(livre)
 
     with zipfile.ZipFile(cible, "w") as z:
+        def ajouter(nom, contenu, compression=zipfile.ZIP_DEFLATED):
+            info = zipfile.ZipInfo(nom, date_time=DATE_ARCHIVE)
+            info.external_attr = 0o644 << 16
+            z.writestr(info, contenu, compress_type=compression)
+
         # mimetype : premier fichier, non compressé (exigence de la norme)
-        z.writestr(
-            zipfile.ZipInfo("mimetype"),
-            "application/epub+zip",
-            compress_type=zipfile.ZIP_STORED,
-        )
-        z.writestr("META-INF/container.xml", CONTAINER, zipfile.ZIP_DEFLATED)
-        z.writestr("OEBPS/style.css", STYLE, zipfile.ZIP_DEFLATED)
-        z.writestr("OEBPS/garde.xhtml", page_titre(titre, auteur, len(chapitres)), zipfile.ZIP_DEFLATED)
-        z.writestr("OEBPS/nav.xhtml", navigation(titre, chapitres), zipfile.ZIP_DEFLATED)
-        z.writestr(
-            "OEBPS/content.opf",
-            contenu_opf(titre, auteur, uid, chapitres, date),
-            zipfile.ZIP_DEFLATED,
-        )
+        ajouter("mimetype", "application/epub+zip", zipfile.ZIP_STORED)
+        ajouter("META-INF/container.xml", CONTAINER)
+        ajouter("OEBPS/style.css", STYLE)
+        if svg:
+            ajouter("OEBPS/couverture.svg", svg)
+            ajouter("OEBPS/couverture.xhtml", page_couverture(titre))
+        ajouter("OEBPS/garde.xhtml", page_titre(titre, auteur, len(chapitres)))
+        ajouter("OEBPS/nav.xhtml", navigation(titre, chapitres))
+        ajouter("OEBPS/content.opf",
+                contenu_opf(titre, auteur, identifiant(titre), chapitres, date, bool(svg)))
         for i, c in enumerate(chapitres, 1):
-            z.writestr("OEBPS/ch%d.xhtml" % i, page_chapitre(c), zipfile.ZIP_DEFLATED)
+            ajouter("OEBPS/ch%d.xhtml" % i, page_chapitre(c))
 
     return cible, os.path.getsize(cible)
 
 
 def main():
     total = 0
-    for livre in lire_catalogue().get("livres", []):
+    catalogue = lire_catalogue()
+    for livre in catalogue.get("livres", []):
         livre_id = livre["id"]
         try:
             chapitres = chapitres_du_livre(livre)
@@ -236,7 +309,9 @@ def main():
         if not chapitres:
             print("  ignoré (aucun chapitre) : %s" % livre_id)
             continue
-        cible, taille = ecrire_epub(livre_id, livre["titre"], livre.get("auteur", ""), chapitres)
+        # La date du livre est celle de son dernier changement de texte.
+        jour = livre.get("maj") or catalogue.get("genere") or "1980-01-01"
+        cible, taille = ecrire_epub(livre, chapitres, jour + "T00:00:00Z")
         print(
             "  %-12s %2d chapitres  %6.1f Ko  %s"
             % (livre_id, len(chapitres), taille / 1024, os.path.relpath(cible, RACINE))

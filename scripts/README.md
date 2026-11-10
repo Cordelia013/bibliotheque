@@ -42,14 +42,30 @@ Les fichiers sont écrits dans `docs/epub/` — un `.epub` par livre ayant au mo
 Le script lit `docs/catalogue.json` et les morceaux de texte qu'il cite : ce que la liseuse lit
 elle-même, sans liste de fichiers tenue à part. Les coupures de scène du manuscrit sont rendues.
 
-Sortie attendue à ce jour :
+Sortie attendue au 10 novembre 2026 :
 
 ```
-  castellano   40 chapitres    75.4 Ko  docs/epub/castellano.epub
-  vesper       10 chapitres    22.6 Ko  docs/epub/vesper.epub
-  braises      52 chapitres   174.6 Ko  docs/epub/braises.epub
-  verre         5 chapitres    11.7 Ko  docs/epub/verre.epub
+  castellano   50 chapitres   224.7 Ko  docs/epub/castellano.epub
+  vesper       10 chapitres    24.7 Ko  docs/epub/vesper.epub
+  braises      52 chapitres   193.3 Ko  docs/epub/braises.epub
+  verre         5 chapitres    13.8 Ko  docs/epub/verre.epub
 ```
+
+**Couverture.** Chaque EPUB s'ouvre sur la couverture du livre, avec la même priorité que la
+liseuse : la couverture en image déclarée par `couvImage` dans le catalogue, sinon la
+vectorielle injectée dans `docs/index.html`. Elle est embarquée en SVG — le script n'a aucun
+moyen de produire un JPEG sans dépendance. Certaines liseuses anciennes n'affichent pas de
+vignette pour une couverture SVG ; la page de couverture, elle, reste dans le livre.
+
+**Libellés.** Comme dans la liseuse, « Chapitre » ne précède un numéro que s'il commence par un
+chiffre : « Chapitre 12 », « Chapitre 39 bis », mais « Prologue » et « Épilogue » seuls.
+
+**Fichiers reproductibles.** Rien dans l'archive ne dépend de l'heure de la génération : les
+entrées portent une date fixe, et `dcterms:modified` vaut la date `maj` du livre dans le
+catalogue. Relancer le script sans avoir changé le texte redonne les mêmes fichiers, à l'octet
+près ; l'action ne recommite donc un EPUB que si son livre a bougé. Une version différente de
+Python ou de zlib peut compresser autrement : un EPUB produit en local peut être réécrit une
+fois par l'action, puis ne plus bouger.
 
 *La Part de Lune* est ignoré tant qu'aucun chapitre n'est publié. Un livre ajouté au catalogue
 est pris en compte sans rien changer ici.
@@ -64,7 +80,7 @@ morceaux de texte, produit les EPUB, vérifie le tout et commite le résultat da
 GitHub Pages redéploie ensuite de lui-même. Active depuis le 20 septembre 2026.
 
 Elle vérifie le catalogue — chaque morceau cité existe et couvre bien les chapitres annoncés —
-et chaque archive EPUB produite — mimetype conforme, XML bien formé, archive intègre — avant
+et chaque archive EPUB produite — mimetype conforme, XML bien formé, couverture comprise, archive intègre — avant
 de publier. Elle peut aussi être lancée à la main depuis l'onglet **Actions**.
 
 Ce qu'elle change pour l'écriture : après avoir modifié un chapitre, il suffit de pousser sur
