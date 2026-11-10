@@ -15,7 +15,7 @@ suit vaut au 20 septembre 2026 ; le site est servi à l'adresse
 | Écrire, corriger, ajouter un chapitre | vous |
 | Pousser sur `main` | vous |
 | Régénérer le catalogue et les morceaux de texte | l'action GitHub `publication.yml` |
-| Produire les EPUB dans `docs/epub/` — accessibles à `…/bibliotheque/epub/<id>.epub`, sans lien depuis la liseuse | l'action |
+| Produire les EPUB dans `docs/epub/` — proposés sur la page de garde de chaque livre (« Télécharger en EPUB ») et accessibles à `…/bibliotheque/epub/<id>.epub` | l'action |
 | Vérifier que tout se tient avant de publier | l'action |
 | Mettre le site à jour | GitHub Pages, une minute après |
 | Faire apparaître la nouveauté chez un lecteur | son prochain chargement de la page |
@@ -195,6 +195,11 @@ chapitres par livre. Trois signes à regarder :
 - `!! en-tête de chapitre introuvable` : un fichier sera ignoré ;
 - `!! couvertures manquantes` : `index.html` ne sera pas touché ;
 - un livre qui ne s'arrête pas au bon nombre de chapitres : un fichier mal nommé.
+
+Pour un **nouveau livre**, lancer aussi `python3 scripts/generer_epub.py` : le catalogue
+annonce l'EPUB dès que le livre a un chapitre, et c'est ce second script qui produit le
+fichier. L'action enchaîne toujours les deux ; en local, le lien de la page de garde ne mène
+nulle part tant que le second n'a pas tourné.
 
 `git status` doit ensuite montrer les chapitres modifiés **et** les fichiers de `docs/`
 correspondants ; on peut commiter les deux ou seulement les chapitres, l'action produira

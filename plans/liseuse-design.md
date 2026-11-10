@@ -198,3 +198,24 @@ scène voyagent avec le texte. La divergence de format entre les fichiers publi�
 est levée : le script écrit lui-même le JSON lisible, un paragraphe par ligne.
 
 Contrat et points ouverts pour une version publique : `ARCHITECTURE.md`.
+
+
+---
+
+## Lien vers les EPUB — 10 novembre 2026
+
+Décision appliquée, à la demande de l'autrice : la page de garde de chaque livre propose
+« Télécharger en EPUB ».
+
+- **Place et forme** : sous le résumé, avant « Recommencer ce livre », dans le style du bouton
+  discret. C'est une sortie de l'application, pas une de ses actions : elle ne concurrence ni
+  « Commencer la lecture » ni « Sommaire ». Un livre sans chapitre n'affiche rien.
+- **Contrat** : clé facultative `epub` dans le catalogue (`ARCHITECTURE.md`, § 2). Le format
+  reste 3 : un moteur plus ancien ignore la clé.
+- **Service worker** : les EPUB passent par le réseau seul, jamais par le cache. Ils ne sont
+  donc pas disponibles hors ligne — écart assumé : un fichier servi depuis le cache après une
+  publication serait l'ancien texte, sans que rien le signale.
+
+Ce que ça engage : les EPUB sont désormais visibles des lecteurs. L'italique y est aplati comme
+dans la liseuse (`ARCHITECTURE.md`, § 6, point 6), et un livre « En cours » se télécharge
+inachevé — le fichier ne porte pas de mention d'état.

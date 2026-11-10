@@ -46,6 +46,7 @@ applicatif, aucune dépendance de construction.
       "couvImage": "couvertures/braises.svg",
       "maj": "2026-09-19",
       "revision": "v2-2026-09-20",
+      "epub": "epub/braises.epub",
       "chapitres": [ { "n": 1, "t": "Ce qu'on n'a pas vu", "pov": "Ysée", "mots": 812 }, … ],
       "morceaux":  [ { "url": "data-braises-p1.json?v=1a2b3c4d", "de": 0, "a": 5 }, … ],
       "personnages": [ { "nom": "…", "role": "…", "texte": "…" } ],
@@ -76,6 +77,10 @@ applicatif, aucune dépendance de construction.
   chapitres. La progression étant stockée par indice, elle deviendrait alors fausse sans que rien
   ne le signale ; le moteur remet ce livre à zéro, une fois, et le dit au lecteur. Un livre sans
   `revision` n'est jamais remis à zéro.
+- `epub` — facultatif : chemin du livre à télécharger, relatif au dossier servi. Présent, la
+  page de garde affiche « Télécharger en EPUB » ; absent, rien. Le générateur le déclare pour
+  tout livre qui a au moins un chapitre ; le fichier, lui, est produit par
+  `scripts/generer_epub.py`, que l'action lance juste après.
 - `parties` — facultatif : regroupe le sommaire en actes.
 
 ### `data-<id>-pN.json`
@@ -120,6 +125,8 @@ l'installation.
 - **Cache d'abord, définitif** pour les morceaux : leur adresse est versionnée par le contenu.
   Quand un catalogue frais arrive, les morceaux qu'il ne cite plus sont retirés du cache.
 - **Cache d'abord, rafraîchi en silence** pour les images.
+- **Réseau seul** pour les EPUB : jamais mis en cache, donc indisponibles hors ligne, et
+  toujours ceux de la dernière publication.
 - `VERSION` ne change que si le code devient incompatible avec ce que d'anciens caches
   pourraient servir. Une publication de texte ne la change pas.
 

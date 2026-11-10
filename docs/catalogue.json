@@ -20,6 +20,7 @@
    "couv": true,
    "couvImage": "couvertures/castellano.svg",
    "maj": "2026-09-21",
+   "epub": "epub/castellano.epub",
    "chapitres": [
     {
      "n": "Prologue",
@@ -470,6 +471,7 @@
    "resume": "Vesper, 2049. Chaque citoyen porte un score, et le score se propage : un cousin condamné, une facture impayée, et Ilya tombe à 412 en servant un café. Un homme à 940 lui propose de porter son risque pendant un an, chez lui, selon un contrat de trente-deux pages qui ne dit pas ce qu'il attend d'elle. Il ne la touche pas. Il la regarde. Et dans trois pièces fermées, dix cartons portent les noms de celles qui l'ont précédée. Avertissements : rapport de pouvoir déséquilibré, surveillance, obsession.",
    "couv": true,
    "maj": "2026-09-12",
+   "epub": "epub/vesper.epub",
    "chapitres": [
     {
      "n": 1,
@@ -596,6 +598,7 @@
    "couv": true,
    "couvImage": "couvertures/braises.svg",
    "maj": "2026-09-19",
+   "epub": "epub/braises.epub",
    "chapitres": [
     {
      "n": 1,
@@ -1006,6 +1009,7 @@
    "resume": "Directrice générale du groupe hôtelier Valadares, Nour Belkacem hérite de trente-quatre pour cent des parts — à condition d'être encore en poste le jour de la mort du patriarche. Le fils revenu d'exil veut sa révocation. Une lettre laissée sous scellés lui apprend pourquoi ce legs n'était pas un cadeau, mais une dette : en 1997, Henrique Valadares a ruiné son père. À Lisbonne, tout le monde a de bonnes raisons.",
    "couv": true,
    "maj": "2026-09-12",
+   "epub": "epub/verre.epub",
    "chapitres": [
     {
      "n": 1,

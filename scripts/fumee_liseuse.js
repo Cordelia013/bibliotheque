@@ -62,6 +62,10 @@ const PORT = 8800 + (process.pid % 150), BASE = `http://127.0.0.1:${PORT}/`;
   ok((await page.textContent('#gTitle')).includes('Le Contrat de Vesper'), 'page de garde : titre');
   ok(/10 chapitres · /.test(await page.textContent('#gLab')), 'page de garde : temps de lecture sans le texte — ' + (await page.textContent('#gLab')));
   ok(donnees().length === 0, 'page de garde : toujours aucun morceau téléchargé');
+  ok(await page.isVisible('#epubLien') && /epub\/vesper\.epub$/.test(await page.getAttribute('#epubLien', 'href')), 'page de garde : lien vers l\'EPUB déclaré par le catalogue');
+  await page.goto(BASE + '#/livre/lune'); await page.waitForFunction(() => /Lune/.test(document.querySelector('#gTitle').textContent));
+  ok(!(await page.isVisible('#epubLien')), 'livre sans chapitre : pas de lien vers un EPUB');
+  await page.goto(BASE + '#/livre/vesper'); await page.waitForFunction(() => /Vesper/.test(document.querySelector('#gTitle').textContent));
 
   // 3. lecture du premier chapitre
   await page.click('#readBtn');
@@ -108,6 +112,9 @@ const PORT = 8800 + (process.pid % 150), BASE = `http://127.0.0.1:${PORT}/`;
   const enCache = await page.evaluate(async () => (await (await caches.open('liseuse-v7')).keys()).map(r => new URL(r.url).pathname + new URL(r.url).search));
   ok(enCache.some(u => /catalogue\.json/.test(u)) && enCache.some(u => /couvertures\/braises\.svg/.test(u)) && !enCache.some(u => /data-verre/.test(u)),
      'précache : catalogue et couverture déclarée oui, livre jamais lu non (' + enCache.filter(u => /data-/.test(u)).length + ' morceaux en cache)');
+  const statutEpub = await page.evaluate(() => fetch('epub/vesper.epub').then(r => r.status));
+  const epubEnCache = await page.evaluate(async () => (await (await caches.open('liseuse-v7')).keys()).some(r => /\.epub/.test(r.url)));
+  ok(statutEpub === 200 && !epubEnCache, 'EPUB : servi par le réseau, jamais mis en cache');
   await page.goto(BASE + '#/lire/vesper/1');
   await page.waitForFunction(() => document.querySelectorAll('#chapBody p[data-i]').length > 3);
   await page.waitForTimeout(1500);

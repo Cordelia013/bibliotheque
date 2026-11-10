@@ -308,6 +308,9 @@ function mesurerBarre(){
      d'ouvrir le sommaire. */
   #app .ghost.discret { border: none; color: var(--muted); font-size: 12.5px;
     letter-spacing: .04em; padding: 12px; margin-top: 2px; }
+  /* Le lien de téléchargement prend la forme du bouton discret. */
+  #app a.ghost.discret { display: block; box-sizing: border-box; text-align: center;
+    text-decoration: none; }
 
   /* Tiroir : l'onglet actif était signalé par une nuance de gris. */
   #app .tab { padding: 10px 6px; font-size: 11.5px; letter-spacing: .03em; white-space: nowrap; }
@@ -856,7 +859,7 @@ function ouvrirLivre(id){
   v.classList.toggle('commence', deja);
   // Dans tous les états, l'action vient avant le résumé et les genres restent sous
   // le titre qu'ils qualifient.
-  const ordre = ['gCover','gTitle','gSous','gAuth','gMeta','gChips','gStat','readBtn','tocBtn','gRes','gResPlus','resetBtn'];
+  const ordre = ['gCover','gTitle','gSous','gAuth','gMeta','gChips','gStat','readBtn','tocBtn','gRes','gResPlus','epubLien','resetBtn'];
   ordre.forEach(id => { const x = $(id); if (x) w.appendChild(x); });
   $('gRes').textContent = livre.resume;
   $('gRes').classList.remove('ouvert');
@@ -885,6 +888,10 @@ function ouvrirLivre(id){
   $('readBtn').disabled = vide; $('readBtn').style.opacity = vide ? '.45' : '';
   $('tocBtn').style.display = vide ? 'none' : '';
   $('resetBtn').style.display = p===0 ? 'none' : '';
+  // Le livre à emporter : proposé seulement si le catalogue en déclare un.
+  const ep = $('epubLien');
+  if (ep) { ep.style.display = livre.epub ? '' : 'none';
+    if (livre.epub) ep.href = livre.epub; else ep.removeAttribute('href'); }
   aller('cover');
 }
 
@@ -1456,6 +1463,13 @@ function gererImmersif(){
   plus.onclick = () => { const o = $('gRes').classList.toggle('ouvert');
     plus.textContent = o ? 'Réduire le résumé' : 'Lire tout le résumé';
     plus.setAttribute('aria-expanded', o ? 'true' : 'false'); };
+
+  // Le même texte en EPUB, pour une liseuse à encre. Discret : c'est une sortie de
+  // l'application, pas une de ses actions.
+  const ep = document.createElement('a');
+  ep.id = 'epubLien'; ep.className = 'ghost discret'; ep.setAttribute('download','');
+  ep.textContent = 'Télécharger en EPUB';
+  plus.insertAdjacentElement('afterend', ep);
 
   // Bibliothèque : l'auteur est le même pour tous les livres ; la recherche porte
   // aussi sur les résumés, donc sur les noms des personnages.

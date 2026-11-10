@@ -299,6 +299,11 @@ def main():
         if couv_image:
             livre["couvImage"] = couv_image
         livre["maj"] = aujourdhui if bid in modifies else dates.get(bid)
+        # Le livre à télécharger : scripts/generer_epub.py en produit un pour tout
+        # livre qui a au moins un chapitre, sous ce nom. Les deux scripts vont
+        # ensemble — l'action les enchaîne.
+        if chapitres:
+            livre["epub"] = f"epub/{bid}.epub"
         livre["chapitres"] = [{"n": c["n"], "t": c["t"], "pov": c["pov"], "mots": mots(c)} for c in chapitres]
         livre["morceaux"] = liste_morceaux
         livre["personnages"] = personnages.get(bid, [])

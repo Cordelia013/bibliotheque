@@ -14,7 +14,9 @@
  *  - cache d'abord pour les morceaux de texte, dont l'adresse porte une version
  *    tirée du contenu (data-<id>-pN.json?v=…) : une adresse donnée ne change
  *    jamais de contenu, elle peut être gardée indéfiniment ;
- *  - cache d'abord, rafraîchi en silence, pour les images.
+ *  - cache d'abord, rafraîchi en silence, pour les images ;
+ *  - réseau seul pour les EPUB : un téléchargement n'a rien à faire dans le
+ *    cache, et servir l'ancien fichier après une publication serait une faute.
  *
  * Quand un catalogue frais arrive, les morceaux qu'il ne cite plus — anciennes
  * versions — sont retirés du cache.
@@ -90,6 +92,7 @@ self.addEventListener('fetch', e => {
 
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;   // polices : réseau direct
+  if (/\.epub$/.test(url.pathname)) return;          // livres à télécharger : réseau direct, jamais en cache
 
   if (req.mode === 'navigate' || RESEAU_DABORD.test(url.pathname)) {
     e.respondWith(
