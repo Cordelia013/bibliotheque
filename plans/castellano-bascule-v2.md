@@ -86,3 +86,6 @@ marques `*…*` depuis l'origine (point 6 d'`ARCHITECTURE.md`). Pour Castellano,
 entrées de carnet, les phrases ressassées, les brouillons de messages — des passages où
 l'italique porte du sens et non de l'emphase. C'est un chantier du moteur, pas de ce livre, et il
 concerne autant les Braises.
+
+> **Réglé le 10 novembre 2026.** L'italique et le gras sont rendus dans la liseuse et dans les
+> EPUB, pour tous les livres. Voir `plans/liseuse-design.md`, « Italique et gras rendus ».

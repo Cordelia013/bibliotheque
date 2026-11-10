@@ -2,7 +2,7 @@
    Ce fichier ne contient aucun contenu. Les livres viennent de catalogue.json ;
    leur texte, de morceaux data-<id>-pN.json chargés au moment de lire. Le
    contrat entre les deux est décrit dans ARCHITECTURE.md, à la racine du dépôt. */
-const FORMAT_CATALOGUE = 3;
+const FORMAT_CATALOGUE = 4;
 let BOOKS = [];
 let catalogueCharge = false;
 
@@ -713,6 +713,15 @@ function commence(b){ const e = S.livres[b.id];
 function statutLisible(s){
   return ({ 'Terminé':'Roman complet', 'En cours':"En cours d'écriture", 'À venir':'À paraître' })[s] || s;
 }
+/* Un paragraphe publié est du texte échappé où seules <em> et <strong> sont
+   permises (format 4 du catalogue). On s'en assure plutôt que de s'y fier :
+   tout autre « < » et toute esperluette isolée sont échappés avant l'insertion.
+   texteNu rend le même paragraphe sans balises ni entités, pour tout ce qui lit
+   le texte au lieu de l'afficher — extrait d'un marque-page, tests sur le contenu. */
+function fragment(t){ return String(t == null ? '' : t)
+  .replace(/&(?!(?:amp|lt|gt|quot|#\d+);)/g, '&amp;').replace(/<(?!\/?(?:em|strong)>)/g, '&lt;'); }
+function texteNu(t){ return String(t == null ? '' : t).replace(/<\/?(?:em|strong)>/g, '')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&'); }
 function esc(t){ return String(t == null ? '' : t).replace(/[&<>"']/g,
   c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[c]); }
 
@@ -1008,10 +1017,12 @@ function renderChap(restore){
   // paragraphes après lesquels elles tombent.
   const coupures = c.s || [];
   $('chapBody').innerHTML = c.p.map((t,i)=>{
-    const dlg = /^\s*[—–-]/.test(t) ? ' class="dlg"'
-      : (i === c.p.length - 1 && /^\s*fin\.?\s*$/i.test(t) ? ' class="finmanuscrit"' : '');
+    const nu = texteNu(t);
+    const finMs = i === c.p.length - 1 && /^\s*fin\.?\s*$/i.test(nu);
+    const dlg = /^\s*[—–-]/.test(nu) ? ' class="dlg"' : (finMs ? ' class="finmanuscrit"' : '');
     const fin = coupures.indexOf(i) > -1 ? '<div class="scene" aria-hidden="true"></div>' : '';
-    return `<p data-i="${i}"${dlg}>${t}</p>` + fin;
+    // Le « FIN » du manuscrit a sa propre mise en forme : il se pose sans gras ni italique.
+    return `<p data-i="${i}"${dlg}>${finMs ? esc(nu) : fragment(t)}</p>` + fin;
   }).join('');
   // Ouverture de chapitre. La lettrine flottante ne convenait pas à ce manuscrit :
   // elle emportait l'apostrophe (« J' » en corps 3) et, les chapitres s'ouvrant
@@ -1020,12 +1031,18 @@ function renderChap(restore){
   // simplement haussée dans la ligne et le paragraphe d'ouverture légèrement grossi.
   const prem = $('chapBody').querySelector('p');
   if (prem && !prem.classList.contains('dlg')) {
-    const t = prem.textContent.trim();
+    // L'initiale est prise dans le premier nœud de texte, où qu'il soit : réécrire
+    // le texte du paragraphe en effacerait l'italique.
+    const marche = document.createTreeWalker(prem, NodeFilter.SHOW_TEXT);
+    let noeud = marche.nextNode();
+    while (noeud && !noeud.nodeValue.trim()) noeud = marche.nextNode();
+    const t = noeud ? noeud.nodeValue.replace(/^\s+/, '') : '';
     if (/^[A-Za-zÀ-ÖØ-öø-ÿ]/.test(t)) {
       prem.classList.add('ouverture');
-      prem.textContent = t.slice(1);
-      prem.insertAdjacentHTML('afterbegin', '<span class="cap"></span>');
-      prem.firstChild.textContent = t.charAt(0);
+      const cap = document.createElement('span');
+      cap.className = 'cap'; cap.textContent = t.charAt(0);
+      noeud.nodeValue = t.slice(1);
+      noeud.parentNode.insertBefore(cap, noeud);
     }
   }
   $('barTitle').textContent = 'Ch. ' + c.n + ' · ' + c.t;
@@ -1067,7 +1084,7 @@ function majFinLabel(){
   // Au dernier chapitre, le bloc de fin parle seul : pas de pourcentage qui le contredise.
   l.style.display = livre.chapitres[etat(livre.id).chap + 1] ? '' : 'none';
 }
-function c0(b, i){ const p = b.chapitres[i].p; return String(p[p.length - 1] || ''); }
+function c0(b, i){ const p = b.chapitres[i].p; return texteNu(p[p.length - 1] || ''); }
 function construireFin(){
   const e = etat(livre.id), i = e.chap;
   const suiv = livre.chapitres[i+1], prec = livre.chapitres[i-1];
@@ -1124,7 +1141,7 @@ function toggleBm(){
   const e = etat(livre.id), para = paraCourant();
   const i = e.bookmarks.findIndex(b=>b.chap===e.chap && b.para===para);
   if (i>-1){ e.bookmarks.splice(i,1); updateBm(); buildBms(); save(); toast('Marque-page retiré'); return; }
-  const t = (livre.chapitres[e.chap].p[para]||'').replace(/<[^>]+>/g, '');
+  const t = texteNu(livre.chapitres[e.chap].p[para]);
   // L'extrait s'arrête sur une fin de mot, pas au milieu.
   let ex = t;
   if (t.length > 90) { ex = t.slice(0, 90); const k = ex.lastIndexOf(' '); ex = (k > 50 ? ex.slice(0, k) : ex).replace(/[\s,;:—–-]+$/, '') + '…'; }

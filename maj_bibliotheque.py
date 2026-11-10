@@ -24,7 +24,7 @@ Le script ne touche jamais au code de l'application (docs/app.js, docs/sw.js) :
 le moteur ne contient aucun contenu, et le contenu ne contient aucun code.
 Les fiches personnages se tiennent dans personnages.json, à la racine.
 """
-import datetime, glob, hashlib, json, os, re
+import datetime, glob, hashlib, html, json, os, re
 
 # La date de mise à jour d'un livre doit être la même qu'on publie depuis un
 # ordinateur à Paris ou depuis l'action GitHub, qui tourne en temps universel.
@@ -42,7 +42,11 @@ PERSONNAGES = "personnages.json"
 # Version du contrat entre ce script et la liseuse. À incrémenter si la forme
 # du catalogue ou des morceaux change de façon que l'ancienne liseuse ne
 # saurait pas lire.
-FORMAT = 3
+FORMAT = 4
+
+# Format 4 : les paragraphes ne sont plus du texte brut. Le texte est échappé
+# (&amp; &lt; &gt;) et l'italique et le gras du manuscrit y sont portés par
+# <em> et <strong> — les deux seules balises permises.
 
 # Un morceau pèse de l'ordre de 10 à 20 Ko compressés à six chapitres : c'est
 # ce que coûte l'ouverture d'un chapitre au lecteur. DECOUPAGE permet de
@@ -106,6 +110,9 @@ def charger(bid):
     « Épilogue ». La liseuse n'écrit « Chapitre » devant un numéro que s'il
     commence par un chiffre.
 
+    L'italique et le gras du manuscrit — « *…* », « **…** » — sont conservés
+    dans les paragraphes, sous forme de balises <em> et <strong> (voir baliser).
+
     Chaque chapitre rendu porte ses paragraphes (p) et les indices des
     paragraphes après lesquels tombe une coupure de scène (s) — les lignes
     « --- » du manuscrit. Les deux voyagent ensemble : une coupure indexe des
@@ -130,7 +137,7 @@ def charger(bid):
                 if paras and (not coupures or coupures[-1] != len(paras) - 1):
                     coupures.append(len(paras) - 1)
                 continue
-            paras.append(re.sub(r'\*{1,2}(.+?)\*{1,2}', r'\1', b).replace("\n", " "))
+            paras.append(baliser(b))
         # Une coupure après le dernier paragraphe ne sépare rien.
         coupures = [i for i in coupures if i < len(paras) - 1]
 
@@ -143,9 +150,27 @@ def charger(bid):
     return chaps
 
 
+def baliser(bloc):
+    """Un paragraphe du manuscrit, tel qu'il est publié.
+
+    On échappe d'abord, on marque ensuite : le texte ne peut donc porter
+    d'autres balises que celles posées ici. « **…** » devient <strong>,
+    « *…* » devient <em>. Les lignes d'un même bloc sont jointes d'une espace.
+    """
+    t = html.escape(bloc, quote=False)
+    t = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', t)
+    t = re.sub(r'\*(.+?)\*', r'<em>\1</em>', t)
+    return t.replace("\n", " ")
+
+
+def texte_nu(paragraphe):
+    """Le texte d'un paragraphe publié, sans balises ni entités."""
+    return html.unescape(re.sub(r'</?(?:em|strong)>', '', paragraphe))
+
+
 def mots(chapitre):
     """Même compte que la liseuse : les mots séparés par des blancs."""
-    return len(" ".join(chapitre["p"]).split())
+    return len(" ".join(texte_nu(p) for p in chapitre["p"]).split())
 
 
 def morceaux(bid, chapitres):
@@ -187,12 +212,18 @@ def publie_precedemment(bid, catalogue_precedent):
     return None
 
 
-def meme_texte(avant, apres):
-    """Même texte publié : mêmes chapitres, paragraphes et coupures."""
+def meme_texte(avant, apres, sans_balises=False):
+    """Même texte publié : mêmes chapitres, paragraphes et coupures.
+
+    sans_balises : on compare les mots seuls. Sert au passage d'un format à
+    l'autre — rendre l'italique d'un texte qui n'a pas changé n'en fait pas un
+    livre mis à jour, et ne doit pas le dater.
+    """
     if avant is None or len(avant) != len(apres):
         return False
-    cles = ("n", "t", "pov", "p", "s")
-    return all(all(a.get(k) == b.get(k) for k in cles) for a, b in zip(avant, apres))
+    nu = (lambda ps: [texte_nu(p) for p in ps or []]) if sans_balises else (lambda ps: ps)
+    return all(all(a.get(k) == b.get(k) for k in ("n", "t", "pov", "s"))
+               and nu(a.get("p")) == nu(b.get("p")) for a, b in zip(avant, apres))
 
 
 def ecrire_morceau(chemin, morceau):
@@ -248,13 +279,15 @@ def main():
     aujourdhui = datetime.datetime.now(FUSEAU).date().isoformat()
     precedent = lire_json(CATALOGUE_JSON)
     dates = dates_precedentes(precedent)
+    changement_de_format = (precedent or {}).get("format") != FORMAT
     personnages = lire_personnages()
     livres, templates, modifies, resume = [], [], set(), []
 
     for meta in CATALOGUE:
         bid = meta["id"]
         chapitres = charger(bid)
-        if chapitres and not meme_texte(publie_precedemment(bid, precedent), chapitres):
+        if chapitres and not meme_texte(publie_precedemment(bid, precedent), chapitres,
+                                        sans_balises=changement_de_format):
             modifies.add(bid)
         lots = morceaux(bid, chapitres)
 

@@ -43,7 +43,7 @@ CLAUDE.md                          mémoire du projet : où est quoi, et les rè
 
 *POV Prénom*
 
-Le texte, en paragraphes séparés par une ligne vide.
+Le texte, en paragraphes séparés par une ligne vide. De l'*italique*, du **gras**.
 ```
 
 Le numéro, le titre et le point de vue sont lus automatiquement par le script.

@@ -29,7 +29,7 @@ applicatif, aucune dépendance de construction.
 
 ```json
 {
-  "format": 3,
+  "format": 4,
   "genere": "2026-09-20",
   "livres": [
     {
@@ -90,12 +90,19 @@ Un tableau de chapitres, dans l'ordre de l'index :
 ```json
 [
   { "n": 1, "t": "Ce qu'on n'a pas vu", "pov": "Ysée",
-    "p": ["Paragraphe…", "Paragraphe…"],
+    "p": ["Paragraphe…", "Un mot <em>souligné</em>, Rocchi &amp; Sarti."],
     "s": [5, 16] }
 ]
 ```
 
-- `p` — les paragraphes, texte brut. Un paragraphe commençant par un tiret est une réplique.
+- `p` — les paragraphes : du texte **échappé** (`&amp;`, `&lt;`, `&gt;`) où deux balises seulement
+  sont permises, `<em>` et `<strong>`, pour l'italique et le gras du manuscrit (`*…*`, `**…**`).
+  C'est le format 4 ; jusqu'au format 3, `p` était du texte brut et l'italique était perdu. Le
+  générateur échappe d'abord et marque ensuite ; le moteur et le générateur d'EPUB ne s'y fient
+  pas pour autant et échappent, avant d'insérer, tout `<` qui n'ouvre pas l'une de ces deux
+  balises et toute esperluette isolée. Qui lit le texte au lieu de l'afficher — compte des mots,
+  extrait d'un marque-page — retire les balises et les entités. Un paragraphe commençant par un
+  tiret est une réplique.
 - `s` — les indices des paragraphes **après** lesquels tombe une coupure de scène. Ils voyagent
   avec les paragraphes qu'ils indexent : c'est ce qui garantit qu'ils ne viendront jamais d'une
   autre publication que le texte.
@@ -177,18 +184,15 @@ Par ordre d'importance.
    (bibliothèque, page de garde, lecture, coupures, hors ligne, poids téléchargé). Il demande
    Playwright, seule dépendance non standard du dépôt, et n'est pas branché sur une
    intégration continue.
-6. **Rendre l'italique.** Le générateur retire les marques `*…*` et `**…**` des paragraphes
-   depuis l'origine ; les manuscrits en font grand usage (près de deux cents passages dans
-   *La Saison des Braises*). Les conserver suppose de les transporter dans les morceaux —
-   sous une forme neutre, par exemple des balises `<em>` après échappement — et de les rendre
-   dans le moteur comme dans les EPUB, où `page_chapitre` échappe aujourd'hui tout le texte.
-7. **Échapper le texte.** Le moteur insère chaque paragraphe tel quel dans le HTML
-   (`renderChap`). Les manuscrits ne contiennent ni `<` ni entité — seulement quelques `&`
-   isolés, que les navigateurs tolèrent —, mais un jour un chapitre en contiendra. À traiter
-   avec le point précédent : échapper d'abord, marquer l'italique ensuite.
-8. **Décider du sort des fiches personnages.** Elles vivent dans `personnages.json` à la
+6. **Décider du sort des fiches personnages.** Elles vivent dans `personnages.json` à la
    racine, écrites à la main, recopiées dans le catalogue. Une version publique pourrait les
    tirer d'un fichier par livre à côté des chapitres.
+
+Faits depuis la première rédaction de cette liste : l'italique et le gras sont rendus, et le
+texte est échappé (format 4, 10 novembre 2026 — voir la section 2 et `plans/liseuse-design.md`).
+Reste, dans le même ordre d'idées, le **retour à la ligne à l'intérieur d'un paragraphe** : les
+lignes d'un même bloc du manuscrit sont jointes d'une espace, si bien qu'une plaque ou une
+adresse écrite sur deux lignes se lit sur une seule.
 
 ## 7. Ce qui ne change pas d'une publication à l'autre
 

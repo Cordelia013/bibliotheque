@@ -81,12 +81,10 @@ Les trois en-têtes sont obligatoires : le titre du livre, la ligne `## Chapitre
 la ligne `*POV Prénom*`. Un chapitre sans en-tête reconnaissable est ignoré, avec un
 avertissement dans le journal de l'action.
 
-**L'italique et le gras ne sont pas rendus.** Les marques `*…*` et `**…**` sont retirées à la
-publication ; le texte s'affiche en romain. C'est ainsi depuis l'origine de la liseuse, et
-les manuscrits en font pourtant grand usage — près de deux cents passages dans *La Saison des
-Braises* (les notes du blanc, les mots soulignés). Les conserver demande une évolution du
-moteur et des EPUB, notée dans `ARCHITECTURE.md`. Tant qu'elle n'est pas faite, ne pas
-compter sur l'italique pour porter un sens.
+**L'italique et le gras sont rendus**, dans la liseuse comme dans les EPUB : `*…*` donne de
+l'italique, `**…**` du gras. Ouvrir et fermer la marque dans le même paragraphe : une étoile
+sans sa jumelle reste une étoile à l'écran. Un retour à la ligne à l'intérieur d'un paragraphe
+n'est pas conservé — les lignes sont jointes d'une espace.
 
 Le nom du fichier fixe l'ordre de lecture ; le numéro dans l'en-tête, l'affichage.
 

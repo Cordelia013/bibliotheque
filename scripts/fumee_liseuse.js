@@ -15,8 +15,10 @@
  *     PLAYWRIGHT_CHROMIUM=/chemin/vers/chrome node scripts/fumee_liseuse.js docs
  *
  * Le test lit les textes publiés dans docs/ ; il suppose la présence de
- * « vesper », « braises » et « verre » dans le catalogue, et le chapitre 4 des
- * Braises à sept coupures de scène. À adapter si le catalogue change.
+ * « vesper », « braises », « verre » et « castellano » dans le catalogue, le
+ * chapitre 4 des Braises à sept coupures de scène, de l'italique en tête de son
+ * chapitre 26, du gras au chapitre 20, et dans Castellano une esperluette au
+ * chapitre 43 et un « FIN » en gras au dernier. À adapter si le catalogue change.
  */
 const { chromium } = require('playwright');
 const { spawn } = require('child_process');
@@ -102,6 +104,25 @@ const PORT = 8800 + (process.pid % 150), BASE = `http://127.0.0.1:${PORT}/`;
   await page.goto(BASE + '#/lire/braises/40');
   await page.waitForFunction(() => /39 bis/.test(document.querySelector('#chapNum').textContent), null, { timeout: 8000 });
   ok((await page.textContent('#chapTitle')) === 'Ce qu\'il reste à faire', 'chapitre 39 bis à l\'adresse 40');
+
+  // 5 bis. italique, gras et échappement
+  await page.goto(BASE + '#/lire/braises/26');
+  await page.waitForFunction(() => /Chapitre 26\b/.test(document.querySelector('#chapNum').textContent) && document.querySelectorAll('#chapBody p[data-i]').length > 3, null, { timeout: 8000 });
+  const ouv = await page.evaluate(() => { const p = document.querySelector('#chapBody p[data-i="0"]');
+    return { cap: !!p.querySelector('.cap'), em: p.querySelectorAll('em').length, texte: p.textContent, etoiles: /\*/.test(document.querySelector('#chapBody').textContent) }; });
+  ok(ouv.em > 0 && !ouv.etoiles, 'italique du manuscrit rendu, aucune étoile à l\'écran');
+  ok(ouv.cap && /^Vaugrin disait/.test(ouv.texte), 'paragraphe d\'ouverture : initiale haussée sans perdre l\'italique');
+  await page.goto(BASE + '#/lire/castellano/46');
+  await page.waitForFunction(() => /Chapitre 43\b/.test(document.querySelector('#chapNum').textContent) && document.querySelectorAll('#chapBody p[data-i]').length > 3, null, { timeout: 8000 });
+  const corps43 = await page.textContent('#chapBody');
+  ok(/ROCCHI & SARTI/.test(corps43) && !/&amp;/.test(corps43), 'esperluette échappée dans le morceau, lisible à l\'écran');
+  await page.goto(BASE + '#/lire/castellano/50');
+  await page.waitForFunction(() => !!document.querySelector('#chapBody p.finmanuscrit'), null, { timeout: 8000 });
+  ok(await page.evaluate(() => { const p = document.querySelector('#chapBody p.finmanuscrit'); return p.textContent.trim() === 'FIN' && !p.querySelector('strong'); }),
+     '« FIN » du manuscrit reconnu malgré son gras');
+  await page.goto(BASE + '#/lire/braises/20');
+  await page.waitForFunction(() => document.querySelectorAll('#chapBody strong').length > 0, null, { timeout: 8000 });
+  ok(true, 'gras du manuscrit rendu');
 
   // 6. service worker et hors ligne
   await page.goto(BASE);

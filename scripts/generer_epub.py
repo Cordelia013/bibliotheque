@@ -116,12 +116,23 @@ def page_couverture(titre):
 """.format(langue=LANGUE, titre=escape(titre))
 
 
+def fragment(p):
+    """Un paragraphe publié, sûr pour du XHTML.
+
+    Depuis le format 4 du catalogue, un paragraphe est du texte échappé où
+    seules <em> et <strong> sont permises. On s'en assure plutôt que de s'y
+    fier : tout autre « < » et toute esperluette isolée sont échappés ici.
+    """
+    p = re.sub(r"&(?!(?:amp|lt|gt|quot|#\d+);)", "&amp;", p)
+    return re.sub(r"<(?!/?(?:em|strong)>)", "&lt;", p)
+
+
 def page_chapitre(chapitre):
     # Les coupures de scène (s) : indices des paragraphes après lesquels elles tombent.
     coupures = set(chapitre.get("s", []))
     lignes = []
     for i, p in enumerate(chapitre["p"]):
-        lignes.append("    <p>%s</p>" % escape(p))
+        lignes.append("    <p>%s</p>" % fragment(p))
         if i in coupures:
             lignes.append('    <p class="scene">\u00b7 \u00b7 \u00b7</p>')
     paragraphes = "\n".join(lignes)

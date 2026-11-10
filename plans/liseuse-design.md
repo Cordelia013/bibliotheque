@@ -216,6 +216,35 @@ Décision appliquée, à la demande de l'autrice : la page de garde de chaque li
   donc pas disponibles hors ligne — écart assumé : un fichier servi depuis le cache après une
   publication serait l'ancien texte, sans que rien le signale.
 
-Ce que ça engage : les EPUB sont désormais visibles des lecteurs. L'italique y est aplati comme
-dans la liseuse (`ARCHITECTURE.md`, § 6, point 6), et un livre « En cours » se télécharge
-inachevé — le fichier ne porte pas de mention d'état.
+Ce que ça engage : les EPUB sont désormais visibles des lecteurs, et un livre « En cours » se
+télécharge inachevé — le fichier ne porte pas de mention d'état. (L'italique, encore aplati à
+cette date, est rendu depuis la décision suivante.)
+
+
+---
+
+## Italique et gras rendus — 10 novembre 2026
+
+Décision appliquée, à la demande de l'autrice : l'italique et le gras des manuscrits ne sont
+plus retirés à la publication. 416 passages étaient aplatis — 393 en italique, 23 en gras ;
+Castellano 191, les Braises 196, Vesper 18, Verre 11.
+
+- **Sources** : rien n'a été touché dans `chapitres/`. Les marques `*…*` et `**…**` y étaient
+  déjà, toutes appariées.
+- **Contrat** : format 4. Un paragraphe publié est du texte échappé où seules `<em>` et
+  `<strong>` sont permises (`ARCHITECTURE.md`, § 2). Le moteur et le générateur d'EPUB
+  échappent eux-mêmes tout le reste avant d'insérer.
+- **Dates** : aucun livre n'est redaté. Le texte n'a pas changé, sa mise en forme oui ; le
+  générateur compare les mots seuls lors d'un changement de format.
+- **Progression des lecteurs** : intacte. Les paragraphes gardent leur rang ; les marque-pages
+  pointent au même endroit.
+
+Écarts assumés, à ne pas « corriger » par inadvertance :
+
+- Le **« FIN »** qui clôt Castellano est en gras dans le manuscrit. La liseuse le reconnaît et
+  lui garde sa mise en forme propre, sans gras ; l'EPUB le rend en gras.
+- Le **gras** sert, dans les Braises (ch. 20 et 23), d'intertitre en tête de paragraphe — relevés
+  datés, consignes. Il est rendu tel quel, en gras dans le fil du texte, sans style d'intertitre.
+- Un **retour à la ligne à l'intérieur d'un paragraphe** n'est toujours pas conservé : la plaque
+  « ROCCHI & SARTI / Gestion portuaire et industrielle » (Castellano, ch. 43) se lit sur une
+  ligne. Point ouvert, noté dans `ARCHITECTURE.md`, § 6.
